@@ -1,0 +1,2839 @@
+;; -*- mode: emacs-lisp -*-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; NOTE - the rules in this file are BETA! While they have been fairly well
+;; tested, it's still possible they may give incorrect advice on conflicts and
+;; pre-requisites, and they may not sort your load order correctly. Read
+;; mlox_readme.txt for safe testing procedures.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Version 2012-10-21 13:26:54 (UTC)]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Morrowind mlox_base.txt
+;; This file needs to live in the directory where mlox.py runs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; This file is intended as a repository of community knowledge about
+;; how plugins should be ordered, what dependencies they have, where
+;; they conflict, and such
+;
+;; Generally speaking, you do not want to edit this file. Instead, use
+;; mlox_user.txt, which will override this file, if present.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Note for Editors (read this if you will be making changes in svn):
+;
+;; URLs:
+;; Please make sure URLs are surrounded with whitespace:
+;; Good:
+;; (Ref: http://www.uesp.net/wiki/Tes3Mod:Leveled_Lists )
+;; Bad:
+;; (Ref: http://www.uesp.net/wiki/Tes3Mod:Leveled_Lists)
+;; sometimes rules are quoted on web pages that automatically link
+;; URLs, and without whitespace it can make a broken link.
+;
+;; Sections:
+;; most rules are grouped into "sections", which begin with "@"
+;; followed by the section name, and each section corresponds more or
+;; less to one "Mod". This is only a convention to help keep order in
+;; the file, and to generate some happy statistics.
+;
+;; Highlighting:
+;; When a warning message on a rule begins with exclamation points,
+;; that comment will be highlighted in the GUI Messages pane.
+;; ! - one bang is highlighted blue for low priority
+;;     use low priority for stuff that should be "noticed", but probably
+;;     have low to nil impact on playing.
+;; !! - yellow, for medium priority
+;;     use medium priority for stuff that could possibly impact the
+;;     game but is probably not too serious.
+;; !!! - red, for most urgent priority
+;;     use urgent priority for stuff that could break the mod or game.
+;; the [Requires] rule will automatically highlight in red.
+;; the [Conflict] and [Patch] rules will automatically highlight in yellow.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Ordering Preferences
+;; Put all the NearStart/NearEnd rules here to keep track of them.
+;; The items are listed in priority order, the first has highest priority.
+;; So "Mashed Lists.esp" should always be the first in the NearEnd
+;; rule in order to ensure it loads very near the end of the load order.
+;
+;; Note: overuse of NearStart/NearEnd may render them meaningless.
+;; They are intended to be used only for very special circumstances.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[NearStart]
+F&F_*.esp
+Book Jackets - Morrowind.esp
+Book Jackets - Tribunal.esp
+Book Jackets - Tribunal.esp
+MWCMD_SkyDiversity.esm
+Imperial Presence.esp
+Better Clothes*.esp
+Silgrad*.esp
+True_Lights_And_Darkness*.esp
+ab01GOTYpatch.esp
+LAL.esp
+Mr Cellophane's Lovers and Legends*.esp
+MAO_Vanilla.esp
+MAO_Regions.esp
+MAO_Creatures.esp
+MAO_Containers.esp
+Key Namer*.espfoyada mamaea overhaul.esp
+PotionSorter*.esp
+Creatures (Semi).esp
+H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
+Unofficial Morrowind Official Plugins Patched.ESP
+Bloodmoon Rebalance.esp
+tribunal rebalance.ESP
+Morrowind Content Restoration - Merged.esp
+Antares Big Mod 7.63 .esp
+Patch for Purists - Book Typos.ESP
+Patch for Purists - Decimal Errors.ESP
+Half11 misc mods + anticheese.ESP
+Morrowind Anti-Cheese.ESP
+Ownership Overhaul.esp
+Ownership Overhaul.esm
+Texture Fix*.esp
+MWCMD_SkyDiversity.esm
+Imperial Presence.esp
+Better Clothes*.esp
+Silgrad*.esp
+True_Lights_And_Darkness*.esp
+MAO_Vanilla.esp
+MAO_Regions.esp
+MAO_Creatures.esp
+MAO_Containers.esp
+Key Namer*.esp
+PotionSorter*.esp
+
+[NearEnd]
+Morrowind Crafting 2*.esp
+Morrowind Crafting Equipment.esp
+Morrowind Crafting Houses.esp
+Book Rotate - Expanded.esp
+mwse_ItemRotate*.esp
+mwse_Containers*.esp
+InventoryHelpers*.esp
+horationpcenhanced*.esp
+npce_mwse_patch.esp
+Third Person Crosshair.esp
+Ownership Indicator*.esp
+Open Mournhold*.esp
+XE Sky Variations*.esp
+abotXEdof*.esp
+Decorator*.esp
+xe_placement*.esp
+Close Inspection*.esp
+mel_teleportPlugin*.esp
+MAO_Voice.esp
+MAO_PCSound.esp
+MAO_PCVoice.esp
+MAO_ScriptExtender*.esp
+MAO_PDragon.esp
+ab01PCvoice*.esp
+MEN_Combat.esp
+MEN_lockBash.esp
+lin_lockBashBeta.esp
+abotMoreTraps.esp
+abotAlt.esp
+abotHideCorpse.esp
+True_Lights_And_Darkness*.esp
+Caverns Overhaul.esp
+Dwemer blinking lights*.esp
+Go To Jail*.esp
+ab01gameplay*.esp
+abotCityLanterns.esp
+ab01UnderSkar.esp
+NPC_Commands*.esp
+MEN_Combat_merged.esp
+; Merged_Objects.esp
+NOM3*.esp
+NoM_Creatures Loot Standard.esp
+NoM_MC Compatibility Patch.esp
+NoM_CoM Compatibility Patch.esp
+NoM_BF Compatibility Patch.esp
+RoHT NoM Addon.esp
+Owned Beds NOM.esp
+TR NoM-style Bed Renting.esp
+TR Improved Inns Add-on for NoM.esp
+Remiros' Tombs Expansion*.esp
+Merged_Objects.esp
+Merged Objects.esp
+Merged_Leveled_Lists.esp
+multipatch.esp
+Mashed Lists.esp
+
+[Order]
+;Complete Trade Fix*.esp	; may conflict with NPC scripts
+;add-on-pack_morrowind.esp
+;Less Lore*.esp
+;vgreetings*.esp
+;LGNPC_NoLore.esp
+Djangos Dialogue.esp
+;Less_Generic_Bloodmoon.esp
+;Less_Generic_Nerevarine.esp
+;Less_Generic_Nerevarine+Bloodmoon.esp
+;Less_Generic_Tribunal*.esp
+;KS_Julan_Ashlander Companion*.esp
+;KS_Julan*Patch.esp
+LGNPC_SeydaNeen.esp
+LGNPC_GnaarMok*.esp
+LGNPC_AldVelothi*.esp
+LGNPC_MaarGan.esp
+LGNPC_HlaOad.esp
+LGNPC_Aldruhn_v*.esp
+LGNPC_Aldruhn_suppl.esp
+LGNPC_Pelagiad.esp
+LGNPC_TelMora*.esp
+LGNPC_Khuul*.esp
+LGNPC_VivecFQ.esp
+LGNPC_SecretMasters*.esp
+LGNPC_TelUvirith*.esp
+LGNPC_VivecRedoran.esp
+LGNPC_PaxRedoran*.esp
+LGNPC_IndarysManor*.esp
+LGNPC__merged.esp
+
+[Order]
+Stonewood Pass*.esp
+Trade Disputes*.esp
+Caverns Overhaul.esp
+TR_alpha.esp
+TR_Map3.esp
+TR_Map4.esp
+TR_Map5.esp
+TR_Map6.esp
+TR_Preview*.esp
+TR_Mainland*hotfix.esp
+abotWaterLifeTRaddon*.esp
+MCA - TR Addon*.esp
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+abotSiltStriders.esp
+abotSiltStridersTR*.esp
+abotBoats.esp
+abotBoatsTR*.esp
+abotRiverStridersTR*.esp
+abotTRWaterSound*.esp
+PB_SignpostsRetexturedTR.esp
+TR_signs*.esp
+Poe Lighthouse.esp
+
+[Order]
+Morrowind Crafting 2*.esp
+Morrowind Crafting Equipment.esp
+Morrowind Crafting Houses.esp
+Book Rotate - Expanded.esp
+mel_teleportPlugin*.esp
+abotMoreTraps.esp
+MEN_Combat.esp
+MEN_Combat_merged.esp
+MEN_lockBash.esp
+lin_lockBashBeta.esp
+WGIBalancing.esp
+ab01WGIBalancing.esp
+Class Abilities*.esp
+ab01gameplay*.esp
+abotCityLanterns.esp
+ab01UnderSkar.esp
+abotDice.esp
+NPC_Commands*.esp
+
+[Order]
+Weapon Sheaths Ultimate*.esp
+; Merged_Objects.esp
+NOM3*.esp
+NoM_Creatures Loot Standard.esp
+NoM_MC Compatibility Patch.esp
+NoM_CoM Compatibility Patch.esp
+NoM_BF Compatibility Patch.esp
+RoHT NoM Addon.esp
+Owned Beds NOM.esp
+TR NoM-style Bed Renting.esp
+TR Improved Inns Add-on for NoM.esp
+; MEN_Combat_merged.esp
+Merged_Objects.esp
+Merged Objects.esp
+Merged_Leveled_Lists.esp
+multipatch.esp
+Mashed Lists.esp
+
+[Order]
+Morrowind Patch*.esm
+Texture Fix 2.0.esm
+Texture Fix - Bloodmoon 1.1.esm
+Texture Fix - merged.esm
+Better*Bodies*.esm
+Better*Heads*.esm
+ab01Head&Hair*.esm
+Book Rotate.esm
+Skyrim_Data.esm
+PC_Data.esm
+GDR_MasterFile.esm
+TR_Data.esm
+
+[Order]
+TownSounds.esp
+MAO_Vanilla*.esp
+MAO_Regions.esp
+MAO_Creatures.esp
+MAO_Containers.esp
+MAO_Voice.esp
+MAO_PCSound.esp
+MAO_PCVoice.esp
+MAO_ScriptExtender*.esp
+MAO_PDragon.esp
+ab01PCvoice*.esp
+
+[Order]
+ab01GOTYpatch.esp
+Sotha Sil Expanded*.esp
+Uvirith Inside.esp
+LGNPC_TelUvirith*.esp
+LGNPC_VivecRedoran.esp
+LGNPC_PaxRedoran*.esp
+LGNPC__merged.esp
+indybank*.esp
+TC_SadrithMoraClosed.esp
+
+[Order]
+Raym's Vampire Rumors.esp
+ab01GOTYpatch.esp
+Roads&Races*.esp
+ab01gameplay.esp
+;JoinAll*.esp
+Oblivion Style Vampires.esp
+
+[Order]
+Windows Glow.esp
+Windows Glow - Tribunal Eng.esp
+Windows Glow - Bloodmoon Eng.esp
+Windows Glow - Raven Rock Eng.esp
+Windows Glow - merged.esp
+Windows Glow TB merged.esp
+Vivec Open Cantons.esp
+Vivec Open Cantons*.esp
+NPC LCV Schedules*VOC.esp
+NPC LCV Locks*VOC.esp
+
+[Order]
+Morrowind Crafting*.esp
+Book Rotate - Expanded.esp
+MW Containers Animated exp.esp
+AlchemyFilter*.esp
+mwse_PoisonCrafting*.esp
+; ab01gameplay*.esp
+abotDice.esp
+Bound Armor Bugfix*.esp
+BoundWeaponReplacer.esp
+Bound Armor+Weapon.esp
+
+[Order]
+Creature Pack*.esp
+Creatures.esp
+Creatures (Semi).esp
+ab01gameplay*.esp
+abotDice.esp
+Clear Your Name.esp
+hunters_achievements.esp
+BoundWeaponReplacer.esp
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+KS_Julan*Patch.esp
+Clean_KS_Julan_Ashlander - MC_patch.esp
+mel_teleportPlugin_1_3.esp
+mel_teleportPlugin_1_3?.esp
+UG2*.esp
+mel_teleportPlugin_1_3_Patches.esp
+mel_teleportPlugin_1_3_JulanAddon.esp
+
+[Order]
+Creatures.esp
+Creatures (Semi).esp
+Syc_HerbalismforPurists*.esp
+abotLootControl.esp
+Lich Father*.esp
+TheForgottenShields*.esp
+DwemerContraband.esp
+Galleo_AW_Shields_Back*.esp
+
+[Order]
+horationpcenhanced12-bm.esp
+npce_mwse_patch.esp
+Third Person Crosshair.esp
+Ownership Indicator*.esp
+XE Sky Variations*.esp
+abotXEdof*.esp
+
+[Order]
+Morrowind Crafting 2*.esp
+Morrowind Crafting Equipment.esp
+Morrowind Crafting Houses.esp
+Korobal*.esp
+Apothecary's Demise.esp
+Ascadian Rose Cottage*.esp
+NOM3*.esp
+
+[Order]
+Ndib_TreeHouse*.esp
+MD_Azurian*.esp
+Makunde.esp
+ab01scenicCompilation*.esp
+serenetower*.esp
+Sentinel+Serendipity*.esp
+Hilgya*.esp
+Animated_Morrowind - merged.esp
+
+[Order]
+ab01officialMerged*.esp
+ab01armorFixesMerged.esp
+propylons*.esp
+;Complete Trade Fix*.esp
+lfx_rare_merged.esp
+Graphic Herbalism*.esp
+Syc_HerbalismforPurists*.esp
+
+[Order]
+MAO_Base.esm
+MAO_Music.esm
+MAO_InteriorWeather.esm
+MAO_Weather.esm
+MAO_2d.esm
+MAO_3d.esm
+MAO.esm
+
+[Order]
+ab01ManaUserMerged*.esp
+LGNPC_SecretMasters*.esp
+LGNPC__merged.esp
+Morrowind Crafting*.esp
+Korobal*.esp
+Ascadian Rose Cottage*.esp
+
+[Order]
+Silgrad Tower*.esp
+Siege at Firemoth*.esp
+TheForgottenShields*.esp
+The Sable Dragon*.esp
+Mills of Morrowind*.esp
+
+[Order]
+abotGondoliers*.esp
+abotSiltStriders*.esp
+abotBoats*.esp
+abotRiverStridersTR*.esp
+mel_teleportPlugin*.esp
+
+[Order]
+Morrowind Crafting*.esp
+Book Rotate - Expanded.esp
+Weapon Rotate - Expanded.esp
+MW Containers Animated exp.esp
+MEN_Combat_merged.esp
+
+[Order]
+NOM3*.esp
+NoM_MC*.esp
+NoM_BF*.esp
+RoHT NoM Addon.esp
+ab01WorldFixes*.esp
+
+[Order]
+Better Clothes*.esp
+abotGuards*.esp
+Sentinel+Serendipity*.esp
+ab01HousesMerged*.esp
+NOM3*.esp
+
+[Order]
+Less Lore.esp
+LGNPC_NoLore.esp
+Djangos Dialogue.esp
+Less_Generic_Nerevarine.esp
+
+[Order]
+K_Potion_Upgrade_1.2.esp
+K_Scroll_Upgrade_MW_Trib_Bmoon.esp
+Key Replacer Trib & BM.esp
+KeyNamer.esp
+
+[Order]
+Morrowind Crafting*.esp
+Korobal*.esp
+Ascadian Rose Cottage*.esp
+NOM3*.esp
+
+[Order]
+TR_Preview*.esp
+abotBoatsTR*.esp
+TR_OldTravels*.esp
+abotRiverStridersTR*.esp
+
+[Order]
+ab01scenicCompilation*.esp
+serenetower*.esp
+Sentinel+Serendipity*.esp
+Hilgya*.esp
+
+[Order]
+Creature Pack*.esp
+Creatures.esp
+Creatures (Semi).esp
+ab01gameplay*.esp
+
+[Order]
+ab01GOTYpatch.esp
+indybank*.esp
+;JoinAll*.esp
+
+[Order]
+Creatures.esp
+Creatures (Semi).esp
+ab01CreaturesMerged.esp
+NON3.Belial*.esp
+
+[Order]
+Graphic Herbalism*.esp
+ab01Resources Enhanced Kollops&KwamaEggs.esp
+MW Containers Animated*.esp
+
+[Order]
+Key Namer*.esp
+PotionSorter*.esp
+PurchasableAlchemyLab*.esp
+
+[Order]
+ab01gameplay*.esp
+NPC_Commands*.esp
+Bound Armor*.esp
+
+[Order]
+Galleo_AW_Shields_Back*.esp
+; Merged_Objects.esp
+Helms Of Sight*.esp
+
+[Order]
+; Merged_Objects.esp
+Bound Armor*.esp
+Helms Of Sight*.esp
+
+[Order]
+Texture Fix 2.0.esm
+Texture Fix - Bloodmoon 1.1.esm
+Texture Fix - merged.esm
+
+[Order]
+ab01officialMerged*.esp
+ab01armorsFixedMerged.esp
+ab01ManaUserMerged*.esp
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+KS_Julan*Patch.esp
+mel_teleportPlugin*.esp
+
+[Order]
+MRM*.esm
+KS_Julan_Ashlander Companion*.esp
+KS_Julan_MRM_Patch*.esp
+
+[Order]
+Real Misc Items GFX.esp
+SpzInteriorDaylight.esp
+TownSounds.esp
+
+[Order]
+Mudcrab Island*.esp
+Great Shoals*.esp
+TheForgottenShields*.esp
+
+
+[Order]
+WGIBalancing.esp
+ab01WGIBalancing.esp
+ab01gameplay*.esp
+
+[Order]
+Windows Glow*.esp
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+NOM3*.esp
+NoM_Creatures Loot Standard.esp
+; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
+Building Up Uvirith*.esp
+
+[Order]
+MW Containers Animated.esp
+MW Containers Animated TR.esp
+MW Containers Animated exp.esp
+
+[Order]
+BT_Whitewolf*.esm
+BT_Whitewolf*.esp
+Solstheim_Castle*.esp
+
+[Order]
+Seekers Faction*.esp
+;JoinAll*.esp
+
+[Order]
+ab01ManaUserMerged*.esp
+LGNPC__merged.esp
+
+[Order]
+LGNPC__merged.esp
+CultSheog.esp
+
+[Order]
+TR_Preview*.esp
+TR_Mainland*hotfix*.esp
+TR_signs+fixes*.esp
+
+[Order]
+MW Containers Animated exp.esp
+floaty_boaties*.esp
+
+[Order]
+True_Lights_And_Darkness*.esp
+Dwemer blinking lights*.esp
+
+[Order]
+;Go To Jail*.esp
+; Merged_Dialogs.esp
+; above causing cycle
+
+[Order]
+ab01GOTYpatch.esp
+The Imperial Dwemer Society.esp
+
+[Order]
+The Imperial Dwemer Society.esp
+TheGoblinLab*.esp
+
+[Order]
+The Imperial Dwemer Society.esp
+Morrowind Advanced*.esp
+
+[Order]
+The Imperial Dwemer Society.esp
+Creatures.esp
+Creatures (Semi).esp
+
+[Order]
+chapelsv2.esp
+Imperial Graveyards of MW.esp
+
+[Order]
+;JoinAll*.esp
+Go To Jail*.esp ; why is this causing a cycle???
+
+[Order]
+chapelsv2.esp
+Go To Jail*.esp
+
+[Order]
+Imperial Graveyards of MW.esp
+Go To Jail*.esp
+
+[Order]
+EcoAdj*.esp
+Go To Jail*.esp
+
+[Order]
+indybank*.esp
+Go To Jail*.esp
+
+[Order]
+Go To Jail*.esp
+Better Expansion Implementations.ESP
+Expansion Delay.esp
+NOM3*.esp
+
+[Order]
+Merged_Dialogs.esp
+MW Containers Animated exp.esp
+
+[Order]
+;JoinAll*.esp
+Oblivion Style Vampires.esp
+
+[Order]
+ab01GOTYpatch.esp
+;JoinAll*.esp
+
+[Order]
+Caverns Overhaul.esp
+Mines & Caverns_Solstheim.esp
+
+[Order]
+Mines & Caverns_Solstheim.esp
+ab01scenicCompilation*.esp
+
+[Order]
+WindowsGlow*.esp
+abotWindowsGlow.esp
+
+[Order]
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+K_Scroll_Upgrade_STH+misc.esp
+Ministry_of_Clarity.esp
+
+[Order]
+Complete Trade Fix*.esp
+KS_Julan_Ashlander Companion*.esp
+
+[Order]
+ab01gameplay.esp
+Oblivion Style Vampires.esp
+
+[Order]
+Raym's Vampire Rumors.esp
+ab01GOTYpatch.esp
+
+[Order]
+ab01GOTYpatch.esp
+Roads&Races*.esp
+
+[Order]
+Roads&Races*.esp
+ab01gameplay.esp
+
+[Order]
+k_weather.esp
+ab01gameplay*.esp
+
+[Order]
+Magic Diversity*.esp
+ab01gameplay*.esp
+
+[Order]
+abotThunders&Lightnings.esp
+ab01gameplay*.esp
+
+[Order]
+Dwemer blinking lights*.esp
+abotCityLanterns.esp
+
+[Order]
+MW Containers Animated exp.esp
+abotMoreTraps.esp
+
+[Order]
+AIM_*.esp
+ab01armorsWeaponsMerged*.esp
+
+[Order]
+AIM_*.esp
+ab01GOTYpatch.esp
+
+[Order]
+AIM_*.esp
+Galleo_AW_Shields_Back*.esp
+
+[Order]
+AIM_*.esp
+TheForgottenShields - Artifacts_VN.esp
+
+[Order]
+AIM_*.esp
+Yorick's_Tower-1.1.esp
+
+[Order]
+AIM_*.esp
+OB_Style Quivers And Bows 4$.esp
+
+[Order]
+AIM_*.esp
+DwemerContraband.esp
+
+[Order]
+AIM_*.esp
+DN-GDR-MRMlite.esp
+
+[Order]
+DD_2_Expe*.esp
+DN-GDR*.esp
+
+[Order]
+DD_2_Expe*.esp
+DwemerContraband.esp
+
+[Order]
+DD_2_Expe*.esp
+Creatures.esp
+Creatures (Semi).esp
+
+[Order]
+DD_2_Expe*.esp
+ab01gameplay.esp
+
+[Order]
+ab01Gameplay.esp
+MWSE2.1_Pursuit_Revisited*.esp
+
+[Order]
+DD_2_Expe*.esp
+Weapon Sheaths Ult*.esp
+
+[Order]
+DD_2_Expe*.esp
+The Tribe Unmourned.esp
+
+[Order]
+Sentinel+Serendipity*.esp
+Animated_Morrowind*.esp
+
+[Order]
+MD_Azurian Isles*.esp
+Animated_Morrowind*.esp
+
+[Order]
+Creatures.esp
+Creatures (Semi).esp
+DN-GDR*.esp
+
+[Order]
+The Tribe Unmourned.esp
+DN-GDR*.esp
+
+[Order]
+Creatures.esp
+Creatures (Semi).esp
+The Tribe Unmourned.esp
+
+[Order]
+Creatures.esp
+Creatures (Semi).esp
+Solstheim_mage_tower*.esp
+
+[Order]
+gladiator.esp
+ab01GOTYpatch.esp
+
+[Order]
+ab01gameplay*.esp
+QuickChar*.esp
+
+[Order]
+ab01GOTYpatch.esp
+QuickChar*.esp
+
+[Order]
+abotAlt.esp
+abotHideCorpse.esp
+
+[Order]
+ab01GOTYpatch.esp
+floaty_boaties*.esp
+
+[Order]
+vgreetings*.esp
+ab01GOTYpatch.esp
+
+[Order]
+Tel_Meskoa_Tel _Matouigius*.esp
+floaty_boaties*.esp
+
+[Order]
+Juniper's Twin Lamps*.esp
+Morrowind Crafting*.esp
+
+[Order]
+ab01gameplay*.esp
+Weapon Sheaths Ultimate*.esp
+
+[Order]
+Creatures*.esp
+Creatures (Semi).esp
+Weapon Sheaths Ultimate*.esp
+
+[Order]
+Creatures*.esp
+Creatures (Semi).esp
+AC_Optimized_AA.esp
+abotGuards*.esp
+
+[Order]
+DwemerContraband.esp
+Weapon Sheaths Ultimate*.esp
+
+[Order]
+ab01gameplay*.esp
+floaty_boaties*.esp
+
+[Order]
+wl_SolstheimOverhaul*.esm
+BT_Whitewolf*.esm
+
+[Order]
+Silgrad*.esm
+TR_Data.esm
+
+[Order]
+lfx_rare_merged.esp
+Graphic Herbalism*.esp
+
+[Order]
+Animated_Morrowind - merged.esp
+Better Balmora river*.esp
+
+; would be good for path grid of BBR new docks area, but I added many other path grid fixes in NOM so...
+; [Order]
+; NOM3*.esp
+; Better Balmora river*.esp
+
+[Order]
+indybank*.esp
+TC_SadrithMoraClosed.esp
+
+[Order]
+TR_Preview*.esp
+TR_Travels*.esp
+
+[Order]
+TR_Travels*.esp
+abot*TR*.esp
+
+[Order]
+TR_Travels*.esp
+abotWaterLifeTR*.esp
+
+[Order]
+TR_Travels*.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Travels*.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Travels*.esp
+TC_SadrithMoraClosed.esp
+
+[Order]
+TR_Travels*.esp
+TheGoblinLab*.esp
+
+[Order]
+TR_Travels*.esp
+fkoa*.esp
+
+[Order]
+TR_Travels*.esp
+Stanegau Isle.esp
+
+[Order]
+TR_Travels*.esp
+LGNPC__merged.esp
+
+[Order]
+TheGoblinLab*.esp
+ab01gameplay*.esp
+
+[Order]
+Haldenshore*.esp
+ab01gameplay*.esp
+
+[Order]
+Silgrad Tower*.esp
+indybank*.esp
+
+[Order]
+Better Clothes*.esp
+abotGuards*.esp
+
+[Order]
+TR_*.esp
+abot*TR.esp
+
+[Order]
+TR_Preview*.esp
+MCA - TR Addon*.esp
+
+[ORDER]
+TR_Preview*.esp
+TR_signs*.esp
+
+[Order]
+Korobal*.esp
+Fields of Kummu*.esp
+
+[Order]
+TR_Preview*.esp
+QuickCharTR*.esp
+
+[Order]
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotTRWaterSound*.esp
+
+[Order]
+TR_Preview*.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotGuards*.esp
+
+[Order]
+TR_Mainland_1709_hotfix.esp
+abotBoatsTR*.esp
+
+[Order]
+TR_Mainland_1709_hotfix.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Preview*.esp
+TR_borders*.esp
+
+[Order]
+MCA - TR Addon*.esp
+abotGuards*.esp
+
+[Order]
+abotGuards*.esp
+ab01ManaUserMerged*.esp
+
+[Order]
+ShockCenturionCompanion*.esp
+WolfCompwhite*.esp
+
+[Order]
+abotWaterLife.esm
+TR_Mainland*.esm
+
+[Order]
+k_weather.esp
+ab01Resources Enhanced Kollops&KwamaEggs.esp
+
+[Order]
+ab01armorsWeaponsMerged*.esp
+Helms Of Sight*.esp
+
+[Order]
+Bound Armor*.esp
+Helms Of Sight*.esp
+
+[Order]
+ab01armorsWeaponsMerged*.esp
+DualWeapons*.esp
+
+[Order]
+mel_teleportPlugin_1_3*.esp
+mel_teleportPluginLeveledMarksPatch.esp
+
+[Order]
+Less Lore*.esp
+vgreetings*.esp
+
+[Order]
+Haldenshore*.esp
+Djangos Dialogue.esp
+
+[Order]
+ab01officialMerged.esp
+propylons*.esp
+
+[Order]
+Less Lore.esp
+Less_Generic_Tribunal*.esp
+
+[Order]
+Less Lore.esp
+LGNPC_NoLore.esp
+
+[Order]
+TarMar.esp
+serenetower*.esp
+
+[Order]
+mel_teleportPlugin_1_3_Patches.esp
+mel_teleportPlugin_1_3_JulanAddon.esp
+
+[Order]
+MAO_PCSound.esp
+ab01gameplay*.esp
+
+[Order]
+k_weather.esp
+ab01gameplay*.esp
+
+[Order]
+AshlanderTent*.esp
+abotPracticeDummies*.esp
+
+[Order]
+Seekers Faction*.esp
+Complete Trade Fix*.esp
+
+[Order]
+Seekers Faction*.esp
+Djangos Dialogue.esp
+
+[Order]
+Less generic Nerevarine*.esp
+The Rise of the Tribe Unmourned*.esp
+
+[Order]
+Seekers Faction*.esp
+Less_Generic_Nerevarine.esp
+
+[Order]
+Seekers Faction*.esp
+LGNPC_NoLore.esp
+
+[Order]
+Seekers Faction*.esp
+Lich Father*.esp
+
+[Order]
+Seekers Faction*.esp
+Silgrad Tower*.esp
+
+[Order]
+Seekers Faction*.esp
+The Sable Dragon*.esp
+
+[Order]
+Seekers Faction*.esp
+TR_Preview*.esp
+
+[Order]
+The Sable Dragon*.esp
+abotWindowsGlow*.esp
+
+[Order]
+Seekers Faction*.esp
+MW Containers Animated exp.esp
+
+[Order]
+Seekers Faction*.esp
+NOM3*.esp
+
+[Order]
+Creatures*.esp
+Creatures (Semi).esp
+Antares' Tribunal Main Quest.esp
+
+[Order]
+Less Lore.esp
+Antares' Tribunal Main Quest.esp
+
+[Order]
+LGNPC_Pelagiad.esp
+Illy's Oh my Goddess.esp
+
+[Order]
+LGNPC__merged.esp
+Illy's Oh my Goddess.esp
+
+[Order]
+LGNPC__merged.esp
+True_Lights_And_Darkness*.esp
+
+[Order]
+Helms Of Sight*.esp
+multipatch.esp
+
+[Order]
+Building Up Uvirith*.esp
+Antares Big Mod*.esp
+
+[Order]
+fkoa*.esp
+Antares Big Mod*.esp
+
+[Order]
+KogoruhnExpanded.esp
+Dangerous Roads of Morrowind*.esp
+
+[Order]
+The Tribe Unmourned.esp
+Mamaea Awakened.esp
+
+[Order]
+DN-GDR-MRMlite.esp
+Mamaea Awakened.esp
+
+[Order]
+Less Lore*.esp
+Antares Big Mod*.esp
+
+[Order]
+Less_Generic*.esp
+Antares Big Mod*.esp
+
+[Order]
+LGNPC_NoLore*.esp
+Antares Big Mod*.esp
+
+[Order]
+Morag Tong*.esp
+Antares Big Mod*.esp
+
+[Order]
+MQE_MainQuestEnhancers*.esp
+Antares Big Mod*.esp
+
+[Order]
+The Tribe Unmourned*.esp
+Antares Big Mod*.esp
+
+[Order]
+vgreetings*.esp
+Antares Big Mod*.esp
+
+[Order]
+What Thieves Guild*.esp
+Antares Big Mod*.esp
+
+[Order]
+Solstheim_Castle*.esp
+SCastle_LoKKen_Patch.esp
+
+[Order]
+SCastle_LoKKen_Patch.esp
+Ald-Vendras_V31-LoKKen-SC.esp
+
+[Order]
+Tusar*.esp
+Wabbajack*.esp
+
+[Order]
+Complete Trade Fix*.esp
+The Rise of the Tribe Unmourned*.esp
+
+[Order]
+The Rise of the Tribe Unmourned*.esp
+Syc_AtHomeAlchemy*.esp
+
+[Order]
+ST Practice Dummies*.esp
+Morrowind Crafting*.esp
+
+[Order]
+ST Practice Dummies*.esp
+ab01housesMerged*.esp
+
+[Order]
+ST Practice Dummies*.esp
+Sentinel+Serendipity*.esp
+
+[Order]
+ST Practice Dummies*.esp
+NOM3*.esp
+
+[Order]
+NOM3*.esp
+; else no new path grid for platforms
+OAAB_Tel Mora.esp
+
+[Order]
+ab01gameplay*.esp
+abotCityLanterns.esp
+
+[Order]
+ab01scenicCompilation*.esp
+Meteorite Ministry*.esp
+
+[Order]
+ab01gameplay*.esp
+; just to put this one down to avoid other mods overwriting changes to cell water
+Remiros' Tombs Expansion*.esp
+
+[Order]
+Great House Dagoth.esp
+Great House Dagoth ( Master Index Compatibility ).esp
+
+[Order]
+Outlaws.esp
+OutlawsTR.ESP
+Cannibals of Morrowind Updated.esp
+Lucky CoinsRAREST.ESP
+cantrips.ESP
+LootableSpellbooks.ESP
+
+[Order]
+Rain's Hand Hall.esp
+Restoring Rain's Hand Hall.esp
+
+[Order]
+Ttooth Ecology.esp
+Racers.esp
+
+[Order]
+Random Missions - In Service to Mephala - Starfire's NPC Additions.esp
+Vvardenfell Brotherhood.esp
+
+[Order]
+The Fires of Orcs.esp
+Vvardenfell Brotherhood.esp
+
+[Order]
+AndranoTombRemastered.esp
+The Undead.esp
+The Undead - TR.esp
+Undead arise from death 3.5.esp
+skeleton.ESP
+SHS - Bloodskal Barrow.ESP
+
+[Order]
+SkoomaAddictionV2.0.esp
+The Publicans.ESP
+Tales of Ald Velothi.esp
+
+[Order]
+The Publicans.ESP
+Tales of Ald Velothi.esp
+
+[Order]
+RP House Hlaalu.esp
+The G93 Vanilla Quest Tweaks, RP Choices, Consequences Super Mega Package - Ultimate Edition.ESP
+
+[Order]
+Starfires NPC Additions ver-1.13.esp
+Random Missions - In Service to Mephala - Starfire's NPC Additions.esp
+
+[Order]
+Starfires NPC Additions ver-1.13.esp
+Starfire NPC Addon - Westly's FCOT.ESP
+
+[Order]
+Take Notes.esp
+DemonOfKnowledge.ESP
+
+[Order]
+New Khajiit Diversity(BEAST)X.esp
+RAMF_Mer.esp
+Beastly Abilities.esp
+
+[Order]
+Robert's Bodies.ESP
+New Khajiit Bodies - Clean.esp
+
+[Order]
+MERGED loot gear.esp
+Adventurer's backback.ESP
+Ashfall_legacy.esp
+
+[Order]
+Better Robes.esp
+Better Robes TR.esp
+Unique Jewelry and Accessories.esp
+UFR_v3dot2.esp
+IceBradyHurdyRobeReplacerALL.esp
+IceNioLivRobeReplacerALL.esp
+
+[Order]
+Unique Jewelry and Accessories.esp
+UFR_v3dot2.esp
+Unique Jewelry Redone.ESP
+
+[Order]
+Passage of Prayers - Full.ESP
+Holidays Across Tamriel - Vvardenfell - RR Holamayan mod.esp
+
+[Order]
+NX9_StuddedArmor.esp
+Guild of Vampire Hunters.esp
+
+[Order]
+ExpansionIntegration_1.1.esp
+Hunter's Mark - A Marksman Mod.ESP
+
+[Order]
+Djangos Dialogue.ESP
+Kummu Monastery Revisited.esp
+constance1_0.esp
+
+[Order]
+New Argonian Bodies - Clean.esp
+Improved Argonians.esp
+
+[Order]
+SkoomaAddictionV2.0.esp
+HideSugarHideSkooma+Tweaks+MCPfiltering.ESP
+
+[Order]
+Clean_Mines & Caverns.esp
+Ministry_of_Clarity.ESP
+
+[Order]
+Clean_Mines & Caverns.esp
+Clean_KS_Julan_Ashlander - MC_patch.esp
+
+[Order]
+NX9_TongArmor.ESP
+RR_Danke's_Cephalopod_Armor_Eng.esp
+veg-TotW-books.esp
+Morag Tong Polished.esp
+
+[Order]
+Clean Lore-friendly armor mod.ESP
+Unofficial Morrowind Official Plugins Patched.ESP
+H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
+Better Morrowind Armor.esp
+
+[Order]
+Better Enchantments.esp
+Better Enchantments TR.esp
+Almighty Artifacts.esp
+
+[Order]
+H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
+Almighty Artifacts.esp
+
+[Order]
+Librarian with Jackets BM Trib.esp
+Advanced Conjuration.esp
+
+[Order]
+AndranoTombRemastered.esp
+DD_2_ExpeditionToMzelthuand.esp
+Illuminated Order v2.0 - Lore Friendly.ESP
+
+[Order]
+Haunted Barrows.ESP
+SHS - Bloodskal Barrow.ESP
+Haunted Barrows_SHS Patch.ESP
+
+[Order]
+RFD_Heartthrum.ESP
+Shattered Stones - An Earthquake Mod.esp
+
+[Order]
+Ttooth Ecology.esp
+Ttooth Ecology - TR Patch.esp
+
+[Order]
+Sixth House.esp
+Immersive_corprus.esp
+
+[Order]
+Clean Imperial Noble Titles.ESP
+Census and Excise Office Faction.ESP
+Morag Tong Polished.ESP
+MTP - CR Patch.ESP
+
+[Order]
+Imperial Legion Expansion 1.5.esp
+Religions Elaborated.ESP
+
+[Order]
+Sixth House.esp
+Ministry_of_Clarity.esp
+
+[Order]
+Creatures (Semi).esp
+Putting Power in Willpower - Absorbonach.esp
+
+[Order]
+MERGED npc.esp
+SwampFever.ESP
+Religions Elaborated.ESP
+TR_Travels.esp
+
+[Order]
+Main Quest Overhaul.esp
+Immersive_corprus.ESP
+
+[Order]
+MERGED npcs.esp
+MERGED loot gear.esp
+
+[Order]
+Hold it - replacerWS.ESP
+Hold it - replacer.ESP
+DreamersExpansion.ESP
+Hold it - Dreamers.ESP
+
+[Order]
+Hold it - replacerWS.ESP
+Hold it - replacer.ESP
+Starfires NPC Additions ver-1.13.esp
+Hold it - SF npc addon.esp
+
+[Order]
+Hold it - replacerWS.ESP
+Hold it - replacer.ESP
+Hold it - TR addon.ESP
+
+[Order]
+REEEE.ESP
+REEEE-HelluvaMerchantContainers.ESP
+Better Enchantments.esp
+
+[Order]
+Morrowind Rebirth - Birthsigns [Addon].ESP
+Birthsigns.esp
+
+[Order]
+Morrowind Rebirth - Races [Addon].esp
+Beastly Abilities.ESP
+
+[Order]
+Better Enchantments.esp
+Better Enchantments TR.esp
+Merged Objects.esp
+
+[ORDER]
+Uvirith's Legacy_3.53.esp
+BOM - Uvirith's Legacy.esp
+
+[ORDER]
+Antares Big Mod 7.63.ESP
+YAGD Antares Big Mod Compatibility Patch.ESP
+
+[ORDER]
+Patch for Purists.esm
+Ownership Overhaul.esm
+Texture Fix 2.0.esm
+Balmora_Seat of power.esm
+
+[ORDER]
+Patch for Purists.esm
+Ownership Overhaul.esm
+
+[ORDER]
+Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.ESP
+RP_NPCs.ESP
+
+[ORDER]
+RP_NPCs.ESP
+Properly clothed NPCs.esp
+
+[ORDER]
+WhiteSuran2_MD_Edition.esp
+WhiteSuran_WhiteTempleAddon.esp
+Concept art Hlaalu*.ESP
+Suran_the_pearl_white_style.esp
+Suran_the_pearl_vanilla_style.esp
+
+[ORDER]
+Silt Strider Animation Restored.esp
+Local Lore - Silt Striders and Caravaners - Silt Strider Animation Restored.esp
+
+[ORDER]
+RP_NPCs.ESP
+SilverArmourIntegration.ESP
+
+[ORDER]
+RP_NPCs.ESP
+SilverArmourIntegration.ESP
+
+[ORDER]
+Trackless Grazeland.ESP
+Beautiful cities of Morrowind.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Mamaea Awakened.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Live Free.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+AreaEffectArrows.esp
+
+[ORDER]
+BOM_abot_boats.esp
+TOTSP_abotBoats.esp
+
+[ORDER]
+Unofficial Morrowind Official Plugins Patched.ESP
+Beautiful cities of Morrowind.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Animated_Morrowind - merged.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Suran_Underworld_v3.esp
+BOM_Vanilla_Suran.esp
+
+[ORDER]
+Fighters_Guild_Questline_Overhaul.ESP
+Beautiful cities of Morrowind.ESP
+
+[ORDER]
+Fighters_Guild_Questline_Overhaul.ESP
+Tel_Aruhn_Chronicles.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Morvayn Manor in Maar Gan.esp
+
+[ORDER]
+KS_Julan_Ashlander Companion*.esp
+Beautiful cities of Morrowind.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Even Seedier Eight Plates.ESP
+
+[ORDER]
+Even Seedier Eight Plates.ESP
+ESEP_Improved_Inns_Expanded.esp
+
+[ORDER]
+Even Seedier Eight Plates.ESP
+Improved Inns Expanded*.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
+TR_Travels Patch.esp
+TR_Travels_(P_M) Patch.esp
+
+[ORDER]
+Foyada Mamaea Overhaul.ESP
+DD_Caldera_Expansion v15 + Stonewood Pass Patch.ESP
+Beautiful cities of Morrowind.ESP
+
+
+[ORDER]
+Uvirith's Legacy_3.53.esp
+Beautiful cities of Morrowind.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+ROHT_2_0_8.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+LuceEdit - Guild of Vampire Hunters.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+RR_Better_Ships_n_Boats_Eng.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Yet Another Guard*.esp
+
+[ORDER]
+ArmoredRobes*.ESP
+Indoril Spear*.ESP
+
+[ORDER]
+Yet Another Guard*.esp
+Indoril Spear*.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+SOP_Canal_02.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Suran_Underworld_v3.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+RedMountainReborn.esp
+
+[ORDER]
+RedMountainReborn.esp
+RMR_patch.esp
+
+[ORDER]
+DD_Caldera_Expansion v15 + Stonewood Pass + Foyada Mamaea Overhaul Patch.ESP
+Carelessly_Crazy_Caldera_Community_StoneWoodPass.ESP
+
+[ORDER]
+DD_Caldera_Expansion v15 + Stonewood Pass + Foyada Mamaea Overhaul Patch_RMR version.ESP
+Carelessly_Crazy_Caldera_Community_StoneWoodPass.ESP
+
+[ORDER]
+RedMountainReborn.esp
+RR_Ghost_Gate_Fortress_Eng.ESP
+;Foyada Mamaea Overhaul.ESP
+Moonmoth Legion Fort Overhaul.ESP
+AldRuhn_seat_of_power_RR_Skar_RMR.ESP
+AldRuhn_seat_of_power.ESP
+AldRuhn_seat_of_power_RMR.ESP
+AldRuhn_seat_of_power_RR_Skar.ESP
+AldRuhn_seat_of_power_no_underskar.ESP
+
+[ORDER]
+Animated_Morrowind - merged.esp
+RP_NPCs.esp
+
+[ORDER]
+Animated_Morrowind - merged.esp
+People of Pelagiad.esp
+
+[ORDER]
+RP_Overhaul.esp
+RP_NPCs.esp
+
+[ORDER]
+RP_NPCs.esp
+Quorn Resource Integration+NX9 Studded armor.ESP
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD+Q+SK+MTP.ESP
+
+[ORDER]
+RP_NPCs.esp
+Quorn Resource Integration.ESP
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD+Q+SK+MTP.ESP
+MDMD - Fixes Add-On.ESP
+
+[ORDER]
+Concept art Gnisis - Lightweight.ESP
+Mamaea Awakened.ESP
+
+[ORDER]
+abotGondoliers.esp
+abotGondoliers_RVP.esp
+
+[ORDER]
+abotBoats.esp
+abotBoatsTR2002.esp
+abotBoats_RVP.esp
+abotBoatsTR2002_RVP.esp
+TOTSP_abotBoats.esp
+
+[ORDER]
+abotBoats*.esp
+BOM_abot_boats.esp
+
+[ORDER]
+abotSiltStriders*.esp
+AbotSiltStriders_BOM patch.esp
+
+[ORDER]
+Unofficial Morrowind Official Plugins Patched.ESP
+Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.ESP
+Improved Inns Expanded - TR Addon.ESP
+BM_S_Inn.ESP
+
+[ORDER]
+Caldera Mages Guild Expanded.esp
+Stav_MaGAO.esp
+Stav_MaGAO_OpenVivec.ESP
+
+[ORDER]
+Sheogorad - The Groves of the North.esp
+Illuminated Order v2.0 - Lore Friendly_RMR.ESP
+Illuminated Order v2.0 - Lore Friendly.ESP
+SGOTN and Illuminated Order patch.ESP
+
+[ORDER]
+Samarys + Andalor + Andas .esp
+SwapAddamasartusSamarys_0_99_1.ESP
+
+[ORDER]
+Caldera Mages Guild Expanded.esp
+Stav_MaGAO_OpenVivec.ESP
+
+[ORDER]
+Mournhold Overhaul by RP.ESP
+RP_Overhaul.ESP
+
+[ORDER]
+Uvirith's Legacy_3.53.esp
+The Raven 1.5.4.esp
+
+[ORDER]
+Unofficial Morrowind Official Plugins Patched.ESP
+The Raven 1.5.4.esp
+
+[ORDER]
+Half11 misc mods + anticheese.ESPHalf11 misc mods + anticheese.ESP
+The Raven 1.5.4.esp
+
+[ORDER]
+LGNPC_SeydaNeen (Necro Edit).esp
+Improved Inns Expanded - LGNPC Seyda Neen.esp
+
+[ORDER]
+LGNPC_SeydaNeen.esp
+Improved Inns Expanded - LGNPC Seyda Neen.esp
+
+[ORDER]
+Half11 misc mods + anticheese.ESP
+Religions Elaborated.esp
+
+[ORDER]
+Half11 misc mods + anticheese.ESP
+Full Game Balance - BTB and Wackim combined.ESP
+Full Game Balance - BTB and Wackim combined - 2 - Enchanting module.esp
+Full Game Balance - BTB and Wackim combined - 3 - Alchemy and Spells.esp
+Full Game Balance - BTB and Wackim combined - 4 - Equipment.esp
+
+[ORDER]
+Adventurer's backback.ESP
+Ashfall.esp
+
+[ORDER]
+Hold it - replacerWS.ESP
+AAA 4.0 Addon - Vanilla.ESP
+Morag Tong Polished+NX9.ESP
+Combined clothing plugins and desele.ESP
+Face Originality and Duner Nobles Overhaul.ESP
+
+[ORDER]
+Face Originality and Duner Nobles Overhaul.ESP
+Animated_Morrowind - merged.esp
+
+[ORDER]
+Hold it - replacerWS.ESP
+DD_Caldera_Expansion + Stonewood Pass Patch.ESP
+
+[ORDER]
+Vurt's BC Tree Replacer II for Zobator Bitte coast.ESP
+RR - Bitter Coast.esp
+
+[ORDER]
+Half11 misc mods + anticheese.ESP
+Tel Vos Overhaul XTREME.esp
+
+[ORDER]
+Epic_Aldruhn + SadrithMora + Indye + NX9 House + Red Vos.esp
+Half11 misc mods + anticheese.ESP
+
+[ORDER]
+Better Clothes_v1.1.esp
+Articus Solstheim Clothes.esp
+
+[ORDER]
+Hold it - replacerWS.ESP
+Hold it - Dreamers.ESP
+Hold it - COM addon.ESP
+Hold it - SF npc addon.ESP
+
+[ORDER]
+ST_Alchemy_Base_1.5 + Pearls Enhanced.esp
+ST_Alchemy_Replacer_1.3.esp
+ST_Alch_Economy.esp
+
+[ORDER]
+Undead arise from death 3.5.esp
+Half11 misc mods + anticheese.ESP
+
+[ORDER]
+danke_armors.esp
+RR_Danke's_Cephalopod_Armor_Eng.esp
+
+[ORDER]
+Unofficial Morrowind Official Plugins Patched.ESP
+Necrolesian's Official Plugins Integrated.ESP
+Area Effect Arrows Integrated + UMOPP Patch.esp
+
+[ORDER]
+Caldera Mages Guild Expanded.esp
+Stav_MaGAO.esp
+
+[ORDER]
+Better Clothes_v1.1.esp
+Better Robes_v0.3.1 Patch.esp
+UFR_v3dot2_Patch.esp
+Unique weapons and armors replacer.esp
+
+[ORDER]
+Better Morrowind Armor.esp
+Better Morrowind Armor DeFemm(o).ESP
+Complete Armor Joints.esp
+Videls Heels Redux.ESP
+DaedricArmor.ESP
+DaedricArmorGod.ESP
+Snow Prince Armor Redux.ESP
+BearArmorReplacer.ESP
+Bonemold_Armor.ESP
+BB Dark Brotherhood by Westly.esp
+New Boots of Blinding Speed.ESP
+Plangke's Female Cuirass Replacer.esp
+
+
+
+; Get the Rise of House Telvanni files in order.
+[ORDER]
+ROHT_2_0_8.ESP
+Dagon fell additions- ROHT.ESP
+ROHT - SMSOP_patch.esp
+UL_3.5_RoHT_1.52_Add-on.esp
+
+; Recognize the 20.02 updated Uvirith's Legacy/Tamriel Rebuilt patch.
+[ORDER]
+Uvirith's Legacy_3.53.esp
+UL_3.5_TR_20.02_Add-on.esp
+
+; TR_Factions generally has higher requirements than this plugin, but doesn't cover all of them.
+[ORDER]
+higher faction requirements - Full.ESP
+TR_Factions.esp
+
+; Prefer Urnest Loot over FMI_GraveDust. Urnest Loot provides a chance for gravedust.
+[ORDER]
+FMI_GraveDust.ESP
+Urnest Loot.esp
+
+; Make sure people aren't using two versions of Dagon Fell Additions
+[Conflict]
+ Choose only one plugin:
+  Dagon fell additions.esp - Without Rise of House Telvanni
+  Dagon fell additions- ROHT.esp - With Rise of House Telvanni
+ (Ref: "https://www.nexusmods.com/morrowind/mods/48683?")
+Dagon fell additions.esp
+Dagon fell additions- ROHT.esp
+
+; Arrange creature balancing.
+[ORDER]
+Beware the Sixth House.ESP
+Sixth House Rebalance.ESP
+tribunal rebalance.ESP
+tribunal npc rebalance.ESP
+tribunal more goblins.ESP
+tribunal goblin rebalance.ESP
+dark brotherhood armor nerf.ESP
+Bloodmoon Rebalance.esp
+Bloodmoon Boss Rebalance.ESP
+Bloodmoon Creature Rebalance.ESP
+Bloodmoon NPC Rebalance.ESP
+Bloodmoon Undead Rebalance.ESP
+Bloodmoon Werewolf Rebalance.ESP
+Creatures_RP_Standard.ESP
+Creatures_RP_Purist.ESP
+Ash Vampire Script Fix.esp
+Keening belongs to odros.ESP
+Sunder and keening hurt on pickup.ESP
+DN-GDR*.esp
+Bob's Diverse Dagoths*.esp
+
+; Make sure people are only using one version of "Vanilla friendly creatures and undeads expansion"
+[Conflict]
+ Choose only one plugin:
+  Creatures_RP_Standard.ESP
+  Creatures_RP_Purist.ESP
+ (Ref: "https://www.nexusmods.com/morrowind/mods/48818/?")
+Creatures_RP_Standard.ESP
+Creatures_RP_Purist.ESP
+
+[Nearend]
+Merged Objects.esp
+Interior exterior flag reset.esp
+BOM_pathgrid_reset.esp
+BOM_OpenMW_plazas.esp
+
+[Order]
+Mixed Cantons of Vivec.esp
+Glass Domes of Vivec.esp
+No-Frills Open Vivec*.esp
+LuceEdit - Guild of Vampire Hunters.esp
+Stav_MaGAO*.esp
+Welcome to the Arena*.esp
+Merged Objects.esp
+multipatch.esp
+Interior exterior flag reset.esp
+BOM_pathgrid_reset.esp
+BOM_OpenMW_plazas.esp
+
+[Order]
+Improved Inns Expanded.esp
+Improved Inns Expanded - Entertainers.esp
+Improved Inns Expanded - LGNPC Seyda Neen*.esp
+Improved Inns Expanded_Gnisis Patch.esp
+Improved Inns Expanded + EE_Gnisis Patch.esp
+
+
+[Order]
+Glass Domes of Vivec.esp
+No-Frills Open Vivec*.esp
+multipatch.esp
+
+[Nearend]
+Mixed Cantons of Vivec.esp
+Glass Domes of Vivec.esp
+No-Frills Open Vivec*.esp
+
+; multipatch will fix some data that needs to be merged.
+;[ORDER]
+;multipatch.esp
+;Merged Objects.esp
+
+[Order]
+Real Misc Items GFX.esp
+SpzInteriorDaylight.esp
+TownSounds.esp
+
+[Order]
+Mudcrab Island*.esp
+Great Shoals*.esp
+TheForgottenShields*.esp
+AIM_+Forgotten*.esp
+
+[Order]
+NOM3*.esp
+NoM_Creatures Loot Standard.esp
+; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
+Building Up Uvirith*.esp
+
+[Order]
+MW Containers Animated.esp
+MW Containers Animated TR.esp
+MW Containers Animated exp.esp
+
+[Order]
+BT_Whitewolf*.esm
+BT_Whitewolf*.esp
+Solstheim_Castle*.esp
+
+[Order]
+Complete Trade Fix.esp
+LGNPC*.esp
+
+[Order]
+Complete Trade Fix.esp
+Tales of Ald Velothi*.esp
+
+[Order]
+Tales of Ald Velothi*.esp
+NOM3*.esp
+
+[Order]
+Beautiful cities of Morrowind.ESP
+Welcome Home - BOM.esp
+
+[Order]
+Seekers Faction*.esp
+;JoinAll*.esp
+
+[Order]
+LGNPC__merged.esp
+CultSheog.esp
+
+[Order]
+MW Containers Animated exp.esp
+floaty_boaties*.esp
+
+[Order]
+True_Lights_And_Darkness*.esp
+Dwemer blinking lights*.esp
+
+[Order]
+The Imperial Dwemer Society.esp
+TheGoblinLab*.esp
+
+[Order]
+The Imperial Dwemer Society.esp
+Morrowind Advanced*.esp
+
+[Order]
+chapelsv2.esp
+Imperial Graveyards of MW.esp
+
+[Order]
+chapelsv2.esp
+Go To Jail*.esp
+
+[Order]
+Imperial Graveyards of MW.esp
+Go To Jail*.esp
+
+[Order]
+RedMountainReborn.esp
+Clean_Mines & Caverns.esp
+
+[Order]
+EcoAdj*.esp
+Go To Jail*.esp
+
+[Order]
+indybank*.esp
+Go To Jail*.esp
+
+[Order]
+Go To Jail*.esp
+NOM3*.esp
+
+[Order]
+Oblivion Style Vampires.esp
+;JoinAll*.esp
+
+[Order]
+Mines & Caverns_Solstheim.esp
+ab01scenicCompilation*.esp
+
+[Order]
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+K_Scroll_Upgrade_STH+misc.esp
+Ministry_of_Clarity.esp
+
+[Order]
+Complete Trade Fix*.esp
+KS_Julan_Ashlander Companion*.esp
+
+[Order]
+Dwemer blinking lights*.esp
+abotCityLanterns.esp
+
+[Order]
+MW Containers Animated exp.esp
+abotMoreTraps.esp
+
+[Order]
+AIM_*.esp
+DwemerContraband.esp
+
+[Order]
+AIM_*.esp
+DN-GDR-MRMlite.esp
+
+[Order]
+DD_2_Expe*.esp
+DN-GDR*.esp
+
+[Order]
+DD_2_Expe*.esp
+DwemerContraband.esp
+
+[Order]
+DD_2_Expe*.esp
+ab01gameplay.esp
+
+[Order]
+DD_2_Expe*.esp
+The Tribe Unmourned*.esp
+
+[Order]
+Sentinel+Serendipity*.esp
+Animated_Morrowind*.esp
+
+[Order]
+MD_Azurian Isles*.esp
+Animated_Morrowind*.esp
+
+[Order]
+The Tribe Unmourned*.esp
+DN-GDR*.esp
+
+[Order]
+ab01GOTYpatch.esp
+QuickChar*.esp
+
+[Order]
+abotAlt.esp
+abotHideCorpse.esp
+
+[Order]
+Tel_Meskoa_Tel _Matouigius*.esp
+floaty_boaties*.esp
+
+[Order]
+Juniper's Twin Lamps*.esp
+Morrowind Crafting*.esp
+
+[Order]
+Solstheim Tomb of The Snow Prince.esm
+BT_Whitewolf*.esm
+
+[Order]
+Silgrad*.esm
+TR_Data.esm
+
+[Order]
+Vanheim*.esp
+*Miridian*.esp
+
+[Order]
+*Miridian*.esp
+*toes*.esp
+
+[Order]
+TR_Preview*.esp
+TR_Travels*.esp
+
+[Order]
+TR_Travels*.esp
+abot*TR*.esp
+
+[Order]
+TR_Travels*.esp
+abotWaterLifeTR*.esp
+
+[Order]
+TR_Travels*.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Travels*.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Travels*.esp
+TheGoblinLab*.esp
+
+[Order]
+TR_Travels*.esp
+fkoa*.esp
+
+[Order]
+TR_Travels*.esp
+Stanegau Isle.esp
+
+[Order]
+TR_Travels*.esp
+LGNPC__merged.esp
+
+[Order]
+Silgrad Tower*.esp
+indybank*.esp
+
+[Order]
+Better Clothes*.esp
+abotGuards*.esp
+
+[Order]
+Creatures.esp
+abotGuards*.esp
+
+[Order]
+TR_*.esp
+abot*TR.esp
+
+[Order]
+TR_Preview*.esp
+MCA - TR Addon*.esp
+
+[ORDER]
+TR_Preview*.esp
+TR_signs*.esp
+
+[Order]
+TR_Preview*.esp
+QuickCharTR*.esp
+
+[Order]
+abotWindowsGlow.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotWindowsGlowTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotTRWaterSound*.esp
+
+[Order]
+TR_Preview*.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Preview*.esp
+abotGuards*.esp
+
+[Order]
+TR_Mainland_1709_hotfix.esp
+abotBoatsTR*.esp
+
+[Order]
+TR_Mainland_1709_hotfix.esp
+abotSiltStridersTR*.esp
+
+[Order]
+TR_Preview*.esp
+TR_borders*.esp
+
+[Order]
+MCA - TR Addon*.esp
+abotGuards*.esp
+
+[Order]
+ShockCenturionCompanion*.esp
+WolfCompwhite*.esp
+
+[Order]
+abotWaterLife.esm
+TR_Mainland*.esm
+
+[Order]
+mel_teleportPlugin_1_3*.esp
+mel_teleportPluginLeveledMarksPatch.esp
+
+[Order]
+Less Lore*.esp
+vgreetings*.esp
+
+[Order]
+ab01officialMerged.esp
+propylons*.esp
+
+[Order]
+Less Lore.esp
+Less_Generic_Tribunal*.esp
+
+[Order]
+Less Lore.esp
+LGNPC_NoLore.esp
+
+[Order]
+TarMar.esp
+serenetower*.esp
+
+[Order]
+mel_teleportPlugin_1_3_Patches.esp
+mel_teleportPlugin_1_3_JulanAddon.esp
+
+[Order]
+AshlanderTent*.esp
+abotPracticeDummies*.esp
+
+[Order]
+Seekers Faction*.esp
+Complete Trade Fix*.esp
+
+[Order]
+Seekers Faction*.esp
+Djangos Dialogue*.esp
+
+[Order]
+Less generic Nerevarine*.esp
+The Rise of the Tribe Unmourned*.esp
+
+[Order]
+Seekers Faction*.esp
+Less_Generic_Nerevarine.esp
+
+[Order]
+Seekers Faction*.esp
+LGNPC_NoLore.esp
+
+[Order]
+Seekers Faction*.esp
+Lich Father*.esp
+
+[Order]
+Seekers Faction*.esp
+Silgrad Tower*.esp
+
+[Order]
+Seekers Faction*.esp
+The Sable Dragon*.esp
+
+[Order]
+Seekers Faction*.esp
+TR_Preview*.esp
+
+[Order]
+Seekers Faction*.esp
+MW Containers Animated exp.esp
+
+[Order]
+Seekers Faction*.esp
+NOM3*.esp
+
+[Order]
+Less Lore.esp
+Antares' Tribunal*.esp
+
+[Order]
+LGNPC_Pelagiad.esp
+Illy's Oh my Goddess.esp
+
+[Order]
+LGNPC__merged.esp
+Illy's Oh my Goddess.esp
+
+[Order]
+LGNPC__merged.esp
+True_Lights_And_Darkness*.esp
+
+[Order]
+Helms Of Sight*.esp
+multipatch.esp
+
+[Order]
+Building Up Uvirith*.esp
+Antares Big Mod*.esp
+
+[Order]
+fkoa*.esp
+Antares Big Mod*.esp
+
+[Order]
+KogoruhnExpanded.esp
+Dangerous Roads of Morrowind*.esp
+
+[Order]
+The Tribe Unmourned*.esp
+Mamaea Awakened.esp
+
+[Order]
+DN-GDR-MRMlite.esp
+Mamaea Awakened.esp
+
+[Order]
+Less Lore*.esp
+Antares Big Mod*.esp
+
+[Order]
+Less_Generic*.esp
+Antares Big Mod*.esp
+
+[Order]
+LGNPC_NoLore*.esp
+Antares Big Mod*.esp
+
+[Order]
+Morag Tong*.esp
+Antares Big Mod*.esp
+
+[Order]
+MQE_MainQuestEnhancers*.esp
+Antares Big Mod*.esp
+
+[Order]
+The Tribe Unmourned*.esp
+Antares Big Mod*.esp
+
+[Order]
+vgreetings*.esp
+Antares Big Mod*.esp
+
+[Order]
+Djangos Dialogue*.esp
+What Thieves Guild*.esp
+Antares Big Mod*.esp
+
+[Order]
+Tusar*.esp
+Wabbajack*.esp
+
+[Order]
+Complete Trade Fix*.esp
+The Rise of the Tribe Unmourned*.esp
+
+[Order]
+The Rise of the Tribe Unmourned*.esp
+Syc_AtHomeAlchemy*.esp
+
+[Order]
+ST Practice Dummies*.esp
+Morrowind Crafting*.esp
+
+[Order]
+ST Practice Dummies*.esp
+Sentinel+Serendipity*.esp
+
+[Order]
+ST Practice Dummies*.esp
+NOM3*.esp
+
+[Order]
+NOM3*.esp
+; else no new path grid for platforms
+OAAB_Tel Mora*.esp
+
+[Order]
+Ashfall*.esp
+NOM3*.esp
+
+[Order]
+ab01scenicCompilation*.esp
+Meteorite Ministry*.esp
+
+[Order]
+Magicka Expanded*.esp
+Enhanced Light*.esp
+
+[Order]
+MEN_lockBash.esp
+Magicka Expanded*.esp
+
+[Order]
+Magicka Expanded*.esp
+QuickChar*.esp
+
+[Order]
+Creatures_RP*.ESP
+Urshilaku Burial Caverns Overhaul.esp
+
+[Order]
+Better Clothes*.esp
+MDMD*.esp
+
+[Order]
+Remiros' Tombs*.esp
+MDMD*.esp
+
+[Order]
+Gavrilo93*.esp
+MDMD*.esp
+
+[Order]
+MDMD*.esp
+CultSheog.esp
+
+[Order]
+MDMD*.esp
+EcoAdj5mMerged.esp
+
+[Order]
+MDMD*.esp
+JoinAllHouses*.esp
+
+[Order]
+MDMD*.esp
+Tales of Ald Velothi.esp
+
+[Order]
+MDMD*.esp
+To Serve Sithis.esp
+
+[Order]
+MDMD*.esp
+LGNPC*merged.esp
+
+[Order]
+DN-GDR-MRMlite.esp
+MDMD*.esp
+
+[Order]
+Complete Trade Fix*.esp	; may conflict with NPC scripts
+add-on-pack_morrowind.esp
+Less Lore*.esp
+vgreetings*.esp
+LGNPC_NoLore.esp
+Djangos Dialogue*.esp
+Less_Generic_Bloodmoon.esp
+Less_Generic_Nerevarine.esp
+Less_Generic_Nerevarine+Bloodmoon.esp
+Less_Generic_Tribunal*.esp
+;KS_Julan_Ashlander Companion*.esp
+;KS_Julan*Patch.esp
+LGNPC_SeydaNeen.esp
+LGNPC_GnaarMok*.esp
+LGNPC_AldVelothi*.esp
+LGNPC_MaarGan.esp
+LGNPC_HlaOad.esp
+LGNPC_Aldruhn_v*.esp
+LGNPC_Aldruhn_suppl.esp
+LGNPC_Pelagiad.esp
+LGNPC_TelMora*.esp
+LGNPC_Khuul*.esp
+LGNPC_VivecFQ.esp
+LGNPC_SecretMasters*.esp
+LGNPC_TelUvirith*.esp
+LGNPC_VivecRedoran.esp
+LGNPC_PaxRedoran*.esp
+LGNPC_IndarysManor*.esp
+LGNPC__merged.esp
+
+[Order]
+TownSounds.esp
+MAO_Vanilla*.esp
+MAO_Regions.esp
+MAO_Creatures.esp
+MAO_Containers.esp
+MAO_Voice.esp
+MAO_PCSound.esp
+MAO_PCVoice.esp
+MAO_ScriptExtender*.esp
+MAO_PDragon.esp
+ab01PCvoice*.esp
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+KS_Julan*Patch.esp
+mel_teleportPlugin_1_3.esp
+mel_teleportPlugin_1_3?.esp
+UG2*.esp
+mel_teleportPlugin_1_3_Patches.esp
+mel_teleportPlugin_1_3_JulanAddon.esp
+
+[Order]
+horationpcenhanced12-bm.esp
+npce_mwse_patch.esp
+Third Person Crosshair.esp
+Ownership Indicator*.esp
+XE Sky Variations*.esp
+abotXEdof*.esp
+
+[Order]
+Morrowind Crafting 2*.esp
+Morrowind Crafting Equipment.esp
+Morrowind Crafting Houses.esp
+Korobal*.esp
+Apothecary's Demise.esp
+Ascadian Rose Cottage*.esp
+NOM3*.esp
+
+[Order]
+MAO_Base.esm
+MAO_Music.esm
+MAO_InteriorWeather.esm
+MAO_Weather.esm
+MAO_2d.esm
+MAO_3d.esm
+MAO.esm
+
+[Order]
+LGNPC_SecretMasters*.esp
+LGNPC__merged.esp
+Morrowind Crafting*.esp
+Korobal*.esp
+Ascadian Rose Cottage*.esp
+
+[Order]
+Silgrad Tower*.esp
+Siege at Firemoth*.esp
+TheForgottenShields*.esp
+AIM_+Forgotten*.esp
+The Sable Dragon*.esp
+Mills of Morrowind*.esp
+
+[Order]
+abotGondoliers*.esp
+abotSiltStriders*.esp
+abotBoats*.esp
+abotRiverStridersTR*.esp
+mel_teleportPlugin*.esp
+
+[Order]
+Morrowind Crafting*.esp
+Book Rotate - Expanded.esp
+Weapon Rotate - Expanded.esp
+MW Containers Animated exp.esp
+MEN_Combat_merged.esp
+
+[Order]
+Better Clothes*.esp
+abotGuards*.esp
+Sentinel+Serendipity*.esp
+NOM3*.esp
+
+[Order]
+Magical Missions*.esp
+Djangos Dialogue*.esp
+What Thieves Guild*.esp
+The Tribe Unmourned*.esp
+Morag Tong*.esp
+
+[Order]
+Order_Of_Sanctity*.esp
+Stonewood Pass*.esp
+Korobal*.esp
+Fields of Kummu*.esp
+
+[Order]
+Annastia*.esp
+Stonewood Pass*.esp
+
+[Order]
+Less Lore.esp
+LGNPC_NoLore.esp
+Djangos Dialogue*.esp
+Less_Generic_Nerevarine.esp
+
+[Order]
+K_Potion_Upgrade_1.2.esp
+K_Scroll_Upgrade_MW_Trib_Bmoon.esp
+Key Replacer Trib & BM.esp
+KeyNamer.esp
+
+[Order]
+Morrowind Crafting*.esp
+Korobal*.esp
+Ascadian Rose Cottage*.esp
+NOM3*.esp
+
+[Order]
+TR_Preview*.esp
+abotBoatsTR*.esp
+TR_OldTravels*.esp
+abotRiverStridersTR*.esp
+
+[Order]
+ab01scenicCompilation*.esp
+serenetower*.esp
+Sentinel+Serendipity*.esp
+Hilgya*.esp
+
+[Order]
+Graphic Herbalism*.esp
+ab01Resources Enhanced Kollops&KwamaEggs.esp
+MW Containers Animated*.esp
+
+[Order]
+Key Namer*.esp
+PotionSorter*.esp
+PurchasableAlchemyLab*.esp
+
+[Order]
+AIM_*.esp
+Bound Armor*.esp
+
+[Order]
+Bound Armor*.esp
+Helms Of Sight*.esp
+
+[Order]
+Texture Fix 2.0.esm
+Texture Fix - Bloodmoon 1.1.esm
+Texture Fix - merged.esm
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+KS_Julan*Patch.esp
+mel_teleportPlugin*.esp
+
+[Order]
+MRM*.esm
+KS_Julan_Ashlander Companion*.esp
+KS_Julan_MRM_Patch*.esp
+
+[ORDER]
+Merged Objects.esp
+Better Enchantments*.esp
+
+[ORDER]
+Animated_Morrowind - merged.esp
+F&F_MW.ESP
+F&F_TR.ESP
+F&F_companions.ESP
+F&F_MOAR.ESP
+
+
+[ORDER]
+Mines & Caverns.esp
+Shal_Overgrown.esp
+
+[Conflict]
+ F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_MW.ESP
+CM_Partners_*.esp
+Outlaws.esp
+Starfires.esp
+MCA*.esp
+
+[Conflict]
+ F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_TR.ESP
+CM_Partners_*.esp
+Outlaws.esp
+Starfires.esp
+MCA*.esp
+
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_MW.esp
+F&F_TR.esp
+
+[ORDER]
+the_watchman.ESP
+Taddeus Foods of Tamriel.ESP
+
+[ORDER]
+BeaconOfstRilms.ESP
+Taddeus Foods of Tamriel.ESP
+
+[ORDER]
+Immersive Mournhold.ESP
+Taddeus Foods of Tamriel.ESP
+
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49388")
+Taddeus Foods of Tamriel.ESP
+Taddeus Foods of Tamriel Light.ESP
+
+[ORDER]
+Mines & Caverns.esp
+Adanumuran_Reclaimed.esp
+
+[ORDER]
+Spell Scroll Text Overhaul.esp
+Extended Daedric Scrolls.ESP
+
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
+Wares-FULL.ESP
+Wares-Containers.ESP
+
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
+Wares-FULL.ESP
+Wares-Rebuilt.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Functional Slave Markets.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+BOM_Stavs_remover.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+No trespassing.esp
+
+[ORDER]
+Improved Inns Expanded*.esp
+Slave Markets_*.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Improved Inns Expanded*.esp
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
+Wares-FULL.ESP
+Wares-TR_DATA.esp
+
+[Conflict]
+ Choose only one plugin:
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
+Wares-FULL.ESP
+Wares-Vanilla.esp
+
+[ORDER]
+OAAB_Data.esm
+Wares-base.esm
+Wares-*.esp
+F&F_*.esp
+
+[ORDER]
+Morrowind Anti-Cheese.esp
+Ownership Overhaul.esp
+Dark Brotherhood Armor Replacer.esp
+Expansions Integrated.esp
+BTB's Game Improvements (Necro Edit).esp
+BTBGI PFP Patch.esp
+Beware the Sixth House.esp
+Tribunal Rebalance.esp
+Bloodmoon Rebalance.esp
+More Deadly Morrowind Denizens.esp
+MDMD - Creatures Addon.esp
+Economy Adjuster Crime (Necro Edit).esp
+There Can Be Only One.esp
