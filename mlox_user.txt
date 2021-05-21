@@ -2859,6 +2859,258 @@ Better Landscapes Stonewood Pass*.esp
 Beautiful cities of Morrowind.ESP
 
 [Conflict]
- Choose only one plugin:
+ Already merged into BCoM:
 Beautiful cities of Morrowind.ESP
 Even Seedier Eight Plates.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Balmora_Seat of power.esm
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+AldRuhn_seat_of_power.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Sadrith Mora - seat of power.esm
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Suran_the_pearl_vanilla_style.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Seyda_Neen_Gateway.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Izi cities -  Ebonheart*.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+HotV - Gnisis.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Properly Cluttered Ald Velothi.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Hla Oad.esp
+
+[Conflict]
+ Not compatible with BCoM:
+Beautiful cities of Morrowind.ESP
+MDP*.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Moonmoth Legion Fort Overhaul.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+The Ashlanders.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Tel_Aruhn_Chronicles.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Caldera Mages Guild Expanded.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Guilds.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+wl_dockclutter.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+bw_striderports.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Well addon for Ashfall.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+RR_Holamayan_Eng.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Mixed Cantons of Vivec.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+No-Frills Closed Molag Mar.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+aldruhnmagesguildexpansion.esp
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+WWGTMA.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Exterior Guild Lighting.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+QL_SevenGracesShrines.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Velothi Strider Port Lights.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Clean DR115_TheDropoff.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+DirtierCozierMuriels.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+DirtyMurielsExpansion.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Vivec_Mages_Guild_Expanded.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Inscribed Maar Gan Rock.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Telvanni Council Lounge Room.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Dramatic Vivec - Temple only.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Improved Temple Experience.ESP
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+RR_Ghost_Gate_Fortress_Eng.ESP
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+IntoTheFyr.ESP
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Whitney_EdwinnaStudy.ESP
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Tel Naga Treasury.ESP
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+The Grand Pharos Lighthouse*.esp
+
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Wolverine Hall Interior Expanded.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Wolverine Hall Overhaul.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+jobashaBookShop.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Balmora Redecorated.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Balmora_Rooftop_Apartments_1-0.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Concept Art Hlaalu Balconies*.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Immersive Seyda Neen.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Ald-Ruhn Temple Expansion*.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+The Merchants of Sadrith Mora.ESP
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Barabus' fireplaces*.ESP
