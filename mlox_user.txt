@@ -1588,10 +1588,6 @@ KS_Julan_Ashlander Companion*.esp
 Beautiful cities of Morrowind.ESP
 
 [ORDER]
-Beautiful cities of Morrowind.ESP
-Even Seedier Eight Plates.ESP
-
-[ORDER]
 Even Seedier Eight Plates.ESP
 ESEP_Improved_Inns_Expanded.esp
 
@@ -2837,3 +2833,32 @@ More Deadly Morrowind Denizens.esp
 MDMD - Creatures Addon.esp
 Economy Adjuster Crime (Necro Edit).esp
 There Can Be Only One.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Dura Gra-Bol's House Reclaimed.esp
+
+[ORDER]
+DD_Caldera_Expansion.esp
+Better Landscapes Stonewood Pass*.esp
+
+[ORDER]
+Foyada Mamaea Overhaul.ESP
+Better Landscapes Stonewood Pass*.esp
+
+[ORDER]
+Foyada Mamaea Overhaul.ESP
+SWP - Foyada Mamaea Overhaul Patch.ESP
+
+[ORDER]
+DD_Caldera_Expansion.esp
+SWP - Caldera Mine Patch.ESP
+
+[Order]
+Better Landscapes Stonewood Pass*.esp
+Beautiful cities of Morrowind.ESP
+
+[Conflict]
+ Choose only one plugin:
+Beautiful cities of Morrowind.ESP
+Even Seedier Eight Plates.ESP
