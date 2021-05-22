@@ -3114,3 +3114,16 @@ The Merchants of Sadrith Mora.ESP
  Already merged into BCoM:
 Beautiful cities of Morrowind.ESP
 Barabus' fireplaces*.ESP
+
+[ORDER]
+multipatch.esp
+Mashed Lists.esp
+F&F_scarce.ESP
+F&F_MOAR.ESP
+F&F_NoSitters.ESP
+
+[Conflict]
+ Choose only one plugin:
+F&F_scarce.ESP
+F&F_MOAR.ESP
+
