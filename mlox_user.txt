@@ -3133,5 +3133,5 @@ Pillow_Mage_Manor.esp
 
 [Conflict]
  Choose only one plugin:
-BOM_ROHT_Patch
-ROHT_2_0_8
+BOM_ROHT_Patch.esp
+ROHT_2_0_8.esp
