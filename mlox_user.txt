@@ -2703,6 +2703,7 @@ Animated_Morrowind - merged.esp
 F&F_MW.ESP
 F&F_TR.ESP
 F&F_companions.ESP
+F&F_Westly_hair_addon.ESP
 F&F_MOAR.ESP
 
 
