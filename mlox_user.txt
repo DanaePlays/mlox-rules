@@ -1392,11 +1392,6 @@ H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 Better Morrowind Armor.esp
 
 [Order]
-Better Enchantments.esp
-Better Enchantments TR.esp
-Almighty Artifacts.esp
-
-[Order]
 H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 Almighty Artifacts.esp
 
@@ -1476,11 +1471,6 @@ Hold it - replacer.ESP
 Hold it - TR addon.ESP
 
 [Order]
-REEEE.ESP
-REEEE-HelluvaMerchantContainers.ESP
-Better Enchantments.esp
-
-[Order]
 Morrowind Rebirth - Birthsigns [Addon].ESP
 Birthsigns.esp
 
@@ -1488,10 +1478,10 @@ Birthsigns.esp
 Morrowind Rebirth - Races [Addon].esp
 Beastly Abilities.ESP
 
-[Order]
-Better Enchantments.esp
-Better Enchantments TR.esp
-Merged Objects.esp
+;[Order] if other mods (such as REEE use vanilla enchants, we get weird items with constant enchant for 5 points per x seconds
+;Better Enchantments.esp
+;Better Enchantments TR.esp
+;Merged Objects.esp
 
 [ORDER]
 Uvirith's Legacy_3.53.esp
