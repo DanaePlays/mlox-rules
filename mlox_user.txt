@@ -3127,3 +3127,6 @@ F&F_NoSitters.ESP
 F&F_scarce.ESP
 F&F_MOAR.ESP
 
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Pillow_Mage_Manor.esp
