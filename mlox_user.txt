@@ -2849,6 +2849,16 @@ SWP - Caldera Mine Patch.ESP
 Better Landscapes Stonewood Pass*.esp
 Beautiful cities of Morrowind.ESP
 
+[Order]
+Better Landscapes Stonewood Pass*.esp
+SWP - Caldera Mine Patch.ESP
+SWP - Foyada Mamaea Overhaul Patch.ESP
+
+[Order]
+Beautiful cities of Morrowind.ESP
+SWP - Caldera Mine Patch.ESP
+SWP - Foyada Mamaea Overhaul Patch.ESP
+
 [Conflict]
  Already merged into BCoM:
 Beautiful cities of Morrowind.ESP
