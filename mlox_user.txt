@@ -1428,10 +1428,6 @@ Morag Tong Polished.ESP
 MTP - CR Patch.ESP
 
 [Order]
-Imperial Legion Expansion 1.5.esp
-Religions Elaborated.ESP
-
-[Order]
 Sixth House.esp
 Ministry_of_Clarity.esp
 
@@ -1440,7 +1436,6 @@ Creatures (Semi).esp
 Putting Power in Willpower - Absorbonach.esp
 
 [Order]
-MERGED npc.esp
 SwampFever.ESP
 Religions Elaborated.ESP
 TR_Travels.esp
@@ -3136,3 +3131,9 @@ Pillow_Mage_Manor.esp
  Choose only one plugin:
 BOM_ROHT_Patch.esp
 ROHT_2_0_8.esp
+
+[ORDER]
+Imperial_Legion_Expansion.esp
+More Exclusive Factions.ESP
+Religions Elaborated.ESP
+Imperial Factions.ESP
