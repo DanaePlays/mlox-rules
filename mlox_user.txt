@@ -3137,3 +3137,11 @@ Imperial_Legion_Expansion.esp
 More Exclusive Factions.ESP
 Religions Elaborated.ESP
 Imperial Factions.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Vibrant Ivy*.esp
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Trellis addon*.esp
