@@ -3145,3 +3145,11 @@ Vibrant Ivy*.esp
 [ORDER]
 Beautiful cities of Morrowind.esp
 Trellis addon*.esp
+
+[Order]
+BOM_pathgrid_reset.esp
+SOP_Canal_02.esp
+
+[Order]
+BOM_pathgrid_reset.esp
+Brevur of Balmora - Finally Some Good Statue Mod.esp
