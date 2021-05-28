@@ -3148,7 +3148,7 @@ Trellis addon*.esp
 
 [Order]
 BOM_pathgrid_reset.esp
-SOP_Canal_02.esp
+SOP_RichPlaza_IziStyle.esp
 
 [Order]
 BOM_pathgrid_reset.esp
