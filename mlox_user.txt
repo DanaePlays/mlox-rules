@@ -66,6 +66,7 @@
 
 [NearStart]
 F&F_*.esp
+Walkers of Morrowind.esp
 Book Jackets - Morrowind.esp
 Book Jackets - Tribunal.esp
 Book Jackets - Tribunal.esp
@@ -2618,13 +2619,13 @@ Morag Tong*.esp
 
 [Order]
 Order_Of_Sanctity*.esp
-Stonewood Pass*.esp
+Better Landscapes Stonewood Pass*.esp
 Korobal*.esp
 Fields of Kummu*.esp
 
 [Order]
 Annastia*.esp
-Stonewood Pass*.esp
+Better Landscapes Stonewood Pass*.esp
 
 [Order]
 Less Lore.esp
@@ -2829,6 +2830,7 @@ DD_Caldera_Expansion.esp
 Better Landscapes Stonewood Pass*.esp
 
 [ORDER]
+Walkers of Morrowind.esp
 Foyada Mamaea Overhaul.ESP
 Better Landscapes Stonewood Pass*.esp
 
