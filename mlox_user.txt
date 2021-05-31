@@ -3155,3 +3155,7 @@ SOP_RichPlaza_IziStyle.esp
 [Order]
 BOM_pathgrid_reset.esp
 Brevur of Balmora - Finally Some Good Statue Mod.esp
+
+[Order]
+Wares-base.esm
+Solstheim Tomb of The Snow Prince.esm
