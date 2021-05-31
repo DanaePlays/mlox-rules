@@ -3113,6 +3113,11 @@ The Merchants of Sadrith Mora.ESP
 Beautiful cities of Morrowind.ESP
 Barabus' fireplaces*.ESP
 
+[Conflict]
+ Not compatible as BCoM alrady overhauls the same place:
+Beautiful cities of Morrowind.ESP
+Duke's Throne Room Overhaul.ESP
+
 [ORDER]
 multipatch.esp
 Mashed Lists.esp
