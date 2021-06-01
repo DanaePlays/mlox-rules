@@ -6,5 +6,5 @@ First time here, follow these steps:
 - `mlox_user.txt ` goes in the exact same directory
 - `Update_Rules.bat` goes in your MLOX directory
 
-After that, MLOC will fetch the rules from this repo whenever you run it.
+After that, MLOX will fetch the rules from this repo whenever you run it.
 Enjoy!
