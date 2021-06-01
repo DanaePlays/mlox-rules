@@ -5,6 +5,7 @@ First time here, follow these steps:
 - `mlox_base.txt` replaces the one that was just created
 - `mlox_user.txt ` goes in the exact same directory
 - `Update_Rules.bat` goes in your MLOX directory
+> You can also clone the github repo directly into your mlox directory and git fetch
+the mlox repo has a gitignore file that is updated to work with mlox
 
-After that, MLOX will fetch the rules from this repo whenever you run it.
 Enjoy!
