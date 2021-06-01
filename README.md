@@ -1,3 +1,10 @@
-# mlox-rules
+First time here, follow these steps:
+1. make sure you have MLOX installed
+2. run it once, a file `mlox_base.txt` will be created
+3. download all three files from this repo.
+- `mlox_base.txt` replaces the one that was just created
+- `mlox_user.txt ` goes in the exact same directory
+- `Update_Rules.bat` goes in your MLOX directory
 
-I will be keeping the MLOX rules updates as modders provide rules for their mods
+After that, MLOC will fetch the rules from this repo whenever you run it.
+Enjoy!
