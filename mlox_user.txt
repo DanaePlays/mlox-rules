@@ -3169,3 +3169,7 @@ Solstheim Tomb of The Snow Prince.esm
 Wares-base.esm
 [ANY Wares-Vvardenfell.esp
      Wares-TR.esp]
+
+[Order]
+Liar yes Idiot no.ESP
+F&F_companions.ESP
