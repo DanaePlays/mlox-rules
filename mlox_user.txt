@@ -161,6 +161,7 @@ Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
 TR Improved Inns Add-on for NoM.esp
 Remiros' Tombs Expansion*.esp
+YAJAN.esp
 Merged_Objects.esp
 Merged Objects.esp
 Merged_Leveled_Lists.esp
