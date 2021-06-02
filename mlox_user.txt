@@ -2757,18 +2757,6 @@ Adanumuran_Reclaimed.esp
 Spell Scroll Text Overhaul.esp
 Extended Daedric Scrolls.ESP
 
-[Conflict]
- Choose only one plugin:
- (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
-Wares-FULL.ESP
-Wares-Containers.ESP
-
-[Conflict]
- Choose only one plugin:
- (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
-Wares-FULL.ESP
-Wares-Rebuilt.esp
-
 [ORDER]
 Beautiful cities of Morrowind.esp
 Functional Slave Markets.esp
@@ -2788,17 +2776,6 @@ Slave Markets_*.esp
 [ORDER]
 Beautiful cities of Morrowind.esp
 Improved Inns Expanded*.esp
-[Conflict]
- Choose only one plugin:
- (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
-Wares-FULL.ESP
-Wares-TR_DATA.esp
-
-[Conflict]
- Choose only one plugin:
- (Ref: "https://www.nexusmods.com/morrowind/mods/49205")
-Wares-FULL.ESP
-Wares-Vanilla.esp
 
 [ORDER]
 OAAB_Data.esm
@@ -3164,12 +3141,24 @@ Brevur of Balmora - Finally Some Good Statue Mod.esp
 [Order]
 Wares-base.esm
 Solstheim Tomb of The Snow Prince.esm
+Wares_Vvardenfell.esp
+Wares_TR.esp
+Wares-TR_DATA.esp
+Wares-MOAR.ESP
 
 [Requires]
+ You only need ONE of the above:
 Wares-base.esm
-[ANY Wares-Vvardenfell.esp
-     Wares-TR.esp]
+[ANY Wares_Vvardenfell.esp
+     Wares_TR.esp
+     Wares-TR_DATA.esp]
 
 [Order]
 Liar yes Idiot no.ESP
 F&F_companions.ESP
+
+[Conflict]
+ You only need ONE:
+Wares_Vvardenfell.esp
+Wares_TR.esp
+Wares-TR_DATA.esp
