@@ -2735,6 +2735,8 @@ F&F_TR.esp
 [ORDER]
 the_watchman.ESP
 Taddeus Foods of Tamriel.ESP
+F&F_companions.ESP
+
 
 [ORDER]
 BeaconOfstRilms.ESP
