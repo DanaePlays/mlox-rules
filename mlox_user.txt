@@ -3153,8 +3153,11 @@ Wares-MOAR.ESP
  You only need ONE of the above:
 Wares-base.esm
 [ANY Wares_Vvardenfell.esp
-     Wares_TR.esp
-     Wares-TR_DATA.esp]
+     Wares_TR.esp]
+
+[Requires]
+Wares-TR_DATA.esp
+Wares_Vvardenfell.esp
 
 [Order]
 Liar yes Idiot no.ESP
