@@ -3172,3 +3172,7 @@ Wares_TR.esp
 [Order]
 Animated_Morrowind - merged*.esp
 People of Pelagiad.ESP
+
+[Order]
+Beautiful cities of Morrowind.esp
+High Art.esp
