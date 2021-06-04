@@ -3167,7 +3167,6 @@ F&F_companions.ESP
  You only need ONE:
 Wares_Vvardenfell.esp
 Wares_TR.esp
-Wares-TR_DATA.esp
 
 [Order]
 Animated_Morrowind - merged*.esp
