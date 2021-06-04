@@ -1528,6 +1528,7 @@ SilverArmourIntegration.ESP
 [ORDER]
 Trackless Grazeland.ESP
 Beautiful cities of Morrowind.ESP
+BCoM for Wares.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
