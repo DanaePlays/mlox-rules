@@ -2734,22 +2734,22 @@ F&F_TR.esp
 
 [ORDER]
 the_watchman.ESP
-Taddeus Foods of Tamriel.ESP
+Taddeus_Foods_of_Tamriel.ESP
 F&F_companions.ESP
 
 
 [ORDER]
 BeaconOfstRilms.ESP
-Taddeus Foods of Tamriel.ESP
+Taddeus_Foods_of_Tamriel.ESP
 
 [ORDER]
 Immersive Mournhold.ESP
-Taddeus Foods of Tamriel.ESP
+Taddeus_Foods_of_Tamriel.ESP
 
 [Conflict]
  Choose only one plugin:
  (Ref: "https://www.nexusmods.com/morrowind/mods/49388")
-Taddeus Foods of Tamriel.ESP
+Taddeus_Foods_of_Tamriel.ESP
 Taddeus Foods of Tamriel Light.ESP
 
 [ORDER]
