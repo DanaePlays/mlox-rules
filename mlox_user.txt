@@ -3176,3 +3176,41 @@ People of Pelagiad.ESP
 [Order]
 Beautiful cities of Morrowind.esp
 High Art.esp
+
+[Order]
+Boys in the Hood.ESP
+Olafs_Cloaks_and_Hoods.ESP
+
+[Order]
+Better Bodies.esp
+Better Bodies_1C.esp
+MelsTatsNord
+
+[Order]
+EE_Wares_Curated.esp
+UFR_v3dot2.esp
+
+[Order]
+Spell Scroll Text Overhaul.esp
+Extended Daedric Scrolls.esp
+Unique Jewelry and Accessories.esp
+
+[Order]
+Birthsigns.esp
+Twin_Moons_-_Birthsigns_Reimagined.esp
+
+[Order]
+Playable NPC Classes.esp
+Way of the Necromancer.esp
+
+[Order]
+Better Clothes Complete.esp
+TealPanda Wares.esp
+UFR_v3dot2.esp
+Unique Jewelry Redone.esp
+
+[Order]
+UFR_v3dot2.esp
+IceNioLivRobeReplacer*.esp
+Robe of the Drake's Pride.ESP
+
