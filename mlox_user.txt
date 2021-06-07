@@ -3184,7 +3184,7 @@ Olafs_Cloaks_and_Hoods.ESP
 [Order]
 Better Bodies.esp
 Better Bodies_1C.esp
-MelsTatsNord
+MelsTatsNord.esp
 
 [Order]
 EE_Wares_Curated.esp
