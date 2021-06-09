@@ -3216,5 +3216,5 @@ IceNioLivRobeReplacer*.esp
 Robe of the Drake's Pride.ESP
 
 [Order]
-Hold_it_*.ESP
-Wares_NPC_*.esp
+Hold_it*.ESP
+Wares_NPC*.esp
