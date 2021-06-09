@@ -66,6 +66,7 @@
 
 [NearStart]
 F&F_*.esp
+Wares_NPC*.esp
 Walkers of Morrowind.esp
 Book Jackets - Morrowind.esp
 Book Jackets - Tribunal.esp
