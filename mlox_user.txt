@@ -3214,3 +3214,6 @@ UFR_v3dot2.esp
 IceNioLivRobeReplacer*.esp
 Robe of the Drake's Pride.ESP
 
+[Order]
+Hold_it_*.ESP
+Wares_NPC_*.esp
