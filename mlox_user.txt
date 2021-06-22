@@ -151,7 +151,6 @@ abotCityLanterns.esp
 ab01UnderSkar.esp
 NPC_Commands*.esp
 MEN_Combat_merged.esp
-; Merged_Objects.esp
 NOM3*.esp
 NoM_Creatures Loot Standard.esp
 NoM_MC Compatibility Patch.esp
@@ -162,6 +161,9 @@ Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
 TR Improved Inns Add-on for NoM.esp
 Remiros' Tombs Expansion*.esp
+Interior exterior flag reset.esp
+BOM_pathgrid_reset.esp
+BOM_OpenMW_plazas.esp
 YAJAN.esp
 Merged_Objects.esp
 Merged Objects.esp
@@ -1448,10 +1450,6 @@ Main Quest Overhaul.esp
 Immersive_corprus.ESP
 
 [Order]
-MERGED npcs.esp
-MERGED loot gear.esp
-
-[Order]
 Hold it - replacerWS.ESP
 Hold it - replacer.ESP
 DreamersExpansion.ESP
@@ -1476,17 +1474,18 @@ Birthsigns.esp
 Morrowind Rebirth - Races [Addon].esp
 Beastly Abilities.ESP
 
-;[Order] if other mods (such as REEE use vanilla enchants, we get weird items with constant enchant for 5 points per x seconds
-;Better Enchantments.esp
-;Better Enchantments TR.esp
-;Merged Objects.esp
+[Order]
+;; if other mods (such as REEE use vanilla enchants, we get weird items with constant enchant for 5 points per x seconds)
+Merged Objects.esp
+Better ments.esp
+Better Enchantments TR.esp
 
 [ORDER]
 Uvirith's Legacy_3.53.esp
 BOM - Uvirith's Legacy.esp
 
 [ORDER]
-Antares Big Mod 7.63.ESP
+Antares Big Mod*.ESP
 YAGD Antares Big Mod Compatibility Patch.ESP
 
 [ORDER]
@@ -1851,8 +1850,6 @@ BB Dark Brotherhood by Westly.esp
 New Boots of Blinding Speed.ESP
 Plangke's Female Cuirass Replacer.esp
 
-
-
 ; Get the Rise of House Telvanni files in order.
 [ORDER]
 ROHT_2_0_8.ESP
@@ -1916,12 +1913,6 @@ Bob's Diverse Dagoths*.esp
 Creatures_RP_Standard.ESP
 Creatures_RP_Purist.ESP
 
-[Nearend]
-Merged Objects.esp
-Interior exterior flag reset.esp
-BOM_pathgrid_reset.esp
-BOM_OpenMW_plazas.esp
-
 [Order]
 Mixed Cantons of Vivec.esp
 Glass Domes of Vivec.esp
@@ -1952,11 +1943,6 @@ multipatch.esp
 Mixed Cantons of Vivec.esp
 Glass Domes of Vivec.esp
 No-Frills Open Vivec*.esp
-
-; multipatch will fix some data that needs to be merged.
-;[ORDER]
-;multipatch.esp
-;Merged Objects.esp
 
 [Order]
 Real Misc Items GFX.esp
@@ -2694,17 +2680,15 @@ KS_Julan_Ashlander Companion*.esp
 KS_Julan_MRM_Patch*.esp
 
 [ORDER]
-Merged Objects.esp
-Better Enchantments*.esp
-
-[ORDER]
 Animated_Morrowind - merged.esp
 F&F_MW.ESP
 F&F_TR.ESP
 F&F_companions.ESP
-F&F_Westly_hair_addon.ESP
+F&F_heads_vanilla.ESP
+F&F_heads_Westly.ESP
 F&F_MOAR.ESP
-
+F&F_scarce.ESP
+F&F_NoSitters.ESP
 
 [ORDER]
 Mines & Caverns.esp
@@ -2716,21 +2700,10 @@ Shal_Overgrown.esp
 F&F_MW.ESP
 CM_Partners_*.esp
 Outlaws.esp
-Starfires.esp
+Starfires*.esp
 MCA*.esp
 
-[Conflict]
- F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
- (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
-F&F_TR.ESP
-CM_Partners_*.esp
-Outlaws.esp
-Starfires.esp
-MCA*.esp
-
-[Conflict]
- Choose only one plugin:
- (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+[Requires]
 F&F_MW.esp
 F&F_TR.esp
 
@@ -3152,7 +3125,6 @@ Wares-TR_DATA.esp
 Wares-MOAR.ESP
 
 [Requires]
- You only need ONE of the above:
 Wares-base.esm
 [ANY Wares_Vvardenfell.esp
      Wares_TR.esp]
@@ -3164,11 +3136,6 @@ Wares_Vvardenfell.esp
 [Order]
 Liar yes Idiot no.ESP
 F&F_companions.ESP
-
-[Conflict]
- You only need ONE:
-Wares_Vvardenfell.esp
-Wares_TR.esp
 
 [Order]
 Animated_Morrowind - merged*.esp
@@ -3183,8 +3150,8 @@ Boys in the Hood.ESP
 Olafs_Cloaks_and_Hoods.ESP
 
 [Order]
-Better Bodies.esp
 Better Bodies_1C.esp
+Better Bodies.esp
 MelsTatsNord.esp
 
 [Order]
