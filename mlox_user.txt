@@ -3185,3 +3185,28 @@ Robe of the Drake's Pride.ESP
 [Order]
 Hold_it*.ESP
 Wares_NPC*.esp
+
+[Conflict]
+ Choose only one plugin:
+  veg-TotW.esp - Core mode.
+  veg-TotW-books.esp - Adds additional books, journals, and notes.
+  veg-TotW-MSrestored.esp - Restores Mephala's Skill with its Fortify Attack effect.
+  veg-TotW-books-MSrestored.esp - Adds additional books, and restores Mephala's skill.
+veg-TotW.esp
+veg-TotW-books.esp
+veg-TotW-MSrestored.esp
+veg-TotW-books-MSrestored.esp
+
+[Conflict]
+ Choose only one plugin:
+  Of Justice and Innocence.esp - Divides the dungeon up into 4 cells and uses many lights.
+  OJAI - Framerate Version.esp - Divides the dungeon up into 6 cells and removes some lights to help increase framerate. This is the recommended version for most users.
+Of Justice and Innocence.esp
+OJAI - Framerate Version.esp
+
+[Conflict]
+ Choose only one plugin:
+  MDMD - More Deadly Morrowind Denizens.esp - Full MDMD experience.
+  MDMD - Bosses Only.esp - Only change bosses of faction questlines and artifact owners.
+MDMD - More Deadly Morrowind Denizens.esp
+MDMD - Bosses Only.esp
