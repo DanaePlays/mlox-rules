@@ -1450,20 +1450,18 @@ Main Quest Overhaul.esp
 Immersive_corprus.ESP
 
 [Order]
-Hold it - replacerWS.ESP
-Hold it - replacer.ESP
+Hold_it_main*.ESP
+
 DreamersExpansion.ESP
 Hold it - Dreamers.ESP
 
 [Order]
-Hold it - replacerWS.ESP
-Hold it - replacer.ESP
+Hold_it_main*.ESP
 Starfires NPC Additions ver-1.13.esp
 Hold it - SF npc addon.esp
 
 [Order]
-Hold it - replacerWS.ESP
-Hold it - replacer.ESP
+Hold_it_main*.ESP
 Hold it - TR addon.ESP
 
 [Order]
@@ -1783,7 +1781,7 @@ Face Originality and Duner Nobles Overhaul.ESP
 Animated_Morrowind - merged.esp
 
 [ORDER]
-Hold it - replacerWS.ESP
+Hold_it_main_WS.ESP
 DD_Caldera_Expansion + Stonewood Pass Patch.ESP
 
 [ORDER]
@@ -1803,7 +1801,7 @@ Better Clothes_v1.1.esp
 Articus Solstheim Clothes.esp
 
 [ORDER]
-Hold it - replacerWS.ESP
+Hold_it_main_WS.ESP
 Hold it - Dreamers.ESP
 Hold it - COM addon.ESP
 Hold it - SF npc addon.ESP
@@ -2686,8 +2684,8 @@ F&F_TR.ESP
 F&F_companions.ESP
 F&F_heads_vanilla.ESP
 F&F_heads_Westly.ESP
-F&F_MOAR.ESP
 F&F_scarce.ESP
+F&F_MOAR.ESP
 F&F_NoSitters.ESP
 
 [ORDER]
