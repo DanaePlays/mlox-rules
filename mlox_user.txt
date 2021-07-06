@@ -3208,3 +3208,24 @@ OJAI - Framerate Version.esp
   MDMD - Bosses Only.esp - Only change bosses of faction questlines and artifact owners.
 MDMD - More Deadly Morrowind Denizens.esp
 MDMD - Bosses Only.esp
+
+[Conflict]
+ OAAB Tombs and Towers includes and supercedes Urshilaku Burial Caverns Overhaul.
+  OAAB - Tombs and Towers.esp
+  Urshilaku Burial Caverns Overhaul.esp
+OAAB - Tombs and Towers.esp
+Urshilaku Burial Caverns Overhaul.esp
+
+[Conflict]
+ OAAB Tombs and Towers includes and supercedes Mawia Overhaul.
+  OAAB - Tombs and Towers.esp
+  Mawia Overhaul.esp
+OAAB - Tombs and Towers.esp
+Mawia Overhaul.esp
+
+[Conflict]
+ OAAB Tombs and Towers includes and supercedes Remiros' Tombs Expansion.
+  OAAB - Tombs and Towers.esp
+  Remiros' Tombs Expansion.esp
+OAAB - Tombs and Towers.esp
+Remiros' Tombs Expansion.esp
