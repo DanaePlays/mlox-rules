@@ -3229,3 +3229,8 @@ Mawia Overhaul.esp
   Remiros' Tombs Expansion.esp
 OAAB - Tombs and Towers.esp
 Remiros' Tombs Expansion.esp
+
+[Order]
+Morrowind Anti-Cheese.esp
+Beautiful cities of Morrowind.esp
+
