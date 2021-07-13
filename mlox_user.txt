@@ -112,6 +112,11 @@ Key Namer*.esp
 PotionSorter*.esp
 
 [NearEnd]
+Merged_Objects.esp
+Merged Objects.esp
+Merged_Leveled_Lists.esp
+multipatch.esp
+Mashed Lists.esp
 Morrowind Crafting 2*.esp
 Morrowind Crafting Equipment.esp
 Morrowind Crafting Houses.esp
@@ -165,11 +170,6 @@ Interior exterior flag reset.esp
 BOM_pathgrid_reset.esp
 BOM_OpenMW_plazas.esp
 YAJAN.esp
-Merged_Objects.esp
-Merged Objects.esp
-Merged_Leveled_Lists.esp
-multipatch.esp
-Mashed Lists.esp
 
 [Order]
 ;Complete Trade Fix*.esp	; may conflict with NPC scripts
@@ -2702,8 +2702,8 @@ Starfires*.esp
 MCA*.esp
 
 [Requires]
-F&F_MW.esp
 F&F_TR.esp
+F&F_MW.esp
 
 [ORDER]
 the_watchman.ESP
@@ -3234,3 +3234,6 @@ Remiros' Tombs Expansion.esp
 Morrowind Anti-Cheese.esp
 Beautiful cities of Morrowind.esp
 
+[Order]
+Wares_NPC*.esp
+Beautiful cities of Morrowind.esp
