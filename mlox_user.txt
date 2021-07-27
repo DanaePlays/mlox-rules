@@ -3244,4 +3244,4 @@ Corprusarium_Doors_of_Oblivion_Patch.ESP
 
 [Order]
 Beautiful cities of Morrowind.esp
-Vanilla friendly weareables expansion_cell_edits.esp
+Vanilla friendly wearables expansion_cell_edits.esp
