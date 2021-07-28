@@ -3245,3 +3245,8 @@ Corprusarium_Doors_of_Oblivion_Patch.ESP
 [Order]
 Beautiful cities of Morrowind.esp
 Vanilla friendly wearables expansion_cell_edits.esp
+
+[Order]
+Predator Beast Races.esp
+New Khajiit Diversity(BEAST).esp
+New Khajiit Diversity(BEAST)X.esp
