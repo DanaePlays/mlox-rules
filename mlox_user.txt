@@ -3270,3 +3270,8 @@ Holidays Across Tamriel - Vvardenfell - RR Holamayan mod.esp
  Immersive Mournhold already deals with adding distant statics so Distant Mornhold is not needed.
 Mournhold LOD.ESP
 Immersive Mournhold.esp
+
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Atmospheric Delights.ESP
