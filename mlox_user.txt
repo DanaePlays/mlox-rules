@@ -3250,3 +3250,23 @@ Vanilla friendly wearables expansion_cell_edits.esp
 Predator Beast Races.esp
 New Khajiit Diversity(BEAST).esp
 New Khajiit Diversity(BEAST)X.esp
+
+[Conflict]
+ The Publicans is already merged in Improved Inns Expanded.
+Improved Inns Expanded*.esp
+The Publicans.ESP
+
+[Conflict]
+ The patch included in BCoM is an esp replacer so Welcome Home.esp needs to be deactivated.
+Welcome Home.esp
+Welcome Home - BOM.esp
+
+[Conflict]
+ Only use one of them, not both.
+Holidays Across Tamriel - Vvardenfell.esp
+Holidays Across Tamriel - Vvardenfell - RR Holamayan mod.esp
+
+[Conflict]
+ Immersive Mournhold already deals with adding distant statics so Distant Mornhold is not needed.
+Mournhold LOD.ESP
+Immersive Mournhold.esp
