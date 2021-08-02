@@ -3275,3 +3275,11 @@ Immersive Mournhold.esp
  Already merged into BCoM:
 Beautiful cities of Morrowind.ESP
 Atmospheric Delights.ESP
+
+[Order]
+Beautiful cities of Morrowind.esp
+The Publicans.esp
+
+[Order]
+BOM_pathgrid_reset.esp
+BOM - Taller Lighthouse.esp
