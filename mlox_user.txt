@@ -3283,3 +3283,15 @@ The Publicans.esp
 [Order]
 BOM_pathgrid_reset.esp
 BOM - Taller Lighthouse.esp
+
+[Order]
+BOM_pathgrid_reset.esp
+BCOM_Suran Expansion.esp
+
+[Order]
+BCOM_Suran Expansion.esp
+BOM_Vanilla_Suran.esp
+
+[Order]
+BCOM_Suran Expansion.esp
+BCOM_suran underworld_expansion patch.esp
