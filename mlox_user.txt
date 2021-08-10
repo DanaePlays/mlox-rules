@@ -166,9 +166,9 @@ Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
 TR Improved Inns Add-on for NoM.esp
 Remiros' Tombs Expansion*.esp
-Interior exterior flag reset.esp
 BOM_pathgrid_reset.esp
 BOM_OpenMW_plazas.esp
+Interior exterior flag reset.esp
 YAJAN.esp
 
 [Order]
@@ -1920,9 +1920,9 @@ Stav_MaGAO*.esp
 Welcome to the Arena*.esp
 Merged Objects.esp
 multipatch.esp
-Interior exterior flag reset.esp
 BOM_pathgrid_reset.esp
 BOM_OpenMW_plazas.esp
+Interior exterior flag reset.esp
 
 [Order]
 Improved Inns Expanded.esp
