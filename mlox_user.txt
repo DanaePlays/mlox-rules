@@ -1309,6 +1309,11 @@ The Publicans.ESP
 Tales of Ald Velothi.esp
 
 [Order]
+LGNPC_Aldruhn_v*.esp
+LGNPC_Aldruhn_suppl.esp
+The Publicans (LGNPC compatible version).ESP
+
+[Order]
 RP House Hlaalu.esp
 The G93 Vanilla Quest Tweaks, RP Choices, Consequences Super Mega Package - Ultimate Edition.ESP
 
@@ -3255,6 +3260,11 @@ New Khajiit Diversity(BEAST)X.esp
  The Publicans is already merged in Improved Inns Expanded.
 Improved Inns Expanded*.esp
 The Publicans.ESP
+
+[Conflict]
+ Only use one of them, not both.
+The Publicans.ESP
+The Publicans (LGNPC compatible version).ESP
 
 [Conflict]
  The patch included in BCoM is an esp replacer so Welcome Home.esp needs to be deactivated.
