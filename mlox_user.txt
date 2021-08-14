@@ -461,6 +461,11 @@ Djangos Dialogue.esp
 Less_Generic_Nerevarine.esp
 
 [Order]
+Greetings for No Lore.esp
+LGNPC_NoLore.esp
+GfNL-LGNPC Patch.esp
+
+[Order]
 K_Potion_Upgrade_1.2.esp
 K_Scroll_Upgrade_MW_Trib_Bmoon.esp
 Key Replacer Trib & BM.esp
