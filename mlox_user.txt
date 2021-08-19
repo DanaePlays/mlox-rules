@@ -1560,7 +1560,7 @@ Animated_Morrowind - merged.esp
 [ORDER]
 Beautiful cities of Morrowind.ESP
 Suran_Underworld_v3.esp
-BOM_Vanilla_Suran.esp
+BOM_White_Suran.esp
 
 [ORDER]
 Fighters_Guild_Questline_Overhaul.ESP
@@ -2744,7 +2744,7 @@ Functional Slave Markets.esp
 
 [ORDER]
 Beautiful cities of Morrowind.esp
-BOM_Stavs_remover.esp
+BOM_Stavs_MGO.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.esp
@@ -3300,8 +3300,16 @@ BCOM_Suran Expansion.esp
 
 [Order]
 BCOM_Suran Expansion.esp
-BOM_Vanilla_Suran.esp
+BOM_White_Suran.esp
 
 [Order]
 BCOM_Suran Expansion.esp
 BCOM_suran underworld_expansion patch.esp
+
+[ORDER]
+OAAB_Grazelands.ESP
+Trackless Grazeland.ESP
+
+[Order]
+BOM_pathgrid_reset.esp
+BOM_Vanilla Trees.ESP
