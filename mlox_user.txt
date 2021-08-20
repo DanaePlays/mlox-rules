@@ -3310,3 +3310,7 @@ BOM_Vanilla_Suran.esp
 [Order]
 BCOM_Suran Expansion.esp
 BCOM_suran underworld_expansion patch.esp
+
+[Order]
+Unique_CaveRats.ESP
+Synthesis Series - Creatures and Diseases.ESP
