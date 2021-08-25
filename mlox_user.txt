@@ -3320,6 +3320,10 @@ BOM_pathgrid_reset.esp
 BOM_Vanilla Trees.ESP
 
 [Order]
+Ashfall.esp
+Bandits camps*.esp
+
+[Order]
 Unique_CaveRats.ESP
 Synthesis Series - Creatures and Diseases.ESP
 
