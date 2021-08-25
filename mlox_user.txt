@@ -3313,3 +3313,7 @@ Trackless Grazeland.ESP
 [Order]
 BOM_pathgrid_reset.esp
 BOM_Vanilla Trees.ESP
+
+[Order]
+Ashfall.esp
+Bandits camps*.esp
