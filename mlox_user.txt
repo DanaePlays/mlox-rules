@@ -3322,3 +3322,11 @@ BOM_Vanilla Trees.ESP
 [Order]
 Unique_CaveRats.ESP
 Synthesis Series - Creatures and Diseases.ESP
+
+[Requires]
+Better Siege at Firemoth Followers.ESP
+Siege at Firemoth.esp
+
+[Order]
+Siege at Firemoth.esp
+Better Siege at Firemoth Followers.ESP
