@@ -3317,3 +3317,15 @@ BOM_Vanilla Trees.ESP
 [Order]
 Ashfall.esp
 Bandits camps*.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+BCOM_Striderport Lights.ESP
+
+[Order]
+Animated Morrowind*.ESP
+Library_AM_addon.ESP
+
+[Order]
+Animated Morrowind*.ESP
+RPNR_Library.ESP
