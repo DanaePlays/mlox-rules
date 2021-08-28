@@ -461,6 +461,11 @@ Djangos Dialogue.esp
 Less_Generic_Nerevarine.esp
 
 [Order]
+Greetings for No Lore.esp
+LGNPC_NoLore.esp
+GfNL-LGNPC Patch.esp
+
+[Order]
 K_Potion_Upgrade_1.2.esp
 K_Scroll_Upgrade_MW_Trib_Bmoon.esp
 Key Replacer Trib & BM.esp
@@ -3319,6 +3324,18 @@ Ashfall.esp
 Bandits camps*.esp
 
 [Order]
+Unique_CaveRats.ESP
+Synthesis Series - Creatures and Diseases.ESP
+
+[Requires]
+Better Siege at Firemoth Followers.ESP
+Siege at Firemoth.esp
+
+[Order]
+Siege at Firemoth.esp
+Better Siege at Firemoth Followers.ESP
+
+[Order]
 Beautiful cities of Morrowind.esp
 BCOM_Striderport Lights.ESP
 
@@ -3337,3 +3354,4 @@ Cephalopod armor_BOM_patch.esp
 [ORDER]
 Beautiful cities of Morrowind.ESP
 RR_Cephalopod Armor_BOM_patch.esp
+
