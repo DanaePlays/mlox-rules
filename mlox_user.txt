@@ -1856,6 +1856,7 @@ BearArmorReplacer.ESP
 Bonemold_Armor.ESP
 BB Dark Brotherhood by Westly.esp
 New Boots of Blinding Speed.ESP
+Alex's Better Fitted Female Armors.ESP
 Plangke's Female Cuirass Replacer.esp
 
 ; Get the Rise of House Telvanni files in order.
