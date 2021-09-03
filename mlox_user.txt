@@ -3360,3 +3360,15 @@ RR_Cephalopod Armor_BOM_patch.esp
 Predator Beast Races.esp
 Argonian Diversity - Naga Breed.esp
 
+[Order]
+Beautiful cities of Morrowind.esp
+BCOM_Vanilla Ghostgate Pillars.ESP
+
+[Order]
+SOP_Canal_02.ESP
+BalmoraDocks.ESP
+
+[Order]
+SOP_Canal_01.ESP
+BalmoraDocks.ESP
+
