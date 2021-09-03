@@ -3356,3 +3356,7 @@ Cephalopod armor_BOM_patch.esp
 Beautiful cities of Morrowind.ESP
 RR_Cephalopod Armor_BOM_patch.esp
 
+[Order]
+Predator Beast Races.esp
+Argonian Diversity - Naga Breed.esp
+
