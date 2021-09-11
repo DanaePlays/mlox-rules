@@ -3372,3 +3372,11 @@ BalmoraDocks.ESP
 SOP_Canal_01.ESP
 BalmoraDocks.ESP
 
+[ORDER]
+Beautiful cities of Morrowind.ESP
+MasterIndexRedux
+
+[Order]
+Merged_Objects.esp
+VFWE_merged_objects_fix.ESP
+
