@@ -3374,7 +3374,7 @@ BalmoraDocks.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
-MasterIndexRedux
+MasterIndexRedux.esp
 
 [Order]
 Merged_Objects.esp
