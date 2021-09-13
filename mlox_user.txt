@@ -3380,3 +3380,7 @@ MasterIndexRedux.esp
 Merged_Objects.esp
 VFWE_merged_objects_fix.ESP
 
+[Order]
+Solstheim Tomb of the Snow Prince.esm
+MW_Children_1_0.esm
+
