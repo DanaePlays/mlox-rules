@@ -3387,9 +3387,9 @@ VFWE_merged_objects_fix.ESP
 Solstheim Tomb of the Snow Prince.esm
 MW_Children_1_0.esm
 
-[Order]
-Ownership Overhaul.esp
-Morrowind Anti-Cheese.esp
+;[Order]
+;Ownership Overhaul.esp
+;Morrowind Anti-Cheese.esp
 
 [Order]
 Glass Domes of Vivec.esp
