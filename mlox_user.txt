@@ -3384,3 +3384,22 @@ VFWE_merged_objects_fix.ESP
 Solstheim Tomb of the Snow Prince.esm
 MW_Children_1_0.esm
 
+[Order]
+Ownership Overhaul.esp
+Morrowind Anti-Cheese.esp
+
+[Order]
+Glass Domes of Vivec.esp
+Glass Domes of Vivec Ownership Overhaul Patch.ESP
+
+[Order]
+A Bard's Life.esp
+F&F_companions.ESP
+
+[Order]
+A Bard's Life.esp
+Taddeus_Foods_of_Tamriel.ESP
+
+[Order]
+A Bard's Life.esp
+MTC.esp
