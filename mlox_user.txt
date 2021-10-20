@@ -3406,3 +3406,11 @@ Taddeus_Foods_of_Tamriel.ESP
 [Order]
 A Bard's Life.esp
 MTC.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+An Armigers Tale*.esp
+
+[Order]
+An Armigers Tale*.esp
+BCOM_Arvesa_patch.esp
