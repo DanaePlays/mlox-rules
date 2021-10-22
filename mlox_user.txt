@@ -3415,3 +3415,31 @@ An Armigers Tale*.esp
 [Order]
 An Armigers Tale*.esp
 BCOM_Arvesa_patch.esp
+
+[Order]
+BTB's Game Improvements.esp
+avp BTBGI-NE - Factions.esp
+
+[Order]
+TR_Factions.esp
+avp BTBGI-NE - Factions*.esp
+
+[Order]
+BTBGI Loot Patch.ESP
+OAAB BTBGI Loot Patch.ESP
+
+[Order]
+OAAB An Issue of Thrust.ESP
+BTBGI Loot Patch.ESP
+
+[Order]
+OAAB Oriental Weapon Integration.ESP
+BTBGI Loot Patch.ESP
+
+[Order]
+OAAB Spears.ESP
+BTBGI Loot Patch.ESP
+
+[Order]
+Ahead of the Classes.ESP
+Ahead of the Classes-FF addon.ESP
