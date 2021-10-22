@@ -3417,8 +3417,8 @@ An Armigers Tale*.esp
 BCOM_Arvesa_patch.esp
 
 [Order]
-BTB's Game Improvements.esp
-avp BTBGI-NE - Factions.esp
+BTB's Game Improvements*.esp 
+avp BTBGI-NE - Factions*.esp
 
 [Order]
 TR_Factions.esp
