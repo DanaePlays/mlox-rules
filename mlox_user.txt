@@ -3255,6 +3255,7 @@ Beautiful cities of Morrowind.esp
 [Order]
 The Doors of Oblivion*.esp
 Corprusarium_Doors_of_Oblivion_Patch.ESP
+Doors of Oblivion+TOTSP Patch.esp
 
 [Order]
 Beautiful cities of Morrowind.esp
