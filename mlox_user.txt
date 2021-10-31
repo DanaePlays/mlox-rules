@@ -3439,3 +3439,7 @@ BTBGI Loot Patch.ESP
 Ahead of the Classes.ESP
 Ahead of the Classes-FF addon.ESP
 F&F_companions.ESP
+
+[Order]
+Beautiful cities of Morrowind.esp
+Guild of Vampire Hunters.esp
