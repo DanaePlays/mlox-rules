@@ -3089,8 +3089,6 @@ F&F_NoSitters.ESP
  Choose only one plugin:
 F&F_scarce.ESP
 F&F_MOAR.ESP
-F&F_Friends_only.ESP
-F&F_NoSitters.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
