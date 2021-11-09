@@ -3441,3 +3441,10 @@ F&F_companions.ESP
 [Order]
 Beautiful cities of Morrowind.esp
 Guild of Vampire Hunters.esp
+
+[Order]
+TLAD*.esp
+True Lights and Darkness PS TWEAKS.ESP
+True Skyrimized Torches.esp
+Glowing Flames - NoMoreLightlessFlames v1.1.ESP
+Glowing Flames - TrueLightsAndDarkness Tweaks.ESP
