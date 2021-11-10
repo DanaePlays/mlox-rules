@@ -3452,3 +3452,7 @@ Glowing Flames - TrueLightsAndDarkness Tweaks.ESP
 [Order]
 Balance - spells.esp
 BadDefaultSpells*.esp
+
+[Order]
+KS_Julan_Ashlander Companion_3.0_beta.esp
+Julan+TOTSP Patch.esp
