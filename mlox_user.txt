@@ -3448,3 +3448,7 @@ True Lights and Darkness PS TWEAKS.ESP
 True Skyrimized Torches.esp
 Glowing Flames - NoMoreLightlessFlames v1.1.ESP
 Glowing Flames - TrueLightsAndDarkness Tweaks.ESP
+
+[Order]
+Balance - spells.esp
+BadDefaultSpells*.esp
