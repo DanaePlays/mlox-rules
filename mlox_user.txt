@@ -3456,3 +3456,8 @@ BadDefaultSpells*.esp
 [Order]
 KS_Julan_Ashlander Companion_3.0_beta.esp
 Julan+TOTSP Patch.esp
+
+[Order]
+Privileges&Services.esp
+P&S -  No team jackets.esp
+P&S -  No team jackets - Dialogue edits.esp
