@@ -3501,3 +3501,31 @@ BTBGI Loot Patch.ESP
 BTBGI Loot Patch - TCBOO.ESP - With There Can Be Only One
 Weapons Integrated BTBGI Loot Patch.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated
 Weapons Integrated BTBGI Loot Patch - TCBOO.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One
+
+[Order]
+Beautiful cities of Morrowind.ESP
+Nordic Dagon Fel.ESP
+
+[Order]
+Creatures_RP*.ESP
+New Ilunibi.ESP
+
+[Order]
+Creatures_RP*.ESP
+GN - RuinedRedaynia.ESP
+
+[Order]
+Creatures_RP*.ESP
+MarenMabrigash.ESP
+
+[Order]
+Creatures_RP*.ESP
+KogoruhnExpanded.esp
+
+[Order]
+RP_bandits.ESP
+The Grove of Ben'Abi.ESP
+
+[Order]
+CliffRacerNests&Eggs2.esp
+The Grove of Ben'Abi.ESP
