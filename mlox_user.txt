@@ -117,6 +117,10 @@ Merged Objects.esp
 Merged_Leveled_Lists.esp
 multipatch.esp
 Mashed Lists.esp
+BTBGI Loot Patch.ESP
+BTBGI Loot Patch - TCBOO.ESP
+Weapons Integrated BTBGI Loot Patch.ESP
+Weapons Integrated BTBGI Loot Patch - TCBOO.ESP
 Morrowind Crafting 2*.esp
 Morrowind Crafting Equipment.esp
 Morrowind Crafting Houses.esp
@@ -2770,8 +2774,11 @@ Morrowind Anti-Cheese.esp
 Ownership Overhaul.esp
 Dark Brotherhood Armor Replacer.esp
 Expansions Integrated.esp
+BTB's Game Improvements (Necro Edit).esp
+BTB's Game Improvements (Necro Edit).Tweaked.esp
 BTB's Game Improvements*.esp
 BTBGI PFP Patch.esp
+Morrowind Anti-Cheese Tweaked.esp
 Beware the Sixth House.esp
 Tribunal Rebalance.esp
 Bloodmoon Rebalance.esp
@@ -3461,3 +3468,36 @@ Julan+TOTSP Patch.esp
 Privileges&Services.esp
 P&S -  No team jackets.esp
 P&S -  No team jackets - Dialogue edits.esp
+
+[Order]
+Restocking Alchemy Essentials.esp
+BTB's Game Improvements (Necro Edit).esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+mwse_PoisonCrafting.esp
+Restocking Alchemy Essentials PoisonCrafting Patch.esp
+Realistic_Repair_Add-on.esp
+BTBGI Realistic Repair Add-on Patch.esp
+
+[Order]
+OAAB Creature Loot and Ingredients BTBGI Patch.ESP
+Yet Another Guard Diversity - Regular.ESP
+Complete and Revised Vanilla Equipment Integrated YAGD Patch.ESP
+OAAB Weapons Integrated YAGD Patch.ESP
+
+[Order]
+OAAB Weapons Integrated.ESP
+OAAB Weapons Integrated TB Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit).ESP
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+OAAB Creature Loot.ESP
+OAAB Leveled Lists.ESP
+OAAB Ingredients.ESP
+
+[Conflict]
+Choose only one plugin:
+BTBGI Loot Patch.ESP
+BTBGI Loot Patch - TCBOO.ESP - With There Can Be Only One
+Weapons Integrated BTBGI Loot Patch.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated
+Weapons Integrated BTBGI Loot Patch - TCBOO.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One
