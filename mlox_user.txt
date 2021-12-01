@@ -3496,11 +3496,18 @@ OAAB Leveled Lists.ESP
 OAAB Ingredients.ESP
 
 [Conflict]
-Choose only one plugin:
+ Choose only one plugin:
+  BTBGI Loot Patch.ESP
+  BTBGI Loot Patch - TCBOO.ESP - With There Can Be Only One
 BTBGI Loot Patch.ESP
-BTBGI Loot Patch - TCBOO.ESP - With There Can Be Only One
-Weapons Integrated BTBGI Loot Patch.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated
-Weapons Integrated BTBGI Loot Patch - TCBOO.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One
+BTBGI Loot Patch - TCBOO.ESP
+
+[Conflict]
+ Choose only one plugin:
+  Weapons Integrated BTBGI Loot Patch.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated
+  Weapons Integrated BTBGI Loot Patch - TCBOO.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One
+Weapons Integrated BTBGI Loot Patch.ESP
+Weapons Integrated BTBGI Loot Patch
 
 [Order]
 Beautiful cities of Morrowind.ESP
