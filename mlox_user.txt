@@ -3536,3 +3536,366 @@ The Grove of Ben'Abi.ESP
 [Order]
 CliffRacerNests&Eggs2.esp
 The Grove of Ben'Abi.ESP
+
+[Order]
+Merged Objects.esp
+POST_merge_VFWE_patch.esp
+
+[Order]
+Creatures_RP*.ESP
+Golden Saint Variety.esp
+
+[Order]
+Welcome to the Arena! v6.7.esp
+BTBGIsation - Welcome to the Arena! v6.7.esp
+
+[Order]
+Ancient Foes.esp
+BTBGIsation - Ancient Foes.esp
+
+[Order]
+Area Effect Projectiles Integrated.esp
+BTBGIsation - Area Effect Projectiles Integrated.esp
+
+[Order]
+BT_Whitewolf_2_0_HOTV.esp
+BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
+
+[Order]
+BT_Whitewolf_2_0_HOTV.esm
+BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
+
+[Order]
+Clean To Serve Sithis_.esp
+BTBGIsation - Clean To Serve Sithis_.esp
+
+[Order]
+Clean_Mines & Caverns.esp
+BTBGIsation - Clean_Mines & Caverns.esp
+
+[Order]
+CultSheog.esp
+BTBGIsation - CultSheog.esp
+
+[Order]
+DD_Caldera_Expansion.esp
+BTBGIsation - DD_Caldera_Expansion.esp
+
+[Order]
+Face of the Hortator.esp
+BTBGIsation - Face of the Hortator.esp
+
+[Order]
+Hunter's Mark - A Marksman Mod.esp
+BTBGIsation - Hunter's Mark - A Marksman Mod.esp
+
+[Order]
+LeFemmArmor.esp
+BTBGIsation - LeFemmArmor.esp
+
+[Order]
+Lost Redoran Relics.esp
+BTBGIsation - Lost Redoran Relics.esp
+
+[Order]
+Mamaea Awakened.esp
+BTBGIsation - Mamaea Awakened.esp
+
+[Order]
+Missing snow armor.esp
+BTBGIsation - Missing snow armor.esp
+
+[Order]
+MoonlightOnTheOdaiRiver.esp
+BTBGIsation - MoonlightOnTheOdaiRiver.esp
+
+[Order]
+Morag Tong Polished.esp
+BTBGIsation - Morag Tong Polished.esp
+
+[Order]
+Mudcrab Imports Pirate Adventures.esp
+BTBGIsation - Mudcrab Imports Pirate Adventures.esp
+
+[Order]
+New Ilunibi.esp
+BTBGIsation - New Ilunibi.esp
+
+[Order]
+OAAB_Data.esm
+BTBGIsation - OAAB_Data.esp
+
+[Order]
+OAAB_Tel Mora.esp
+BTBGIsation - OAAB_Tel Mora.esp
+
+[Order]
+OJAI - Framerate Version.esp
+BTBGIsation - OJAI - Framerate Version.esp
+
+[Order]
+Olafs Cloaks and Hoods.esp
+BTBGIsation - Olafs Cloaks and Hoods.esp
+
+[Order]
+Racer Dust Arms and Armor.esp
+BTBGIsation - Racer Dust Arms and Armor.esp
+
+[Order]
+Redoran Exile Armor.esp
+BTBGIsation - Redoran Exile Armor.esp
+
+[Order]
+Solstheim Tomb of The Snow Prince.esm
+BTBGIsation - Solstheim Tomb of The Snow Prince.esp
+
+[Order]
+Tamriel_Data.esm
+BTBGIsation - Tamriel_Data.esp
+
+[Order]
+Tel_Aruhn_Chronicles.esp
+BTBGIsation - Tel_Aruhn_Chronicles.esp
+
+[Order]
+Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+BTBGIsation - Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+
+[Order]
+TR_Mainland.esm
+BTBGIsation - TR_Mainland.esp
+
+[Order]
+Umbra, Blademaster.esp
+BTBGIsation - Umbra, Blademaster.esp
+
+[Order]
+Uvirith's Legacy_3.53.esp
+BTBGIsation - Uvirith's Legacy_3.53.esp
+
+[Order]
+Wanderers of Solstheim-TOTSP.esp
+BTBGIsation - Wanderers of Solstheim-TOTSP.esp
+
+[Order]
+Wyrmhaven.esm
+BTBGIsation - Wyrmhaven.esp
+
+[Order]
+A Hermit's Request.esp
+BTBGIsation - A Hermit's Request.esp
+
+[Order]
+abotWaterLife.esp
+BTBGIsation - abotWaterLife.esp
+
+[Order]
+Balmora Guilds Expanded.esp
+BTBGIsation - Balmora Guilds Expanded.esp
+
+[Order]
+Better Robes TR.esp
+BTBGIsation - Better Robes TR.esp
+
+[Order]
+Blacktooth.esp
+BTBGIsation - Blacktooth.esp
+
+[Order]
+DA_Sobitur_Facility_Clean.esp
+BTBGIsation - DA_Sobitur_Facility_Clean.esp
+
+[Order]
+DA_Sobitur_Quest_Part_1 Clean.esp
+BTBGIsation - DA_Sobitur_Quest_Part_1 Clean.esp
+
+[Order]
+DA_Sobitur_Quest_Part_2 Clean.esp
+BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
+
+[Order]
+DA_Sobitur_Repurposed_1.esp
+BTBGIsation - DA_Sobitur_Repurposed_1.esp
+
+[Order]
+DRPV1.9.esp
+BTBGIsation - DRPV1.9.esp
+
+[Order]
+Entertainers Expanded.esp
+BTBGIsation - Entertainers Expanded.esp
+
+[Order]
+Fighters_Guild_Questline_Overhaul.esp
+BTBGIsation - Fighters_Guild_Questline_Overhaul.esp
+
+[Order]
+Fishing.esp
+BTBGIsation - Fishing.esp
+
+[Order]
+GDR_MasterFile.esm 
+BTBGIsation - GDR_MasterFile.esp
+
+[Order]
+King of Worms.esp
+BTBGIsation - King of Worms.esp
+
+[Order]
+Legacy of Odiil.esp
+BTBGIsation - Legacy of Odiil.esp
+
+[Order]
+Legend of ChemuaM.esp
+BTBGIsation - Legend of ChemuaM.esp
+
+[Order]
+LegendOmnidex.esp
+BTBGIsation - LegendOmnidex.esp
+
+[Order]
+Library of Vivec Overhaul - Full.esp
+BTBGIsation - Library of Vivec Overhaul - Full.esp
+
+[Order]
+ManyClothHelms.esp
+BTBGIsation - ManyClothHelms.esp
+
+[Order]
+NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
+BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
+
+[Order]
+Of Dungeons and Abodes.esp
+BTBGIsation - Of Dungeons and Abodes.esp
+
+[Order]
+OldMournholdOverhaul.esp
+BTBGIsation - OldMournholdOverhaul.esp
+
+[Order]
+Plumed Mountain.esp
+BTBGIsation - Plumed Mountain.esp
+
+[Order]
+quarraclan_refreshed.esp
+BTBGIsation - quarraclan_refreshed.esp
+
+[Order]
+Quests for Clans and Vampire Legends.esp
+BTBGIsation - Quests for Clans and Vampire Legends.esp
+
+[Order]
+SHS - Bloodskal Barrow.esp
+BTBGIsation - SHS - Bloodskal Barrow.esp
+
+[Order]
+Siege at Firemoth.esp
+BTBGIsation - Siege at Firemoth.esp
+
+[Order]
+Silent Island.esp
+BTBGIsation - Silent Island.esp
+
+[Order]
+Sky_Main.esm
+BTBGIsation - Sky_Main.esp
+
+[Order]
+Sotha Sil Expanded.esp
+BTBGIsation - Sotha Sil Expanded.esp
+
+[Order]
+SV - Terrors Of The Night Normal.esp
+BTBGIsation - SV - Terrors Of The Night Normal.esp
+
+[Order]
+Talos Cult Conspiracy.esp
+BTBGIsation - Talos Cult Conspiracy.esp
+
+[Order]
+The Hammer of Orsinium.esp
+BTBGIsation - The Hammer of Orsinium.esp
+
+[Order]
+The Lamp.esp
+BTBGIsation - The Lamp.esp
+
+[Order]
+The Merchant Fendus.esp
+BTBGIsation - The Merchant Fendus.esp
+
+[Order]
+The Rise of the Tribe Unmourned.esp
+BTBGIsation - The Rise of the Tribe Unmourned.esp
+
+[Order]
+TheRedoranAmulet.esp
+BTBGIsation - TheRedoranAmulet.esp
+
+[Order]
+Vivec Waistworks Expansion - GoVH comp.esp
+BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
+
+;; otherwise TLAD overwrite WHGT in Ilunibi 
+[Order]
+TLAD*.esp
+New Ilunibi.esp
+
+[Order]
+Clean_Mines & Caverns.esp
+Clean_Mines & Caverns - Script Fix.esp
+
+[Order]
+Ebonheart_Underworks.esp
+Ebonheart_Underworks - Disable Rebirth Question.esp
+
+[Order]
+MoonlightOnTheOdaiRiver.esp
+MoonlightOnTheOdaiRiver - Script Fix.esp
+
+[Order]
+Uvirith's Legacy_3.53.esp
+Uvirith's Legacy_3.53 - Script Fix.esp
+
+[Order]
+VB_EmynDB_Patch.esp
+VB_EmynDB_Patch - Script Fix.esp
+
+[Order]
+Wanderers of Solstheim-TOTSP.esp
+Wanderers of Solstheim-TOTSP - Script Fix.esp
+
+[Order]
+Wyrmhaven.esm
+Wyrmhaven - Hlarvis Dren - OpenMW.esp
+
+[Order]
+Wyrmhaven.esm
+Wyrmhaven - Script Fix.esp
+
+[Order]
+DD_Caldera_Expansion.esp
+DD_Caldera_Expansion - Script Fix.esp
+
+[Order]
+Fighters_Guild_Questline_Overhaul.esp
+Fighters_Guild_Questline_Overhaul - Enable OpenMW.esp
+
+[Order]
+Fighters_Guild_Questline_Overhaul.esp
+Fighters_Guild_Questline_Overhaul - Script Fix.esp
+
+[Order]
+Merged Objects.esp
+POST_merge_VFWE_patch.esp
+
+;; on nexus Slave Markets mod page, RP says 
+[Order]
+Improved Inns Expanded.esp
+Slave Markets_IEE_EE Patch.ESP
+
+;; Balmora Underworld path grid fix
+[Order]
+FLG - Balmora's Underworld V1.1.esp
+BU_pgrd.esp
