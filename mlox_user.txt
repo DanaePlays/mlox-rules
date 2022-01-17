@@ -3899,3 +3899,7 @@ Slave Markets_IEE_EE Patch.ESP
 [Order]
 FLG - Balmora's Underworld V1.1.esp
 BU_pgrd.esp
+
+[Order]
+BCOM West Gash.esp
+Beautiful cities of Morrowind.ESP
