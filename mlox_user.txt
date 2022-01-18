@@ -3903,3 +3903,7 @@ BU_pgrd.esp
 [Order]
 BCOM West Gash.esp
 Beautiful cities of Morrowind.ESP
+
+[Order]
+OAAB_Data.esm
+TR_Data.esm
