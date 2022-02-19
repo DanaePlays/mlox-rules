@@ -3925,3 +3925,7 @@ Imperial Legion Expansion.esp
 [Order]
 Religions Elaborated.ESP
 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+
+[Order]
+Beautiful cities of Morrowind.ESP
+The_magic_rock_of_Maar_Gan.esp
