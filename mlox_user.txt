@@ -3907,3 +3907,21 @@ Beautiful cities of Morrowind.ESP
 [Order]
 OAAB_Data.esm
 TR_Data.esm
+
+[Order]
+EcoAdjCrime*.esp
+Cutting Room Floor.esp
+Morag Tong Polished.esp
+BTB's Game Improvements*.esp
+
+[Order]
+Camonna Tong.esp
+RP House Hlaalu.esp
+
+[Order]
+Religions Elaborated.ESP
+Imperial Legion Expansion.esp
+
+[Order]
+Religions Elaborated.ESP
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
