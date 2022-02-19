@@ -3084,6 +3084,11 @@ Barabus' fireplaces*.ESP
 Beautiful cities of Morrowind.ESP
 Duke's Throne Room Overhaul.ESP
 
+[Conflict]
+ Already merged into BCoM:
+Beautiful cities of Morrowind.ESP
+Graffiti of Morrowind.ESP
+
 [ORDER]
 multipatch.esp
 Mashed Lists.esp
