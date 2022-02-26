@@ -962,10 +962,6 @@ Silgrad Tower*.esp
 indybank*.esp
 
 [Order]
-Better Clothes*.esp
-abotGuards*.esp
-
-[Order]
 TR_*.esp
 abot*TR.esp
 
@@ -1811,7 +1807,7 @@ Epic_Aldruhn + SadrithMora + Indye + NX9 House + Red Vos.esp
 Half11 misc mods + anticheese.ESP
 
 [ORDER]
-Better Clothes_v1.1.esp
+Better Clothes*.esp
 Articus Solstheim Clothes.esp
 
 [ORDER]
@@ -1843,7 +1839,7 @@ Caldera Mages Guild Expanded.esp
 Stav_MaGAO.esp
 
 [ORDER]
-Better Clothes_v1.1.esp
+Better Clothes*.esp
 Better Robes_v0.3.1 Patch.esp
 UFR_v3dot2_Patch.esp
 Unique weapons and armors replacer.esp
@@ -2187,10 +2183,6 @@ LGNPC__merged.esp
 [Order]
 Silgrad Tower*.esp
 indybank*.esp
-
-[Order]
-Better Clothes*.esp
-abotGuards*.esp
 
 [Order]
 Creatures.esp
@@ -3189,7 +3181,7 @@ Playable NPC Classes.esp
 Way of the Necromancer.esp
 
 [Order]
-Better Clothes Complete.esp
+Better Clothes*.esp
 TealPanda Wares.esp
 UFR_v3dot2.esp
 Unique Jewelry Redone.esp
