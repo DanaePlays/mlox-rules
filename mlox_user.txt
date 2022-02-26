@@ -3934,3 +3934,7 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 [Order]
 Beautiful cities of Morrowind.ESP
 The_magic_rock_of_Maar_Gan.esp
+
+[Order]
+Wares_NPC_TR.esp
+TR_Travels.esp
