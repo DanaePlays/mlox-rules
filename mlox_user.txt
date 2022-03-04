@@ -176,7 +176,7 @@ BOM_OpenMW_plazas.esp
 YAJAN.esp
 
 [Order]
-;Complete Trade Fix*.esp	; may conflict with NPC scripts
+;Complete Trade Fix*.esp	; may with NPC scripts
 ;add-on-pack_morrowind.esp
 ;Less Lore*.esp
 ;vgreetings*.esp
@@ -3930,3 +3930,44 @@ The_magic_rock_of_Maar_Gan.esp
 [Order]
 Wares_NPC_TR.esp
 TR_Travels.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Thieves' Guild in Gnaar Mok.esp
+Bal Molagmer Add-on.esp
+Lore-Friendly Bal Molagmer Gloves.esp
+More Redoran Master Helms.esp
+Plunder the Dungeon.esp
+Wanted Posters.esp
+Smooth Moves - Romancing Ahnassi.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Living with Caius.esp
+Refuse the Main Quest.esp
+Nationalist Nerevarine.esp
+Imperialist Nerevarine.esp
+Hortator.esp
+Ashlander Quests.esp
+Consequences for Looting the Andrano Tomb.esp
+Exterminate all the Brutes.esp
+Joinable Sixth House - So to Speak.esp
+Past Life Regressions.esp
+Sixth House Smugglers.esp
+Vampire Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
+Publius Claudius Follower.esp
+Legionpapers.esp
+dukesarmor.esp
+Imperial Legion Goods.esp
+
+[Conflict]
+ Choose one:
+The Talos Cult Conspiracy.esp
+Talos Cult Revised.esp
+
