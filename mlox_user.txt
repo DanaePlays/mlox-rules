@@ -2703,8 +2703,23 @@ Shal_Overgrown.esp
  (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
 F&F_base.esm
 CM_Partners_*.esp
+
+[Conflict]
+ F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_base.esm
 Outlaws.esp
+
+[Conflict]
+ F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_base.esm
 Starfires*.esp
+
+[Conflict]
+ F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
+ (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
+F&F_base.esm
 MCA*.esp
 
 [ORDER]
@@ -3935,10 +3950,26 @@ TR_Travels.esp
  Already merged in Theives Guild Overhaul:
 Thieves' Guild Overhaul.esp
 Thieves' Guild in Gnaar Mok.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
 Bal Molagmer Add-on.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
 Lore-Friendly Bal Molagmer Gloves.esp
 More Redoran Master Helms.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
 Plunder the Dungeon.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
 Wanted Posters.esp
 Smooth Moves - Romancing Ahnassi.esp
 
@@ -3946,15 +3977,55 @@ Smooth Moves - Romancing Ahnassi.esp
  Already merged in compilation Main Quest Overhaul:
 Main Quest Overhaul.esp
 Living with Caius.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Refuse the Main Quest.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Nationalist Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Imperialist Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Hortator.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Ashlander Quests.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Consequences for Looting the Andrano Tomb.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Exterminate all the Brutes.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Joinable Sixth House - So to Speak.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Past Life Regressions.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
 Sixth House Smugglers.esp
 Vampire Nerevarine.esp
 
@@ -3962,8 +4033,20 @@ Vampire Nerevarine.esp
  Already merged in compilation Imperial Legion Expansion:
 Imperial Legion Expansion.esp
 Publius Claudius Follower.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
 Legionpapers.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
 dukesarmor.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
 Imperial Legion Goods.esp
 
 [Conflict]
@@ -3975,22 +4058,98 @@ Talos Cult Revised.esp
  Already merged in compilation VanillaQuest Tweaks:
 The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Morrowind - Immanuel Kant Edition.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Libertarian Magical Services.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 The Corpse and the Skooma Pipe Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Oath to Saint Roris Instead.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Redoran Founder's Helm Add-on - Honor the Ancestors.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Hentus Needs Pants Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 A Cure for Vampirism - Skink's Solution.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Champion of Clutter.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Thelas' Pillows Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Duel of Honor - Improve the Chances.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 The Frostmoth Smugglers - Properly Rewarded.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Strange Man at Gindrala Hleran's House Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Immersive Neloth Reward.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Therana vs. Trerayna.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Teach Nels Llendo a Lesson.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Pacifist Options - When it Makes Sense.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Harvest's End Festival.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Fort Moonmoth Fundraiser Dinner.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Fargoth in Distress.esp
