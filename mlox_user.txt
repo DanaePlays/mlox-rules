@@ -3971,3 +3971,26 @@ Imperial Legion Goods.esp
 The Talos Cult Conspiracy.esp
 Talos Cult Revised.esp
 
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Morrowind - Immanuel Kant Edition.esp
+Libertarian Magical Services.esp
+The Corpse and the Skooma Pipe Overhaul.esp
+Oath to Saint Roris Instead.esp
+Redoran Founder's Helm Add-on - Honor the Ancestors.esp
+Hentus Needs Pants Overhaul.esp
+A Cure for Vampirism - Skink's Solution.esp
+Champion of Clutter.esp
+Thelas' Pillows Overhaul.esp
+Duel of Honor - Improve the Chances.esp
+The Frostmoth Smugglers - Properly Rewarded.esp
+Strange Man at Gindrala Hleran's House Overhaul.esp
+Immersive Neloth Reward.esp
+Therana vs. Trerayna.esp
+Teach Nels Llendo a Lesson.esp
+Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
+Pacifist Options - When it Makes Sense.esp
+Harvest's End Festival.esp
+Fort Moonmoth Fundraiser Dinner.esp
+Fargoth in Distress.esp
