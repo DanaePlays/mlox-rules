@@ -4153,3 +4153,7 @@ Fort Moonmoth Fundraiser Dinner.esp
  Already merged in compilation VanillaQuest Tweaks:
 The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
 Fargoth in Distress.esp
+
+[Order]
+rations.esp
+rations-wares.esp
