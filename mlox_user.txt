@@ -3943,6 +3943,10 @@ Beautiful cities of Morrowind.ESP
 The_magic_rock_of_Maar_Gan.esp
 
 [Order]
+MQE_MainQuestEnhancers*.esp
+Beautiful cities of Morrowind.ESP
+
+[Order]
 Wares_NPC_TR.esp
 TR_Travels.esp
 
