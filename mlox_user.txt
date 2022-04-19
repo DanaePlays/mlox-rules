@@ -4171,7 +4171,7 @@ TOTSP TD Content Integration.esp
 [Conflict]
  This TOTSP addon is not needed when you mergew objects:
 TOTSP_Forceful_Travel_NPC_Override.ESP
-Merged Objects
+Merged Objects.esp
 
 [Order]
 Merged Objects.esp
