@@ -1,2 +1,5 @@
 # mlox defaults
 mlox-data.7z
+mlox_settings.txt
+mlox_parser_msg.txt
+mlox_graph.json
