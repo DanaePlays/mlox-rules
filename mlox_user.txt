@@ -4176,3 +4176,11 @@ Merged Objects.esp
 [Order]
 Merged Objects.esp
 VFWE_merged_objects_fix.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+Save the Date.esp
+
+[Order]
+Beware the Sixth House.ESP
+Beware the Sixth House Tweaks.ESP
