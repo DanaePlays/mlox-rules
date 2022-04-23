@@ -4197,3 +4197,12 @@ quarraclan_refreshed.esp
 Morrowind Anti-Cheese.ESP
 Imperial Factions.ESP
 quarraclan_refreshed_legends - Faction and Anti-Cheese.esp
+
+[Order]
+BCOM Rocky West Gash.esp
+Beautiful cities of Morrowind.ESP
+
+[Conflict]
+ BCOM Rocky West Gash.esp is a complete replacer for Rocky West Gash
+Rocky_WG_Base_1.1.esp
+BCOM Rocky West Gash.esp
