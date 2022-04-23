@@ -152,6 +152,7 @@ abotMoreTraps.esp
 abotAlt.esp
 abotHideCorpse.esp
 True_Lights_And_Darkness*.esp
+TLAD*.esp
 Caverns Overhaul.esp
 Dwemer blinking lights*.esp
 Go To Jail*.esp
@@ -3854,6 +3855,8 @@ BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
 [Order]
 TLAD*.esp
 New Ilunibi.esp
+MarenMabrigash.ESP
+OAAB - Tombs and Towers.ESP
 
 [Order]
 Clean_Mines & Caverns.esp
@@ -4176,3 +4179,30 @@ Merged Objects.esp
 [Order]
 Merged Objects.esp
 VFWE_merged_objects_fix.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+Save the Date.esp
+
+[Order]
+Beware the Sixth House.ESP
+Beware the Sixth House Tweaks.ESP
+
+[Conflict]
+ quarraclan_refreshed replaces the original esp:
+quarraclan.esp
+quarraclan_refreshed.esp
+
+[Order]
+Morrowind Anti-Cheese.ESP
+Imperial Factions.ESP
+quarraclan_refreshed_legends - Faction and Anti-Cheese.esp
+
+[Order]
+BCOM Rocky West Gash.esp
+Beautiful cities of Morrowind.ESP
+
+[Conflict]
+ BCOM Rocky West Gash.esp is a complete replacer for Rocky West Gash
+Rocky_WG_Base_1.1.esp
+BCOM Rocky West Gash.esp
