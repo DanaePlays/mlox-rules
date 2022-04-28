@@ -4206,3 +4206,7 @@ Beautiful cities of Morrowind.ESP
  BCOM Rocky West Gash.esp is a complete replacer for Rocky West Gash
 Rocky_WG_Base_1.1.esp
 BCOM Rocky West Gash.esp
+
+[Order]
+Better Morrowind Armor.esp
+UMOPP_BetterArmorPatch.esp
