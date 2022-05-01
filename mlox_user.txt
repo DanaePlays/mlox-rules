@@ -4211,7 +4211,7 @@ BCOM Rocky West Gash.esp
 Better Morrowind Armor.esp
 UMOPP_BetterArmorPatch.esp
 
-[Order[
+[Order]
 No One is Above the Law (Stable).ESP
 Go To Jail 3.7.esp
 No one is Above the law - Go To Jail Patch.ESP
