@@ -4215,3 +4215,71 @@ UMOPP_BetterArmorPatch.esp
 No One is Above the Law (Stable).ESP
 Go To Jail 3.7.esp
 No one is Above the law - Go To Jail Patch.ESP
+
+[Conflict]
+ Oriental Ebony Weapon.ESP should be disabled.
+Oriental Ebony Weapon.ESP
+Oriental Ebony Weapons Integrated.esp
+
+[Conflict]
+ Oriental Ebony Weapon.ESP should be disabled.
+Oriental Ebony Weapon.ESP
+Oriental Ebony Weapons Integrated - TCBOO.ESP
+
+[Order]
+Oriental Ebony Weapons Integrated.esp
+Oriental Ebony Weapons Integrated - TCBOO.ESP
+There Can Be Only One.ESP
+
+[Conflict]
+ Redoran War and Sathil Mercenary Armor.ESP should be disabled.
+Redoran War and Sathil Mercenary Armor.ESP
+Redoran War and Sathil Mercenary Armor Integrated.ESP
+
+[Order]
+Redoran War and Sathil Mercenary Armor Integrated.ESP
+Redoran War and Sathil Mercenary Armor Integrated Temple Service Refusal Patch.ESP
+
+[Order]
+Solstheim - Tomb of The Snow Prince.esm
+Yet Another Guard Diversity - Regular.ESP
+Yet Another Guard Diversity OAAB Weapons Integrated Patch.ESP
+OAAB Weapons Integrated.ESP
+OAAB Weapons Integrated STOTSP TD Content Integration.ESP
+There Can Be Only One.ESP
+RV Dukes guard.ESP
+RV Armors Integrated.ESP
+OAAB Weapons Integrated RV Duke's Guard Patch.ESP
+Area Effect Arrows Integrated.ESP
+Area Effect Arrows and OAAB Weapons Integrated Patch.ESP
+Area Effect Projectiles and OAAB Weapons Integrated Patch.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Concept Art Daedric Helms.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete dreugh armor.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete Nordic Iron.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete and Revised Studded leather v 1.5.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+RV Dukes guard.ESP
+RV Armors Integrated.ESP
+
+[Order]
+Yet Another Guard Diversity - Regular.ESP
+Yet Another Guard Diversity RV Armors Integrated Patch.ESP
+RV Armors Integrated.ESP
