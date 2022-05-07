@@ -4283,3 +4283,15 @@ RV Armors Integrated.ESP
 Yet Another Guard Diversity - Regular.ESP
 Yet Another Guard Diversity RV Armors Integrated Patch.ESP
 RV Armors Integrated.ESP
+
+[Order]
+Library of Vivec Overhaul - Full.ESP
+Library of Vivec Overhaul - Full - Dialogue Fix.ESP
+
+[Order]
+The Doors of Oblivion 1.4.ESP
+The Doors of Oblivion 1.4 - Script Fix.ESP
+
+[Order]
+Morag Tong Polished.ESP
+Morag Tong Polished - TR_Factions.ESP
