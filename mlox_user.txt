@@ -4295,3 +4295,8 @@ The Doors of Oblivion 1.4 - Script Fix.ESP
 [Order]
 Morag Tong Polished.ESP
 Morag Tong Polished - TR_Factions.ESP
+
+[Order]
+Beautiful cities of Morrowind.ESP
+Of Eggs and Dwarves.ESP
+OEAD_BCOM_Patch.ESP
