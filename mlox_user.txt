@@ -4306,3 +4306,7 @@ OEAD_BCOM_Patch.ESP
 Suran_Underworld_v3.ESP
 Of Eggs and Dwarves.ESP
 Suran Underworld - Bethamez Patch.ESP
+
+[Order]
+BeaconOfstRilmsBCOMReborn.ESP
+BeaconOfstRilms - Clipping Fix.ESP
