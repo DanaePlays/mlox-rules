@@ -4332,3 +4332,7 @@ NewIlunibi_MainQuestOverhaul_Patch.ESP
  Use mortified.esp with Mort's Bloodmoon Rebalance
 Stone Halls of Solstheim.ESP
 Stone Halls of Solstheim - Mortified.ESP
+
+[Order]
+BeaconOfstRilmsBCOMReborn.ESP
+BeaconOfstRilms - Clipping Fix.ESP
