@@ -4328,3 +4328,7 @@ NewIlunibi_MainQuestOverhaul_Patch.ESP
 Main_Quest_Overhaul.ESP
 NewIlunibi_MainQuestOverhaul_Patch.ESP
 
+[Conflict]
+ Use mortified.esp with Mort's Bloodmoon Rebalance
+Stone Halls of Solstheim.ESP
+Stone Halls of Solstheim - Mortified.ESP
