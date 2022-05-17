@@ -3851,12 +3851,13 @@ BTBGIsation - TheRedoranAmulet.esp
 Vivec Waistworks Expansion - GoVH comp.esp
 BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
 
-;; otherwise TLAD overwrite WHGT in Ilunibi 
+;; otherwise TLAD overwrite WHGT in Ilunibi and other mods
 [Order]
 TLAD*.esp
 New Ilunibi.esp
 MarenMabrigash.ESP
 OAAB - Tombs and Towers.ESP
+GetWrecked.ESP
 
 [Order]
 Clean_Mines & Caverns.esp
@@ -4306,6 +4307,31 @@ OEAD_BCOM_Patch.ESP
 Suran_Underworld_v3.ESP
 Of Eggs and Dwarves.ESP
 Suran Underworld - Bethamez Patch.ESP
+
+[ORDER]
+Animated_Morrowind - merged.esp
+Library_AM_addon.ESP
+
+[ORDER]
+Main_Quest_Overhaul.ESP
+Save the Date - MQO Patch.esp
+
+[ORDER]
+Save the Date.esp
+Save the Date - MQO Patch.esp
+
+[ORDER]
+New Ilunibi.ESP
+NewIlunibi_MainQuestOverhaul_Patch.ESP
+
+[ORDER]
+Main_Quest_Overhaul.ESP
+NewIlunibi_MainQuestOverhaul_Patch.ESP
+
+[Conflict]
+ Use mortified.esp with Mort's Bloodmoon Rebalance
+Stone Halls of Solstheim.ESP
+Stone Halls of Solstheim - Mortified.ESP
 
 [Order]
 BeaconOfstRilmsBCOMReborn.ESP
