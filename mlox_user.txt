@@ -4336,3 +4336,9 @@ Stone Halls of Solstheim - Mortified.ESP
 [Order]
 BeaconOfstRilmsBCOMReborn.ESP
 BeaconOfstRilms - Clipping Fix.ESP
+
+[Order]
+Clean_Mines & Caverns.esp
+God of Worms.esp
+GoW-MaC Patch.esp
+ (Ref: "https://forums.nexusmods.com/index.php?/topic/8709778-god-of-worms/page-3#entry105559398")
