@@ -3268,7 +3268,9 @@ Beautiful cities of Morrowind.esp
 
 [Order]
 The Doors of Oblivion*.esp
+The_corprusarium_Exp.ESP
 Corprusarium_Doors_of_Oblivion_Patch.ESP
+The Doors of Oblivion - Integrated Levelled Lists.ESP
 Doors of Oblivion+TOTSP Patch.esp
 
 [Order]
