@@ -1396,6 +1396,18 @@ Ministry_of_Clarity.ESP
 Clean_Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
 
+[Patch]
+ Caeris provides a patch for [Clean_Mines & Caverns.esp] and [God of Worms.esp]
+ https://www.nexusmods.com/morrowind/mods/48028
+GoW-MaC Patch.esp
+[ALL Clean_Mines & Caverns.esp
+     God of Worms.esp]
+
+[Order]
+Clean_Mines & Caverns.esp
+God of Worms.esp
+GoW-MaC Patch.esp
+
 [Order]
 NX9_TongArmor.ESP
 RR_Danke's_Cephalopod_Armor_Eng.esp
