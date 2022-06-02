@@ -4349,3 +4349,8 @@ Morag Tong Polished.esp
 More Exclusive Factions.ESP
 Religions Elaborated.ESP
 Imperial Factions.ESP
+
+[Order]
+Imperial Stables.esp
+Beautiful cities of Morrowind.ESP
+Imperial Stables BCOM patch.ESP
