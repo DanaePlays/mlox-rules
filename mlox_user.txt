@@ -4354,3 +4354,13 @@ Imperial Factions.ESP
 Imperial Stables.esp
 Beautiful cities of Morrowind.ESP
 Imperial Stables BCOM patch.ESP
+
+
+[Order]
+tw_mausolem.esp
+Beautiful cities of Morrowind.ESP
+
+[Order]
+tw_mausoleum.esp
+Beautiful cities of Morrowind.ESP
+
