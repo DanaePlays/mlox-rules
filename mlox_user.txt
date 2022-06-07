@@ -3121,12 +3121,6 @@ BOM_ROHT_Patch.esp
 ROHT_2_0_8.esp
 
 [ORDER]
-Imperial_Legion_Expansion.esp
-More Exclusive Factions.ESP
-Religions Elaborated.ESP
-Imperial Factions.ESP
-
-[ORDER]
 Beautiful cities of Morrowind.esp
 Vibrant Ivy*.esp
 
@@ -3936,14 +3930,6 @@ Camonna Tong.esp
 RP House Hlaalu.esp
 
 [Order]
-Religions Elaborated.ESP
-Imperial Legion Expansion.esp
-
-[Order]
-Religions Elaborated.ESP
-The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
-
-[Order]
 Beautiful cities of Morrowind.ESP
 The_magic_rock_of_Maar_Gan.esp
 
@@ -4351,16 +4337,16 @@ Religions Elaborated.ESP
 Imperial Factions.ESP
 
 [Order]
+Religions Elaborated.ESP
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+
+[Order]
 Imperial Stables.esp
 Beautiful cities of Morrowind.ESP
 Imperial Stables BCOM patch.ESP
 
 [Order]
 tw_mausolem.esp
-Beautiful cities of Morrowind.ESP
-
-[Order]
-tw_mausoleum.esp
 Beautiful cities of Morrowind.ESP
 
 [Order]
