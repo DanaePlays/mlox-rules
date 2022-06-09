@@ -1296,6 +1296,7 @@ Vvardenfell Brotherhood.esp
 
 [Order]
 The Fires of Orcs.esp
+The_Fires_of_Orc.ESP
 Vvardenfell Brotherhood.esp
 
 [Order]
