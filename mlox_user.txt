@@ -1688,7 +1688,7 @@ Animated_Morrowind - merged.esp
 RP_NPCs.esp
 
 [ORDER]
-Animated_Morrowind - merged.esp
+Animated_Morrowind - merged*.esp
 People of Pelagiad.esp
 
 [ORDER]
@@ -3170,10 +3170,6 @@ Wares_Vvardenfell.esp
 [Order]
 Liar yes Idiot no.ESP
 F&F_companions.ESP
-
-[Order]
-Animated_Morrowind - merged*.esp
-People of Pelagiad.ESP
 
 [Order]
 Beautiful cities of Morrowind.esp
