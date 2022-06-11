@@ -4365,6 +4365,6 @@ Imperial Stables BCOM patch.ESP
 tw_mausolem.esp
 Beautiful cities of Morrowind.ESP
 
-[Order]
-dh_homes.esp
-Beautiful cities of Morrowind.ESP
+;[Order] - commented out, cause loop error
+;dh_homes.esp
+;Beautiful cities of Morrowind.ESP
