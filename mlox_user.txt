@@ -3167,6 +3167,28 @@ Wares-base.esm
 Wares-TR_DATA.esp
 Wares_Vvardenfell.esp
 
+[Requires]
+ST_Books_Wares*.ESP
+Wares-base.esm
+
+[Requires]
+ST_Books_Wares OAAB.ESP
+OAAB*.esm
+
+[CONFLICT]
+  Use only one
+ST_Books_Wares.ESP
+ST_Books_Wares OAAB.ESP
+ST_Books_Wares_rotate.ESP
+ 
+[ORDER]
+Wares-*.ESP
+ST_Books_Wares*.ESP
+ 
+[ORDER]
+ST_Books_Wares*.ESP
+F&F*.ESP
+
 [Order]
 Liar yes Idiot no.ESP
 F&F_companions.ESP
