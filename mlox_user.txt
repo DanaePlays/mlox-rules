@@ -4392,3 +4392,17 @@ Beautiful cities of Morrowind.ESP
 ;[Order] - commented out, cause loop error
 ;dh_homes.esp
 ;Beautiful cities of Morrowind.ESP
+
+[Conflict]
+You need to DISABLE Balmora Waterworks.esp
+Beautiful cities of Morrowind.esp
+Balmora Waterworks.esp
+
+[Conflict]
+Already merged into Beautiful Cities of Morrowind
+Beautiful cities of Morrowind.esp
+OAAB Huleen's Hut Overhaul.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.esp
+Tel Aruhn Chronicles quest and Yansirramus Overhaul addon.ESP
