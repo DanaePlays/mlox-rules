@@ -4394,12 +4394,12 @@ Beautiful cities of Morrowind.ESP
 ;Beautiful cities of Morrowind.ESP
 
 [Conflict]
-You need to DISABLE Balmora Waterworks.esp
+ You need to DISABLE Balmora Waterworks.esp
 Beautiful cities of Morrowind.esp
 Balmora Waterworks.esp
 
 [Conflict]
-Already merged into Beautiful Cities of Morrowind
+ Already merged into Beautiful Cities of Morrowind
 Beautiful cities of Morrowind.esp
 OAAB Huleen's Hut Overhaul.ESP
 
@@ -4424,8 +4424,8 @@ Morag Tong Polished.esp
 ESEP - Morag Tong Polished.ESP
 
 [ORDER]
-LGNPC Vivec Redoran
-Morag Tong Polished
+LGNPC Vivec Redoran.esp
+Morag Tong Polished.esp
 
 [ORDER]
 Quill of Feyfolken 2.0.esp
@@ -4459,7 +4459,7 @@ Better Clothes Complete.ESP
 Better Bodies.esp -> Better Robes.ESP
 
 [ORDER]
-KS_Julan_Ashlander Companion_3.0_beta 
+KS_Julan_Ashlander Companion_3.0_beta.esp
 JulanOMWpatch.esp
 
 [ORDER]
