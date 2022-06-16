@@ -4406,3 +4406,86 @@ OAAB Huleen's Hut Overhaul.ESP
 [ORDER]
 Beautiful cities of Morrowind.esp
 Tel Aruhn Chronicles quest and Yansirramus Overhaul addon.ESP
+
+[ORDER]
+Red MountainReborn.esp
+DN-GDRv1.2.1.esp
+
+;[ORDER]
+;DN-GDRv1.2.esp
+;DN-GDRv1.2.1.esp
+
+[ORDER]
+Red MountainReborn.esp
+Illuminated Order v2.0 - Lore Friendly.ESP
+
+[ORDER]
+Morag Tong Polished.esp
+ESEP - Morag Tong Polished.ESP
+
+[ORDER]
+LGNPC Vivec Redoran
+Morag Tong Polished
+
+[ORDER]
+Quill of Feyfolken 2.0.esp
+Quill of Feyfolken 2.0-OpenMW-Patch.esp
+
+[ORDER]
+Tribunal.esm
+AATL_Data.esm
+
+[ORDER]
+LGNPC_SeydaNeen.esp
+Improved Inns Expanded - LGNPC Seyda Neen.esp
+
+[ORDER]
+LGNPC_SeydaNeen.esp
+Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.ESP
+
+[ORDER]
+Library of Vivec Overhaul - Full.esp
+Library of Vivec Overhaul - Full - OpenMW Patch.esp
+
+[ORDER]
+Better Robes.ESP
+Better Robes_v0.3.1 Patch.esp
+
+[ORDER]
+Better Bodies.esp
+Better Clothes Complete.ESP
+
+[ORDER]
+Better Bodies.esp -> Better Robes.ESP
+
+[ORDER]
+KS_Julan_Ashlander Companion_3.0_beta 
+JulanOMWpatch.esp
+
+[ORDER]
+JulanOMWpatch.esp
+KS_Julan_MRM_Patch_1.0.ESP
+
+[ORDER]
+DD_Caldera_Expansion.esp
+OAAB Brother Junipers Twin Lamps.esp
+
+[ORDER]
+Velothi Wall Art.ESP
+Velothi Wall Art Re-Addon.ESP 
+
+[ORDER]
+Velothi Wall Art.ESP
+Velothi Wall Art - OAAB Grazelands - Patch.esp
+
+[ORDER]
+Velothi Wall Art.ESP
+Velothi Wall Art - An Armigers Tale - Patch.ESP
+
+[ORDER]
+Uvirith's Legacy_3.53.esp
+UL_3.5_OpenMW_1.3_Add-on.esp
+
+[ORDER]
+Library of Vivec Overhaul - Full.esp
+Library of Vivec Overhaul - Full - OpenMW Patch.esp
