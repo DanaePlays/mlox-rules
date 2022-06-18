@@ -4489,3 +4489,8 @@ UL_3.5_OpenMW_1.3_Add-on.esp
 [ORDER]
 Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Full - OpenMW Patch.esp
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Concept_Arts_plantations.esp
+
