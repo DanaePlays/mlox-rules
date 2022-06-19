@@ -4383,7 +4383,7 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 [Order]
 Imperial Stables.esp
 Beautiful cities of Morrowind.ESP
-Imperial Stables BCOM patch.ESP
+Imperial Stables BCOM.ESP
 
 [Order]
 tw_mausolem.esp
@@ -4410,10 +4410,6 @@ Tel Aruhn Chronicles quest and Yansirramus Overhaul addon.ESP
 [ORDER]
 Red MountainReborn.esp
 DN-GDRv1.2.1.esp
-
-;[ORDER]
-;DN-GDRv1.2.esp
-;DN-GDRv1.2.1.esp
 
 [ORDER]
 Red MountainReborn.esp
@@ -4446,17 +4442,6 @@ Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.ESP
 [ORDER]
 Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Full - OpenMW Patch.esp
-
-[ORDER]
-Better Robes.ESP
-Better Robes_v0.3.1 Patch.esp
-
-[ORDER]
-Better Bodies.esp
-Better Clothes Complete.ESP
-
-[ORDER]
-Better Bodies.esp -> Better Robes.ESP
 
 [ORDER]
 KS_Julan_Ashlander Companion_3.0_beta.esp
