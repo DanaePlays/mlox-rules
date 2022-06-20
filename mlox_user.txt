@@ -4479,3 +4479,18 @@ Library of Vivec Overhaul - Full - OpenMW Patch.esp
 Beautiful cities of Morrowind.ESP
 Concept_Arts_plantations.esp
 
+[ORDER]
+tribunal rebalance.ESP
+Mort's Rebalance Series BTBGI Patch.ESP
+
+[ORDER]
+Bloodmoon Rebalance.esp
+Mort's Rebalance Series BTBGI Patch.ESP
+
+[ORDER]
+Beware the Sixth House.ESP
+Mort's Rebalance Series BTBGI Patch.ESP
+
+[ORDER]
+Realistic_Repair_Add-on.ESP
+BTBGI Realistic Repair Add-on Patch.ESP
