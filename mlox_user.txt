@@ -274,7 +274,6 @@ multipatch.esp
 Mashed Lists.esp
 
 [Order]
-Morrowind Patch*.esm
 Texture Fix 2.0.esm
 Texture Fix - Bloodmoon 1.1.esm
 Texture Fix - merged.esm
