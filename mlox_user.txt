@@ -4197,11 +4197,6 @@ rations-wares.esp
 TOTSP TD Content Integration - Spiders.esp
 TOTSP TD Content Integration.esp
 
-[Conflict]
- This TOTSP addon is not needed when you mergew objects:
-TOTSP_Forceful_Travel_NPC_Override.ESP
-Merged Objects.esp
-
 [Order]
 Merged Objects.esp
 VFWE_merged_objects_fix.esp
