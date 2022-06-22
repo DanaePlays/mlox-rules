@@ -3315,8 +3315,13 @@ New Khajiit Diversity(BEAST)X.esp
 
 [Conflict]
  The Publicans is already merged in Improved Inns Expanded.
-Improved Inns Expanded*.esp
+Improved Inns Expanded.esp
 The Publicans.ESP
+
+[Conflict]
+ The Publicans is already merged in Improved Inns Expanded.
+The Publicans.ESP
+Improved Inns Expanded - Entertainers
 
 [Conflict]
  Only use one of them, not both.
