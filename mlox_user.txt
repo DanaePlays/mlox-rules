@@ -4508,3 +4508,12 @@ BDC-SN_LDM-CC compat.ESP
 BDC Seyda Neen.esp
 Census_and_Excise_Office_Faction.ESP
 BDC-SN_CEF compat.ESP
+
+[CONFLICT]
+NPC Faction Affiliation Corrector (Minimalistic).ESP
+NPC Faction Affiliation Corrector (Maximalistic).ESP
+
+[Order]
+TR_Mainland.esm
+OAAB - Shipwrecks.ESP
+OAAB - Shipwrecks - TR Patch.ESP
