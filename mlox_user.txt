@@ -4498,3 +4498,13 @@ BTBGI Realistic Repair Add-on Patch.ESP
 DD_Caldera_Expansion.esp
 OAAB Brother Junipers Twin Lamps.esp
 Yet Another Guard*.esp
+
+[ORDER]
+LDM - Choices and Consequences v0.48.ESP
+BDC Seyda Neen.esp
+BDC-SN_LDM-CC compat.ESP
+
+[ORDER]
+BDC Seyda Neen.esp
+Census_and_Excise_Office_Faction.ESP
+BDC-SN_CEF compat.ESP
