@@ -605,6 +605,7 @@ LGNPC__merged.esp
 [Order]
 LGNPC__merged.esp
 CultSheog.esp
+CultSheog-TR1912.esp
 
 [Order]
 TR_Preview*.esp
@@ -612,7 +613,7 @@ TR_Mainland*hotfix*.esp
 TR_signs+fixes*.esp
 
 [Order]
-MW Containers Animated exp.esp
+MW Containers Animated exp.espCultSheogCultSheogCultSheog
 floaty_boaties*.esp
 
 [Order]
@@ -2014,10 +2015,6 @@ Welcome Home.esp
 [Order]
 Seekers Faction*.esp
 ;JoinAll*.esp
-
-[Order]
-LGNPC__merged.esp
-CultSheog.esp
 
 [Order]
 MW Containers Animated exp.esp
