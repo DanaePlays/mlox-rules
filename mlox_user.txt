@@ -2798,7 +2798,6 @@ Dark Brotherhood Armor Replacer.esp
 Expansions Integrated.esp
 BTB's Game Improvements (Necro Edit).esp
 BTB's Game Improvements (Necro Edit).Tweaked.esp
-BTB's Game Improvements*.esp
 BTBGI PFP Patch.esp
 Morrowind Anti-Cheese Tweaked.esp
 Beware the Sixth House.esp
