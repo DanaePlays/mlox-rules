@@ -172,9 +172,9 @@ Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
 TR Improved Inns Add-on for NoM.esp
 Remiros' Tombs Expansion*.esp
-BOM_pathgrid_reset.esp
+BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
-BOM_OpenMW_plazas.esp
+BCOM_OpenMW_plazas.esp
 YAJAN.esp
 Randar's Smithy.esp
 
@@ -1505,7 +1505,7 @@ Better Enchantments TR.esp
 
 [ORDER]
 Uvirith's Legacy_3.53.esp
-BOM - Uvirith's Legacy.esp
+BCOM - Uvirith's Legacy.esp
 
 [ORDER]
 Antares Big Mod*.ESP
@@ -1566,7 +1566,7 @@ Beautiful cities of Morrowind.ESP
 AreaEffectArrows.esp
 
 [ORDER]
-BOM_abot_boats.esp
+BCOM_abot_boats.esp
 TOTSP_abotBoats.esp
 
 [ORDER]
@@ -1580,7 +1580,7 @@ Animated_Morrowind - merged.esp
 [ORDER]
 Beautiful cities of Morrowind.ESP
 Suran_Underworld_v3.esp
-BOM_White_Suran.esp
+BCOM_White_Suran.esp
 
 [ORDER]
 Fighters_Guild_Questline_Overhaul.ESP
@@ -1649,7 +1649,7 @@ Indoril Spear*.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
-SOP_Canal_02.esp
+BCOM_Canal_02.esp
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
@@ -1724,11 +1724,11 @@ TOTSP_abotBoats.esp
 
 [ORDER]
 abotBoats*.esp
-BOM_abot_boats.esp
+BCOM_abot_boats.esp
 
 [ORDER]
 abotSiltStriders*.esp
-AbotSiltStriders_BOM patch.esp
+AbotSiltStriders_BCOM patch.esp
 
 [ORDER]
 Unofficial Morrowind Official Plugins Patched.ESP
@@ -1946,9 +1946,9 @@ Stav_MaGAO*.esp
 Welcome to the Arena*.esp
 Merged Objects.esp
 multipatch.esp
-BOM_pathgrid_reset.esp
+BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
-BOM_OpenMW_plazas.esp
+BCOM_OpenMW_plazas.esp
 
 [Order]
 Improved Inns Expanded.esp
@@ -2009,7 +2009,7 @@ NOM3*.esp
 
 [Order]
 Beautiful cities of Morrowind.ESP
-Welcome Home - BOM.esp
+Welcome Home.esp
 
 [Order]
 Seekers Faction*.esp
@@ -2771,7 +2771,7 @@ Functional Slave Markets.esp
 
 [ORDER]
 Beautiful cities of Morrowind.esp
-BOM_Stavs_MGO.ESP
+BCOM_Stavs_MGO.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.esp
@@ -3130,7 +3130,7 @@ Pillow_Mage_Manor.esp
 
 [Conflict]
  Choose only one plugin:
-BOM_ROHT_Patch.esp
+BCOM_ROHT_Patch.esp
 ROHT_2_0_8.esp
 
 [ORDER]
@@ -3142,12 +3142,12 @@ Beautiful cities of Morrowind.esp
 Trellis addon*.esp
 
 [Order]
-BOM_pathgrid_reset.esp
-SOP_RichPlaza_IziStyle.esp
+BCOM_pathgrid_reset.esp
+BCOM_Izi_Hlaalu_plaza.esp
 
 [Order]
-BOM_pathgrid_reset.esp
-Brevur of Balmora - Finally Some Good Statue Mod.esp
+BCOM_pathgrid_reset.esp
+BCOM_Brevur.esp
 
 [Order]
 Wares-base.esm
@@ -3324,11 +3324,6 @@ The Publicans.ESP
 The Publicans (LGNPC compatible version).ESP
 
 [Conflict]
- The patch included in BCoM is an esp replacer so Welcome Home.esp needs to be deactivated.
-Welcome Home.esp
-Welcome Home - BOM.esp
-
-[Conflict]
  Only use one of them, not both.
 Holidays Across Tamriel - Vvardenfell.esp
 Holidays Across Tamriel - Vvardenfell - RR Holamayan mod.esp
@@ -3348,16 +3343,16 @@ Beautiful cities of Morrowind.esp
 The Publicans.esp
 
 [Order]
-BOM_pathgrid_reset.esp
-BOM - Taller Lighthouse.esp
+BCOM_pathgrid_reset.esp
+BCOM - Taller Lighthouse.esp
 
 [Order]
-BOM_pathgrid_reset.esp
+BCOM_pathgrid_reset.esp
 BCOM_Suran Expansion.esp
 
 [Order]
 BCOM_Suran Expansion.esp
-BOM_White_Suran.esp
+BCOM_White_Suran.esp
 
 [Order]
 BCOM_Suran Expansion.esp
@@ -3368,8 +3363,8 @@ OAAB_Grazelands.ESP
 Trackless Grazeland.ESP
 
 [Order]
-BOM_pathgrid_reset.esp
-BOM_Vanilla Trees.ESP
+BCOM_pathgrid_reset.esp
+BCOM_Vanilla Trees.ESP
 
 [Order]
 Ashfall.esp
@@ -3401,11 +3396,11 @@ RPNR_Library.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
-Cephalopod armor_BOM_patch.esp
+Cephalopod armor_BCOM_patch.esp
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
-RR_Cephalopod Armor_BOM_patch.esp
+RR_Cephalopod Armor_BCOM_patch.esp
 
 [Order]
 Predator Beast Races.esp
@@ -3416,11 +3411,11 @@ Beautiful cities of Morrowind.esp
 BCOM_Vanilla Ghostgate Pillars.ESP
 
 [Order]
-SOP_Canal_02.ESP
+BCOM_Canal_02.ESP
 BalmoraDocks.ESP
 
 [Order]
-SOP_Canal_01.ESP
+BCOM_Canal_01.ESP
 BalmoraDocks.ESP
 
 [ORDER]
