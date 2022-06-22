@@ -4496,8 +4496,8 @@ BTBGI Realistic Repair Add-on Patch.ESP
 
 [ORDER]
 DD_Caldera_Expansion.esp
-OAAB Brother Junipers Twin Lamps.esp
 Yet Another Guard*.esp
+OAAB Brother Junipers Twin Lamps.esp
 
 [ORDER]
 LDM - Choices and Consequences v0.48.ESP
@@ -4513,7 +4513,7 @@ BDC-SN_CEF compat.ESP
 NPC Faction Affiliation Corrector (Minimalistic).ESP
 NPC Faction Affiliation Corrector (Maximalistic).ESP
 
-[Order]
+[ORDER]
 TR_Mainland.esm
 OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
