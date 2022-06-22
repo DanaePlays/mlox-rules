@@ -4521,3 +4521,7 @@ GildergreenOfBalmora.esp
 [ORDER]
 OAAB Pomegranates.ESP
 BCOM_OAAB_Pomegranates_patch.ESP
+
+[ORDER]
+distant_seafloor*.esm
+Bloodmoon.esm
