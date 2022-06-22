@@ -3321,7 +3321,7 @@ The Publicans.ESP
 [Conflict]
  The Publicans is already merged in Improved Inns Expanded.
 The Publicans.ESP
-Improved Inns Expanded - Entertainers
+Improved Inns Expanded - Entertainers.esp
 
 [Conflict]
  Only use one of them, not both.
