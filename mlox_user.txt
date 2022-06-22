@@ -4517,3 +4517,12 @@ NPC Faction Affiliation Corrector (Maximalistic).ESP
 TR_Mainland.esm
 OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
+
+
+[ORDER]
+BCOM_pathgrid_reset.esp
+GildergreenOfBalmora.esp
+
+[ORDER]
+OAAB Pomegranates.ESP
+BCOM_OAAB_Pomegranates_patch.ESP
