@@ -4253,7 +4253,6 @@ Redoran War and Sathil Mercenary Armor Integrated.ESP
 Redoran War and Sathil Mercenary Armor Integrated Temple Service Refusal Patch.ESP
 
 [Order]
-Solstheim - Tomb of The Snow Prince.esm
 Yet Another Guard Diversity - Regular.ESP
 Yet Another Guard Diversity OAAB Weapons Integrated Patch.ESP
 OAAB Weapons Integrated.ESP
@@ -4268,28 +4267,12 @@ Area Effect Projectiles and OAAB Weapons Integrated Patch.ESP
 
 [Conflict]
  The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
-Concept Art Daedric Helms.ESP
 RV Armors Integrated.ESP
-
-[Conflict]
- The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
-Complete dreugh armor.ESP
-RV Armors Integrated.ESP
-
-[Conflict]
- The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
-Complete Nordic Iron.ESP
-RV Armors Integrated.ESP
-
-[Conflict]
- The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
-Complete and Revised Studded leather v 1.5.ESP
-RV Armors Integrated.ESP
-
-[Conflict]
- The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
-RV Dukes guard.ESP
-RV Armors Integrated.ESP
+[ANY Concept Art Daedric Helms.ESP
+     Complete dreugh armor.ESP
+     Complete Nordic Iron.ESP
+     Complete and Revised Studded leather v 1.5.ESP
+     RV Dukes guard.ESP
 
 [Order]
 Yet Another Guard Diversity - Regular.ESP
@@ -4311,11 +4294,17 @@ Morag Tong Polished - BCoM Patch.ESP
 
 [Order]
 Beautiful cities of Morrowind.ESP
+OEAD_BCOM_Patch.ESP
+
+[ORDER]
 Of Eggs and Dwarves.ESP
 OEAD_BCOM_Patch.ESP
 
 [Order]
 Suran_Underworld_v3.ESP
+Suran Underworld - Bethamez Patch.ESP
+
+[ORDER]
 Of Eggs and Dwarves.ESP
 Suran Underworld - Bethamez Patch.ESP
 
@@ -4351,6 +4340,9 @@ BeaconOfstRilms - Clipping Fix.ESP
 ;; Ref: "https://forums.nexusmods.com/index.php?/topic/8709778-god-of-worms/page-3#entry105559398"
 [Order]
 Clean_Mines & Caverns.esp
+GoW-MaC Patch.esp
+
+[ORDER]
 God of Worms.esp
 GoW-MaC Patch.esp
 
@@ -4367,6 +4359,9 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 
 [Order]
 Imperial Stables.esp
+Imperial Stables BCOM.ESP
+
+[ORDER]
 Beautiful cities of Morrowind.ESP
 Imperial Stables BCOM.ESP
 
@@ -4441,6 +4436,10 @@ DD_Caldera_Expansion.esp
 OAAB Brother Junipers Twin Lamps.esp
 
 [ORDER]
+Yet Another Guard*.esp
+OAAB Brother Junipers Twin Lamps.esp
+
+[ORDER]
 Velothi Wall Art.ESP
 Velothi Wall Art Re-Addon.ESP 
 
@@ -4481,29 +4480,29 @@ Realistic_Repair_Add-on.ESP
 BTBGI Realistic Repair Add-on Patch.ESP
 
 [ORDER]
-DD_Caldera_Expansion.esp
-Yet Another Guard*.esp
-OAAB Brother Junipers Twin Lamps.esp
+LDM - Choices and Consequences v<VER>.ESP
+BDC-SN_LDM-CC compat.ESP
 
 [ORDER]
-LDM - Choices and Consequences v0.48.ESP
 BDC Seyda Neen.esp
 BDC-SN_LDM-CC compat.ESP
 
 [ORDER]
 BDC Seyda Neen.esp
+BDC-SN_CEF compat.ESP
+
+[ORDER]
 Census_and_Excise_Office_Faction.ESP
 BDC-SN_CEF compat.ESP
 
 [CONFLICT]
+  Use only ESP
 NPC Faction Affiliation Corrector (Minimalistic).ESP
 NPC Faction Affiliation Corrector (Maximalistic).ESP
 
 [ORDER]
-TR_Mainland.esm
 OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
-
 
 [ORDER]
 BCOM_pathgrid_reset.esp
