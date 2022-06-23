@@ -8412,7 +8412,7 @@ BUUG Alchemy- Tribunal.esp
  (Ref: Building Up Uvirith's Legacy Readme.txt)
 [ANY Fast Eddie Fix v.0001.esp
      Fast Eddie Fix v .0001.esp]
-Uvirith's Legacy_*.esp
+Uvirith's Legacy_3.53.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Buyable Ghorak Manor [Monica21]
