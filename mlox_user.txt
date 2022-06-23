@@ -590,7 +590,6 @@ MW Containers Animated TR.esp
 MW Containers Animated exp.esp
 
 [Order]
-BT_Whitewolf*.esm
 BT_Whitewolf*.esp
 Solstheim_Castle*.esp
 
@@ -611,10 +610,6 @@ CultSheog-TR1912.esp
 TR_Preview*.esp
 TR_Mainland*hotfix*.esp
 TR_signs+fixes*.esp
-
-[Order]
-MW Containers Animated exp.espCultSheogCultSheogCultSheog
-floaty_boaties*.esp
 
 [Order]
 True_Lights_And_Darkness*.esp
