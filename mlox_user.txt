@@ -281,10 +281,8 @@ Better*Bodies*.esm
 Better*Heads*.esm
 ab01Head&Hair*.esm
 Book Rotate.esm
-Skyrim_Data.esm
-PC_Data.esm
 GDR_MasterFile.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 TownSounds.esp
@@ -566,7 +564,6 @@ TownSounds.esp
 Mudcrab Island*.esp
 Great Shoals*.esp
 TheForgottenShields*.esp
-
 
 [Order]
 WGIBalancing.esp
@@ -888,7 +885,7 @@ BT_Whitewolf*.esm
 
 [Order]
 Silgrad*.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 lfx_rare_merged.esp
@@ -998,14 +995,6 @@ abotSiltStridersTR*.esp
 [Order]
 TR_Preview*.esp
 abotGuards*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotBoatsTR*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotSiltStridersTR*.esp
 
 [Order]
 TR_Preview*.esp
@@ -1376,6 +1365,10 @@ Hunter's Mark - A Marksman Mod.ESP
 Djangos Dialogue.ESP
 Kummu Monastery Revisited.esp
 constance1_0.esp
+
+[Order]
+Djangos Dialogue.ESP
+Djangos Dialogue - Patch for Purists.esp
 
 [Order]
 New Argonian Bodies - Clean.esp
@@ -2140,20 +2133,12 @@ Solstheim Tomb of The Snow Prince.esm
 BT_Whitewolf*.esm
 
 [Order]
-Silgrad*.esm
-TR_Data.esm
-
-[Order]
 Vanheim*.esp
 *Miridian*.esp
 
 [Order]
 *Miridian*.esp
 *toes*.esp
-
-[Order]
-TR_Preview*.esp
-TR_Travels*.esp
 
 [Order]
 TR_Travels*.esp
@@ -2225,19 +2210,7 @@ abotTRWaterSound*.esp
 
 [Order]
 TR_Preview*.esp
-abotSiltStridersTR*.esp
-
-[Order]
-TR_Preview*.esp
 abotGuards*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotBoatsTR*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotSiltStridersTR*.esp
 
 [Order]
 TR_Preview*.esp
@@ -3947,7 +3920,7 @@ Beautiful cities of Morrowind.ESP
 
 [Order]
 OAAB_Data.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 EcoAdjCrime*.esp
