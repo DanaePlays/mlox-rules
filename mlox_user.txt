@@ -83,7 +83,7 @@ MAO_Vanilla.esp
 MAO_Regions.esp
 MAO_Creatures.esp
 MAO_Containers.esp
-Key Namer*.espfoyada mamaea overhaul.esp
+Key Namer*.esp
 PotionSorter*.esp
 Creatures (Semi).esp
 H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
@@ -1610,7 +1610,7 @@ TR_Travels Patch.esp
 TR_Travels_(P_M) Patch.esp
 
 [ORDER]
-Foyada Mamaea Overhaul.ESP
+OAAB - Foyada Mamaea.esp
 DD_Caldera_Expansion v15 + Stonewood Pass Patch.ESP
 Beautiful cities of Morrowind.ESP
 
@@ -1670,7 +1670,7 @@ Carelessly_Crazy_Caldera_Community_StoneWoodPass.ESP
 [ORDER]
 RedMountainReborn.esp
 RR_Ghost_Gate_Fortress_Eng.ESP
-;Foyada Mamaea Overhaul.ESP
+;OAAB - Foyada Mamaea.esp
 Moonmoth Legion Fort Overhaul.ESP
 AldRuhn_seat_of_power_RR_Skar_RMR.ESP
 AldRuhn_seat_of_power.ESP
@@ -2810,11 +2810,11 @@ Better Landscapes Stonewood Pass*.esp
 
 [ORDER]
 Walkers of Morrowind.esp
-Foyada Mamaea Overhaul.ESP
+OAAB - Foyada Mamaea.esp
 Better Landscapes Stonewood Pass*.esp
 
 [ORDER]
-Foyada Mamaea Overhaul.ESP
+OAAB - Foyada Mamaea.esp
 SWP - Foyada Mamaea Overhaul Patch.ESP
 
 [ORDER]
