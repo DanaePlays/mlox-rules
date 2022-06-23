@@ -4400,6 +4400,12 @@ DN-GDRv1.2.1.esp
 Red MountainReborn.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
 
+[Note]
+ Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
+ (Ref: https://www.nexusmods.com/morrowind/mods/47414 )
+[All RedMountainReborn.esp
+     Illuminated Order v2.0 - Lore Friendly.ESP]
+
 [ORDER]
 Morag Tong Polished.esp
 ESEP - Morag Tong Polished.ESP
