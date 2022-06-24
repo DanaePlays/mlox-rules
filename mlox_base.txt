@@ -43,8 +43,6 @@
 ;; Note: overuse of NearStart/NearEnd may render them meaningless.
 ;; They are intended to be used only for very special circumstances.
 
-;;Dragon32: Added some fix mods (fixes are not included in MPP 1.6.5b). Try to keep these to the absolute minimum.
-
 [NearStart]
 Morrowind.esm
 Tribunal.esm
@@ -70,9 +68,7 @@ Bloodmoon.esm
 multipatch.esp
 Mashed Lists.esp
 fogpatch.esp
-Merged_Leveled_Lists.esp
 Merged_Objects.esp
-Merged_Dialogs.esp
 Piratelords Trade Enhancements.esp
 NOM 2.12.esp
 NOM 2.13.esp
@@ -97,24 +93,19 @@ True_Lights_And_Darkness_1.1.esp ; (Ref: "True_Lights_And_Darkness_1.0_Readme.tx
 True_Lights_And_Darkness_1.1 + DBL.esp ; Dwemer Blinking Lights (q.v.) version
 
 [Order]
-Merged_Dialogs.esp
 Merged_Objects.esp
-Merged_Leveled_Lists.esp
 multipatch.esp
 Mashed Lists.esp
 
 ;;Danae: catch-all warning, removing all GMST warnings
 [Note]
-  !!! COMPULSORY STEPS: 1 clean mods (testool, tes3cmd) 2 Merge levelled lists (Wrye Mash, tes3cmd, Delta plugin) as well as merged objects (tes3merge).
+  !!! COMPULSORY STEPS: 1 clean mods (testool, tes3cmd) 2 Merge levelled lists (Wrye Mash, tes3cmd, Delta plugin, tes3merge) as well as merged objects (tes3merge).
  Wrye Mash: https://www.nexusmods.com/morrowind/mods/45439
  Wrye Mash for OpenMW: https://www.nexusmods.com/morrowind/mods/46935
  tes3merge: https://www.nexusmods.com/morrowind/mods/46870
  tes3cmd: http://www.abitoftaste.altervista.org/morrowind/index.php?option=weblinks&task=visit&id=73&Itemid=2&-tes3cmd-exe-0-37v
  testool: https://www.nexusmods.com/morrowind/mods/47473
 [NOT [ANY Merged Objects.esp
-     Merged_Dialogs.esp
-     Merged_Objects.esp
-     Merged_Leveled_Lists.esp
      multipatch.esp
      Mashed Lists.esp]]
 
@@ -134,12 +125,11 @@ Mashed Lists.esp
  !!! Morrowind Patch Project (MPP) and Unofficial Morrowind Patch Project (UMPP) are terribly obsolete and rather controversial.Use Patch for Purists instead (https://www.nexusmods.com/morrowind/mods/45096)
  (ref: We know better now)
 Morrowind Patch*.esm
-Morrowind Rebirth <VER> - Morrowind Patch*.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Grass warnings
 [Note]
- !!! Do not enable these ESPs if you are using MGE to render the grass.
+ !!! Do not enable these ESPs or grass will have collision and tank fps.
  !! When creating your distant lands, select one plugin per region only
 Grass AC.esp
 Grass AI.esp
@@ -183,11 +173,7 @@ Grass_Tamriel Rebuilt.esp
 Grass_TR_TI&M.esp
 Grass_West Gash.esp
 NoM_Grass FotG+FF.esp
-Ozzy's Grass - Ascadian Isles.esp
-Ozzy's Grass - Bitter Coast.esp
-Ozzy's Grass - Grazelands.esp
-Ozzy's Grass - Solstheim.esp
-Ozzy's Grass - West Gash.esprass.Tel.Meskoa.1.2.engl.esp
+Ozzy's Grass*.esp
 PC_Stirk_Grass.ESP
 ReBirthGrass.esp
 Rem_AC.esp
@@ -198,25 +184,11 @@ Rem_GL.esp
 Rem_LoC.esp
 Rem_LoCM.esp
 Rem_Solstheim.esp
-Rem_TRp_AI.esp
-Rem_TRp_AL.esp
-Rem_TRp_AT.esp
-Rem_TRp_BC.esp
-Rem_TRp_GL.esp
-Rem_TRp_GM.esp
-Rem_TRp_RR.esp
-Rem_TRp_Sol.esp
-Rem_TRp_TV.esp
-Rem_TRp_WG.esp
+Rem_TRp*.esp
+Rem_TR*.esp
 Rem_WG.esp
 Sky_Main_Grass.esp
 Vurt's Corals.esp
-Vurt's Groundcover - BC, AI, WG, GL.esp
-Vurt's Groundcover - Solstheim [Lush version].esp
-Vurt's Groundcover - Solstheim [Sparse version].esp
-Vurt's Groundcover - The Ashlands.esp
-Vurt's Groundcover for NoM - BC, AI, WG, GL.esp
-Vurt's Groundcover for NoM - Solstheim [Lush version].esp
 Vurt's Groundcover*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -263,14 +235,11 @@ Werewolves.esp
 ;; @TESTool [ghostwheel]
 
 [Note]
- !!! Warning, the merged dialogs feature of TESTOOL is widely considered to be broken, it will cause some mods to stop working, and it is recommended you do not use it.
+ !!! Warning, the Merged Dialogs feature of TESTOOL is widely considered to be broken, it will cause some mods to stop working, and it is recommended you do not use it.
 Merged_Dialogs.esp
 
 [Note]
- The Merged Leveled Lists feature of TESTool does not correctly calculate all merged lists. It is recommended that you also use aerelorn's "Leveled List Resequencer" tool after creating Merged_Leveled_Lists.esp.
- (Ref: http://wiki.theassimilationlab.com/mmw/TESTool#Suggestions_for_use )
- aerelorn's Leveled List Resequencer: http://mw.modhistory.com/download-37-891
- Or better yet, just use "Wrye Mash" to create "Mashed Lists.esp".
+ !!! The Merged Leveled Lists feature of TESTool does not correctly calculate all merged lists and is not recommended. It is recommended that you use tes3cmd, tes3merge, or Delta plugin to merge leveled lists.
 Merged_Leveled_Lists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -305,7 +274,6 @@ A good place to stay, Ver 1,8.esp
 
 [Conflict]
  "There's a conflict with [Cuchullian's "A Good Cottage" and] the Ascadian Guar Ranch (it's the Ranch's fault, I think) that buries the yard and doorway of the Cottage in a hill."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=546 )
 A Good Cottage.esp
 AscadianRanch-1.0.esp
 
@@ -440,7 +408,6 @@ AAA <VER> Addon - Westly.ESP
  "DO NOT use this plugin with "AAA 2.2 addon - Vanilla": you don't need it, and the two are NOT compatible."
  (Ref: "AAA 2.2 Addon - Westly Readme.txt" and "AAA 2.2 Addon - Westly (standalone) Readme.txt")
  As ESP files can only add items to levelled lists it is impossible to remove the items added by the Vanilla addon where they clash with those added by the Westly addon, or where the Westly addon gives more appropriate choices.
- (Ref: http://forums.bethsoft.com/topic/1498128-rel-rayms-absolutely-aleatory-accoutrements-20/?p=23646232 )
 [ANY AAA <VER> Addon - Westly.ESP
      AAA <VER> Addon - Westly (standalone).ESP]
 AAA <VER> Addon - Vanilla.ESP
@@ -752,7 +719,6 @@ Advanced Herbalism - BM.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 [ANY Advanced Herbalism - MO.esp
      Advanced Herbalism - TR & BM.esp
      Advanced Herbalism - TR.esp
@@ -772,7 +738,6 @@ AMRP 1.2.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -1020,7 +985,6 @@ AlchemyStorageHelper10.esp
  You may see an error message:
     Unable to find script 'ASH_Zombie_S' on object 'ASH_Dead'
  The non-existent script "ASH_Zombie_S" is assigned to "ASH_Dead", a leftover NPC not used by the mod. You can delete the "ASH_Dead" NPC from the mod using the Construction Set. The mod works fine without it.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?act=findpost&hl=ASH_Zombie_S&pid=13726158 )
  Leonardo has released a patched version of "Alchemy Storage Helper" fixing this error:
  http://mw.modhistory.com/download-1-11736
 [SIZE !11054 ASH 2.0.esp]
@@ -1242,7 +1206,6 @@ ale_clothing_v1.esp
 
 [Note]
  !! Some people have reported the Aleanne NPC disappearing from their game due to a local reference conflict. The Morrowind Code Patch by Hrnchamd ( http://morrowind.nexusmods.com/mods/19510 ) reduces the chances of such local reference conflicts, alternatively one can use Wrye Mash's Renumber Refs function ( http://wryemusings.com/Wrye%20Mash.html#RenumberRefs ) on one of the two "Aleanne Armor and Clothes" mods.
- !! (Ref: http://forums.bethsoft.com/index.php?/topic/1055283-merchant-from-aleannes-clothing-mod-issue/page__view__findpost__p__15313079 )
 [ALL ale_clothing_v0.esp
      ale_clothing_v1.esp]
 
@@ -1703,7 +1666,6 @@ Abendgold.ESP
 
 [Conflict]
  "The Amulet of Scrye has conflicts with Mountainous Red Mountain in cells (2, 7), and (3, 5).  There are a couple of NPCs and activators that are buried underground."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24217352 )
 Amulet of Scrye.esp
 MRM.esm
 
@@ -1912,7 +1874,6 @@ AC_Optimized_AA.esp
 Animated Morrowind 1.0.esp
 
 ;; Ref:
-;; http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__17179026
 ;; JMS: the "Expanded" plugin overrides various definitions so it looks like it should come last.
 [Order]
 Animated Morrowind 1.0.esp
@@ -1934,7 +1895,6 @@ Animated_Morrowind - Expanded.esp
   MCA__Animated_Morrowind__Expanded.esp - If you use MCA 7.0
   Animated_Morrowind - Expanded.esp - If you do not
  "MCA - Animated_Morrowind - Expanded.esp should be used in place of original Animated_Morrowind - Expanded.esp."
- (Ref: http://forums.bethsoft.com/topic/1376740-relz-morrowind-comes-alive-70/page__view__findpost__p__20881423 )
 Animated_Morrowind - Expanded.esp
 MCA__Animated_Morrowind__Expanded.esp
 
@@ -2024,7 +1984,6 @@ Illuminated Order v1.0.esp
 Another Balmora.esp
 Illuminated Order v1.0.esp
 
-;; Dragon32 - Ordering: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1052419&view=findpost&p=15272514
 [Order]
 Another Balmora (illuminated order version).esp
 Illuminated Order v1.0.esp
@@ -2043,7 +2002,6 @@ Another Balmora.esp
 [ALL Illuminated Order v1.0.esp
      NOM 2.13.esp]
 
-;; Dragon32 - Ordering: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1052419&view=findpost&p=15272514
 [Order]
 Another Balmora (NoM + illuminated Order).esp
 Illuminated Order v1.0.esp
@@ -2064,7 +2022,6 @@ NOM 2.13.esp
 Another Balmora.esp
 NOM 2.13.esp
 
-;; Dragon32 - Ordering: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1052419&view=findpost&p=15272514
 [Order]
 Another Balmora (NoM version).esp
 NOM 2.13.esp
@@ -2081,7 +2038,6 @@ Antares Big Mod <VER>.esp
 
 [Conflict]
  Antares' Big Mod includes these other mods. You should not run them at the same time.
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=5892 )
 [ANY Antares' Big Mod <VER>.esp
      Antares Big Mod <VER>.esp]
 [ANY Agent's Services.esp
@@ -2101,7 +2057,6 @@ Antares Big Mod <VER>.esp
 
 [Conflict]
  "[There is] a quest-breaking conflict between ["Antares' Big Mod"] (the Temple Patriarch section) and the ["The Lost Artifacts of Morrowind" by Rogue Shadow, Sterling, Case, Palinurus and Oriphier] - the changes ["Antares' Big Mod"] makes to the Ministry of Truth conflict with one of ["The Lost Artifacts of Morrowind"]'s quests that place an item and a character there."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=5892 )
 [ANY Antares' Big Mod <VER>.esp
      Antares Big Mod <VER>.esp]
 [ANY Clean The Lost Artifacts of Morrowind.esm
@@ -2269,7 +2224,6 @@ AprogasVampire WakimImprovements.20021210.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 ;; Gameplay - Dialogue.esp adds some generic rumours and the like
 [Order]
 Less Lore.esp
@@ -2820,7 +2774,6 @@ NOM 2.13.esp
  Korana's "Ascadian Rose Cottage" is not compatible with Taddeus' "Necessities of Morrowind" 3.0
  "Ascadian Rose Cottage DX" by Gaius Atrius was designed to work with NoM 3.0.
  Download "Ascadian Rose Cottage DX" from Morrowind Modding History - http://mw.modhistory.com/download-48-6719
- (Ref: http://forums.bethsoft.com/topic/1506596-koranas-ascadian-rose-cottagenom-303-conflict/?p=23750317 )
 Ascadian_Rose_Cottage_ver1.0.esp
 NoM 3.0.esp
 
@@ -3404,7 +3357,6 @@ AshlanderTentDX - Kirel IW Addon.esp
      NOM 2.13.esp]
 
 ;Dragon32: Load order for 2.13 should duplicate the v3.0 one
-; http://forums.bethsoft.com/index.php?/topic/1101395-relz-ashlander-tent-dx/page__view__findpost__p__16458559
 [Order]
 AshlanderTentDX.esp
 AshlanderTentDX - NOM Addon.esp
@@ -3446,7 +3398,6 @@ Assassin Ambush.ESP
  !!! Using hollaajith's "Assassin Ambush" with Xiran's "Better Music System" can cause crashes as Xiran's "Better Music System" tracks NPCs / creatures in combat with the player, when the Dark Brotherhood assassin's from hollaajith's mod teleport away this can cause Morrowind to crash.
  !!! You should disable the Dark Brotherhood assassins teleporting, in the console enter this command:
  !!!  Set UAH_DBFlee to 0
- !!! (Ref: http://forums.bethsoft.com/topic/1463732-hollaajiths-tweaks-and-fixes/page-3#entry23418808 )
 [ANY Assassin Ambush - Easy.ESP
      Assassin Ambush.ESP]
 [ANY BetterMusicSystem_<VER>.esp
@@ -3702,7 +3653,6 @@ Atmospheric Plazas - WG.ESP
 Atmospheric Plazas.ESP
 
 ;;My Atmospheric Plaza mod needs to load after lighing mods like True Lights and darkness which alter cell lighting or any mod that do changes the cell of the vivec plazas.
-;;http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24165104
 [Order]
 LBS_addon_hvy_v1.1.esp
 Atmospheric Plazas - IlluWind.ESP
@@ -3946,7 +3896,6 @@ silgrad_tower_1-4_6.6.esp
 AtmosphericSoundEffects-3.0-TBM.esp
 
 ;;Dragon32: ASE alters weather settings, if someone's got a weather mod loaded they they'll want that to take effect
-;;Ref: http://forums.bethsoft.com/topic/1215570-is-there-an-official-mod-confliction-thread/?p=18215928
 [Order]
 AtmosphericSoundEffects-3.0-Tribunal.esp
 NiceWeather_0617.esp
@@ -4394,7 +4343,6 @@ Balanced weapons and armor.esp
 [Note]
  "Balanced Weapons and Armor" by Number One uses a number of resources from Fidel_'s "Blademaster Resource Pack". Whilst you do not need Fidel_'s plugin enabled you will need the resources from his "Blademaster Resource Pack" installed
  Download Fidel_'s "Blademaster Resource Pack" from Morrowind Modding History - http://mw.modhistory.com/download-87-5447
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=8634 )
 [ALL Balanced weapons and armor.esp
      [NOT blademaster.esp]]
 
@@ -4484,7 +4432,6 @@ Balmora Expansion - LITE 1.0.esp
 BE+(1.4) Better Looking Morrowind.esp
 
 ;; Ordering:
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13477129 )
 ;; (Ref: Readme - Texture Fix- Balmora Expansion.txt)
 [Order]
 Grandmaster of Hlaalu.esp
@@ -4560,7 +4507,6 @@ Balmora Expansion - LITE 1.0.esp
 BE+(1.4) Better Looking Morrowind.esp
 
 ; Vality's Balmora Addon.esp conflicts with Balmora Expansion but it should work okay if you load it before BE.
-; (Ref: "http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13485819 )
 [Order]
 Vality's Balmora Addon.esp
 Vality's Balmora for Vurt's BC.esp ;Knots' modified version
@@ -4568,7 +4514,6 @@ Balmora Expansion v1.4.esp
 Balmora Expansion v1.4+(1.4).esp
 BE+(1.4) Better Looking Morrowind.esp
 
-; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=978167&view=findpost&p=14137890 )
 [Order]
 Vality's Bitter Coast Addon.esp
 Vality's BC for Vurt's BC.esp ;Knots' modified version
@@ -5084,7 +5029,6 @@ Balmora University V2.30.esp ; Crlsniper
 
 ; JMS - I assumed that all the various BE's would have a similar conflict.
 ;;Dragon32: "balmorau.esp will work with Balmora Expansion" - latendresse76. So removed that from this Conflict rule
-;;ref: http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__18931826
 [Conflict]
  Balmora University has a major conflict with Balmora Expansion. According to the comment by Crlsniper at PES a future version of his "Balmora University" may be compatible with "Balmora Expansion".
  (Ref: reported by Marcus La Tendresse)
@@ -5599,7 +5543,6 @@ BetterClothes_Patch.esp
 
 [Note]
  When using TESTOOL's "Merged_Objects.esp", it is recommended to omit Keazen's BC patch from the merge.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 [ALL BetterClothes_Patch.esp
      Merged_Objects.esp]
 
@@ -5619,7 +5562,6 @@ BetterClothesBloodmoonPlus<VER>.esp
      BetterClothesForTB.esp]
 
 ;;"This mod should load below your Better clothes mod as it changes the meshes that were used to point to female but were actually male meshes."
-;;Ref: http://forums.bethsoft.com/topic/1446772-rel-better-clothes-bloodmoon-plus/?p=22874566
 [Order]
 Better Clothes_v1.1.esp
 Better Clothes.esp
@@ -5825,7 +5767,6 @@ BLLDV_MW_ONLY.esp
 BLLDV_MW_TR.esp
 
 ;; load BLLDV after NOM, to ensure that labels are on the bottles.
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13484010 )
 [Order]
 NOM 2.13.esp
 BLLDV_ALL.esp
@@ -6246,7 +6187,6 @@ Better Robes.ESP
           Better Clothes nac.esp]
 
 ;;"[Moranar's] Better Robes should load before Unique Finery"
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24092866
 
 [Order]
 Better Robes.ESP
@@ -6429,7 +6369,6 @@ Better_Sounds.esp
  !!  Cell "Bitter Coast Region" not found for dialogue type Topic
  !!  Info "EMPTY"
  !! To fix this you will need to edit the "Better_Sounds.esp" plugin and restore the correct region names.
- !! (Ref: http://forums.bethsoft.com/topic/1243048-error-in-antares-big-mod/?p=18872973 )
 [ANY [SIZE 82084 Better_Sounds.esp] ;;1.0
      [SIZE 81877 Better_Sounds.esp] ;;1.0 TESTool
      [SIZE 107425 Better_Sounds.esp] ;;1.1
@@ -6751,7 +6690,6 @@ Juniper's Twin Lamps (1.1 Tribunal).esp
  The BlackMill normally conflicts with Tamriel Rebuilt, but abot has created a version that is compatible.
  Download "The Black Mill 1.11 fixed - moved - NOMified" from Morrowind Modding History - http://mw.modhistory.com/download-4-12317
  You must have the BlackMill already installed, then replace TheBlackMill11.esp with "TheBlackMill11FMN.esp".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=997293&view=findpost&p=15063847 )
 TR_Mainland.esm
 TheBlackMill11.esp
 
@@ -6764,7 +6702,6 @@ TheBlackMill11FMN.esp
 ;;Dragon32: reported with TR 14.08, verified in TESPCD with TR 16.12
 [Conflict]
  "TheBlackMill11FMN (abot's moved Black Mill) has a landmass conflict with [Tamriel Rebuilt] at cell 13,21. There is no cell entry, just landscape changes. It appears to be safe to just delete the landscape entry [from TheBlackMill11FMN.esp] in Enchanted Editor for that cell to fix the conflict."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 TR_Mainland.esm
 TheBlackMill11FMN.esp
 
@@ -7262,7 +7199,6 @@ Patch for Purists.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bloodmoon Landscape Overhaul 1.1 [Slartibartfast]
 
-;;Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=947130&view=findpost&p=13694991
 [Order]
 Bloodmoon.esm
 Bloodmoon Landscape Overhaul <VER>.esm
@@ -7332,7 +7268,6 @@ Jobs (Rhysk).ESP
   https://code.google.com/p/mlox/wiki/Tes3cmd
  As tes3cmd is a commandline program you may wish to use one of these batch files:
   http://www.fliggerty.com/phpBB3/viewtopic.php?style=5&f=9&t=5734
- (Ref: http://forums.bethsoft.com/topic/1041190-beta-relz-morrowind-patch-project-165-beta/?p=15974266 )
 BM_SpellFix.esp
 
 
@@ -7373,7 +7308,6 @@ Jobs (Thirsk 2x) (Part 2).ESP
 [Conflict]
  Bloody Oath has major landmass conflicts with the island of Tusar
  (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 Bloody Oath_v1.0.esp
 tusar_v1.2.1.esp
 
@@ -7457,20 +7391,17 @@ abotRiverStridersTR.esp
 abotBoatsTR.esp
 abotRiverStridersTR.esp
 
-;;Dragon32 - Ref: http://forums.bethsoft.com/topic/1397841-relz-boats/page__view__findpost__p__21521014
 ;;BTB Settings overwrites the cell name for Ayemar from Tamriel Rebuilt
 [Order]
 BTB - Settings (Alternate).esp
 abotBoatsTR.esp
 
 ;;Dragon32 - BTB Settings overwrites the cell name for Ayemar from Tamriel Rebuilt
-;;Ref: http://forums.bethsoft.com/topic/1397841-relz-boats/page__view__findpost__p__21521014
 [Order]
 BTB - Settings.esp
 abotBoatsTR.esp
 
 ;;Dragon32: Load Melian's Teleport Mod after abot's real-time travel mods
-;;ref: http://forums.bethsoft.com/topic/1487854-relz-mlox-analyze-and-sort-your-load-order/?p=23797886
 [Order]
 abotBoats.esp
 mel_teleportPlugin_1_3.esp
@@ -7762,7 +7693,6 @@ Guard-Remover.esp
 Juniper's Twin Lamps (1.1 Tribunal).esp
 
 ;;Dragon32: Similar problem with NazoX9's Guards
-;; http://forums.bethsoft.com/index.php?/topic/1122552-console-command-for-restoring-objects/
 [Order]
 NX9Guards_Hlaalu.esp
 Juniper's Twin Lamps (1.1 Tribunal).esp
@@ -7772,7 +7702,6 @@ NX9_Guards_Complete.ESP
 Juniper's Twin Lamps (1.1 Tribunal).esp
 
 ;;Dragon32: Similar problem with Ore Replacer (Hngh?)
-;; http://forums.bethsoft.com/topic/1509447-updating-morrowind-tools-and-mods/?p=23805622n
 [Order]
 CR Ore Replacer 1.0.esp
 Juniper's Twin Lamps (1.1 Tribunal).esp
@@ -8851,6 +8780,8 @@ SilentCharGen.esp
 SkipTutorial1.0.esp
 Tutorial Disable.esp
 ZAS1.esp
+Quick Char (Necro Timescale6 Edit).esp
+Quick Char (Necro Edit).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @CharGen Revamped 1.4 [gman21]
@@ -8884,7 +8815,6 @@ Chargen Revamped Patch 2.1a.esp
 ; Dragon32: Assume this is still the same for v2,3 as it was for v2.1 (the version covered by Forum post).
 [Conflict]
  You need to disable "CharGen Revamped delay2.esp" when using "Chargen Revamped v2".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=874116&st=0&start=0 )
 [ANY Chargen_Revamped_v2_3.esp
      Clean Chargen_Revamped_v2_3.esp]
 [ANY CharGen Revamped delay2.esp
@@ -8893,7 +8823,6 @@ Chargen Revamped Patch 2.1a.esp
 [Conflict]
  "I'd been having trouble with this mod [Chargen_Revamped_v2.3], and finally found the conflict. If you ALSO have The Goblin Lab (v1.1 at least) installed, [The Goblin Lab]'s menu messes up [Chargen Revamped] 2.3's menu. It still pops, but none of the choices DO anything, leaving you stuck in that little room...forever.
  Un-marking [The Goblin Lab] to get through chargen seems to fix the issue cleanly."
- (Ref: http://forums.bethsoft.com/topic/874116-relzchargen-revamped-v2/?p=15485709 )
 The Goblin Lab v1.1.esp
 [ANY Chargen_Revamped_v2_3.esp
      Clean Chargen_Revamped_v2_3.esp]
@@ -9471,7 +9400,6 @@ ComprehensiveChargen.esp
 
 [Note]
  !! Note that while the Contact Hits works, it sets your agility to zero, which will prevent you from advancing in some factions.
- !! (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=712712&hl= and http://www.bethsoft.com/bgsforums/index.php?showtopic=889011 )
 Contact hits.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10053,7 +9981,6 @@ Dagoth Ur Fix.esp
 
 [Note]
  !! If you are running Morrowind v1.6.1820 (i.e. patched with the latest patch) then you do not need to install Dandras Fix by YrthWyndAndFyre.
- !! (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://forums.bethsoft.com/index.php?/topic/794715-comprehensive-bugfix-mods-catalogfaq/ )
 DandrasFix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10268,7 +10195,6 @@ DM_DB Armor Replacer-ExpRanksDDBA.esp
      Increased DB Delayed Attacks Patch.esp]
 
 ;; "DM_DB Armor Replacer.esp was placed before Better Morrowind Armor.esp and got overwritten."
-;;Ref: http://forums.bethsoft.com/topic/1509447-updating-morrowind-tools-and-mods/?p=23805549
 ;;Dragon32: Checked plugins from Moranor's "Better Morrowind Armor" against "Dark Brotherhood Armor Replacer" plugins in TESPCD
 [Order]
 Better Morrowind Armor.esp
@@ -10493,14 +10419,12 @@ Increased DB Delayed Attacks Patch.esp
 ;; @Dark Ebonheart 1.60 [Chris M.]
 
 ;; "Conflicts with Better Bodies[...]. It should be loaded before better bodies or it'll cause some npcs to have the default blocky body."
-;; http://forums.bethsoft.com/topic/1215570-is-there-an-official-mod-confliction-thread/?p=18215985
 [Order]
 Dark Ebonheart.esp
 Better Bodies.esp
 
 [Conflict]
  "Dark Ebonheart - Conflicts with ["Vality's Bitter Coast Mod"]. One of the trees in Vality's mod gets in the way of the crystal gate in Seyda Neen [added by Chris M.'s "Dark Ebonheart"]. It blocks most of the entrance way."
- (Ref: http://forums.bethsoft.com/topic/1215570-is-there-an-official-mod-confliction-thread/?p=18215985 )
 Dark Ebonheart.esp
 [ANY Vality's Bitter Coast Addon.esp
      Vality's BC for Vurt's BC.esp
@@ -10671,7 +10595,6 @@ dh_thriftshop.esp
 dh_furn.esp
 
 ;; "in the case of dh_homes dh_homes must load after Vality's Ascadian Isles Trees or the large castle type house thats placed in ebonheart is burried in land scape. once its loaded after, its just a matter of removing a couple trees."
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13503499 )
 [Order]
 Vality's Ascadian Isles Addon.esp
 dh_homes.esp
@@ -10762,7 +10685,6 @@ io_deadite_race-1.4b.esp
 ;; @Deadly Dagoths 1.0 [Danjb]
 
 ;; "I've just taken a quick look at Darknut's GDR and it seems he's edited 9 of the Dagoths (out of 30+). To avoid problems I'd make his mod load last."
-;; Ref: http://forums.bethsoft.com/index.php?/topic/1194471-relz-deadly-dagoths/page__view__findpost__p__17751272
 [Order]
 Deadly Dagoths.esp
 DN-GDRv<VER>.esp
@@ -10911,7 +10833,6 @@ Definitive Birthsigns Unofficial Patch.esp
 
 [Conflict]
  "GCD Lean and the GCD patch from Pluto's Definitive Birthsigns Redux Patches are incompatible. Trying to use them both results in a crash while loading due to Lean's changes."
- (Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=22922747 )
 DBirth-Redux GCD Patch.esp
 [ANY GCDLean204STD.esp
      GCDLean204EASY.esp
@@ -11370,7 +11291,6 @@ Djangos Dialogue.ESP
 ;;Ref: "LGNPC_NoLore_Readme.txt"
 ;;Dragon32: Let's see if an Order rule helps out here, I have a note "Djangos Dialogue (load this before LGNPC)", not sure where from. Closest I can find:
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -11507,7 +11427,6 @@ Improved Balmora 0.20f.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dongle Ranger Tent MWSE Patch [Bjam]
 
-; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13892245 )
 [Requires]
 Bjam_DGL_rt_MWSEpatch_v1.0.esp
 Ranger Tent.esp
@@ -11599,7 +11518,6 @@ dracandrosvoice.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -11680,12 +11598,10 @@ Dragons_Breech_Alpha2V1.3.esm
 [Note]
  !! HotFusion4's "Dreamers Awakened" mod contains a spell, "HFExplode", mistakenly set at AutoCalculate and AlwaysSucceed. This means the spell is available to wide number of the game's NPCs and it deals considerable damage.
  !! You could fix the mod by removing AutoCalculate using the Construction Set.
- !! (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=1049424 )
 DreamersAwakenedv1.0.esp
 
 [Conflict]
  HotFusion4's "Dreamers Awakened" removes the NPC "dreamer_f_key". Running "Dreamers Awakened" with TheMadGod's "Great House Dagoth", Von Djangos's "The Tribe Unmourned" or Lady Galadriel's "Grandmaster of Hlaalu" will break these mods as they all rely on this NPC being present.
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__19352031 )
 DreamersAwakenedv1.0.esp
 [ANY Great House Dagoth.esp
      The Tribe Unmourned (GHD).esp
@@ -12472,7 +12388,6 @@ Elemental Magicka II - MWSE Addon.ESP
  NMZmaster has uploaded a patch:
  http://www.nexusmods.com/morrowind/mods/42106
  However, he says "I found the sound from [Excellent Magic Sounds] overbearing due to the way Elemental Magicka II spams magic effects. I would probably recommend choosing one mod and disabling the other"
- (Ref: http://forums.bethsoft.com/topic/1330818-wiprel-elemental-magicka-ii/?p=22989328 )
 Elemental Magicka II - Excellent Magic Sounds Patch.esp
 [ALL Elemental Magicka II.ESP
      [ANY ExcellentMagicSounds.esp
@@ -12625,7 +12540,6 @@ Enchanted Weapon Variety PTE Patch ME.esp
 
 [Conflict]
  Arcimaestro Antares' "Enchanting Desk" shouldn't be used with any variation of GCD. GCD and mods derived from it use a script to keep track of stats, which can cause all kinds of havoc with mods like this that boost stats.
- (Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=22907825 )
 Enchanting Desk.esp
 [ANY Galsiahs Character Development.esp
      GCD v1.08 with Startscript, fixed [Galsiah].esp
@@ -12681,7 +12595,6 @@ Encumbrance Bar.esp
 [DESC !/Redoes Turenyal to be better than things./ TurenyalRedone.ESP]
 
 ;;"Has the conflict with the Book Jackets plugin been resolved? Back during the first release of Tureynal Redone, I discovered that it overrode changes made to certain books so that the original covers appeared. If the conflict hasn't been fixed, then hopefully a rule can be made in mlox."
-;;Ref - http://forums.bethsoft.com/topic/1512442-relz-endusal-and-tureynulal-redone/?p=23922287
 ;;Dragon32: dupl;icate records:  bk_firmament and bk_briefhistoryempire4
 [Order]
 TurenyalRedone.ESP
@@ -12823,7 +12736,6 @@ Epic_Aldruhn.esp
 
 [Conflict]
  "Vality's Balmora Addon is 100% incompatible with [Mikeandike's] Epic Balmora. It will crash every time you get near balmora if you have both on."
- (Ref: http://forums.bethsoft.com/topic/1487854-relz-mlox-analyze-and-sort-your-load-order/?p=23678035 )
 BIG_BALMORA.ESP
 Vality's Balmora Addon.esp
 
@@ -13003,7 +12915,6 @@ SeriousWeather_v1_00.esp
 
 ;;"I start a new game with [Expanded Sounds] loaded early and those noises happen. If it is loaded late, the noises do not happen. This is with [Expanded Sounds 1.2 and] 1.3
 ;;I have no idea why but my assumption is something to do with scripts. Like I said in this thread, in my case it only happens with Expanded Sounds is loaded BEFORE that TLM module [TLM - Light Sources (Clearer Lighting)]."
-;;Ref: http://forums.bethsoft.com/topic/1470111-expanded-sounds-awful-noise-chargen/
 ;;Dragon32: Compared with a TESPCD check
 [Order]
 TLM - Light Sources (Clearer Lighting).esp
@@ -13514,7 +13425,6 @@ FallingDown.esp
 ;;Dragon32: Only the conflict with 2.0 of Homes to Let reported. May also conflict with 1.1 "Homes To Let.esp" and Azrael's version "Homes To Let - Azrael.esp"
 [Conflict]
  Landscape conflict in Ald'Ruhn. Fixing requires removing landscape entries and lowering a hut in "Farmer Mod".
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20121847 )
 Farmer Mod v4.3.esp
 Homes To Let v2pt0.esp
 
@@ -13824,29 +13734,24 @@ FA Door Upgrade.esp
 
 [Conflict]
  "Tel Meskoa Tel Matouigius [by F.I.M. aka san monku] and Five Keys of Azura [by Dave Foster] have a major landmass conflict."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24165234 )
 fkoa.esp
 Tel_Meskoa_Tel _Matouigius_1.2_EV.ESP
 
 [Conflict]
  "Five Keys of Azura [by Dave Foster] adds a cave to cell 2, 9. If using [PirateLord's] Mountainous Red Mountain, this cave is located far underground. The entrance must be moved to be made compatible with MRM."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 fkoa.esp
 MRM.esm
 
 [Note]
  !! "Five Keys of Azura [by Dave Foster] adds a dialog topic 'my background', which prevents the 'background' topic introduced by the chargen captain from appearing and thus is not available in the game. The 'background' topic must be added by the console if using [Five Keys of Azura]."
- !! (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 fkoa.esp
 
 [Conflict]
  "If using Von Djangoes Magical Missions mod with Five Keys of Azura [by Dave Foster], the 'a coded message' topic [added by "Five Keys of Azura"] will prevent the first quest of the ["Magical Missions"] mod from starting, as Magical missions uses the topic 'coded message' which will not be added. The topic will have to be added to folms mirel [via the console] to activate the first quest."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 fkoa.esp
 Magical Missions.ESP
 
 ;;Five Keys of Azura adds a dialog topic 'a coded message'. This likely interferes with the House Telvanni quest to deliver a coded message to Divayth Fyr, as the new dialog topic from FKOA would shadow the 'coded message' topic, making it not show up as a dialog option. The topic will likely have to be added via the console. (I have not personally verified yet).
-;;http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Fletcher Mod 2.0 [Locklear93]
@@ -14013,7 +13918,6 @@ FollowMeMWOnly.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -14136,7 +14040,6 @@ FortArgonia.esp
 
 [Conflict]
  There are clipping issues when using Midgetalien's "Fort Frostmoth Docks Expanded" with Slartibartfast's "Bloodmoon Landscape Overhaul" or versions of Neoptolemus's "Ships of the Imperial Navy" which affect Solstheim.
- (Ref: http://forums.bethsoft.com/topic/1215570-is-there-an-official-mod-confliction-thread/?p=18215928 )
 Frostmoth Docks.ESP
 [ANY Bloodmoon Landscape Overhaul <VER>.esm
      UCNature.esm
@@ -14345,7 +14248,6 @@ GCD_WE_patch.esp
  You may need to get the following patch to make GCD work well with BigMod2:
  http://www.mediafire.com/file/zmnr0gzzwy5/GCD_BigMod2_patch.zip
  http://mw.modhistory.com/download-90-1812
- (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=913903&st=0&p=13269662&;entry13269662 )
 GCD_BigMod2_patch.esp
 [ALL [ANY Galsiahs Character Development.esp
           GCD v1.08 with Startscript, fixed [Galsiah].esp]
@@ -14479,7 +14381,6 @@ GCDSSPatch.esp
 ;; "Load order shouldn't matter for this patch."
 ;; (Ref: "3GCDReadmeFirst.txt")
 ;; But, report from DWS: "GCDWEPatch.esp (part of GCDLean v2.04) should be placed after Werewolf_Evolution.esp"
-;; Ref: http://forums.bethsoft.com/index.php?app=forums&module=forums&section=findpost&pid=20169740
 [Order]
 Werewolf_Evolution.esp
 GCDWEPatch.esp
@@ -14502,7 +14403,6 @@ GCDWEPatch.esp
  and Gardeners of Morrowind modify same cell (I think: 0,-5). The
  way to fix it is to remove this cell from Gardeners of Morrowind
  plugin with EE."
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13495426 )
 Gardeners of Morrowind.esp
 Korobal v1.2.esp
 
@@ -14939,7 +14839,6 @@ GIANTS Ultimate no monsters in cities TB.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -15036,7 +14935,6 @@ _Legends_of_Ydumea_v2.esp
 ;;Dragon32: Verified Silgrad Tower LAND conflict in TESPCD. Tamriel Rebuilt maps 1 & 2 _do not_ conflict with any Glory Road records
 [Conflict]
  "Silgrad Tower" interferes with some of the Mag Mell cells from "Glory Road"
- (Ref: http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__17414153 )
 TheGloryRoad.esm
 [ANY silgrad_tower_internal_release_1-4_6.6.esp
      silgrad_tower_1-4_6.6.esp]
@@ -15152,7 +15050,6 @@ abotGondoliers.esp
      Tribunal.esm]
 
 ;;Dragon32: Load Melian's Teleport Mod after abot's real-time travel mods
-;;ref: http://forums.bethsoft.com/topic/1487854-relz-mlox-analyze-and-sort-your-load-order/?p=23797886
 [Order]
 abotGondoliers.esp
 mel_teleportPlugin_1_3.esp
@@ -15272,7 +15169,6 @@ Go To Jail 3.7 - NOM.esp
 NoM 3.0.esp
 
 ;;Dragon32: Order rules for 3.5, assume still relevant for 3.7
-;;Ref: http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load- order/page__view__findpost__p__18170102
 ;;Fixes a landscape (?) error
 [Order]
 Go To Jail 3.7 - NOM.esp
@@ -15293,7 +15189,6 @@ Immersive Chargen - CM.esp
 ;;Dragon32: PES pages reports a conflict with Yacoby's Pursuit Enhanced (q.v.), the readme for that implies no conflict with its latest version.
 [Conflict]
  Arcimaestro Antares's "Go To Jail" conflicts with Aerelorn's "Less Annoying Guards" and Gianluca Sabbatini's "GS_Tamriel: Tribute to the Community"
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=5409 )
 [ANY Go To Jail 3.7 - NOM.esp
      Go To Jail 3.7.esp]
 [ANY GS_Tamriel Tribute to The Comunity.esm
@@ -15302,7 +15197,6 @@ Immersive Chargen - CM.esp
      Less Annoying Guards - Tribunal and Bloodmoon.esp]
 
 ;;Dialogue conflict
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=23805687
 [Order]
 indybank-NoHouses.esp
 Go To Jail 3.7.esp
@@ -15352,7 +15246,6 @@ WalledCity_IndyBank.esp
 Go To Jail 3.7 - NOM.esp
 
 ;;landscape conflict
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=23805687
 [Order]
 chapelsv2.esp
 Go To Jail 3.7.esp
@@ -15362,7 +15255,6 @@ Clean chapelsv2.esp
 Go To Jail 3.7 - NOM.esp
 
 ;;landscape conflict
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=23805687
 [Order]
 Imperial Graveyards of MW.esp
 Go To Jail 3.7.esp
@@ -15413,7 +15305,6 @@ GOTYScriptTidy(CommentsIn).esp
    Script variable "rent" not found for dialogue type Topic
    Info "EMPTY""
  Install3 ("GOTYMinImpactSomeMPPv2.01.esm" or "GOTYMinImpactSomeMPPv2.01.esp") does not change the name of the local variable 'rent' in the official publican script. Other versions of GOTY Script Tidy are likely to break any mod that uses 'rent' as a dialogue filter or otherwise attempts to write to the variable.
- (Ref: http://forums.bethsoft.com/topic/1086703-goty-script-tidy/?p=16625185 and "GOTYST_01 ReadMe.txt")
 MW_Public_Library.esp
 [ANY GOTYFullTidySomeMPPv2.01.esm
      GOTYFullTidySomeMPPv2.01.esp
@@ -15427,7 +15318,6 @@ MW_Public_Library.esp
   ==>CompileAndRun problem was found in Topic "Beds"
   "Head right up the stairs and a clean, inviting bed awaits you.""
  Install3 ("GOTYMinImpactSomeMPPv2.01.esm" or "GOTYMinImpactSomeMPPv2.01.esp") does not change the name of the local variable 'rent' in the official publican script. Other versions of GOTY Script Tidy are likely to break any mod that uses 'rent' as a dialogue filter or otherwise attempts to write to the variable.
- (Ref: http://forums.bethsoft.com/topic/1374445-problem-with-renting-beds/?p=20784637 and "GOTYST_01 ReadMe.txt")
 [ANY LGNPC_Pelagiad.esp
      LGNPC_Pelagiad_v<VER>.esp]
 [ANY GOTYFullTidySomeMPPv2.01.esm
@@ -15506,7 +15396,6 @@ LGNPC_PaxRedoran_v?_??_GOTYST.esp
 [ANY Marandus Abode.esp
      Marandus Abode MCA Patch.esp]
 
-;;Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=969677&view=findpost&p=14015832
 [Order]
 Less_Generic_Nerevarine.esp
 LGNPC_PaxRedoran_v?_??_GOTYST.esp
@@ -15573,7 +15462,6 @@ GOTYFullTidyZeroMPPv2.01.esm
 
 [Note]
  !! These plugins are working versions of huskobar's replacement VGreetings plugins. They are not intended to be loaded for play.
- !! (Ref: http://forums.bethsoft.com/topic/1135344-problem-between-some-patch-mods/#entry16623781 )
 [ANY VGreetings-AttackGOTYSTRawSome.esp
      VGreetings-AttackGOTYSTRawZero.esp
      VGreetingPatchGOTYSTRaw.esp]
@@ -15777,7 +15665,6 @@ Riverized Odai.ESP
 
 [Conflict]
  "[Lady Galadriel's] Grandmaster [of Hlaalu] is incompatible with any mods altering the [Hlaalu] stronghold."
- (Ref: http://forums.bethsoft.com/topic/1410482-house-hlaalu-mods/page__p__21530992#entry21530992 )
 [ANY Grandmaster of Hlaalu.esp
      Grandmaster of Hlaalu11NOMpatch.esp
      Grandmaster of Hlaalu1.2-Beta.esp
@@ -15851,7 +15738,6 @@ Graphic Herbalism TR Extra.ESP
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (e.g.: kollops).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Graphic Herbalism.esp
 Resources Enhanced.esp
 
@@ -15888,7 +15774,6 @@ MinerPickUseGOTY.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Graphic Herbalism.esp
 Resources Enhanced.esp
 
@@ -16547,7 +16432,6 @@ DNGDR-GHD Patch OV.esp
 
 [Conflict]
  The "DNGDR-GHD Patch.esp" plugin refers to a "DNO_dreamer guard00" that does not exist in the NoM-compatible version of "Darknut's Greater Dwemer Ruins". To make the patch compatible, you may need to edit the patch in the CS to comment out this line of the calmcorprus script: "DNO_dreamer guard00->setfight 10".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=981265&view=findpost&p=14193898 )
 DN-GDRv<VER>_NOM.esp
 DNGDR-GHD Patch.esp
 
@@ -16597,12 +16481,10 @@ SG_gryphon2_0.esp
  !! Under certain circumstances, when you choose the second option in a conversation with an NPC, the NPC will say "Squeak" and start to follow you.
  !! This happens when you tell a guard you want to go to jail, it also breaks many quests in Veldion 2.0.
  !! The cause of this problem is a line of dialogue in greeting 0 ("Squeak") copied over from the Tribunal packrat, but losing the id check which limits the response to packrats in the original dialogue. To solve this problem, remove this line of dialogue in the CS.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 GS_SEYDA NEEN COMPLETE.esp
 
 [Conflict]
  GS_SEYDA NEEN COMPLETE adds a wall to the outside of the Census and Excise office in Seyda Neen which blocks access to one of the two alignment barrels that the Partners mod places there. These barrels are necessary to choose the alignment of your character so that other Partners NPCs can react accordingly. A solution is to open the console, click on the added wall, and enter the command "disable".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 GS_SEYDA NEEN COMPLETE.esp
 [ANY Barons_Partners30.esp
      CM_Partners_3.0.esp]
@@ -16690,7 +16572,6 @@ GS_Tamriel Tribute to The Comunity.esm
 ;; @Guar Followers Fix v1.10 [TheOne&Only]
 
 ;; Suggested by Blouge:
-;; http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__17179026
 ;; JMS: looks reasonable as they define overlapping scripts, etc.
 [Order]
 ImprovedFollowers.esp
@@ -16979,7 +16860,6 @@ Havish - Scimitar Update + GCD (no MWE).esp
 
 [Conflict]
  "If using HavishM or HavishMN (abot's moved Havish mods), and you are not using GCD or [MWE], you do not need the scimitar update patch by JOG, as abot has already incorporated the changes into his mod."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 Havish - Scimitar Update (no MWE).esp
 [ANY HavishM.esm
      HavishMN.esm]
@@ -17013,7 +16893,6 @@ Havish Mini Patch.esp
 
 [Conflict]
  "If using Havish M or HavishMN (abot's moved Havish mods), you do not need the Havish Mini Patch by Tyraa Rane, as abot has made changes to account for the problems already. Note, abot has made different changes and it is likely that the Mini Patch will cause problems if used with abot's moved Havish mods."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 Havish Mini Patch.esp
 [ANY HavishM.esm
      HavishMN.esm]
@@ -17106,7 +16985,6 @@ SG_ hazaeki_race-1_2.esp
 
 [Conflict]
  You don't need Kosta Darjania's "Health Fix" if you are using "Galsiah's Character Development", it already adjusts health.
- (Ref: http://forums.bethsoft.com/topic/1414876-zarkons-gonna-start-playing-morrowind-mod-research/page__view__findpost__p__21626638 )
 Health Fix.esp
 [ANY Galsiahs Character Development.esp
      GCD v1.08 with Startscript, fixed [Galsiah].esp
@@ -17214,7 +17092,6 @@ H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 
 [Conflict]
  "[Sandman101's "HELLUVA Awesome Armor Completion Set" adds] the meshes that Bethesda didn't use to the Templar pauldrons."
- (Ref: http://forums.bethsoft.com/topic/1118289-relz-ob-style-quivers-and-sheathing-bows-for-morrowind/?p=16435065 )
 H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 [ANY Clean Templar Pauldron Fix.esp
      Clean_Templar_Pauldron_Fix_v11.esp
@@ -17396,7 +17273,6 @@ HELLUVA Balanced Weapons.esp
 [Requires]
  "HELLUVA Balanced CompletionSet.esp" requires Sandman101's original HELLUVA Awesome Armor's Completion Set.
  http://mw.modhistory.com/download-4-12777
- (Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=23205502 )
 HELLUVA Balanced CompletionSet.esp
 H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 
@@ -17436,7 +17312,6 @@ HELLUVA Balanced Vanilla Addon.esp
 
 [Conflict]
  "[Sandman101's "HELLUVA Awesome Armor Completion Set" adds] the meshes that Bethesda didn't use to the Templar pauldrons."
- (Ref: http://forums.bethsoft.com/topic/1118289-relz-ob-style-quivers-and-sheathing-bows-for-morrowind/?p=16435065 )
 [ANY HELLUVA Balanced CompletionSet.esp
      HELLUVA Balanced Armor.esp
      HELLUVA Balanced Complete.ESP
@@ -17592,7 +17467,6 @@ Herbalismv1.3(Tribunal).esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Herbalismv1.3(Tribunal).esp
 Resources Enhanced.esp
 
@@ -17699,7 +17573,6 @@ Herbalismv1.1.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Herbalismv1.1.esp
 Resources Enhanced.esp
 
@@ -17874,7 +17747,6 @@ MWInhabitants Freeform (Vol 1).esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 [ANY Syc_HerbalismforPurists.esp
      Syc_HerbalismforPurists_DV.esp
      Syc_HerbalismforPurists_TB_ONLY.esp]
@@ -17974,7 +17846,6 @@ Syc_HerbalismforPurists (Pearl Bug Edit).esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Syc_HerbalismforPurists (Pearl Bug Edit).esp
 Resources Enhanced.esp
 
@@ -18061,7 +17932,6 @@ Herbalism_Lite_v1.0.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Herbalism_Lite_v1.0.esp
 Resources Enhanced.esp
 
@@ -18136,7 +18006,6 @@ Herbalism_Lite_for_Tamriel_Rebuilt_Mainland.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Herbalism_Lite_for_Tamriel_Rebuilt_Mainland.esp
 Resources Enhanced.esp
 
@@ -18300,7 +18169,6 @@ Herbalism Redux 1.12a.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 [ANY Herbalism Redux 1.12a.esp
      Herbalism Redux 1.12a - Bloated MW.esp]
 Resources Enhanced.esp
@@ -18438,7 +18306,6 @@ HR 1.12a BMW + EW 1.5.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 [ANY HR 1.12a + EW 1.5.esp
      HR 1.12a BMW + EW 1.5.esp]
 Resources Enhanced.esp
@@ -18921,7 +18788,6 @@ Homes To Let - Azrael.esp
   bar_cryptbody03
   bar_cryptbody04
  You should edit either "Addon 2 for Ald-Vendras, Castle Avalon" or "Horror Mod" renaming the conflicting object IDs (to e.g. "AV_bar_cryptbody01" or "HM_bar_cryptbody01").
- (Ref: http://forums.bethsoft.com/index.php?/topic/1083121-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__16053177 )
 Horror Mod.esp
 AV2-moved_Addon2_Castle_Avalon.esp
 
@@ -18954,7 +18820,6 @@ House of Mannequins - Mistform fix.esp
 
 [Conflict]
  "dh_Homes conflicts with Houses for Sale in Ebonheart [...]. Both of them place a gigantic castle/mansion south of Ebonheart in almost exactly the same place."
- (Ref: http://forums.bethsoft.com/topic/1472233-ideapossible-wip-dh-furn-expansion-discussion/?p=23626043 )
 [ANY Copy of HousesForSale.esp
      HousesForSale.esp
      BE_HousesForSale.esp]
@@ -18964,7 +18829,6 @@ House of Mannequins - Mistform fix.esp
 ;;Dragon32: From "Dave Humphrey's Furniture mod 2.01 [Dave Humphrey]"
 ;;
 ;; "in the case of dh_homes dh_homes must load after Vality's Ascadian Isles Trees or the large castle type house thats placed in ebonheart is burried in land scape. once its loaded after, its just a matter of removing a couple trees."
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13503499 )
 ;;
 ;;Dragon32: As dh_homes and Houses for Sale conflict I assume a similar Order rule is warranted here
 [Order]
@@ -18998,13 +18862,11 @@ BE_HousesForSale.esp
 
 [Conflict]
  Landscape conflict: "The Gnisis house [from ashworm's "Houses&Apartments"] conflicted with [VagabondAngel's] Violnt Femme Boutique."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=3130 )
 VioletFemme.esp
 Houses&Apartments.esp
 
 [Conflict]
  Landscape conflict: "the Suran house [from ashworm's "Houses&Apartments"] conflicted with all of the Archery Tradehouse, House of Spears, and a house used in Suran Underworld."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=3130 )
 Houses&Apartments.esp
 [ANY Suran Archery Store_v3.0.esp
      Suran Archery Store_v3.0 NSE.esp
@@ -19018,7 +18880,6 @@ Houses&Apartments.esp
 
 [Conflict]
  Landscape conflict: "The Dagon Fel house [from ashworm's "Houses&Apartments"] conflicted with the BathMod"
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=3130 )
 Houses&Apartments.esp
 [ANY Stinkers 3.0.esp
      Stinkers.esm
@@ -19026,7 +18887,6 @@ Houses&Apartments.esp
 
 [Conflict]
  Landscape conflict: "the Caldera house [from ashworm's "Houses&Apartments"] conflicted with [V8 Man's] The Latest Greatest Housing Mod."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=3130 )
 Houses&Apartments.esp
 The Latest, Greatest Housing Mod_GOLD.esp
 
@@ -19057,7 +18917,6 @@ Houses&Apartments.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -19103,7 +18962,6 @@ Less_Generic_Tribunal.esp
 
 [Note]
  !! If you are running Morrowind v1.6.1820 (i.e. patched with the latest patch) then you do not need to install Huleeya, Morag Tong Bugfix by Escee.
- !! (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://forums.bethsoft.com/index.php?/topic/794715-comprehensive-bugfix-mods-catalogfaq/ )
 Huleeya_Morag_Tong_Fix_0606.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -19111,7 +18969,6 @@ Huleeya_Morag_Tong_Fix_0606.esp
 
 [Note]
  !! If you are running Morrowind v1.6.1820 (i.e. patched with the latest patch) then you do not need to install The Huleeya Fix by Psychosavant.
- !! (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://forums.bethsoft.com/index.php?/topic/794715-comprehensive-bugfix-mods-catalogfaq/ )
 fixhuleeya_0627.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -19476,7 +19333,6 @@ Illuminated Windows v1.2.esp
 ;;Dragon32: Reported for earlier version, assume it is still the same for 1.2
 [Conflict]
  These two plugins make an incompatible change to the same cell, and you may get the error: 'Object reference "flora_bc_fern_03" missing in master file.'. You can get around it by using the Construction Set or TESAME to edit one of plugins and remove the conflicting changes.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=866830&hl= )
 [ANY Illuminated Windows.esp
      Illuminated Windows v1.2.esp]
 Vality's Bitter Coast Addon.esp
@@ -19664,13 +19520,11 @@ Illy's Oh my Goddess.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Illy's Solstheim Rumour Fix [Illuminiel]
 
-;;Ref: http://forums.bethsoft.com/topic/1094671-relz-illys-solsteim-rumour-fix/?p=18160887
 [Order]
 Less_Generic_Bloodmoon.esp
 Illy's Solsteim Rumour Fix.esp
 
 ;;"Something I have noticed, Illy's Solsteim Rumor Fix needs to load after White Wolf of Lokken Mountain (.esp version), as Lokken overwrites the latest rumor topic that reverts it back to non-agent class npcs."
-;;Ref - http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24162382
 [Order]
 BT_Whitewolf_2_0.esp
 Illy's Solsteim Rumour Fix.esp
@@ -19713,7 +19567,6 @@ No CharGen MessageBoxes.esp
 
 [Note]
  "If anyone is having problems with the "Who's there?" dialog, look up the "it's me you idiot" mod [in ManaUser's "Mini Mods Collection"]. That will fix your problems and you will be able to use the latest version [of "Immersive Chargen" by Qebehsenuf]."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=6581 )
  ManaUser's "Mini Mods Collection": http://webpages.charter.net/manauser/morrowind/#minimods
 [ALL [ANY Immersive Chargen.esp
           Immersive Chargen - CM.esp]
@@ -19732,7 +19585,6 @@ It's me, you idiot.esp
 
 [Conflict]
  "[rattfink333's] chainmail fix is not necessary when one uses [Moranar's] Better MW Armor"
- (Ref: http://forums.bethsoft.com/topic/1504990-relz-morrowind-overhaul-sounds-graphics-30-thread-5/?p=23818723 )
 Better Morrowind Armor.esp
 imperial chain fix.ESP
 
@@ -19834,7 +19686,6 @@ Imperial Presence.esp
 Imperial Presence (NOM Patch).esp
 
 ;;"the Imperial Presence NOM patch should load after NOM 3.0 not before."
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24071688
 [Order]
 NoM 3.0.esp
 Imperial Presence (NOM Patch).esp
@@ -19879,8 +19730,6 @@ ImprovedAdamantiumArmor.esp
  ! Download ManaUser's "Improved Gold Weight" from his website - http://webpages.charter.net/manauser/morrowind/#goldw
  ! Download Tonto's "MWE Gold Burden" from Morrowind Modding History - http://mw.modhistory.com/download-37-15324
  ! (Ref: "Improved Gold Weight - Readme.txt")
- ! (Ref: http://forums.bethsoft.com/topic/1507269-gold-has-weight-11-major-bug/ )
- ! (Ref: http://forums.bethsoft.com/topic/1510617-giving-gold-weight/ )
 burden_of_greed.esp	;Kelvin Shadewing's "Burden of Greed"
 Gold_Has_Weight 1.1.esp	;Sacrifice's "Gold Has Weight"
 goldweight.esp		;from Indestructible's Bank Mod
@@ -20348,7 +20197,6 @@ tusar_v1.2.1(bloodmoon addon).esp
  Some of the following may make one part of the quest in "Island of Tusar" difficult or impossible to complete:
   Permanent water breathing
   Constant Effect Restore Health (such as one of the quest rewards in the mod "Northern Winds".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13585779 )
 tusar_v1.2.1.esp
 
 [Conflict]
@@ -20361,7 +20209,6 @@ Nerevarine_castle.esp
 ;; @Japanese House 1.4 [Sniper Daria]
 
 ;; "this mod also needs to load after valtiy's Ascadian Isles Trees mod or it covers up half of the koi pond with a dirt mound."
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13505309 )
 [Order]
 Vality's Ascadian Isles Addon.esp
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
@@ -20446,7 +20293,6 @@ Join All Houses.esp
 AllHousesMod.esp
 
 ;;"Setting Join All Houses to load after the House expansions would be a wise precaution"
-;;Ref: http://forums.bethsoft.com/topic/1516897-join-all-houses-mod/?p=23946148
 
 ;;Dragon32: See also Grandmaster of Hlaalu 1.2 [Lady Galadriel]
 
@@ -20717,7 +20563,6 @@ Journey's End- Wilderness Mod add-on.esp
 
 [Conflict]
  "Be warned that [lochnarus' "Journey's End"] clashes with [...] Baratheon's mod Darkshroud Keep"
- (Ref: http://forums.bethsoft.com/topic/1495086-journeys-end/?p=23489878 and http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
 Journey's End 1.1.esp
 BAR_DarkshroudKeep_v1.2.esp
 
@@ -20996,7 +20841,6 @@ Lothavor's Legacy.esp
 
 [Conflict]
  "Uvirith's Legacy (newest) and KEENING (huge mod for morrowind) are incompatible."
- (Ref: http://forums.bethsoft.com/topic/1487854-relz-mlox-analyze-and-sort-your-load-order/?p=23678206 )
 KN01_KeeningCity.esp
 Uvirith's Legacy_<VER>.esp
 
@@ -21895,7 +21739,6 @@ Leveled Animated Practice Dummies_Clean.esp
 ;; Tel Uvirith, Secret Masters, Indarys Manor, Vivec Redoran and finally Pax
 ;; Redoran. If the Pax Redoran Soul Sickness patch is uses, it must load after
 ;; Pax Redoran for it to have effect.
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1073249&view=findpost&p=15604326 )
 
 [Order]
 Less Lore.esp
@@ -21942,7 +21785,6 @@ LGNPC_SoulSicknessPatch_v?_??.esp
 [Note]
  !! "[There is] an unreconciled conflict between most LGNPC mods and Advanced NPCs [by qqqbbb]. Both mods alter the greeting distance for NPCs for use as a dialogue filter potentially breaking the functionality of one mod or the other.
  !! This is an issue only with the 'full' versions of our mods. The LGNPC Dialogue-Only versions do not alter NPC greet distance."
- !! (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24254590 )
 [ALL ANPC.esp
      [ANY LGNPC_NoLore.esp
           LGNPC_SeydaNeen.esp
@@ -22014,7 +21856,6 @@ LGNPC_PaxRedoran_v?_??.esp
 ;;There is a possible conflict with other mods that add the medium Armor master trainer. Compatibility may be restored if LGNPC Secret Masters loads after them. A script disables all but one of her.
 ;; Ref: LGNPC_SecretMasters_Readme.txt
 ;;Cyran0: "LGNPC Secret Masters places Cinia Urtius at the docks of Tel Fyr. Since other mods also restore this missing master trainer (not limited to the Unofficial Morrowind Patch/Morrowind Patch Project), we added a script to her that would disable all but one of her. Which copy of Cinia Urtius survives the purge depends upon the order in which they are encountered. The UMP placed her at the docks of Tel Fyr so that is where LGNPC placed her. However I have heard of another mod, [Elders of Vvardenfell], that places a copy of Cinia Urtius in Seyda Neen."
-;; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1067011&view=findpost&p=15505958
 ;;Dragon32: Thought about a Note, couldn't word it (*if* you are starting a new game you should be ok, *if* you are in the middle of a game you may not be...) too complex.
 [Order]
 Elders 0 Count NPC add-on (Trib & BM).esp
@@ -22035,7 +21876,6 @@ LGNPC_SecretMasters_MCA5.esp
 
 [Conflict]
  LGNPC Seyda Neen 0.31 conflicts with some mods that change chargen, specifically when the NPC Socucius Ergalla is no longer nolore the dialog for the quest about the murdered taxman gets broken.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=937789 )
 [VER < 0.32 Lgnpc_SN.esp]
 [ANY Alternate Beginnings 2.esp
      CharGen_Revamped_v14.esp]
@@ -22080,7 +21920,6 @@ LGNPC_TelUvirith_v<VER>_UI.esp
 
 ;; Cyran0: "Since Stuporstar has made some accommodation for this, certainly Uvirith's Legacy should load after LGNPC Tel Uvirith".
 ;;Dragon32: Duplicated rest of load order, just in case.
-;; http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1073249&view=findpost&p=15607572
 [Order]
 LGNPC_TelUvirith_v?_??.esp
 LGNPC_TelUvirith_v?_??_UI.esp
@@ -22891,7 +22730,6 @@ LCV Wolverine Hall 01.esp
 
 ;;Ref: LCV Wolverine Hall.html
 ;;Dragon32: Previously didn't have "NPC LCV Locks.esp" in this Order rule. Apparently that"moves at least one door (the one nearest to the Divine Intervention marker) halfway down into the floor."
-;; Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=22762410
 [Order]
 NPC LCV Schedules 03.esp
 NPC LCV Locks.esp
@@ -22903,7 +22741,6 @@ NPC LCV Locks.esp
 LCV Wolverine Hall 01.esp
 
 ;; LCV moves the wall and the door, and replaces the vanilla bed with a shorter bunk bed. When loaded after, Barabus' mod restores the original bed, which clips with the door
-;; Ref: http://forums.bethsoft.com/topic/1336220-living-cities-of-vvardenfell-lcv-req/page__view__findpost__p__20123487
 [Order]
 Barabus' fireplaces 2.esp
 NPC LCV Schedules 03.esp
@@ -22949,7 +22786,6 @@ NPC LCV Locks.esp
 
 [Conflict]
  abot's "NPC LCV Schedules 04 VOC" includes the fixes he made to the Khuul caravanner Seldus Nerendus in "ab01NPCLCVSchedulesFix.esp"
- (Ref: http://forums.bethsoft.com/topic/1507969-morrowind-modding-showcases-2/?p=23789342 )
 NPC LCV Schedules 04 VOC.esp
 ab01NPCLCVSchedulesFix.esp
 
@@ -23049,7 +22885,6 @@ What Thieves Guild.ESP
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -23241,30 +23076,23 @@ Louis_BeautyShop_v1.5.esp
 
 [Conflict]
  Only use one plugin:
-  NON1.LoveintheTimeofDaedra.v1.01.esp - This is the basic mod.  This version will conflict with Tamriel Rebuilt.
-  NON1.LoveintheTimeofDaedra.v1.01_Abot.esp - This version is compatible with Tamriel Rebuilt.
- (Ref: "Love in the Time of Daedra-43635-1-01.rar\Readme.txt")
-NON1.LoveintheTimeofDaedra.v1.01.esp
-NON1.LoveintheTimeofDaedra.v1.01_Abot.esp
-
-[Conflict]
- "This version [of HangHimHigher's "Love in the Time of Daedra"] will conflict with Tamriel Rebuilt."
- (Ref: "Love in the Time of Daedra-43635-1-01.rar\Readme.txt")
-NON1.LoveintheTimeofDaedra.v1.01.esp
-TR_Mainland.esm
+  NON1.LoveintheTimeofDaedra.v1.03.esp - This is the basic mod.  This version will conflict with Tamriel Rebuilt.
+  NON1.LoveintheTimeofDaedra.v1.03_Abot.esp - This version is compatible with Tamriel Rebuilt.
+ (Ref: "Love in the Time of Daedra-43635-1-03.rar\Readme.txt")
+NON1.LoveintheTimeofDaedra.v1.03.esp
+NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
 
 [Conflict]
  "The TR compatible version [of HangHimHigher's "Love in the Time of Daedra" causes] a fatal error when I run it alongside Havish in reference to a "Solitary Island teleporter script" not being found."
  You may wish to use DagothBob's moved version of Havish, available from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43408/
  (Ref: http://forums.nexusmods.com/index.php?/topic/2891584-love-in-the-time-of-daedra-v10/?p=25977594 )
 [SIZE 4646696 Havish.esm]
-NON1.LoveintheTimeofDaedra.v1.01_Abot.esp
+NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Lover's and Legends [Mr Cellophane]
 
 ; Load order info from Jac:
-; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14294420 )
 [Order]
 Romance_v37EV.esp
 Romance_Follow_v10EV.esp
@@ -23277,7 +23105,6 @@ L&L_TRM_patch.esp
 
 [Conflict]
  Jac instructs that the L&L Addon should not be used with Cello's original mod, as it will cause doubling.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14294420 )
 Mr Cellophane's Lovers and Legends V0.esp
 L&L Addon.esp
 
@@ -23356,12 +23183,10 @@ Madd Leveler - Base.esp
 
 [Note]
  !! The "Restore/drain attributes fix" in Hrnchamd's highly recommended "Morrowind Code Patch" (MCP) can adversely affect the functioning of Madd Mugsy/Sederien's "MADD Leveler". Madd Mugsy/Sederien's "MADD Leveler" relied on the bug in vanilla Morrowind and fixing it using MCP will break "MADD Leveler".
- !! (Ref: http://forums.bethsoft.com/topic/1482710-repairing-the-cogs-of-morrowind-30-mcp/?p=23321951 )
 Madd Leveler - Base.esp
 
 ;; Madd starts itself from within it's modified version of Sellus Gravius' script: CharGenDialogueMessage
 ;; So it conflicts with a number of other mods that re-define that script, and needs to load afterwards.
-;; http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14082825
 [Order]
 Alternate_Beginnings__Simons_fix.esp
 Madd Leveler - Base.esp
@@ -23558,7 +23383,6 @@ Madd Leveler - Base.esp
 
 [Conflict]
  aerelorn's "Blocking Enhanced" constantly changes the base value of the Block skill and so conflicts with "Madd Leveler".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=987437&view=findpost&p=14289093 )
 Madd Leveler - Base.esp
 MWE_Blocking.esp
 
@@ -24186,7 +24010,6 @@ Archmage's Privileges <VER>.esp
 
 [Conflict]
  "Antares' Big Mod" includes Arcimaestro Antares' "Archmage Privilege", "MMGR - Archmage's Privileges.esp" is a renamed copy of version 2.1 of "Archmage Privilege".
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=5892 )
 [ANY Antares' Big Mod <VER>.esp
      Antares Big Mod <VER>.esp]
 MMGR - Archmage's Privileges.esp
@@ -24619,7 +24442,6 @@ Max's Quest Fixes.esp
 ;; @Meadow Fae [Korana]
 
 ; "Korana's Meadow Fae race needs to load after Vality's Ascadian Isles Mod or the the little hill that the shop is placed in disappears, leaving the door and rocks hanging in mid air." - mystery05
-; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13721982
 [Order]
 Vality's Ascadian Isles Addon.esp
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
@@ -24634,7 +24456,6 @@ The Meadow Fae.esp
 
 [Note]
  !!! This mod will cause a crash if it is active when you start a new game. You must load it after finishing character generation. It happens because a new NPC with the ID 'Player' is added in the mod.
- !!! (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13892245 )
 Melee Missiles v1.2.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -25098,7 +24919,6 @@ Mills of Morrowind.esp
 Morrowind Crafting 2-1.esp
 
 ;;Dragon32: Land tears with Firemoth and Mills of Morrowind. Load Mills of Morrowind after Firemoth.
-;; http://forums.bethsoft.com/topic/1480857-relz-mills-of-morrowind-expansion/?p=23253653
 [Order]
 Siege at Firemoth.esp
 Mills of Morrowind.esp
@@ -25230,10 +25050,6 @@ Mashed Lists.esp
 Minions of House Dagoth - MCA 5.x Patch.esp
 
 [Order]
-Merged_Leveled_Lists.esp
-Minions of House Dagoth - MCA 5.x Patch.esp
-
-[Order]
 multipatch.esp
 Minions of House Dagoth - MCA 5.x Patch.esp
 
@@ -25250,7 +25066,6 @@ Minions of House Dagoth - No Undead.esp
 
 [Conflict]
  "[Crankgorilla's "Mistletoe Manor"] is in the exact same spot as Provincial Bath Shoppe by Korana so those who use that mod will have to choose between them or move one of them."
- (Ref: http://forums.bethsoft.com/topic/1486753-relz-mistletoe-manor-13/?p=23316204 )
 Mistletoe Manor <VER>.esp
 [ANY Provincial_Bath _Shoppe_v1.esp
      Provincial_Bath _Shoppe_for_Stinkers.esp
@@ -25405,25 +25220,21 @@ Mog Supplies v1.1.esp
 [Conflict]
  "Molag Mar Revisited" modifies Molag Mar in such a way that the NPC "Acherone" from "Acheron's Camping Gear" goes missing from the waistworks. You may need to edit one of these plugins in the CS, or else use the console command:
   placeatpc acheron_camp,1,20,1
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13543380 )
 Molag Mar Revisited - Illuminated Windows Enhancements.esp
 Acheron's Camping Gear 2.esp
 
 [Conflict]
  "TarMar adds a the home of a quest-relevant sorcerer to the Molag Mar canalworks (which Molag Mar revisited disconnect)"
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13558881 )
 Molag Mar Revisited - Illuminated Windows Enhancements.esp
 TarMar.esp
 
 [Conflict]
  "Daedric Sorcery (Daedric Sorcery.esp) adds a shop to the Molag Mar exterior which will be floating high above the town (but be accessible with levitation) wwhen Molag Mar Revisited is loaded too."
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13558881 )
 Molag Mar Revisited - Illuminated Windows Enhancements.esp
 Daedric Sorcery.esp
 
 [Conflict]
  'Illuminated Order ("Illuminated Order v1.0 (IndyBank-BE Compatible-hill)" - this is an esp crafted by Pseron Wyrd which solved a conflict between Illuminated order and Indybank, but the following obviously applies to other versions of IO too) adds a door to a fresco in the Molag Mar waistworks (which Molag mar Revisited disconnects too).'
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13558881 )
 Molag Mar Revisited - Illuminated Windows Enhancements.esp
 [ANY Illuminated Order v1.0.esp
      Illuminated Order v1.0 (IndyBank WC Compatible).esp
@@ -26201,7 +26012,6 @@ MAO_Firemoth.esp
 
 [Conflict]
  "If you are using MAO.esm (merged version) than you don't need any of the stand-alone files."
- (Ref: http://forums.bethsoft.com/topic/1520674-errors-mao-help/?p=24038178 )
 MAO.esm
 [ANY MAO_2d.esm
      MAO_3d.esm
@@ -26218,7 +26028,6 @@ MAO.esm
 
 ;;Dragon32, most of this is preserved from the readme for 0.9, "MAO_ReadMe.pdf". Guessed and some renamed plugins (MAO_Config.esm is new MAO_Base.esm; MAO_Weather.esm is new MAO_InteriorWeather.esm; MAO_PCSound.esp and MAO_PCVoice.esp are the new MAO_Voice.esp)
 ;;"MAO_Base.esm [...] is no longer used (it's content is now in MAO_PCSound.esp)"
-;; http://forums.bethsoft.com/topic/1520674-errors-mao-help/?p=24038178
 
 [Order]
 MAO_Config.esm
@@ -26642,7 +26451,6 @@ Morrowind Code Patch Showcase.esp
 [Note]
  !!! The game mechanics changes of "Attribute uncap" and "Skill uncap" available in the "Morrowind Code Patch" (MCP) by Hrnchamd should not be used by players of "Galsiah's Character Development" (GCD).
  !!! GCD uses its own workaround to increase skills and attributes over 100, using MCP's "Attribute uncap" and "Skill uncap" functions is unnecessary and can cause GCD's workaround to freeze or crash the game.
- !!! Ref: http://forums.bethsoft.com/topic/1484931-conflict-between-gcd-and-mcp-21/?p=23273977
  !!! Ref: http://mw.modhistory.com/download-53-6955
 [ANY GCDLean204STD.esp
      GCDLean204EASY.esp
@@ -26682,7 +26490,6 @@ Unarmored_Corrector_V01_TRIB.esp
 
 [Note]
  ! "Morrowind [...] makes heavier things harder to steal, [TheOne&Only's "Pickpocket Fix"] makes heavier things easier to steal. Things appear easier for the wrong reason."
- ! (Ref: http://forums.bethsoft.com/topic/1041190-beta-relz-morrowind-patch-project-165-beta/?p=15974266 )
  ! Rather than using this mod you should try the "Pickpocket overhaul" in the highly recommended "Morrowind Code Patch" by Hrnchamd.
  ! (Ref: http://morrowind.nexusmods.com/mods/19510 )
 Pickpocket Fix.esp
@@ -26746,7 +26553,6 @@ MugFix.esp
 [Note]
  !! If you are running more than one MCA clothing add-on then exclude all of the MCA clothing add-ons when creating your Merged Objects file with TESTool. Otherwise:
  !! "The clothing add-ons don't work if you merge them - you get NPCs wearing mismatched clothing."
- !! (Ref: http://forums.bethsoft.com/topic/1494048-relz-morrowind-comes-alive-v80/?p=23915533 )
 [ALL [ANY MCA - BadKarma Clothing Vendor Addon.esp
           MCA - BB Peasant Gowns Addon.esp
           MCA - COV Addon.esp
@@ -27037,8 +26843,6 @@ MCA - NOM Patch.esp
 
 [Note]
  ! "The Undead - MCA5.2 Compatibility Patch.esp" is not needed. If you have not already done so, install "MCA 5.2 - The Undead 3.0 Compatible" from:
- ! http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=6616
- ! (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=847583&view=findpost&p=12338232 )
 The Undead - MCA5.2 Compatibility Patch.esp
 
 [Conflict]
@@ -27235,7 +27039,6 @@ Morrowind Comes Alive.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @MCAFix [Aeven]
 
-; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=14026278
 [Order]
 Mashed Lists.esp
 MCAFix.ESP
@@ -28026,7 +27829,6 @@ Morrowind Crafting 2-1.esp
 
 [Conflict]
  Drac & Toccatta's "Morrowind Crafting" adds scripts to the various ore rocks, other mods which also add scripts include ManaUser's "Graphic Herbalism Extra", evelas' "Minerals", quorn's "Miner's Pick Use", LegoManIAm94's "Morrowind Better Mining" and TheLys' "Resources Enhanced". Such mods are not compatible with "Morrowind Crafting".
- (Ref: http://forums.bethsoft.com/index.php?/topic/1083121-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__15859457 )
 Morrowind Crafting 2-1.esp
 [ANY Resources Enhanced.esp
      Minerals.esp
@@ -28246,18 +28048,15 @@ npce_mwse_patch.esp
 ;;Spell Timer [BungaDunga]
 
 [Requires]
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13892245 )
 Spell Timer MWE Addon.esp
 [ALL Spell Timer.esp
      MWE_Base.esp]
 
 [Note]
  The Spell Timer mod requires MWE, MGE and MWSE.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13892245 )
 Spell Timer.esp
 Spell Timer MWE Addon.esp
 
-; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=938026&view=findpost&p=13892245
 [Order]
 MWE_Base.esp
 Spell Timer.esp
@@ -28615,7 +28414,6 @@ Texture Fix <VER>.esm
 
 [Conflict]
  Trancemaster_1988's "Morrowind Rebirth" adds an enchantment to the named Dwemer claymore, Foeburner. There is no need to run other mods which also add an enchantment.
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20955404 )
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
 [ANY Clean_Foeburner_Fix.esp
@@ -28624,7 +28422,6 @@ Texture Fix <VER>.esm
 
 [Conflict]
  Trancemaster_1988's "Morrowind Rebirth" changes Redoran guards in a similar way to Xeth-Ban's "Redoran Guards - Katanas and Shields"
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20955404 )
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
 [ANY Redoran Guards with Katanas and Shields.esp
@@ -28633,7 +28430,6 @@ Texture Fix <VER>.esm
 
 [Conflict]
  "[More Detailed Places] won't work at all with Rebirth, no matter what you do with your loadorder."
- (Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__21680865 )
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
 [ANY MDP Compilation.ESP
@@ -28688,7 +28484,6 @@ Maximus.esp
 
 [Conflict]
  Trancemaster_1988's "Morrowind Rebirth" includes Xeth-Ban's "Ald-Ruhn Temple Expansion"
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20955404 )
  (Ref: "Morrowind Rebirth 2.6 - Readme.doc")
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
@@ -28696,7 +28491,6 @@ Clean Ald-Ruhn Temple Expansion <VER>.ESP
 
 [Conflict]
  Trancemaster_1988's "Morrowind Rebirth" includes his Gnisis and Seyda Neen expansion mods.
- (Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20955404 )
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
 [ANY New Gnisis 1.2.ESP
@@ -28749,7 +28543,6 @@ Vampire Realism II.esp
 [Conflict]
  Trancemaster_1988 has merged these mods into his "Morrowind Rebirth", there is no need to run the plugins separately.
  (Ref: "Morrowind Rebirth 2.6 - Readme.doc")
- (Ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__21680865 )
 [ANY Morrowind Rebirth <VER>.ESP
      DN-GDRv<VER>-Rebirth.esp]
 [ANY Adamantium Roundshield.esp
@@ -28787,7 +28580,6 @@ Vampire Realism II.esp
  
 ;;Order rules for herbalism mods
 
-;; Order suggested by Hordane: ref: http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__21761617
 ;;Dragon32: Hordane only suggested Graphic Herbalism, added in the other herbalism mods. People should only be running one of these so this mega-Order rule should be OK
 [Order]
 Morrowind Rebirth <VER>.esp
@@ -29159,13 +28951,11 @@ NPC Magicka Regen (Wakim).esp
 
 ;; Order rules for assorted other mods
 
-;; Dragon32 - ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20125108
 [Order]
 Morrowind Rebirth <VER>.esp
 DN-GDRv<VER>-Rebirth.esp
 JAC_Jasmine.esp
 
-;; Dragon32 - ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20125108
 [Order]
 Morrowind Rebirth <VER>.esp
 DN-GDRv<VER>-Rebirth.esp
@@ -29208,7 +28998,6 @@ DN-GDRv<VER>-Rebirth.esp
 Nymeria's Faster Walk.esp
 
 ;;"When using windows glow along side this I discovered windows glow must be loaded before rebirth or floating parts of structures insue."
-;; http://forums.bethsoft.com/topic/1507363-relz-morrowind-rebirth-28/?p=23771030
 ;;WG order from - Ref: "abotWindowsGlow.txt"
 [Order]
 Windows Glow.esp
@@ -29296,7 +29085,6 @@ Morrowind Rebirth <VER>.ESP
 DN-GDRv<VER>-Rebirth.esp
 
 ;;"Load LGBM after STOTSP."
-;;Ref: http://forums.bethsoft.com/topic/1616178-less-generic-bld-compatble-with-tomb-ofthesnowprince/?p=25313272
 [Order]
 Solstheim TotSP [Rebirth].esp
 Less_Generic_Bloodmoon.esp
@@ -29588,7 +29376,6 @@ MRM.esm
 
 [Conflict]
  "Uvirith's Legacy [by StuporStar] adds a container named Uvi_Mummy_04 to cell 3,10, which is buried deep underground if using [PirateLord's "Mountainous Red Mountain"]. It is a single item, so it is easy to move to where it is accessible. [The reporter of this conflict did not] believe this container or anything in it is used in any quest, so this is probably a very minor conflict. (The main item of note in the chest is uvi_amulet_vamp_deavvo, in case it is relevant to some quest and you want to use the console to get it)."
- (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 MRM.esm
 Uvirith's Legacy_<VER>.esp
 
@@ -29673,7 +29460,6 @@ Mournhold Downtown.esp
 [Conflict]
  Princess Stomper et al's "Mournhold Expanded" and Qarl's "The Underground 2" both use the same ID, duck1, for an object. "Mournhold Expanded" uses it for a Creature, "The Underground 2" for a Sound.
  You should upgrade to a later version of "Mournhold Expanded", or edit either "Mournhold Expanded" or "The Underground 2" renaming the duck1 ID (to e.g. ""ME_duck1" or "UN_duck1").
- (Ref: http://forums.bethsoft.com/topic/1140559-smartmerger/?p=18223850 )
 [ANY Mournhold Expanded COM.esp
      Mournhold Expanded NC.esp
      Mournhold Expanded.esp]
@@ -29684,7 +29470,6 @@ THE_UNDERGROUND_2.esp
 
 [Note]
  It is recommended that you replace Nick Cowan's "Mournhold Merc Transportation Fix" with Baratheon79's "Mournhold Teleportation Fix". Both mods change Asciene Rane and Effe-Tei to provide Mages Guild-style teleportation service. However, Nick Cowan's plugin contains dirty references which could needlessly interfere with your game.
- (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://forums.bethsoft.com/index.php?/topic/794715-comprehensive-bugfix-mods-catalogfaq/ )
 [SIZE 2652 MH Transportation.esp]
 
 [Conflict]
@@ -29767,7 +29552,6 @@ Clean Magus Realm Tower V2.esp
 
 [Conflict]
  "I noticed that several of the 'teleport' doors introduced to towns like Ebonheart etc [by Quatloos' "Mournhold, The Great Bazaar"] were blocked by crates/barrels."
- (Ref: http://forums.bethsoft.com/topic/1215570-is-there-an-official-mod-confliction-thread/?p=18215928 )
  Dragon32: According to Quatloos the only teleport door added by "Mournhold, The Great Bazaar" is to Ebonheart.
  (Ref: "Mournhold, The Great Bazaar Readme.txt")
 Mournhold, The Great Bazaar.esp
@@ -29826,7 +29610,6 @@ Muck Shovel of Vivec v1.1.esp
 
 [Conflict]
  "Muffinwind" has landscape conflicts with Centurion's "Ald Vendras" mod.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=984080&view=findpost&p=14243169 )
 Muffinwind.esp
 [ANY Ald-Vendras_V3.esp
      Ald-Vendras_V3-LoKKen.esp
@@ -30034,7 +29817,6 @@ NOM 2.13.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -30107,7 +29889,6 @@ NX9_Guard_LGRedoran_Patch.ESP
      NX9_Guards_Complete.ESP]
 
 ;; Dragon32: Not specified (no readme) but a check in TESPCD shows the patch changing the 'lost sister' dialogue topic from LGNPC, hence this load order. No apparent change to the Guards mod
-;; Also: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1049492&view=findpost&p=15677494
 ;; Duplicated part of LGNPC load order here (soul sickness patch), just in case.
 [Order]
 LGNPC_PaxRedoran_v?_??.esp
@@ -30356,7 +30137,6 @@ Blood and Gore Fire damage.esp
      NoM 3.0.esp]
 
 ; Korana's Wolverine Well House needs to load after NOM so that the door (the well) works as a door.
-; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14111909
 [Order]
 NOM 2.13.esp
 Clean_WH_Well House.esp
@@ -30564,7 +30344,6 @@ Real_wildlife_2b Complete.esp
 NoM 3.0.esp
 
 ;;Dragon32: "So the load order should be: Gluby's [Gluby's Creature Loot Mod v1.11] mod, then NoM creature loot, then NoM"
-;; http://forums.bethsoft.com/index.php?/topic/1116088-rel-necessities-of-morrowind-30/page__view__findpost__p__16476834
 ;;Dragon32: Added in Sendai45's "Animal Loot Mods", same logic applies I reckon
 [Order]
 Gluby's Creature Loot Mod v1.11.esp
@@ -30595,7 +30374,6 @@ NoM 3.0.esp
 
 [Conflict]
  NOM 2.13 conflicts with the Bethesda plugin "entertainers.esp" [,and adul's "Entertainers Expanded"]. If you load NOM after entertainers, then Dulnea Ralaal in the Eight Plates no longer has the topic "entertain the guests". If you load entertainers after NOM, then you will lose some NOM functionality in the Eight Plates.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13546227 )
  Zobator has released "Entertainers-NoM Fix": http://mw.modhistory.com/download-87-11621
 NOM 2.13.esp
 [ANY entertainers.esp
@@ -31103,7 +30881,6 @@ New Netch-Adamantium Icons 1.01.esp
 ;;Dragon32: Unclear if this was fixed in later versions
 [Note]
  "New Seyda Neen FINAL_CLEANED seems to break Fargoth 2nd Quest. He cannot find his way towards Lighthouse."
- (Ref http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13492454 )
 New Seyda Neen v 1.4.esp
 
 ;;Dragon32: Conflicts with CoM and Seyda Neen Docks not mentioned on Nexus page for 1.7
@@ -31189,7 +30966,6 @@ Balanced NSE CoM 1.5.esp
 
 [Conflict]
  "Traveling Merchants v2-2 also conflicts with NSE. I have deleted a couple of Suran & Ascadian Isles cells from Traveling Merchants v2-2 with Enchanted Editor (the TT's Slave crossing bridge NPC cells) and everything seems to work O.K."
- (Ref http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13492454 )
 [ANY New Suran Extended 1.5.esp
      Balanced NSE 1.5.esp
      New Suran Extended CoM 1.5.esp
@@ -31253,7 +31029,6 @@ Suran Archery Store_v3.0.esp
      Suran Archery Store_v3.0 NSE.esp]
 
 ;; Info about Juniper's Twin Lamps from Black Crow King:
-;; (Ref http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13492454 )
 [Order]
 Juniper's Twin Lamps (1.1 Tribunal).esp
 New Suran Extended 1.5.esp
@@ -31369,11 +31144,9 @@ Night_Gallery_BB_Addon.esp
 
 [Note]
  This plugin contains a bug, when you enter "Under Skar" (the manor district) in Ald'ruhn, you end up stuck in the rope railing next to the wooden walkway. One fix is to load up the .esp in TESAME, and delete the CELL Ald-ruhn that contains in_ar_door_01. You can tell which cell that is by looking at the detail view for that cell record in TESAME.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13495433 )
 NighttimeDoorLocks-LD 1.1a.esp
 
 ; load order from JoelR:
-; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14283523 )
 [Order]
 NighttimeDoorLocks-LD 1.1a.esp
 Homes To Let.esp
@@ -31383,7 +31156,6 @@ Homes To Let.esp
 
 [Note]
  !! Deletes topic "Proposition" which breaks the Nels Lendo miscellaneous quest.
- [Ref: http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20205486 ]
 [SIZE 54955 Nimawia Pearl Farm.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -31688,7 +31460,6 @@ npce_mwse_patch.esp
 
 [Conflict]
  The NPC Enhanced MWSE add-on was made primarily for those who do not run both MWE and MWSE. There is only one script in the original mod that uses MWE functions, and the MWSE version is the same way. That script is the one that loops through NPCs searching for those in combat with the player. MWE handles that function a little bit better... it's a bit faster and requires less CPU power. So if you are using MWE anyway, you do not need the MWSE version.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=816189&view=findpost&p=11869393 )
 npce_mwse_patch.esp
 MWE_Base.esp
 
@@ -31785,7 +31556,6 @@ AprogasVampire WakimImprovements.20021210.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -32098,7 +31868,6 @@ Nude_SB.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -32151,7 +31920,6 @@ Nymeria's mages'guild fix.esp
 
 [Conflict]
  "If you play with Graphic Herbalism or any of the other similar [herbalism] mods that Nymeria's Monthly Respawn is unnecessary."
- http://forums.bethsoft.com/topic/1439244-the-mod-discovery-thread/?p=22148167
 [ANY Advanced Herbalism - MO.esp
      Advanced Herbalism - TR & BM.esp
      Advanced Herbalism - TR.esp
@@ -32336,7 +32104,6 @@ OB_Style Quivers And Bows.esp
      DA (Templar).esp]
 
 ;;Dragon32: Sandman101's HELLUVA Awesome Armour Completion Set also adds the missing Templar pauldron meshes.
-;; http://forums.bethsoft.com/topic/1118289-relz-ob-style-quivers-and-sheathing-bows-for-morrowind/?p=16435065
 [Order]
 H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
 OB_Style Auto Quivers And Bows.esp
@@ -32385,7 +32152,6 @@ OB_Style Quivers And Bows_CAJ.esp
 
 [Note]
  !! Using Sandman101's "OB Style Quivers and Sheathing Bows for Morrowind" and Alaisagae's "Left Gloves Addon" or Lurlock's "Left Gloves" (or mods which include them) without a TESTool-generated Merged Objects plugin means that the scripts from Sandman101's mod will not work.
- !! (Ref: http://forums.bethsoft.com/topic/1466182-is-anybody-having-luck-running-this-mod-obqsb/ )
 [ALL [ANY OB_Style Auto Quivers And Bows.esp
           OB_Style Quivers And Bows 4$.esp
           OB_Style Quivers And Bows.esp
@@ -33260,7 +33026,6 @@ Book Rotate - Bloodmoon v5.3.esp
 Jac_Passing Time While Reading - BRBJ Patch.esp
 
 ;;Dragon32 - Ref: Eluara "I thought this was already in the rule base, but Jac's passing time while reading basic esp has to load before all Bookjackets mods."
-;;http://forums.bethsoft.com/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__20171121
 [Order]
 Jac_Passing time while reading.esp
 Book Jackets - Morrowind - BookRotate.esp
@@ -33456,7 +33221,6 @@ Pegas Horse Ranch v<VER>.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -34293,7 +34057,6 @@ Prosey_female_pants_replace.esp
 
 [Note]
  ! If you use Protective Guards, it's best not to use MCA Guards Patch, using it may cause problems
- ! (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=918882&view=findpost&p=13377858 )
 [ALL Protective Guards.esp
      MCA - Guards Patch.esp]
 
@@ -34371,7 +34134,6 @@ Qarls_Gothic_AttireII.esp
 ;; @Quest Tweaks and Alternatives 1.17 [Stuporstar]
 
 ;;"Loading Trainwiz's [Main Quest Enhancers] after QTA should make anything he did override anything minor I did, so it shouldn't be a problem."
-;; Ref: http://forums.bethsoft.com/topic/1510730-rel-quest-tweaks-and-alternatives/?p=24055530
 ;;Dragon32: TESPCD shows no conflicts
 [Order]
 Quest Tweaks and Alternatives_<VER>.esp
@@ -34721,7 +34483,6 @@ Ravenloft Enhanced.ESP
 ;; Dragon32: Notes about earlier version of Ravenloft.
 [Note]
  !! Bantari: "Cydon et al: Just to clarify - this is an early version of Ravenloft, which I released long time  ago as =Rafael=. This is not an addon, and it is not compatible with the more recent version(s)."
- !! (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=593 )
  !! You should download the latest version of "Ravenloft", available from Morrowind Modding History - http://mw.modhistory.com/download-44-10678
 [ANY _rb_Ravenloft_v0143.esp
      _rb_Ravenloft_ChallengePits_v0100.esp
@@ -34816,7 +34577,6 @@ WeatheredSigns.esp
 [Note]
  !! Nedius' "Real Wildlife" marks the dialogue topic "leaflet" as Deleted. This will break Morrowind's "An Apothecary Slandered" quest.
  !! To fix this open the mod in TESAME, Enchanted Editor or a similar editor and remove the Dialogue entry "leaflet" from the "Real Wildlife" plugin.
- !! (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=197600 )
 [ANY [SIZE 739677 Real_wildlife_2b Complete.esp]
      [SIZE 547424 Real_wildlife_2b.esp]]
 
@@ -35608,7 +35368,6 @@ RoHT Taddeus Balancing.esp
  !! The LGNPC quests require that the player talks to Duke Dren, which will become impossible during the questline of "Rise of House Telvanni".
  !! Patches for "Less Generic NPCs (LGNPC) Pax Redoran" will be made with the next version.
  !! (Ref: "Rise of House Telvanni v1.5 Readme.txt")
- !! (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1045818&view=findpost&p=15175288 )
 [ALL [ANY [VER < 1.21 LGNPC_PaxRedoran_v<VER>.esp]
           [VER < 1.20 LGNPC_TelUvirith_v<VER>.esp]]
      Rise of House Telvanni.esm]
@@ -35639,13 +35398,11 @@ Rise of House Telvanni.esm
 
 [Note]
  "Magical Missions" by Von Djangos "adds five new duties for members of the Mages Guild to Master Wizard Folms Mirel, in Caldera". "Rise of House Telvanni" will move him to Shenk's Shovel after a certain decision has been made.
- (Ref: "Rise of House Telvanni v1.5 Readme.txt"; "Magical Missions.txt" and http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=21698623 )
 [ALL Magical Missions.ESP
      Rise of House Telvanni.esm]
 
 [Note]
  ! Cyrano's "Trigger Dark Brotherhood Attack" requires that the player talk to Duke Dren which will become impossible during the questline of "Rise of House Telvanni".
- ! (Ref: "Rise of House Telvanni v1.5 Readme.txt" and http://forums.bethsoft.com/topic/1398805-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/?p=21698623 )
 [ALL TriggerDBAttack_v1_00.esp
      Rise of House Telvanni.esm]
 
@@ -35961,11 +35718,8 @@ SG_Ryukaissen-M.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Sable Dragon 1.7 [Pluto]
 
-; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=997293&view=findpost&p=15129126
-
 [Conflict]
  An NPC in Pluto's "The Sable Dragon" hides something in Skaal village. Wollibeebee's "Solstheim Tomb of Snow Prince" makes extensive changes to the landscape in that area requiring use of the TCL console command to find the hidden object.
- (Ref: http://forums.bethsoft.com/topic/1034477-rel-the-sable-dragon/?p=25270234 )
 The Sable Dragon <VER>.esp
 [ANY wl_SolstheimOverhaul_v1.esm
      Solstheim TotSP [Rebirth].esp]
@@ -36361,7 +36115,6 @@ SotLF Female Shadow Cuirass v1.esp
 [Note]
  !! "[Dan Taylor's "Scourge of the Lich Father Acts I and II"] change the name of the cell (-6, 6) to 'Goldington', this cell name is used in dialog filtering, so it is [recommended to] use tes3cmd multipatch to preserve the cell name. Otherwise, topics like 'background', 'little secret', and 'latest rumors' will get superceded by SotLF responses (primarily in npcs out in the wilderness)."
  !! Read more about tes3cmd and its multipatch here - http://wiki.theassimilationlab.com/mmw/TES3cmd#Multipatch
- !! (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 [ALL [ANY Lich Father Act I.esp
           Lich Father Act II.esp]
      [NOT multipatch.esp]]
@@ -36399,7 +36152,6 @@ gr_ScriptImprovements.esp
 
 [Conflict]
  "Excellent Magic Sounds" by Asiron changes spell sound IDs. So it conflicts with any mod which works based on GetSoundPlaying, such as "Scripted Spells" by Cortex.
- (Ref: http://forums.bethsoft.com/topic/1091351-alphawip-elemental-magicka/?p=16438396 )
 Scripted_Spells.esp
 [ANY ExcellentMagicSounds.esp
      [DESC /Tooplex/ BTB - Spells.esp]
@@ -36425,13 +36177,11 @@ K_Scroll_Upgrade_MW_Trib_Bmoon.esp
 
 [Conflict]
  Sea of Destiny includes an early version of Adul's Arsenal and relocates it. Using both mods results in floating statics in one of the two locations, missing statics in the other, a doubled and misaligned (slightly shifted) interior, and mismatched doors.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 Sea-of-Destiny.esm
 Aduls_Arsenal.esp
 
 [Conflict]
  Sea of Destiny and The Black Mill both add an interior named "Submerged Cave". This results in one interior cell used by both mods. Fortunately the areas added by the two mods don't intersect, so this conflict is mostly harmless.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 Sea-of-Destiny.esm
 TheBlackMill11.esp
 
@@ -36527,7 +36277,6 @@ Great Shoals.esp
 
 [Note]
  Kung Fu Sung-Hu's Seamless Morrowind v1.0.14.1 has been superseded by Slartibartfast's Texture Fix series, which does the same thing but with greater coverage. See Kung Fu Sung-Hu's note in the mod download comments at PES:
- http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=2099
 SM_MCE_Fix.esp
 SMAldRuhn.esp
 SMAldVelothi.esp
@@ -37066,7 +36815,6 @@ Texture Fix - Silgrad Tower 1.0.esp
 
 [Conflict]
  "[Bethesda's official] Firemoth plugin is merged into the 1.4.6.6 update [of "Silgrad Tower"]."
- (Ref: http://forums.bethsoft.com/topic/1402028-silgrad-tower/?p=21351297 )
 [ANY silgrad_tower_internal_release_1-4_6.6.esp
      silgrad_tower_1-4_6.6.esp]
 [ANY Siege at Firemoth.esp
@@ -37151,14 +36899,12 @@ A Call to Issilar.esp
 
 ;;Dragon32: Expanded Sounds overrides the "a_siltstrider" Activator of Silt Strider Animator (TESPCD check)
 ;;"I have installed Silt Strider Animator, too, and this only works when loaded after Expanded Sounds"
-;;Ref: http://forums.bethsoft.com/topic/1484920-voiceless-silt-strider-after-mod-addition/?p=23273826
 [Order]
 Expanded Sounds.esp
 Expanded Sounds DV.esp
 Silt Strder Animator.esp
 
 ;;Also load SSA after Creatures
-;;Ref: http://forums.bethsoft.com/topic/1484920-voiceless-silt-strider-after-mod-addition/?p=23273867
 [Order]
 Creatures (lore).esp
 Silt Strder Animator.esp
@@ -37217,7 +36963,6 @@ abotSiltStridersTR1612.esp
      Silt Striders in the Wild.esp]
 
 ;;Dragon32: Load Melian's Teleport Mod after abot's real-time travel mods
-;;ref: http://forums.bethsoft.com/topic/1487854-relz-mlox-analyze-and-sort-your-load-order/?p=23797886
 [Order]
 abotSiltStriders.esp
 mel_teleportPlugin_1_3.esp
@@ -37298,7 +37043,6 @@ MrAA_SeydaNeenHouse_v1.0.esp
 
 [Note]
  !! If you are running Morrowind v1.6.1820 (i.e. patched with the latest patch) then you do not need to install Sinking Gondola Fix by Scruggs.
- !! (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://forums.bethsoft.com/index.php?/topic/794715-comprehensive-bugfix-mods-catalogfaq/ )
 Gondola_Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -38019,13 +37763,11 @@ Lokken-STOTSP Patch.ESP
 ;; @Solstheim Undialog [SeekerVI]
 
 ;;"Something I have noticed, Illy's Solsteim Rumor Fix needs to load after White Wolf of Lokken Mountain (.esp version), as Lokken overwrites the latest rumor topic that reverts it back to non-agent class npcs."
-;;Ref - http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24162382
 ;;Dragon32 - Assume something similar for this mod too
 [Order]
 BT_Whitewolf_2_0.esp
 Solstien_undialog.esp
 
-;;Ref: http://forums.bethsoft.com/topic/1094671-relz-illys-solsteim-rumour-fix/?p=18160887
 ;;Dragon32 - Assume something similar for this mod too
 [Order]
 Less_Generic_Bloodmoon.esp
@@ -38037,7 +37779,6 @@ Solstien_undialog.esp
 ;;Dragon32: Duplicating Order rule from "DNGDR - Darknut's Greater Dwemer Ruins [Darknut]" for completeness
 
 ;;Dragon32: SSE_NOM.esp built with Activators from NoM 2.13; looks like both 2.13 and 3.0 are compatible as long as load order is OK
-;;Ref: http://forums.bethsoft.com/topic/1481954-relz-sotha-sil-expanded-2/?p=23815294
 
 [Requires]
  "SSE Necessities of Morrowind Patch [...] makes [Team SSE's "Sotha Sil Expanded"] compatible with ["Necessities of Morrowind" by Taddeus]"
@@ -38219,7 +37960,6 @@ SSlave_Comp_censored_addon.esp
 
 [Conflict]
  "The Glory Road" by Kathryn & Tommy Khajiit conflicts with Emperor's "Special Slave Companions". The -follow, -other, and -combat topics will be unavailable for lover/companion Taarna.
- (Ref: http://forums.bethsoft.com/index.php?/topic/1167004-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__17414153 )
 TheGloryRoad.esm
 [ANY SSlave_Companions.esp
      SSlave_Comp_censored_addon.esp]
@@ -38240,7 +37980,6 @@ Spel1.1(cheat).esp
 
 [Conflict]
  "Excellent Magic Sounds" by Asiron changes spell sound IDs. So it conflicts with any mod which works based on GetSoundPlaying, such as "Spell Casting Cost Reduction" by Aragon.
- (Ref: http://forums.bethsoft.com/topic/1091351-alphawip-elemental-magicka/?p=16438396 )
 [ANY CastReduce-v30.esp
      CastReduce-v31.esp]
 [ANY ExcellentMagicSounds.esp
@@ -38689,10 +38428,6 @@ Mashed Lists.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
 
 [Order]
-Merged_Leveled_Lists.esp
-SF NPC111 - Hilgya Exp1 Addon.esp
-
-[Order]
 multipatch.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
 
@@ -38781,7 +38516,6 @@ sm_SSOP_Spidersilk_CREATURES.esp
 
 [Conflict]
  Posted by Galsiah at the Bethsoft forums: "By the way, you don't need [HotFusion4's] "State-Based Hit Points" if you're using GCD. GCD already adjusts health (or will when it's working ), so having SBHP do it too is asking for trouble."
- (Ref: http://forums.bethsoft.com/index.php?/topic/1120044-gcd-error-message/page__view__findpost__p__16467760 )
 [ANY StateBasedHitPointsv1.1.esp
      StateBasedHitPoints1.0.esp]
 [ANY Galsiahs Character Development.esp
@@ -38807,7 +38541,6 @@ StateBasedHitPointsv1.1.esp
 
 [Conflict]
  You don't need "State-Based Hit Points" if you are using "Galsiah's Character Development", it already adjusts health.
- (Ref: http://forums.bethsoft.com/index.php?/topic/1120044-gcd-error-message/page__view__findpost__p__16467760 )
 Talrivian's State-Based HP Mod v.2.2.esp
 [ANY Galsiahs Character Development.esp
      GCD v1.08 with Startscript, fixed [Galsiah].esp
@@ -38956,7 +38689,6 @@ Provincial_Bath _Shoppe_v1.esp
 
 [Conflict]
  "Stinkers v2 - Provincial Bath Shoppe Alt Plugin.esp" is a replacement for Korana's "Provincial Bath Shoppe" and should not be used with Korana's original.
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=8304 )
 Stinkers v2 - Provincial Bath Shoppe Alt Plugin.esp
 Provincial_Bath _Shoppe_v1.esp
 
@@ -38980,7 +38712,6 @@ Suran Waterfront V-5.1.esp
 
 [Patch]
  The Ascadian Rose Cottage patch is to be used with BOTH the Ascadian Rose Cottage mod (both Korana's original and Gaius Atrius' "Ascadian Rose Cottage DX"), and Stinkers v2
- Download "Stinkers_v2__Compatibility_Plugins.7z" from Planet Elder Scrolls.
  (Ref: http://mw.modhistory.com/download-53-6415 )
 Stinkers v2 - Ascadian Rose Cottage Patch.esp
 [ALL [ANY [VER >1.71 Stinkers.esp]
@@ -39070,7 +38801,6 @@ StinkersBE - Fylberding Patch.esp
 Stinkers v2 - Modder's Resource.esp
 
 ; "The Bathing Mod 2 has conflict with LGNPC Aldruhn 1.20, both changing cell Ashlands -1,6 and should load last."
-; Ref: http://forums.bethsoft.com/index.php?/topic/1083121-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__16358587
 [Order]
 LGNPC_Aldruhn_v?_??.esp
 Stinkers.esp
@@ -39293,7 +39023,6 @@ Stinkers BE + LGNPC Ald Ruhn Patch.ESP
 
 [Conflict]
  You should not run aralin's "Stinkers and LGNPC Aldruhn Compatibility Patch" with kid1293's Stinkers 3.0: "If you try to use [aralin's "Stinkers and LGNPC Aldruhn Compatibility Patch"] with [Stinkers] 3.0, it causes door doubling."
- (Ref: http://forums.bethsoft.com/topic/1510846-warning-for-lgnpc-aldruhn/?p=23836478 )
 Stinkers 3.0.esp
 [ANY Stinkers BE + LGNPC Ald Ruhn Patch.ESP
      Stinkers + LGNPC Ald Ruhn Patch.ESP]
@@ -39328,7 +39057,6 @@ Clean_Tel_Ulvirith_Vault.esp
 ;; @Subterranean Tel Uvirith 1.1 [morphera]
 
 ;; "Subterranean Tel Uvirith-->Adds a really cool area to explore in your dungeon. Compatible with all the other mods here, but make sure it loads BEFORE book jackets."
-;; Ref: http://forums.bethsoft.com/topic/1379647-tel-uvirith-telvanni-stronghold-mods/?p=20903759
 [Order]
 Subterranean Tel Uvirith v 1.1.esp
 Librarian with Jackets & Rotate BM Trib.esp
@@ -39554,7 +39282,6 @@ Suran Archery Store_v3.0.esp
  Dimitri Mazieres's "Dark Brotherhood Armor Replacer" changes the Body Part for the Dark Brotherhood Helmet (ID: A_DarkBrotherhood_Helmet) from "Head" to "Hair". So when both "Dark Brotherhood Armor Replacer" and "Dark Brotherhood Armor Replacer" are active Suran Underworld is left without a Body Part for the BloodFang Helm (ID: a_bloodfang_helm), and so any NPC wearing a Bloodfang Helm will have no head. To use both mods in conjunction, you'd need to change the Armor part "a_bloodfang_helm" to
   Biped Object: Hair
   Male Armor: A_DarkBrotherhood_Helmet
- (Ref: http://forums.bethsoft.com/topic/1058604-conflicting-mods-suran-underworld-25-dark-brotherhood-armor-replacer/?p=16333098 )
 [ANY Suran_Underworld_2.5.esp
      SU_SW Comp. Patch.esp]
 [ANY DM_DB Armor Replacer.esp
@@ -39606,7 +39333,6 @@ Suran Archery Store_v3.0.esp
  Whilst the patch was created for v2.5 of "Suran Underworld", it should still work with v3.0
  (Ref: Suran_underworld_2.5-jms_patch.txt)
  ( http://sites.google.com/site/johnmoonsugar/Home/morrowind-mods )
- ( http://forums.bethsoft.com/topic/1208216-relz-suran-underworld-3/?p=18065553 )
 Suran_Underworld_2.5-jms_patch.esp
 [ALL [ANY Suran_Underworld_v3.ESP
           Suran_Underworld_2.5.esp
@@ -40028,6 +39754,12 @@ Tamriel_Data.esm
  (Ref: "TR_Readme.txt")
 TR_Travels.esp
 [ALL Tamriel_Data.esm
+     TR_Mainland.esm]
+
+[Requires]
+ (Ref: "TR_Readme.txt")
+TR_Travels_(Preview_and_Mainland).esp
+[ALL Tamriel_Data.esm
      TR_Mainland.esm
      TR_Preview.esp]
 
@@ -40100,7 +39832,6 @@ GS_Tamriel Tribute to The Comunity.esm
 
 [Conflict]
  Landmass conflict. MJY's "Roman City of Theopolis" uses the same cells as Tamriel Rebuilt's Tel Muthada.
- (Ref: http://forums.bethsoft.com/topic/1379566-relz-tamriel-rebuilt-sacred-east-10/page__view__findpost__p__20899639 )
  (Ref: "TR_Readme.txt")
 TR_Mainland.esm
 [ANY Clean Roman city v.4 expansion added #4.esp
@@ -40108,7 +39839,6 @@ TR_Mainland.esm
 
 [Conflict]
  Landmass conflict.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=925400&view=findpost&p=13558636 )
  (Ref: "TR_Readme.txt")
 [ANY TR_Mainland.esm
      TR_Preview.esp]
@@ -40132,31 +39862,26 @@ OTR_Coast_Variety.esp
 
 [Conflict]
  Landmass conflict. Sorefoot Enterprises puts its "Sorefoot Basecamp" in the same cell as Firewatch.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=925400&view=findpost&p=13558636 )
 TR_Mainland.esm
 Sorefoot Enterprises, Inc. v1.5a.esp
 
 [Conflict]
  Landmass conflict.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?showtopic=1057546&st=0&p=15350660&#entry15350660 )
 TR_Mainland.esm
 The Zone (Tribunal).esp
 
 [Conflict]
  Landmass conflict.
- (Ref: http://forums.bethsoft.com/topic/1379566-relz-tamriel-rebuilt-sacred-east-10/page__view__findpost__p__20903519 )
 TR_Mainland.esm
 Tel Scelestus.esp
 
 [Conflict]
  Landmass conflict.
- (Ref: http://forums.bethsoft.com/topic/1098622-tamriel-rebuilt-script-error/page__view__findpost__p__16054878 )
 TR_Mainland.esm
 Private_Tower_Ordeal.esp
 
 [Conflict]
  Landmass conflict. HonorableKoala's "Season of the Harvest" uses the same cells as Tamriel Rebuilt's Bal Oyra
- (Ref: http://forums.bethsoft.com/topic/1098622-tamriel-rebuilt-script-error/page__view__findpost__p__16055554 )
 TR_Mainland.esm
 Season of the Harvest v1.1.esp
 
@@ -40212,13 +39937,6 @@ TR_Mainland.esm
 Makunde.esp
 TR_Mainland.esm
 
-;JMS - Apparently not a conflict: http://forums.bethsoft.com/index.php?/topic/1091974-tr-havish-comp-patch/
-;[Conflict]
-; Landmass conflict. One of Havish's Mage Guild quests involves a small island that conflicts with Tamriel Rebuilt.
-; http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=1047679&view=findpost&p=15257619
-;TR_Map1.esm
-;Havish.esm
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamriel Rebuilt: Census and Excise Links [The "Bloodthirsty" Crustacean]
 
@@ -40267,7 +39985,6 @@ TR_CensusAndExciseTravel.esp
 
 [Note]
  ! With both "Tamriel Rebuilt: Census and Excise Links" by The "Bloodthirsty" Crustacean and Bethesda's "Siege at Firemoth" (or a mod which includes it) enabled, there will be two boat captains to talk to and two superimposed gate objects in Seyda Neen.
- ! (Ref: http://forums.bethsoft.com/index.php?/topic/1083121-relz-mlox-a-tool-for-analyzing-and-sorting-your-load-order/page__view__findpost__p__17171911 )
 [ALL [ANY Siege at Firemoth.esp
           SiegeAtFiremoth.esp
           [Official]Siege at Firemoth.esp
@@ -40458,7 +40175,6 @@ TamLore -- AddOn 3-Museum Donations Very Hard.esp
 
 [Conflict]
  Necessities of Morrowind (NoM) adds a shop to one wall of the Mournhold Bazaar area which blocks access to a door added by TarMar. You need to to relocate one of the two, or you can open the console, click on the house static, and enter the command "disable".
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 TarMar.esp
 [ANY NoM 3.0.esp
      NOM 2.13.esp]
@@ -40470,7 +40186,6 @@ TarMar.esp
 
 [Conflict]
  TarMar and Oluhan both add a building to the same spot in Tel Branora.
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13560421 )
 TarMar.esp
 Oluhan v1.13.esp
 
@@ -40508,7 +40223,6 @@ TeaMod_<VER>.esp
  ! "All the extra dialogue options [included in the Tea Giving Add-on] have the unfortunate side-effect of slowing all dialogue to a crawl on slower computers."
  ! "You can unload [the Tea Giving Add-on] and still enjoy the main Tea Mod if the sharing options are lagging too much."
  ! (Ref: "TeaMod_1.2_ReadMe.txt")
- ! (Ref: http://forums.bethsoft.com/topic/1452352-rel-the-tea-mod/?p=22959363 )
 TeaMod_TeaGiving.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -40698,7 +40412,6 @@ b_WWLteleport1_0.esp
 
 [Note]
  !! With "Telos Rin Graveyard" activated you may not be able to complete the quest to build the second stage of the Redoran stronghold, Indarys Manor. Frelene Acques, in the Hlaalu prison cells, may have no response to the  dialogue topic "escape".
- !! (Ref: http://forums.bethsoft.com/?showtopic=1035923 )
 Telos Rin Graveyard.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -40951,7 +40664,6 @@ GIANTS Ultimate Control file.esp
 Constance1_0.esp
 
 ;;"If you play the Companion Constance mod, there is a part where she gives you 100 kwama eggs (over-encumbering you and making it impossible to move) and a guard seeks to arrest you through custom dialog because the eggs are stolen.  However, the forced greeting from Antares's "Go to Jail" mod overrides this and prevents the situation from working as intended. I'm worried this might create errors in future dialog with Constance."
-;; http://forums.bethsoft.com/topic/1486145-mod-conflict-bt-constance-and-antares-go-to-jail-mod/
 [Order]
 Go To Jail 3.7 - NOM.esp
 constance1_0.esp
@@ -41189,7 +40901,6 @@ Thirsk Expanded Family.esp
 MW_Children_1_0.esm
 
 ;;"Thirsk [Expanded] first, then Lochnarus [Cliffs Of Fjalding], then Skaal [Forest]. It's a load order issue, becaus HRM's Thirsk [Expanded] edits some of the same landscape as Lochnarus' Cliff of Fjalding mod.  If his preceeds, then you get that lovely visual quirk of half the cliffs unidirectionally invisible and cut out."
-;;Ref: http://forums.bethsoft.com/topic/1515844-what-are-the-most-realistic-expansion-mods/?p=23926895
 [Order]
 Thirsk Expanded.esp
 LOCH_Cliffs_Of_Fjalding.esp
@@ -41237,7 +40948,6 @@ SAFIX.esp
 
 [Conflict]
  "Running the Pax Hlaalu mod simultaneously [with "Tir Thalor"], as many players might be doing, there is a conflict (which doesn't prevent the ["Tir Thalor"] quest being completed) causing some visual distortion at the Balmora site."
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=1455 )
 Pax Hlaalu (Revision 3.0).esp
 Tir Thalor Quest.esp
 
@@ -41286,7 +40996,6 @@ Tir Thalor Quest.esp
      [NOT TLM - Ambient Light + Fog Update.esp]]
 
 ;; Order tweaks From Black Crow King, albeit reported for "TLM - Ambient Light + Fog Update.esp":
-;; Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14292111
 [Order]
 Piratelords Trade Enhancements.esp
 TLM - Complete.esp
@@ -41318,7 +41027,6 @@ TLM - Ambient Light + Fog Update.esp
 TLM - Ambient Light + Fog Update.esp
 
 ;Order tweaks From Black Crow King:
-; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14292111 )
 [Order]
 Piratelords Trade Enhancements.esp
 TLM - Ambient Light + Fog Update.esp
@@ -41727,7 +41435,6 @@ TradeDisputes.esp
 [Note]
  !! "Trade Disputes changes the names of several cells to 'Fort Klamoth' and 'gri-brash island', these cell names are used in dialog filtering, so it is [recommended to] use tes3cmd multipatch to preserve the cell name. Otherwise, 'latest rumors' topics will get superceded by Trade Disputes responses (primarily in npcs out in the wilderness), and Trade Disputes dialog entries change variable state information, which may very well not exist, causing the game to crash."
  !! Read more about tes3cmd and its multipatch here - http://wiki.theassimilationlab.com/mmw/TES3cmd#Multipatch
- !! (Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24214022 )
 [ALL TradeDisputes.esp
      [NOT multipatch.esp]]
 
@@ -41865,7 +41572,6 @@ TriggerDBAttack_v1_00.esp
 ;; @True Skyrimized Torches [Uploader]
 
 ;;"True Skyrimized Torches should load after TLM"
-;;Ref: http://forums.bethsoft.com/topic/1509142-relz-mlox-analyze-and-sort-your-load-order/?p=24092866
 ;;Dragon32: Expanded to other light-affecting mods after a TESPCD check
 [Order]
 LBS_addon_hvy_v1.1.esp
@@ -42010,7 +41716,6 @@ TurenyalRedone.ESP
 GDR_MasterFile.esm
 
 ;; "this mod modifies the books "The Firmament" and "Brief History of the Empire Volume 4", which prevents the new Book Jackets covers from showing. Not a terribly big deal, as simply having this mod loaded before book jackets prevents this from happening"
-;; Ref: http://forums.bethsoft.com/topic/1487831-relz-turenyulal-redone/#entry23415659
 [Order]
 TurenyalRedone.ESP
 Book Jackets - Morrowind - BookRotate.esp
@@ -42081,7 +41786,6 @@ Nevena's Twin Lamps & Slave Hunters <VER>.esp
 
 [Note]
  The Baldurdash Text Patch contains all the fixes made in Typo Fix Plugin v0.2 by Teppo Lehtonen.
- (Ref: Gluby's Comprehensive Catalog and Guide to Bugfixes for Morrowind http://www.bethsoft.com/bgsforums/index.php?showtopic=794715&st=0 )
  Version 1.6.4 and above of the Morrowind Patch Project includes the Baldurdash Text Patch (with the exception of corrections to books).
  (Ref: "Morrowind Patch v1.6.4 README.txt" )
 fix_typos.esp
@@ -42334,7 +42038,6 @@ Ultra Light Herbalism.esp
 
 [Conflict]
  These plugins conflict because they modify some of the same objects (kollops and Kwama eggs).
- (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=970900&view=findpost&p=14395738 )
 Ultra Light Herbalism.esp
 Resources Enhanced.esp
 
@@ -42361,12 +42064,10 @@ THE_UNDERGROUND.esp
 
 [Note]
  Qarl's mod "The Underground 2" is known to have a number of bugs, some of which cause crashes. You may want to try to find huskobar's Underground 2 Patch Project which fixes those bugs:
- http://forums.bethsoft.com/index.php?/topic/1060060-the-underground-2-patch-project/
 THE_UNDERGROUND_2.esp
 
 [Conflict]
  huskobar's Underground 2 Patch Project is meant to replace "THE_UNDERGROUND_2.esp".
- (Ref: http://forums.bethsoft.com/index.php?/topic/1107451-trapped-by-mwe/page__view__findpost__p__16233656 )
 UG2PhaseC_v<VER>.esp
 THE_UNDERGROUND_2.esp
 
@@ -42481,7 +42182,6 @@ Draugr Deathlord.esp
 
 [Conflict]
  Arcimaestro Antares' "Undead: Arise From Death" is not compatible with Neoptolemus' "The Undead 3.0".
- (Ref: http://forums.bethsoft.com/index.php?/topic/847583-relz-the-undead-v30/page__st__60__p__15461806&#entry15461806 )
 Undead arise from death <VER>.esp
 [ANY The Undead.esm
      The Undead.esp]
@@ -43236,7 +42936,6 @@ Uvirith's Legacy_<VER>.esp
 UL_TLM_Ambiance.esp
 
 ;;Dragon32: This order from Stuporstar forum post (albeit for beta v1.10)
-;; http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=997293&view=findpost&p=15273304
 [Order]
 Uvirith's Legacy_<VER>.esp
 TLM - Complete.esp
@@ -43480,7 +43179,6 @@ Illuminated Order*.esp
 
 ;;Dragon32: 4 Books show differences in TESPCD, checking bk_bloat_cultivation shows UV sets SCRI as "BROctavo_Bloat", Books of Vvardenfell 2.4 as "BROctavo_new".
 ;; "Actually, Uvirith's Legacy should load after BoV."
-;;Ref: http://forums.bethsoft.com/topic/1481668-rel-uviriths-legacy-32/?p=23266070
 [Order]
 Books of Vvardenfell.esp
 Uvirith's Legacy_<VER>.esp
@@ -43504,14 +43202,12 @@ Get Fezzed!.esp
 
 [Conflict]
  "[Andoreth's "Real Furniture" mod adds its shop] right in St. Delyn's Waistworks, which is modified by UL too. With UL loaded, the door to [Andoreth's "Real Furniture"] shop is no longer accessible."
- (Ref: http://forums.bethsoft.com/topic/1481668-rel-uviriths-legacy-32/?p=23585678 )
 Uvirith's Legacy_<VER>.esp
 RF - Furniture shop.esm
 
 ;;Shock Centuron Companion
 
 ;;Dragon32, verified by TESPCD: "If you have Uvirith's Legacy installed, the manual Baladas gives you also gains a new unique cover by Stuporstar!"
-;;Ref: http://forums.bethsoft.com/topic/1490690-jasons-quintessential-telvanni-mod-list/?p=23398910
 [Order]
 ShockCenturionCompanion_TB_V12.esp
 Uvirith's Legacy_<VER>.esp
@@ -43682,7 +43378,6 @@ Suran Archery Store_v3.0 NSE.esp
 [Note]
  !! "[Vality's "Balmora Addon"] is an addon to ["Vality's Bitter Coast Tree Replacer & Bitter Coast Addon"]"
  !! Whilst you do not have to have the plugin from "Vality's Bitter Coast Tree Replacer & Bitter Coast Addon" loaded you need to have the meshes and textures installed.
- !! (Ref: "Vality's Balmora Mod.txt" and http://forums.bethsoft.com/topic/1513057-relz-morrowind-overhaul-sounds-graphics-30-thread-6/?p=23900746 )
 [ALL Vality's Balmora Addon.esp
      [NOT Vality's Bitter Coast Addon.esp]]
 
@@ -44474,14 +44169,12 @@ Vampiric Hunger Base.esp
 
 [Note]
  The "Vibrant Morrowind" authors recommend using Vurt's tree and grass mods instead of Vibrant Trees.
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=8380 )
 Clean VIBRANT TREES 1.0.esp
 vibrant trees 2.0.esp
 
 [Conflict]
  "You can pick either to use but not both." The readme implies that "Clean VIBRANT TREES 1.0.esp" may conflict with fewer plugins.
  (Ref: "Vibrant Morrowind 3.0 READ-ME.txt")
- (Ref: http://planetelderscrolls.gamespy.com/View.php?view=Mods.Detail&id=5607 )
 Clean VIBRANT TREES 1.0.esp
 vibrant trees 2.0.esp
 
@@ -44825,7 +44518,6 @@ Clean PENGUINS.esp
 
 ;; "the mod Leaves of Lorien, needs to load after The Vvardenfell Libraries, as it
 ;; causes a landscape conflict the other way around." - lettuceman44
-;; (Ref: http://www.bethsoft.com/bgsforums/index.php?s=&showtopic=926679&view=findpost&p=13469885 )
 [Order]
 The_Vvardenfell_Libraries.esp
 Leaves of Lorien.esp
@@ -44942,7 +44634,6 @@ Vampire_Embrace.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 ;; Gameplay - Dialogue.esp adds some generic rumours and the like
 [Order]
 Less Lore.esp
@@ -45096,7 +44787,6 @@ Indy Bank (SW Comp. Patch).ESP
      Balmora Expansion - LITE 1.0.esp]
 
 ;;"I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
-;;Ref: http://forums.bethsoft.com/topic/1415148-best-cityvillage-expansions/?p=21626606
 [Order]
 Walled_City_v1.2.esp
 Private_Tower_Balmora.esp
@@ -45176,7 +44866,6 @@ NoM 3.0.esp
 
 ;;Dragon32: Assume this still applies.
 ;;"I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
-;;Ref: http://forums.bethsoft.com/topic/1415148-best-cityvillage-expansions/?p=21626606
 [Order]
 Walled city of Balmora <VER>.esp
 Private_Tower_Balmora.esp
@@ -45255,7 +44944,6 @@ Water Level Fix - Full.esp
 
 [Note]
  ! "Since its 2.0 release, the Morrowind Code Patch contains a 'Detect water level fix' (Bug fixes section - checked by default). If you install it, you'll no longer need [Taddeus'] Water Level Fix, since they solve the same problem, but MCP does it in a more reliable and complete way."
- ! (Ref: http://forums.bethsoft.com/topic/1114091-rel-water-level-fix/?p=18219328 )
  ! Download Hrnchamd's Morrowind Code Patch from Morrowind Nexus: http://www.nexusmods.com/morrowind/mods/19510/
 [ANY Water Level Fix - BM.esp
      Water Level Fix - Full.esp
@@ -45541,7 +45229,6 @@ Welcome to the Arena! v<VER>.esp
      MWInhabitants Freeform (Vol 1).esp]
 
 ;;Kalamestari_69: "I'd suggest loading WttA after LGNPC Tel Uvirith."
-;;http://forums.bethsoft.com/topic/1474975-k-69s-creations/?p=23401774
 [Order]
 LGNPC_TelUvirith.esp
 Welcome to the Arena! v<VER>.esp
@@ -45768,7 +45455,6 @@ Seyda Neen Floating Home.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; http://forums.bethsoft.com/topic/1372329-no-lore-and-dialogue-mods/?p=20739046
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
@@ -45998,7 +45684,6 @@ BT_Whitewolf_2_0NOMaddon.esp
  !! The "NoM-add-on for White Wolf of Lokken" was designed for version 2.13 of Taddeus' "Necessities of Morrowind". The add-on includes object definitions from NoM 2.13 which are different to those in NoM 3.0.
  !! Using the add-on and a Merged Objects plugin means that a script, "NOM_mix", is added to the miscellaneous object "NOM_mix_bowl", this will cause annoying, repeating message boxes to appear.
  !! When generating your Merged Objects plugin temporarily deactivate "BT_Whitewolf_2_0NOMaddon.esp" to exclude it from the merge.
- !! (Ref: http://forums.bethsoft.com/topic/1493664-problem-with-nom3-mix-script-in-tel-mora-branwen-cell/?p=23466953 )
 [ALL BT_Whitewolf_2_0NOMaddon.esp
      NoM 3.0.esp
      Merged_Objects.esp]
@@ -46440,7 +46125,6 @@ Windows Glow - Raven Rock Eng.esp
 
 [Conflict]
  "Emma's Morgana Witchgirl will indeed conflict with Morrowind Rebirth, because not only Ald-ruhn is edit by Emma's mod but there is also a least one Grazeland cells to the east near the water that's a quest location that I know of and one cell somewhere in the Bitter Coast region I think that's edit by Emma's mod.  So basically Morgana Witchgirl cannot be installed at the same time as Morrowind Rebirth."
- (Ref: http://forums.bethsoft.com/topic/1469676-relz-morrowind-rebirth/?p=23275763 )
 TRIB_witchgirladvent1.esp
 Morrowind Rebirth <VER>.esp
 
