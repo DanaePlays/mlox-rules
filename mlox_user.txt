@@ -1946,7 +1946,6 @@ Improved Inns Expanded - LGNPC Seyda Neen*.esp
 Improved Inns Expanded_Gnisis Patch.esp
 Improved Inns Expanded + EE_Gnisis Patch.esp
 
-
 [Order]
 Glass Domes of Vivec.esp
 No-Frills Open Vivec*.esp
@@ -2131,6 +2130,11 @@ Morrowind Crafting*.esp
 [Order]
 Solstheim Tomb of The Snow Prince.esm
 BT_Whitewolf*.esm
+
+[Conflict]
+  The functionality of Lake Fjalding Anti-Suck.ESP is already included in Solstheim Tomb of the Snow Prince.
+Solstheim Tomb of The Snow Prince.esm
+Lake Fjalding Anti-Suck.ESP
 
 [Order]
 Vanheim*.esp
@@ -2755,6 +2759,13 @@ OAAB_Data.esm
 Wares-base.esm
 Wares-*.esp
 F&F_*.esp
+
+[Conflict]
+  Choose only one plugin:
+    Wares_TR - Covers both Vvardenfell and Tamriel Rebuilt.
+    Wares_Vvardenfell - Covers Vvardenfell only and can be used with Wares-TR_DATA to add Tamriel Data items to levelled lists.
+Wares_TR.ESP
+Wares_Vvardenfell.ESP
 
 [ORDER]
 Morrowind Anti-Cheese.esp
@@ -4495,6 +4506,58 @@ BCOM_OAAB_Pomegranates_patch.ESP
 [ORDER]
 distant_seafloor*.esm
 Bloodmoon.esm
+
+[Conflict]
+  Choose only one plugin:
+    correctUV Ore Replacer_fixed.esp - Ore will not respawn.
+    correctUV Ore Replacer_respawning.esp - Ore will respawn.
+correctUV Ore Replacer_fixed.esp 
+correctUV Ore Replacer_respawning.esp
+
+[Conflict]
+  Choose only one plugin:
+Area Effect Arrows Integrated.esp
+Area Effect Projectiles Integrated.esp
+Area Effect Projectiles Integrated (PAR Edit).esp
+
+[Conflict]
+  Choose only one plugin:
+Expansions Integrated - Fewer BM Creatures.esp
+Tribunal Integrated.esp
+Expansions Integrated.esp
+
+[Conflict]
+  Incompatible, causes ghostfence to revert to vanilla position.
+Beautiful Cities of Morrowind.esp
+HM_DDD_Ghostfence_v1.0.esp
+
+[Conflict]
+  Choose only one plugin:
+Psy_IronMeshImprove_Uniques_BME.esp
+Psy_IronMeshImprove_Uniques_BMI.esp
+Psy_IronMeshImprove_Uniques_E.esp
+Psy_IronMeshImprove_Uniques_I.esp
+
+[Conflict]
+  Choose only one plugin:
+    Ebenerz-Claymore.esp - German version
+    Ebony Claymore.esp - English version
+Ebenerz-Claymore.esp
+Ebony Claymore.esp
+
+[Conflict]
+  Choose only one plugin:
+    Stahlwurfmesser-fix.esp - German version
+    Steel Throwing Knife_fix.esp - English version
+Stahlwurfmesser-fix.esp
+Steel Throwing Knife_fix.esp
+
+[Conflict]
+  Choose only one plugin:
+Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp
+Bob's Diverse Dagoths - DNGDR.esp
+Bob's Diverse Dagoths - Hostile Gilvoth.esp
+Bob's Diverse Dagoths.esp
 
 [ORDER]
 F&F_companions.ESP
