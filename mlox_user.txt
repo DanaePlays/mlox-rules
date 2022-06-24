@@ -4549,7 +4549,7 @@ Expansions Integrated.esp
 
 [Conflict]
   Incompatible, causes ghostfence to revert to vanilla position.
-Beautiful Cities of Morrowind
+Beautiful Cities of Morrowind.esp
 HM_DDD_Ghostfence_v1.0.esp
 
 [Conflict]
