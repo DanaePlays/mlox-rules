@@ -281,10 +281,8 @@ Better*Bodies*.esm
 Better*Heads*.esm
 ab01Head&Hair*.esm
 Book Rotate.esm
-Skyrim_Data.esm
-PC_Data.esm
 GDR_MasterFile.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 TownSounds.esp
@@ -566,7 +564,6 @@ TownSounds.esp
 Mudcrab Island*.esp
 Great Shoals*.esp
 TheForgottenShields*.esp
-
 
 [Order]
 WGIBalancing.esp
@@ -888,7 +885,7 @@ BT_Whitewolf*.esm
 
 [Order]
 Silgrad*.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 lfx_rare_merged.esp
@@ -998,14 +995,6 @@ abotSiltStridersTR*.esp
 [Order]
 TR_Preview*.esp
 abotGuards*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotBoatsTR*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotSiltStridersTR*.esp
 
 [Order]
 TR_Preview*.esp
@@ -1376,6 +1365,10 @@ Hunter's Mark - A Marksman Mod.ESP
 Djangos Dialogue.ESP
 Kummu Monastery Revisited.esp
 constance1_0.esp
+
+[Order]
+Djangos Dialogue.ESP
+Djangos Dialogue - Patch for Purists.esp
 
 [Order]
 New Argonian Bodies - Clean.esp
@@ -2144,20 +2137,12 @@ Solstheim Tomb of The Snow Prince.esm
 Lake Fjalding Anti-Suck.ESP
 
 [Order]
-Silgrad*.esm
-TR_Data.esm
-
-[Order]
 Vanheim*.esp
 *Miridian*.esp
 
 [Order]
 *Miridian*.esp
 *toes*.esp
-
-[Order]
-TR_Preview*.esp
-TR_Travels*.esp
 
 [Order]
 TR_Travels*.esp
@@ -2229,19 +2214,7 @@ abotTRWaterSound*.esp
 
 [Order]
 TR_Preview*.esp
-abotSiltStridersTR*.esp
-
-[Order]
-TR_Preview*.esp
 abotGuards*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotBoatsTR*.esp
-
-[Order]
-TR_Mainland_1709_hotfix.esp
-abotSiltStridersTR*.esp
 
 [Order]
 TR_Preview*.esp
@@ -3958,7 +3931,7 @@ Beautiful cities of Morrowind.ESP
 
 [Order]
 OAAB_Data.esm
-TR_Data.esm
+Tamriel_Data.esm
 
 [Order]
 EcoAdjCrime*.esp
@@ -4411,6 +4384,12 @@ DN-GDRv1.2.1.esp
 Red MountainReborn.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
 
+[Note]
+ Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
+ (Ref: https://www.nexusmods.com/morrowind/mods/47414 )
+[All RedMountainReborn.esp
+     Illuminated Order v2.0 - Lore Friendly.ESP]
+
 [ORDER]
 Morag Tong Polished.esp
 ESEP - Morag Tong Polished.ESP
@@ -4579,3 +4558,8 @@ Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp
 Bob's Diverse Dagoths - DNGDR.esp
 Bob's Diverse Dagoths - Hostile Gilvoth.esp
 Bob's Diverse Dagoths.esp
+
+[ORDER]
+F&F_companions.ESP
+Equipment_Variants.ESP
+OAAB_Grazelands.ESP
