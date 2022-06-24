@@ -4516,3 +4516,8 @@ BCOM_OAAB_Pomegranates_patch.ESP
 [ORDER]
 distant_seafloor*.esm
 Bloodmoon.esm
+
+[ORDER]
+F&F_companions.ESP
+Equipment_Variants.ESP
+OAAB_Grazelands.ESP
