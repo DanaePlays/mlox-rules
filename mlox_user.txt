@@ -427,6 +427,7 @@ Ascadian Rose Cottage*.esp
 Silgrad Tower*.esp
 Siege at Firemoth*.esp
 TheForgottenShields*.esp
+AIM_+Forgotten*.esp
 The Sable Dragon*.esp
 Mills of Morrowind*.esp
 
@@ -1061,10 +1062,6 @@ TarMar.esp
 serenetower*.esp
 
 [Order]
-mel_teleportPlugin_1_3_Patches.esp
-mel_teleportPlugin_1_3_JulanAddon.esp
-
-[Order]
 MAO_PCSound.esp
 ab01gameplay*.esp
 
@@ -1162,7 +1159,7 @@ KogoruhnExpanded.esp
 Dangerous Roads of Morrowind*.esp
 
 [Order]
-The Tribe Unmourned.esp
+The Tribe Unmourned*.esp
 Mamaea Awakened.esp
 
 [Order]
@@ -1280,7 +1277,6 @@ Random Missions - In Service to Mephala - Starfire's NPC Additions.esp
 Vvardenfell Brotherhood.esp
 
 [Order]
-The Fires of Orcs.esp
 The_Fires_of_Orc.ESP
 Vvardenfell Brotherhood.esp
 
@@ -1295,20 +1291,15 @@ SHS - Bloodskal Barrow.ESP
 [Order]
 SkoomaAddictionV2.0.esp
 The Publicans.ESP
-Tales of Ald Velothi.esp
 
 [Order]
 The Publicans.ESP
 Tales of Ald Velothi.esp
 
 [Order]
-LGNPC_Aldruhn_v*.esp
+LGNPC_Aldruhn.esp
 LGNPC_Aldruhn_suppl.esp
 The Publicans (LGNPC compatible version).ESP
-
-[Order]
-RP House Hlaalu.esp
-The G93 Vanilla Quest Tweaks, RP Choices, Consequences Super Mega Package - Ultimate Edition.ESP
 
 [Order]
 Starfires NPC Additions ver-1.13.esp
@@ -1395,6 +1386,9 @@ GoW-MaC Patch.esp
 
 [Order]
 Clean_Mines & Caverns.esp
+GoW-MaC Patch.esp
+
+[ORDER]
 God of Worms.esp
 GoW-MaC Patch.esp
 
@@ -1421,10 +1415,16 @@ Advanced Conjuration.esp
 [Order]
 AndranoTombRemastered.esp
 DD_2_ExpeditionToMzelthuand.esp
+
+[ORDER]
+DD_2_ExpeditionToMzelthuand.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
 
 [Order]
 Haunted Barrows.ESP
+Haunted Barrows_SHS Patch.ESP
+
+[ORDER]
 SHS - Bloodskal Barrow.ESP
 Haunted Barrows_SHS Patch.ESP
 
@@ -1465,7 +1465,6 @@ Immersive_corprus.ESP
 
 [Order]
 Hold_it_main*.ESP
-
 DreamersExpansion.ESP
 Hold it - Dreamers.ESP
 
@@ -1606,7 +1605,6 @@ TR_Travels_(P_M) Patch.esp
 OAAB - Foyada Mamaea.esp
 DD_Caldera_Expansion v15 + Stonewood Pass Patch.ESP
 Beautiful cities of Morrowind.ESP
-
 
 [ORDER]
 Uvirith's Legacy_3.53.esp
@@ -2229,194 +2227,8 @@ ShockCenturionCompanion*.esp
 WolfCompwhite*.esp
 
 [Order]
-abotWaterLife.esm
-TR_Mainland*.esm
-
-[Order]
-mel_teleportPlugin_1_3*.esp
-mel_teleportPluginLeveledMarksPatch.esp
-
-[Order]
-Less Lore*.esp
-vgreetings*.esp
-
-[Order]
-ab01officialMerged.esp
-propylons*.esp
-
-[Order]
-Less Lore.esp
-Less_Generic_Tribunal*.esp
-
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-
-[Order]
-TarMar.esp
-serenetower*.esp
-
-[Order]
-mel_teleportPlugin_1_3_Patches.esp
-mel_teleportPlugin_1_3_JulanAddon.esp
-
-[Order]
-AshlanderTent*.esp
-abotPracticeDummies*.esp
-
-[Order]
-Seekers Faction*.esp
-Complete Trade Fix*.esp
-
-[Order]
-Seekers Faction*.esp
-Djangos Dialogue*.esp
-
-[Order]
-Less generic Nerevarine*.esp
-The Rise of the Tribe Unmourned*.esp
-
-[Order]
-Seekers Faction*.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-Seekers Faction*.esp
-LGNPC_NoLore.esp
-
-[Order]
-Seekers Faction*.esp
-Lich Father*.esp
-
-[Order]
-Seekers Faction*.esp
-Silgrad Tower*.esp
-
-[Order]
-Seekers Faction*.esp
-The Sable Dragon*.esp
-
-[Order]
-Seekers Faction*.esp
-TR_Preview*.esp
-
-[Order]
-Seekers Faction*.esp
-MW Containers Animated exp.esp
-
-[Order]
-Seekers Faction*.esp
-NOM3*.esp
-
-[Order]
-Less Lore.esp
-Antares' Tribunal*.esp
-
-[Order]
-LGNPC_Pelagiad.esp
-Illy's Oh my Goddess.esp
-
-[Order]
-LGNPC__merged.esp
-Illy's Oh my Goddess.esp
-
-[Order]
-LGNPC__merged.esp
-True_Lights_And_Darkness*.esp
-
-[Order]
-Helms Of Sight*.esp
-multipatch.esp
-
-[Order]
-Building Up Uvirith*.esp
-Antares Big Mod*.esp
-
-[Order]
-fkoa*.esp
-Antares Big Mod*.esp
-
-[Order]
-KogoruhnExpanded.esp
-Dangerous Roads of Morrowind*.esp
-
-[Order]
-The Tribe Unmourned*.esp
-Mamaea Awakened.esp
-
-[Order]
-DN-GDR-MRMlite.esp
-Mamaea Awakened.esp
-
-[Order]
-Less Lore*.esp
-Antares Big Mod*.esp
-
-[Order]
-Less_Generic*.esp
-Antares Big Mod*.esp
-
-[Order]
-LGNPC_NoLore*.esp
-Antares Big Mod*.esp
-
-[Order]
-Morag Tong*.esp
-Antares Big Mod*.esp
-
-[Order]
-MQE_MainQuestEnhancers*.esp
-Antares Big Mod*.esp
-
-[Order]
-The Tribe Unmourned*.esp
-Antares Big Mod*.esp
-
-[Order]
-vgreetings*.esp
-Antares Big Mod*.esp
-
-[Order]
-Djangos Dialogue*.esp
-What Thieves Guild*.esp
-Antares Big Mod*.esp
-
-[Order]
-Tusar*.esp
-Wabbajack*.esp
-
-[Order]
-Complete Trade Fix*.esp
-The Rise of the Tribe Unmourned*.esp
-
-[Order]
-The Rise of the Tribe Unmourned*.esp
-Syc_AtHomeAlchemy*.esp
-
-[Order]
-ST Practice Dummies*.esp
-Morrowind Crafting*.esp
-
-[Order]
-ST Practice Dummies*.esp
-Sentinel+Serendipity*.esp
-
-[Order]
-ST Practice Dummies*.esp
-NOM3*.esp
-
-[Order]
-NOM3*.esp
-; else no new path grid for platforms
-OAAB_Tel Mora*.esp
-
-[Order]
 Ashfall*.esp
 NOM3*.esp
-
-[Order]
-ab01scenicCompilation*.esp
-Meteorite Ministry*.esp
 
 [Order]
 Magicka Expanded*.esp
@@ -2506,89 +2318,6 @@ LGNPC_IndarysManor*.esp
 LGNPC__merged.esp
 
 [Order]
-TownSounds.esp
-MAO_Vanilla*.esp
-MAO_Regions.esp
-MAO_Creatures.esp
-MAO_Containers.esp
-MAO_Voice.esp
-MAO_PCSound.esp
-MAO_PCVoice.esp
-MAO_ScriptExtender*.esp
-MAO_PDragon.esp
-ab01PCvoice*.esp
-
-[Order]
-KS_Julan_Ashlander Companion*.esp
-KS_Julan*Patch.esp
-mel_teleportPlugin_1_3.esp
-mel_teleportPlugin_1_3?.esp
-UG2*.esp
-mel_teleportPlugin_1_3_Patches.esp
-mel_teleportPlugin_1_3_JulanAddon.esp
-
-[Order]
-horationpcenhanced12-bm.esp
-npce_mwse_patch.esp
-Third Person Crosshair.esp
-Ownership Indicator*.esp
-XE Sky Variations*.esp
-abotXEdof*.esp
-
-[Order]
-Morrowind Crafting 2*.esp
-Morrowind Crafting Equipment.esp
-Morrowind Crafting Houses.esp
-Korobal*.esp
-Apothecary's Demise.esp
-Ascadian Rose Cottage*.esp
-NOM3*.esp
-
-[Order]
-MAO_Base.esm
-MAO_Music.esm
-MAO_InteriorWeather.esm
-MAO_Weather.esm
-MAO_2d.esm
-MAO_3d.esm
-MAO.esm
-
-[Order]
-LGNPC_SecretMasters*.esp
-LGNPC__merged.esp
-Morrowind Crafting*.esp
-Korobal*.esp
-Ascadian Rose Cottage*.esp
-
-[Order]
-Silgrad Tower*.esp
-Siege at Firemoth*.esp
-TheForgottenShields*.esp
-AIM_+Forgotten*.esp
-The Sable Dragon*.esp
-Mills of Morrowind*.esp
-
-[Order]
-abotGondoliers*.esp
-abotSiltStriders*.esp
-abotBoats*.esp
-abotRiverStridersTR*.esp
-mel_teleportPlugin*.esp
-
-[Order]
-Morrowind Crafting*.esp
-Book Rotate - Expanded.esp
-Weapon Rotate - Expanded.esp
-MW Containers Animated exp.esp
-MEN_Combat_merged.esp
-
-[Order]
-Better Clothes*.esp
-abotGuards*.esp
-Sentinel+Serendipity*.esp
-NOM3*.esp
-
-[Order]
 Magical Missions*.esp
 Djangos Dialogue*.esp
 What Thieves Guild*.esp
@@ -2606,67 +2335,8 @@ Annastia*.esp
 Better Landscapes Stonewood Pass*.esp
 
 [Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Djangos Dialogue*.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-K_Potion_Upgrade_1.2.esp
-K_Scroll_Upgrade_MW_Trib_Bmoon.esp
-Key Replacer Trib & BM.esp
-KeyNamer.esp
-
-[Order]
-Morrowind Crafting*.esp
-Korobal*.esp
-Ascadian Rose Cottage*.esp
-NOM3*.esp
-
-[Order]
-TR_Preview*.esp
-abotBoatsTR*.esp
-TR_OldTravels*.esp
-abotRiverStridersTR*.esp
-
-[Order]
-ab01scenicCompilation*.esp
-serenetower*.esp
-Sentinel+Serendipity*.esp
-Hilgya*.esp
-
-[Order]
-Graphic Herbalism*.esp
-ab01Resources Enhanced Kollops&KwamaEggs.esp
-MW Containers Animated*.esp
-
-[Order]
-Key Namer*.esp
-PotionSorter*.esp
-PurchasableAlchemyLab*.esp
-
-[Order]
 AIM_*.esp
 Bound Armor*.esp
-
-[Order]
-Bound Armor*.esp
-Helms Of Sight*.esp
-
-[Order]
-Texture Fix 2.0.esm
-Texture Fix - Bloodmoon 1.1.esm
-Texture Fix - merged.esm
-
-[Order]
-KS_Julan_Ashlander Companion*.esp
-KS_Julan*Patch.esp
-mel_teleportPlugin*.esp
-
-[Order]
-MRM*.esm
-KS_Julan_Ashlander Companion*.esp
-KS_Julan_MRM_Patch*.esp
 
 [ORDER]
 Animated_Morrowind - merged.esp
@@ -2686,7 +2356,10 @@ Shal_Overgrown.esp
  F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
  (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
 F&F_base.esm
-CM_Partners_*.esp
+[ANY CM_Partners_*.esp
+     Outlaws.esp
+     Starfires*.esp
+     MCA*.esp]
 
 [Conflict]
  F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
@@ -2710,7 +2383,6 @@ MCA*.esp
 the_watchman.ESP
 Taddeus_Foods_of_Tamriel.ESP
 F&F_companions.ESP
-
 
 [ORDER]
 BeaconOfstRilms.ESP
@@ -3955,69 +3627,213 @@ Beautiful cities of Morrowind.ESP
 Wares_NPC_TR.esp
 TR_Travels.esp
 
-[CONFLICT]
-  Already merged in compilation Vanilla Quest Tweaks
-The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
-[ANY Morrowind - Immanuel Kant Edition.esp
-     Libertarian Magical Services.esp
-	 The Corpse and the Skooma Pipe Overhaul.esp
-	 Oath to Saint Roris Instead.esp
-	 Redoran Founder's Helm Add-on - Honor the Ancestors.esp
-	 Hentus Needs Pants Overhaul.esp
-	 A Cure for Vampirism - Skink's Solution.esp
-	 Champion of Clutter.esp
-	 Thelas' Pillows Overhaul.esp
-	 Duel of Honor - Improve the Chances.esp
-	 The Frostmoth Smugglers - Properly Rewarded.esp
-	 Strange Man at Gindrala Hleran's House Overhaul.esp
-	 Immersive Neloth Reward.esp
-	 Therana vs. Trerayna.esp
-	 Teach Nels Llendo a Lesson.esp
-	 Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
-	 Pacifist Options - When it Makes Sense.esp
-	 Harvest's End Festival.esp
-	 Fort Moonmoth Fundraiser Dinner.esp
-	 Fargoth in Distress.esp]
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Thieves' Guild in Gnaar Mok.esp
 
-[CONFLICT]
-  Already merged in compilation Main Quest Overhaul
-Main_Quest_Overhaul.ESP
-[ANY Vampire_Nerevarine.ESP
-     Sixth House Smugglers.ESP
-	 Past Life Regressions.ESP
-	 Joinable Sixth House - So to Speak.ESP
-	 Exterminate all the Brutes.ESP
-	 Consequences for Looting the Andrano Tomb.ESP
-	 Ashlander Quests.ESP
-	 Hortator.ESP
-	 Imperialist Nerevarine.ESP
-	 Nationalist Nerevarine.ESP
-	 Refuse the Main Quest.ESP
-	 Living With Caius.ESP]
-	 
 [Conflict]
-  Already merged in Thieves Guild Overhaul:
-Thieves_Guild_Overhaul.ESP
-[ANY Thieves Guild in Gnaar Mok.esp
-     Bal Molagmer Add-on.esp
-	 Lore-Friendly Bal Molagmer Gloves.esp
-	 More Redoran Master Helms.esp
-	 Plunder the Dungeon.esp
-	 Wanted Posters.esp
-	 Smooth Moves - Romancing Ahnassi.esp]
-	 
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Bal Molagmer Add-on.esp
+
 [Conflict]
-  Already merged in Imperial Legion Expansion:
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Lore-Friendly Bal Molagmer Gloves.esp
+More Redoran Master Helms.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Plunder the Dungeon.esp
+
+[Conflict]
+ Already merged in Theives Guild Overhaul:
+Thieves' Guild Overhaul.esp
+Wanted Posters.esp
+Smooth Moves - Romancing Ahnassi.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Living with Caius.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Refuse the Main Quest.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Nationalist Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Imperialist Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Hortator.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Ashlander Quests.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Consequences for Looting the Andrano Tomb.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Exterminate all the Brutes.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Joinable Sixth House - So to Speak.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Past Life Regressions.esp
+
+[Conflict]
+ Already merged in compilation Main Quest Overhaul:
+Main Quest Overhaul.esp
+Sixth House Smugglers.esp
+Vampire Nerevarine.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
 Imperial Legion Expansion.esp
-[ANY Publius_Claudius_Follower.ESP
-     Legionpapers.esp
-	 dukesarmor.esp
-	 Imperial Legion Goods.esp]
+Publius Claudius Follower.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
+Legionpapers.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
+dukesarmor.esp
+
+[Conflict]
+ Already merged in compilation Imperial Legion Expansion:
+Imperial Legion Expansion.esp
+Imperial Legion Goods.esp
 
 [Conflict]
  Choose one:
 The Talos Cult Conspiracy.esp
 Talos Cult Revised.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Morrowind - Immanuel Kant Edition.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Libertarian Magical Services.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+The Corpse and the Skooma Pipe Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Oath to Saint Roris Instead.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Redoran Founder's Helm Add-on - Honor the Ancestors.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Hentus Needs Pants Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+A Cure for Vampirism - Skink's Solution.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Champion of Clutter.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Thelas' Pillows Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Duel of Honor - Improve the Chances.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+The Frostmoth Smugglers - Properly Rewarded.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Strange Man at Gindrala Hleran's House Overhaul.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Immersive Neloth Reward.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Therana vs. Trerayna.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Teach Nels Llendo a Lesson.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Pacifist Options - When it Makes Sense.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Harvest's End Festival.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Fort Moonmoth Fundraiser Dinner.esp
+
+[Conflict]
+ Already merged in compilation VanillaQuest Tweaks:
+The Vanilla Quest_ weaks RP Choices Consequences Super Mega Package - Ultimate Edition.esp
+Fargoth in Distress.esp
 
 [Order]
 rations.esp
@@ -4065,9 +3881,6 @@ UMOPP_BetterArmorPatch.esp
 
 [Order]
 No One is Above the Law (Stable).ESP
-No one is Above the law - Go To Jail Patch.ESP
-
-[ORDER]
 Go To Jail 3.7.esp
 No one is Above the law - Go To Jail Patch.ESP
 
@@ -4096,6 +3909,7 @@ Redoran War and Sathil Mercenary Armor Integrated.ESP
 Redoran War and Sathil Mercenary Armor Integrated Temple Service Refusal Patch.ESP
 
 [Order]
+Solstheim - Tomb of The Snow Prince.esm
 Yet Another Guard Diversity - Regular.ESP
 Yet Another Guard Diversity OAAB Weapons Integrated Patch.ESP
 OAAB Weapons Integrated.ESP
@@ -4110,12 +3924,28 @@ Area Effect Projectiles and OAAB Weapons Integrated Patch.ESP
 
 [Conflict]
  The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Concept Art Daedric Helms.ESP
 RV Armors Integrated.ESP
-[ANY Concept Art Daedric Helms.ESP
-     Complete dreugh armor.ESP
-     Complete Nordic Iron.ESP
-     Complete and Revised Studded leather v 1.5.ESP
-     RV Dukes guard.ESP]
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete dreugh armor.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete Nordic Iron.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+Complete and Revised Studded leather v 1.5.ESP
+RV Armors Integrated.ESP
+
+[Conflict]
+ The following ESPs should be disabled prior to installation of RV Armors Integrated.ESP
+RV Dukes guard.ESP
+RV Armors Integrated.ESP
 
 [Order]
 Yet Another Guard Diversity - Regular.ESP
@@ -4137,17 +3967,11 @@ Morag Tong Polished - BCoM Patch.ESP
 
 [Order]
 Beautiful cities of Morrowind.ESP
-OEAD_BCOM_Patch.ESP
-
-[ORDER]
 Of Eggs and Dwarves.ESP
 OEAD_BCOM_Patch.ESP
 
 [Order]
 Suran_Underworld_v3.ESP
-Suran Underworld - Bethamez Patch.ESP
-
-[ORDER]
 Of Eggs and Dwarves.ESP
 Suran Underworld - Bethamez Patch.ESP
 
@@ -4180,15 +4004,6 @@ Stone Halls of Solstheim - Mortified.ESP
 BeaconOfstRilmsBCOMReborn.ESP
 BeaconOfstRilms - Clipping Fix.ESP
 
-;; Ref: "https://forums.nexusmods.com/index.php?/topic/8709778-god-of-worms/page-3#entry105559398"
-[Order]
-Clean_Mines & Caverns.esp
-GoW-MaC Patch.esp
-
-[ORDER]
-God of Worms.esp
-GoW-MaC Patch.esp
-
 [Order]
 Imperial Legion Expansion.esp
 Morag Tong Polished.esp
@@ -4202,9 +4017,6 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 
 [Order]
 Imperial Stables.esp
-Imperial Stables BCOM.ESP
-
-[ORDER]
 Beautiful cities of Morrowind.ESP
 Imperial Stables BCOM.ESP
 
@@ -4253,8 +4065,8 @@ LGNPC Vivec Redoran.esp
 Morag Tong Polished.esp
 
 [ORDER]
-Quill of Feyfolken <VER>.esp
-Quill of Feyfolken <VER>-OpenMW-Patch.esp
+Quill of Feyfolken 2.0.esp
+Quill of Feyfolken 2.0-OpenMW-Patch.esp
 
 [ORDER]
 Tribunal.esm
@@ -4281,6 +4093,10 @@ JulanOMWpatch.esp
 KS_Julan_MRM_Patch_1.0.ESP
 
 [ORDER]
+DD_Caldera_Expansion.esp
+OAAB Brother Junipers Twin Lamps.esp
+
+[ORDER]
 Velothi Wall Art.ESP
 Velothi Wall Art Re-Addon.ESP 
 
@@ -4295,6 +4111,10 @@ Velothi Wall Art - An Armigers Tale - Patch.ESP
 [ORDER]
 Uvirith's Legacy_3.53.esp
 UL_3.5_OpenMW_1.3_Add-on.esp
+
+[ORDER]
+Library of Vivec Overhaul - Full.esp
+Library of Vivec Overhaul - Full - OpenMW Patch.esp
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
@@ -4318,25 +4138,16 @@ BTBGI Realistic Repair Add-on Patch.ESP
 
 [ORDER]
 DD_Caldera_Expansion.esp
-OAAB Brother Junipers Twin Lamps.esp
-
-[ORDER]
 Yet Another Guard*.esp
 OAAB Brother Junipers Twin Lamps.esp
 
 [ORDER]
-LDM - Choices and Consequences v<VER>.ESP
-BDC-SN_LDM-CC compat.ESP
-
-[ORDER]
+LDM - Choices and Consequences v0.48.ESP
 BDC Seyda Neen.esp
 BDC-SN_LDM-CC compat.ESP
 
 [ORDER]
 BDC Seyda Neen.esp
-BDC-SN_CEF compat.ESP
-
-[ORDER]
 Census_and_Excise_Office_Faction.ESP
 BDC-SN_CEF compat.ESP
 
@@ -4345,8 +4156,10 @@ NPC Faction Affiliation Corrector (Minimalistic).ESP
 NPC Faction Affiliation Corrector (Maximalistic).ESP
 
 [ORDER]
+TR_Mainland.esm
 OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
+
 
 [ORDER]
 BCOM_pathgrid_reset.esp
