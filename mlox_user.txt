@@ -4229,3 +4229,131 @@ Bob's Diverse Dagoths.esp
 ;F&F_companions.ESP
 ;Equipment_Variants.ESP
 ;OAAB_Grazelands.ESP
+
+[ORDER]
+Patch for Purists - Semi-Purist Fixes.ESP
+Patch for Purists - Book Typos.ESP
+Django's Dialogue.esp
+
+[ORDER]
+Django's Dialogue.esp
+Djangos Dialogue - Patch for Purists.esp
+
+[ORDER]
+Djangos Dialogue - Patch for Purists.esp
+Improved Inns Expanded*.esp
+
+[ORDER]
+Improved Inns Expanded*.esp
+People of Pelagiad.ESP
+
+[ORDER]
+People of Pelagiad.ESP
+LDM - Context Matters <VER>.esp
+
+[ORDER]
+LDM - Context Matters <VER>.esp
+LDM - Choices & Consequences v<VER>.esp
+
+[ORDER]
+LDM - Context Matters <VER>.esp
+Raym's Vampire Rumors.esp
+
+[ORDER]
+Raym's Vampire Rumors.esp
+Raym's Vampire Rumors - Patch for Purists.esp
+
+[ORDER]
+LDM - Choices & Consequences v<VER>.esp
+Hlaalu Rank-Adjust v<VER>.esp
+
+[ORDER]
+Hlaalu Rank-Adjust v<VER>.esp
+RP House Hlaalu.esp
+
+[ORDER]
+Dual Faction Membership for NPCs.ESP
+NPC Faction Affiliation Corrector *.ESP
+
+[ORDER]
+Dual Faction Membership for NPCs.ESP
+LDM - Choices & Consequences v<VER>.esp
+
+[ORDER]
+RP House Hlaalu.esp
+Quest Tweaks and Alternatives_<VER>.esp
+
+[ORDER]
+Main_Quest_Overhaul.ESP
+Your Own Ashlander Tribe.ESP
+
+[ORDER]
+Patch for Purists - Semi-Purist Fixes.ESP
+Hortator Nerevarine Fix.ESP
+
+[CONFLICT]
+  Already merged in compilation LDM - Context Matters
+  Written for version 1.5
+LDM - Context Matters <VER>.ESP
+[ANY A Cure for Vampirism - Skink's Solution.ESP
+     FMI_Disease_Descriptions.ESP
+	 FMI_Misc.ESP
+	 FMI_Ingredient_Locations <VER>.ESP
+	 LDM - Vampire Talk.ESP
+	 LDM - Abolitionists.esp
+	 Caius Directions Anti-Journal.ESP
+	 LDM - Ashlanders v<VER>.ESP
+	 Ooh you're naked.esp]
+
+[CONFLICT]
+  Already merged in compilation LDM - Choices and Consequences
+  written for version 0.48
+LDM - Choices and Consequences v<VER>.ESP
+[ANY GAMA.esp
+	 Expansion Delay.ESP
+	 Quarantined Vvardenfell.ESP
+	 Hentus Needs Pants Overhaul.ESP
+	 Ajira Deflowered.ESP
+	 Oath to Saint Roris Instead.ESP
+	 NPC Faction Affiliation Corrector (Maximalistic).ESP
+	 NPC Faction Affiliation Corrector (Minimalistic).ESP
+	 FMI - Alice's Package.ESP
+	 Pacifist Options - When it Makes Sense.ESP
+	 Strange Man at Gindrala Hleran's House Overhaul.ESP
+	 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+	 Libertarian Magical Services.ESP
+	 Duel of Honor - Improve the Chances.ESP
+	 Blight at the Hairat-Vassamsi Egg Mine.ESP
+	 Redoran Freeloaders.esp
+	 Fargoth in Distress.ESP
+	 FMI_HulStop <VER>.ESP
+	 FMI_Legion_Dialogue.ESP
+	 Note from the Archcanon Fix.ESP
+	 FMI_Current_Councilors.ESP
+     FMI_Athyn_And_Shardie.ESP
+     Balmora Rumours Fix*.ESP]
+
+[CONFLICT]
+  Already merged in compilation LDM - Choices and Consequences, as part of Vanilla Quest Tweaks Ultimate Edition
+  written for version 0.48
+LDM - Choices and Consequences v<VER>.ESP
+[ANY Morrowind - Immanuel Kant Edition.esp
+     Libertarian Magical Services.esp
+	 The Corpse and the Skooma Pipe Overhaul.esp
+	 Oath to Saint Roris Instead.esp
+	 Redoran Founder's Helm Add-on - Honor the Ancestors.esp
+	 Hentus Needs Pants Overhaul.esp
+	 A Cure for Vampirism - Skink's Solution.esp
+	 Champion of Clutter.esp
+	 Thelas' Pillows Overhaul.esp
+	 Duel of Honor - Improve the Chances.esp
+	 The Frostmoth Smugglers - Properly Rewarded.esp
+	 Strange Man at Gindrala Hleran's House Overhaul.esp
+	 Immersive Neloth Reward.esp
+	 Therana vs. Trerayna.esp
+	 Teach Nels Llendo a Lesson.esp
+	 Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
+	 Pacifist Options - When it Makes Sense.esp
+	 Harvest's End Festival.esp
+	 Fort Moonmoth Fundraiser Dinner.esp
+	 Fargoth in Distress.esp]
