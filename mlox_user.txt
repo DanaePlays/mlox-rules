@@ -4320,7 +4320,6 @@ LDM - Choices and Consequences v<VER>.ESP
 	 FMI - Alice's Package.ESP
 	 Pacifist Options - When it Makes Sense.ESP
 	 Strange Man at Gindrala Hleran's House Overhaul.ESP
-	 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
 	 Libertarian Magical Services.ESP
 	 Duel of Honor - Improve the Chances.ESP
 	 Blight at the Hairat-Vassamsi Egg Mine.ESP
@@ -4332,28 +4331,3 @@ LDM - Choices and Consequences v<VER>.ESP
 	 FMI_Current_Councilors.ESP
      FMI_Athyn_And_Shardie.ESP
      Balmora Rumours Fix*.ESP]
-
-[CONFLICT]
-  Already merged in compilation LDM - Choices and Consequences, as part of Vanilla Quest Tweaks Ultimate Edition
-  written for version 0.48
-LDM - Choices and Consequences v<VER>.ESP
-[ANY Morrowind - Immanuel Kant Edition.esp
-     Libertarian Magical Services.esp
-	 The Corpse and the Skooma Pipe Overhaul.esp
-	 Oath to Saint Roris Instead.esp
-	 Redoran Founder's Helm Add-on - Honor the Ancestors.esp
-	 Hentus Needs Pants Overhaul.esp
-	 A Cure for Vampirism - Skink's Solution.esp
-	 Champion of Clutter.esp
-	 Thelas' Pillows Overhaul.esp
-	 Duel of Honor - Improve the Chances.esp
-	 The Frostmoth Smugglers - Properly Rewarded.esp
-	 Strange Man at Gindrala Hleran's House Overhaul.esp
-	 Immersive Neloth Reward.esp
-	 Therana vs. Trerayna.esp
-	 Teach Nels Llendo a Lesson.esp
-	 Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
-	 Pacifist Options - When it Makes Sense.esp
-	 Harvest's End Festival.esp
-	 Fort Moonmoth Fundraiser Dinner.esp
-	 Fargoth in Distress.esp]
