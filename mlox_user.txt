@@ -4331,7 +4331,8 @@ LDM - Choices and Consequences v<VER>.ESP
 	 Note from the Archcanon Fix.ESP
 	 FMI_Current_Councilors.ESP
      FMI_Athyn_And_Shardie.ESP
-     Balmora Rumours Fix*.ESP]
+     Balmora Rumours Fix*.ESP
+     Teach Nels Llendo a Lesson.esp]
 
 [CONFLICT]
   Already merged in compilation LDM - Choices and Consequences, as part of Vanilla Quest Tweaks Ultimate Edition
