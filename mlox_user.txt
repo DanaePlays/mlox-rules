@@ -4334,4 +4334,5 @@ LDM - Choices and Consequences v<VER>.ESP
 	 Note from the Archcanon Fix.ESP
 	 FMI_Current_Councilors.ESP
      FMI_Athyn_And_Shardie.ESP
+     Teach Nels Llendo a Lesson.esp
      Balmora Rumours Fix*.ESP]
