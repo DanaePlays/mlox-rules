@@ -3634,6 +3634,7 @@ TR_Travels.esp
 [Conflict]
   Already merged in compilation Thieves Guild Overhaul:
 Thieves_Guild_Overhaul.ESP
+Thieves_Guild_Overhaul - Purist Ahnassi Romance version.ESP
 [ANY Bal Molagmer Add-on.esp
      Lore-Friendly Bal Molagmer Gloves.esp
      More Redoran Master Helms.esp
