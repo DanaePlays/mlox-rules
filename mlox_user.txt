@@ -3632,31 +3632,15 @@ Wares_NPC_TR.esp
 TR_Travels.esp
 
 [Conflict]
- Already merged in Theives Guild Overhaul:
-Thieves' Guild Overhaul.esp
-Thieves' Guild in Gnaar Mok.esp
-
-[Conflict]
- Already merged in Theives Guild Overhaul:
-Thieves' Guild Overhaul.esp
-Bal Molagmer Add-on.esp
-
-[Conflict]
- Already merged in Theives Guild Overhaul:
-Thieves' Guild Overhaul.esp
-Lore-Friendly Bal Molagmer Gloves.esp
-More Redoran Master Helms.esp
-
-[Conflict]
- Already merged in Theives Guild Overhaul:
-Thieves' Guild Overhaul.esp
-Plunder the Dungeon.esp
-
-[Conflict]
- Already merged in Theives Guild Overhaul:
-Thieves' Guild Overhaul.esp
-Wanted Posters.esp
-Smooth Moves - Romancing Ahnassi.esp
+  Already merged in compilation Thieves Guild Overhaul:
+Thieves_Guild_Overhaul.ESP
+[ANY Bal Molagmer Add-on.esp
+     Lore-Friendly Bal Molagmer Gloves.esp
+     More Redoran Master Helms.esp
+     Plunder the Dungeon.esp
+     Smooth Moves - Romancing Ahnassi.esp
+     Thieves Guild in Gnaar Mok.esp
+     Wanted Posters.esp]
 
 [Conflict]
  Already merged in compilation Main Quest Overhaul:
