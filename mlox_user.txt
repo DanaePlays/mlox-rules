@@ -2797,6 +2797,10 @@ BCOM_pathgrid_reset.esp
 BCOM_Brevur.esp
 
 [Order]
+BCOM_pathgrid_reset.esp
+BCOM - Open Vivec Arena.esp
+
+[Order]
 Wares-base.esm
 Solstheim Tomb of The Snow Prince.esm
 Wares_Vvardenfell.esp
