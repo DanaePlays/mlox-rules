@@ -3658,61 +3658,21 @@ Thieves' Guild Overhaul.esp
 Wanted Posters.esp
 Smooth Moves - Romancing Ahnassi.esp
 
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Living with Caius.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Refuse the Main Quest.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Nationalist Nerevarine.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Imperialist Nerevarine.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Hortator.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Ashlander Quests.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Consequences for Looting the Andrano Tomb.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Exterminate all the Brutes.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Joinable Sixth House - So to Speak.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Past Life Regressions.esp
-
-[Conflict]
- Already merged in compilation Main Quest Overhaul:
-Main Quest Overhaul.esp
-Sixth House Smugglers.esp
-Vampire Nerevarine.esp
+[CONFLICT]
+  Already merged in compilation Main Quest Overhaul
+Main_Quest_Overhaul.ESP
+[ANY Ashlander Quests.ESP
+     Consequences for Looting the Andrano Tomb.ESP
+     Exterminate all the Brutes.ESP
+     Hortator.ESP
+     Imperialist Nerevarine.ESP
+     Joinable Sixth House - So to Speak.ESP
+     Living With Caius.ESP
+     Nationalist Nerevarine.ESP
+     Past Life Regressions.ESP
+     Refuse the Main Quest.ESP
+     Sixth House Smugglers.ESP
+     Vampire_Nerevarine.ESP]
 
 [Conflict]
   Already merged in compilation Imperial Legion Expansion:
