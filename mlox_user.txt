@@ -4306,7 +4306,7 @@ LDM - Context Matters <VER>.ESP
 	 Ooh you're naked.esp]
 
 [CONFLICT]
-  Already merged in compilation LDM - Choices and Consequences
+  Already merged, reimplemented or tweaked in compilation LDM - Choices and Consequences. Don't use together.
   written for version 0.48
 LDM - Choices and Consequences v<VER>.ESP
 [ANY GAMA.esp
