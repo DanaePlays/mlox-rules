@@ -3715,24 +3715,12 @@ Sixth House Smugglers.esp
 Vampire Nerevarine.esp
 
 [Conflict]
- Already merged in compilation Imperial Legion Expansion:
+  Already merged in compilation Imperial Legion Expansion:
 Imperial Legion Expansion.esp
-Publius Claudius Follower.esp
-
-[Conflict]
- Already merged in compilation Imperial Legion Expansion:
-Imperial Legion Expansion.esp
-Legionpapers.esp
-
-[Conflict]
- Already merged in compilation Imperial Legion Expansion:
-Imperial Legion Expansion.esp
-dukesarmor.esp
-
-[Conflict]
- Already merged in compilation Imperial Legion Expansion:
-Imperial Legion Expansion.esp
-Imperial Legion Goods.esp
+[ANY dukesarmor.esp
+     Legionpapers.esp
+     Imperial Legion Goods.esp
+     Publius_Claudius_Follower.ESP]
 
 [Conflict]
  Choose one:
