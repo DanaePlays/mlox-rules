@@ -1280,6 +1280,11 @@ Vvardenfell Brotherhood.esp
 The_Fires_of_Orc.ESP
 Vvardenfell Brotherhood.esp
 
+[ORDER]
+Vvardenfell Brotherhood.ESP
+Clean To Serve Sithis_.esp
+VB_EmynDB_Patch.ESP
+
 [Order]
 AndranoTombRemastered.esp
 The Undead.esp
@@ -1419,6 +1424,10 @@ DD_2_ExpeditionToMzelthuand.esp
 [ORDER]
 DD_2_ExpeditionToMzelthuand.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
+
+[ORDER]
+DD_2_ExpeditionToMzelthuand.esp
+Illuminated Order Improved.ESP
 
 [Order]
 Haunted Barrows.ESP
@@ -3587,6 +3596,10 @@ Fighters_Guild_Questline_Overhaul - Enable OpenMW.esp
 Fighters_Guild_Questline_Overhaul.esp
 Fighters_Guild_Questline_Overhaul - Script Fix.esp
 
+[ORDER]
+Fighters_Guild_Questline_Overhaul.ESP
+Dura Gra-Bol's House Reclaimed.esp
+
 [Order]
 Merged Objects.esp
 POST_merge_VFWE_patch.esp
@@ -3825,6 +3838,13 @@ Morag Tong Polished.ESP
 Morag Tong Polished - TR_Factions.ESP
 Morag Tong Polished - BCoM Patch.ESP
 
+[PATCH]
+  Alvazir has a patch for TR Factions and Morag Tong Polished
+  (Ref: https://www.nexusmods.com/morrowind/mods/48955 )
+Morag Tong Polished - TR_Factions.esp
+[ALL TR_Factions.esp
+     Morag Tong Polished.esp]
+
 [Order]
 Beautiful cities of Morrowind.ESP
 Of Eggs and Dwarves.ESP
@@ -3911,10 +3931,15 @@ Red MountainReborn.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
 
 [Note]
- Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
- (Ref: https://www.nexusmods.com/morrowind/mods/47414 )
+  Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
+  (Ref: https://www.nexusmods.com/morrowind/mods/47414 )
 [All RedMountainReborn.esp
      Illuminated Order v2.0 - Lore Friendly.ESP]
+
+[CONFLICT]
+  Illuminated Order Improved is v3+ and replaces v2.0
+Illuminated Order v2.0 - Lore Friendly.ESP
+Illuminated Order Improved.ESP
 
 [ORDER]
 Morag Tong Polished.esp
@@ -4117,6 +4142,10 @@ LDM - Choices & Consequences v<VER>.esp
 
 [ORDER]
 LDM - Context Matters <VER>.esp
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+
+[ORDER]
+LDM - Context Matters <VER>.esp
 Raym's Vampire Rumors.esp
 
 [ORDER]
@@ -4156,39 +4185,40 @@ Hortator Nerevarine Fix.ESP
   Written for version 1.5
 LDM - Context Matters <VER>.ESP
 [ANY A Cure for Vampirism - Skink's Solution.ESP
+     Caius Directions Anti-Journal.ESP
      FMI_Disease_Descriptions.ESP
-	 FMI_Misc.ESP
-	 FMI_Ingredient_Locations <VER>.ESP
-	 LDM - Vampire Talk.ESP
-	 LDM - Abolitionists.esp
-	 Caius Directions Anti-Journal.ESP
-	 LDM - Ashlanders v<VER>.ESP
-	 Ooh you're naked.esp]
+     FMI_Ingredient_Locations <VER>.ESP
+     FMI_Misc.ESP
+     LDM - Abolitionists.esp
+     LDM - Ashlanders v<VER>.ESP
+     LDM - Vampire Talk.ESP
+     Ooh you're naked.esp]
 
 [CONFLICT]
   Already merged, reimplemented or tweaked in compilation LDM - Choices and Consequences. Don't use together.
   written for version 0.48
 LDM - Choices and Consequences v<VER>.ESP
-[ANY GAMA.esp
-	 Expansion Delay.ESP
-	 Quarantined Vvardenfell.ESP
-	 Hentus Needs Pants Overhaul.ESP
-	 Ajira Deflowered.ESP
-	 Oath to Saint Roris Instead.ESP
-	 NPC Faction Affiliation Corrector (Maximalistic).ESP
-	 NPC Faction Affiliation Corrector (Minimalistic).ESP
-	 FMI - Alice's Package.ESP
-	 Pacifist Options - When it Makes Sense.ESP
-	 Strange Man at Gindrala Hleran's House Overhaul.ESP
-	 Libertarian Magical Services.ESP
-	 Duel of Honor - Improve the Chances.ESP
-	 Blight at the Hairat-Vassamsi Egg Mine.ESP
-	 Redoran Freeloaders.esp
-	 Fargoth in Distress.ESP
-	 FMI_HulStop <VER>.ESP
-	 FMI_Legion_Dialogue.ESP
-	 Note from the Archcanon Fix.ESP
-	 FMI_Current_Councilors.ESP
+[ANY Ajira Deflowered.ESP
+     Balmora Rumours Fix*.ESP
+     Blight at the Hairat-Vassamsi Egg Mine.ESP
+     Duel of Honor - Improve the Chances.ESP
+     Expansion Delay.ESP
+     Fargoth in Distress.ESP
+     FMI - Alice's Package.ESP
      FMI_Athyn_And_Shardie.ESP
+     FMI_Current_Councilors.ESP
+     FMI_HulStop <VER>.ESP
+     FMI_Legion_Dialogue.ESP
+     GAMA.esp
+     Hentus Needs Pants Overhaul.ESP
+     Libertarian Magical Services.ESP
+     Note from the Archcanon Fix.ESP
+     NPC Faction Affiliation Corrector (Maximalistic).ESP
+     NPC Faction Affiliation Corrector (Minimalistic).ESP
+     Oath to Saint Roris Instead.ESP
+     Pacifist Options - When it Makes Sense.ESP
+     Quarantined Vvardenfell.ESP
+     Redoran Freeloaders.esp
+     Strange Man at Gindrala Hleran's House Overhaul.ESP
      Teach Nels Llendo a Lesson.esp
-     Balmora Rumours Fix*.ESP]
+     The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
