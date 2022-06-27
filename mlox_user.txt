@@ -3633,7 +3633,7 @@ Camonna Tong.esp
 RP House Hlaalu.esp
 
 [Order]
-Beautiful cities of Morrowind.ESP
+BCOM_pathgrid_reset.esp
 The_magic_rock_of_Maar_Gan.esp
 
 [Order]
