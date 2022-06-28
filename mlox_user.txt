@@ -113,9 +113,7 @@ PotionSorter*.esp
 
 [NearEnd]
 Beautiful cities of Morrowind.ESP
-Merged_Objects.esp
 Merged Objects.esp
-Merged_Leveled_Lists.esp
 multipatch.esp
 Mashed Lists.esp
 BTBGI Loot Patch.ESP
@@ -213,11 +211,6 @@ LGNPC__merged.esp
 Stonewood Pass*.esp
 Trade Disputes*.esp
 Caverns Overhaul.esp
-TR_alpha.esp
-TR_Map3.esp
-TR_Map4.esp
-TR_Map5.esp
-TR_Map6.esp
 TR_Preview*.esp
 TR_Mainland*hotfix.esp
 abotWaterLifeTRaddon*.esp
@@ -256,7 +249,6 @@ NPC_Commands*.esp
 
 [Order]
 Weapon Sheaths Ultimate*.esp
-; Merged_Objects.esp
 NOM3*.esp
 NoM_Creatures Loot Standard.esp
 NoM_MC Compatibility Patch.esp
@@ -267,9 +259,7 @@ Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
 TR Improved Inns Add-on for NoM.esp
 ; MEN_Combat_merged.esp
-Merged_Objects.esp
 Merged Objects.esp
-Merged_Leveled_Lists.esp
 multipatch.esp
 Mashed Lists.esp
 
@@ -528,11 +518,9 @@ Bound Armor*.esp
 
 [Order]
 Galleo_AW_Shields_Back*.esp
-; Merged_Objects.esp
 Helms Of Sight*.esp
 
 [Order]
-; Merged_Objects.esp
 Bound Armor*.esp
 Helms Of Sight*.esp
 
@@ -1858,6 +1846,8 @@ Unique weapons and armors replacer.esp
 [ORDER]
 Better Morrowind Armor.esp
 Better Morrowind Armor DeFemm(o).ESP
+Better Morrowind Armor DeFemm(a).ESP
+Better Morrowind Armor DeFemm(r).ESP
 Complete Armor Joints.esp
 Videls Heels Redux.ESP
 DaedricArmor.ESP
@@ -2664,11 +2654,6 @@ Inscribed Maar Gan Rock.ESP
 [Conflict]
  Already merged into BCoM:
 Beautiful cities of Morrowind.ESP
-Telvanni Council Lounge Room.ESP
-
-[Conflict]
- Already merged into BCoM:
-Beautiful cities of Morrowind.ESP
 Dramatic Vivec - Temple only.ESP
 
 [Conflict]
@@ -3086,10 +3071,6 @@ BalmoraDocks.ESP
 [ORDER]
 Beautiful cities of Morrowind.ESP
 MasterIndexRedux.esp
-
-[Order]
-Merged_Objects.esp
-VFWE_merged_objects_fix.ESP
 
 [Order]
 Solstheim Tomb of the Snow Prince.esm
@@ -4041,10 +4022,8 @@ NPC Faction Affiliation Corrector (Minimalistic).ESP
 NPC Faction Affiliation Corrector (Maximalistic).ESP
 
 [ORDER]
-TR_Mainland.esm
 OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
-
 
 [ORDER]
 BCOM_pathgrid_reset.esp
@@ -4059,20 +4038,20 @@ distant_seafloor*.esm
 Bloodmoon.esm
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
     correctUV Ore Replacer_fixed.esp - Ore will not respawn.
     correctUV Ore Replacer_respawning.esp - Ore will respawn.
 correctUV Ore Replacer_fixed.esp 
 correctUV Ore Replacer_respawning.esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
 Area Effect Arrows Integrated.esp
 Area Effect Projectiles Integrated.esp
 Area Effect Projectiles Integrated (PAR Edit).esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
 Expansions Integrated - Fewer BM Creatures.esp
 Tribunal Integrated.esp
 Expansions Integrated.esp
@@ -4083,28 +4062,28 @@ Beautiful Cities of Morrowind.esp
 HM_DDD_Ghostfence_v1.0.esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
 Psy_IronMeshImprove_Uniques_BME.esp
 Psy_IronMeshImprove_Uniques_BMI.esp
 Psy_IronMeshImprove_Uniques_E.esp
 Psy_IronMeshImprove_Uniques_I.esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
     Ebenerz-Claymore.esp - German version
     Ebony Claymore.esp - English version
 Ebenerz-Claymore.esp
 Ebony Claymore.esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
     Stahlwurfmesser-fix.esp - German version
     Steel Throwing Knife_fix.esp - English version
 Stahlwurfmesser-fix.esp
 Steel Throwing Knife_fix.esp
 
 [Conflict]
-  Choose only one plugin:
+  Choose only one plugin
 Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp
 Bob's Diverse Dagoths - DNGDR.esp
 Bob's Diverse Dagoths - Hostile Gilvoth.esp
@@ -4222,3 +4201,17 @@ LDM - Choices and Consequences v<VER>.ESP
      Strange Man at Gindrala Hleran's House Overhaul.ESP
      Teach Nels Llendo a Lesson.esp
      The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
+
+[Order]
+Bloodmoon Rebalance.esp
+Bloodmoon Rebalance - PFP.esp
+
+[Conflict]
+  Choose only one plugin
+Better Morrowind Armor DeFemm(o).ESP
+Better Morrowind Armor DeFemm(a).ESP
+Better Morrowind Armor DeFemm(r).ESP
+
+[Order]
+Guild of Vampire Hunters.esp
+The Weary Vampire.esp
