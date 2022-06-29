@@ -1275,6 +1275,7 @@ VB_EmynDB_Patch.ESP
 
 [Order]
 AndranoTombRemastered.esp
+AndranoTomb+Retribution.esp
 The Undead.esp
 The Undead - TR.esp
 Undead arise from death 3.5.esp
@@ -1407,6 +1408,7 @@ Advanced Conjuration.esp
 
 [Order]
 AndranoTombRemastered.esp
+AndranoTomb+Retribution.esp
 DD_2_ExpeditionToMzelthuand.esp
 
 [ORDER]
@@ -4215,3 +4217,8 @@ Better Morrowind Armor DeFemm(r).ESP
 [Order]
 Guild of Vampire Hunters.esp
 The Weary Vampire.esp
+
+[Conflict]
+ AndranoTomb+Retribution.esp includes AndranoTombRemastered.esp
+AndranoTombRemastered.esp
+AndranoTomb+Retribution.esp
