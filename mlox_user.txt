@@ -1420,14 +1420,6 @@ DD_2_ExpeditionToMzelthuand.esp
 Illuminated Order Improved.ESP
 
 [Order]
-Haunted Barrows.ESP
-Haunted Barrows_SHS Patch.ESP
-
-[ORDER]
-SHS - Bloodskal Barrow.ESP
-Haunted Barrows_SHS Patch.ESP
-
-[Order]
 RFD_Heartthrum.ESP
 Shattered Stones - An Earthquake Mod.esp
 
@@ -4222,3 +4214,20 @@ The Weary Vampire.esp
  AndranoTomb+Retribution.esp includes AndranoTombRemastered.esp
 AndranoTombRemastered.esp
 AndranoTomb+Retribution.esp
+
+[Conflict]
+ If using BCOM, then disable Far From Home v1.4.ESP
+Far From Home v1.4.ESP
+Far_From_Home.ESP
+
+[Order]
+Haunted Barrows.ESP
+SHS - Bloodskal Barrow.ESP
+Stone Halls of Solstheim.ESP
+Stone Halls of Solstheim - Mortified.ESP
+Haunted Barrows_SHS Patch.ESP
+
+[Conflict]
+ SHS - Bloodskal Barrow.ESP is outdated
+SHS - Bloodskal Barrow.ESP
+Stone Halls of Solstheim*.ESP
