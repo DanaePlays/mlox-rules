@@ -1534,6 +1534,10 @@ BCoM for Wares.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
+Ashlander Traders Remastered
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
 Mamaea Awakened.ESP
 
 [ORDER]
