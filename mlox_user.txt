@@ -4235,3 +4235,7 @@ Haunted Barrows_SHS Patch.ESP
  SHS - Bloodskal Barrow.ESP is outdated
 SHS - Bloodskal Barrow.ESP
 Stone Halls of Solstheim*.ESP
+
+[ORDER]
+Beautiful cities of Morrowind.ESP
+Ashlander Traders Remastered.esp
