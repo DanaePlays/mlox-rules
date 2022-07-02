@@ -1534,7 +1534,7 @@ BCoM for Wares.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
-Ashlander Traders Remastered
+Ashlander Traders Remastered.esp
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
@@ -4236,6 +4236,3 @@ Haunted Barrows_SHS Patch.ESP
 SHS - Bloodskal Barrow.ESP
 Stone Halls of Solstheim*.ESP
 
-[ORDER]
-Beautiful cities of Morrowind.ESP
-Ashlander Traders Remastered.esp
