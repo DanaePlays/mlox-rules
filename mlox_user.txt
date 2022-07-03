@@ -3962,15 +3962,13 @@ LDM - Choices and Consequences v<VER>.ESP
 Bloodmoon Rebalance.esp
 Bloodmoon Rebalance - PFP.esp
 
-[Conflict]
-  Choose only one plugin
-Better Morrowind Armor DeFemm(o).ESP
-Better Morrowind Armor DeFemm(a).ESP
-Better Morrowind Armor DeFemm(r).ESP
-
 [Order]
 Guild of Vampire Hunters.esp
 The Weary Vampire.esp
+
+[Order]
+The Weary Vampire.esp
+The Weary Vampire - Guild of Vampire Hunters Patch.ESP
 
 [Conflict]
  AndranoTomb+Retribution.esp includes AndranoTombRemastered.esp
