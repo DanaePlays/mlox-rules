@@ -65,10 +65,10 @@ Tribunal.esm
 Bloodmoon.esm
 
 [NearEnd]
+Merged Objects.esp
 multipatch.esp
 Mashed Lists.esp
 fogpatch.esp
-Merged_Objects.esp
 Piratelords Trade Enhancements.esp
 NOM 2.12.esp
 NOM 2.13.esp
@@ -85,15 +85,9 @@ LBS_addon_reg_VD_v1.1.esp ; (Ref: "LBS_addon.txt")
 Lights 300 v5.esp ; (Ref: "readme_Lights 300 v4.3.txt")
 Lights 300 v5 + DBL.esp ; Dwemer Blinking Lights (q.v.) version
 TLM - Ambient Light + Fog Update.esp ; (Ref: "TLM - ~Readme.htm")
-True_Lights_And_Darkness_0.5.esp ; (Ref: "True_Lights_And_Darkness_1.0_Readme.txt")
-True_Lights_And_Darkness_0.5 + DBL.esp ; Dwemer Blinking Lights (q.v.) version
-True_Lights_And_Darkness_1.0-NoDaylight.esp ; (Ref: "True_Lights_And_Darkness_1.0_Readme.txt")
-True_Lights_And_Darkness_1.0-NoDaylight + DBL.esp ; Dwemer Blinking Lights (q.v.) version
-True_Lights_And_Darkness_1.1.esp ; (Ref: "True_Lights_And_Darkness_1.0_Readme.txt")
-True_Lights_And_Darkness_1.1 + DBL.esp ; Dwemer Blinking Lights (q.v.) version
 
 [Order]
-Merged_Objects.esp
+Merged Objects.esp
 multipatch.esp
 Mashed Lists.esp
 
@@ -142,22 +136,7 @@ Grass Beta_Tamriel rebuilt.esp
 Grass Beta_West Gash.esp
 Grass Bloodmoon.esp
 Grass GL.esp
-Grass TR AC.esp
-Grass TR AI.esp
-Grass TR AL.esp
-Grass TR AT.esp
-Grass TR BC.esp 
-Grass TR GL.esp
-Grass TR SV.esp
-Grass TR WG.esp
-Grass TRp AC.esp
-Grass TRp AI.esp
-Grass TRp AL.esp
-Grass TRp AT.esp
-Grass TRp BC.esp
-Grass TRp GL.esp
-Grass TRp SV.esp
-Grass TRp WG.esp
+Grass TR*.esp
 Grass Vanilla 1.esp
 Grass Vanilla 2.esp
 Grass WG.esp
@@ -184,7 +163,6 @@ Rem_GL.esp
 Rem_LoC.esp
 Rem_LoCM.esp
 Rem_Solstheim.esp
-Rem_TRp*.esp
 Rem_TR*.esp
 Rem_WG.esp
 Sky_Main_Grass.esp
@@ -225,11 +203,6 @@ Werewolves.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wrye Mash
-
-;[Conflict]
-; !!! These files contain merged leveled lists, you should use only use one at a time. Wrye Mash's "Mashed Lists.esp" is the recommended way to merge leveled lists.
-;Mashed Lists.esp
-;Merged_Leveled_Lists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TESTool [ghostwheel]
@@ -361,21 +334,8 @@ abotWaterLife.esm
      RealTimeMod.esp
      time.esp]
 
-[Note]
- You do not need Sid's TimeMod or "time.esp" from "Merkin's Multi-mod" to set the timescale, just use the console command: "set timescale to X"; where X is 30, the default for vanilla Morrowind; or X is 1, for real-time; or X is 15 for twice as slow as vanilla. Or alternatively, use Abot's "Tempus Fugit Ring" to set the timescale to whatever you want while the game is running.
- abot's "Tempus Fugit Ring" on Morrowind Modding History: http://mw.modhistory.com/download-37-7919
-2xTimeMod.esp
-RealTimeMod.esp
-time.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Absolutely Aleatory Accoutrements 2.2 [Raym]
-
-[Note]
- !! "Since this mod modifies almost every single NPC in the game, it's pretty likely that there will be conflicts with other mods; to be safe, you may want to merge objects for your mod list."
- !! (Ref: "Raym's Absolutely Aleatory Accoutrements 2.2 Readme.txt")
-[ALL Raym's Absolutely Aleatory Accoutrements <VER>.esm
-     [NOT Merged_Objects.esp]]
 
 ;;Westly's Fine Clothiers of Tamriel addons
 
@@ -1661,11 +1621,6 @@ wildlife_behaviour.esp
 MW Containers Animated.esp
 MW Containers Animated exp.esp
 
-;; (Ref: "aceg_readme.txt")
-[Order]
-MW Containers Animated exp.esp
-Merged_Objects.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Animated Containers Optimized 1.11 [Stuporstar, Greatness7, qqqbbb]
 
@@ -1695,7 +1650,7 @@ MW Containers Animated.esp
 ;;"If you're using Merged Objects, run the updater after merging objects and load the AC_Updater.esp last."
 ;;Ref: "AC_Optimized_Readme.txt"
 [Order]
-Merged_Objects.esp
+Merged Objects.esp
 AC_Updater.esp
 
 [Conflict]
@@ -5445,11 +5400,6 @@ BetterClothes_Patch.esp
  !! You have a choice of using the mod and suffering visual glitches in game or not using the mod and having some harmless error messages added to your warnings.txt file.
 BetterClothes_Patch.esp
 
-[Note]
- When using TESTOOL's "Merged_Objects.esp", it is recommended to omit Keazen's BC patch from the merge.
-[ALL BetterClothes_Patch.esp
-     Merged_Objects.esp]
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Better Clothes for Bloodmoon 1.4 [Spirited Treasure]
 
@@ -6433,7 +6383,7 @@ BirthsignsAMFun_MW.esp
 ; Dragon32: Gluby clued me onto this by PM. This mod doesn't alter existing birthsigns, it creates new ones. So, in a TESTool merge with any mod that happens to also define these birthsigns (say, WGI), you're going to get both the new power and the original one, even if you place BAMF later in load order.
 ; So, BAMF needs to load after Merged Objects.
 [Order]
-Merged_Objects.esp
+Merged Objects.esp
 BirthsignsAMFun_BM.esp
 BirthsignsAMFun_MW.esp
 
@@ -9454,10 +9404,10 @@ Creatures Merged Objects Fix.esp
 [ALL [ANY Creatures.esp
           Creatures (lore).esp
           Creatures (Semi).esp]
-     Merged_Objects.esp]
+     Merged Objects.esp]
 
 [Order]
-Merged_Objects.esp
+Merged Objects.esp
 Creatures Merged Objects Fix.esp
 
 [Patch]
@@ -9939,17 +9889,6 @@ Dagoth Ur Voice Addon v1.0.esp
      DN-GDRv1_NOM (BTB Edit).esp]
 DN_AshVampires.esp
 
-[Note]
- !! If you use TESTOOL's "Merged_Objects.esp", it is recommended to omit this plugin from the merge.
-[ALL [ANY DN-GDRv<VER>.esp
-          DN-GDRv<VER>_NOM.esp
-          DN-GDRv<VER>-Rebirth.esp
-          DN-GDRv<VER>.MRM.esp
-          DN-GDRv<VER>.MRMnp.esp
-          DN-GDRv1 (BTB Edit).esp
-          DN-GDRv1_NOM (BTB Edit).esp]
-     Merged_Objects.esp]
-
 [Order]
 Creatures.esp
 Creatures (lore).esp
@@ -10292,6 +10231,7 @@ Murderous Dreams_Safe.esp
 DM_DB Armor Replacer-ExpDDBA.esp
 DM_DB Armor Replacer-ExpRanksDDBA.esp
 Increased DB Delayed Attacks Patch.esp
+Expansion Delay.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dark Ebonheart 1.60 [Chris M.]
@@ -17947,20 +17887,6 @@ BE+(1.4) Better Looking Morrowind.esp
 ASE Extras Expansion.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Illy's Dirty Books [Illuminiel]
-
-[Conflict]
- "Q:	Does ["Illy's Dirty Books"] work with Book Rotate?
- A:	It will if you don't activate ["Illy's Dirty Books.ESP"] and just use the replacer textures, otherwise it will conflict with any scripts added to books that use meshes I needed to remap."
- Alternatively using TESTool's Merged Objects function will merge the new meshes from "Illy's Dirty Books" with the script changes from "Book Rotate".
- (Ref: "Dirty Books Guide.txt")
-Illy's Dirty Books.ESP
-[ALL [ANY Book Rotate.esm
-          Book Rotate - Morrowind.esp
-          Book Rotate - Morrowind v1.1.esp]
-     [NOT Merged_Objects.esp]]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Illy's Oh my Goddess 1.03 [Illuminiel]
 
 [Note]
@@ -24951,6 +24877,14 @@ Take All.esp
  ! (Ref: http://morrowind.nexusmods.com/mods/19510 )
 MugFix.esp
 
+[Note]
+ ! "Since its 2.0 release, the Morrowind Code Patch contains a 'Detect water level fix' (Bug fixes section - checked by default). If you install it, you'll no longer need [Taddeus'] Water Level Fix, since they solve the same problem, but MCP does it in a more reliable and complete way."
+ ! Download Hrnchamd's Morrowind Code Patch from Morrowind Nexus: http://www.nexusmods.com/morrowind/mods/19510/
+[ANY Water Level Fix - BM.esp
+     Water Level Fix - Full.esp
+     Water Level Fix - MW.esp
+     Water Level Fix - TB.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @MCA (Morrowind Comes Alive) 8.2 [Neoptolemus]
 
@@ -24964,7 +24898,7 @@ MugFix.esp
      [VER < 8.2 MCA.ESM]]
 
 [Note]
- !! If you are running more than one MCA clothing add-on then exclude all of the MCA clothing add-ons when creating your Merged Objects file with TESTool. Otherwise:
+ !! If you are running more than one MCA clothing add-on then exclude all of the MCA clothing add-ons when creating your Merged Objects. Otherwise:
  !! "The clothing add-ons don't work if you merge them - you get NPCs wearing mismatched clothing."
 [ALL [ANY MCA - BadKarma Clothing Vendor Addon.esp
           MCA - BB Peasant Gowns Addon.esp
@@ -24972,7 +24906,7 @@ MugFix.esp
           MCA - Hilgya the Seamstress Addon.esp
           MCA - Illy's OMG Addon.esp
           MCA - Westly's FCOT Addon.esp]
-     Merged_Objects.esp]
+     Merged Objects.esp]
 
 ;; BB Peasant Gowns addon
 
@@ -30414,22 +30348,6 @@ OB_Style Auto Quivers And Bows_CAJ.esp
 OB_Style Quivers And Bows 4$_CAJ.esp
 OB_Style Quivers And Bows_CAJ.esp
 
-[Note]
- !! Using Sandman101's "OB Style Quivers and Sheathing Bows for Morrowind" and Alaisagae's "Left Gloves Addon" or Lurlock's "Left Gloves" (or mods which include them) without a TESTool-generated Merged Objects plugin means that the scripts from Sandman101's mod will not work.
-[ALL [ANY OB_Style Auto Quivers And Bows.esp
-          OB_Style Quivers And Bows 4$.esp
-          OB_Style Quivers And Bows.esp
-          OB_Style Auto Quivers And Bows_CAJ.esp
-          OB_Style Quivers And Bows 4$_CAJ.esp
-          OB_Style Quivers And Bows_CAJ.esp]
-     [ANY HELLUVA Balanced Vanilla Addon.esp
-          HELLUVA Balanced BTB.esp
-          HELLUVA Balanced BTB CS.esp
-          LeftGloves_Addon_v2.esp
-          LeftGloves.esp
-          LeftGloves_1C.esp]
-     [NOT Merged_Objects.esp]]
-
 ;;Dragon32: OB Style Quivers and Sheathing Bows for Morrowind affects adamantium armour
 [Order]
 adamantiumarmor.esp
@@ -31599,7 +31517,7 @@ NOM 2.13.esp
 ;; (Ref: "PTE Readme.txt")
 [Order]
 Piratelords Trade Enhancements.esp
-Merged_Objects.esp
+Merged Objects.esp
 PTE - BC Patch.esp
 
 [Patch]
@@ -31611,14 +31529,6 @@ PTE - BC Patch.esp
 	  Better Clothes_v1.1_nac.esp
 	  Better Clothes.esp
 	  Better Clothes nac.esp]]
-
-[Note]
- When using Merged Objects with PTE, you should edit Merged_Objects.esp and remove all the NPCs modified by PTE. "Leaving the NPCs in has been known to cause crashes with PTE due to their adjusted inventories and negative items."
- (Ref: "PTE Readme.txt")
- (If you want to avoid this message, rename Merged_Objects.esp
- to Merged_Objects_for_PTE.esp, for example).
-[ALL Piratelords Trade Enhancements.esp
-     Merged_Objects.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Plain Paper Fix ckl 1.0 [claudekennilol]
@@ -31882,33 +31792,6 @@ PSsorticon.esp
  !! Spirithawke has released a version which restores this enchantment, as well as another version which removes some controversial changes to three chests.
  !! http://mw.modhistory.com/download--12174
 [DESC !/Spirithawke/ PSsorticon.esp]
-
-[Conflict]
- BTB's Alchemy and Equipment plugins from "BTB's Game Improvements" mod alter scrolls and potions whilst retaining the default icons. Erasmus' "Potions" and "Scrolls" change the icons used by potions and scrolls whilst keeping their default names and other values. To use BTB's and Erasmus' mods together you will need to run TESTool's Merge Objects function and enable the Merged_Objects.esp.
-[ANY PSsorticon.esp
-     Potions.esp
-     Scrollsv1.1.esp
-     Clean Potions.esp
-     Clean Potions1.esp
-     Clean Scrolls.esp]
-[ALL [ANY BTB - Alchemy.esp
-          BTB - Equipment.esp]
-     [NOT Merged_Objects.esp]]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Potion Upgrade [Schwaa]
-
-[Note]
- !! "Potion Upgrade" by Schwaa conflicts with Erasmus' "Potions" and Srikandi's "Potion Sorter Mod", and any mod that includes them. To fix this you will need to run TESTool's Merge Objects function and enable the Merged_Objects.esp.
- !! (Ref: "K_Potion_Upgrades.txt")
-[ALL K_Potion_Upgrade_1.2.esp
-     [ANY PotionSorter.esp
-          Potions.esp
-          PSsorticon.esp
-          Clean Potions.esp
-          Clean Potions1.esp
-          Clean Scrolls.esp]
-     [NOT Merged_Objects.esp]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Potted Plants 2.0 [andoreth]
@@ -32484,14 +32367,6 @@ CE-DepthPerception100+BTB's Character.ESP
 race_birthsign_remix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Race Rebuild 1.41 [Mythos]
-
-[Note]
- !! "Not recommended for use in its current state. The mod is highly problematic, and contains a large amount of dirty refs from the official Bethesda mods that the mod author likely had installed, but which have no business being in this mod."
- !! (Ref: http://www.mwmythicmods.com/Gluby/Gluby_CharGen_Mods.htm#RaceMods )
-race_rebuildv1_41.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Races Are More Fun 0.5 [Alaisiagae]
 
 [Conflict]
@@ -32520,7 +32395,7 @@ RAMF_Mer.esp
 ;;So, RAMF needs to load after Merged Objects.
 ;;See also http://www.mwmythicmods.com/Gluby/Gluby_CharGen_Mods.htm#RaceMods
 [Order]
-Merged_Objects.esp
+Merged Objects.esp
 RAMF_Mer_for_NPCs.esp
 RAMF.esp
 RAMF_for_NPCs.esp
@@ -39228,12 +39103,6 @@ NoM 3.0.esp
      TLM - Light Sources (Lanterns).esp]
 Light Sounds.esp
 
-;;TLM - NPC Light Sources
-
-[Order]
-TLM - NPC Light Sources.esp
-Merged_Objects.esp
-
 ;;TLM - Sneak Modifiers (Code)
 
 [Requires]
@@ -40404,23 +40273,6 @@ Balmora University 2.0 - unique Balmora addon.esp
 ;; @Unique Creatures 1.0 [Neoptolemus]
 
 ;;Dragon32: Purposefully not thinking about "Creatures Merged Objects Fix.esp" ;-)
-
-[Conflict]
- "[Neoptolemus' "Unique Creatures"] will conflict with any other mod that alters Morrowind's creatures in any way, so you may have to 'merge objects' with TESTool."
- (Ref: "Neo's Unique Creatures.txt")
-Neo's Unique Creatures.esp
-[ALL [ANY Creatures (lore).esp
-          Creatures (Semi).esp
-          Creatures.esp
-          Daedric Tweaks.esp
-          EcoAdjDaedricDrops.esp
-          Morrowind Advanced.esm
-          NewBlood_MW.esp
-          NewBlood_MwTbBm1.1.esp
-          NoAOESpellsForSummons.esp
-          Non-Homicidal Ecosystem - Daedra Edition.ESP
-          Undead arise from death <VER>.esp]
-     [NOT Merged_Objects.esp]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Unique Dagon Fel [basswalker]
@@ -42980,65 +42832,6 @@ wl_lodge_snX.esp
 wl_lodge_vi.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Water Level Fix 1.1 [Taddeus]
-
-; Water Level Fix should come last in load order so we put it after multipatch, which is [Nearend]
-[Order]
-multipatch.esp
-Water Level Fix - Full.esp
-Water Level Fix - MW.esp
-Water Level Fix - TB.esp
-Water Level Fix - BM.esp
-
-;;Dragon32: Water Level Fix - Full must be loaded after NoM 3.0
-[Order]
-NOM 2.12.esp
-NOM 2.13.esp
-NoM 3.0.esp
-Water Level Fix - Full.esp
-Water Level Fix - MW.esp
-Water Level Fix - TB.esp
-Water Level Fix - BM.esp
-
-[Requires]
- If you have Bloodmoon, but not Tribunal, you will want to activate both "Water Level Fix - MW.esp" and "Water Level Fix - BM.esp".
- (Ref: "Water Level Fix/Readme.txt")
-Water Level Fix - BM.esp
-Water Level Fix - MW.esp
-
-[Requires]
- If you have Tribunal, but not Bloodmoon, you will want to activate both "Water Level Fix - MW.esp" and "Water Level Fix - TB.esp".
- (Ref: "Water Level Fix/Readme.txt")
-Water Level Fix - TB.esp
-[ALL Morrowind.esm
-     Tribunal.esm
-     Water Level Fix - MW.esp]
-
-[Conflict]
- If you have both Tribunal and Bloodmoon expansions, you should just use "Water Level Fix - Full.esp".
- (Ref: "Water Level Fix/Readme.txt")
-Water Level Fix - Full.esp
-[ANY Water Level Fix - MW.esp
-     Water Level Fix - TB.esp
-     Water Level Fix - BM.esp]
-
-[Conflict]
- If you have both Tribunal and Bloodmoon expansions, you should just use "Water Level Fix - Full.esp".
- (Ref: "Water Level Fix/Readme.txt")
-[ANY Water Level Fix - TB.esp
-     Water Level Fix - BM.esp]
-[ALL Tribunal.esm
-     Bloodmoon.esm]
-
-[Note]
- ! "Since its 2.0 release, the Morrowind Code Patch contains a 'Detect water level fix' (Bug fixes section - checked by default). If you install it, you'll no longer need [Taddeus'] Water Level Fix, since they solve the same problem, but MCP does it in a more reliable and complete way."
- ! Download Hrnchamd's Morrowind Code Patch from Morrowind Nexus: http://www.nexusmods.com/morrowind/mods/19510/
-[ANY Water Level Fix - BM.esp
-     Water Level Fix - Full.esp
-     Water Level Fix - MW.esp
-     Water Level Fix - TB.esp]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Water Life [Abot]
 
 [Conflict]
@@ -43160,13 +42953,6 @@ WeaponFix164_WCM_addon.esp
  (Ref: "WeaponFix177.txt")
 [ALL WeaponFix164_WCM_addon.esp
      farrp_WeaponCompilationMod_V2.esp]
-
-[Note]
- The "Weapon Fix" plugin does not include body parts for Leia's Double Wield Mod. This means the defensive weapons will not be visible in game. To fix this you will need to run TESTool's Merge Objects function and enable the Merged_Objects.esp.
- (Ref: Dragon32, examined the plugins)
-[ALL Leias_Dual_Wield_03.esp
-     weaponFix177.esp
-     [NOT Merged_Objects.esp]]
 
 ; Following plugins are either supported by the main weaponFix177.esp plugin or
 ; through addons. "WeaponFix177.txt" says that Weapon Fix mods need to load
@@ -43774,7 +43560,7 @@ BT_Whitewolf_2_0NOMaddon.esp
  !! When generating your Merged Objects plugin temporarily deactivate "BT_Whitewolf_2_0NOMaddon.esp" to exclude it from the merge.
 [ALL BT_Whitewolf_2_0NOMaddon.esp
      NoM 3.0.esp
-     Merged_Objects.esp]
+     Merged Objects.esp]
 
 ;;Dragon32: prevent the above problem for those without a Merged Objects plugin
 [Order]
@@ -44312,97 +44098,6 @@ SauronsAbode252.esp
 SauronsAbode252_Tribunal.esp
 Wrye Patches A1.esp
 
-[Conflict]
- "[Wrye's "Wrye Patches" are] primarily concerned with rationalizing names so that items are more accessible both in inventories and in the spell menu."
- Other mods change the statistics or graphics of those items resulting in a conflict. If you use TESTool or similar utility to generate a Merged Objects plugin then the name changes from "Wrye Patches" and the item statistic or graphical changes from the other mod will both be present in your game.
-[ANY Wrye Patches A.esp
-     Wrye Patches A1.esp]
-[ALL [ANY AIM_MW_1dot0.esp
-          AIM_MW_BM_1dot0.esp
-          AIM_MW_TB_1dot0.esp
-          AIM_MW_TB_BM_1dot0.esp
-          Armor Effects Armor Balance-LD 1.0 (Tribunal).esp
-          Balanced weapons and armor.esp
-          Better armor (rev1 Daedrik).esp
-          Better armor (rev1_BoundDaedrArm).esp
-          Better armor (rev2_Dwemer).esp
-          Better armor (rev3_Ebony).esp
-          Better armor (rev4 Chitin).esp
-          Better armor (rev5_Steel).esp
-          Better armor (rev6_Iron).esp
-          Better armor (rev7_Templar).esp
-          Better armor (rev8_Imperial(AD-rome).esp
-          Better armor (rev8_Imperial(STANDART).esp
-          Better_Armor (Rev.10 - Orcish-AD)Eng.esp
-          Better armor (rev11_Indoril(AD).esp
-          Better Armor (rev11_Indoril(ST).esp
-          Better armor (rev12_Furs&Nord&Leather).esp
-          Better armor (rev14_Glass).esp
-          Better_Armor(Tb_pack_baseEN).esp
-          Better_Armor(Tb_pack_FULL).esp
-          Better Morrowind Armor.esp
-          BTB - Equipment.esp
-          C&BArmors.esp
-          Complete Armor.esp
-          Complete Armor Joints.esp
-          DA (Chitin).esp
-          DA (Daedric).esp
-          DA (Dwemer).esp
-          DA (Ebony).esp
-          DA (Glass).esp
-          DA (Imperial).esp
-          DA (Indoril).esp
-          DA (Iron).esp
-          DA (Netch Leather).esp
-          DA (Nordic Fur).esp
-          DA (Steel).esp
-          DA (Templar).esp
-          H.E.L.L.U.V.A. Awesome Armor_Completion Set.esp
-          HELLUVA Balanced BTB.esp
-          HELLUVA Balanced BTB CS.esp
-          HELLUVA Balanced Complete.ESP
-          HELLUVA Balanced Armor.esp
-          HG Armour Balance.esp
-          OB_Style Quivers And Bows.esp
-          OB_Style Quivers And Bows 4$.esp
-          OB_Style Quivers And Bows.esp
-          OB_Style Auto Quivers And Bows_CAJ.esp
-          OB_Style Quivers And Bows 4$_CAJ.esp
-          OB_Style Quivers And Bows_CAJ.esp
-          Objects and Game Balance Mod Public.esp
-          Taddeus'BalancedArmors(light).esp
-          Taddeus'BalancedArmors.esp]
-     [NOT Merged_Objects.esp]]
-
-;;Wrye Patches B
-
-[Conflict]
- "[Wrye's "Wrye Patches" are] primarily concerned with rationalizing names so that items are more accessible both in inventories and in the spell menu."
- Other mods change the statistics or graphics of those items resulting in a conflict. If you use TESTool or similar utility to generate a Merged Objects plugin then the name changes from "Wrye Patches" and the item statistic or graphical changes from the other mod will both be present in your game.
-Wrye Patches B.esp
-[ALL [ANY Balance - items.esp
-          Book Jackets - Bloodmoon - BookRotate.esp
-          Book Jackets - Bloodmoon.esp
-          Book Jackets - Morrowind - BookRotate.esp
-          Book Jackets - Morrowind.esp
-          Book Jackets - Tribunal - BookRotate.esp
-          Book Jackets - Tribunal.esp
-          Book Rotate - Bloodmoon v5.3.esp
-          Book Rotate - Morrowind v1.1.esp
-          Book Rotate - Tribunal v5.3.esp
-          BTB - Equipment.esp
-          BTB - Settings.esp
-          BTB - Settings (Alternate).esp
-          Dwemer Book's-TR.esp
-          Dwemer Book's.esp
-          Illy's Dirty Books.ESP
-          Librarian with Jackets & Rotate BM Trib.esp
-          Librarian with Jackets BM Trib.esp
-          PSsorticon.esp
-          Scrollsv1.1.esp
-          Clean Scrolls.esp]
-     [NOT Merged_Objects.esp]]
-
 ;;Wrye Patches C
 
 [Conflict]
@@ -44420,44 +44115,6 @@ Wrye Patches C1.esp
  (Ref: http://wryemusings.com/Wrye%20Patches.html#AlternateVersions )
 Wrye Patches C.esp
 Wrye Patches C1.esp
-
-[Conflict]
- "[Wrye's "Wrye Patches" are] primarily concerned with rationalizing names so that items are more accessible both in inventories and in the spell menu."
- Other mods change the statistics or graphics of those items resulting in a conflict. If you use TESTool or similar utility to generate a Merged Objects plugin then the name changes from "Wrye Patches" and the item statistic or graphical changes from the other mod will both be present in your game.
-[ANY Wrye Patches C.esp
-     Wrye Patches C1.esp]
-[ALL [ANY Better Clothes_v1.1.esp
-          Better Clothes_v1.1_nac.esp
-          Better Clothes.esp
-          Better Clothes nac.esp
-          Better Clothes Complete (BTB Edit).esp
-          BetterClothes_Patch.esp
-          BetterClothesBloodmoonPlus1.5.esp
-          BetterClothesForTB.esp
-          BTB - Equipment.esp
-          Clean MCFC_1.0.ESP
-          IceBradyHurdyRobeReplacerALL.esp
-          IceBradyHurdyRobeReplacerALL (BTB Edit).esp
-          IceBradyHurdyRobeReplacerBM.esp
-          IceBradyHurdyRobeReplacerMW.esp
-          IceBradyHurdyRobeReplacerPLUS.esp
-          IceBradyHurdyRobeReplacerPLUS (BTB Edit).esp
-          IceBradyHurdyRobeReplacerTB.esp
-          IceNioLivRobeReplacerALL.esp
-          IceNioLivRobeReplacerALL (BTB Edit).esp
-          IceNioLivRobeReplacerBM.esp
-          IceNioLivRobeReplacerMW.esp
-          IceNioLivRobeReplacerPLUS.esp
-          IceNioLivRobeReplacerPLUS (BTB Edit).esp
-          IceNioLivRobeReplacerTB.esp
-          LeftGloves.esp
-          LeftGloves_1C.esp
-          LeftGloves_Addon_v2.esp
-          More Better Clothes.ESP
-          UF_HortRobeF001.esp
-          UFR_v3dot2.esp
-          UFR_v3dot2_noRobe.esp]
-     [NOT Merged_Objects.esp]]
 
 [Order]
 DN-GDRv<VER>.esp
@@ -44559,35 +44216,6 @@ Wrye Patches M1.esp
      Wrye Patches M1.esp]
 [ANY Clean Key Replacer MW Renamer.esp
      KeyNamer.esp]
-
-[Conflict]
- "[Wrye's "Wrye Patches" are] primarily concerned with rationalizing names so that items are more accessible both in inventories and in the spell menu."
- Other mods change the statistics or graphics of those items resulting in a conflict. If you use TESTool or similar utility to generate a Merged Objects plugin then the name changes from "Wrye Patches" and the item statistic or graphical changes from the other mod will both be present in your game.
-[ANY Wrye Patches M.esp
-     Wrye Patches M1.esp]
-[ALL [ANY AllSoulgemsTest.esp
-          Better Picks'n'Probs Diversity.ESP
-          Better Soul Gems v2.0.ESP
-          BetterSoulGerms.esp
-          JamesW's Lockpicks And Probes Retextures.esp
-          JamesW's Repairs Retex.esp
-          master_index.esp
-          CleanMasterIndex.esp
-          MasterIndex.esp
-          [Official]Master Index.esp
-          OfficialMods_v5.esp
-          Clean Official Plugins v1.1.esp
-          Official_2002_Mods.esp
-          super_adventurers302.esp
-          moons_soulgems.esp
-          NB_Soulgems_ReplacerCLEAN.esp
-          Objects and Game Balance Mod Public.esp
-          Real Misc Items GFX.esp
-          SirLuthor-Tools.esp
-          TIM_MW.esp
-          TIM_MW_JamesW.esp
-          TIM_MW_SirLuthor.esp]
-     [NOT Merged_Objects.esp]]
 
 [Order]
 DN-GDRv<VER>.esp
@@ -44692,39 +44320,6 @@ Wrye Patches W.esp
 [Order]
 Official_2002_Mods.esp
 Wrye Patches W.esp
-
-[Conflict]
- "[Wrye's "Wrye Patches" are] primarily concerned with rationalizing names so that items are more accessible both in inventories and in the spell menu."
- Other mods change the statistics or graphics of those items resulting in a conflict. If you use TESTool or similar utility to generate a Merged Objects plugin then the name changes from "Wrye Patches" and the item statistic or graphical changes from the other mod will both be present in your game.
-Wrye Patches W.esp
-[ALL [ANY Arrow Enchant.ESP
-          Assassins Armory - Arrows.esp
-          Balance - items.esp
-          Balanced weapons and armor.esp
-          Balanced Weapons by Number One.esp
-          BTB - Equipment.esp
-          Enchanted Weapon Variety BM.esp
-          Enchanted Weapon Variety ME.esp
-          Enchanted Weapon Variety.esp
-          Marksman Enhanced v1.2.esp
-          newarrows - crossbow realism.esp
-          newarrows.esp
-          newarrowsLITE.esp
-          Objects and Game Balance Mod Public.esp
-          Steel Broadsword Fix BM.esp
-          Steel Broadsword Fix.esp
-          Taddeus'BalancedWeapons.esp
-          Taddeus'BalancedWeapons_Rotate.esp
-          Wakim's Game Improvement 9.esp
-          Wakim's Game Improvements with No-glo v9.esp
-          AprogasVampire WakimImprovements.20021210.esp
-          Weapon Range Balance.esp
-          weaponFix177.esp
-          WeaponFix144basic.esp
-          Weapons Overhaul Resistance.esp
-          Weapons Overhaul.esp
-          Xenn's Marksman Overhaul.ESP]
-     [NOT Merged_Objects.esp]]
 
 [Order]
 DN-GDRv<VER>.esp
