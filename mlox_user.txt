@@ -75,7 +75,6 @@ MWCMD_SkyDiversity.esm
 Imperial Presence.esp
 Better Clothes*.esp
 Silgrad*.esp
-True_Lights_And_Darkness*.esp
 ab01GOTYpatch.esp
 LAL.esp
 Mr Cellophane's Lovers and Legends*.esp
@@ -93,7 +92,7 @@ tribunal rebalance.ESP
 Morrowind Content Restoration - Merged.esp
 Antares Big Mod 7.63 .esp
 Patch for Purists - Book Typos.ESP
-Patch for Purists - Decimal Errors.ESP
+Patch for Purists - Semi-Purist Fixes.ESP
 Half11 misc mods + anticheese.ESP
 Morrowind Anti-Cheese.ESP
 Ownership Overhaul.esp
@@ -103,7 +102,6 @@ MWCMD_SkyDiversity.esm
 Imperial Presence.esp
 Better Clothes*.esp
 Silgrad*.esp
-True_Lights_And_Darkness*.esp
 MAO_Vanilla.esp
 MAO_Regions.esp
 MAO_Creatures.esp
@@ -113,9 +111,6 @@ PotionSorter*.esp
 
 [NearEnd]
 Beautiful cities of Morrowind.ESP
-Merged Objects.esp
-multipatch.esp
-Mashed Lists.esp
 BTBGI Loot Patch.ESP
 BTBGI Loot Patch - TCBOO.ESP
 Weapons Integrated BTBGI Loot Patch.ESP
@@ -175,6 +170,9 @@ Interior exterior flag reset.esp
 BCOM_OpenMW_plazas.esp
 YAJAN.esp
 Randar's Smithy.esp
+Mixed Cantons of Vivec.esp
+Glass Domes of Vivec.esp
+No-Frills Open Vivec*.esp
 
 [Order]
 ;Complete Trade Fix*.esp	; may with NPC scripts
@@ -313,7 +311,6 @@ Windows Glow - Bloodmoon Eng.esp
 Windows Glow - Raven Rock Eng.esp
 Windows Glow - merged.esp
 Windows Glow TB merged.esp
-Vivec Open Cantons.esp
 Vivec Open Cantons*.esp
 NPC LCV Schedules*VOC.esp
 NPC LCV Locks*VOC.esp
@@ -353,7 +350,6 @@ mel_teleportPlugin_1_3_JulanAddon.esp
 [Order]
 Creatures.esp
 Creatures (Semi).esp
-Syc_HerbalismforPurists*.esp
 abotLootControl.esp
 Lich Father*.esp
 TheForgottenShields*.esp
@@ -393,8 +389,6 @@ ab01armorFixesMerged.esp
 propylons*.esp
 ;Complete Trade Fix*.esp
 lfx_rare_merged.esp
-Graphic Herbalism*.esp
-Syc_HerbalismforPurists*.esp
 
 [Order]
 MAO_Base.esm
@@ -502,7 +496,6 @@ ab01CreaturesMerged.esp
 NON3.Belial*.esp
 
 [Order]
-Graphic Herbalism*.esp
 ab01Resources Enhanced Kollops&KwamaEggs.esp
 MW Containers Animated*.esp
 
@@ -523,11 +516,6 @@ Helms Of Sight*.esp
 [Order]
 Bound Armor*.esp
 Helms Of Sight*.esp
-
-[Order]
-Texture Fix 2.0.esm
-Texture Fix - Bloodmoon 1.1.esm
-Texture Fix - merged.esm
 
 [Order]
 ab01officialMerged*.esp
@@ -574,10 +562,6 @@ Building Up Uvirith*.esp
 MW Containers Animated.esp
 MW Containers Animated TR.esp
 MW Containers Animated exp.esp
-
-[Order]
-BT_Whitewolf*.esp
-Solstheim_Castle*.esp
 
 [Order]
 Seekers Faction*.esp
@@ -652,10 +636,6 @@ Go To Jail*.esp
 Better Expansion Implementations.ESP
 Expansion Delay.esp
 NOM3*.esp
-
-[Order]
-Merged_Dialogs.esp
-MW Containers Animated exp.esp
 
 [Order]
 ;JoinAll*.esp
@@ -877,10 +857,6 @@ Silgrad*.esm
 Tamriel_Data.esm
 
 [Order]
-lfx_rare_merged.esp
-Graphic Herbalism*.esp
-
-[Order]
 Animated_Morrowind - merged.esp
 Better Balmora river*.esp
 
@@ -1011,10 +987,6 @@ ab01Resources Enhanced Kollops&KwamaEggs.esp
 
 [Order]
 ab01armorsWeaponsMerged*.esp
-Helms Of Sight*.esp
-
-[Order]
-Bound Armor*.esp
 Helms Of Sight*.esp
 
 [Order]
@@ -1226,10 +1198,6 @@ NOM3*.esp
 NOM3*.esp
 ; else no new path grid for platforms
 OAAB_Tel Mora.esp
-
-[Order]
-ab01gameplay*.esp
-abotCityLanterns.esp
 
 [Order]
 ab01scenicCompilation*.esp
@@ -1497,10 +1465,6 @@ Texture Fix 2.0.esm
 Balmora_Seat of power.esm
 
 [ORDER]
-Patch for Purists.esm
-Ownership Overhaul.esm
-
-[ORDER]
 Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.ESP
 RP_NPCs.ESP
 
@@ -1518,10 +1482,6 @@ Suran_the_pearl_vanilla_style.esp
 [ORDER]
 Silt Strider Animation Restored.esp
 Local Lore - Silt Striders and Caravaners - Silt Strider Animation Restored.esp
-
-[ORDER]
-RP_NPCs.ESP
-SilverArmourIntegration.ESP
 
 [ORDER]
 RP_NPCs.ESP
@@ -1632,10 +1592,6 @@ Indoril Spear*.ESP
 [ORDER]
 Beautiful cities of Morrowind.ESP
 BCOM_Canal_02.esp
-
-[ORDER]
-Beautiful cities of Morrowind.ESP
-Suran_Underworld_v3.esp
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
@@ -1843,9 +1799,7 @@ Unique weapons and armors replacer.esp
 
 [ORDER]
 Better Morrowind Armor.esp
-Better Morrowind Armor DeFemm(o).ESP
-Better Morrowind Armor DeFemm(a).ESP
-Better Morrowind Armor DeFemm(r).ESP
+Better Morrowind Armor DeFemm(*).ESP
 Complete Armor Joints.esp
 Videls Heels Redux.ESP
 DaedricArmor.ESP
@@ -1942,21 +1896,6 @@ Improved Inns Expanded_Gnisis Patch.esp
 Improved Inns Expanded + EE_Gnisis Patch.esp
 
 [Order]
-Glass Domes of Vivec.esp
-No-Frills Open Vivec*.esp
-multipatch.esp
-
-[Nearend]
-Mixed Cantons of Vivec.esp
-Glass Domes of Vivec.esp
-No-Frills Open Vivec*.esp
-
-[Order]
-Real Misc Items GFX.esp
-SpzInteriorDaylight.esp
-TownSounds.esp
-
-[Order]
 Mudcrab Island*.esp
 Great Shoals*.esp
 TheForgottenShields*.esp
@@ -1967,11 +1906,6 @@ NOM3*.esp
 NoM_Creatures Loot Standard.esp
 ; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
 Building Up Uvirith*.esp
-
-[Order]
-MW Containers Animated.esp
-MW Containers Animated TR.esp
-MW Containers Animated exp.esp
 
 [Order]
 BT_Whitewolf*.esm
@@ -1995,20 +1929,8 @@ Beautiful cities of Morrowind.ESP
 Welcome Home.esp
 
 [Order]
-Seekers Faction*.esp
-;JoinAll*.esp
-
-[Order]
 MW Containers Animated exp.esp
 floaty_boaties*.esp
-
-[Order]
-True_Lights_And_Darkness*.esp
-Dwemer blinking lights*.esp
-
-[Order]
-The Imperial Dwemer Society.esp
-TheGoblinLab*.esp
 
 [Order]
 The Imperial Dwemer Society.esp
@@ -2016,27 +1938,11 @@ Morrowind Advanced*.esp
 
 [Order]
 chapelsv2.esp
-Imperial Graveyards of MW.esp
-
-[Order]
-chapelsv2.esp
-Go To Jail*.esp
-
-[Order]
-Imperial Graveyards of MW.esp
 Go To Jail*.esp
 
 [Order]
 RedMountainReborn.esp
 Clean_Mines & Caverns.esp
-
-[Order]
-EcoAdj*.esp
-Go To Jail*.esp
-
-[Order]
-indybank*.esp
-Go To Jail*.esp
 
 [Order]
 Go To Jail*.esp
@@ -2047,80 +1953,20 @@ Oblivion Style Vampires.esp
 ;JoinAll*.esp
 
 [Order]
-Mines & Caverns_Solstheim.esp
-ab01scenicCompilation*.esp
-
-[Order]
-abotWindowsGlow.esp
-abotWindowsGlowTR*.esp
-
-[Order]
-K_Scroll_Upgrade_STH+misc.esp
-Ministry_of_Clarity.esp
-
-[Order]
 Complete Trade Fix*.esp
 KS_Julan_Ashlander Companion*.esp
 
 [Order]
-Dwemer blinking lights*.esp
-abotCityLanterns.esp
-
-[Order]
-MW Containers Animated exp.esp
-abotMoreTraps.esp
-
-[Order]
-AIM_*.esp
-DwemerContraband.esp
-
-[Order]
-AIM_*.esp
-DN-GDR-MRMlite.esp
-
-[Order]
-DD_2_Expe*.esp
-DN-GDR*.esp
-
-[Order]
-DD_2_Expe*.esp
-DwemerContraband.esp
-
-[Order]
-DD_2_Expe*.esp
-ab01gameplay.esp
-
-[Order]
 DD_2_Expe*.esp
 The Tribe Unmourned*.esp
 
 [Order]
-Sentinel+Serendipity*.esp
-Animated_Morrowind*.esp
-
-[Order]
-MD_Azurian Isles*.esp
-Animated_Morrowind*.esp
-
-[Order]
 The Tribe Unmourned*.esp
 DN-GDR*.esp
-
-[Order]
-ab01GOTYpatch.esp
-QuickChar*.esp
-
-[Order]
-abotAlt.esp
-abotHideCorpse.esp
 
 [Order]
 Tel_Meskoa_Tel _Matouigius*.esp
 floaty_boaties*.esp
-
-[Order]
-Juniper's Twin Lamps*.esp
-Morrowind Crafting*.esp
 
 [Order]
 Solstheim Tomb of The Snow Prince.esm
@@ -2140,88 +1986,8 @@ Vanheim*.esp
 *toes*.esp
 
 [Order]
-TR_Travels*.esp
-abot*TR*.esp
-
-[Order]
-TR_Travels*.esp
-abotWaterLifeTR*.esp
-
-[Order]
-TR_Travels*.esp
-abotWindowsGlowTR*.esp
-
-[Order]
-TR_Travels*.esp
-abotSiltStridersTR*.esp
-
-[Order]
-TR_Travels*.esp
-TheGoblinLab*.esp
-
-[Order]
-TR_Travels*.esp
-fkoa*.esp
-
-[Order]
-TR_Travels*.esp
-Stanegau Isle.esp
-
-[Order]
-TR_Travels*.esp
-LGNPC__merged.esp
-
-[Order]
-Silgrad Tower*.esp
-indybank*.esp
-
-[Order]
 Creatures.esp
 abotGuards*.esp
-
-[Order]
-TR_*.esp
-abot*TR.esp
-
-[Order]
-TR_Preview*.esp
-MCA - TR Addon*.esp
-
-[ORDER]
-TR_Preview*.esp
-TR_signs*.esp
-
-[Order]
-TR_Preview*.esp
-QuickCharTR*.esp
-
-[Order]
-abotWindowsGlow.esp
-abotWindowsGlowTR*.esp
-
-[Order]
-TR_Preview*.esp
-abotWindowsGlowTR*.esp
-
-[Order]
-TR_Preview*.esp
-abotTRWaterSound*.esp
-
-[Order]
-TR_Preview*.esp
-abotGuards*.esp
-
-[Order]
-TR_Preview*.esp
-TR_borders*.esp
-
-[Order]
-MCA - TR Addon*.esp
-abotGuards*.esp
-
-[Order]
-ShockCenturionCompanion*.esp
-WolfCompwhite*.esp
 
 [Order]
 Ashfall*.esp
@@ -2398,10 +2164,6 @@ Taddeus Foods of Tamriel Light.ESP
 [ORDER]
 Mines & Caverns.esp
 Adanumuran_Reclaimed.esp
-
-[ORDER]
-Spell Scroll Text Overhaul.esp
-Extended Daedric Scrolls.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.esp
@@ -3578,10 +3340,6 @@ Fighters_Guild_Questline_Overhaul - Script Fix.esp
 [ORDER]
 Fighters_Guild_Questline_Overhaul.ESP
 Dura Gra-Bol's House Reclaimed.esp
-
-[Order]
-Merged Objects.esp
-POST_merge_VFWE_patch.esp
 
 ;; on nexus Slave Markets mod page, RP says 
 [Order]
