@@ -3992,3 +3992,6 @@ Haunted Barrows_SHS Patch.ESP
 SHS - Bloodskal Barrow.ESP
 Stone Halls of Solstheim*.ESP
 
+[Order]
+Tamriel_Data.esm
+Vanilla friendly wearables expansion.esm
