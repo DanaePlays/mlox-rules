@@ -298,7 +298,6 @@ TC_SadrithMoraClosed.esp
 
 [Order]
 Raym's Vampire Rumors.esp
-ab01GOTYpatch.esp
 Roads&Races*.esp
 ab01gameplay.esp
 ;JoinAll*.esp
