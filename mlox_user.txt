@@ -3660,11 +3660,11 @@ Beautiful cities of Morrowind.esp
 Tel Aruhn Chronicles quest and Yansirramus Overhaul addon.ESP
 
 [ORDER]
-Red MountainReborn.esp
+RedMountainReborn.esp
 DN-GDRv1.2.1.esp
 
 [ORDER]
-Red MountainReborn.esp
+RedMountainReborn.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
 
 [Note]
@@ -3962,7 +3962,7 @@ LDM - Choices and Consequences v<VER>.ESP
 Bloodmoon Rebalance.esp
 Bloodmoon Rebalance - PFP.esp
 
-[Order]
+[Order] ; A key item from The Weary Vampire.esp on an NPC gets overwritten otherwise
 Guild of Vampire Hunters.esp
 The Weary Vampire.esp
 
@@ -3996,6 +3996,10 @@ Stone Halls of Solstheim*.ESP
 Tamriel_Data.esm
 Vanilla friendly wearables expansion.esm
 
-[Order]
+[Order] ; Preserves exterior cell rename from Baan_Binif.ESP
 Bal'laku - The Lonely Towers.esp
 Baan_Binif.ESP
+
+[Order] ; Prevents a land tear
+OAAB_Grazelands.esp
+Valley of the Wind Overhaul.esp
