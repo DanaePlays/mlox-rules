@@ -101,7 +101,6 @@ Texture Fix*.esp
 MWCMD_SkyDiversity.esm
 Imperial Presence.esp
 Better Clothes*.esp
-Silgrad*.esp
 MAO_Vanilla.esp
 MAO_Regions.esp
 MAO_Creatures.esp
@@ -2123,24 +2122,6 @@ F&F_base.esm
      Starfires*.esp
      MCA*.esp]
 
-[Conflict]
- F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
- (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
-F&F_base.esm
-Outlaws.esp
-
-[Conflict]
- F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
- (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
-F&F_base.esm
-Starfires*.esp
-
-[Conflict]
- F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA
- (Ref: "https://www.nexusmods.com/morrowind/mods/49251?")
-F&F_base.esm
-MCA*.esp
-
 [ORDER]
 the_watchman.ESP
 Taddeus_Foods_of_Tamriel.ESP
@@ -2569,14 +2550,6 @@ Wares-base.esm
 [Requires]
 Wares-TR_DATA.esp
 Wares_Vvardenfell.esp
-
-[Requires]
-ST_Books_Wares*.ESP
-Wares-base.esm
-
-[Requires]
-ST_Books_Wares OAAB.ESP
-OAAB*.esm
 
 [CONFLICT]
   Use only one
