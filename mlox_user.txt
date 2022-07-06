@@ -4003,3 +4003,7 @@ Baan_Binif.ESP
 [Order] ; Prevents a land tear
 OAAB_Grazelands.esp
 Valley of the Wind Overhaul.esp
+
+[Order] ; Light conflicts checked in TES3View
+Beautiful Cities of Morrowind.esp
+Magical Lights.esp
