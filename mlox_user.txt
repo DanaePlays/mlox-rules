@@ -1563,6 +1563,10 @@ Beautiful cities of Morrowind.ESP
 Uvirith's Legacy_3.53.esp
 Beautiful cities of Morrowind.ESP
 
+[Order]
+Beautiful Cities of Morrowind.esp
+BCOM - Uvirith's Legacy.esp
+
 [ORDER]
 Beautiful cities of Morrowind.ESP
 ROHT_2_0_8.esp
@@ -2812,6 +2816,22 @@ MW_Children_1_0.esm
 ;Ownership Overhaul.esp
 ;Morrowind Anti-Cheese.esp
 
+[ORDER]
+Beautiful Cities of Morrowind.esp
+Racer Dust Arms and Armor.ESP
+
+[ORDER] 
+Beautiful Cities of Morrowind.esp
+Living Quarters.esp
+
+[ORDER]
+Beautiful Cities of Morrowind.esp
+Unique Banners and Signs.esp
+
+[Order]
+Beautiful Cities of Morrowind.esp
+Glass Domes of Vivec.esp
+
 [Order]
 Glass Domes of Vivec.esp
 Glass Domes of Vivec Ownership Overhaul Patch.ESP
@@ -3560,6 +3580,10 @@ Of Eggs and Dwarves.ESP
 OEAD_BCOM_Patch.ESP
 
 [Order]
+Scrolls of The Nine Barriers.esp
+BCOM_Scrolls of the Nine Barriers_patch.esp
+
+[Order]
 Suran_Underworld_v3.ESP
 Of Eggs and Dwarves.ESP
 Suran Underworld - Bethamez Patch.ESP
@@ -3759,6 +3783,10 @@ GildergreenOfBalmora.esp
 
 [ORDER]
 OAAB Pomegranates.ESP
+BCOM_OAAB_Pomegranates_patch.ESP
+
+[Order]
+Beautiful Cities of Morrowind.esp
 BCOM_OAAB_Pomegranates_patch.ESP
 
 [ORDER]
