@@ -1488,9 +1488,9 @@ RP_NPCs.ESP
 SilverArmourIntegration.ESP
 
 [ORDER]
-Trackless Grazeland.ESP
+Trackless?Grazeland.ESP
 Beautiful cities of Morrowind.ESP
-BCoM for Wares.ESP
+BCoM_for_Wares.ESP
 
 [ORDER]
 Beautiful cities of Morrowind.ESP
@@ -2770,7 +2770,7 @@ BCOM_suran underworld_expansion patch.esp
 
 [ORDER]
 OAAB_Grazelands.ESP
-Trackless Grazeland.ESP
+Trackless?Grazeland.ESP
 
 [Order]
 BCOM_pathgrid_reset.esp
