@@ -116,15 +116,15 @@ Mashed Lists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 [Note]
- !!! Morrowind Patch Project (MPP) and Unofficial Morrowind Patch Project (UMPP) are terribly obsolete and rather controversial.Use Patch for Purists instead (https://www.nexusmods.com/morrowind/mods/45096)
+ !!! Morrowind Patch Project (MPP) and Unofficial Morrowind Patch Project (UMPP) are terribly obsolete and rather controversial. Use Patch for Purists instead ( https://www.nexusmods.com/morrowind/mods/45096 )
  (ref: We know better now)
 Morrowind Patch*.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Grass warnings
 [Note]
- !!! Do not enable these ESPs or grass will have collision and tank fps.
- !! When creating your distant lands, select one plugin per region only
+ !!! Do not enable these ESPs or grass will have collision and tank FPS.
+ !! When creating your distant lands, select one plugin per region only.
 Grass AC.esp
 Grass AI.esp
 Grass AL.esp
@@ -1046,7 +1046,7 @@ Great House Dagoth.esp
 Ald-Vendras_V31.esp
 Ald-Vendras_V31-LoKKen.esp
 Ald-Vendras_V31-LoKKen-SC.esp
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Aleanne Armor and Clothes [Aleanne]
@@ -2836,7 +2836,7 @@ AshVampiresReplacer_GHD+TTU.ESP
 ;;"Ash Vampires Replacer should be loaded after DNGDR."
 ;;Ref: http://forums.nexusmods.com/index.php?/topic/1195204-ashvampiresreplacer/?p=25910199
 [Order]
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 AshVampiresReplacer*.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3959,31 +3959,7 @@ Great House Dagoth.esp
 
 [Order]
 BS_1.0.1.esp
-DN-GDRv<VER>.esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-BS_1.0.1.esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balanced Weapons 1.0 [Number One]
@@ -5543,7 +5519,7 @@ Better Morrowind Armor.esp
 ;;Dragon32: Checked order in TESPCD
 [Order]
 Better Morrowind Armor.esp
-Better Morrowind Armor DeFemm(*).ESP
+Better Morrowind Armor DeFemm(?).ESP
 
 ;;"The part of Left Gloves Addon (which change armor) was integrated."
 ;;Ref: "Better Morrowind Armor ENG-42509-0-5-2RC.7z\ReadMe.txt"
@@ -5606,7 +5582,7 @@ Better Morrowind Armor.esp
 ;;Dragon32: Load Reavance's Better Daedric Armour after Moranar's. Why would someone use both..?
 [Order]
 Better Morrowind Armor.esp
-Better Morrowind Armor DeFemm(*).ESP
+Better Morrowind Armor DeFemm(?).ESP
 Clean Better Daedric.esp
 
 ;;Kahkahra's "Complete Armor Joints" patch
@@ -6092,31 +6068,7 @@ Great House Dagoth.esp
 
 [Order]
 We sell houses 0.5.1.esp
-DN-GDRv<VER>.esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-We sell houses 0.5.1.esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Beyond YsGramor 2.5 [Miles Acraeus]
@@ -9730,7 +9682,7 @@ DN_AshVampires.esp
 Creatures.esp
 Creatures (lore).esp
 Creatures (Semi).esp
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 
 [Conflict]
  You are running Darknut's combined version of "Darknut's Greater Dwemer Ruins" and Trancemaster_1988's "Morrowind Rebirth", as well as the two constituent mods.
@@ -9753,18 +9705,8 @@ DN-GDRv<VER>-Rebirth.esp
 [ANY DN-GDRv<VER>.esp
      DN-GDRv<VER>_NOM.esp
      DN-GDRv<VER>-Rebirth.esp
-     DN-GDRv<VER>.MRM.esp
-     DN-GDRv<VER>.MRMnp.esp
      DN-GDRv1 (BTB Edit).esp
      DN-GDRv1_NOM (BTB Edit).esp]
-MRM.esm
-
-;;Dragon32: Note there's no way of working out if someone's using the non-pointy version of MRM or not
-[Requires]
- You are running a version of "Darknut's Greater Dwemer Ruins" designed to be used with "Mountainous Red Mountain" by Piratelord.
- (Ref: "DNGDR1.2MRM-43544-1-2.7z\readme.txt" and "DNGDRv1.2.MRMnp-43544-1-2.7z\readme.txt")
-[ANY DN-GDRv<VER>.MRM.esp
-     DN-GDRv<VER>.MRMnp.esp]
 MRM.esm
 
 ;;NoM-compatible version (1.0 and 1.1 only)
@@ -9830,63 +9772,15 @@ DM_DB Armor Replacer-ExpRanksDDBA.esp
 ;;Dragon32: Checked plugins from Moranor's "Better Morrowind Armor" against "Dark Brotherhood Armor Replacer" plugins in TESPCD
 [Order]
 Better Morrowind Armor.esp
-DM_DB Armor Replacer.esp
+DM_DB Armor Replacer*.esp
 
 [Order]
 Better Morrowind Armor DeFemm(o).ESP
-DM_DB Armor Replacer.esp
+DM_DB Armor Replacer*.esp
 
 [Order]
 Better Morrowind Armor DeFemm(a).ESP
-DM_DB Armor Replacer.esp
-
-[Order]
-Better Morrowind Armor.esp
-DM_DB Armor Replacer-Exp.esp
-
-[Order]
-Better Morrowind Armor DeFemm(o).ESP
-DM_DB Armor Replacer-Exp.esp
-
-[Order]
-Better Morrowind Armor DeFemm(a).ESP
-DM_DB Armor Replacer-Exp.esp
-
-[Order]
-Better Morrowind Armor.esp
-DM_DB Armor Replacer-ExpDDBA.esp
-
-[Order]
-Better Morrowind Armor DeFemm(o).ESP
-DM_DB Armor Replacer-ExpDDBA.esp
-
-[Order]
-Better Morrowind Armor DeFemm(a).ESP
-DM_DB Armor Replacer-ExpDDBA.esp
-
-[Order]
-Better Morrowind Armor.esp
-DM_DB Armor Replacer-ExpRanks.esp
-
-[Order]
-Better Morrowind Armor DeFemm(o).ESP
-DM_DB Armor Replacer-ExpRanks.esp
-
-[Order]
-Better Morrowind Armor DeFemm(a).ESP
-DM_DB Armor Replacer-ExpRanks.esp
-
-[Order]
-Better Morrowind Armor.esp
-DM_DB Armor Replacer-ExpRanksDDBA.esp
-
-[Order]
-Better Morrowind Armor DeFemm(o).ESP
-DM_DB Armor Replacer-ExpRanksDDBA.esp
-
-[Order]
-Better Morrowind Armor DeFemm(a).ESP
-DM_DB Armor Replacer-ExpRanksDDBA.esp
+DM_DB Armor Replacer*.esp
 
 [Order]
 LeftGloves_1C.esp
@@ -10309,7 +10203,7 @@ io_deadite_race-1.4b.esp
 ;; "I've just taken a quick look at Darknut's GDR and it seems he's edited 9 of the Dagoths (out of 30+). To avoid problems I'd make his mod load last."
 [Order]
 Deadly Dagoths.esp
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Decorative Horses for PHR [Spoon Thief]
@@ -11232,7 +11126,7 @@ DreamersExpansion+DNGDR_patch.ESP
           DN-GDRv1_NOM (BTB Edit).esp]]
 
 [Order]
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 DreamersExpansion+DNGDR_patch.ESP
 
 [Patch]
@@ -11265,7 +11159,7 @@ DreamersExpansion.ESP
 DreamersExpansion+DNGDR+GHD_patch.ESP
 
 [Order]
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 DreamersExpansion+DNGDR+GHD_patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -11393,9 +11287,8 @@ Dracus's Durzog Armor MW V1.esp
  (Ref: "Readme - Dracus's Durzog Armor V1.1 Update.txt")
 [ANY Dracus's Durzog Armor Tribunal Update V1.1.esp
      Dracus's Durzog Armor Tribumal Update V1.1.esp]
-[ALL [ANY Dracus's Durzog Armor Tribunal V1.esp
-          Dracus's Durzog Armor Tribumal V1.esp]
-     Tribunal.esm]
+[ANY Dracus's Durzog Armor Tribunal V1.esp
+     Dracus's Durzog Armor Tribumal V1.esp]
 
 ;; (Ref: "Readme - Dracus's Durzog Armor V1.1 Update.txt")
 [Order]
@@ -11432,31 +11325,7 @@ Dwarves! MCA addon v2.1.esp
 
 ;;Dragon32 - Needs to load after Darknut's GDR, modifies some of its LIGH records. Also Tamriel Rebuilt, but that's an ESM
 [Order]
-DN-GDRv<VER>.esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Dwemer blinking lights.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 Dwemer blinking lights.esp
 
 [Conflict]
@@ -11488,60 +11357,8 @@ Dwemer blinking lights.esp
 
 ;;Dragon32: Added other lighting mods to [NearEnd], q.v., as they modify AMBI values in interior cells
 [Order]
-DN-GDRv<VER>.esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
-LBS_Full v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>.esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-LBS_Lite v1.4(trib) + DBL.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
-LBS_Lite v1.4(trib) + DBL.esp
+DN-GDRv<VER>*.esp
+LBS_*v1.4(trib) + DBL.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dwemer Books 1.1 [Misty Moon]
@@ -11975,31 +11792,7 @@ Great House Dagoth.esp
 
 [Order]
 Clean Elynda'sWinterWear.esp
-DN-GDRv<VER>.esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-Clean Elynda'sWinterWear.esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Enchantable Gloves of the Bal Molagmer 1.0 [Rastamage]
@@ -13342,31 +13135,7 @@ Great House Dagoth.esp
 
 [Order]
 MWFoeburner Fix.ESP
-DN-GDRv<VER>.esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-MWFoeburner Fix.ESP
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Foliage Season [ayse]
@@ -14738,7 +14507,7 @@ Go To Jail 3.7 - NOM.esp
 ;; @GOTY Script Tidy 2.02 [huskobar]
 
 [Note]
- This mod is not recommended anymore, use Patch for Purists (https://www.nexusmods.com/morrowind/mods/45096) instead.
+ This mod is not recommended anymore, use Patch for Purists ( https://www.nexusmods.com/morrowind/mods/45096 ) instead.
 GOTYScriptTidy*.esm
 
 ;;Install 1 - Script Tidy, Full Treatment and are NOT using Morrowind Patch Project (MPP)
@@ -14942,13 +14711,7 @@ GOTYFullTidyZeroMPPv2.01.esm
 GOTYFullTidySomeMPPv2.01.esp
 GOTYMinImpactSomeMPPv2.01.esp
 GOTYSTMPPPatchv1.0.esp
-DN-GDRv<VER>.esp
-DN-GDRv<VER>_NOM.esp
-DN-GDRv<VER>-Rebirth.esp
-DN-GDRv<VER>.MRM.esp
-DN-GDRv<VER>.MRMnp.esp
-DN-GDRv1 (BTB Edit).esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;GOTY Script Tidy changes scripts also altered by Great House Dagoth
 [Order]
@@ -15308,14 +15071,14 @@ DNGDR-GHD Patch OV.esp
 ;;https://forums.nexusmods.com/index.php?/topic/5424845-dns-geater-dwemer-ruins-the-door-to-akulakhans-chamber/?p=48234487
 [Order]
 Great House Dagoth.esp
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 
 [Order]
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 DNGDR-GHD Patch.esp
 
 [Order]
-DN-GDRv*.esp
+DN-GDRv<VER>*.esp
 DNGDR-GHD Patch OV.esp
 
 [Conflict]
@@ -17303,12 +17066,11 @@ Illuminated Order v1.0 (IndyBank Compatible).esp
 [Requires]
  (Ref: Illuminated_order_particle_lich_addon.rar\readme.txt)
 Boe_lich_particle.esp
-[ALL [ANY Illuminated Order v1.0.esp
-          Illuminated Order v1.0 (IndyBank WC Compatible).esp
-          Illuminated Order v1.0 (IndyBank Compatible).esp
-	  Illuminated Order v1.0 (IndyBank-BE Compatible-hill).esp
-	  Illuminated Order v1.0 (IndyBank-BE Compatible-river).esp]
-     Tribunal.esm]
+[ANY Illuminated Order v1.0.esp
+     Illuminated Order v1.0 (IndyBank WC Compatible).esp
+     Illuminated Order v1.0 (IndyBank Compatible).esp
+	Illuminated Order v1.0 (IndyBank-BE Compatible-hill).esp
+	Illuminated Order v1.0 (IndyBank-BE Compatible-river).esp]
 
 ; Dragon 32: not mentioned in readme. My guess
 [Order]
@@ -17372,11 +17134,10 @@ Vality's Bitter Coast Addon.esp
  DrkAngl66's "Illuminated Windows for Balmora Expansion" requires Tribunal and Gorg, CanadianIce and Jeremy's "Balmora Expansion".
  (Ref. "MW_Illuminated_windows_v1_2.zip\Data Files\DrkAngel readme.doc")
 Illuminated Windows for Balmora Expansion.esp
-[ALL Tribunal.esm
-     [ANY Balmora Expansion v1.4.esp
-          Balmora Expansion v1.4+(1.4).esp
-          Balmora Expansion - LITE 1.0.esp
-          BE+(1.4) Better Looking Morrowind.esp]]
+[ANY Balmora Expansion v1.4.esp
+     Balmora Expansion v1.4+(1.4).esp
+     Balmora Expansion - LITE 1.0.esp
+     BE+(1.4) Better Looking Morrowind.esp]
 
 [Order]
 Balmora Expansion v1.4.esp
@@ -18888,31 +18649,7 @@ Keening_Reforged_v2.0_GDR.ESP
 
 ;;Dragon32: Checked in TESPCD, SCPT "MrTSLorkhanHeart"
 [Order]
-DN-GDRv<VER>.esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
-Keening_Reforged_v2.0_GDR.ESP
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
+DN-GDRv<VER>*.esp
 Keening_Reforged_v2.0_GDR.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -19154,12 +18891,6 @@ k_in_tent.esp
 [ANY Arkay.esp
      Clean Arkay.esp]
 Arkay_non_Tribunal.esp
-
-[Requires]
- (Ref: "Readme_arkay.txt")
-[ANY Arkay.esp
-     Clean Arkay.esp]
-Tribunal.esm
 
 ;;Dragon32: No reference, from a note I made for myself back in June 2004 :-)
 [Note]
@@ -20955,27 +20686,7 @@ LAMW_GDRv1_Patch.esp
 	  Clean The Lost Artifacts of Morrowind.esp]]
 
 [Order]
-DN-GDRv<VER>.esp
-LAMW_GDRv1_Patch.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-LAMW_GDRv1_Patch.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-LAMW_GDRv1_Patch.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-LAMW_GDRv1_Patch.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-LAMW_GDRv1_Patch.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
+DN-GDRv<VER>*.esp
 LAMW_GDRv1_Patch.esp
 
 [Patch]
@@ -24284,31 +23995,7 @@ Great House Dagoth.esp
 
 [Order]
 Adventurers Guild.esp
-DN-GDRv<VER>.esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-Adventurers Guild.esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 [Order]
 Adventurers Guild (MGE Fix).esp
@@ -24316,31 +24003,7 @@ Great House Dagoth.esp
 
 [Order]
 Adventurers Guild (MGE Fix).esp
-DN-GDRv<VER>.esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-Adventurers Guild (MGE Fix).esp
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Morrowind Animation Replacer [Dirnae & Hrnchamd]
@@ -25088,19 +24751,6 @@ MCA Mog Kage Addon.esp
 MCA 5.1 - Lighter.esp
 [SIZE 2458536 MCA.esm]
 
-;; Ref: "Readme - MCA 5.1 Lighter.txt" says to load MCA Lighter after Mashed Lists, but:
-;; Dragon32 - From Wrye Mash version history (0.72, 5th January 2007):
-;; "Tweaked list merging so that chance none is set to the chance none of the last mod to load rather than to the mimimum chance none. Tweak needed for MCA 5.1 Lighter to work with Mash."
-;; Note, Wrye Mash 0.72 released *after* this mod.
-[Order]
-MCA 5.1 Lighter.esp
-Mashed Lists.esp
-
-;; Ref: "Readme - MCA 5.1 Lighter.txt"
-[Order]
-MCA 5.1 Lighter.esp
-Merged Leveled Lists.esp
-
 ;; Ref: "Readme - MCA 5.1 Lighter.txt" & see Dragon32's note for Mashed Lists
 [Order]
 [SIZE 143700 MCA Wizard Hats Addon.esp] ;MCA 5.1 version
@@ -25112,12 +24762,6 @@ MCA 5.1 Lighter.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @MCA Lite [Marbred]
-
-[Requires]
- "MCA Lite" by Marbred requires v4.1 of "Morrowind Comes Alive" by Neoptolemus.
- (Ref: "Readme - MCA Lite.txt")
-MCA Lite.esp
-Morrowind Comes Alive.esm
 
 ;; Dragon32: "make sure this esp is loaded AFTER any other MCA Addons"
 ;; Ref: Readme - MCA Lite.txt
@@ -25189,16 +24833,6 @@ MCA 5 Lite.esp
  (Ref: "Readme - MCA v5.2 - Lite.txt")
 MCA v5.2 - Lite.esp
 [DESC /over 1200 friendly/ MCA.ESM]
-
-;;Dragon23: Jeoshua's  "MCA 5.1 Lighter" said to load his version before any merged levelled list plugin. I assume this is the case with MrE_Man's mod too.
-[Order]
-MCA v5.2 - Lite.esp
-Mashed Lists.esp
-
-;; Ref: "Readme - MCA 5.1 Lighter.txt"
-[Order]
-MCA v5.2 - Lite.esp
-Merged Leveled Lists.esp
 
 ;;Dragon32: Again, Jeoshua's  "MCA 5.1 Lighter" said to load his mod after any mods that affect MCA's creature levelled lists, again assumed it's the same with MrE_Man's mod too
 [Order]
@@ -28547,11 +28181,6 @@ New Boots of Blinding Speed.ESP
 New Bow of Shadows (MW).ESP
 New Bow of Shadows.esp
 
-[Requires]
- (Ref: "New Bow of Shadows-34418-1-6.7z\Readme.txt")
-New Bow of Shadows.esp
-Tribunal.esm
-
 [Note]
  (Ref: "New Bow of Shadows-34418-1-6.7z\Readme.txt")
 [ALL New Bow of Shadows (MW).ESP
@@ -28629,9 +28258,8 @@ New Icons - Basic.esp
 
 [Requires]
 New Icons - Trib Add-on.esp
-[ALL [ANY New Icons - WGI Compat.esp
-	  New Icons - Basic.esp]
-     Tribunal.esm]
+[ANY New Icons - WGI Compat.esp
+	New Icons - Basic.esp]
 
 [Requires]
 New Icons - BM Add-on.esp
@@ -29178,11 +28806,6 @@ HoratioNPCEnhanced12-VE.esp
  (Ref: "readme - NPC Enhanced v12.txt")
 HoratioNPCEnhanced12-Trib.esp
 Bloodmoon.esm
-
-[Requires]
- (Ref: "readme - NPC Enhanced v12.txt")
-HoratioNPCEnhanced12-Trib.esp
-Tribunal.esm
 
 [Requires]
  (Ref: "readme - NPC Enhanced v12.txt")
@@ -32332,8 +31955,7 @@ Real_wildlife_2b.esp
 [Requires]
  (Ref: "readme real wildlife 2.txt")
 Real_wildlife_2b_Bloodmoon.esp
-[ALL Bloodmoon.esm
-     Real_wildlife_2b.esp
+[ALL Real_wildlife_2b.esp
      [NOT Tribunal.esm]]
 
 [Conflict]
@@ -32588,10 +32210,7 @@ Clean Redesigned Vivec - COM patch.esp
  Jac's "Redesigned Vivec/Morrowind Comes Alive Patch" requires both expansions and v5.2 of Neoptolemus's "Morrowind Comes Alive"
  (Ref: "Redesigned Vivec - MCA patch readme.txt")
 Clean Redesigned Vivec - MCA patch.esp
-[ALL Bloodmoon.esm
-     Tribunal.esm
-     Morrowind.esm
-     [DESC /over 1200 friendly/ MCA.ESM]]
+[DESC /over 1200 friendly/ MCA.ESM]
 
 [Conflict]
  Use only one of these patches. They both move NPCs added by COM in a way that is compatible with Redesigned Vivec.
@@ -32694,11 +32313,6 @@ RKCriminals MW.esp
 RKCriminals TR.esp
 RKCriminals BM.esp
 RKCriminals TR&BM.esp
-
-[Requires]
-RKCriminals TR.esp
-[ALL Morrowind.esm
-     Tribunal.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Regionally Known Werewolves [Zennorious]
@@ -33848,13 +33462,6 @@ Lich Father Act II.esp
 Lich Father Act II.esp
 SotLF Female Shadow Cuirass v1.esp
 
-[Note]
- !! "[Dan Taylor's "Scourge of the Lich Father Acts I and II"] change the name of the cell (-6, 6) to 'Goldington', this cell name is used in dialog filtering, so it is [recommended to] use tes3cmd multipatch to preserve the cell name. Otherwise, topics like 'background', 'little secret', and 'latest rumors' will get superceded by SotLF responses (primarily in npcs out in the wilderness)."
- !! Read more about tes3cmd and its multipatch here - http://wiki.theassimilationlab.com/mmw/TES3cmd#Multipatch
-[ALL [ANY Lich Father Act I.esp
-          Lich Father Act II.esp]
-     [NOT multipatch.esp]]
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Script Improvements 1.14 [Grond1911]
 
@@ -33934,11 +33541,6 @@ Sea-of-Destiny.esm
  (Ref: http://gmml.pbwiki.com/Mod+Conflicts )
 Sea-of-Destiny.esm
 The Runaway ver 1 2.esp
-
-[Requires]
- (Ref: \Sea of Destiny Manual\Manual.htm)
-Sea-of-Destiny.esm
-Tribunal.esm
 
 [Conflict]
  "If you are using the official Siege at Firemoth plugin, disable it before you use [Sea of Destiny]".
@@ -36828,9 +36430,8 @@ TLM - AdjMod - Siege At Firemoth.esp
 [Requires]
  (Ref: "readme_super_adv3.html" and "readme_adventurers3.html")
 adventurers_tribunal.esp
-[ALL [ANY super_adventurers302.esp
+[ANY super_adventurers302.esp
           adventurers302.esp]
-     Tribunal.esm]
 
 ;;Dragon32: duplicate Adventurers load order ("adventurers_tribunal.esp" is the same plugin)
 [Order]
@@ -37843,11 +37444,6 @@ Oluhan v1.13.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tea Mod 1.21 [Stuporstar]
 
-[Requires]
- "[Stuporstar's "The Tea Mod"] requires Tribunal"
-TeaMod_<VER>.esp
-Tribunal.esm
-
 [Patch]
  "[Stuporstar's "The Tea Mod"] includes a NoM compatibility patch."
  (Ref: "TeaMod_1.2_ReadMe.txt")
@@ -38271,11 +37867,6 @@ Thescrib_Leather_breton-v3.esp
  (Ref: Constance_ver1_2_readme.txt)
 [VER<1.1 Constance1_0.esp]
 IT Beryl and Constance Fix.esp
-
-[Requires]
- (Ref: Constance_ver1_2_readme.txt)
-Constance1_0.esp
-Tribunal.esm
 
 [Requires]
  "Constance's Amulet" by Dyn_Sol requires "Thief companion Constance" by Grumpy and Emma
@@ -39077,12 +38668,6 @@ TradeDisputes.esp
 [ANY The Prison Ship Escape V2.esp
      The Prison Ship Escape High Level V2.esp]
 
-[Note]
- !! "Trade Disputes changes the names of several cells to 'Fort Klamoth' and 'gri-brash island', these cell names are used in dialog filtering, so it is [recommended to] use tes3cmd multipatch to preserve the cell name. Otherwise, 'latest rumors' topics will get superceded by Trade Disputes responses (primarily in npcs out in the wilderness), and Trade Disputes dialog entries change variable state information, which may very well not exist, causing the game to crash."
- !! Read more about tes3cmd and its multipatch here - http://wiki.theassimilationlab.com/mmw/TES3cmd#Multipatch
-[ALL TradeDisputes.esp
-     [NOT multipatch.esp]]
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Traveling Merchants [GhanBuriGhan; Revised by Cyrano]
 
@@ -39109,10 +38694,6 @@ TravelingMerchants_v2.2_Update.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Travel Tent [Aftershock]
-
-[Requires]
-Travel Tent V1_95b.esp
-Tribunal.esm
 
 ;;Addons by MasterNetra
 [Requires]
@@ -39181,7 +38762,6 @@ The Tribe Unmourned (GHD).esp
 [Order]
 Sixth House.esp
 The Tribe Unmourned.esp
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tribunal Integration - Fixed levelled lists 0.5 [Dragon32, TheOtherFelix]
@@ -39355,10 +38935,6 @@ Mudcrab Island.esp
 ;; @Turenyulal Redone [Trainwiz]
 
 ;;Dragon32: Duplicating Order rule from "DNGDR - Darknut's Greater Dwemer Ruins [Darknut]" for completeness
-
-[Requires]
-TurenyalRedone.ESP
-GDR_MasterFile.esm
 
 ;; "this mod modifies the books "The Firmament" and "Brief History of the Empire Volume 4", which prevents the new Book Jackets covers from showing. Not a terribly big deal, as simply having this mod loaded before book jackets prevents this from happening"
 [Order]
@@ -39971,11 +39547,6 @@ unique Dagon Fel-MQB ADDON.esp
 Psy_UniqueDremora_M.esp
 Psy_UniqueDremora_T.esp
 
-[Requires]
- (Ref: "Psy_UniqueDremora_readme.txt")
-Psy_UniqueDremora_T.esp
-Tribunal.esm
-
 [Note]
  (Ref: "Psy_UniqueDremora_readme.txt")
 [ALL Psy_UniqueDremora_M.esp
@@ -40061,11 +39632,6 @@ UF_HortRobeF001.esp
  (Ref: Unique Ghosts - README.txt)
 Unique Ghosts - M.esp
 Unique Ghosts - M - T.esp
-
-[Requires]
- (Ref: Unique Ghosts - README.txt)
-Unique Ghosts - M - T.esp
-Tribunal.esm
 
 [Note]
  !! "[Unique Ghosts] REQUIRES the mod Better Clothes [...] You do not need to have its esp loaded, but you need some of the textures"
@@ -40261,32 +39827,7 @@ Great House Dagoth.esp
 
 [Order]
 Uvirith Inside.esp
-DN-GDRv<VER>.esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv<VER>_NOM.esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv<VER>-Rebirth.esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv<VER>.MRM.esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv<VER>.MRMnp.esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv1 (BTB Edit).esp
-
-[Order]
-Uvirith Inside.esp
-DN-GDRv1_NOM (BTB Edit).esp
-
+DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Uvirith Inside Patch 1.61 [The Mad God]
@@ -40732,18 +40273,6 @@ Uvirith's Legacy_<VER>.esp
 [Order]
 Uvirith's Legacy_<VER>.esp
 Illuminated Order*.esp
-
-;[Order]
-;Uvirith's Legacy_<VER>.esp
-;Illuminated Order v1.0 (IndyBank Compatible).esp
-
-;[Order]
-;Uvirith's Legacy_<VER>.esp
-;Illuminated Order v1.0 (IndyBank-BE Compatible-hill).esp
-
-;[Order]
-;Uvirith's Legacy_<VER>.esp
-;Illuminated Order v1.0 (IndyBank-BE Compatible-river).esp
 
 ;;Books of Vvardenfell
 
@@ -42325,7 +41854,7 @@ Less_Generic_Tribunal.esp
 
 [Note]
  ! WH-Reaper has updated Hargreth's "The Walled City of Balmora" mod. You maybe interested in his update
- ! Download it from Great House Fliggerty: http://download.fliggerty.com/download-15-940
+ ! Download it from Great House Fliggerty: https://web.archive.org/web/20161103153751/http://download.fliggerty.com/file.php?id=940
 Walled_City_v1.2.esp
 
 [Conflict]
@@ -42864,11 +42393,6 @@ Werewolves.esp
  (Ref: werewolves_mod_readme.htm)
 Werewolves.esp
 Dark Powers v2.0.esp
-
-[Requires]
- (Ref: werewolves_mod_readme.htm)
-Werewolves.esp
-Tribunal.esm
 
 [Requires]
  (Ref: werewolves_mod_readme.htm)
@@ -43747,59 +43271,11 @@ Wrye Patches C.esp
 Wrye Patches C1.esp
 
 [Order]
-DN-GDRv<VER>.esp
+DN-GDRv<VER>*.esp
 Wrye Patches C.esp
 
 [Order]
-DN-GDRv<VER>.esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Wrye Patches C1.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
-Wrye Patches C.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 Wrye Patches C1.esp
 
 ;;Wrye Patches G
@@ -43848,59 +43324,11 @@ Wrye Patches M1.esp
      KeyNamer.esp]
 
 [Order]
-DN-GDRv<VER>.esp
+DN-GDRv<VER>*.esp
 Wrye Patches M.esp
 
 [Order]
-DN-GDRv<VER>.esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Wrye Patches M1.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
-Wrye Patches M.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 Wrye Patches M1.esp
 
 ;;Wrye Patches W
@@ -43952,31 +43380,7 @@ Official_2002_Mods.esp
 Wrye Patches W.esp
 
 [Order]
-DN-GDRv<VER>.esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv<VER>_NOM.esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv<VER>-Rebirth.esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv<VER>.MRM.esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv<VER>.MRMnp.esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv1 (BTB Edit).esp
-Wrye Patches W.esp
-
-[Order]
-DN-GDRv1_NOM (BTB Edit).esp
+DN-GDRv<VER>*.esp
 Wrye Patches W.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
