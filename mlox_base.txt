@@ -202,9 +202,6 @@ Werewolves BM add-on.esp
 Werewolves.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Wrye Mash
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TESTool [ghostwheel]
 
 [Note]
@@ -214,6 +211,19 @@ Merged_Dialogs.esp
 [Note]
  !!! The Merged Leveled Lists feature of TESTool does not correctly calculate all merged lists and is not recommended. It is recommended that you use tes3cmd, tes3merge, or Delta plugin to merge leveled lists.
 Merged_Leveled_Lists.esp
+
+[Note]
+ !!! It is recommended that you merge objects with tes3merge, as it is newer and actively developed.
+Merged_Objects.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Levelled list conflicts
+
+[Conflict]
+     These plugins all contain merged levelled lists by default, TES3Merge is recommended for merging levelled lists.
+Merged Objects.esp
+multipatch.esp
+Mashed Lists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @112 Vivec Replacement 1.02 [Szazmyrr3]
@@ -598,49 +608,7 @@ Resources Enhanced.esp
 AMRP 1.2.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Advanced Persuasion 1.2 [Danjb]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Advanced Persuasion.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Advanced Persuasion.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @Advanced Persuasion 1.2 [Danjb] ; Found no conflicts in existing rules (Pharis)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Adventurers [Adam]
@@ -1119,37 +1087,14 @@ Almilia's daughters 4.0.esp
 ;;"[LGNPC_Detect.esp] is supposed to load prior to any other LGNPC mod"
 ;;Ref: "almilia's daughters 4.0.txt"
 ;;Dragon32: Seems to set Global variables used by main Almilia's plugin
+;; These two rules will assure that LGNPC_Detect.esp loads before all LGNPC mods (Pharis)
+[Order] 
+LGNPC_Detect.esp
+Less Lore.esp
+
 [Order]
 LGNPC_Detect.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
+Less_Generic_*.esp
 
 [Patch]
  "[Using the Clothing Mod Detector plugin allows "Almilia's Daughters" to] take advantage of some clothing mods,[...] currently following clothing mods are supported:
@@ -2075,48 +2020,9 @@ AprogasVampire WakimImprovements.20021210.esp
 [ANY MWInhabitants Flee AI Patch.esp
      Flee AI Tweaks.esp]
 
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; Gameplay - Dialogue.esp adds some generic rumours and the like
 [Order]
-Less Lore.esp
 LGNPC_NoLore.esp
 AprogasVampire WakimImprovements.20021210.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-AprogasVampire WakimImprovements.20021210.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Aragon Ashlander Tent MWSE Patch [Bjam]
@@ -5069,10 +4975,6 @@ Vampire Realism II.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Beryl's Head Replacer 1.0 [Beryllium]
 
-[Order]
-Bloodmoon.esm
-Beryl's_Head_Replacer_v1.0.esm
-
 [Conflict]
  Has head conflicts.
  "Remove Argonian and Khajiit IDs from Beryl's Head Replacer to fix it."
@@ -7168,6 +7070,10 @@ Book Rotate - Morrowind v1.1.esp
      Book Rotate - Morrowind.esp
      Book Rotate - Tribunal v5.3.esp
      Book Rotate - Bloodmoon v5.3.esp]
+
+[Note]
+	!!! This patch fairly outdated and edits the vanilla com_chest_01, adding many books to every instance of it.
+Book Rotate - Tamriel Rebuilt Patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Booty Island 1.1 [JOG]
@@ -10779,54 +10685,13 @@ Djangos Dialogue.ESP
 [ANY Little Secrets.ESP
      Good Service.esp]
 
-;;"Possible conflict with Djangos Dialogue over the topic 'background'."
-;;Ref: "LGNPC_NoLore_Readme.txt"
-;;Dragon32: Let's see if an Order rule helps out here, I have a note "Djangos Dialogue (load this before LGNPC)", not sure where from. Closest I can find:
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
 [Order]
 Less Lore.esp
-LGNPC_NoLore.esp
 Djangos Dialogue.ESP
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
 
-;;Dragon32: conflict on a INFO (dialog text entry). Arbitrary Order rule, I see Django's as more specific than TheOne&Only's so loading that last.
-[Order]
+[Order] ; Dragon32: conflict on a INFO (dialog text entry). Arbitrary Order rule, I see Django's as more specific than TheOne&Only's so loading that last.
 Lore Fix.esp
 Djangos Dialogue.ESP
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Djangos Dialogue.ESP
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dodge mods [Various]
@@ -11008,48 +10873,6 @@ dracandrosvoice.esp
 [ANY archcanonsvoice.esp
      hortatorsvoice.esp]
 
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-dracandrosvoice.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-dracandrosvoice.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dracandros' Voice Startup Mod [Eisenfaust]
 
@@ -11112,9 +10935,20 @@ DreamersAwakenedv1.0.esp
 DreamersExpansion.ESP
 PB_Dagoth_Bonemold.esp
 
-[Patch]
- "DreamersExpansion+DNGDR_patch.ESP - patch for Greater Dwemer Ruins by Darknut."
- (Ref: "DreamersExpansion - Readme.txt")
+;[Patch]
+; "DreamersExpansion+DNGDR_patch.ESP - patch for Greater Dwemer Ruins by Darknut."
+; (Ref: "DreamersExpansion - Readme.txt")
+;DreamersExpansion+DNGDR_patch.ESP
+;[ALL DreamersExpansion.ESP
+;     [ANY DN-GDRv<VER>.esp
+;          DN-GDRv<VER>_NOM.esp
+;          DN-GDRv<VER>-Rebirth.esp
+;          DN-GDRv<VER>.MRM.esp
+;          DN-GDRv<VER>.MRMnp.esp
+;          DN-GDRv1 (BTB Edit).esp
+;          DN-GDRv1_NOM (BTB Edit).esp]]
+
+[Requires]
 DreamersExpansion+DNGDR_patch.ESP
 [ALL DreamersExpansion.ESP
      [ANY DN-GDRv<VER>.esp
@@ -11125,16 +10959,29 @@ DreamersExpansion+DNGDR_patch.ESP
           DN-GDRv1 (BTB Edit).esp
           DN-GDRv1_NOM (BTB Edit).esp]]
 
+[Conflict]
+DreamersExpansion+DNGDR_patch.ESP
+Great House Dagoth.esp
+
 [Order]
 DN-GDRv<VER>*.esp
 DreamersExpansion+DNGDR_patch.ESP
 
-[Patch]
- "DreamersExpansion+GHD_patch.ESP - patch for Madgod's Great House Dagoth (contains modified CalmCorprus script)."
- (Ref: "DreamersExpansion - Readme.txt")
+;[Patch]
+; "DreamersExpansion+GHD_patch.ESP - patch for Madgod's Great House Dagoth (contains modified CalmCorprus script)."
+; (Ref: "DreamersExpansion - Readme.txt")
+;DreamersExpansion+GHD_patch.ESP
+;[ALL DreamersExpansion.ESP
+;     Great House Dagoth.esp]
+
+[Requires]
 DreamersExpansion+GHD_patch.ESP
 [ALL DreamersExpansion.ESP
      Great House Dagoth.esp]
+
+[Conflict]
+DreamersExpansion+GHD_patch.ESP
+DN-GDRv<VER>*.esp
 
 [Order]
 Great House Dagoth.esp
@@ -13156,42 +13003,6 @@ Eldar Plug In.esp
 FollowMe.esp
 FollowMeMWOnly.esp
 
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-FollowMe.esp
-FollowMeMWOnly.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Forested Morrowind 1.0 [Max]
 
@@ -14075,49 +13886,7 @@ GIANTS Ultimate Control file.esp
 GIANTS Ultimate no monsters in cities TB.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Give Your Orders 1.3 [TheLys]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Give your orders v13.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Give your orders v13.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @Give Your Orders 1.3 [TheLys] ; I saw no conflicts with existing rules (Pharis)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Glenfinnan [Cuchulainn]
@@ -14518,11 +14287,6 @@ GOTYScriptTidy*.esm
 GOTYFullTidySomeMPPv2.01.esm
 GOTYFullTidySomeMPPv2.01.esp
 
-; Ref: "GOTYST_01 ReadMe.txt"
-[Order]
-Bloodmoon.esm
-GOTYFullTidySomeMPPv2.01.esm
-
 ;;Install 3 - Script Tidy, Minimal Impact and ARE or ARE NOT using MPP
 
 [Conflict]
@@ -14589,29 +14353,6 @@ LGNPC_PaxRedoran_v?_??_GOTYST.esp
 [Order]
 GOTYSTMPPPatchv1.0.esp
 LGNPC_PaxRedoran_v?_??_GOTYST.esp
-
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??_GOTYST.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
 
 [Note]
  !! "Vampire Embrace" by Cortex shares a dialog filter with many LGNPC mods that could result in problems in both mods, like broken quests and other unexpected outcomes. Some players have reported using these mods together without any perceived problems, but that may be a matter of either not recognizing them or not having encountered situation where a conflict might be triggered.
@@ -16707,49 +16448,7 @@ Houses&Apartments.esp
      Clean Suran Extended.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @How Are You? [Kirel]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-k_howareyou.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-k_howareyou.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @How Are You? [Kirel] ; Found no conflicts in existing rules. (Pharis)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Huleeya, Morag Tong Bugfix [Escee]
@@ -18270,7 +17969,7 @@ Josie's Entertainers.esp
      LGNPC_MaarGan.esp
      LGNPC_Pelagiad.esp
      LGNPC_Pelagiad_v<VER>.esp
-     LGNPC_TelMora_v<VER>.esp]
+     LGNPC_TelMora*.esp]
 
 ;;Dragon32: confirmed with TESPCD
 [Conflict]
@@ -19471,178 +19170,149 @@ Leveled Animated Practice Dummies_Clean.esp
 ;; this, but if a mod manager such as Wrye Mash are used be certain that NoLore
 ;; loads before any other LGNPC mod. Most others can load in any order and then
 ;; Tel Uvirith, Secret Masters, Indarys Manor, Vivec Redoran and finally Pax
-;; Redoran. If the Pax Redoran Soul Sickness patch is uses, it must load after
+;; Redoran. If the Pax Redoran Soul Sickness patch is used, it must load after
 ;; Pax Redoran for it to have effect.
 
+; Gonna reorganize these (Pharis)
+
+;[Order]
+;LGNPC_NoLore.esp
+;LGNPC_SeydaNeen.esp
+;LGNPC_GnaarMok_v?_??.esp
+;LGNPC_AldVelothi_v?_??.esp
+;LGNPC_AldVelothi_rus_v?_??.esp
+;LGNPC_MaarGan.esp
+;LGNPC_HlaOad.esp
+;LGNPC_Aldruhn.esp
+;LGNPC_Aldruhn_suppl.esp
+;LGNPC_Pelagiad.esp
+;LGNPC_Pelagiad_v<VER>.esp
+;LGNPC_TelMora*.esp
+;LGNPC_Khuul*.esp
+;LGNPC_VivecFQ.esp
+;LGNPC_TelUvirith.esp
+;LGNPC_SecretMasters*.esp
+;LGNPC_IndarysManor*.esp
+;LGNPC_VivecRedoran.esp
+;LGNPC_PaxRedoran*.esp
+
+; Generic dialogue (nolore mods) before LGNPC, general rule (Pharis)
+
+;;;; Less Lore
 [Order]
 Less Lore.esp
 LGNPC_NoLore.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_Pelagiad_v<VER>.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
+
+[Order]
+Less Lore.esp
+Less_Generic_*.esp
+
+;;;; LGNPC NoLore
+[Order]
+LGNPC_NoLore.esp
+LGNPC_SeydaNeen*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_GnaarMok_v<VER>.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_AldVelothi_v<VER>.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_MaarGan*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_HlaOad*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_Aldruhn*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_Pelagiad*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_Ebonheart*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_Suran*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_TelMora*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_Khuul*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_VivecFQ*.esp
+
+[Order]
+LGNPC_NoLore.esp
 LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
 
-[Note]
- !! "Vampire Embrace" by Cortex shares a dialog filter with many LGNPC mods that could result in problems in both mods, like broken quests and other unexpected outcomes. Some players have reported using these mods together without any perceived problems, but that may be a matter of either not recognizing them or not having encountered situation where a conflict might be triggered.
- !! (Ref: LGNPC_Aldruhn_Suppl_Readme.txt, LGNPC_HlaOad_Readme.txt, LGNPC_IndarysManor_Readme.txt, LGNPC_Khuul_Readme.txt, LGNPC_MaarGan_Readme.txt, LGNPC_PaxRedoran_Readme.txt, LGNPC_Pelagiad_Readme.txt, LGNPC_SecretMasters_Readme.txt, LGNPC_SeydaNeen_Readme.txt, LGNPC_TelUvirith_Readme.txt, LGNPC_VivecFQ_Readme.txt, LGNPC_VivecRedoran_Readme.txt)
- !! (Ref: http://escf.rethan-manor.net/index.php?topic=2333.0 )
-[ALL Vampire_Embrace.esp
-     [ANY LGNPC_Aldruhn_suppl.esp
-          LGNPC_HlaOad.esp
-          LGNPC_IndarysManor_v?_??.esp
-          LGNPC_Khuul_v?_??.esp
-          LGNPC_MaarGan.esp
-          LGNPC_PaxRedoran_v?_??.esp
-          LGNPC_Pelagiad.esp
-          LGNPC_Pelagiad_v<VER>.esp
-          LGNPC_SecretMasters_v?_??.esp
-          LGNPC_SeydaNeen.esp
-          LGNPC_TelUvirith.esp
-          LGNPC_VivecFQ.esp
-          LGNPC_VivecRedoran_v?_??.esp]]
-
-[Note]
- !! "[There is] an unreconciled conflict between most LGNPC mods and Advanced NPCs [by qqqbbb]. Both mods alter the greeting distance for NPCs for use as a dialogue filter potentially breaking the functionality of one mod or the other.
- !! This is an issue only with the 'full' versions of our mods. The LGNPC Dialogue-Only versions do not alter NPC greet distance."
-[ALL ANPC.esp
-     [ANY LGNPC_NoLore.esp
-          LGNPC_SeydaNeen.esp
-          LGNPC_GnaarMok_v?_??.esp
-          LGNPC_AldVelothi_v?_??.esp
-          LGNPC_AldVelothi_rus_v?_??.esp
-          LGNPC_MaarGan.esp
-          LGNPC_HlaOad.esp
-          LGNPC_Aldruhn.esp
-          LGNPC_Aldruhn_suppl.esp
-          LGNPC_Pelagiad.esp
-          LGNPC_Pelagiad_v<VER>.esp
-          LGNPC_TelMora_v?_??.esp
-          LGNPC_Khuul_v?_??.esp
-          LGNPC_VivecFQ.esp
-          LGNPC_TelUvirith.esp
-          LGNPC_SecretMasters_v?_??.esp
-          LGNPC_IndarysManor_v?_??.esp
-          LGNPC_VivecRedoran.esp
-          LGNPC_PaxRedoran_v?_??.esp
-          LGNPC_SoulSicknessPatch_v?_??.esp]]
-
-;;LGNPC Indarys Manor
-;;;
-
-;; Dragon32: Recommended to load after HotFusion's "Dreamers Awakened".
-;; (Ref: LGNPC_IndarysManor_Readme.txt)
 [Order]
-DreamersAwakenedv1.0.esp
-LGNPC_IndarysManor_v?_??.esp
+LGNPC_NoLore.esp
+LGNPC_SecretMasters*.esp
 
-;;LGNPC No Lore
-;;;
-
-;; lfx_nerevarine_greetings by Alphax
 [Order]
+LGNPC_NoLore.esp
+LGNPC_IndarysManor*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_VivecRedoran*.esp
+
+[Order]
+LGNPC_NoLore.esp
+LGNPC_PaxRedoran*.esp
+
+[Order] ; lfx_nerevarine_greetings by Alphax
 lfx_nerevarine_greetings.esp
 LGNPC_NoLore.esp
 
-;; Nerevarine Greeting tweaks by Glassboy
-[Order]
+[Order] ; Nerevarine Greeting tweaks by Glassboy
 Nerevarine Greeting tweaks.esp
 LGNPC_NoLore.esp
 
-;; No More 'Excuse Me Nerevarine' by Raptormeat
-[Order]
+[Order] ; No More 'Excuse Me Nerevarine' by Raptormeat
 ExcuseMe.esp
 LGNPC_NoLore.esp
 
-;;LGNPC Pax Redoran
-;;;
+;;;; LGNPC Tel Uvirith
+;;"Minor conflict with Uvirith's Legacy that overwrites the content of the book "Future House Telvanni Expansion"."
+;;Ref: "LGNPC_TelUvirith_Readme.txt"
+;;Dragon32: Think the UL changes should be kept for those running that mod.
+[Order] ; Preserve changes to Uvirith cells (Pharis)
+LGNPC_TelUvirith*.esp
+Uvirith's Legacy_<VER>.esp
 
-[Conflict]
- "Join All Houses" by Heph will break some Pax Redoran quests, and likely create other odd results.
- (Ref: LGNPC_PaxRedoran_Readme.txt)
-LGNPC_PaxRedoran_v?_??.esp
-Join All Houses.esp
-
-[Conflict]
- "Marandus Abode" by Princess Stomper will break the 'Marandus' quests.
- (Ref: LGNPC_PaxRedoran_Readme.txt)
-LGNPC_PaxRedoran_v?_??.esp
-[ANY Marandus Abode.esp
-     Marandus Abode MCA Patch.esp]
-
-;;LGNPC Secret Masters
-;;;
-
-;;There is a possible conflict with other mods that add the medium Armor master trainer. Compatibility may be restored if LGNPC Secret Masters loads after them. A script disables all but one of her.
-;; Ref: LGNPC_SecretMasters_Readme.txt
-;;Cyran0: "LGNPC Secret Masters places Cinia Urtius at the docks of Tel Fyr. Since other mods also restore this missing master trainer (not limited to the Unofficial Morrowind Patch/Morrowind Patch Project), we added a script to her that would disable all but one of her. Which copy of Cinia Urtius survives the purge depends upon the order in which they are encountered. The UMP placed her at the docks of Tel Fyr so that is where LGNPC placed her. However I have heard of another mod, [Elders of Vvardenfell], that places a copy of Cinia Urtius in Seyda Neen."
-;;Dragon32: Thought about a Note, couldn't word it (*if* you are starting a new game you should be ok, *if* you are in the middle of a game you may not be...) too complex.
-[Order]
-Elders 0 Count NPC add-on (Trib & BM).esp
-Elders 0 Count NPC add-on.esp
-LGNPC_Secret_Masters_v?_??.esp
-
-;Dragon32: Unsure if this works with v6.x or v7.x of MCA
-[Patch]
- "For users of MCA 5.*, using LGNPC_SM_MCA5 will fix a hostile spawn point that will conflict with the location of one of the Secret Masters."
- (Ref: "LGNPC_SecretMasters_Readme.txt")
-LGNPC_SecretMasters_MCA5.esp
-[ALL LGNPC_SecretMasters_v?_??.esp
-     [ANY [DESC /over 1000 friendly/ MCA.ESM]
-          [DESC /over 1200 friendly/ MCA.ESM]]]
-
-;;LGNPC Seyda Neen
-;;;
-
-[Conflict]
- LGNPC Seyda Neen 0.31 conflicts with some mods that change chargen, specifically when the NPC Socucius Ergalla is no longer nolore the dialog for the quest about the murdered taxman gets broken.
-[VER < 0.32 Lgnpc_SN.esp]
-[ANY Alternate Beginnings 2.esp
-     CharGen_Revamped_v14.esp]
-
-;;LGNPC Tel Uvirith
-;;;
+[Order] ; Same as above
+LGNPC_TelUvirith*.esp
+Uvirith Inside.esp
 
 ;;"Minor conflict with Less Generic Nerevarine that overwrites some of Master Aryon's and Edd Theman's dialogue. This can be mostly resolved by having LGNPC Tel Uvirith load after Less Generic Nerevarine."
 ;;Ref: "LGNPC_TelUvirith_Readme.txt"
 [Order]
 Less_Generic_Nerevarine.esp
-LGNPC_TelUvirith.esp
+LGNPC_TelUvirith*.esp
 
-;;"Minor conflict with Uvirith's Legacy that overwrites the content of the book "Future House Telvanni Expansion"."
-;;Ref: "LGNPC_TelUvirith_Readme.txt"
-;;Dragon32: Think the UL changes should be kept for those running that mod.
-;[Order]
-;LGNPC_TelUvirith.esp
-;Uvirith's Legacy_<VER>.esp
-
-;; Assumed that LGNPC Tel Uvirith UI needs to load after Uvirith Inside
-;; See Order notes for other LGNPC mods
-[Order]
-Uvirith Inside.esp
-LGNPC_TelUvirith.esp
-
-[Conflict]
- Use only one plugin:
- "LGNPC_TelUvirith_*_UI.esp" for users of Uvirith Inside or Uvirith's Legacy
- "LGNPC_TelUvirith_*.esp" for everyone else
- (Ref: "LGNPC_TelUvirith_Readme.txt")
-LGNPC_TelUvirith_v<VER>_UI.esp
-LGNPC_TelUvirith_v<VER>.esp
+;[Conflict]
+; Use only one plugin:
+; "LGNPC_TelUvirith_*_UI.esp" for users of Uvirith Inside or Uvirith's Legacy Beta
+; "LGNPC_TelUvirith_*.esp" for everyone else
+; (Ref: "LGNPC_TelUvirith_Readme.txt")
+;LGNPC_TelUvirith_v<VER>_UI.esp
+;LGNPC_TelUvirith_v<VER>.esp
 
 [Requires]
  The UI version of LGNPC Tel Uvirith is for "users of Uvirith Inside or Uvirith's Legacy". Stuporstar says "Uvirith's Legacy Beta: use LGNPC Tel Uvirith 1.2 UI; Uvirith's Legacy Final: use LGNPC Tel Uvirith 1.2"
@@ -19652,29 +19322,100 @@ LGNPC_TelUvirith_v<VER>_UI.esp
      Uvirith's Legacy_BETA1.09.esp
      Uvirith's Legacy_BETA1.10.esp]
 
-;; Cyran0: "Since Stuporstar has made some accommodation for this, certainly Uvirith's Legacy should load after LGNPC Tel Uvirith".
-;;Dragon32: Duplicated rest of load order, just in case.
+;;;; LGNPC Pax Redoran
 [Order]
-LGNPC_TelUvirith_v?_??.esp
-LGNPC_TelUvirith_v?_??_UI.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
+LGNPC_TelUvirith*.esp
+LGNPC_PaxRedoran*.esp
+
+[Order] ; Overwrites a script, load order relative to other LGNPC mods is irrelevant (Pharis)
+LGNPC_PaxRedoran*.esp
+LGNPC_SoulSicknessPatch_v<VER>.esp
+
+[Order] ; Book entry conflicts, Pax Redoran is newer (Pharis)
 LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-;Uvirith's Legacy_<VER>.esp
+LGNPC_PaxRedoran*.esp
 
-;; Assumed that LGNPC Tel Uvirith UI needs to load after Uvirith Inside
-;; See Order notes for other LGNPC mods
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
+[Order] ; Book entry conflicts, Pax Redoran is newer (Pharis)
+LGNPC_IndarysManor*.esp
+LGNPC_PaxRedoran*.esp
+
+[Order] ; Preserve changes to Uvirith cells
+LGNPC_PaxRedoran*.esp
+Uvirith's Legacy_<VER>.esp
+
+[Order] ; Same as above
+LGNPC_PaxRedoran*.esp
 Uvirith Inside.esp
-LGNPC_TelUvirith_v<VER>_UI.esp
 
-;; The "unofficial" Less Generics:
-;;;
+[Conflict]
+ "Join All Houses" by Heph will break some Pax Redoran quests, and likely create other odd results.
+ (Ref: LGNPC_PaxRedoran_Readme.txt)
+[ANY LGNPC_PaxRedoran.esp
+     LGNPC_PaxRedoran_v<VER>.esp]
+Join All Houses.esp
 
+[Conflict]
+ "Marandus Abode" by Princess Stomper will break the 'Marandus' quests.
+ (Ref: LGNPC_PaxRedoran_Readme.txt)
+[ANY LGNPC_PaxRedoran.esp
+     LGNPC_PaxRedoran_v<VER>.esp]
+[ANY Marandus Abode.esp
+     Marandus Abode MCA Patch.esp]
+
+;;;; LGNPC Indarys Manor
+;; Dragon32: Recommended to load after HotFusion's "Dreamers Awakened".
+;; (Ref: LGNPC_IndarysManor_Readme.txt)
+[Order]
+DreamersAwakenedv1.0.esp
+LGNPC_IndarysManor*.esp
+
+;;;; LGNPC Secret Masters
+[Order] ; Dialogue conflict, followed cyrano's LGNPC rule (Pharis)
+LGNPC_GnaarMok_v<VER>.esp
+LGNPC_SecretMasters*.esp
+
+[Order] ; Dialogue conflict, followed cyrano's LGNPC rule (Pharis)
+LGNPC_MaarGan*.esp
+LGNPC_SecretMasters*.esp
+
+;;There is a possible conflict with other mods that add the medium Armor master trainer. Compatibility may be restored if LGNPC Secret Masters loads after them. A script disables all but one of her.
+;; Ref: LGNPC_SecretMasters_Readme.txt
+;;Cyran0: "LGNPC Secret Masters places Cinia Urtius at the docks of Tel Fyr. Since other mods also restore this missing master trainer (not limited to the Unofficial Morrowind Patch/Morrowind Patch Project), we added a script to her that would disable all but one of her. Which copy of Cinia Urtius survives the purge depends upon the order in which they are encountered. The UMP placed her at the docks of Tel Fyr so that is where LGNPC placed her. However I have heard of another mod, [Elders of Vvardenfell], that places a copy of Cinia Urtius in Seyda Neen."
+;;Dragon32: Thought about a Note, couldn't word it (*if* you are starting a new game you should be ok, *if* you are in the middle of a game you may not be...) too complex.
+[Order]
+Elders 0 Count NPC add-on (Trib & BM).esp
+Elders 0 Count NPC add-on.esp
+LGNPC_Secret_Masters_v<VER>.esp
+
+[Conflict]
+	Each of these plugins adds the unused medium Armor master trainer, Cinia Urtius, to the game. Using these plugins together will cause duplicates.
+LGNPC_Secret_Masters_v<VER>.esp
+Services Restored.esp
+[ANY 
+	Elders 0 Count NPC add-on (Trib & BM).esp
+	Elders 0 Count NPC add-on.esp]
+
+[Patch] ; Dragon32: Unsure if this works with v6.x or v7.x of MCA
+ "For users of MCA 5.*, using LGNPC_SM_MCA5 will fix a hostile spawn point that will conflict with the location of one of the Secret Masters."
+ (Ref: "LGNPC_SecretMasters_Readme.txt")
+LGNPC_SecretMasters_MCA5.esp
+[ALL LGNPC_SecretMasters*.esp
+     [ANY [DESC /over 1000 friendly/ MCA.ESM]
+          [DESC /over 1200 friendly/ MCA.ESM]]]
+
+;;;; LGNPC Seyda Neen
+[Conflict]
+ LGNPC Seyda Neen 0.31 conflicts with some mods that change chargen, specifically when the NPC Socucius Ergalla is no longer nolore the dialog for the quest about the murdered taxman gets broken.
+[VER < 0.32 Lgnpc_SN.esp]
+[ANY Alternate Beginnings 2.esp
+     CharGen_Revamped_v14.esp]
+
+;;;; LGNPC FQ
+[Order]
+Djangos Dialogue.ESP
+LGNPC_VivecFQ.esp
+
+;;;; The "unofficial" Less Generics
 [Conflict]
  Do not load both Less Generic Bloodmoon patches.
   LG_BM_Thirsk_Ex_COM_patch.ESP - For users of the "Children of Morrowind" version of Princess Stomper's "Thirsk Expanded".
@@ -19727,147 +19468,135 @@ Join All Houses.esp
 Less_Generic_Tribunal.esp
 Antares' Tribunal Main QUest.esp
 
+;;;; General Conflicts
 [Note]
  !! "Vampire Embrace" by Cortex shares a dialog filter with many LGNPC mods that could result in problems in both mods, like broken quests and other unexpected outcomes. Some players have reported using these mods together without any perceived problems, but that may be a matter of either not recognizing them or not having encountered situation where a conflict might be triggered.
- !!  (Ref: "Less_Generic_Nerevarine_Readme.txt", "Less_Generic_Tribunal_Readme.txt")
+ ; !! (Ref: LGNPC_Aldruhn_Suppl_Readme.txt, LGNPC_HlaOad_Readme.txt, LGNPC_IndarysManor_Readme.txt, LGNPC_Khuul_Readme.txt, LGNPC_MaarGan_Readme.txt, LGNPC_PaxRedoran_Readme.txt, LGNPC_Pelagiad_Readme.txt, LGNPC_SecretMasters_Readme.txt, LGNPC_SeydaNeen_Readme.; txt, LGNPC_TelUvirith_Readme.txt, LGNPC_VivecFQ_Readme.txt, LGNPC_VivecRedoran_Readme.txt) (Ref: "Less_Generic_Nerevarine_Readme.txt", "Less_Generic_Tribunal_Readme.txt")
  !! (Ref: http://escf.rethan-manor.net/index.php?topic=2333.0 )
 [ALL Vampire_Embrace.esp
-     [ANY Less_Generic_Nerevarine.esp
+     [ANY LGNPC_Aldruhn_suppl.esp
+          LGNPC_HlaOad.esp
+          LGNPC_IndarysManor*.esp
+          LGNPC_Khuul*.esp
+          LGNPC_MaarGan.esp
+          LGNPC_PaxRedoran*.esp
+          LGNPC_Pelagiad.esp
+          LGNPC_Pelagiad_v<VER>.esp
+          LGNPC_SecretMasters*.esp
+          LGNPC_SeydaNeen.esp
+          LGNPC_TelUvirith.esp
+          LGNPC_VivecFQ.esp
+          LGNPC_VivecRedoran*.esp
+		  Less_Generic_Nerevarine.esp
           Less_Generic_Tribunal.esp]]
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @LGNPC Lite - Dialogue Only Edition / Open Morrowind Edition [Less Generic NPCs Project]
+[Note]
+ !! "[There is] an unreconciled conflict between most LGNPC mods and Advanced NPCs [by qqqbbb]. Both mods alter the greeting distance for NPCs for use as a dialogue filter potentially breaking the functionality of one mod or the other.
+ !! This is an issue only with the 'full' versions of our mods. The LGNPC Dialogue-Only versions do not alter NPC greet distance."
+[ALL ANPC.esp
+     [ANY LGNPC_NoLore.esp
+          LGNPC_SeydaNeen.esp
+          LGNPC_GnaarMok_v<VER.esp
+          LGNPC_AldVelothi_v?_??.esp
+          LGNPC_AldVelothi_rus_v?_??.esp
+          LGNPC_MaarGan.esp
+          LGNPC_HlaOad.esp
+          LGNPC_Aldruhn.esp
+          LGNPC_Aldruhn_suppl.esp
+          LGNPC_Pelagiad.esp
+          LGNPC_Pelagiad_v<VER>.esp
+          LGNPC_TelMora*.esp
+          LGNPC_Khuul*.esp
+          LGNPC_VivecFQ.esp
+          LGNPC_TelUvirith.esp
+          LGNPC_SecretMasters*.esp
+          LGNPC_IndarysManor*.esp
+          LGNPC_VivecRedoran.esp
+          LGNPC_PaxRedoran*.esp
+          LGNPC_SoulSicknessPatch_v?_??.esp]]
 
-;;Dragon32: Duplicated load order from plugin's Last Modified Dates
-;;Dragon32: "LGNPC_Merged_OM.esp" and "LGNPC_Merged_Lt.esp" have same CRC32 checksum
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;;Merged version
+;;;; LGNPC Merged and Dialogue-Only Conflicts
 [Conflict]
  "CONFLICTS:
-   - Any other version of LGNPC Hla Oad, Khuul, Maar Gan, Pelagiad, Seyda Neen, Vivec Foreign Quarter and Vivec Redoran."
+   - Any other version of LGNPC Ebonheart. Hla Oad, Khuul, Maar Gan, Pelagiad, Seyda Neen, Suran, Vivec Foreign Quarter and Vivec Redoran."
  (Ref: "LGNPC_Merged_OM_Readme.txt", "LGNPC_Merged_Lt_Readme.txt")
 [ANY LGNPC_Merged_OM.esp
      LGNPC_Merged_Lt.esp]
 [ANY LGNPC Gowns.esp
-     LGNPC_HlaOad_OM.esp
-     LGNPC_HlaOad.esp
-     LGNPC_HlaOad_v<VER>.esp
-     LGNPC_Khuul_OM.esp
-     LGNPC_Khuul_v?_??.esp
-     LGNPC_MaarGan_OM.esp
-     LGNPC_MaarGan.esp
-     LGNPC_MaarGan_v<VER>.esp
-     LGNPC_Pelagiad_OM.esp
-     LGNPC_Pelagiad.esp
-     LGNPC_Pelagiad_v<VER>.esp
-     LGNPC_SeydaNeen_OM.esp
-     Lgnpc_SN.esp
-     LGNPC_SeydaNeen.esp
-     LGNPC_VivecFQ_OM.esp
-     LGNPC_VivecFQ_v<VER>.esp
-     LGNPC_VivecFQ.esp
-     LGNPC_VivecRedoran_OM.esp
-     LGNPC_VivecRedoran.esp
-     LGNPC_VivecRedoran_v<VER>.esp]
+     LGNPC_HlaOad*.esp
+     LGNPC_Khuul*.esp
+     LGNPC_MaarGan*.esp
+     LGNPC_Pelagiad*.esp
+     LGNPC_SeydaNeen*.esp
+     LGNPC_SN.esp
+	 LGNPC_Suran*.esp
+	 LGNPC_Ebonheart*.esp
+     LGNPC_VivecFQ*.esp
+     LGNPC_VivecRedoran*.esp]
 
-;;LGNPC_HlaOad_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Hla Oad."
- (Ref: "LGNPC_HlaOad_OM_Readme.txt")
+	Use only one version of LGNPC Hla Oad.
 LGNPC_HlaOad_OM.esp
-[ANY LGNPC_HlaOad.esp
-     LGNPC_HlaOad_v<VER>.esp
-     LGNPC Gowns.esp]
+LGNPC_HlaOad_Lt.esp
+LGNPC_HlaOad.esp
+LGNPC_HlaOad_v<VER>.esp
+LGNPC Gowns.esp
 
-;;LGNPC_Khuul_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Khuul."
- (Ref: "LGNPC_Khuul_OM_Readme.txt")
+	Use only one version of LGNPC Khuul.
 LGNPC_Khuul_OM.esp
-[ANY LGNPC_Khuul_v?_??.esp
-     LGNPC Gowns.esp]
+LGNPC_Khuul_Lt.esp
+LGNPC Gowns.esp
 
-;;LGNPC_MaarGan_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Maar Gan."
- (Ref: "LGNPC_MaarGan_OM_Readme.txt")
+	Use only one version of LGNPC Maar Gan.
 LGNPC_MaarGan_OM.esp
-[ANY LGNPC_MaarGan.esp
-     LGNPC_MaarGan_v<VER>.esp
-     LGNPC Gowns.esp]
+LGNPC_MaarGan_Lt.esp
+LGNPC_MaarGan.esp
+LGNPC_MaarGan_v<VER>.esp
+LGNPC Gowns.esp
 
-;;LGNPC_Pelagiad_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Pelagiad."
- (Ref: "LGNPC_Pelagiad_OM_Readme.txt")
+	LGNPC_MaarGan_OM.esp of LGNPC Pelagiad.
 LGNPC_Pelagiad_OM.esp
-[ANY LGNPC_Pelagiad.esp
-     LGNPC_Pelagiad_v<VER>.esp
-     LGNPC Gowns.esp]
+LGNPC_Pelagiad_Lt.esp
+LGNPC_Pelagiad.esp
+LGNPC_Pelagiad_v<VER>.esp
+LGNPC Gowns.esp
 
-;;LGNPC_SeydaNeen_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Seyda Neen."
- (Ref: "LGNPC_SeydaNeen_OM_Readme.txt")
+	Use only one version of LGNPC Seyda Neen.
 LGNPC_SeydaNeen_OM.esp
-[ANY Lgnpc_SN.esp
-     LGNPC_SeydaNeen.esp
-     LGNPC Gowns.esp]
+LGNPC_SeydaNeen_Lt.esp
+Lgnpc_SN.esp
+LGNPC_SeydaNeen.esp
+LGNPC Gowns.esp
 
-;;LGNPC_VivecFQ_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Vivec Foreign Quarter."
- (Ref: "LGNPC_VivecFQ_OM_Readme.txt")
+	Use only one version of LGNPC Vivec Foreign Quarter.
 LGNPC_VivecFQ_OM.esp
-[ANY LGNPC Gowns.esp
-     LGNPC_VivecFQ_v<VER>.esp
-     LGNPC_VivecFQ.esp]
+LGNPC_VivecFQ_Lt.esp
+LGNPC Gowns.esp
+LGNPC_VivecFQ_v<VER>.esp
+LGNPC_VivecFQ.esp
 
-;;LGNPC_VivecRedoran_Lt
 [Conflict]
- "CONFLICTS:
-   - Any other version of LGNPC Vivec Redoran."
- (Ref: "LGNPC_VivecFQ_OM_Readme.txt")
+	Use only one version of LGNPC Vivec Redoran.
 LGNPC_VivecRedoran_OM.esp
-[ANY LGNPC_VivecRedoran.esp
-     LGNPC_VivecRedoran_v<VER>.esp
-     LGNPC Gowns.esp]
+LGNPC_VivecRedoran_Lt.esp
+LGNPC_VivecRedoran.esp
+LGNPC_VivecRedoran_v<VER>.esp
+LGNPC Gowns.esp
+
+[Conflict]
+	Use only one version of LGNPC Suran.
+LGNPC_Suran.esp
+LGNPC_Suran_Lt.esp
+
+[Conflict]
+	Use only one version of LGNPC Ebonheart.
+LGNPC_Ebonheart.esp
+LGNPC_Ebonheart_Lt.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Librarian [Nicholiathan]
@@ -19879,10 +19608,6 @@ LGNPC_VivecRedoran_OM.esp
  (Ref: Librarian 104 readme.txt)
 Librarian with Jackets & Rotate BM Trib.esp
 Librarian with Jackets BM Trib.esp
-
-[Requires]
-Librarian with Jackets & Rotate BM Trib.esp
-Book Rotate.esm
 
 [Conflict]
  "If already installed then uncheck the book jacket .esps."
@@ -20610,53 +20335,9 @@ LordAltabTrader Fix v0.1.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Lore Fix 1.01 [TheOne&Only]
 
-;;Dragon32:
-;;Lore Fix v1.01.txt - "Also adds lines to "my trade" topic for npc assassins and thieves."
-;;So, possible confict with Von Djangos' "What Thieves Guild", as Von Djangos' mod is more specific load that later
 [Order]
 Lore Fix.esp
-What Thieves Guild.ESP
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Lore Fix.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Lore Fix.esp
-Less_Generic_Bloodmoon.esp
 Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Lost Artifacts of Morrowind [Rogue Shadow, Case Sterling, Palinurus, Oriphier]
@@ -27289,48 +26970,7 @@ Mysthaven Manor- Necessities of Morrowind 2.0 Edition.esp
 NOM 2.13.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Nasty Camonna Tong 1.2 [Von Djangos]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Nasty Camonna Tong.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Nasty Camonna Tong.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @Nasty Camonna Tong 1.2 [Von Djangos] ; I saw no conflicts with existing rules
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NazoX9's Guards 1.0 [NazoX9]
@@ -27360,14 +27000,14 @@ NX9_Guards_Complete.ESP
  NazoX9's "NX9_Guard_LGRedoran_Patch.ESP" fixes dialogue incompatibilities between LGNPC Pax Redoran and NazoX9's "Guards"
  http://morrowind.nexusmods.com/mods/27765
 NX9_Guard_LGRedoran_Patch.ESP
-[ALL [ANY LGNPC_PaxRedoran_v?_??.esp
+[ALL [ANY LGNPC_PaxRedoran*.esp
           LGNPC_PaxRedoran_v?_??_GOTYST.esp]
      NX9_Guards_Complete.ESP]
 
 ;; Dragon32: Not specified (no readme) but a check in TESPCD shows the patch changing the 'lost sister' dialogue topic from LGNPC, hence this load order. No apparent change to the Guards mod
 ;; Duplicated part of LGNPC load order here (soul sickness patch), just in case.
 [Order]
-LGNPC_PaxRedoran_v?_??.esp
+LGNPC_PaxRedoran*.esp
 LGNPC_PaxRedoran_v?_??_GOTYST.esp
 LGNPC_SoulSicknessPatch_v?_??.esp
 NX9_Guard_LGRedoran_Patch.ESP
@@ -28942,7 +28582,7 @@ HoratioNPCEnhanced12-VE.esp
 npce_mwse_patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @NPC Functionality 1.3 [Casey Tucker]
+;; @NPC Functionality 1.3 [Casey Tucker] ; These are all commented out for some reason so I'm gonna leave it for now (Pharis)
 
 [Conflict]
  Casey Tucker's "NPC Functionality" is an enhanced version of his "The Dialogue Request Mod".
@@ -29022,43 +28662,17 @@ AprogasVampire WakimImprovements.20021210.esp
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
 [Order]
-Less Lore.esp
-LGNPC_NoLore.esp
+;Less Lore.esp
+;LGNPC_NoLore.esp
 ;NPC Functionality.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
+
 
 ;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
 [Order]
 ;NPC Functionality.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;Less_Generic_Bloodmoon.esp
+;Less_Generic_Nerevarine.esp
+;Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Soultrapping 1.21 [Torgulf]
@@ -29329,48 +28943,7 @@ Nude_FX.esp
 Nude_SB.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Nudity Greeting Expansion 1.0 [Glassboy]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Nudity Greeting Expansion V1.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Nudity Greeting Expansion V1.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @Nudity Greeting Expansion 1.0 [Glassboy] ; Found no conflicts in existing rules (Pharis)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Nymeria's Mages' Guild Fix [Nymeria]
@@ -30124,7 +29697,7 @@ Oriental weapons pack.esp
      ktx_real_katana_1.2.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Original Faces 1.3 [ARHIZ]
+;; @Original Faces 1.3 [ARHIZ] 
 
 [Conflict]
  Only use one plugin:
@@ -30138,164 +29711,18 @@ Oryginal Faces 1.3 Morrowind only.esp
 Oryginal Faces 1.3 PL Morrowind only.esp
 Oryginal Faces 1.3 PL.esp
 
+; I will more than likely remove these rules later but for now I shortened them (Pharis)
+
 ;; Ref: "Original Faces by ARHIZ [...] cause a syntax error if loaded after LGNPC Gnaar Mok"
 ;; https://github.com/mlox/mlox/issues/10
 ;; Dragon32: Checked other LGNPC mods (and Less Generics and LGNPC Lite) in TESPCD. All show NPC_ conflicts.
 [Order]
-Original Faces 1.3.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
+Original Faces <VER>*.esp
+LGNPC_*.esp
 
 [Order]
-Oryginal Faces 1.3 PL.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-[Order]
-Oryginal Faces 1.3 Morrowind only.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-[Order]
-Oryginal Faces 1.3 PL Morrowind only.esp
-LGNPC_NoLore.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-[Order]
-Original Faces 1.3.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-Original Faces 1.3.esp
-Less_Generic_Bloodmoon.esp
-
-[Order]
-Original Faces 1.3.esp
-Less_Generic_Tribunal.esp
-
-[Order]
-Oryginal Faces 1.3 PL.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-Oryginal Faces 1.3 PL.esp
-Less_Generic_Bloodmoon.esp
-
-[Order]
-Oryginal Faces 1.3 PL.esp
-Less_Generic_Tribunal.esp
-
-[Order]
-Oryginal Faces 1.3 Morrowind only.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-Oryginal Faces 1.3 PL Morrowind only.esp
-Less_Generic_Nerevarine.esp
+Original Faces <VER>*.esp
+Less_Generic_*.esp
 
 [Requires]
  !! "[ARHIZ's "Original Faces"] is based on Westly's models and textures - it needs "Westly's Maste Headpack X" for proper working."
@@ -30619,48 +30046,7 @@ Pegas Horse Ranch v<VER>.esm
 Pegas Horse Ranch v<VER>.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Persuasion Response Expansion 4.0 [Glassboy]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-P.R.E. v4.0.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-P.R.E. v4.0.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
+;; @Persuasion Response Expansion 4.0 [Glassboy] ; Found no conflicts in existing rules, only evil GMSTs (Pharis)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @PC Clothier - Balmora 1.67 [AimeeKae]
@@ -32718,7 +32104,7 @@ RoHT Taddeus Balancing.esp
  !! The LGNPC quests require that the player talks to Duke Dren, which will become impossible during the questline of "Rise of House Telvanni".
  !! Patches for "Less Generic NPCs (LGNPC) Pax Redoran" will be made with the next version.
  !! (Ref: "Rise of House Telvanni v1.5 Readme.txt")
-[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran_v<VER>.esp]
+[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran*.esp]
           [VER < 1.20 LGNPC_TelUvirith_v<VER>.esp]]
      Rise of House Telvanni.esm]
 
@@ -35593,7 +34979,7 @@ LGNPC Gowns.esp
      Less Lore.esp
      LGNPC_NoLore.esp
      LGNPC_SeydaNeen.esp
-     LGNPC_GnaarMok_v?_??.esp
+     LGNPC_GnaarMok_v<VER.esp
      LGNPC_AldVelothi_v?_??.esp
      LGNPC_AldVelothi_rus_v?_??.esp
      LGNPC_MaarGan.esp
@@ -35601,14 +34987,14 @@ LGNPC Gowns.esp
      LGNPC_Aldruhn.esp
      LGNPC_Aldruhn_suppl.esp
      LGNPC_Pelagiad.esp
-     LGNPC_TelMora_v?_??.esp
-     LGNPC_Khuul_v?_??.esp
+     LGNPC_TelMora*.esp
+     LGNPC_Khuul*.esp
      LGNPC_VivecFQ.esp
      LGNPC_TelUvirith.esp
-     LGNPC_SecretMasters_v?_??.esp
-     LGNPC_IndarysManor_v?_??.esp
+     LGNPC_SecretMasters*.esp
+     LGNPC_IndarysManor*.esp
      LGNPC_VivecRedoran.esp
-     LGNPC_PaxRedoran_v?_??.esp
+     LGNPC_PaxRedoran*.esp
      LGNPC_SoulSicknessPatch_v?_??.esp]
 
 ;;Order rules from LGNPC
@@ -41637,6 +41023,22 @@ MNC_Ebonheart_v1.0_EV.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wakim's Game Improvements 9 (WGI) [Wakim]
 
+;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
+;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
+;; Gameplay - Dialogue.esp adds some generic rumours and the like
+[Order]
+LGNPC_NoLore.esp
+Gameplay - Dialogue.esp
+Wakim's Game Improvement 9.esp
+Wakim's Game Improvements with No-glo v9.esp
+
+
+[Order]
+Nudity Greeting Expansion V1.esp
+Gameplay - Dialogue.esp
+Wakim's Game Improvement 9.esp
+Wakim's Game Improvements with No-glo v9.esp
+
 [Conflict]
  "Wakim's Game Improvement 9.esp" combines all of the modular WGI plugins
  "Wakim's Game Improvements with No-glo v9.esp" also combines all of the modular WGI plugins and adds No-Glo
@@ -41730,124 +41132,6 @@ Vampire_Embrace.esp
      Wakim's Game Improvements with No-glo v9.esp]
 [ANY MWInhabitants Flee AI Patch.esp
      Flee AI Tweaks.esp]
-
-;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
-;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-;; Gameplay - Dialogue.esp adds some generic rumours and the like
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Gameplay - Dialogue.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Wakim's Game Improvement 9.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-[Order]
-Less Lore.esp
-LGNPC_NoLore.esp
-Wakim's Game Improvements with No-glo v9.esp
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
-
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
-Gameplay - Dialogue.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
-
-[Order]
-Wakim's Game Improvement 9.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
-
-[Order]
-Wakim's Game Improvements with No-glo v9.esp
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Walled City of Balmora 1.2 [Hargreth]
@@ -42485,42 +41769,14 @@ Seyda Neen Floating Home.esp
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
 [Order]
 Less Lore.esp
-LGNPC_NoLore.esp
 What Thieves Guild.ESP
-LGNPC_Merged_OM.esp
-LGNPC_Merged_Lt.esp
-LGNPC_HlaOad_OM.esp
-LGNPC_Khuul_OM.esp
-LGNPC_MaarGan_OM.esp
-LGNPC_Pelagiad_OM.esp
-LGNPC_SeydaNeen_OM.esp
-LGNPC_VivecFQ_OM.esp
-LGNPC_VivecRedoran_OM.esp
-LGNPC_SeydaNeen.esp
-LGNPC_GnaarMok_v?_??.esp
-LGNPC_AldVelothi_v?_??.esp
-LGNPC_AldVelothi_rus_v?_??.esp
-LGNPC_MaarGan.esp
-LGNPC_HlaOad.esp
-LGNPC_Aldruhn.esp
-LGNPC_Aldruhn_suppl.esp
-LGNPC_Pelagiad.esp
-LGNPC_TelMora_v?_??.esp
-LGNPC_Khuul_v?_??.esp
-LGNPC_VivecFQ.esp
-LGNPC_TelUvirith.esp
-LGNPC_SecretMasters_v?_??.esp
-LGNPC_IndarysManor_v?_??.esp
-LGNPC_VivecRedoran.esp
-LGNPC_PaxRedoran_v?_??.esp
-LGNPC_SoulSicknessPatch_v?_??.esp
 
-;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
+;;Dragon32:
+;;Lore Fix v1.01.txt - "Also adds lines to "my trade" topic for npc assassins and thieves."
+;;So, possible confict with Von Djangos' "What Thieves Guild", as Von Djangos' mod is more specific load that later
 [Order]
+Lore Fix.esp
 What Thieves Guild.ESP
-Less_Generic_Bloodmoon.esp
-Less_Generic_Nerevarine.esp
-Less_Generic_Tribunal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @White Suran [Basswalker]
