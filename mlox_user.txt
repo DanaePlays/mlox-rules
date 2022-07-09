@@ -267,10 +267,6 @@ TC_SadrithMoraClosed.esp
 Sotha Sil Expanded*.esp
 Uvirith Inside.esp
 
-[Order] ; Landscape conflict
-indybank*.esp
-TC_SadrithMoraClosed.esp
-
 [Order]
 Raym's Vampire Rumors.esp
 Roads&Races*.esp
@@ -3985,7 +3981,3 @@ Magical Lights.esp
 [Order] ; To prevent NecromancersAmulet.esp being made completely redundant
 UFR_v3dot2*.esp
 NecromancersAmulet.esp
-
-[Order] ; Prevents light from being overwritten by main plugin
-Creatures_RP_Purist.esp
-Creatures_RP_glowing_netch.esp
