@@ -3987,5 +3987,5 @@ UFR_v3dot2*.esp
 NecromancersAmulet.esp
 
 [Order] ; Prevents light from being overwritten by main plugin
-Creatures_RP_*.esp
+Creatures_RP_Purist.esp
 Creatures_RP_glowing_netch.esp
