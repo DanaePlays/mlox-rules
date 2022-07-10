@@ -3981,3 +3981,16 @@ Magical Lights.esp
 [Order] ; To prevent NecromancersAmulet.esp being made completely redundant
 UFR_v3dot2*.esp
 NecromancersAmulet.esp
+
+[Order] ; Otherwise changes from Skar_face.esp don't show up
+Beautiful Cities of Morrowind.esp
+Skar_face.esp
+
+[Order]
+GetWrecked.esp
+Uncharted Artifacts.esp
+
+[Note]
+  There is a version of Uncharted Artifacts that is compatible with Get Wrecked, download it here ( https://www.nexusmods.com/morrowind/mods/51237?tab=description ).
+[ALL [SIZE !68399 Uncharted Artifacts.esp]
+      GetWrecked.esp]
