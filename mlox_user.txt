@@ -3994,3 +3994,7 @@ Uncharted Artifacts.esp
   There is a version of Uncharted Artifacts that is compatible with Get Wrecked, download it here ( https://www.nexusmods.com/morrowind/mods/51237?tab=description ).
 [ALL [SIZE !68399 Uncharted Artifacts.esp]
       GetWrecked.esp]
+
+[Order]
+Astrologian's Guild.esp
+Spines of Madness*.esp
