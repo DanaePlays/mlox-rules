@@ -3742,6 +3742,11 @@ LDM - Choices and Consequences v0.48.ESP
 BDC Seyda Neen.esp
 BDC-SN_LDM-CC compat.ESP
 
+[ORDER] ; Order of all three plugins specified on mod page
+Samarys Ancestral Tomb Expanded.esp
+BDC Seyda Neen.esp
+BDC-SN_SATE compat.ESP
+
 [ORDER]
 BDC Seyda Neen.esp
 BDC-SN_CEF compat.ESP
