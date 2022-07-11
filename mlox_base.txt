@@ -1565,19 +1565,13 @@ MW Containers Animated exp.esp
 
 ;;see also: [NearEnd]
 
-[Note]
- ! "Animated Containers Optimized" by Stuporstar, Greatness7 and qqqbbb "optimizes Animated Containers scripts to reduce CPU load". You may wish to use that mod instead.
- ! Download "Animated Containers Optimized" from Great House Fliggerty - http://download.fliggerty.com/download-142-1199
-[ANY MW Containers Animated.esp
-     MW Containers Animated exp.esp]
-
-[Conflict]
- Only use one plugin:
-  AC_Optimized_AA.esp - If you're using the official Adamantium Armor esp.
-  AC_Optimized.esp - If you are not.
- (Ref: "AC_Optimized_Readme.txt")
-AC_Optimized.esp
-AC_Optimized_AA.esp
+;; [Conflict]
+;;  Only use one plugin:
+;;   AC_Optimized_AA.esp - If you're using the official Adamantium Armor esp.
+;;   AC_Optimized.esp - If you are not.
+;;  (Ref: "AC_Optimized_Readme.txt")
+;; AC_Optimized.esp
+;; AC_Optimized_AA.esp
 
 [Conflict]
  The plugins from "Animated Containers Optimized" are meant to replace the original mod.
