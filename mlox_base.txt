@@ -1631,12 +1631,12 @@ AC_Optimized_AA.esp
 ;;"[Quest Tweaks and Alternatives]: references persist has been checked on de_p_chest_02_sirilonwe for QTA compatibility. Load this mod after QTA."
 ;;Ref: "AC_Optimized_Readme.txt"
 [Order]
-Quest Tweaks and Alternatives_<VER>.esp
-AC_Optimized.esp
+;Quest Tweaks and Alternatives_<VER>.esp
+;AC_Optimized.esp
 
-[Order]
-Quest Tweaks and Alternatives_<VER>.esp
-AC_Optimized_AA.esp
+;[Order]
+;Quest Tweaks and Alternatives_<VER>.esp
+;AC_Optimized_AA.esp
 
 [Note]
  !! "["Rise of House Telvanni" by Pozzo, Karpik777, bhl et al.] alters de_p_desk_dren [and so is incompatible with "Animated Containers Optimized " by Stuporstar, Greatness7, qqqbbb,] the best way to fix it is to remove the ref from the original Animated Containers. The desk itself is not altered in this mod."
