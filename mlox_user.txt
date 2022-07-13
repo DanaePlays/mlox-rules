@@ -409,7 +409,7 @@ ab01WorldFixes*.esp
 [Order]
 Better Clothes*.esp
 abotGuards*.esp
-Sentinel+Serendipity*.esp
+;Sentinel+Serendipity*.esp
 ab01HousesMerged*.esp
 NOM3*.esp
 
