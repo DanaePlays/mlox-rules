@@ -166,7 +166,8 @@ No-Frills Open Vivec*.esp
 
 ;; @Abot's Travels
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 abotSiltStridersTR*.esp
 
 [Order]
@@ -174,7 +175,8 @@ abotSiltStriders.esp
 abotSiltStridersTR*.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 abotBoatsTR*.esp
 
 [Order]
@@ -182,7 +184,8 @@ abotBoats.esp
 abotBoatsTR*.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 abotRiverStridersTR*.esp
 
 [Order] ; NPC entry conflict, followed order in rule I split up (Pharis)
@@ -228,7 +231,8 @@ BDC-SN_CEF compat.ESP
 ;; @Beautiful Cities of Morrowind, @BCOM
 [Order]
 Beautiful cities of Morrowind.ESP
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 
 [Order]
 TR_Travels.esp
@@ -1295,7 +1299,8 @@ TR_Mainland*hotfix.esp
 
 [Order]
 TR_Preview.esp
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 
 [Order]
 TR_Preview.esp
@@ -1314,23 +1319,28 @@ TR_Preview.esp
 TR_borders*.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 TC_SadrithMoraClosed.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 TheGoblinLab*.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 fkoa*.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 Stanegau Isle.esp
 
 [Order]
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 LGNPC__merged.esp
 
 [Order]
@@ -1453,7 +1463,8 @@ Wares-TR_DATA.esp
 
 [Order]
 Wares_NPC_TR.esp
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 
 [Order]
 Animated_Morrowind - merged*.esp
@@ -2650,7 +2661,8 @@ Putting Power in Willpower - Absorbonach.esp
 [Order]
 SwampFever.ESP
 Religions Elaborated.ESP
-TR_Travels*.esp
+TR_Travels.esp
+TR_Travels_(Preview_and_Mainland).esp
 
 [Order]
 Main Quest Overhaul.esp
