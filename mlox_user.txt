@@ -3832,8 +3832,8 @@ Uncharted Artifacts.esp
       GetWrecked.esp]
 
 [Order]
-Astrologian's Guild.esp
-Spines of Madness*.esp
+Spines of Madness <VER>.esp
+Astrologians Guild.esp
 
 [Order] ; Requirement and order specified on mod page
 BM_CatCompanions1_0.esp
