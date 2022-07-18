@@ -1696,7 +1696,7 @@ MCA__Animated_Morrowind__Expanded.esp
 [Conflict]
  "[abot's "Animated Morrowind Merged" is] a merge of Animated Morrowind 1, 2; Animated Morrowind - Expanded; and Brigands 1.1"
  (Ref: "Animated_Morrowind - merged.txt")
-Animated_Morrowind - merged.esp
+Animated_Morrowind - merged*.esp
 [ANY Animated Morrowind 1.0.esp
      Animated Morrowind II.esp
      Animated_Morrowind - Expanded.esp
@@ -5776,6 +5776,7 @@ UFR_v3dot2.esp
 Better Robes_v0.3.1 Patch.esp
 [ALL Better Robes.ESP
      [ANY Animated_Morrowind - merged.esp
+          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -5789,6 +5790,7 @@ Better Robes TR_Patch.esp
      Tamriel_Data.esm
      TR_Mainland.esm
      [ANY Animated_Morrowind - merged.esp
+          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -5800,6 +5802,7 @@ UFR_v3dot2_Patch.esp
 [ALL Better Robes.ESP
      [DESC /This version is compatible with Better Robes and Better Clothes./ UFR_v3dot2.esp]
      [ANY Animated_Morrowind - merged.esp
+          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -10331,7 +10334,7 @@ Diablerie.esp
           [VER<1.2 ScentOfBlood_MCA.esp]
           [VER<1.2 ScentOfBlood_MCA_VR.esp]
           [VER<1.2 ScentOfBlood_MWSE_AddOn.esp]
-          [VER<1.2 ScentOfBlood_VR.esp]]]
+                [VER<1.2 ScentOfBlood_VR.esp]]]]
 
 [Requires]
  The optional MWSE-Addon requires the main "Diablerie" mod and will adjust the levels of the three clan leaders to scale with the levels of the ancients from Vampire Realism.
@@ -25807,7 +25810,7 @@ Vampire Realism II.esp
      Tale of the Devious Trader.esp
      Golden Saint Armor.esp
      Animated Morrowind 1.0.esp
-     Animated_Morrowind - merged.esp
+     Animated_Morrowind - merged*.esp
      Antares' Creatures - Beholder.esp
      Antares' Creatures - Frost Giant.esp
      Antares' Creatures - Frost Monarch.esp
@@ -26130,7 +26133,7 @@ The Apartment.esp
 [Order]
 Morrowind Rebirth [Main].ESP
 DN-GDRv<VER>-Rebirth.esp
-Animated_Morrowind - merged.esp
+Animated_Morrowind - merged*.esp
 
 [Order]
 Morrowind Rebirth [Main].ESP
@@ -33361,13 +33364,13 @@ ShieldPlacer_MW.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ships of the Imperial Navy 2.0 [Neoptolemus]
 
-[Requires]
- "[Neoptolemus "Ships of the Imperial Navy (TR addon).esp" is an] addon for Tamriel Rebuilt, adding galleons to Firewatch and Helnim."
- (Ref: "Ships of the Imperial Navy - Readme.txt")
-Ships of the Imperial Navy (TR addon).esp
-[ALL TR_Map1.esm
-     TR_Map2.esm
-     Ships of the Imperial Navy.esp]
+;[Requires]
+; "[Neoptolemus "Ships of the Imperial Navy (TR addon).esp" is an] addon for Tamriel Rebuilt, adding galleons to Firewatch and Helnim."
+; (Ref: "Ships of the Imperial Navy - Readme.txt")
+;Ships of the Imperial Navy (TR addon).esp
+;[ALL TR_Map1.esm
+;     TR_Map2.esm
+;     Ships of the Imperial Navy.esp]
 
 ;;Dragon32: Order not necessary according to TESPCD, but what the heck.
 [Order]
@@ -38030,7 +38033,7 @@ The Towers of Uvirith V1.2.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @To Serve Sithis [Emyn]
 
-[Conflict]
+[Note]
  "To Serve Sithis" by Emyn requires the player to assassinate an NPC key to one of the "LGNPC Tel Uvirith" quests.
  (Ref: http://www.mwmythicmods.com/Gluby/Gluby_DarkBrotherhood_Mods.htm )
 Clean To Serve Sithis_.esp
@@ -40268,7 +40271,7 @@ Vampiric Hunger UI (MGE XE).esp
      Vampire Realism II.esp]
 
 ;;Dragon32: Zennorius gives the e.g. of Werewolf Forget. Checked a bunch of other werewolf mods for this variable check
-[Conflict]
+[Note]
  These mods check the "PCKnownWerewolf" variable (when this variable is 1 every NPC will attack you when they see you). 'Vampiric Hunger Extended.esp' uses this variable to make the nearby NPCs attack you when you drink blood or embrace in front of others.
  This conflict can cause problems so you should disable the Crowd Attack in Vampiric Hunger Extended's configuration menu.
  (Ref: Readme_VH.htm)
@@ -41188,7 +41191,8 @@ Walled city of Balmora AM Patch.esp
 [ALL Walled city of Balmora <VER>.esp
      [ANY [ALL Animated_Morrowind - Expanded.esp
                Animated Morrowind 1.0.esp]
-          Animated_Morrowind - merged.esp]]
+          Animated_Morrowind - merged.esp
+          Animated_Morrowind - merged - OpenMW.esp]]
 
 [Patch]
  "Walled city of Balmora Vurt's WG II patch - Patch for Vurt's Leafy West Gash II replacer (v.2.0). Use together with new Vurt's models."

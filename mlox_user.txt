@@ -256,6 +256,14 @@ BCOM West Gash.esp
 Beautiful cities of Morrowind.ESP
 
 [Order]
+RedMountainReborn.esp
+RMR_KogoruhnExp_patch.esp
+
+[Order]
+KogoruhnExpanded.esp
+RMR_KogoruhnExp_patch.esp
+
+[Order]
 MQE_MainQuestEnhancers*.esp
 Beautiful cities of Morrowind.ESP
 
@@ -603,8 +611,10 @@ The Publicans.ESP
 
 [Conflict]
 	Incompatible, will cause double Ghostfence and clipping with Ghostgate fortress if used together.
-Beautiful Cities of Morrowind.esp
 HM_DDD_Ghostfence_v1.0.esp
+[ANY	Beautiful Cities of Morrowind.esp
+		RR_Ghost_Gate_Fortress_Eng.esp]
+
 
 [Conflict]
  Already merged into BCoM:
@@ -1608,9 +1618,9 @@ Yet Another Guard Diversity - Uniform Ordinators.esp
 Yet Another Guard Diversity - Purist*.esp
 Yet Another Guard Diversity - Uniform Ordinators.esp
 
-;[Order] ; No idea why this causes a cycle, will fix later
-;Yet Another Guard Diversity - Full Cephalopod*.esp
-;Yet Another Guard Diversity - Uniform Ordinators.esp
+[Order]
+Yet Another Guard Diversity - Full Cephalopod*.esp
+Yet Another Guard Diversity - Uniform Ordinators.esp
 
 [Order]
 Yet Another Guard Diversity - Better Telvanni Cephalopod Armor.esp
@@ -3108,20 +3118,19 @@ OAAB - Foyada Mamaea.esp
 Better Landscapes Stonewood Pass*.esp
 
 [Order]
-OAAB - Foyada Mamaea.esp
-SWP - Foyada Mamaea Overhaul Patch.ESP
-
-[Order]
 DD_Caldera_Expansion.esp
 SWP - Caldera Mine Patch.ESP
 
 [Order]
 Better Landscapes Stonewood Pass*.esp
-Beautiful cities of Morrowind.ESP
+Beautiful Cities of Morrowind.esp
 
 [Order]
-Better Landscapes Stonewood Pass*.esp
+Beautiful Cities of Morrowind.esp
 SWP - Caldera Mine Patch.ESP
+
+[Order]
+Beautiful Cities of Morrowind.esp
 SWP - Foyada Mamaea Overhaul Patch.ESP
 
 [Order]
@@ -3826,11 +3835,6 @@ Skar_face.esp
 GetWrecked.esp
 Uncharted Artifacts.esp
 
-[Note]
-  There is a version of Uncharted Artifacts that is compatible with Get Wrecked, download it here ( https://www.nexusmods.com/morrowind/mods/51237?tab=description ).
-[ALL [SIZE !68399 Uncharted Artifacts.esp]
-      GetWrecked.esp]
-
 [Order]
 Spines of Madness <VER>.esp
 Astrologians Guild.esp
@@ -3854,3 +3858,50 @@ RV Dukes guard.ESP
 	The Corprusarium Experience has the fixes from Divayth Fyr Puzzle Fixed integrated and overhauls the puzzle, do not use both.
 The_corprusarium_Exp.ESP
 Divayth Fyr Puzzle Fixed.ESP
+
+[Conflict]
+	Ghostgate Travel places new NPCs and statics at Ghostgate that will clip with RR Ghostgate Fortress and Beautiful Cities of Morrowind, as it includes RR Ghostgate Fortress.
+GhostgateTravel.ESP
+[ANY	Beautiful Cities of Morrowind.esp
+		RR_Ghost_Gate_Fortress_Eng.esp]
+
+[Conflict]
+	Choose only one plugin:
+		Morrowind Swamp Trees.esp - Replacer by Vegetto
+		Graht Morrowind Swamp Trees.ESP - Melchior Dahrk's original mod
+Morrowind Swamp Trees.esp
+Graht Morrowind Swamp Trees.ESP
+
+[Conflict]
+	From the Arvs-Spelen Nexus page:
+		"Should be compatible with almost everything, apart from landscape mods like The Spines of Madness or Sheogorad Groves of the North."
+Arvs-Spelun.ESP
+[ANY	Sheogorad - Groves of the North.esp
+		Spines of Madness <VER>.esp]
+
+[Conflict]
+	These plugins all overhaul, move, or otherwise alter Baar Dau, use only one of them.
+Baar Dau.ESP
+Baar Dau - Ministry of Truth.esp
+Meteorite Ministry Palace* .ESP
+Meteorite Ministry Temple*.ESP
+Higher Ministry of Truth.ESP
+
+[Patch]
+	Know Thy Ancestors has a patch for Valley of The Wind Overhaul, download it here:
+	( https://www.nexusmods.com/morrowind/mods/49678?tab=description )
+Know Thy Ancestors - Valley of The Wind Overhaul Patch.ESP
+[ALL	Know Thy Ancestors.ESP
+		Valley of the Wind Overhaul.esp]
+
+[Conflict]
+	Each of these plugins are different versions of Vality's Bitter Coast, use only one of them.
+Vality's Bitter Coast Addon.esp
+Valitys_Bitter_Coast_Addon.esp
+GMST Vality's Bitter Coast Addon.esp
+
+[Conflict]
+	Each of these plugins are different versions of The Stonewood Pass, use only one of them.
+Better Landscapes Stonewood Pass (MD Edit).esp
+Better Landscapes Stonewood Pass.esp
+Better Landscapes Stonewood Pass (RP Edit).esp
