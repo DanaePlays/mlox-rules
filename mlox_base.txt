@@ -10334,7 +10334,7 @@ Diablerie.esp
           [VER<1.2 ScentOfBlood_MCA.esp]
           [VER<1.2 ScentOfBlood_MCA_VR.esp]
           [VER<1.2 ScentOfBlood_MWSE_AddOn.esp]
-                [VER<1.2 ScentOfBlood_VR.esp]]]]
+          [VER<1.2 ScentOfBlood_VR.esp]]]
 
 [Requires]
  The optional MWSE-Addon requires the main "Diablerie" mod and will adjust the levels of the three clan leaders to scale with the levels of the ancients from Vampire Realism.
