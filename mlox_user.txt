@@ -372,9 +372,10 @@ RR_Cephalopod Armor_BCOM_patch.esp
 Beautiful cities of Morrowind.esp
 BCOM_Vanilla Ghostgate Pillars.ESP
 
-[Order]
-BCOM_Canal_0?.ESP
+[Conflict]
+  Not compatible with Beautiful Cities of Morrowind:
 BalmoraDocks.ESP
+Beautiful cities of Morrowind.ESP
 
 [Order]
 Beautiful cities of Morrowind.ESP
