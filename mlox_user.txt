@@ -3873,11 +3873,13 @@ Morrowind Swamp Trees.esp
 Graht Morrowind Swamp Trees.ESP
 
 [Conflict]
-	From the Arvs-Spelen Nexus page:
-		"Should be compatible with almost everything, apart from landscape mods like The Spines of Madness or Sheogorad Groves of the North."
+	Regardless of load order the door to Arvs-Spelun will be buried and unreachable without TCL if these plugins are used together.
 Arvs-Spelun.ESP
-[ANY	Sheogorad - Groves of the North.esp
-		Spines of Madness <VER>.esp]
+Sheogorad - Groves of the North.esp
+
+[Order]
+Spines of Madness <VER>.esp
+Arvs-Spelun.ESP
 
 [Conflict]
 	These plugins all overhaul, move, or otherwise alter Baar Dau, use only one of them.
