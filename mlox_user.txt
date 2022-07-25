@@ -3908,3 +3908,7 @@ GMST Vality's Bitter Coast Addon.esp
 Better Landscapes Stonewood Pass (MD Edit).esp
 Better Landscapes Stonewood Pass.esp
 Better Landscapes Stonewood Pass (RP Edit).esp
+
+[Order]
+Beautiful cities of Morrowind.ESP
+Balmora waterworks merchants addon.esp
