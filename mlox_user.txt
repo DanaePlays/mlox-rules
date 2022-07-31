@@ -568,6 +568,7 @@ BCOM_pathgrid_reset.esp
 BCOM_Vanilla Trees.ESP
 
 [Order]
+Beautiful Cities of Morrowind.esp
 Merged Objects.esp
 BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
