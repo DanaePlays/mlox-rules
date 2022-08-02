@@ -164,6 +164,7 @@ YAJAN.esp
 Mixed Cantons of Vivec.esp
 Glass Domes of Vivec.esp
 No-Frills Open Vivec*.esp
+Magicka of the Third Era.esp
 
 ;; @Abot's Travels
 [Order]
@@ -1238,6 +1239,11 @@ LDM - Choices and Consequences v<VER>.ESP
      Teach Nels Llendo a Lesson.esp
      The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;; @Magicka of the Third Era
+[Order]
+Merged Objects.esp
+Effect Data - Load after Merged Objects.esp
 
 ;; @More Deadly Morrowind Denizens, @MDMD
 [Conflict]
