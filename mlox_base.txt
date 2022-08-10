@@ -103,6 +103,11 @@ Mashed Lists.esp
      multipatch.esp
      Mashed Lists.esp]]
 
+[Note]
+	! If you know of any rules that need to be added or notice any oddities with mlox's sorting please report it in the #mlox-rules channel in the Morrowind Modding Community Discord, link below:
+	( https://discord.me/mwmods )
+*.esm
+
 ;; Danae: removed most better bodies warnings >> many people use pluginless now.
 ;; Danae: remove "dirty mod" warnings but added a general warning about cleaning and merging + links to tools
 ;; Danae: removed individual grass warnings and made a single one
@@ -115,6 +120,7 @@ Mashed Lists.esp
 ;; Danae: removed [Require] .esm warnings:mod manages give warning + auto-enable masters
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
 [Note]
  !!! Morrowind Patch Project (MPP) and Unofficial Morrowind Patch Project (UMPP) are terribly obsolete and rather controversial. Use Patch for Purists instead ( https://www.nexusmods.com/morrowind/mods/45096 )
  (ref: We know better now)
@@ -220,7 +226,7 @@ Merged_Objects.esp
 ;; Levelled list conflicts
 
 [Conflict]
-     These plugins all contain merged levelled lists by default, TES3Merge is recommended for merging levelled lists.
+    These plugins all contain merged levelled lists by default, TES3Merge is recommended for merging levelled lists.
 Merged Objects.esp
 multipatch.esp
 Mashed Lists.esp
@@ -488,8 +494,6 @@ Advanced Alchemy - LDA Patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Advanced Guards IV [Marty V. aka "The Puma Man"]
 
-;Morrowind version
-
 [Conflict]
  You are using the Morrowind-only version of Advanced Guards, but are using Tribunal and/or Bloodmoon as well. Please change to the appropriate version of Advanced Guards.
 [ANY [SIZE 137740 ADVANCED GUARDS.esm] ;uncleaned
@@ -497,15 +501,11 @@ Advanced Alchemy - LDA Patch.esp
 [ANY Tribunal.esm
      Bloodmoon.esm]
 
-;Bloodmoon version
-
 [Conflict]
  You are using the Bloodmoon version of Advanced Guards, but are using Tribunal as well. Please change to the appropriate version of Advanced Guards.
 [ANY [SIZE 154780 ADVANCED GUARDS.esm] ;uncleaned
      [SIZE 149538 ADVANCED GUARDS.esm]] ;cleaned
 Tribunal.esm
-
-;Tribunal version
 
 [Conflict]
  You are using the Tribunal only version of Advanced Guards, but are using Bloodmoon as well. Please change to the appropriate version of Advanced Guards.
@@ -1565,13 +1565,19 @@ MW Containers Animated exp.esp
 
 ;;see also: [NearEnd]
 
-;; [Conflict]
-;;  Only use one plugin:
-;;   AC_Optimized_AA.esp - If you're using the official Adamantium Armor esp.
-;;   AC_Optimized.esp - If you are not.
-;;  (Ref: "AC_Optimized_Readme.txt")
-;; AC_Optimized.esp
-;; AC_Optimized_AA.esp
+[Note]
+ ! "Animated Containers Optimized" by Stuporstar, Greatness7 and qqqbbb "optimizes Animated Containers scripts to reduce CPU load". You may wish to use that mod instead.
+ ! Download "Animated Containers Optimized" from Great House Fliggerty - http://download.fliggerty.com/download-142-1199
+[ANY MW Containers Animated.esp
+     MW Containers Animated exp.esp]
+
+[Conflict]
+ Only use one plugin:
+  AC_Optimized_AA.esp - If you're using the official Adamantium Armor esp.
+  AC_Optimized.esp - If you are not.
+ (Ref: "AC_Optimized_Readme.txt")
+AC_Optimized.esp
+AC_Optimized_AA.esp
 
 [Conflict]
  The plugins from "Animated Containers Optimized" are meant to replace the original mod.
@@ -1631,12 +1637,12 @@ AC_Optimized_AA.esp
 ;;"[Quest Tweaks and Alternatives]: references persist has been checked on de_p_chest_02_sirilonwe for QTA compatibility. Load this mod after QTA."
 ;;Ref: "AC_Optimized_Readme.txt"
 [Order]
-;Quest Tweaks and Alternatives_<VER>.esp
-;AC_Optimized.esp
+Quest Tweaks and Alternatives_<VER>.esp
+AC_Optimized.esp
 
-;[Order]
-;Quest Tweaks and Alternatives_<VER>.esp
-;AC_Optimized_AA.esp
+[Order]
+Quest Tweaks and Alternatives_<VER>.esp
+AC_Optimized_AA.esp
 
 [Note]
  !! "["Rise of House Telvanni" by Pozzo, Karpik777, bhl et al.] alters de_p_desk_dren [and so is incompatible with "Animated Containers Optimized " by Stuporstar, Greatness7, qqqbbb,] the best way to fix it is to remove the ref from the original Animated Containers. The desk itself is not altered in this mod."
@@ -1696,7 +1702,7 @@ MCA__Animated_Morrowind__Expanded.esp
 [Conflict]
  "[abot's "Animated Morrowind Merged" is] a merge of Animated Morrowind 1, 2; Animated Morrowind - Expanded; and Brigands 1.1"
  (Ref: "Animated_Morrowind - merged.txt")
-Animated_Morrowind - merged*.esp
+Animated_Morrowind - merged.esp
 [ANY Animated Morrowind 1.0.esp
      Animated Morrowind II.esp
      Animated_Morrowind - Expanded.esp
@@ -5776,7 +5782,6 @@ UFR_v3dot2.esp
 Better Robes_v0.3.1 Patch.esp
 [ALL Better Robes.ESP
      [ANY Animated_Morrowind - merged.esp
-          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -5790,7 +5795,6 @@ Better Robes TR_Patch.esp
      Tamriel_Data.esm
      TR_Mainland.esm
      [ANY Animated_Morrowind - merged.esp
-          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -5802,7 +5806,6 @@ UFR_v3dot2_Patch.esp
 [ALL Better Robes.ESP
      [DESC /This version is compatible with Better Robes and Better Clothes./ UFR_v3dot2.esp]
      [ANY Animated_Morrowind - merged.esp
-          Animated_Morrowind - merged - OpenMW.esp
           Animated Morrowind 1.0.esp
           Animated Morrowind II.esp]]
 
@@ -10926,85 +10929,95 @@ DreamersAwakenedv1.0.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dreamers Expansion 3.8 [Aoimevelho]
 
+[Note]
+    !! There is a patch for Dreamers Expansion and Darknut's Greater Dwemer Ruins included with Dreamers Expansion.
+[ALL    DreamersExpansion.ESP
+        [ANY	DN-GDRv<VER>.esp
+            	DN-GDRv<VER>_NOM.esp
+            	DN-GDRv<VER>-Rebirth.esp
+            	DN-GDRv<VER>.MRM.esp
+            	DN-GDRv<VER>.MRMnp.esp
+            	DN-GDRv1 (BTB Edit).esp
+            	DN-GDRv1_NOM (BTB Edit).esp]]
+[NOT [ANY	DreamersExpansion+DNGDR_patch.ESP
+            Great House Dagoth.esp]]
+
+[Note]
+    !! There is a patch for Dreamers Expansion and Great House Dagoth included with Dreamers Expansion.
+Great House Dagoth.esp
+[NOT [ANY DreamersExpansion+GHD_patch.ESP
+          DN-GDRv<VER>*.esp]]
+
+[Note]
+	!! There is a patch for Dreamers Expansion, Darknut's Greater Dwemer Ruins included with Dreamers Expansion.
+[ALL	DreamersExpansion.ESP
+        Great House Dagoth.esp
+        [ANY	DN-GDRv<VER>.esp
+            	DN-GDRv<VER>_NOM.esp
+            	DN-GDRv<VER>-Rebirth.esp
+				DN-GDRv<VER>.MRM.esp
+        		DN-GDRv<VER>.MRMnp.esp
+               	DN-GDRv1 (BTB Edit).esp
+               	DN-GDRv1_NOM (BTB Edit).esp]]
+[NOT	DreamersExpansion+DNGDR+GHD_patch.ESP]
+
+[Requires]
+DreamersExpansion+DNGDR_patch.ESP
+[ALL	DreamersExpansion.ESP
+    	[ANY	DN-GDRv<VER>.esp
+           		DN-GDRv<VER>_NOM.esp
+          		DN-GDRv<VER>-Rebirth.esp
+				DN-GDRv<VER>.MRM.esp
+    			DN-GDRv<VER>.MRMnp.esp
+           		DN-GDRv1 (BTB Edit).esp
+        		DN-GDRv1_NOM (BTB Edit).esp]]
+
+[Requires]
+DreamersExpansion+GHD_patch.ESP
+[ALL	DreamersExpansion.ESP
+     	Great House Dagoth.esp]
+
+[Requires]
+DreamersExpansion+DNGDR+GHD_patch.ESP
+[ALL	DreamersExpansion.ESP
+		Great House Dagoth.esp
+    	[ANY	DN-GDRv<VER>.esp
+           		DN-GDRv<VER>_NOM.esp
+          		DN-GDRv<VER>-Rebirth.esp
+				DN-GDRv<VER>.MRM.esp
+    			DN-GDRv<VER>.MRMnp.esp
+           		DN-GDRv1 (BTB Edit).esp
+        		DN-GDRv1_NOM (BTB Edit).esp]]
+
+[Order]
+DN-GDRv<VER>*.esp
+DreamersExpansion+DNGDR_patch.ESP
+
+[Order]
+Great House Dagoth.esp
+DreamersExpansion+GHD_patch.ESP
+
+[Order]
+DreamersExpansion.ESP
+DreamersExpansion+DNGDR+GHD_patch.ESP
+
+[Order]
+DN-GDRv<VER>*.esp
+DreamersExpansion+DNGDR+GHD_patch.ESP
+
+[Conflict]
+DreamersExpansion+DNGDR_patch.ESP
+Great House Dagoth.esp
+
+[Conflict]
+DreamersExpansion+GHD_patch.ESP
+DN-GDRv<VER>*.esp
+
 [Conflict]
  Aoimevelho has incorporated Petiboy's "House Dagoth Bonemold armor" into "Dreamers Expansion", there is no need to run Petiboy's original mod with Aoimevelho's.
  (Ref: "DreamersExpansion - Readme.txt")
 DreamersExpansion.ESP
 PB_Dagoth_Bonemold.esp
-
-;[Patch]
-; "DreamersExpansion+DNGDR_patch.ESP - patch for Greater Dwemer Ruins by Darknut."
-; (Ref: "DreamersExpansion - Readme.txt")
-;DreamersExpansion+DNGDR_patch.ESP
-;[ALL DreamersExpansion.ESP
-;     [ANY DN-GDRv<VER>.esp
-;          DN-GDRv<VER>_NOM.esp
-;          DN-GDRv<VER>-Rebirth.esp
-;          DN-GDRv<VER>.MRM.esp
-;          DN-GDRv<VER>.MRMnp.esp
-;          DN-GDRv1 (BTB Edit).esp
-;          DN-GDRv1_NOM (BTB Edit).esp]]
-
-[Requires]
-DreamersExpansion+DNGDR_patch.ESP
-[ALL DreamersExpansion.ESP
-     [ANY DN-GDRv<VER>.esp
-          DN-GDRv<VER>_NOM.esp
-          DN-GDRv<VER>-Rebirth.esp
-          DN-GDRv<VER>.MRM.esp
-          DN-GDRv<VER>.MRMnp.esp
-          DN-GDRv1 (BTB Edit).esp
-          DN-GDRv1_NOM (BTB Edit).esp]]
-
-[Conflict]
-DreamersExpansion+DNGDR_patch.ESP
-Great House Dagoth.esp
-
-[Order]
-DN-GDRv<VER>*.esp
-DreamersExpansion+DNGDR_patch.ESP
-
-;[Patch]
-; "DreamersExpansion+GHD_patch.ESP - patch for Madgod's Great House Dagoth (contains modified CalmCorprus script)."
-; (Ref: "DreamersExpansion - Readme.txt")
-;DreamersExpansion+GHD_patch.ESP
-;[ALL DreamersExpansion.ESP
-;     Great House Dagoth.esp]
-
-[Requires]
-DreamersExpansion+GHD_patch.ESP
-[ALL DreamersExpansion.ESP
-     Great House Dagoth.esp]
-
-[Conflict]
-DreamersExpansion+GHD_patch.ESP
-DN-GDRv<VER>*.esp
-
-[Order]
-Great House Dagoth.esp
-DreamersExpansion+GHD_patch.ESP
-
-[Patch]
- "DreamersExpansion+DNGDR+GHD_patch.ESP - patch to use together with Madgod's Great House Dagoth and DNGDR."
- (Ref: "DreamersExpansion - Readme.txt")
-DreamersExpansion+DNGDR+GHD_patch.ESP
-[ALL DreamersExpansion.ESP
-     Great House Dagoth.esp
-     [ANY DN-GDRv<VER>.esp
-          DN-GDRv<VER>_NOM.esp
-          DN-GDRv<VER>-Rebirth.esp
-          DN-GDRv<VER>.MRM.esp
-          DN-GDRv<VER>.MRMnp.esp
-          DN-GDRv1 (BTB Edit).esp
-          DN-GDRv1_NOM (BTB Edit).esp]]
-
-[Order]
-DreamersExpansion.ESP
-DreamersExpansion+DNGDR+GHD_patch.ESP
-
-[Order]
-DN-GDRv<VER>*.esp
-DreamersExpansion+DNGDR+GHD_patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dremora (Markynaz) Race and Companion [Westly & Princess Stomper]
@@ -24878,22 +24891,22 @@ Expanded Sounds.esp
 Expanded Sounds DV.esp
 Better Banner Signs + Expanded Sounds.esp
 
-;[Patch]
-; DeJuan N. Onley's "MW Containers Animated + Adamantium Armor.esp" patches "Morrowind Containers Animated" by qqqbbb and Bethesda's official plugin "Adamantium Armor."
-; Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
-; Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
-; (Ref: "DNO MW Patches Readme.txt")
-;MW Containers Animated + Adamantium Armor.esp
-;[ALL [ANY adamantiumarmor.esp
-;          OfficialMods_v5.esp
-;          Clean Official Plugins v1.1.esp
-;          super_adventurers302.esp
-;          [Official]Adamantium Armor.esp
-;         ImprovedAdamantiumArmor.esp
-;         Official_2002_Mods.esp
-;          SauronsAbode252.esp
-;          SauronsAbode252_Tribunal.esp]
-;     MW Containers Animated.esp]
+[Patch]
+ DeJuan N. Onley's "MW Containers Animated + Adamantium Armor.esp" patches "Morrowind Containers Animated" by qqqbbb and Bethesda's official plugin "Adamantium Armor."
+ Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
+ Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
+ (Ref: "DNO MW Patches Readme.txt")
+MW Containers Animated + Adamantium Armor.esp
+[ALL [ANY adamantiumarmor.esp
+          OfficialMods_v5.esp
+          Clean Official Plugins v1.1.esp
+          super_adventurers302.esp
+          [Official]Adamantium Armor.esp
+          ImprovedAdamantiumArmor.esp
+          Official_2002_Mods.esp
+          SauronsAbode252.esp
+          SauronsAbode252_Tribunal.esp]
+     MW Containers Animated.esp]
 
 ;;Ref: DNO MW Patches Readme.txt
 [Order]
@@ -24936,21 +24949,21 @@ MW Containers Animated + Adamantium Armor.esp
 MW Containers Animated.esp
 MW Containers Animated + Adamantium Armor.esp
 
-;[Patch]
-; DeJuan N. Onley's "MW Containers Animated + LeFemmArmor.esp" patches "Morrowind Containers Animated" by qqqbbb and the official plugin "LeFemm Armor."
-; Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
-; Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
-; (Ref: "DNO MW Patches Readme.txt")
-;MW Containers Animated + LeFemmArmor.esp
-;[ALL [ANY LeFemmArmor.esp
-;          [Official]LeFemm Armor.esp
-;          OfficialMods_v5.esp
-;          Clean Official Plugins v1.1.esp
-;          Official_2002_Mods.esp
-;          SauronsAbode252.esp
-;          SauronsAbode252_Tribunal.esp
-;          super_adventurers302.esp]
-;     MW Containers Animated.esp]
+[Patch]
+ DeJuan N. Onley's "MW Containers Animated + LeFemmArmor.esp" patches "Morrowind Containers Animated" by qqqbbb and the official plugin "LeFemm Armor."
+ Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
+ Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
+ (Ref: "DNO MW Patches Readme.txt")
+MW Containers Animated + LeFemmArmor.esp
+[ALL [ANY LeFemmArmor.esp
+          [Official]LeFemm Armor.esp
+          OfficialMods_v5.esp
+          Clean Official Plugins v1.1.esp
+          Official_2002_Mods.esp
+          SauronsAbode252.esp
+          SauronsAbode252_Tribunal.esp
+          super_adventurers302.esp]
+     MW Containers Animated.esp]
 
 ;;Ref: DNO MW Patches Readme.txt
 [Order]
@@ -25810,7 +25823,7 @@ Vampire Realism II.esp
      Tale of the Devious Trader.esp
      Golden Saint Armor.esp
      Animated Morrowind 1.0.esp
-     Animated_Morrowind - merged*.esp
+     Animated_Morrowind - merged.esp
      Antares' Creatures - Beholder.esp
      Antares' Creatures - Frost Giant.esp
      Antares' Creatures - Frost Monarch.esp
@@ -26133,7 +26146,7 @@ The Apartment.esp
 [Order]
 Morrowind Rebirth [Main].ESP
 DN-GDRv<VER>-Rebirth.esp
-Animated_Morrowind - merged*.esp
+Animated_Morrowind - merged.esp
 
 [Order]
 Morrowind Rebirth [Main].ESP
@@ -31616,7 +31629,7 @@ Redoran Guards with Shields.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Reduced (Passing) Commentary Mod [LadyDeadlock]
 
-;;Dragon32: Found this out using TESTPCD
+;;Dragon32: Found this out using TESPCD
 [Conflict]
  BTB's Settings plugin from "BTB's Game Improvements" reduces the Game Setting iGreetDistance, as LadyDeadlock's "Reduced (Passing) Commentary" does. In fact, BTB's mod reduces the value even more than LadyDeadlock's mod. So, there is no need to run LadyDeadlock's mod as well as BTB's.
 LadyD_Reduced_Commentary.esp
@@ -31717,7 +31730,6 @@ RKWerewolf-NoTrib.esp
 Reign of Fire v1.92BETA [Razhkul, Rev. Gluby].esp
 [ANY ReignOfFire1.1.esp
      Reign of Fire v1.1 [Razhkul].esp]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Repair Tools [The Iron Chicken]
@@ -31872,24 +31884,22 @@ New Rethan Manor.esp
 [Note]
  "I highly recommend this mod to be used with the official LeFemm Armor plugin by Bethesda Softworks. However, it isn't required."
  (Ref: "readme_ARJAN_Rethan_Defended_v1.0.txt")
-[ALL ARJAN_Rethan_Defended_v1.0.esp
-     [NOT LeFemmArmor.esp]
-     [NOT [Official]LeFemm Armor.esp]
-     [NOT OfficialMods_v5.esp]
-     [NOT Clean Official Plugins v1.1.esp]
-     [NOT Official_2002_Mods.esp]
-     [NOT Taddeus'BalancedArmors.esp]
-     [NOT Taddeus'BalancedArmors_Rotate.esp]
-     [NOT super_adventurers302.esp]
-     [NOT SauronsAbode252.esp]
-     [NOT SauronsAbode252_Tribunal.esp]]
+[ALL 	ARJAN_Rethan_Defended_v1.0.esp
+		[NOT [ANY	LeFemmArmor.esp
+					[Official]LeFemm Armor.esp
+					OfficialMods_v5.esp
+					Clean Official Plugins v1.1.esp
+					Official_2002_Mods.esp
+					Taddeus'BalancedArmors.esp
+					Taddeus'BalancedArmors_Rotate.esp
+					super_adventurers302.esp
+					SauronsAbode252.esp
+					SauronsAbode252_Tribunal.esp]]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rincewind's Luggage 1.2 [Arcimaestro Antares and Stuporstar]
 
-[Requires]
- The MWSE addon must be loaded with the main "Rincewind's Luggage" mod.
- (Ref: Rincewind's_Luggage_README.txt)
+[Requires] ; (Ref: Rincewind's_Luggage_README.txt)
 Rincewind's_Luggage_<VER>_MWSE.esp
 Rincewind's_Luggage_<VER>.esp
 
@@ -31902,13 +31912,12 @@ Rincewind's_Luggage_<VER>_MWSE.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ring Capability Shop v1.0 [Sand5torm]
 
-[Conflict]
- Choose ONLY ONE of these plugins.
- "~ MW" - if you have Morrowind and do not have any expansions
- "~ TR" - if you have Morrowind and Tribunal, but not Bloodmoon
- "~ BM" - if you have Morrowind and Bloodmoon, but not Tribunal
- "~ TR+BM" - if you have Morrowind, Tribunal and Bloodmoon
- (Ref: "RCS_ReadMe.txt")
+[Conflict] ; (Ref: "RCS_ReadMe.txt")
+	Choose ONLY ONE of these plugins:
+ 		"~ MW" - if you have Morrowind and do not have any expansions
+ 		"~ TR" - if you have Morrowind and Tribunal, but not Bloodmoon
+ 		"~ BM" - if you have Morrowind and Bloodmoon, but not Tribunal
+ 		"~ TR+BM" - if you have Morrowind, Tribunal and Bloodmoon
 Ring Capability Shop - BM.esp
 Ring Capability Shop - MW.esp
 Ring Capability Shop - TR+BM.esp
@@ -31983,14 +31992,6 @@ Riptides Face & Clothing Replace Final.esp
      Better Heads Tribunal addon.esp]
 [ANY Better Heads Bloodmoon addon.esm
      Better Heads Bloodmoon addon.esp]]
-
-[Note]
- ! You do not appear to be running the latest version of "Riptide's Face, Armor, & Clothing Replace"
- ! Main download - http://mw.modhistory.com/download-64-8844
- ! Update patch - http://mw.modhistory.com/download-64-10389
-[ANY [SIZE !1081790 Riptides Face & Clothing Replace + X-Jiits.esp]
-     [SIZE !1079413 Riptides Face & Clothing Replace Final.esp]
-     Riptides Face Clothing  & Armor Replace.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rise of House Telvanni 1.52 [Pozzo, Karpik777, bhl et al.]
@@ -32138,10 +32139,6 @@ Rise of House Telvanni.esm
  ! Cyrano's "Trigger Dark Brotherhood Attack" requires that the player talk to Duke Dren which will become impossible during the questline of "Rise of House Telvanni".
 [ALL TriggerDBAttack_v1_00.esp
      Rise of House Telvanni.esm]
-
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @RoHT - Tureynulal Redone Patch [DurendalMartyr]
 
 [Patch]
  "[DurendalMartyr's "RoHT - Tureynulal Redone Patch"] was made to fix a minor conflict that arises if you try to use Rise of House Telvanni and Tureynulal Redone together.
@@ -32967,31 +32964,11 @@ Sea-of-Destiny.esm
  Landmass conflict
  (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
 Sea-of-Destiny.esm
-Dulsya Isle.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Sea-of-Destiny.esm
-FTG.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Sea-of-Destiny.esm
-Tir Thalor Quest.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Sea-of-Destiny.esm
-The Aedronicon.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Sea-of-Destiny.esm
-Great Shoals.esp
+[ANY	Dulsya Isle.esp
+		FTG.esp
+		Tir Thalor Quest.esp
+		The Aedronicon.esp
+		Great Shoals.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Seamless Morrowind 1.0.14.1 [Kung Fu Sung-Hu]
@@ -33132,8 +33109,7 @@ SeriousWeather_v1_00.esp
 [ANY Service_Requirements+WGI.esp
      Service_Requirements.esp]
 
-; from: vio
-[Note]
+[Note]	; from: vio
  Service Requirements is compatible with Wakim's Game Improvements, but it is recommended to use the modular version and to exclude Gameplay - Faction.esp.
  If using a non-modular version of WGI whichever .esp loads last will over-rule the other .esp, so adjust your load order using "mlox_user.txt" depending on which changes you prefer.
  (Ref: "Service_Requirements.txt")
@@ -33364,19 +33340,6 @@ ShieldPlacer_MW.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ships of the Imperial Navy 2.0 [Neoptolemus]
 
-;[Requires]
-; "[Neoptolemus "Ships of the Imperial Navy (TR addon).esp" is an] addon for Tamriel Rebuilt, adding galleons to Firewatch and Helnim."
-; (Ref: "Ships of the Imperial Navy - Readme.txt")
-;Ships of the Imperial Navy (TR addon).esp
-;[ALL TR_Map1.esm
-;     TR_Map2.esm
-;     Ships of the Imperial Navy.esp]
-
-;;Dragon32: Order not necessary according to TESPCD, but what the heck.
-[Order]
-Ships of the Imperial Navy.esp
-Ships of the Imperial Navy (TR addon).esp
-
 [Conflict]
  Neoptolemus's "Ships of the Imperial Navy" conflicts with CanadianIce's "MetalQueen Boutique".
  tmartin827 modified version 1.0 of "Ships of the Imperial Navy" to be compatible with CanadianIce's "MetalQueen Boutique"
@@ -33418,46 +33381,20 @@ ANPC.esp
 ;; @Siege at Firemoth 1.1 [Bethesda]
 
 [Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY Siege at Firemoth.esp
-     [Official]Siege at Firemoth.esp
-     SiegeAtFiremoth.esp
-     Clean Official Plugins v1.1.esp
-     Official_2002_Mods.esp
-     OfficialMods_v5.esp
-     super_adventurers302.esp
-     silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-Tir Thalor Quest.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY Siege at Firemoth.esp
-     [Official]Siege at Firemoth.esp
-     SiegeAtFiremoth.esp
-     Clean Official Plugins v1.1.esp
-     Official_2002_Mods.esp
-     OfficialMods_v5.esp
-     super_adventurers302.esp
-     silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-Doom_Door_01.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY Siege at Firemoth.esp
-     [Official]Siege at Firemoth.esp
-     SiegeAtFiremoth.esp
-     Clean Official Plugins v1.1.esp
-     Official_2002_Mods.esp
-     OfficialMods_v5.esp
-     super_adventurers302.esp
-     silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-Castlevania.esp
+	Landmass conflict.
+	(Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
+[ANY 	Siege at Firemoth.esp
+		[Official]Siege at Firemoth.esp
+		SiegeAtFiremoth.esp
+		Clean Official Plugins v1.1.esp
+		Official_2002_Mods.esp
+		OfficialMods_v5.esp
+		super_adventurers302.esp
+		silgrad_tower_internal_release_1-4_6.6.esp
+		silgrad_tower_1-4_6.6.esp]
+[ANY	Tir Thalor Quest.esp
+		Doom_Door_01.esp
+		Castlevania.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Signposts Retextured TR 2.0 [PeterBitt]
@@ -33475,8 +33412,7 @@ PB_SignpostsRetexturedTR.esp
  "This mod is dependent upon [...] TR_Map1.esm and TR_Map2.esm, so make sure you're using them!"
  (Ref: "Earth Wyrm, Signy Signposts(!) - Tamriel Rebuilt.txt")
 WA_Signy_Signposts(!)_TR.ESP
-[ALL TR_Map1.esm
-     TR_Map2.esm]
+[ALL TR_Mainland.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silent Chargen 1.001 [Jason Robinson, Kir]
@@ -33572,48 +33508,29 @@ blacklightv1.34.esp
 [SIZE 4646696 Havish.esm]
 
 [Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-TheGloryRoad.esm
+	Landmass conflict.
+	(Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
+[ANY	silgrad_tower_internal_release_1-4_6.6.esp
+     	silgrad_tower_1-4_6.6.esp]
+[ANY	TheGloryRoad.esm
+		velayia.esm
+		Stanegau Island.esp
+		elskjiver.esp
+		Skeleton_Island_V3.00.esp
+		A Call to Issilar.esp]
+
+[Note]
+	Abot has a moved version of A Call to Issilar, download it here:
+	( http://mw.modhistory.com/download-48-12374 )
+[ALL	A Call to Issilar.esp
+		[ANY 	silgrad_tower_internal_release_1-4_6.6.esp
+     			silgrad_tower_1-4_6.6.esp]
+		[NOT	ACalltoIssilarFM.esp]]
 
 [Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-velayia.esm
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-Stanegau Island.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-elskjiver.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
-Skeleton_Island_V3.00.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
- You could try abot's moved version of "A Call to Issilar":
- Download it from Morrowind Modding History: http://mw.modhistory.com/download-48-12374
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-     silgrad_tower_1-4_6.6.esp]
+	Use only one of these plugins.
 A Call to Issilar.esp
+ACalltoIssilarFM.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silt Strider Animator 1.11 [Max a.k.a. ~NOBODY~]
@@ -33651,26 +33568,12 @@ abotSiltStriders.esp
 abotSiltStridersTR.esp
 abotSiltStridersTR1612.esp
 
-[Note]
- !! "IF YOU HAVE TAMRIEL REBUILT INSTALLED, LOAD ONLY abotSiltStridersTR.esp"
- !! (Ref: "abotSiltStriders.txt")
-[All abotSiltStriders.esp
-     TR_Mainland.esm]
-
 [Requires]
  "IF YOU HAVE TAMRIEL REBUILT INSTALLED, LOAD [...] abotSiltStridersTR.esp"
  (Ref: "abotSiltStriders.txt")
 [ANY abotSiltStridersTR.esp
      abotSiltStridersTR1612.esp]
 TR_Mainland.esm
-
-;; delete this following rule as soon abot updates his mod name for TR normally
-[Requires]
- "IF YOU HAVE TAMRIEL REBUILT 1612 or newer INSTALLED, LOAD [...] abotSiltStridersTR1612.esp"
- (Ref: "abotSiltStriders.txt")
-abotSiltStridersTR1612.esp
-[ALL TR_Mainland.esm
-     Tamriel_Data.esm]
 
 [Conflict]
  When running "Silt Striders" by abot: "a few [Silt Striders] are added to leveled lists"
@@ -33695,34 +33598,6 @@ mel_teleportPlugin_1_3.esp
 [Order]
 abotRiverStridersTR.esp
 mel_teleportPlugin_1_3.esp
-
-[Conflict]
- "TR_Travels.esp currently sort of ruins my silt strider routes to and from Bal Oyra as it deletes the Bal Oyra silt strider port, and changes standard Bethesda / previously established travel destinations routes. I don't use/support it at the moment.
- As you can travel to and from the Mainland using [abot's "Silt Striders"...] use ab01TR_Travels.esp instead which has the changes to bal Oyra strider port removed."
- Download "ab01TR_Travels.esp" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/42267/
- (Ref: "abotSiltStriders.txt")
-[ANY abotSiltStridersTR.esp
-     abotSiltStridersTR1612.esp]
-TR_Travels.esp
-
-[Conflict]
- "ab01TR_Travels.esp" is a version of the "TR_Travels.esp" plugin for use with abot's "Silt Striders" mod. abot's version has "TR_Travels.esp" changes to the Bal Oyra silt strider port removed.
- (Ref: "abotSiltStriders.txt")
-TR_Travels.esp
-ab01TR_Travels.esp
-
-;;Dragon32: copied rules for "TR_Travels.esp", no conflicts in TESPCD between Travels and Silt Striders.
-[Order]
-TR_Preview.esp
-ab01TR_Travels.esp
-
-[Requires]
- "ab01TR_Travels.esp" is a version of the "TR_Travels.esp" plugin for use with abot's "Silt Striders" mod.
- (Ref: "TR_Readme.txt" and "abotSiltStriders.txt")
-ab01TR_Travels.esp
-[ALL Tamriel_Data.esm
-     TR_Mainland.esm
-     TR_Preview.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silt Striders Are In Vvardenfell [lochnarus]
@@ -33802,32 +33677,15 @@ Skeleton_Island_V3.00.esp
 Clean Black Queen Chronicles Ver 2.5.esp
 
 [Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
- You could try abot's moved version of "A Call to Issilar":
- Download it from Morrowind Modding History: http://mw.modhistory.com/download-48-12374
+	Landmass conflict.
+	(Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
 Skeleton_Island_V3.00.esp
-A Call to Issilar.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Skeleton_Island_V3.00.esp
-Stanegau Island.esp
-
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Skeleton_Island_V3.00.esp
-velayia.esm
+[ANY	Stanegau Island.esp
+		velayia.esm
+		[SIZE !14993627 Wizards Islands - Scourge of the Frost Bringer.esm]]
 
 ;;Dragon32: WI esm with SIZE of 14993627 is from "Wizards' Islands Super Patch v0.6" (q.v.)
 ;;"Both islands have been moved north to make the mod compatible with Tamriel Rebuilt."
-[Conflict]
- Landmass conflict
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
-Skeleton_Island_V3.00.esp
-[SIZE !14993627 Wizards Islands - Scourge of the Frost Bringer.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Skeleton Shield Replacer 1.0 [osiris]
@@ -33878,13 +33736,6 @@ CAB_SkullzImproved_TRBM.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Skyrim: Home of the Nords 02 [SHOTN]
-
-[Requires]
- "Make sure to have [...] Tamriel_Data [...] installed [to use "Skyrim: Home of the Nords"]"
- Download "Tamriel_Data" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/44537/
- (Ref: http://www.nexusmods.com/morrowind/mods/44921/ )
-Sky_Main.esp
-Tamriel_Data.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Slashes' Argonian Water Breathing [Slashes-With-Claws]
@@ -34339,8 +34190,8 @@ Clean SCastle_LoKKen_Patch.esp
      [ANY BT_Whitewolf_2_0.esp
           BT_Whitewolf_2_0.esm]]
 
-;;Dragon32: Checked with TESPCD. LAND and NPC_ entries conflict.
-[Order]
+
+[Order] ; Dragon32: Checked with TESPCD. LAND and NPC_ entries conflict.
 Clean Solstheim_Castle_v1.1.esp
 Clean SCastle_LoKKen_Patch.esp
 
@@ -34944,8 +34795,7 @@ SF Elaura Gowns.esp
 [ALL NoM 3.0.esp
      MW_Children_1_0.esm
      Tamriel_Data.esm
-     TR_Map1.esm
-     TR_Map2.esm]
+     TR_Mainland.esm]
 
 [Requires]
  (Ref: "Starfire Compatiblity plugins.txt")
@@ -35078,22 +34928,16 @@ SF NPC111 - Hilgya Exp1 Addon.esp
      Hilgya the Seamstress Expansion 1.esp
      Starfires NPC Additions ver-1.11.esp]
 
-;;Dragon32: Recommended by author; see MMH link, above.
-[Order]
+
+[Order] ; Dragon32: Recommended by author; see MMH link, above
 Mashed Lists.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
 
-[Order]
-multipatch.esp
-SF NPC111 - Hilgya Exp1 Addon.esp
-
-;;Dragon32 - Checking in TESPCD shows that baikanp's "Starfire's NPC - Hilgya Exp1 Addon" changes some ARMO, CLOT and a CONT record from "Hilgya Expansion 1". So, loading baikanp's mod after Plangkye's
-[Order]
+[Order] ; Dragon32 - Checking in TESPCD shows that baikanp's "Starfire's NPC - Hilgya Exp1 Addon" changes some ARMO, CLOT and a CONT record from "Hilgya Expansion 1". So, loading baikanp's mod after Plangkye's
 Hilgya the Seamstress Expansion 1.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
 
-;;Dragon32 - Checking in TESPCD shows that baikanp's "Starfire's NPC - Hilgya Exp1 Addon" changes some NPC_ records in "NPC Addition 1.11". So, loading baikanp's mod after Starfire's
-[Order]
+[Order] ; Dragon32 - Checking in TESPCD shows that baikanp's "Starfire's NPC - Hilgya Exp1 Addon" changes some NPC_ records in "NPC Addition 1.11". So, loading baikanp's mod after Starfire's
 Starfires NPC Additions ver-1.11.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
 
@@ -35101,7 +34945,7 @@ SF NPC111 - Hilgya Exp1 Addon.esp
 ;; @Starfire over Telvannis [Blade117]
 
 [Requires]
- "Starfire over Telvannis" requires Starfire's "NPC Additions" and "Tamriel Rebuilt" Maps 1 and 2
+ Starfire over Telvannis requires Starfire's NPC Additions and Tamriel Rebuilt
  (Ref: http://mw.modhistory.com/download-80-6464 )
 Starfire Over Telvannis.esp
 [ALL Tamriel_Data.esm
@@ -35109,8 +34953,7 @@ Starfire Over Telvannis.esp
      TR_Map2.esm
      Starfires NPC Additions ver-1.11.esp]
 
-;;Dragon32: Logical to load the addon after Starfire's main mod
-[Order]
+[Order] ; Dragon32: Logical to load the addon after Starfire's main mod
 Starfires NPC Additions ver-1.11.esp
 Starfire Over Telvannis.esp
 
@@ -35148,8 +34991,7 @@ Cali_StarstoneOutpost.esp
 sm_SSOP_Spidersilk_01.esp
 Cali_StarstoneOutpost.esp
 
-;;Dragon32: TESPCD check shows CREA conflicts for: cali_TH_Spider_large, cali_TH_Spider_small and cali_TH_Spider_med
-[Order]
+[Order] ; Dragon32: TESPCD check shows CREA conflicts for: cali_TH_Spider_large, cali_TH_Spider_small and cali_TH_Spider_med
 Cali_StarstoneOutpost.esp
 sm_SSOP_Spidersilk_01.esp
 
@@ -35162,8 +35004,7 @@ sm_SSOP_Spidersilk_CREATURES.esp
           Creatures (lore).esp
           Creatures (Semi).esp]]
 
-;;Dragon32: "sm_SSOP_Spidersilk_CREATURES.esp" only changes cali_TH_Spider_large, cali_TH_Spider_small and cali_TH_Spider_med; doesn't affect any records from PL's Creatures
-[Order]
+[Order] ; Dragon32: "sm_SSOP_Spidersilk_CREATURES.esp" only changes cali_TH_Spider_large, cali_TH_Spider_small and cali_TH_Spider_med; doesn't affect any records from PL's Creatures
 Cali_StarstoneOutpost.esp
 sm_SSOP_Spidersilk_CREATURES.esp
 
@@ -35251,8 +35092,7 @@ Steel Broadsword Fix.esp
      Provincial_Bath _Shoppe_for_Stinkers.esp]
 Provincial_Bath _Shoppe_v1.esp
 
-;;Dragon32: Duplicated Order rules from Provincial Bath Shoppe 1.0 [Korana]
-[Order]
+[Order] ; Dragon32: Duplicated Order rules from Provincial Bath Shoppe 1.0 [Korana]
 Clean Ascadian Styles.esp
 Provincial_Bath _Shoppe_for_Stinkers.esp
 
@@ -35271,8 +35111,7 @@ Rose_Cottage_Bathing_Patch.esp
 [ALL [VER <2 Stinkers.esp]
      Ascadian_Rose_Cottage_ver1.0.esp]
 
-;; (Ref: "Stinkers_ReadMe_v1.71.txt")
-[Order]
+[Order] ; (Ref: "Stinkers_ReadMe_v1.71.txt")
 Ascadian_Rose_Cottage_ver1.0.esp
 Rose_Cottage_Bathing_Patch.esp
 
@@ -35286,8 +35125,7 @@ Rose_Cottage_Bathing_Patch.esp
 [VER <2 Stinkers.esp]
 [SIZE !364308 Gardeners of Morrowind.esp]
 
-;; (Ref: "Stinkers_ReadMe_v1.71.txt")
-[Order]
+[Order] ; (Ref: "Stinkers_ReadMe_v1.71.txt")
 Stinkers.esp
 BE_Bathing_Patch.esp
 [Order]
@@ -35382,8 +35220,7 @@ Stinkers v2 - Ascadian Rose Cottage Patch.esp
 Ascadian_Rose_Cottage_ver1.0.esp
 Stinkers v2 - Ascadian Rose Cottage Patch.esp
 
-;; JMS - order confirmed by Gaius Atrius via PM
-[Order]
+[Order] ; JMS - order confirmed by Gaius Atrius via PM
 Ascadian_Rose_Cottage_ver1.0.esp
 Stinkers v2 - Ascadian Rose Cottage Patch.esp
 
@@ -35456,14 +35293,14 @@ StinkersBE - Fylberding Patch.esp
  'Stinkers v2 - Modder's Resource.esp' should not be added into your game, it is for modders to add objects from "Stinkers and Bathers v2.0" to their mods and of itself adds nothing to the game world.
 Stinkers v2 - Modder's Resource.esp
 
-; "The Bathing Mod 2 has conflict with LGNPC Aldruhn 1.20, both changing cell Ashlands -1,6 and should load last."
-[Order]
+
+[Order] ; "The Bathing Mod 2 has conflict with LGNPC Aldruhn 1.20, both changing cell Ashlands -1,6 and should load last."
 LGNPC_Aldruhn_v?_??.esp
 Stinkers.esp
 StinkersBE.esp
 
-;;Dragon32: Assume still relevant for later versions of LGNPC Ald'Ruhn
-[Order]
+
+[Order] ; Dragon32: Assume still relevant for later versions of LGNPC Ald'Ruhn
 LGNPC_Aldruhn.esp
 Stinkers.esp
 StinkersBE.esp
@@ -35480,8 +35317,8 @@ Stinkers v2 - Mod Compatibility.esp
           Stinkers.esm
           StinkersBE.esm]]
 
-;;Ref: "Stinkers v2 - Mod Compatibility Readme.txt"
-[Order]
+
+[Order] ; Ref: "Stinkers v2 - Mod Compatibility Readme.txt"
 Uvirith's Legacy_<VER>.esp
 Stinkers v2 - Mod Compatibility.esp
 
@@ -35490,8 +35327,8 @@ Stinkers v2 - Mod Compatibility.esp
 
 ;;Dragon32: included in download for Uvirith's Legacy 3.1 [StuporStar] (q.v.)
 
-;;Ref: Stinkers 2.0 to 3.0 Upgrade.txt - "load Stinkers 3.0 last to make sure its scripts overwrite any Stinkers 3.0 resources placed in other mods."
-[Order]
+
+[Order] ; Ref: Stinkers 2.0 to 3.0 Upgrade.txt - "load Stinkers 3.0 last to make sure its scripts overwrite any Stinkers 3.0 resources placed in other mods."
 Stinkers 2.0 to 3.0 Upgrader.esp
 Stinkers 3.0.esp
 
@@ -35519,13 +35356,13 @@ Stinkers 2.0 to 3.0 Upgrader.esp
 
 ;;Ref: Stinkers 2.0 to 3.0 Upgrade.txt - "[Stinkers 2.0 to 3.0 Upgrade Patch] must be loaded after any mod you want to replace Stinkers 2.0 resources in."
 
-;;Uvirith's Legacy 3.2 [StuporStar]
-[Order]
+
+[Order] ; Uvirith's Legacy 3.2 [StuporStar]
 Uvirith's Legacy_<VER>.esp
 Stinkers 2.0 to 3.0 Upgrader.esp
 
-;;Sgaileach Estate 2.0 [Phinix]
-[Order]
+
+[Order] ; Sgaileach Estate 2.0 [Phinix]
 sg1-sgaileach_estate-NOM.esp
 Stinkers 2.0 to 3.0 Upgrader.esp
 
@@ -35633,7 +35470,7 @@ Stinkers BGMF for v3.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Stinkers and LGNPC Aldruhn Compatibility Patch [aralin]
 
-;;Dragon32: For v2 of Stinkers (ESM version). http://morrowind.nexusmods.com/mods/42536
+;;Dragon32: For v2 of Stinkers (ESM version). ( http://morrowind.nexusmods.com/mods/42536 )
 
 [Conflict]
  Only use one plugin:
@@ -35651,8 +35488,8 @@ Stinkers + LGNPC Ald Ruhn Patch.ESP
      [ANY LGNPC_Aldruhn_v?_??.esp
           LGNPC_Aldruhn.esp]]
 
-;;Ref: http://morrowind.nexusmods.com/mods/42536
-[Order]
+
+[Order] ; Ref: ( http://morrowind.nexusmods.com/mods/42536 )
 LGNPC_Aldruhn_v?_??.esp
 Stinkers + LGNPC Ald Ruhn Patch.ESP
 
@@ -35668,8 +35505,8 @@ Stinkers BE + LGNPC Ald Ruhn Patch.ESP
      [ANY LGNPC_Aldruhn_v?_??.esp
           LGNPC_Aldruhn.esp]]
 
-;;Ref: http://morrowind.nexusmods.com/mods/42536
-[Order]
+
+[Order] ; Ref: ( http://morrowind.nexusmods.com/mods/42536 )
 LGNPC_Aldruhn_v?_??.esp
 Stinkers BE + LGNPC Ald Ruhn Patch.ESP
 
@@ -35805,8 +35642,8 @@ super_adventurers302.esp
      SiegeAtFiremoth.esp
      [Official]Siege at Firemoth.esp]
 
-;:Dragon32 - This may work...
-[Order]
+
+[Order] ; Dragon32 - This may work...
 super_adventurers302.esp
 TLM - AdjMod - Siege At Firemoth.esp
 
@@ -35869,17 +35706,10 @@ MW_Children_1_0.esm
 Suran Extended Family.esp
 Clean Suran Extended.esp
 
-; Suran Extended needs to load before Suran Waterfront. They conflict in land/cell (6, -7)
-; (Ref: reported by Marcus La Tendresse)
-[Order]
+[Order] ; Suran Extended needs to load before Suran Waterfront, conflict in land/cell (6, -7) (Ref: reported by Marcus La Tendresse)
 Clean Suran Extended.esp
 Suran Extended Family.esp
-Suran Waterfront 5.0.esp
-
-[Order]
-Clean Suran Extended.esp
-Suran Extended Family.esp
-Suran Waterfront V-5.1.esp
+Suran Waterfront*.esp
 
 [Conflict]
  "[Princess Stomper's "Suran Extended"] conflicts with [Josh aka Xeon's] The Farmer Mod"
@@ -35932,8 +35762,8 @@ Farmer Mod v4.3.esp
      SU_SW Comp. Patch.esp]
 Suran Archery Store_v3.0.esp
 
-;;No conflict with v3.0 as Wollibeebee made the Bloodfang Tong armor use Andragorn and Bahamut's Sotonhorian armour.
-[Conflict]
+
+[Conflict] ; No conflict with v3.0 as Wollibeebee made the Bloodfang Tong armor use Andragorn and Bahamut's Sotonhorian armour
  Dimitri Mazieres's "Dark Brotherhood Armor Replacer" changes the Body Part for the Dark Brotherhood Helmet (ID: A_DarkBrotherhood_Helmet) from "Head" to "Hair". So when both "Dark Brotherhood Armor Replacer" and "Dark Brotherhood Armor Replacer" are active Suran Underworld is left without a Body Part for the BloodFang Helm (ID: a_bloodfang_helm), and so any NPC wearing a Bloodfang Helm will have no head. To use both mods in conjunction, you'd need to change the Armor part "a_bloodfang_helm" to
   Biped Object: Hair
   Male Armor: A_DarkBrotherhood_Helmet
@@ -36070,7 +35900,6 @@ SOP1.4Patch1.34.esp
  !! "Do not use other plugins with [Sword of Perithia]. There are only a select few that will be successfully compatibile with SOP.  (A short list of compatibile plugins: All SOP Patches, Waikem's Game Improvements, Rhed's heads.)"
  !! (Ref: readme_SwordofthePerithia.txt)
 SOPBeta1.4.esp
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Taddeus' Balanced Alchemy [Taddeus]
@@ -36271,7 +36100,7 @@ Taddeus'BalancedEnchanting.esp
      Clean Scrolls.esp]
 
 [Conflict]
- Use only one of these two .esps
+	Use only one of these plugins.
 Taddeus'BalancedObjects.esp
 Taddeus'BalancedObjects_Rotate.esp
 
@@ -36352,7 +36181,6 @@ Taddeus'BalancedWeapons_Rotate.esp
 Resource Tale of the Devious Trader.esp
 Tale of the Devious Trader.esp
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tales of Tel Branora  [A.P. Hilliard]
 
@@ -36377,46 +36205,15 @@ Tales of Tel Branora.esp
 
 ;;Danae: changed all TR_DATA.esm to Tamriel_Data.esm
 
-
-;;Dragon32: At the top as probably won't be needed when TR updates. No conflicts with TR_Preview.esp or TR_Travels.esp shown in TESPCD
-[Patch]
- The Tamriel Rebuilt team has released "an additional patch containing bugfixes, to be used with the main release version 16.12"
- Download "Patch for TR 16.12" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/42145
- (Ref: http://www.nexusmods.com/morrowind/mods/42145 )
-TR_Mainland_1612Patch.ESP
-[DESC /December 2016/ TR_Mainland.esm]
-
 ;;"The regions are defined in Tamriel_Data and if a cell has a region id that doesn't yet exist, it will produce [Unable to find Region] error."
 ;;Ref: http://tamriel-rebuilt.org/comment/5821#comment-5821
 [Order]
 Tamriel_Data.esm
 TR_Mainland.esm
 
-;;Dragon32: Checked with TESPCD
-[Order]
+[Order] ; Dragon32: Checked with TESPCD
 TR_Preview.esp
 TR_Travels.esp
-
-[Requires]
- "Before installing Tamriel Rebuilt, please ensure that you have [...] Tamriel_Data version 01 or later"
- Download "Tamriel_Data" by Cross-Project Coordination from Morrowind Nexus: http://www.nexusmods.com/morrowind/mods/44537/
- (Ref: "TR_Readme.txt")
-[ANY TR_Mainland.esm
-     TR_Preview.esp]
-Tamriel_Data.esm
-
-[Requires]
- (Ref: "TR_Readme.txt")
-TR_Travels.esp
-[ALL Tamriel_Data.esm
-     TR_Mainland.esm]
-
-[Requires]
- (Ref: "TR_Readme.txt")
-TR_Travels_(Preview_and_Mainland).esp
-[ALL Tamriel_Data.esm
-     TR_Mainland.esm
-     TR_Preview.esp]
 
 [Note]
  !! The Tamriel Rebuilt readme says:
@@ -36433,75 +36230,54 @@ TR_Mainland.esm
      TR_Map1.esm]
 
 [Conflict]
- "[These are] landmasses that conflict with the [Tamriel Rebuilt] Mainland".
- (Ref: "TR_Readme.txt")
+	Conflicts with TR_Mainland.
+	(Ref: "TR_Readme.txt")
 TR_Mainland.esm
-[ANY Bloody Oath_v1.0.esp		; Bloody Oath
-     BAR_DarkshroudKeep_v1.2.esp	; Darkshroud Keep
-     Clean hawkfir_island.esp		; Hawkfir Island
-     The Goblin Lab v1.1.esp		; The Goblin Lab
-     Helios_Keep.esp			; Helios Keep
-     Inferno's Island Revisited.esp	; Inferno's Island
-     Isengard (v1.3).esp		; Isengard
-     Journey's End 1.1.esp		; Journey's End
-     Korobal v1.2.esp			; Korobal Island
-     Liligue island.esp			; Lilligue Island
-     Moons_Spawn_V1.3.3_Non_Patched.esp	; Moon's Spawn
-     From Hell To Heaven.esm		; Morrowland
-     N'Dib_5.esp			; N'Dib's Twilight
-     RaferSands.esm			; Rafer: Sands of an Era
-     SnakeBitten Island - Alpha.esp	; Snakebitten's Island
-     Tree_of_Life.esp			; Tree Of Life
-     tusar_v1.2.1.esp]			; Island of Tusar
+[ANY 	Bloody Oath_v1.0.esp				; Bloody Oath
+     	BAR_DarkshroudKeep_v1.2.esp			; Darkshroud Keep
+     	Clean hawkfir_island.esp			; Hawkfir Island
+     	The Goblin Lab v1.1.esp				; The Goblin Lab
+     	Helios_Keep.esp						; Helios Keep
+     	Inferno's Island Revisited.esp		; Inferno's Island
+     	Isengard (v1.3).esp					; Isengard
+     	Journey's End 1.1.esp				; Journey's End
+     	Korobal v1.2.esp					; Korobal Island
+     	Liligue island.esp					; Lilligue Island
+     	Moons_Spawn_V1.3.3_Non_Patched.esp	; Moon's Spawn
+     	From Hell To Heaven.esm				; Morrowland
+     	N'Dib_5.esp							; N'Dib's Twilight
+     	RaferSands.esm						; Rafer: Sands of an Era
+     	SnakeBitten Island - Alpha.esp		; Snakebitten's Island
+     	Tree_of_Life.esp					; Tree Of Life
+     	tusar_v1.2.1.esp					; Island of Tusar
+	 	GS_Tamriel Part1_Black Marsh.esp
+		GS_Tamriel Tribute to The Comunity.esm
+		Beyond YsGramor v2.5.esm
+		The Zone (Tribunal).esp
+		Tel Scelestus.esp
+		Private_Tower_Ordeal.esp
+		Season of the Harvest v1.1.esp
+		Sorefoot Enterprises, Inc. v1.5a.esp
+		Unique Ocean Landscapes.ESP
+		Château de Hadeborg V1.0.esp
+		Rahj.esm
+		Makunde.esp
+		Clean Roman city v.4 expansion added #4.esp
+     	Clean Roman city v.4 MORROWIND ONLY.esp]		
 
 [Conflict]
- "[These are] landmasses that conflict with the [Tamriel Rebuilt] Preview."
- (Ref: "TR_Readme.txt")
+	Conflicts with TR_Preview.
+ 	(Ref: "TR_Readme.txt")
 TR_Preview.esp
 [ANY silgrad_tower_internal_release_1-4_6.6.esp	; Silgrad Tower
      silgrad_tower_1-4_6.6.esp			; Silgrad Tower
      Annastia V3.3.esp		     		; Annastia
-     Veldion2.0.esm				; Velidon
-     Dulsya Isle.esp				; Dulsya
-     FTG.esp]					; Five Toes
-
-;; moved the TR/Blackmill conflict to the BlackMill section - JMS
-
-;;Dragon32: moved the TR/Wizards Islands conflict to the Wizards Island section
-
-;Dragon32: Verified in TESPCD
-[Conflict]
- Gianluca Sabbatini's "GS_Tamriel Part 1: Black Marsh" mod has a landmass conflict with Tamriel Rebuilt.
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
- (Ref: "TR_Readme.txt")
-TR_Mainland.esm
-GS_Tamriel Part1_Black Marsh.esp
-
-;Dragon32: Verified in TESPCD
-[Conflict]
- Gianluca Sabbatini's "GS_Tamriel: Tribute to the Community" includes his "GS_Tamriel Part 1: Black Marsh" mod, which has a landmass conflict with Tamriel Rebuilt.
- (Ref: http://www.mwmythicmods.com/MAPoMODSbyCyronaut.jpg )
- (Ref: "TR_Readme.txt")
-TR_Mainland.esm
-GS_Tamriel Tribute to The Comunity.esm
-
-[Conflict]
- Landmass conflict. MJY's "Roman City of Theopolis" uses the same cells as Tamriel Rebuilt's Tel Muthada.
- (Ref: "TR_Readme.txt")
-TR_Mainland.esm
-[ANY Clean Roman city v.4 expansion added #4.esp
-     Clean Roman city v.4 MORROWIND ONLY.esp]
-
-[Conflict]
- Landmass conflict.
- (Ref: "TR_Readme.txt")
-[ANY TR_Mainland.esm
-     TR_Preview.esp]
-Beyond YsGramor v2.5.esm
+     Veldion2.0.esm						; Velidon
+     Dulsya Isle.esp					; Dulsya
+     FTG.esp]							; Five Toes
 
 [Conflict]
  "Mountainous Red Mountain replacer which also causes major placement issues [with "Tamriel Rebuilt"], especially in the Velothi Mountains."
- "A workaround can be found here: http://tamriel-rebuilt.org/forum/viewtopic.php?p=323469#323469 "
  (Ref: "TR_Readme.txt")
 [ANY TR_Mainland.esm
      TR_Preview.esp]
@@ -36516,49 +36292,12 @@ MRM.esm
 OTR_Coast_Variety.esp
 
 [Conflict]
- Landmass conflict. Sorefoot Enterprises puts its "Sorefoot Basecamp" in the same cell as Firewatch.
-TR_Mainland.esm
-Sorefoot Enterprises, Inc. v1.5a.esp
-
-[Conflict]
- Landmass conflict.
-TR_Mainland.esm
-The Zone (Tribunal).esp
-
-[Conflict]
- Landmass conflict.
-TR_Mainland.esm
-Tel Scelestus.esp
-
-[Conflict]
- Landmass conflict.
-TR_Mainland.esm
-Private_Tower_Ordeal.esp
-
-[Conflict]
- Landmass conflict. HonorableKoala's "Season of the Harvest" uses the same cells as Tamriel Rebuilt's Bal Oyra
-TR_Mainland.esm
-Season of the Harvest v1.1.esp
-
-[Conflict]
  Landmass conflict.
  (Ref: http://forums.nexusmods.com/index.php?/topic/152538-tel-nechim/?p=7720962 )
  There is a moved version of Antiscamp's "Tel Nachim" available where the island is "moved NE of Necrom for compatibility with Tamriel Rebuilt".
  Download it from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43204/
 TR_Mainland.esm
 Tel Nechim.esp
-
-[Conflict]
- Landmass conflict. Dallara's "Château de Hadeborg" uses the same cells as Tamriel Rebuilt's Bal Oyra.
- (Ref: http://tamriel-rebuilt.org/forum/viewtopic.php?p=308220 )
-TR_Mainland.esm
-Château de Hadeborg V1.0.esp
-
-[Conflict]
- Landmass conflict. ChopSlashThrust's "Unique Ocean Landscapes" uses the same cells as Tamriel Rebuilt's Teyn.
- (Ref: http://tamriel-rebuilt.org/forum/viewtopic.php?p=326603#326603 )
-TR_Mainland.esm
-Unique Ocean Landscapes.ESP
 
 [Conflict]
  Landmass conflict.
@@ -36580,26 +36319,13 @@ Fishing Academy v<VER>.esp
 TR_Mainland.esm
 Booty.esp
 
-[Conflict]
- Landmass conflict. The Tamriel Rebuilt and Rahj landmasses overlap.
- (Ref: "Readme Rahj I v2.51.txt")
-Rahj.esm
-TR_Mainland.esm
-
-[Conflict]
- Landmass conflict.
- (Ref: https://www.youtube.com/watch?v=H59W_ayT5Qo )
-Makunde.esp
-TR_Mainland.esm
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamriel Rebuilt: Census and Excise Links [The "Bloodthirsty" Crustacean]
 
 [Requires]
 TR_CensusAndExciseTravel.esp
 [ALL Tamriel_Data.esm
-     TR_Map1.esm
-     TR_Map2.esm]
+     TR_Mainland.esm]
 
 ;;Dragon32: See Ref in Note rule below - "This prevents an error message regarding TC_CEGate in TR_CensusAndExciseTravel.esp's TC_CEShipDockScript script when starting a new game."
 [Order]
@@ -36654,17 +36380,16 @@ TR_CensusAndExciseTravel.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamriel Rebuilt Map 1 CharGen 2.0 [Garif]
 
-;;v1.0
 [Requires]
  (Ref: "Tamriel Rebuilt Character Generation - Firewatch Readme.txt")
 Tamriel Rebuilt Character Generation - Firewatch.esp
-[ALL TR_Map1.esm
+[ALL TR_Mainland.esm
      Tamriel_Data.esm]
 
 [Requires]
  (Ref: "Tamriel Rebuilt Map 1 CharGen Firewatch v2.rar\Readme.txt")
 TR_CharGen (Firewatch - Map 1).esp
-[ALL TR_Map1.esm
+[ALL TR_Mainland.esm
      Tamriel_Data.esm]
 
 [Conflict]
@@ -36691,13 +36416,11 @@ TR_TransportLinks.ESP
 [ALL Tamriel_Data.esm
      TR_Mainland.esm]
 
-;Dragon32: v1.0 just because
-[Requires]
+[Requires] ; Dragon32: v1.0 just because
  (Ref: "TR_TransportReadme.txt")
 TR_Transport.ESP
 [ALL Tamriel_Data.esm
-     TR_Map1.esm
-     TR_Map2.esm]
+     TR_Mainland.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamrielic Lore 2.1 [PikachunoTM]
@@ -36834,8 +36557,7 @@ TeaMod_NoM_Patch.esp
 [ALL TeaMod_<VER>.esp
      NoM 3.0.esp]
 
-;;Ref: "TeaMod_1.2_ReadMe.txt"
-[Order]
+[Order] ; Ref: "TeaMod_1.2_ReadMe.txt"
 TeaMod_<VER>.esp
 NoM 3.0.esp
 
@@ -36919,17 +36641,16 @@ Tel NechimMN.esp
 NoM 3.0.esp
 
 [Conflict]
- "The new location [of Tel Nechim in "Tel Nechim (moved version)"] conflict now with "Lothavor's Legacy" mod"
- (Ref: http://forums.nexusmods.com/index.php?/topic/1944044-tel-nechim-moved-version/?p=17352729 )
-[ANY Tel NechimM.esp
-     Tel NechimMN.esp]
+	The new location of Tel Nechim in Tel Nechim (moved version) conflicts with Lothavor's Legacy mod
+ 	(Ref: http://forums.nexusmods.com/index.php?/topic/1944044-tel-nechim-moved-version/?p=17352729 )
+[ANY 	Tel NechimM.esp
+     	Tel NechimMN.esp]
 Lothavor's Legacy.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Teleporter Mod Revised Tribunal 1.0 [Nordic][Ultimate Teleporter]
 
-;; Ring is placed in smal chest, disapears if false loadorder
-[Order]
+[Order] ; Ring is placed in small chest, disappears with the incorrect load order
 MW Containers Animated.esp
 Teleporter Mod Revised Tribunal.esp
 Teleporter Mod Revised Tribunal (Русская версия).esp
@@ -36951,9 +36672,6 @@ ring_teleport v3_Tealpanda.esp
      ring_teleport v3_Tealpanda.esp]
 [ANY ring_teleport v2.2_Dubious.esp
      ring_teleport.esp]
-
-
-;;Dragon32: following Order rules have both Tealpanda's plugins included, players should only be using one
 
 ;; Ref: 'Readme teleport ring V3 - updated by tealpanda.txt'
 [Order]
@@ -37020,15 +36738,13 @@ ring_teleport cost_Tealpanda.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Teleport Ring - Add-on for The White Wolf of Lokken Mountain [Emma]
 
-;;Dragon32 - Readme or file header don't mandate ESM version.
-[Requires]
+[Requires] ; Dragon32 - Readme or file header don't mandate ESM version
  (ref: WWLokken-teleportring.txt)
 b_WWLteleport1_0.esp
 [ANY BT_Whitewolf_2_0.esm
      BT_Whitewolf_2_0.esp]
 
-;;Dragon32 - Logical to load this after the ESP version of Lokken
-[Order]
+[Order] ; Dragon32 - Logical to load this after the ESP version of Lokken
 BT_Whitewolf_2_0.esp
 b_WWLteleport1_0.esp
 
@@ -37076,8 +36792,7 @@ Telperion Basement Addon.esp
 Ice_CNS_FemaleTelvanniRobeV2.esp
 Clean Telvanni_Robe_V2.esp
 
-;; Dragon32: Examined plugins in TESPCD
-[Order]
+[Order] ; Dragon32: Examined plugins in TESPCD
 Clean Telvanni_Robe_V2.esp
 Ice_CNS_FemaleTelvanniRobeV2.esp
 
@@ -37089,8 +36804,7 @@ Ice_CNS_FemaleTelvanniRobeV2.esp
  (Ref: AEV_TCA.rar\Readme.txt)
 AEV_TCA.esp
 [ALL Tamriel_Data.esm
-     TR_Map1.esm
-     TR_Map2.esm
+     TR_Mainland.esm
      [DESC /over 1200 friendly/ MCA.ESM]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -37135,11 +36849,6 @@ Texture Fix <VER>.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Texture Fix - Balmora Expansion 1.4 [Slartibartfast]
 
-[NOTE]
- The latest version of Slartibartfast's "Texture Fix - Balmora Expansion" is 1.4 (Balmora Expansion v1.4+(1.4).esp).
- mlox cannot deduce the exact version number you are using but please double-check you are running Slartibartfast's latest.
-[SIZE !4495981 Balmora Expansion v1.4+(<VER>).esp]
-
 [Conflict]
  Choose ONLY ONE of these plugins.
   "Balmora Expansion v1.4.esp" is the original Balmora Expansion.
@@ -37179,18 +36888,13 @@ BE+(1.4) Better Looking Morrowind.esp
 [ANY BL-Morrowind.esm
      BL-Morrowind.esp]
 
-; (Ref: Readme - Texture Fix- Balmora Expansion.txt)
-[Order]
+[Order] ; (Ref: Readme - Texture Fix- Balmora Expansion.txt)
 Balmora Expansion v1.4+(1.4).esp
 BE+(1.4) Better Looking Morrowind.esp
 BE-Callenwald.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Texture Fix - Bloodmoon 1.1 [Slartibartfast]
-
-[Order]
-Bloodmoon.esm
-Texture Fix - Bloodmoon <VER>.esm
 
 ;; "If you are using a land altering mod in esm format then you will need to ensure that 'Texture Fix - Bloodmoon' appears higher in the load order else there will very likely be compatibilty issues such as holes in the landscape and static items floating in the air or partially/fully submerged in the ground."
 ;; Readme - Texture Fix Bloodmoon.txt
@@ -37205,12 +36909,6 @@ BT_Whitewolf_2_0.esm
  !! "[Slartibartfast's "Texture Fix - Tamriel Rebuilt"] is totally deprecated, its fixes have been included into [Tamriel Rebuilt] since Sacred East [in 2013]".
  !! (Ref: https://forums.nexusmods.com/index.php?/topic/4853520-tamriel-data/?p=45385050 )
 Texture Fix -TR -<VER>.esm
-
-[Requires]
- "Texture Fix - Tamriel Rebuilt" requires Tamriel Rebuilt's Sacred East release, which contains the first three maps
-Texture Fix -TR -2.0.esm
-[ALL Tamriel_Data.esm
-     TR_Mainland.esm]
 
 [Order]
 TR_Mainland.esm
@@ -37288,8 +36986,7 @@ Constance1_0.esp
 GIANTS Ultimate Control file.esp
 Constance1_0.esp
 
-;;"If you play the Companion Constance mod, there is a part where she gives you 100 kwama eggs (over-encumbering you and making it impossible to move) and a guard seeks to arrest you through custom dialog because the eggs are stolen.  However, the forced greeting from Antares's "Go to Jail" mod overrides this and prevents the situation from working as intended. I'm worried this might create errors in future dialog with Constance."
-[Order]
+[Order] ; "If you play the Companion Constance mod, there is a part where she gives you 100 kwama eggs (over-encumbering you and making it impossible to move) and a guard seeks to arrest you through custom dialog because the eggs are stolen.  However, the forced greeting from Antares's "Go to Jail" mod overrides this and prevents the situation from working as intended. I'm worried this might create errors in future dialog with Constance."
 Go To Jail 3.7 - NOM.esp
 constance1_0.esp
 
@@ -37309,20 +37006,17 @@ Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
      Improved Trap Settings (Tribunal).esp
      Stealth Enhancements-LD 1.5b (Tribunal).esp]
 
-;;Dragon32: TESPCD shows conficts for ENCH "sc_ekashslocksplitter_en" and "sc_ondusisunhinging_en"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for ENCH "sc_ekashslocksplitter_en" and "sc_ondusisunhinging_en"
 BTB - Equipment.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
-;;Dragon32: assorted plugins which merge in "BTB - Equipment.esp"
-[Order]
+[Order] ; Dragon32: assorted plugins which merge in "BTB - Equipment.esp"
 BTB - Unique Finery Equipment.esp
 HELLUVA Balanced BTB CS.esp
 HELLUVA Balanced BTB.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
-;;Dragon32: TESPCD shows conficts for GMST "fTrapCostMult" and "fPickLockMult"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for GMST "fTrapCostMult" and "fPickLockMult"
 BTB - Settings.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
@@ -37330,8 +37024,7 @@ Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 BTB - Settings (Alternate).esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
-;;Dragon32: TESPCD shows conficts for SPEL "open", "wild open", "strong open", "great open", "ondusi's open door"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for SPEL "open", "wild open", "strong open", "great open", "ondusi's open door"
 BTB - Spells.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
@@ -37339,13 +37032,11 @@ Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 BTB Spells - EMS MGSO Patch.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
-;;Dragon32: TESPCD shows conficts for MGEF "Index 13"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for MGEF "Index 13"
 Balance - Magic Effects.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
-;;Dragon32: TESPCD shows conficts for SPEL "great open" and "strong open"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for SPEL "great open" and "strong open"
 Balance - spells.esp
 Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 
@@ -37361,8 +37052,7 @@ Thief Experience Overhaul 1.3b (Tribunal) (Combined).esp
 Wakim's Game Improvement 9.esp
 AprogasVampire WakimImprovements.20021210.esp
 
-;;Dragon32: TESPCD shows conficts for GMST "fPickLockMult"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for GMST "fPickLockMult"
 BTB - Settings.esp
 Improved Lockpicking.esp
 
@@ -37370,20 +37060,17 @@ Improved Lockpicking.esp
 BTB - Settings (Alternate).esp
 Improved Lockpicking.esp
 
-;;Dragon32: TESPCD shows conficts for ENCH "sc_ekashslocksplitter_en" and "sc_ondusisunhinging_en"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for ENCH "sc_ekashslocksplitter_en" and "sc_ondusisunhinging_en"
 BTB - Equipment.esp
 Improved Open Spell Balance-LD.esp
 
-;;Dragon32: assorted plugins which merge in "BTB - Equipment.esp"
-[Order]
+[Order] ; Dragon32: assorted plugins which merge in "BTB - Equipment.esp"
 BTB - Unique Finery Equipment.esp
 HELLUVA Balanced BTB CS.esp
 HELLUVA Balanced BTB.esp
 Improved Open Spell Balance-LD.esp
 
-;;Dragon32: TESPCD shows conficts for SPEL "open", "wild open", "strong open", "great open", "ondusi's open door"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for SPEL "open", "wild open", "strong open", "great open", "ondusi's open door"
 BTB - Spells.esp
 Improved Open Spell Balance-LD.esp
 
@@ -37391,18 +37078,15 @@ Improved Open Spell Balance-LD.esp
 BTB Spells - EMS MGSO Patch.esp
 Improved Open Spell Balance-LD.esp
 
-;;Dragon32: TESPCD shows conficts for MGEF "Index 13"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for MGEF "Index 13"
 Balance - Magic Effects.esp
 Improved Open Spell Balance-LD.esp
 
-;;Dragon32: TESPCD shows conficts for SPEL "great open" and "strong open"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for SPEL "great open" and "strong open"
 Balance - spells.esp
 Improved Open Spell Balance-LD.esp
 
-;;Dragon32: TESPCD shows conficts for GMST "fTrapCostMult"
-[Order]
+[Order] ; Dragon32: TESPCD shows conficts for GMST "fTrapCostMult"
 BTB - Settings.esp
 Improved Trap Settings (Tribunal).esp
 
@@ -37525,8 +37209,7 @@ Thirsk Expanded Family.esp
 Thirsk Expanded Family.esp
 MW_Children_1_0.esm
 
-;;"Thirsk [Expanded] first, then Lochnarus [Cliffs Of Fjalding], then Skaal [Forest]. It's a load order issue, becaus HRM's Thirsk [Expanded] edits some of the same landscape as Lochnarus' Cliff of Fjalding mod.  If his preceeds, then you get that lovely visual quirk of half the cliffs unidirectionally invisible and cut out."
-[Order]
+[Order] ; "Thirsk [Expanded] first, then Lochnarus [Cliffs Of Fjalding], then Skaal [Forest]. It's a load order issue, because HRM's Thirsk [Expanded] edits some of the same landscape as Lochnarus' Cliff of Fjalding mod.  If his preceeds, then you get that lovely visual quirk of half the cliffs unidirectionally invisible and cut out."
 Thirsk Expanded.esp
 LOCH_Cliffs_Of_Fjalding.esp
 Skaal Forest 1.0.esp
@@ -37536,8 +37219,7 @@ Thirsk Expanded Family.esp
 LOCH_Cliffs_Of_Fjalding.esp
 Skaal Forest 1.0.esp
 
-;;merged version of Lochnarus' mods
-[Order]
+[Order] ; merged version of Lochnarus' mods
 Thirsk Expanded.esp
 LOCH_Felsaad_Revamped.esp
 
@@ -37555,8 +37237,7 @@ WBSP_LOOT.esp
 [ANY WBSP_MAIN.esp
      WBSP_NPC.ESP]
 
-;;Dragon32: No idea who wrote this: "To Serve Sithis conflicts with Threads of the Webspinner - I ended up with two of Eno Hlaalu"
-[Conflict]
+[Conflict] ; Dragon32: No idea who wrote this: "To Serve Sithis conflicts with Threads of the Webspinner - I ended up with two of Eno Hlaalu"
  "[Curmudgeon's "Threads of the Webspinner Completed"] WILL conflict with any mod that requires or changes Bethesda's "enoHlaaluScript" or that alters the NPC "eno hlaalu""
  (Ref: "WBSP_V2_1_ReadMe.rtf")
 Webspinner_V2_1.esp
@@ -37576,14 +37257,12 @@ SAFIX.esp
 Pax Hlaalu (Revision 3.0).esp
 Tir Thalor Quest.esp
 
-; Aerie of Tir Thalor Quest 1.2
-[Requires]
+[Requires] ; Aerie of Tir Thalor Quest 1.2
  (Ref: Readme_TirThalorQuest.txt)
 Tir Thalor Quest.esp
 TirThalor.esp
 
-; Ref: Readme_TirThalorQuest.txt
-[Order]
+[Order] ; Ref: Readme_TirThalorQuest.txt
 TirThalor.esp
 Tir Thalor Quest.esp
 
@@ -37620,8 +37299,7 @@ Tir Thalor Quest.esp
           TLM - Complete + DBL.esp]
      [NOT TLM - Ambient Light + Fog Update.esp]]
 
-;; Order tweaks From Black Crow King, albeit reported for "TLM - Ambient Light + Fog Update.esp":
-[Order]
+[Order] ; Order tweaks From Black Crow King, albeit reported for "TLM - Ambient Light + Fog Update.esp"
 Piratelords Trade Enhancements.esp
 TLM - Complete.esp
 TLM - Complete + DBL.esp
@@ -37651,8 +37329,7 @@ TLM - Ambient Light + Fog Update.esp
  ! (Ref: "TLM - ~Readme.htm")
 TLM - Ambient Light + Fog Update.esp
 
-;Order tweaks From Black Crow King:
-[Order]
+[Order] ; Order tweaks From Black Crow King
 Piratelords Trade Enhancements.esp
 TLM - Ambient Light + Fog Update.esp
 
@@ -37678,8 +37355,7 @@ TLM - Light Sources (Lanterns).esp
      Fire_Hurt_morrowind.esp
      Fire_Hurt_Tribunal.esp]
 
-;;Dragon32: Think NoM people would want fires to cook stuff.
-[Order]
+[Order] ; Dragon32: Think NoM people would want fires to cook stuff
 TLM - Complete.esp
 TLM - Complete + DBL.esp
 Necessities of Morrowind 2.0.esp
@@ -37880,10 +37556,6 @@ TLM - AdjMod - Spuzzum's Interior Daylight.esp
 TLM - Complete.esp
 TLM - Complete + DBL.esp
 
-;;[Requires]
-;;TLM - AdjMod - Marksman 1.43.b2.esp ???
-;;TBD ???
-
 [Requires]
  "[TLM - AdjMod - Siege At Firemoth.esp] contain the relevant light settings for [...] Siege At Firemoth by the Official Morrowind Team"
  (Ref: "TLM - ~Readme.htm")
@@ -38033,7 +37705,7 @@ The Towers of Uvirith V1.2.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @To Serve Sithis [Emyn]
 
-[Note]
+[Conflict]
  "To Serve Sithis" by Emyn requires the player to assassinate an NPC key to one of the "LGNPC Tel Uvirith" quests.
  (Ref: http://www.mwmythicmods.com/Gluby/Gluby_DarkBrotherhood_Mods.htm )
 Clean To Serve Sithis_.esp
@@ -38114,7 +37786,7 @@ NOM Travel Tent Patch.esp
 [Note]
  ! Von Djangos' "Dagoth's Cry" has been updated and incorporated into his "The Tribe Unmourned" mod.
  ! (Ref: "The Tribe Unmourned.txt")
- ! Download "The Tribe Unmourned" from Morrowind Modding History - http://mw.modhistory.com/download-56-13139
+ ! Download The Tribe Unmourned here ( https://www.nexusmods.com/morrowind/mods/23357 )
 Dagoth's Cry.esp
 
 [Conflict]
@@ -38653,8 +38325,7 @@ The Undead.esp
 The Undead.esm
 The Undead.esp
 
-;;Dragon32: Noticed some conflicts (e.g. in the 'NP Phantom' RACE record) between these two. I assume that 'The Undead.esm' should load after 'MCA.esm' as "The Undead" was released after 5.2 of "Morrowind Comes Alive"
-[Order]
+[Order] ; Dragon32: Noticed some conflicts (e.g. in the 'NP Phantom' RACE record) between these two. I assume that 'The Undead.esm' should load after 'MCA.esm' as "The Undead" was released after 5.2 of "Morrowind Comes Alive"
 MCA.esm
 [DESC /Adds 150 new undead/ The Undead.esm]
 
@@ -38666,7 +38337,6 @@ MCA.esm
  (Ref: Undead Creatures.txt)
 Undead_Creatures Overland.esp
 Undead_Creatures.esp
-
 
 [Conflict]
  "Only Choose one of the 'Combat Skill Tweak' Mods"
@@ -38817,13 +38487,11 @@ UCNature.esm
      CR Ore Replacer 1.0.esp
      correctUV Ore Replacer 1.0.esp]
 
-;;Texture Fix Order rule
-[Order]
+[Order] ; Texture Fix Order rule
 UCNature.esm
 MRM.esm
 
-;;Bloodmoon Landscape Overhaul Order rule
-[Order]
+[Order] ; Bloodmoon Landscape Overhaul Order rule
 Bloodmoon.esm
 UCNature.esm
 BT_Whitewolf_2_0.esm
@@ -38852,8 +38520,7 @@ Balmora University 2.0 - unique Balmora addon.esp
 [ALL unique Balmora.esp
      balmorauversion2.0.ESP]
 
-;;Dragon32 - load order not mentioned. Assumed
-[Order]
+[Order] ; Dragon32 - load order not mentioned. Assumed
 unique Balmora.esp
 balmorauversion2.0.ESP
 Balmora University 2.0 - unique Balmora addon.esp
@@ -38876,8 +38543,7 @@ unique Dagon Fel-Mill ADDON.esp
      [ANY DagonFel Mill V-1.7 esp..esp
           DagonFel Mill V-1.8 esp..esp]]
 
-;;Dragon32: order assumed
-[Order]
+[Order] ; Dragon32: order assumed
 DagonFel Mill V-1.7 esp..esp
 unique Dagon Fel-Mill ADDON.esp
 
@@ -38899,8 +38565,7 @@ unique Dagon Fel-Hilgya ADDON.esp
 [ALL unique Dagon Fel.esp
      Hilgya the Seamstress.esm]
 
-;;Dragon32: order assumed
-[Order]
+[Order] ; Dragon32: order assumed
 unique Dagon Fel.esp
 unique Dagon Fel-Hilgya ADDON.esp
 
@@ -38914,8 +38579,7 @@ unique Dagon Fel-MQB ADDON.esp
 [ALL unique Dagon Fel.esp
      MetalQueenBoutique.esm]
 
-;;Dragon32: order assumed
-[Order]
+[Order] ; Dragon32: order assumed
 unique Dagon Fel.esp
 unique Dagon Fel-MQB ADDON.esp
 
@@ -38930,13 +38594,7 @@ unique Dagon Fel-MQB ADDON.esp
 Psy_UniqueDremora_M.esp
 Psy_UniqueDremora_T.esp
 
-[Note]
- (Ref: "Psy_UniqueDremora_readme.txt")
-[ALL Psy_UniqueDremora_M.esp
-     Tribunal.esm]
-
-;;Psymomniser's mod does more to Dremora than Neoptolemus' "Unique Creatures", I'd want Psymoniser's changes
-[Order]
+[Order] ; Psymomniser's mod does more to Dremora than Neoptolemus' "Unique Creatures", I'd want Psymoniser's changes
 Neo's Unique Creatures.esp
 Psy_UniqueDremora_M.esp
 Psy_UniqueDremora_T.esp
@@ -38944,25 +38602,22 @@ Psy_UniqueDremora_T.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Unique Finery Replacer 3.2 [Alaisiagae]
 
-[Conflict]
- Do not run both plugins:
-  UFR_v3dot2.esp - If you WANT the changes to the robes
-  UFR_v3dot2_noRobe.esp - If you DO NOT want the changes to the robes
- (Ref: "readme_Unique Finery Replacer v3dot2.txt")
-[ANY UFR_v3dot2.esp
-     [SIZE !22585 UniqueFinery.esp]]
+[Conflict] ; (Ref: "readme_Unique Finery Replacer v3dot2.txt")
+	Do not run both plugins:
+		UFR_v3dot2.esp - If you WANT the changes to the robes.
+		UFR_v3dot2_noRobe.esp - If you DO NOT want the changes to the robes.
+[ANY	UFR_v3dot2.esp
+    	[SIZE !22585 UniqueFinery.esp]]
 UFR_v3dot2_noRobe.esp
 
-[Conflict]
- You do not need to run Alaisiagae's "Soldier Belts Fix" with her "Unique Finery Replacer"
- (Ref: "readme_Unique Finery Replacer v3dot2.txt")
-[ANY [SIZE !22585 UniqueFinery.esp]
-     UFR_v3dot2_noRobe.esp]
+[Conflict] ; (Ref: "readme_Unique Finery Replacer v3dot2.txt")
+	You do not need to run Alaisiagae's Soldier Belts Fix with her Unique Finery Replacer.
+[ANY	UFR_v3dot2.esp
+     	UFR_v3dot2_noRobe.esp]
 SoldierBeltsFix.esp
 
-[Conflict]
- Use "UFR_v3dot2_noRobe.esp" from Alaisiagae's "Unique Finery Replacer" if you are using CanadianIce's Robe Replacer.
- (Ref: "readme_Unique Finery Replacer v3dot2.txt")
+[Conflict] ; (Ref: "readme_Unique Finery Replacer v3dot2.txt")
+	Use "UFR_v3dot2_noRobe.esp" from Alaisiagae's "Unique Finery Replacer" if you are using CanadianIce's Robe Replacer.
 [ANY UFR_v3dot2.esp
      [SIZE !22585 UniqueFinery.esp]]
 [ANY IceBradyHurdyRobeReplacerALL.esp
@@ -38976,12 +38631,11 @@ SoldierBeltsFix.esp
      IceNioLivRobeReplacerBM.esp
      IceNioLivRobeReplacerPLUS.esp]
 
-[Conflict]
- Alaisiagae's "Unique Finery Replacer" conflicts with Alphax's "Imperial, Indoril, Templar Belt Icons" as both mods edit the Indoril, Imperial and Templar belts.
- (Ref: "readme_Unique Finery Replacer v3dot2.txt")
-[ANY [ANY UFR_v3dot2.esp
-          [SIZE !22585 UniqueFinery.esp]]
-     UFR_v3dot2_noRobe.esp]
+[Conflict] ; (Ref: "readme_Unique Finery Replacer v3dot2.txt")
+	Alaisiagae's "Unique Finery Replacer" conflicts with Alphax's "Imperial, Indoril, Templar Belt Icons" as both mods edit the Indoril, Imperial and Templar belts.
+[ANY	[ANY  	UFR_v3dot2.esp
+        		[SIZE !22585 UniqueFinery.esp]]
+     	UFR_v3dot2_noRobe.esp]
 lfx_faction_belts.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -39041,10 +38695,8 @@ Ring Texture Fix.esp
 Unique Jewelry and Accessories.esp
 Unique Jewelry and Accessories_no ench.esp
 
-;;Dragon32: Ran a TESPCD check against all the BTB and Wakim mods I have. Added in rules for mods which merge those plugins too.
-[Note]
+[Note] ; Dragon32: Ran a TESPCD check against all the BTB and Wakim mods I have. Added in rules for mods which merge those plugins too. (Ref: "Readme - Unique Jewelry and Accessories by tealpanda.txt")
  "[Unique Jewelry and Accessories_no ench.esp from "Unique Jewelry and Accessories" by Tealpanda] is recommended if you use BTB Game Improvements, Wakin's Game Improvements, or other things that mess with the strength of enchantments, value of loot, etc."
- (Ref: "Readme - Unique Jewelry and Accessories by tealpanda.txt")
 [ALL Unique Jewelry and Accessories.esp
      [ANY Balance - items.esp
           BTB - Equipment.esp
@@ -39057,9 +38709,7 @@ Unique Jewelry and Accessories_no ench.esp
           Wakim's Game Improvements with No-glo v9.esp
           AprogasVampire WakimImprovements.20021210.esp]]
 
-;; "Compatible with Unique Finery Replacer (UFR) by Alaisiagae, just load her mod after this one."
-;; Ref: "Readme - Unique Jewelry and Accessories by tealpanda.txt"
-[Order]
+[Order] ; "Compatible with Unique Finery Replacer (UFR) by Alaisiagae, just load her mod after this one." ( Ref: "Readme - Unique Jewelry and Accessories by tealpanda.txt" )
 Unique Jewelry and Accessories.esp
 Unique Jewelry and Accessories_no ench.esp
 UFR_v3dot2.esp
@@ -39910,51 +39560,42 @@ Vality's Bitter Coast Addon (Texture Fix Edit).esp
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Well.esp
 
-;;  - Suran Extended (Princess Stomper)
-[Order]
+[Order] ;   - Suran Extended (Princess Stomper)
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Clean Suran Extended.esp
 Suran Extended Family.esp
 
-;;  - Suran Archery Tradehouse (WizBang)
-[Order]
+[Order] ;   - Suran Archery Tradehouse (WizBang)
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Suran Archery Store_v3.0.esp
 Suran Archery Store_v3.0 NSE.esp ;;version from Nicholiathan's New Suran Extended
 
-;;  - Ascadian Rose Cottage (Korana)
-[Order]
+[Order] ;   - Ascadian Rose Cottage (Korana)
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Ascadian_Rose_Cottage_ver1.0.esp
 
-;;  - Provincial Bath Shoppe (Korana)
-[Order]
+[Order] ;   - Provincial Bath Shoppe (Korana)
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Provincial_Bath _Shoppe_v1.esp
 
-;;Stinkers 1.71
-[Order]
+[Order] ; Stinkers 1.71
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Provincial_Bath _Shoppe_for_Stinkers.esp
 
-;;Stinkers 2.0
-[Order]
+[Order] ; Stinkers 2.0
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Stinkers v2 - Provincial Bath Shoppe Alt Plugin.esp
 
-;;Stinkers v3
-[Order]
+[Order] ; Stinkers v3
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 Stinkers PBS for v3.esp
 
-;;  - LGNPC Pelagiad (LGNPC team)
-[Order]
+[Order] ;  - LGNPC Pelagiad (LGNPC team)
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 LGNPC_Pelagiad.esp
 LGNPC Gowns.esp ;;Starfire Compatibility ESPs [Spiffyman]
 
-;;Dragon32: New Suran Extended by Nicholiathan includes Princess Stomper's Suran Extended.
-[Order]
+[Order] ; Dragon32: New Suran Extended by Nicholiathan includes Princess Stomper's Suran Extended.
 Vality's Ascadian Isles Addon (Texture Fix Edit).esp
 New Suran Extended 1.5.esp
 Balanced NSE 1.5.esp
@@ -39974,7 +39615,7 @@ Suran Archery Store_v3.0 NSE.esp
      Texture Fix <VER>.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Vampire Load Order - based on Yacoby's web page
+;; @Vampire Load Order - based on Yacoby's web page^
 ;; (Ref: http://yacoby.silgrad.com/MW/Modlists/Loadorder.htm )
 
 ;;Dragon32: changed order so Diablerie loads after Scent of Blood
@@ -40045,15 +39686,14 @@ Vampire_Concealment.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Vampire Embrace 2.4 [Cortex]
 
-;;Dragon32: See also "Vampire Load Order - based on Yacoby's web page"
+; Dragon32: See also "Vampire Load Order - based on Yacoby's web page"
+; Dragon32: According to readme it's incompatible with "Vampire's Social Life" and "Vampire Birth Signs v0.001", can't find downloads
 
-[Note]
- 'Vampire_Embrace_SaveGameUpdater.esp' should only be used when updating a savegame that used an old version of "Vampire Embrace".
- (Ref: "Vampire_Embrace_SaveGameUpdater.txt")
+[Note] ; (Ref: "Vampire_Embrace_SaveGameUpdater.txt")
+	Vampire_Embrace_SaveGameUpdater.esp should only be used when updating a savegame that used an old version of Vampire Embrace.
 Vampire_Embrace_SaveGameUpdater.esp
 
-[Order]
-; Ref: Vampire_Embrace_Readme.TXT
+[Order] ; Ref: Vampire_Embrace_Readme.TXT
 quarraclan.esp
 Vampire_Embrace.esp
 
@@ -40084,8 +39724,6 @@ VE&SoultrappingFix.esp
  (Ref: Vampire_Embrace_Readme.TXT)
 Vampire_Embrace.esp
 nox_vamp_0.93b.esp
-
-;Dragon32: According to readme it's incompatible with "Vampire's Social Life" and "Vampire Birth Signs v0.001", can't find downloads
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Vampire Embrace Companion Control 1.2 [AlienSlof & Peter]
@@ -40271,7 +39909,7 @@ Vampiric Hunger UI (MGE XE).esp
      Vampire Realism II.esp]
 
 ;;Dragon32: Zennorius gives the e.g. of Werewolf Forget. Checked a bunch of other werewolf mods for this variable check
-[Note]
+[Conflict]
  These mods check the "PCKnownWerewolf" variable (when this variable is 1 every NPC will attack you when they see you). 'Vampiric Hunger Extended.esp' uses this variable to make the nearby NPCs attack you when you drink blood or embrace in front of others.
  This conflict can cause problems so you should disable the Crowd Attack in Vampiric Hunger Extended's configuration menu.
  (Ref: Readme_VH.htm)
@@ -41121,8 +40759,7 @@ Vampire_Embrace.esp
 Wakim's Game Improvements with No-glo v9.esp
 Vampire_Embrace.esp
 
-;;Dragon32: Checked with TESPCD
-[Conflict]
+[Conflict] ; Dragon32: Checked with TESPCD
  Wakim's Game Improvements alters AI flee settings. There is no need to run another mod which alters the same settings.
 [ANY Balance - game settings.esp
      Wakim's Game Improvement 9.esp
@@ -41166,8 +40803,7 @@ Indy Bank (SW Comp. Patch).ESP
      BE+(1.4) Better Looking Morrowind.esp
      Balmora Expansion - LITE 1.0.esp]
 
-;;"I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
-[Order]
+[Order] ; "I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
 Walled_City_v1.2.esp
 Private_Tower_Balmora.esp
 
@@ -41182,8 +40818,7 @@ Private_Tower_Balmora.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Walled City of Balmora 1.6a [WH-Reaper]
 
-;;Dragon32: Adds an Activator to Balmora, no need for Order rule
-[Patch]
+[Patch] ; Dragon32: Adds an Activator to Balmora, no need for Order rule
  "Walled City of Balmora AM Patch - Patch for Animated Morrowind. Use in conjuction with [WH-Reaper's "Walled City of Balmora"] and Animated Morrowind + Animated Morrowind Expanded, or Abot's merged version of Animated Morrowind, Animated Morrowind 2 and Animated Morrowind Expanded.
  Note: You cannot use this patch with Animated Morrowind only, or AM Expanded only."
  (Ref: "Walled City of Balmora 1.6.txt")
@@ -41191,8 +40826,7 @@ Walled city of Balmora AM Patch.esp
 [ALL Walled city of Balmora <VER>.esp
      [ANY [ALL Animated_Morrowind - Expanded.esp
                Animated Morrowind 1.0.esp]
-          Animated_Morrowind - merged.esp
-          Animated_Morrowind - merged - OpenMW.esp]]
+          Animated_Morrowind - merged.esp]]
 
 [Patch]
  "Walled city of Balmora Vurt's WG II patch - Patch for Vurt's Leafy West Gash II replacer (v.2.0). Use together with new Vurt's models."
@@ -41202,8 +40836,7 @@ Walled city of Balmora Vurt's WG II patch.ESP
 [ALL Walled city of Balmora <VER>.esp
      Vurt's Leafy West Gash.esp]
 
-;;Dragon32: Moves some trees around
-[Order]
+[Order] ; Dragon32: Moves some trees around
 Walled city of Balmora <VER>.esp
 Walled city of Balmora Vurt's WG II patch.ESP
 
@@ -41217,16 +40850,14 @@ Walled city of Balmora Vurt's WG II patch.ESP
 Walled city of Balmora <VER>.esp
 The Doors - Balmora, Suran 1.2.esp
 
-[Conflict]
- Use only one plugin:
-  The Doors - Balmora, Suran 1.2 WCB.esp - "The Doors - Balmora, Suran" version which is compatible with Walled City of Balmora mod.
-  The Doors - Balmora, Suran 1.2b WCB.esp - Same as previous, but city gate is opened from 6 a.m. to 10 p.m., instead of from 8 a.m. to 8 p.m.
- (Ref: "Walled City of Balmora 1.6.txt")
+[Conflict] ; (Ref: "Walled City of Balmora 1.6.txt")
+	Use only one of these plugins:
+		The Doors - Balmora, Suran 1.2 WCB.esp - "The Doors - Balmora, Suran" version which is compatible with Walled City of Balmora mod.
+		The Doors - Balmora, Suran 1.2b WCB.esp - Same as previous, but city gate is opened from 6 a.m. to 10 p.m., instead of from 8 a.m. to 8 p.m.
 The Doors - Balmora, Suran 1.2 WCB.esp
 The Doors - Balmora, Suran 1.2b WCB.esp
 
-;;Dragon32: Not sure these are really neeeded
-[Order]
+[Order] ; Dragon32: Not sure these are really neeeded
 Walled city of Balmora <VER>.esp
 The Doors - Balmora, Suran 1.2 WCB.esp
 
@@ -41234,8 +40865,7 @@ The Doors - Balmora, Suran 1.2 WCB.esp
 Walled city of Balmora <VER>.esp
 The Doors - Balmora, Suran 1.2b WCB.esp
 
-;;Dragon32: For NoM compatibility (adds a well)
-[Order]
+[Order] ; Dragon32: For NoM compatibility (adds a well)
 Walled city of Balmora <VER>.esp
 NOM 2.13.esp
 NoM 3.0.esp
@@ -41245,9 +40875,7 @@ Walled city of Balmora <VER>.esp
 NOM 2.13.esp
 NoM 3.0.esp
 
-;;Dragon32: Assume this still applies.
-;;"I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
-[Order]
+[Order] ; Dragon32: Assume this still applies. "I just had to change the load order so the Private Tower Balmora mod is loaded after Walled City of Balmora."
 Walled city of Balmora <VER>.esp
 Private_Tower_Balmora.esp
 
@@ -41264,9 +40892,8 @@ Walled city of Balmora <VER>.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Wanderers Lodge [The Wanderer]
 
-[Conflict]
- Use only one of these plugins.
- (Ref: "wl_lodge_quickstart.txt")
+[Conflict] ; (Ref: "wl_lodge_quickstart.txt")
+	Use only one of these plugins.
 wl_lodge_eb.esp
 wl_lodge_sn.esp
 wl_lodge_snX.esp
@@ -41502,11 +41129,9 @@ Weapons Overhaul Resistance.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Weapon Sheaths Ultimate [PeterNL]
 
-;:Dragon32: Parts 2 & 3 up on PES and files have been removed, guessed file names.
-[Conflict]
- PeterNL's "Weapons Sheaths Ultimate" includes his previous "Weapon Sheaths Part 1", "Weapon Sheaths Part 2" and "Weapon Sheaths Part 3"
- http://mw.modhistory.com/download-98-10789
- (Ref: "Weapon_Sheaths_Ultimate.rar\Readme.txt")
+[Conflict] ; Dragon32: Parts 2 & 3 up on PES and files have been removed, guessed file names. (Ref: "Weapon_Sheaths_Ultimate.rar\Readme.txt")
+ 	PeterNL's "Weapons Sheaths Ultimate" includes his previous "Weapon Sheaths Part 1", "Weapon Sheaths Part 2" and "Weapon Sheaths Part 3"
+ 	http://mw.modhistory.com/download-98-10789
 [ANY Weapon Sheaths Part 1.esp
      Weapon Sheaths Part 2.esp
      Weapon Sheaths Part 3.esp]
@@ -41543,8 +41168,7 @@ Welcome to the Arena! v<VER>.esp
 [ANY Gladiator.esp
      MWInhabitants Freeform (Vol 1).esp]
 
-;;Kalamestari_69: "I'd suggest loading WttA after LGNPC Tel Uvirith."
-[Order]
+[Order] ; Kalamestari_69: "I'd suggest loading WttA after LGNPC Tel Uvirith."
 LGNPC_TelUvirith.esp
 Welcome to the Arena! v<VER>.esp
 
@@ -41634,8 +41258,7 @@ Werevampire_realism_moononly_patch.esp
 [ALL Vampire_Werewolf.esp
      werewolfrealism-moononly.esp]
 
-;;Dragon32: Order from "Werewolf_realism_vampire_patch.txt"
-[Order]
+[Order] ; Dragon32: Order from "Werewolf_realism_vampire_patch.txt"
 Vampire_Werewolf.esp
 werewolfrealism-moononly.esp
 Werevampire_realism_moononly_patch.esp
@@ -41648,8 +41271,7 @@ Werevampire_realism_changeatwill_patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Werewolf ReEquip [Yacoby]
 
-;;Dragon32: Identified these plugins myself
-[Conflict]
+[Conflict] ; Dragon32: Identified these plugins myself
  Yacoby's "Werewolf ReEquip" is incompatible with mods that alter the 'WereChangeScript' script, as these do. See "Werewolf ReEquip - Readme.txt" for how you can make them compatible.
  (Ref: Werewolf ReEquip - Readme.txt)
 Werewolf ReEquip.esp
@@ -41686,22 +41308,19 @@ Werewolves.esp
  ! (Ref: werewolves_mod_readme.htm)
 Werewolves.esp
 
-;;Dragon32: TheLy's enhanced Dwemer Clock uses some Werewolve's global variables
-[Order]
+[Order] ; Dragon32: TheLy's enhanced Dwemer Clock uses some Werewolve's global variables
 Werewolves.esp
 Dwemer Clock v12.esp
 
-;;Dragon32: Load add-on after the main mod
-[Order]
+[Order] ; Dragon32: Load add-on after the main mod
 Werewolves.esp
 Werewolves BM add-on.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Westly FCOT clothes in Tamriel Rebuilt 2.0 [Aoimevelho]
 
-[Patch]
- "[With "Westly FCOT clothes in Tamriel Rebuilt" by Aoimevelho] some Tamriel Rebuilt NPCs are now wearing wonderful outfits from Westly's "Fine Clothiers of Tamriel"."
- (Ref: http://www.nexusmods.com/morrowind/mods/42652/ )
+[Patch] ; (Ref: http://www.nexusmods.com/morrowind/mods/42652/ )
+	"[With "Westly FCOT clothes in Tamriel Rebuilt" by Aoimevelho] some Tamriel Rebuilt NPCs are now wearing wonderful outfits from Westly's "Fine Clothiers of Tamriel"."
 TR_WestlyFCOT_Addon2.ESP
 [ALL Westly_Presents_FCOT.esp
      Tamriel_Data.esm
@@ -41726,30 +41345,28 @@ _Mog_Race_v4b.esp
 Westly's Mog Head Pack.esp
 _Mog_Race_v4b.esp
 
-;;Dragon32: Checked with TESPCD
-[Order]
+[Order] ; Dragon32: Checked with TESPCD
 _Mog_Race_v4b.esp
 Westly Presents-BB Mog.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Westly's Headpacks [Westly]
 
-[Conflict]
- Westly's individual headpacks are already included in Westly's Master Headpack.
- (Ref: "Westly's Master Headpack v1 README.txt")
+[Conflict] ; (Ref: "Westly's Master Headpack v1 README.txt")
+	Westly's individual headpacks are already included in Westly's Master Headpack.
 Westly's Master Headpack X.esp
-[ANY Westly's Female Headpack - Elves and Orcs.esp
-     Westly's Female Head Pack-Humans.esp
-     Westly's High Elf Male Headpack.esp
-     Westly's Breton Male Headpack.esp
-     Westly's Imperial Male Headpack.esp
-     Westly's Wood Elf Male Headpack.esp
-     Westly's Nord Male Headpack.esp
-     Westly's Orc Male Headpack.esp
-     Westly's Redguard Male Headpack.esp
-     Westly's Redguard Male Headpack (Weight Fix).esp
-     Westly's Young Male Mystic Headpack.esp
-     Westly's Redguard Male Headpack (Weight Fix).esp]
+[ANY 	Westly's Female Headpack - Elves and Orcs.esp
+		Westly's Female Head Pack-Humans.esp
+		Westly's High Elf Male Headpack.esp
+		Westly's Breton Male Headpack.esp
+		Westly's Imperial Male Headpack.esp
+		Westly's Wood Elf Male Headpack.esp
+		Westly's Nord Male Headpack.esp
+		Westly's Orc Male Headpack.esp
+		Westly's Redguard Male Headpack.esp
+		Westly's Redguard Male Headpack (Weight Fix).esp
+		Westly's Young Male Mystic Headpack.esp
+		Westly's Redguard Male Headpack (Weight Fix).esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wharf v2.0 [Samurai]
@@ -41779,60 +41396,50 @@ What Thieves Guild.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @White Suran [Basswalker]
 
-;;Suran Archery Tradehouse
-[Patch]
+[Patch] ; Suran Archery Tradehouse
  (Ref: WhiteSuran-ArcheryStoreADDON.rar\readme.txt)
 WhiteSuran-ArcheryStoreADDON.esp
 [ALL WhiteSuran2.esp
      Suran Archery Store_v3.0.esp]
 
-;;Dragon32: ordering assumed
-[Order]
+[Order] ; Dragon32: ordering assumed
 WhiteSuran2.esp
 WhiteSuran-ArcheryStoreADDON.esp
 
-;;Ref: WhiteSuran-ArcheryStoreADDON.rar\readme.txt
-[Order]
+[Order] ; ( Ref: WhiteSuran-ArcheryStoreADDON.rar\readme.txt )
 Suran Archery Store_v3.0.esp
 WhiteSuran-ArcheryStoreADDON.esp
 
-;;Suran Riverview Home
-[Patch]
+[Patch] ; Suran Riverview Home
  (Ref: WhiteSuran-RiverviewHomeADDON.rar\readme.txt)
 WhiteSuran-RiverviewHomeADDON.esp
 [ALL WhiteSuran2.esp
      BAR_SuranRiverviewHome_v1.0.esp]
 
-;;Dragon32: ordering assumed
-[Order]
+[Order] ; Dragon32: ordering assumed
 WhiteSuran2.esp
 WhiteSuran-RiverviewHomeADDON.esp
 
-;;Ref: WhiteSuran-RiverviewHomeADDON.rar\readme.txt
-[Order]
+[Order] ; ( Ref: WhiteSuran-RiverviewHomeADDON.rar\readme.txt )
 BAR_SuranRiverviewHome_v1.0.esp
 WhiteSuran-RiverviewHomeADDON.esp
 
-;;Suran Waterfront
-[Patch]
+[Patch] ; Suran Waterfront
  (Ref: WhiteSuranWaterfrontADDON.rar\readme.txt)
 WhiteSuranWaterfrontADDON.esp
 [ALL WhiteSuran2.esp
      [ANY Suran Waterfront V-5.1.esp
           Suran Waterfront 5.0.esp]]
 
-;;Dragon32: ordering assumed
-[Order]
+[Order] ; Dragon32: ordering assumed
 WhiteSuran2.esp
 WhiteSuranWaterfrontADDON.esp
 
-;;Ref: WhiteSuranWaterfrontADDON.rar\readme.txt
-[Order]
+[Order] ; ( Ref: WhiteSuranWaterfrontADDON.rar\readme.txt )
 Suran Waterfront V-5.1.esp
 WhiteSuranWaterfrontADDON.esp
 
-;;Ref: WhiteSuranWaterfrontADDON.rar\readme.txt
-[Order]
+[Order] ; ( Ref: WhiteSuranWaterfrontADDON.rar\readme.txt )
 Suran Waterfront 5.0.esp
 WhiteSuranWaterfrontADDON.esp
 
@@ -42640,50 +42247,45 @@ Wrye Patches W.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wrye World [Wrye]
 
-[Requires]
+[Requires] ; (Ref: Wrye World.html)
  All the optional mods in "Wrye World" require "Wrye Base.esp" to be loaded.
- (Ref: Wrye World.html)
-[ANY Wrye Travel.esp
-     Wrye Luggage.esp
-     Bar Dresses W BB.esp
-     Cali Clothing W.esp
-     Cali Dresses W BB.esp
-     Drakron Maid W BB.esp
-     Durgoth Boots W BB.esp
-     Durgoth Briefs W.esp
-     LAT W BB.esp
-     Lillia Clothing W.esp
-     Sils Clothing W BB.esp
-     Sils Skirts W.esp]
+[ANY 	Wrye Travel.esp
+		Wrye Luggage.esp
+		Bar Dresses W BB.esp
+		Cali Clothing W.esp
+		Cali Dresses W BB.esp
+		Drakron Maid W BB.esp
+		Durgoth Boots W BB.esp
+		Durgoth Briefs W.esp
+		LAT W BB.esp
+		Lillia Clothing W.esp
+		Sils Clothing W BB.esp
+		Sils Skirts W.esp]
 Wrye Base.esp
 
-;;Wrye Travel and expansion
-[Requires]
- 'Wrye Travel Exp.esp' requires "Wrye Travel", both expansions and a version of Bethesda's "Master Index" plugin.
- (Ref: Wrye World.html)
+[Requires] ; Wrye Travel and expansion (Ref: Wrye World.html)
+ Wrye Travel Exp.esp requires Wrye Travel, both expansions and a version of Bethesda's Master Index plugin.
 Wrye Travel Exp.esp
-[ALL Wrye Travel.esp
-     [ANY master_index.esp
-          CleanMasterIndex.esp
-          MasterIndex.esp
-          [Official]Master Index.esp
-          Wilderness Sounds.esp
-          Wilderness Sounds Bloodmoon.esp
-          Wilderness Sounds Tribunal.esp
-          Wilderness Sounds T & B.esp
-          Clean Official Plugins v1.1.esp
-          Official_2002_Mods.esp
-          OfficialMods_v5.esp
-          super_adventurers302.esp]]
+[ALL	Wrye Travel.esp
+	[ANY 	master_index.esp
+			CleanMasterIndex.esp
+			MasterIndex.esp
+			[Official]Master Index.esp
+			Wilderness Sounds.esp
+			Wilderness Sounds Bloodmoon.esp
+			Wilderness Sounds Tribunal.esp
+			Wilderness Sounds T & B.esp
+			Clean Official Plugins v1.1.esp
+			Official_2002_Mods.esp
+			OfficialMods_v5.esp
+			super_adventurers302.esp]]
 
-;;Dragon32: Load travel plugin after base mod and the travel expansion after the main travel mod
-[Order]
+[Order] ; Dragon32: Load travel plugin after base mod and the travel expansion after the main travel mod
 Wrye Base.esp
 Wrye Travel.esp
 Wrye Travel Exp.esp
 
-;;Dragon32: load the travel plugin for the Master Index plugin after it
-[Order]
+[Order] ; Dragon32: load the travel plugin for the Master Index plugin after it
 master_index.esp
 Wrye Travel Exp.esp
 
@@ -42735,8 +42337,7 @@ Wrye Travel Exp.esp
 Official_2002_Mods.esp
 Wrye Travel Exp.esp
 
-;;Dragon32: Also includes Firemoth location
-[Order]
+[Order] ; Dragon32: Also includes Firemoth location
 Siege at Firemoth.esp
 Wrye Travel Exp.esp
 
@@ -42756,22 +42357,18 @@ Wrye Travel Exp.esp
 silgrad_tower_1-4_6.6.esp
 Wrye Travel Exp.esp
 
-;;Luggage addon
-;;Dragon32: Load luggage plugin after base mod
-[Order]
+[Order] ; Dragon32: Load luggage plugin after base mod
 Wrye Base.esp
 Wrye Luggage.esp
 
-;;Dragon32: Load armour plugin after base mod
-[Order]
+[Order] ; Dragon32: Load armour plugin after base mod
 Wrye Base.esp
 Wrye Armor.esp
 
-;;clothing mods
-;; Baratheon79's BB Dress Pack
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+;; Clothing mods
+
+[Conflict] ; Baratheon79's BB Dress Pack (Ref: Wrye World.html)
+	Use only one of these plugins.
 Bar Dresses W BB.esp
 BAR_BB_dresspack.esp
 
@@ -42779,10 +42376,8 @@ BAR_BB_dresspack.esp
 Wrye Base.esp
 Bar Dresses W BB.esp
 
-;;Calislahn Clothing
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Calislahn Clothing (Ref: Wrye World.html)
+	Use only one of these plugins.
 Cali Clothing W.esp
 Cali's Clothing v1.2.esp
 
@@ -42790,10 +42385,8 @@ Cali's Clothing v1.2.esp
 Wrye Base.esp
 Cali Clothing W.esp
 
-;;Calislahn Tight Dresses
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Calislahn Tight Dresses (Ref: Wrye World.html)
+	Use only one of these plugins.
 Cali Dresses W BB.esp
 Cali's_BB_V.2_Tight_Dresses.esp
 
@@ -42801,10 +42394,8 @@ Cali's_BB_V.2_Tight_Dresses.esp
 Wrye Base.esp
 Cali Dresses W BB.esp
 
-;;Drakron's French Maid Outfit
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Drakron's French Maid Outfit (Ref: Wrye World.html)
+	Use only one of these plugins.
 Drakron Maid W BB.esp
 French Maid Outfit.esp
 
@@ -42812,10 +42403,8 @@ French Maid Outfit.esp
 Wrye Base.esp
 Drakron Maid W BB.esp
 
-;;Durgoth's Thigh High Boots
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Durgoth's Thigh High Boots (Ref: Wrye World.html)
+	Use only one of these plugins.
 Durgoth Boots W BB.esp
 Thigh High Boots 2.0.esp
 
@@ -42823,10 +42412,8 @@ Thigh High Boots 2.0.esp
 Wrye Base.esp
 Durgoth Boots W BB.esp
 
-;;Durgoth's briefs
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Durgoth's briefs (Ref: Wrye World.html)
+	Use only one of these plugins.
 Durgoth Briefs W.esp
 Chainmail Tops+Slips 1.1.esp
 
@@ -42834,21 +42421,17 @@ Chainmail Tops+Slips 1.1.esp
 Wrye Base.esp
 Durgoth Briefs W.esp
 
-;;Durgoth's Thigh High Boots
-[Order]
+[Order] ; Durgoth's Thigh High Boots
 Wrye Base.esp
 Durgoth Boots W BB.esp
 
-[Note]
- Wrye's "Durgoth Boots W BB.esp" does not add the traders from Durgoth's original "Thigh-High Boots". If you want Dugoth's three traders in your game but Wrye's names and qualities, then create a mlox rule in mlox_user.txt to load "Thigh High Boots 2.0.esp" earlier than "Durgoth Boots W BB.esp"
- (Ref: Wrye World.html)
-[ALL Durgoth Boots W BB.esp
-     Thigh High Boots 2.0.esp]
+[Note] ; (Ref: Wrye World.html)
+	Wrye's "Durgoth Boots W BB.esp" does not add the traders from Durgoth's original "Thigh-High Boots". If you want Dugoth's three traders in your game but Wrye's names and qualities, then create a mlox rule in mlox_user.txt to load "Thigh High Boots 2.0.esp" earlier than "Durgoth Boots W BB.esp"
+[ALL	Durgoth Boots W BB.esp
+     	Thigh High Boots 2.0.esp]
 
-;;LAT BB
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; LAT BB (Ref: Wrye World.html)
+ 	Use only one of these plugins.
 Lord Alt Tab.esp
 LAT W BB.esp
 
@@ -42856,22 +42439,18 @@ LAT W BB.esp
 Wrye Base.esp
 LAT W BB.esp
 
-;;Lillia Garb and Lillia Robes
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Lillia Garb and Lillia Robes (Ref: Wrye World.html)
+	Use only one of these plugins.
 Lillia Clothing W.esp
-[ALL _Lillias_Robes_v1.0.esp
-     Lillias_Garb_v1.0.esp]
+[ANY	_Lillias_Robes_v1.0.esp
+     	Lillias_Garb_v1.0.esp]
 
 [Order]
 Wrye Base.esp
 Lillia Clothing W.esp
 
-;;Silaria's Clothing
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Silaria's Clothing (Ref: Wrye World.html)
+	Use only one of these plugins.
 Sils_Clothing_Vendor_v1.2.esp
 Sils Clothing W BB.esp
 
@@ -42879,10 +42458,8 @@ Sils Clothing W BB.esp
 Wrye Base.esp
 Sils Clothing W BB.esp
 
-;;Silaria's Skirts
-[Conflict]
- Do not use both ESPs.
- (Ref: Wrye World.html)
+[Conflict] ; Silaria's Skirts (Ref: Wrye World.html)
+	Use only one of these plugins.
 Clean Ultimate Clothing Mod_Skirts_v1.00.esp
 Sils Skirts W.esp
 
@@ -42893,17 +42470,15 @@ Sils Skirts W.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @X-jiit [Regan]
 
-[Requires]
- (Ref: "X-jiit Readme.txt")
+[Requires] ; (Ref: "X-jiit Readme.txt")
 X-jiitTails.esp
 X-jiit.esp
 
-[Conflict]
- "DO NOT use both the companion ESPs, only one."
- "X-jiitCompanionsTB.esp" should be used if you only have Tribunal.
- "X-jiitCompanionsBM.esp" should be used if you only have Bloodmoon.
- If you have both expansion, just pick one of the two.
- (Ref: "X-jiit Readme.txt")
+[Conflict] ; (Ref: "X-jiit Readme.txt")
+	DO NOT use both the companion ESPs, only one.
+		X-jiitCompanionsTB.esp - if you only have Tribunal.
+ 		X-jiitCompanionsBM.esp - if you only have Bloodmoon.
+ 	If you have both expansion, just pick one of the two.
 X-jiitCompanionsTB.esp
 X-jiitCompanionsBM.esp
 
@@ -42913,13 +42488,11 @@ X-jiitCompanionsBM.esp
      X-jiitCompanionsBM.esp]
 X-jiit.esp
 
-;;Dragon32 - "X-jiitTails.esp" alters some BODY records
-[Order]
+[Order] ;  Dragon32 - "X-jiitTails.esp" alters some BODY records
 X-jiit.esp
 X-jiitTails.esp
 
-;;Dragon32: Ordering rules are logical
-[Order]
+[Order] ; Dragon32: Ordering rules are logical
 X-jiit.esp
 X-jiitCompanionsBM.esp
 
@@ -42947,8 +42520,8 @@ Tribunal.esm
 The Zone (Tribunal).esp
 
 [Note]
- Old graphic herbalism mods are not recommended as they add a script to every organic container that they cover. Instead it is recommended that you use Graphic Herbalism - MWSE and OpenMW Edition.
- ( https://www.nexusmods.com/morrowind/mods/46599 )
+	Old graphic herbalism mods are not recommended as they add a script to every organic container that they cover. Instead it is recommended that you use Graphic Herbalism - MWSE and OpenMW Edition, download it here:
+ 	( https://www.nexusmods.com/morrowind/mods/46599 )
 Graphic Herbalism*.esp
 Herbalism_Lite*.esp
 Syc_HerbalismforPurists*.esp
