@@ -30902,9 +30902,9 @@ Qarls_Gothic_AttireII.esp
 
 ;;"Loading Trainwiz's [Main Quest Enhancers] after QTA should make anything he did override anything minor I did, so it shouldn't be a problem."
 ;;Dragon32: TESPCD shows no conflicts
-[Order]
-Quest Tweaks and Alternatives_<VER>.esp
-MQE_MainQuestEnhancers.ESP
+;[Order]
+;Quest Tweaks and Alternatives_<VER>.esp
+;MQE_MainQuestEnhancers.ESP
 
 [Order]
 Quest Tweaks and Alternatives_<VER>.esp
