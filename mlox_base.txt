@@ -10938,15 +10938,15 @@ DreamersAwakenedv1.0.esp
             	DN-GDRv<VER>.MRM.esp
             	DN-GDRv<VER>.MRMnp.esp
             	DN-GDRv1 (BTB Edit).esp
-            	DN-GDRv1_NOM (BTB Edit).esp]]
-[NOT [ANY	DreamersExpansion+DNGDR_patch.ESP
-            Great House Dagoth.esp]]
+            	DN-GDRv1_NOM (BTB Edit).esp]
+        [NOT [ANY	DreamersExpansion+DNGDR_patch.ESP
+                    Great House Dagoth.esp]]]
 
 [Note]
     !! There is a patch for Dreamers Expansion and Great House Dagoth included with Dreamers Expansion.
-Great House Dagoth.esp
-[NOT [ANY DreamersExpansion+GHD_patch.ESP
-          DN-GDRv<VER>*.esp]]
+[ALL	Great House Dagoth.esp
+		[NOT [ANY	DreamersExpansion+GHD_patch.ESP
+          			DN-GDRv<VER>*.esp]]]
 
 [Note]
 	!! There is a patch for Dreamers Expansion, Darknut's Greater Dwemer Ruins included with Dreamers Expansion.
@@ -10958,8 +10958,8 @@ Great House Dagoth.esp
 				DN-GDRv<VER>.MRM.esp
         		DN-GDRv<VER>.MRMnp.esp
                	DN-GDRv1 (BTB Edit).esp
-               	DN-GDRv1_NOM (BTB Edit).esp]]
-[NOT	DreamersExpansion+DNGDR+GHD_patch.ESP]
+               	DN-GDRv1_NOM (BTB Edit).esp]
+		[NOT	DreamersExpansion+DNGDR+GHD_patch.ESP]]
 
 [Requires]
 DreamersExpansion+DNGDR_patch.ESP
@@ -19398,12 +19398,14 @@ Elders 0 Count NPC add-on.esp
 LGNPC_Secret_Masters_v<VER>.esp
 
 [Conflict]
-	Each of these plugins adds the unused medium Armor master trainer, Cinia Urtius, to the game. Using these plugins together will cause duplicates.
+	Each of these plugins adds the unused Medium Armor master trainer, Cinia Urtius, to the game. Using these plugins together will cause duplicates.
 LGNPC_Secret_Masters_v<VER>.esp
 Services Restored.esp
-[ANY 
-	Elders 0 Count NPC add-on (Trib & BM).esp
-	Elders 0 Count NPC add-on.esp]
+Cinia.esp
+Cutting Room Floor.esp
+Cutting Room Floor - Travel.esp
+[ANY      Elders 0 Count NPC add-on (Trib & BM).esp
+	     Elders 0 Count NPC add-on.esp]
 
 [Patch] ; Dragon32: Unsure if this works with v6.x or v7.x of MCA
  "For users of MCA 5.*, using LGNPC_SM_MCA5 will fix a hostile spawn point that will conflict with the location of one of the Secret Masters."
@@ -38606,13 +38608,13 @@ Psy_UniqueDremora_T.esp
 	Do not run both plugins:
 		UFR_v3dot2.esp - If you WANT the changes to the robes.
 		UFR_v3dot2_noRobe.esp - If you DO NOT want the changes to the robes.
-[ANY	UFR_v3dot2.esp
-    	[SIZE !22585 UniqueFinery.esp]]
+[ANY	     UFR_v3dot2.esp
+    	     [SIZE !22585 UniqueFinery.esp]]
 UFR_v3dot2_noRobe.esp
 
 [Conflict] ; (Ref: "readme_Unique Finery Replacer v3dot2.txt")
 	You do not need to run Alaisiagae's Soldier Belts Fix with her Unique Finery Replacer.
-[ANY	UFR_v3dot2.esp
+[ANY	     UFR_v3dot2.esp
      	UFR_v3dot2_noRobe.esp]
 SoldierBeltsFix.esp
 
@@ -38635,7 +38637,7 @@ SoldierBeltsFix.esp
 	Alaisiagae's "Unique Finery Replacer" conflicts with Alphax's "Imperial, Indoril, Templar Belt Icons" as both mods edit the Indoril, Imperial and Templar belts.
 [ANY	[ANY  	UFR_v3dot2.esp
         		[SIZE !22585 UniqueFinery.esp]]
-     	UFR_v3dot2_noRobe.esp]
+     UFR_v3dot2_noRobe.esp]
 lfx_faction_belts.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

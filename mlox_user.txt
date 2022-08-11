@@ -104,10 +104,7 @@ Ownership Overhaul.esm
 [NearEnd]
 Merged Objects.esp
 Beautiful cities of Morrowind.ESP
-BTBGI Loot Patch.ESP
-BTBGI Loot Patch - TCBOO.ESP
-Weapons Integrated BTBGI Loot Patch.ESP
-Weapons Integrated BTBGI Loot Patch - TCBOO.ESP
+BTBGI Loot Patch*.ESP
 Morrowind Crafting 2*.esp
 Morrowind Crafting Equipment.esp
 Morrowind Crafting Houses.esp
@@ -212,6 +209,28 @@ abotBoatsTR2002_RVP.esp
 TOTSP_abotBoats.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @A Different Way to Go about Sheep Sounds - The Story of Shaggy the Goat
+
+[Conflict]
+	Use only one of these plugins.
+NV_TheGoat.ESP
+NV_TheGoat_TR.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ajira Deflowered
+
+[Order]
+Ajira Deflowered.ESP
+Ajira Deflowered - Patch for Purists.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Alms for ALMSIVI
+
+[Order]
+Alms and Donations.ESP
+Alms and Donations - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Antares Big Mod
 
 [Order]
@@ -261,6 +280,22 @@ Antares Big Mod*.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Area Effect Arrows Integrated
 
+[Order]
+Area Effect Projectiles Integrated.esp
+Area Effect Projectiles Integrated - LeFemmArmor.esp
+
+[Order]
+Area Effect Projectiles Integrated.esp
+Area Effect Projectiles Integrated - Quill of Feyfolken 2.0.esp
+
+[Order]
+LeFemmArmor.esp
+Area Effect Projectiles Integrated - LeFemmArmor.esp
+
+[Order]
+Quill of Feyfolken 2.0.esp
+Area Effect Projectiles Integrated - Quill of Feyfolken 2.0.esp
+
 [Conflict]
 	Use only one of these plugins.
 Area Effect Arrows Integrated.esp
@@ -280,6 +315,9 @@ Arvs-Spelun.ESP
 Sheogorad - Groves of the North.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Assarnud and Mat Overhaul
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Astrologians Guild
 
 [Order]
@@ -296,6 +334,32 @@ Baar Dau - Ministry of Truth.esp
 Meteorite Ministry Palace* .ESP
 Meteorite Ministry Temple*.ESP
 Higher Ministry of Truth.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Balmora Guilds Expanded
+
+[Order]
+Balmora Guilds Expanded.esp
+Balmora Guilds Expanded - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Balmora Waterworks
+
+[Order]
+Balmora Waterworks.esp
+Boys in the Hood - Balmora Waterworks.esp
+
+[Order]
+Boys in the Hood.ESP
+Boys in the Hood - Balmora Waterworks.esp
+
+[Order]
+Balmora Waterworks.esp
+FMI_HulStop 1.6 - Balmora Waterworks.esp
+
+[Order]
+FMI_HulStop 1.6.ESP
+FMI_HulStop 1.6 - Balmora Waterworks.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @BDC 
@@ -755,6 +819,34 @@ Beautiful cities of Morrowind.ESP
 		Barabus' fireplaces*.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Bethesda Official Plugins Naturalized
+
+[Conflict]
+	Use only one version of the Adamantium Armor official plugin.
+Adamantium Armor Naturalized.esp
+adamantiumarmor.esp
+
+[Conflict]
+	Use only one version of the Area Effect Arrows official plugin.
+Area Effect Arrows Naturalized.esp
+Area Effect Arrows.esp
+
+[Conflict]
+	Use only one version of the Helm of Tohan official plugin.
+Helm of Tohan Naturalized.esp
+EBQ_Artifact.esp
+
+[Conflict] ; Expand later (Pharis)^
+	Use only one version of the Master Index official plugin.
+Master Index Naturalized.esp
+[ANY	master_index.esp]
+
+[Conflict] ; Expand later (Pharis)^
+	Use only one version of the Siege at Firemoth official plugin.
+Siege at Firemoth Naturalized.esp
+[ANY	Siege at Firemoth.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Better Morrowind Armor
 
 [Order]
@@ -814,7 +906,7 @@ Siege at Firemoth.esp
 Better Siege at Firemoth Followers.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Body Mods, @Better Bodies, Robert's Bodies, @New Beast Bodies
+;; @Body Mods, @Better Bodies, Robert's Bodies, @New Beast Bodies ; Best to just keep these together I think (Pharis)
 
 [Order] ; Presumably if someone has both they'll want the Khajiit changes from New Khajiit Bodies (Pharis)
 Robert's Bodies.ESP
@@ -826,7 +918,530 @@ New Argonian Bodies - *.esp
 Improved Argonians.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @BTB
+;; @BTBGI
+
+;; BTBGI-NE tweaked ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Morrowind Anti-Cheese Tweaked.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Beware the Sixth House.esp
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Bloodmoon Rebalance.esp
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Tribunal Rebalance.esp
+
+[Order]
+MDMD - Creatures Add-On.ESP
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order]
+There Can Be Only One.esp
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
+Expansions Integrated.esp
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order]
+Expansions Integrated - Fewer BM Creatures.esp
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+BTBGI Poison Crafting Patch.ESP
+
+[Order]
+Realistic_Repair_Add-on.ESP
+BTBGI Realistic Repair Add-on Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+BTBGI Realistic Repair Add-on Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+RV Armors Integrated BTBGI Patch.ESP
+
+[Order]
+RV Armors Integrated.ESP
+RV Armors Integrated BTBGI Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Oriental Ebony Weapons Integrated BTBGI Patch.ESP
+
+[Order]
+Oriental Ebony Weapons Integrated.ESP
+Oriental Ebony Weapons Integrated BTBGI Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+OAAB Weapons Integrated BTBGI Patch.ESP
+
+[Order]
+OAAB Weapons Integrated.ESP
+OAAB Weapons Integrated BTBGI Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.ESP
+
+[Order]
+Redoran War and Sathil Mercenary Armor Integrated.ESP
+Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Antares' Mage Robes BTBGI Patch.ESP
+
+[Order]
+Antares' Mage Robes.ESP
+Antares' Mage Robes BTBGI Patch.ESP
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+Yet Another Guard Diversity BTBGI Patch.ESP
+
+[Order]
+Yet Another Guard Diversity - Regular.ESP
+Yet Another Guard Diversity BTBGI Patch.ESP
+
+[Order] ; Not a fan of how common these kinds of rules seem to be but it was in the readme (Pharis)
+Mashed Lists.esp
+BTBGI Loot Patch*.ESP
+
+[Conflict]
+	BTBGI Poison Crafting Patch.ESP includes all records from mwse_PoisonCrafting.ESP, use only one of them.
+BTBGI Poison Crafting Patch.ESP
+mwse_PoisonCrafting.ESP
+
+[Conflict]
+	Use the tweaked Morrowind Anti-Cheese plugin provided with BTB's Game Improvements (Necro Edit) Tweaked.
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.ESP
+		Morrowind Anti-Cheese.ESP]
+[NOT	Morrowind Anti-Cheese Tweaked.ESP]
+
+[Conflict]
+	Use only one of these plugins.
+Morrowind Anti-Cheese Tweaked.ESP
+Morrowind Anti-Cheese.ESP
+
+;; BTBGI-NE ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+BTBGI Creature Buffs.esp
+
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+BTBGI PFP Patch.esp
+
+[Order] ; Beware the Sixth House.esp is the only one of Mort's rebalance mods that conflicts with BTBGI Creature Buffs.esp (Pharis)
+BTBGI Creature Buffs.esp
+Beware the Sixth House.esp
+
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+Bloodmoon Rebalance.esp
+
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+Tribunal Rebalance.esp
+
+[Order] ; Checked in TESPCD (Pharis)
+BTBGI Creature Buffs.esp
+Morrowind Anti-Cheese.ESP
+
+[Order] ; Checked in TESPCD (Pharis)
+BTBGI PFP Patch.esp
+Morrowind Anti-Cheese.ESP
+
+[Order]
+MDMD - Creatures Add-On.ESP
+BTB's Game Improvements (Necro Edit).esp
+
+[Order]
+There Can Be Only One.esp
+BTB's Game Improvements (Necro Edit).esp
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+BTB's Game Improvements (Necro Edit).esp
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+BTB's Game Improvements (Necro Edit).esp
+
+[Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
+Expansions Integrated.esp
+BTB's Game Improvements (Necro Edit).esp
+
+[Order]
+Expansions Integrated - Fewer BM Creatures.esp
+BTB's Game Improvements (Necro Edit).esp
+
+[Order]
+chuzei_helm_no_neck.esp
+chuzei_helm_no_neck - BTBGI.esp
+
+[Order]
+BTB's Game Improvements*.esp
+chuzei_helm_no_neck - BTBGI.esp
+
+;; Alvazir BTBGI-NE
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+avp BTBGI-NE*.esp
+
+[Order]
+Better Clothes Complete.esp
+avp BTBGI-NE - Better Clothes Complete.esp
+
+[Order]
+Better Robes.esp
+avp BTBGI-NE - Better Robes.esp
+
+[Order]
+Better Sounds_Fixed.esp
+avp BTBGI-NE - Better Sounds.esp
+
+[Order]
+Better_Sounds.esp
+avp BTBGI-NE - Better Sounds.esp
+
+[Order]
+Beware the Sixth House Tweaks.esp
+avp BTBGI-NE - Beware the Sixth House.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+avp BTBGI-NE - Bloodmoon Rebalance.esp
+
+[Order]
+Imperial Legion Expansion.esp
+avp BTBGI-NE - Imperial Legion Expansion.esp
+
+[Order]
+OAAB - Tombs and Towers.ESP
+avp BTBGI-NE - OAAB Tombs and Towers.esp
+
+[Order]
+Open Helmets.esp
+avp BTBGI-NE - Open Helmets.esp
+
+[Order]
+Remiros' Uniques.esp
+avp BTBGI-NE - Remiros' Uniques.esp
+
+[Order]
+tribunal rebalance.esp
+avp BTBGI-NE - tribunal rebalance.esp
+
+[Order]
+Uvirith's Legacy_3.53.esp
+avp BTBGI-NE - Uvirith's Legacy.esp
+
+[Order]
+Better Clothes Complete.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Better Robes.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Better Sounds_Fixed.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Better_Sounds.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Beware the Sixth House Tweaks.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Imperial Legion Expansion.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+OAAB - Tombs and Towers.ESP
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Remiros' Uniques.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+tribunal rebalance.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Order]
+Uvirith's Legacy_3.53.esp
+avp BTBGI-NE - Various - Merged.esp
+
+[Requires] ; Open Helmets is not included in the merge ( Ref: BTBGI - Necro Edit - Modular Patch Readme.txt ) (Pharis)
+avp BTBGI-NE - Various - Merged.esp
+[ALL	Better Clothes Complete.esp
+		Better Robes.esp
+		[ANY	Better Sounds_Fixed.esp
+				Better_Sounds.esp]
+		Beware the Sixth House.esp
+		Bloodmoon Rebalance.esp
+		Imperial Legion Expansion.esp
+		OAAB - Tombs and Towers.ESP
+		Remiros' Uniques.esp
+		tribunal rebalance.esp
+		Uvirith's Legacy_3.53.esp]
+
+[Requires]
+avp BTBGI-NE - Better Clothes Complete.esp
+Better Clothes Complete.esp
+
+[Requires]
+avp BTBGI-NE - Better Robes.esp
+Better Robes.esp
+
+[Requires]
+avp BTBGI-NE - Better Sounds.esp
+[ANY	Better Sounds_Fixed.esp
+		Better_Sounds.esp]
+
+[Requires]
+avp BTBGI-NE - Beware the Sixth House.esp
+Beware the Sixth House.esp
+
+[Requires]
+avp BTBGI-NE - Bloodmoon Rebalance.esp
+Bloodmoon Rebalance.esp
+
+[Requires]
+avp BTBGI-NE - Imperial Legion Expansion.esp
+Imperial Legion Expansion.esp
+
+[Requires]
+avp BTBGI-NE - OAAB Tombs and Towers.esp
+OAAB - Tombs and Towers.esp
+
+[Requires]
+avp BTBGI-NE - Open Helmets.esp
+Open Helmets.esp
+
+[Requires]
+avp BTBGI-NE - Remiros' Uniques.esp
+Remiros' Uniques.esp
+
+[Requires]
+avp BTBGI-NE - tribunal rebalance.esp
+tribunal rebalance.esp
+
+[Requires]
+avp BTBGI-NE - Uvirith's Legacy.esp
+Uvirith's Legacy_3.53.esp
+
+[Conflict]
+	Use either the merged plugin or a combination of the modular plugins, not both.
+avp BTBGI-NE - Various - Merged.esp
+[ANY	avp BTBGI-NE - Better Clothes Complete.esp
+		avp BTBGI-NE - Better Robes.esp
+		avp BTBGI-NE - Better Sounds.esp
+		avp BTBGI-NE - Beware the Sixth House.esp
+		avp BTBGI-NE - Bloodmoon Rebalance.esp
+		avp BTBGI-NE - Imperial Legion Expansion.esp
+		avp BTBGI-NE - OAAB Tombs and Towers.esp
+		avp BTBGI-NE - Remiros' Uniques.esp
+		avp BTBGI-NE - tribunal rebalance.esp
+		avp BTBGI-NE - Uvirith's Legacy.esp]
+
+[Order]
+Morag Tong Polished.esp
+avp BTBGI-NE - Misc.esp
+
+[Order]
+Religions Elaborated.esp
+avp BTBGI-NE - Misc.esp
+
+[Order]
+Sotha Sil Expanded.ESP
+avp BTBGI-NE - Misc.esp
+
+[Order]
+The Rise of House Sadras.ESP
+avp BTBGI-NE - Misc.esp
+
+[Order]
+Wanderers of Solstheim*.esp
+avp BTBGI-NE - Misc.esp
+
+[Requires]
+avp BTBGI-NE - Misc.esp
+[ANY	Morag Tong Polished.esp
+		Religions Elaborated.esp
+		Sotha Sil Expanded.ESP
+		The Rise of House Sadras.ESP
+		Wanderers of Solstheim*.esp]
+
+[Order]
+Beware the Sixth House.esp
+avp BTBGI-NE - Creature Buffs -*Beware the Sixth House.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+avp BTBGI-NE -*Creature Buffs - NDL - Bloodmoon Rebalance.esp
+
+[Order]
+BlightedAnimalsRetextured.esp
+avp BTBGI-NE -*Creature Buffs -*BlightedAnimalsRetextured.esp
+
+[Order]
+Tribunal Rebalance.esp
+avp BTBGI-NE -*Creature Buffs - NDL - tribunal rebalance.esp
+
+[Order]
+Ttooth Ecology.esp
+avp BTBGI-NE -*Creature Buffs -*Ttooth Ecology.esp
+
+[Order]
+Ttooth Ecology - TR Patch.esp
+avp BTBGI-NE -*Creature Buffs -*Ttooth Ecology - TR Patch.esp
+
+[Order]
+Ttooth Ecology.esp
+avp BTBGI-NE -*Creature Buffs -*Ttooth Ecology - BMR Patch.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+avp BTBGI-NE -*Creature Buffs -*Ttooth Ecology - BMR Patch.esp
+
+[Order]
+Unique_CaveRats.ESP
+avp BTBGI-NE - Creature Buffs -*Unique_CaveRats.esp
+
+[Requires]
+avp BTBGI-NE - Creature Buffs - Merged.esp
+[ALL	Beware the Sixth House.esp
+		Bloodmoon Rebalance.esp
+		BlightedAnimalsRetextured.esp
+		Tribunal Rebalance.esp
+		Ttooth Ecology.esp
+		Ttooth Ecology - TR Patch.esp]
+
+[Requires]
+avp BTBGI-NE - Creature Buffs - NDL - Merged.esp
+[ALL	Beware the Sixth House.esp
+		Bloodmoon Rebalance.esp
+		BlightedAnimalsRetextured.esp
+		Tribunal Rebalance.esp
+		Ttooth Ecology.esp
+		Ttooth Ecology - TR Patch.esp]
+
+[Conflict]
+	Use only one of these plugins.
+avp BTBGI-NE - Creature Buffs - Merged.esp
+avp BTBGI-NE - Creature Buffs - NDL - Merged.esp
+
+[Order]
+TR_Factions.esp
+avp BTBGI-NE - Factions - TR_Factions.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+avp BTBGI-NE - Factions - Vvardenfell Brotherhood.esp
+
+[Order]
+avp BTBGI-NE - Factions.esp
+avp BTBGI-NE - Factions - TR_Factions.esp
+
+[Order]
+avp BTBGI-NE - Factions.esp
+avp BTBGI-NE - Factions - Vvardenfell Brotherhood.esp
+
+[Order]
+TR_Factions.esp
+avp BTBGI-NE - Factions - Merged.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+avp BTBGI-NE - Factions - Merged.esp
+
+[Requires]
+avp BTBGI-NE - Factions - Merged.esp
+[ALL	TR_Factions.esp
+		Vvardenfell Brotherhood.esp]
+
+[Conflict]
+	Use either the merged plugin or a combination of the modular plugins, not both.
+avp BTBGI-NE - Factions - Merged.esp
+[ANY	avp BTBGI-NE - Factions.esp
+		avp BTBGI-NE - Factions - TR_Factions.esp
+		avp BTBGI-NE - Factions - Vvardenfell Brotherhood.esp]
+
+[Order]
+TR_Factions.esp
+avp BTBGI-NE - NCGD - MBSP - TR_Factions.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+avp BTBGI-NE - NCGD - MBSP - Vvardenfell Brotherhood.esp
+
+[Order]
+avp BTBGI-NE - NCGD - MBSP.esp
+avp BTBGI-NE - NCGD - MBSP - TR_Factions.esp
+
+[Order]
+avp BTBGI-NE - NCGD - MBSP.esp
+avp BTBGI-NE - NCGD - MBSP - Vvardenfell Brotherhood.esp
+
+[Order]
+TR_Factions.esp
+avp BTBGI-NE - NCGD - MBSP - Merged.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+avp BTBGI-NE - NCGD - MBSP - Merged.esp
+
+[Requires]
+avp BTBGI-NE - NCGD - MBSP - Merged.esp
+[ALL	TR_Factions.esp
+		Vvardenfell Brotherhood.esp]
+
+[Conflict]
+	Use either the merged plugin or a combination of the modular plugins, not both.
+avp BTBGI-NE - NCGD - MBSP - Merged.esp
+[ANY	avp BTBGI-NE - NCGD - MBSP.esp
+		avp BTBGI-NE - NCGD - MBSP - TR_Factions.esp
+		avp BTBGI-NE - NCGD - MBSP - Vvardenfell Brotherhood.esp]
+
+[Conflict]
+	Use only one of these plugins:
+		avp BTBGI-NE - NCGD - MBSP - Merged.esp - If you are using NCGD.
+		avp BTBGI-NE - Factions - Merged.esp - If you are not using NCGD.
+avp BTBGI-NE - Factions - Merged.esp
+avp BTBGI-NE - NCGD - MBSP - Merged.esp
+
+[Conflict]
+	avp BTBGI-NE - FM Unique Items - Replacement Patch.esp is an ESP replacer, do not use it alongside the original mod.
+avp BTBGI-NE - FM Unique Items - Replacement Patch.esp
+FM - Unique Items v<VER>.ESP
 
 [Order]
 tribunal rebalance.ESP
@@ -852,28 +1467,10 @@ Full Game Balance - BTB and Wackim combined - 3 - Alchemy and Spells.esp
 Full Game Balance - BTB and Wackim combined - 4 - Equipment.esp
 
 [Order]
-BTB's Game Improvements*.esp 
-avp BTBGI-NE - Factions*.esp
-
-[Order]
-TR_Factions.esp
-avp BTBGI-NE - Factions*.esp
-
-[Order]
 BTBGI Loot Patch.ESP
 OAAB BTBGI Loot Patch.ESP
 
-[Order]
-OAAB An Issue of Thrust.ESP
-BTBGI Loot Patch.ESP
-
-[Order]
-OAAB Oriental Weapon Integration.ESP
-BTBGI Loot Patch.ESP
-
-[Order]
-OAAB Spears.ESP
-BTBGI Loot Patch.ESP
+;; BTBGIsation
 
 [Order]
 Welcome to the Arena! v6.7.esp
@@ -1139,19 +1736,21 @@ BTBGIsation - TheRedoranAmulet.esp
 Vivec Waistworks Expansion - GoVH comp.esp
 BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
 
-[Conflict]
- Choose only one plugin:
-  BTBGI Loot Patch.ESP
-  BTBGI Loot Patch - TCBOO.ESP - With There Can Be Only One
-BTBGI Loot Patch.ESP
-BTBGI Loot Patch - TCBOO.ESP
+;; Conflicts
 
 [Conflict]
- Choose only one plugin:
-  Weapons Integrated BTBGI Loot Patch.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated
-  Weapons Integrated BTBGI Loot Patch - TCBOO.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One
-Weapons Integrated BTBGI Loot Patch.ESP
-Weapons Integrated BTBGI Loot Patch - TCBOO.ESP
+	Use only one of these plugins:
+	BTBGI Loot Patch.ESP
+	BTBGI Loot Patch TCBOO.ESP - With There Can Be Only One.
+BTBGI Loot Patch.ESP
+BTBGI Loot Patch TCBOO.ESP
+
+[Conflict]
+	Use only one of these plugins:
+		BTBGI Loot Patch Weapons Integrated.ESP - With OAAB Weapons Integrated and Oriental Ebony Weapons Integrated.
+		BTBGI Loot Patch TCBOO Weapons Integrated.ESP - With OAAB Weapons Integrated, Oriental Ebony Weapons Integrated, and There Can Be Only One.
+BTBGI Loot Patch Weapons Integrated.ESP
+BTBGI Loot Patch TCBOO Weapons Integrated.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Caldera Mine Expansion
@@ -1159,6 +1758,32 @@ Weapons Integrated BTBGI Loot Patch - TCBOO.ESP
 [Order]
 DD_Caldera_Expansion.esp
 DD_Caldera_Expansion - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Camonna Tong
+
+[Order] ( Ref: https://www.nexusmods.com/morrowind/mods/50740 ) (Pharis)
+Camonna Tong.esp
+CT-GHD Patch.esp
+
+[Order] ( Ref: https://www.nexusmods.com/morrowind/mods/50740 ) (Pharis)
+Great House Dagoth.esp
+CT-GHD Patch.esp
+
+[Order]
+Improved Inns Expanded - Entertainers.esp
+Camonna Tong - Improved Inns Expanded - Entertainers.esp
+
+[Order]
+Camonna Tong.esp
+Camonna Tong - Improved Inns Expanded - Entertainers.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @CCM Secrets of Vos
+
+[Order]
+CCM-SecretsofVos-V2-TB.esp
+CCM-SecretsofVos-V2-TB - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Concept Art Ordinators, @Indoril Spear
@@ -1172,6 +1797,13 @@ Yet Another Guard*.esp
 Indoril Spear*.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Cooking and Eating
+
+[Order]
+Cooking and Eating.ESP
+Cooking and Eating - Enable Hunger.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Corprusarium Experience, @Corprusarium Experience
 
 [Conflict]
@@ -1180,9 +1812,62 @@ The_corprusarium_Exp.ESP
 Divayth Fyr Puzzle Fixed.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Correspondances of Morrowind
+
+[Order]
+Correspondances_of_Morrowind.esp
+Correspondances_of_Morrowind - Balmora Waterworks.esp
+
+[Order]
+Correspondances_of_Morrowind.esp
+Correspondances_of_Morrowind - Balmora Guilds Expanded.esp
+
+[Order]
+Correspondances_of_Morrowind.esp
+Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
+
+[Order]
+Balmora Waterworks.esp
+Correspondances_of_Morrowind - Balmora Waterworks.esp
+
+[Order]
+Balmora Guilds Expanded.esp
+Correspondances_of_Morrowind - Balmora Guilds Expanded.esp
+
+[Order]
+Balmora Waterworks.esp
+Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
+
+[Order]
+Balmora Guilds Expanded.esp
+Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
+
+[Requires]
+Correspondances_of_Morrowind - Balmora Waterworks.esp
+[ALL	Correspondances_of_Morrowind.esp
+		Balmora Waterworks.esp]
+
+[Requires]
+Correspondances_of_Morrowind - Balmora Guilds Expanded.esp
+[ALL	Correspondances_of_Morrowind.esp
+		Balmora Guilds Expanded.esp]
+
+[Requires]
+Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
+[ALL	Correspondances_of_Morrowind.esp
+		Balmora Waterworks.esp
+		Balmora Guilds Expanded.esp]
+
+[Conflict]
+	Use either the merged plugin or one of the modular plugins, not both.
+Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
+[ANY	Correspondances_of_Morrowind - Balmora Waterworks.esp
+		Correspondances_of_Morrowind - Balmora Guilds Expanded.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Creature Balancing, @Mort's Rebalance Mods, @Vanilla Friendly Creatures and Undeads Expansion ; Will separate later but too lazy now (Pharis)
 
-[ORDER]
+[Order]
 Beware the Sixth House.ESP
 Sixth House Rebalance.ESP
 Ash Vampire Script Fix.esp
@@ -1190,7 +1875,7 @@ Keening belongs to odros.ESP
 Sunder and keening hurt on pickup.ESP
 Creatures_RP_*.ESP
 
-[ORDER]
+[Order]
 Creatures_RP_*.ESP
 Bob's Diverse Dagoths*.esp
 
@@ -1362,6 +2047,13 @@ DD_2_ExpeditionToMzelthuand.esp
 DwemerContraband.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Dwemer Rebirth Project
+
+[Order]
+DRPV1.9.ESP
+DRPV1.9 - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ebonheart Underworks
 
 [Order]
@@ -1439,11 +2131,29 @@ Tel_Meskoa_Tel _Matouigius*.esp
 floaty_boaties*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @FMGS - Unique Items Compilation
+
+[Order]
+FM - Unique Items v1.0.ESP 
+FM - Unique Items v1.0 - PfP.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Frostwind - a camping survival mod
+
+[Order]
+Frostwind.ESP
+Frostwind - Rebalance - OpenMW.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Get Wrecked
 
 [Order] ; WHGT values, TES3Merge will not fix (Pharis)
-TLAD*.esp
-GetWrecked.ESP
+TLAD Full - Still - *.esp
+GetWrecked.esp
+
+[Order] ; WHGT values, TES3Merge will not fix (Pharis)
+True_Lights_And_Darkness_*.esp
+GetWrecked.esp
 
 [Order]
 GetWrecked.esp
@@ -1539,6 +2249,13 @@ Morrowind Swamp Trees.esp
 Graht Morrowind Swamp Trees.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Great Wizard Fantasco
+
+[Order]
+The Great Fantasco.esp
+The Great Fantasco - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Great House Dagoth
 
 [Order]
@@ -1569,6 +2286,13 @@ GfNL-LGNPC Patch.esp
 [Order]
 CliffRacerNests&Eggs2.esp
 The Grove of Ben'Abi.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Hammer of Orsinium
+
+[Order]
+The Hammer of Orsinium.esp
+The Hammer of Orsinium - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Hold It
@@ -1868,6 +2592,28 @@ LDM - Choices and Consequences v<VER>.ESP
      The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Legend of Chemua
+
+[Conflict]
+	Use only one of these plugins:
+		Legend of Chemua.esp - The original mod, conflicts with Tamriel Rebuilt.
+		Legend of ChemuaM.esp - Moved version by Abot, does not conflict with Tamriel Rebuilt.
+Legend of Chemua.esp
+Legend of ChemuaM.esp
+
+[Conflict] ; Checked in TESPCD, cell 48 -5 (Pharis)
+	Landscape conflict.
+Legend of ChemuaM.esp
+TheManifoldSpires.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Mage Robes
+
+[Requires]
+Mage Robes - Scrolls of The Nine Barriers.ESP
+Mage Robes.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Magicka Expanded
 
 [Order]
@@ -1935,7 +2681,11 @@ Mamaea Awakened.ESP
 ;;	@Maren's Misfit Mabrigash
 
 [Order] ; WHGT values, TES3Merge will not fix (Pharis)
-TLAD*.esp
+TLAD Full - Still - *.esp
+MarenMabrigash.ESP
+
+[Order] ; WHGT values, TES3Merge will not fix (Pharis)
+True_Lights_And_Darkness_*.esp
 MarenMabrigash.ESP
 
 [Order]
@@ -1951,6 +2701,10 @@ RR_Melchior's_Mudcrab_Merchant_Eng.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;	@Mines & Caverns, @Mines and Caverns
+
+[Order]
+Clean_Mines & Caverns.esp
+Clean_Mines & Caverns - Script Fix.esp
 
 [Order]
 RedMountainReborn.esp
@@ -1983,6 +2737,20 @@ Ministry_of_Clarity.ESP
 [Order]
 Clean_Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Miner's Pick Requirement for Ore Mining
+
+[Order]
+correctUV Ore Replacer_fixed.esp
+Mining Pick Requirement - correctUV Ore Replacer_fixed from GH.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Minotaurs Ring
+
+[Order]
+The Minotaurs Ring.esp
+The Minotaurs Ring - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Moonlight on the Odai River
@@ -2081,6 +2849,18 @@ Morag Tong Polished.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+Expansions Integrated.esp
+MDMD - More Deadly Morrowind Denizens.esp
+
+[Order]
+Expansions Integrated - Fewer BM Creatures.esp
+MDMD - More Deadly Morrowind Denizens.esp
+
+[Order]
+Tribunal Integrated.esp
+MDMD - More Deadly Morrowind Denizens.esp
 
 [Order]
 RP_NPCs.esp
@@ -2217,7 +2997,11 @@ NOM3*.esp
 ;; @New Ilunibi
 
 [Order] ; WHGT values, TES3Merge will not fix (Pharis)
-TLAD*.esp
+TLAD Full - Still - *.esp
+New Ilunibi.esp
+
+[Order] ; WHGT values, TES3Merge will not fix (Pharis)
+True_Lights_And_Darkness_*.esp
 New Ilunibi.esp
 
 [Order]
@@ -2233,6 +3017,16 @@ NewIlunibi_MainQuestOverhaul_Patch.ESP
 				Sixth House Smugglers.ESP]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Nocturnal Moths
+
+[Conflict]
+	Use only one of these plugins:
+		Nocturnal Moths - Vanilla.ESP - If you are not using True Lights and Darkness.
+		Nocturnal Moths - TLD.ESP - If you are using True Lights and Darkness.
+Nocturnal Moths - Vanilla.ESP
+Nocturnal Moths - TLD.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Faction Affiliation Corrector
 
 [Order]
@@ -2243,6 +3037,13 @@ NPC Faction Affiliation Corrector *.ESP
 	Use only one of these plugins.
 NPC Faction Affiliation Corrector (Minimalistic).ESP
 NPC Faction Affiliation Corrector (Maximalistic).ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @NPC Schedule
+
+[Order] ; This is from Alvazir's Various Patches
+NPC_Schedule(beta).esp
+NPC_Schedule(beta) - Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB_Data and Community Equipment Integration, @RV Armors Integrated, @Oriental Weapons Integrated, @Redoran War and Sathil Mercenary Armor Integrated, @OAAB Weapons Integrated
@@ -2307,8 +3108,12 @@ OAAB - Shipwrecks - TR Patch.ESP
 ;; @OAAB - Tombs and Towers
 
 [Order] ; WHGT values, TES3Merge will not fix (Pharis)
-TLAD*.esp
-OAAB - Tombs and Towers.ESP
+TLAD Full - Still - *.esp
+OAAB - Tombs and Towers.esp
+
+[Order] ; WHGT values, TES3Merge will not fix (Pharis)
+True_Lights_And_Darkness_*.esp
+OAAB - Tombs and Towers.esp
 
 [Conflict]
 	OAAB - Tombs and Towers includes and supercedes Urshilaku Burial Caverns Overhaul.
@@ -2371,6 +3176,13 @@ NOM3*.esp
 OAAB_Tel Mora.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Of Dungeons and Abodes
+
+[Order]
+Of Dungeons and Abodes.esp
+Of Dungeons and Abodes-TeleportAmulet-Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Of Eggs and Dwarves, @OEAD
 
 [Order] ; Patch simply moves the door marker for the eggmine, just has to be after both mods (Pharis)
@@ -2394,6 +3206,17 @@ Of Eggs and Dwarves.ESP
   		OJAI - Framerate Version.esp - Divides the dungeon up into 6 cells and removes some lights to help increase framerate. This is the recommended version for most users.
 Of Justice and Innocence.esp
 OJAI - Framerate Version.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Old Mournhold Expansion
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Passage of Prayers - High Fane Corridor Overhaul
+
+[Conflict]
+	Use only one of these plugins.
+Passage of Prayers - Full.esp
+Passage of Prayers - No Lore.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Privileges and Services, @Privileges & Services
@@ -2434,6 +3257,29 @@ The Publicans (LGNPC compatible version).ESP
 	Use only one of these plugins.
 The Publicans.ESP
 The Publicans (LGNPC compatible version).ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Quests for Clans and Vampire Legends (QCVL)
+
+[Order] ; Patch has no conflicts with BTBGI (Pharis)
+Quests for Clans and Vampire Legends.ESP
+Quests for Clans and Vampire Legends - BTBGI - auto-calc spells.esp
+
+[Order]
+Quests for Clans and Vampire Legends.ESP
+Quests for Clans and Vampire Legends - Morrowind Anti-Cheese.esp
+
+[Order]
+Morrowind Anti-Cheese.esp
+Quests for Clans and Vampire Legends - Morrowind Anti-Cheese.esp
+
+[Order]
+Morrowind Anti-Cheese Tweaked.esp
+Quests for Clans and Vampire Legends - Morrowind Anti-Cheese.esp
+
+[Order]
+Quests for Clans and Vampire Legends.ESP
+Quests for Clans and Vampire Legends - Vampire Clans - Clutter Monkey Overhaul.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Quill of Feyfolken
@@ -2508,6 +3354,13 @@ Illuminated Order v2.0 - Lore Friendly.ESP
      Illuminated Order v2.0 - Lore Friendly.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Riders
+
+[Order]
+riders.esp
+riders - Your Own Ashlander Tribe.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sadrith Mora Closed City
 
 [Order]
@@ -2538,6 +3391,22 @@ Silgrad Tower*.esp
 indybank*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Sobitur Facility
+
+[Order]
+DA_Sobitur_Facility_Clean.ESP
+DA_Sobitur_Facility_Clean - Script Fix.esp
+
+[Order]
+DA_Sobitur_Quest_Part_1 Clean.esp
+DA_Sobitur_Quest_Part_1 Clean - Script Fix.esp
+
+[Requires]
+DA_Sobitur_YA_Compatibility.ESP
+[ALL	DA_Sobitur_Facility_Clean.ESP
+		Yagrum Advanced 2.0.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Solstheim - Tomb of the Snow Prince, @STOTSP
 
 [Order]
@@ -2557,6 +3426,20 @@ Solstheim Tomb of The Snow Prince.esm
 Lake Fjalding Anti-Suck.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Sotha Sil Expanded
+
+[Order]
+Sotha Sil Expanded.esp
+Sotha Sil Expanded - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Staff Agency 2.1
+
+[Order]
+Staff Agency_NoModels.esp
+Staff Agency_NoModels - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Stone Halls of Solstheim, @Stone Halls of Solstheim
 
 [Order]
@@ -2565,6 +3448,10 @@ SHS - Bloodskal Barrow.ESP
 Stone Halls of Solstheim.ESP
 Stone Halls of Solstheim - Mortified.ESP
 Haunted Barrows_SHS Patch.ESP
+
+[Order] ; Outdated version but it's still on the Nexus so why not (Pharis) 
+SHS - Bloodskal Barrow.ESP
+SHS - Bloodskal Barrow - Script Fix.esp
 
 [Conflict]
 	Use the Mortified plugin with Mort's Bloodmoon Rebalance.
@@ -2621,6 +3508,9 @@ SWP - Foyada Mamaea Overhaul Patch.ESP
 Better Landscapes Stonewood Pass (MD Edit).esp
 Better Landscapes Stonewood Pass.esp
 Better Landscapes Stonewood Pass (RP Edit).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Strike at the Camonna Tong
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Stripes the Cat
@@ -2736,10 +3626,126 @@ Seekers Faction*.esp
 TR_Preview.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @TeaMod
+
+[Order]
+TeaMod_2.1.esp
+TeaMod_2.1 - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @There Can Be Only One
+
+; According to ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) Expansions Integrated should be before TCBOO but a rule is not needed as it is already before MDMD (Pharis)
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD - Creatures Add-On.ESP
+There Can Be Only One.esp
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD - Creatures Add-On.ESP
+There Can Be Only One (Alt Fyr).esp
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD - Creatures Add-On.ESP
+There Can Be Only One (Alt Fyr 2).esp
+
+[Order]
+There Can Be Only One.esp
+avp There Can Be Only One -*.esp
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+avp There Can Be Only One -*.esp
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+avp There Can Be Only One -*.esp
+
+[Order]
+OldMournholdOverhaul.ESP
+avp There Can Be Only One - OldMournholdOverhaul.esp
+
+[Order]
+Strike at the Camonna Tong-Fast.ESP
+avp There Can Be Only One - Strike at the Camonna Tong-Fast.esp
+
+[Order]
+tribunal rebalance.ESP
+avp There Can Be Only One - tribunal rebalance.esp
+
+[Order]
+OldMournholdOverhaul.ESP
+avp There Can Be Only One - Merged*.esp
+
+[Order]
+Strike at the Camonna Tong-Fast.ESP
+avp There Can Be Only One - Merged*.esp
+
+[Order]
+tribunal rebalance.ESP
+avp There Can Be Only One - Merged*.esp
+
+[Requires]
+avp There Can Be Only One - Merged.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		OldMournholdOverhaul.ESP
+		Strike at the Camonna Tong-Fast.ESP
+		tribunal rebalance.ESP]
+
+[Requires]
+avp There Can Be Only One - Merged - Cell Changes.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		OldMournholdOverhaul.ESP
+		Strike at the Camonna Tong-Fast.ESP
+		tribunal rebalance.ESP]
+
+[Requires]
+avp There Can Be Only One - OldMournholdOverhaul.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		OldMournholdOverhaul.ESP]
+
+[Requires]
+avp There Can Be Only One - Strike at the Camonna Tong-Fast.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		Strike at the Camonna Tong-Fast.ESP]
+
+[Requires]
+avp There Can Be Only One - tribunal rebalance.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		tribunal rebalance.esp]
+
+[Conflict]
+	Use either one of the merged plugins or a combination of the modular plugins, not both.
+[ANY	avp There Can Be Only One - Merged.esp
+		avp There Can Be Only One - Merged - Cell Changes.esp]
+[ANY	avp There Can Be Only One - OldMournholdOverhaul.esp
+		avp There Can Be Only One - Strike at the Camonna Tong-Fast.esp
+		avp There Can Be Only One - tribunal rebalance.esp]
+
+[Conflict]
+	Use only one of these plugins.
+There Can Be Only One.esp
+There Can Be Only One (Alt Fyr).esp
+There Can Be Only One (Alt Fyr 2).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Thieves' Guild Overhaul
 
 [Conflict]
-  Already merged in compilation Thieves Guild Overhaul:
+	Already merged in compilation Thieves Guild Overhaul.
 Thieves_Guild_Overhaul.ESP
 Thieves_Guild_Overhaul - Purist Ahnassi Romance version.ESP
 [ANY Bal Molagmer Add-on.esp
@@ -2757,9 +3763,102 @@ Thieves_Guild_Overhaul - Purist Ahnassi Romance version.ESP
 Ttooth Ecology.esp
 Racers.esp
 
-[Order]
+[Order] ( Ref: Ttooth Ecology Readme.txt ) (Pharis)
 Ttooth Ecology.esp
 Ttooth Ecology - TR Patch.esp
+
+[Order] ( Ref: Ttooth Ecology Readme.txt ) (Pharis)
+Ttooth Ecology.esp
+Ttooth Ecology - BMR Patch.ESP
+
+[Order] ( Ref: Ttooth Ecology Readme.txt ) (Pharis)
+Bloodmoon Rebalance.esp
+Ttooth Ecology - BMR Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @True Lights and Darkness, @TLAD
+
+[Order]
+TLAD Full - Still -*.esp
+TLAD*Necro Colors - Nocturnal Moths -*.esp
+
+[Order]
+TLAD Lights - Logical Flicker -*.esp
+TLAD*Necro Colors - Nocturnal Moths -*.esp
+
+[Order]
+TLAD Lights - Still -*.esp
+TLAD*Necro Colors - Nocturnal Moths -*.esp
+
+[Order]
+New Ilunibi.esp
+TLAD - New Ilunibi*.esp
+
+[Order]
+New Ilunibi.esp
+TLAD*Necro Colors - Nocturnal Moths - New Ilunibi*.esp
+
+[Order]
+Clean_Assarnud3.esp
+TLAD -*Mat.esp
+
+[Order]
+Clean_Assarnud3.esp
+TLAD*Necro Colors - Nocturnal Moths -*.esp
+
+[Order]
+Nocturnal Moths - TLD.ESP
+TLAD*Necro Colors - Nocturnal Moths -*.esp
+
+[Requires]
+TLAD - Mat.esp
+Clean_Assarnud3.esp
+
+[Requires]
+TLAD - New Ilunibi - Mat.esp
+Clean_Assarnud3.esp
+
+[Requires]
+TLAD - New Ilunibi.esp
+New Ilunibi.esp
+
+[Requires]
+TLAD - New Ilunibi - Mat.esp
+New Ilunibi.esp
+
+[Requires]
+TLAD*Necro Colors - Nocturnal Moths.esp
+Nocturnal Moths - TLD.ESP
+
+[Requires]
+TLAD*Necro Colors - Nocturnal Moths - New Ilunibi.esp
+[ALL	Nocturnal Moths - TLD.ESP
+		New Illunibi.esp]
+
+[Requires]
+TLAD*Necro Colors - Nocturnal Moths - Mat.esp
+[ALL	Nocturnal Moths - TLD.ESP
+		Clean_Assarnud3.esp]
+
+[Requires]
+TLAD*Necro Colors - Nocturnal Moths - New Ilunibi - Mat.esp
+[ALL	Nocturnal Moths - TLD.ESP
+		New Illunibi.esp
+		Clean_Assarnud3.esp]
+
+[Conflict]
+	Use only one of these plugins.
+TLAD - Mat.esp
+TLAD - New Ilunibi - Mat.esp
+TLAD - New Ilunibi.esp
+TLAD LogFl Necro Colors - Nocturnal Moths - Mat.esp
+TLAD LogFl Necro Colors - Nocturnal Moths - New Ilunibi - Mat.esp
+TLAD LogFl Necro Colors - Nocturnal Moths - New Ilunibi.esp
+TLAD LogFl Necro Colors - Nocturnal Moths.esp
+TLAD Still Necro Colors - Nocturnal Moths - Mat.esp
+TLAD Still Necro Colors - Nocturnal Moths - New Ilunibi - Mat.esp
+TLAD Still Necro Colors - Nocturnal Moths - New Ilunibi.esp
+TLAD Still Necro Colors - Nocturnal Moths.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Unique Finery Replacer, @UFR
@@ -2857,7 +3956,7 @@ Vanilla friendly wearables expansion.esm
 		Complete Nordic Iron.ESP
 		Heavy Chitin.ESP
 		Dwemer Scrap Armor.ESP
-		Complete and Revised Studded leather v 1.5.esp
+		Complete and Revised Studded leather v <VER>.esp ; Spaces intentional
 		Ceremonial Adamantium Armor.ESP
 		Concept Art Daedric Helms.ESP
 		RubbersWeaponsPack.ESP
@@ -2897,6 +3996,10 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 [Order]
 Religions Elaborated.ESP
 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+
+[Order]
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
+AliceL93 Vanilla Quest Tweaks - Script Fix.esp
 
 [Conflict]
   Already merged in compilation Vanilla Quest Tweaks.
@@ -3106,7 +4209,7 @@ The Weary Vampire.esp
 The Weary Vampire - Guild of Vampire Hunters Patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @The White Wolf of Lokken Mountain, Landscape Overhaul For The White Wolf of Lokken Mountain
+;; @The White Wolf of Lokken Mountain, @Landscape Overhaul For The White Wolf of Lokken Mountain
 
 [Order]
 BT_Whitewolf*.esm
@@ -3164,6 +4267,131 @@ Yet Another Guard Diversity - Better Telvanni Cephalopod Armor.esp
 Yet Another Guard Diversity - Uniform Ordinators.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Yet Another No Disease Labels, @YANDL ; This is from Alvazir's Various Patches (Pharis)
+
+[Order]
+YANDL - Base.esp
+YANDL - BlightedAnimalsRetextured.esp
+
+[Order]
+YANDL - Base.esp
+YANDL - Bloodmoon Rebalance.esp
+
+[Order]
+YANDL - Base.esp
+YANDL - tribunal rebalance.esp
+
+[Order]
+YANDL - Base.esp
+YANDL - Ttooth Ecology.esp
+
+[Order]
+YANDL - Base.esp
+YANDL - Ttooth Ecology - TR Patch.esp
+
+[Order]
+YANDL - Base.esp
+YANDL - Ttooth Ecology - BMR Patch.esp
+
+[Order]
+BlightedAnimalsRetextured.esp
+YANDL - BlightedAnimalsRetextured.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+YANDL - Bloodmoon Rebalance.esp
+
+[Order]
+tribunal rebalance.esp
+YANDL - tribunal rebalance.esp
+
+[Order]
+Ttooth Ecology.esp
+YANDL - Ttooth Ecology.esp
+
+[Order]
+Ttooth Ecology - TR Patch.esp
+YANDL - Ttooth Ecology - TR Patch.esp
+
+[Order]
+Ttooth Ecology - BMR Patch.esp
+YANDL - Ttooth Ecology - BMR Patch.esp
+
+[Order] ; Merged includes Base (Pharis)
+BlightedAnimalsRetextured.esp
+YANDL - Merged.esp
+
+[Order]
+Bloodmoon Rebalance.esp
+YANDL - Merged.esp
+
+[Order]
+tribunal rebalance.esp
+YANDL - Merged.esp
+
+[Order]
+Ttooth Ecology.esp
+YANDL - Merged.esp
+
+[Order]
+Ttooth Ecology - TR Patch.esp
+YANDL - Merged.esp
+
+[Order]
+Ttooth Ecology - BMR Patch.esp
+YANDL - Merged.esp
+
+[Requires]
+YANDL - BlightedAnimalsRetextured.esp
+BlightedAnimalsRetextured.esp
+
+[Requires]
+YANDL - Bloodmoon Rebalance.esp
+Bloodmoon Rebalance.esp
+
+[Requires]
+YANDL - tribunal rebalance.esp
+tribunal rebalance.esp
+
+[Requires]
+YANDL - Ttooth Ecology.esp
+Ttooth Ecology.esp
+
+[Requires]
+YANDL - Ttooth Ecology - TR Patch.esp
+Ttooth Ecology - TR Patch.esp
+
+[Requires]
+YANDL - Ttooth Ecology - BMR Patch.esp
+Ttooth Ecology - BMR Patch.esp
+
+[Requires]
+YANDL - Merged.esp
+[ALL	BlightedAnimalsRetextured.esp
+		Bloodmoon Rebalance.esp
+		Tamriel_Data.esm
+		TR_Mainland.esm
+		tribunal rebalance.esp
+		Ttooth Ecology.esp
+		Ttooth Ecology - TR Patch.esp
+		Ttooth Ecology - BMR Patch.esp]
+
+[Requires] ; Requirement not in plugin header (Pharis)
+YANDL - Base.esp
+Patch for Purists.esm
+
+[Conflict]
+	Use either the merged plugin or a combination of the modular plugins, not both.
+YANDL - Merged.esp
+[ANY	YANDL - Base.esp
+		YANDL - BlightedAnimalsRetextured.esp
+		YANDL - Bloodmoon Rebalance.esp
+		YANDL - tribunal rebalance.esp
+		YANDL - Ttooth Ecology.esp
+		YANDL - Ttooth Ecology - TR Patch.esp
+		YANDL - Ttooth Ecology - BMR Patch.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rejects ; Need tweaking
 
 [Order] ; TODO Look at later (Pharis)^
@@ -3173,22 +4401,22 @@ What Thieves Guild*.esp
 The Tribe Unmourned*.esp
 Morag Tong*.esp
 
-[Order]^
-Morrowind Anti-Cheese.esp
-Ownership Overhaul.esp
-Dark Brotherhood Armor Replacer.esp
-Expansions Integrated.esp
-BTB's Game Improvements (Necro Edit).esp
-BTB's Game Improvements (Necro Edit).Tweaked.esp
-BTBGI PFP Patch.esp
-Morrowind Anti-Cheese Tweaked.esp
-Beware the Sixth House.esp
-Tribunal Rebalance.esp
-Bloodmoon Rebalance.esp
-More Deadly Morrowind Denizens.esp
-MDMD - Creatures Addon.esp
-Economy Adjuster Crime (Necro Edit).esp
-There Can Be Only One.esp
+;[Order]^
+;Morrowind Anti-Cheese.esp
+;Ownership Overhaul.esp
+;Dark Brotherhood Armor Replacer.esp
+;Expansions Integrated.esp
+;BTB's Game Improvements (Necro Edit).esp
+;BTB's Game Improvements (Necro Edit).Tweaked.esp
+;BTBGI PFP Patch.esp
+;Morrowind Anti-Cheese Tweaked.esp
+;Beware the Sixth House.esp
+;Tribunal Rebalance.esp
+;Bloodmoon Rebalance.esp
+;More Deadly Morrowind Denizens.esp
+;MDMD - Creatures Addon.esp
+;Economy Adjuster Crime (Necro Edit).esp
+;There Can Be Only One.esp
 
 [Order]^
 Stonewood Pass*.esp
@@ -3643,8 +4871,6 @@ ab01gameplay*.esp
 Haldenshore*.esp
 ab01gameplay*.esp
 
-
-
 [Order]
 Korobal*.esp
 Fields of Kummu*.esp
@@ -3941,9 +5167,9 @@ SilverArmourIntegration.ESP
 Fighters_Guild_Questline_Overhaul.ESP
 Tel_Aruhn_Chronicles.ESP
 
-[Order]
-Animated_Morrowind - merged*.esp
-RP_NPCs.esp
+;[Order]
+;Animated_Morrowind - merged*.esp
+;RP_NPCs.esp
 
 [Order]
 Animated_Morrowind - merged*.esp
