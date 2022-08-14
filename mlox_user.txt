@@ -2740,6 +2740,10 @@ Illuminated Order Improved.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Immersive Mournhold
 
+[Order] ; ( Ref: https://forums.nexusmods.com/index.php?/topic/8643908-royal-chargen/?p=109464548 ) (Pharis)
+Immersive Mournhold.esp
+Clean Royal Chargen.esp
+
 [Conflict]
 	Immersive Mournhold already deals with adding distant statics so Distant Mornhold is not needed.
 Mournhold LOD.ESP
