@@ -224,6 +224,25 @@ Ajira Deflowered.ESP
 Ajira Deflowered - Patch for Purists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ald'ruhn - Seat of power of House Redoran
+
+[Order]
+RedMountainReborn.esp
+AldRuhn_seat_of_power_RMR.ESP
+
+[Order]
+RedMountainReborn.esp
+AldRuhn_seat_of_power_RR_Skar_RMR.esp
+
+[Conflict]
+	Use only one of these plugins.
+AldRuhn_seat_of_power.ESP
+AldRuhn_seat_of_power_no_underskar.ESP
+AldRuhn_seat_of_power_RR_Skar.ESP
+AldRuhn_seat_of_power_RMR.ESP
+AldRuhn_seat_of_power_RR_Skar_RMR.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Alms for ALMSIVI
 
 [Order]
@@ -3733,6 +3752,13 @@ DN-GDRv<VER>*.esp
 [Order]
 RedMountainReborn.esp
 Illuminated Order v2.0 - Lore Friendly.ESP
+
+[Conflict]
+	RandomPal provides a "Red Mountain Reborn" compatible version of "Ald'ruhn - Seat of power of House Redoran" in the BAIN installer, use that version instead.
+RedMountainReborn.esp
+[ANY	AldRuhn_seat_of_power.ESP
+		AldRuhn_seat_of_power_no_underskar.ESP
+		AldRuhn_seat_of_power_RR_Skar.ESP]
 
 [Note]
   Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
