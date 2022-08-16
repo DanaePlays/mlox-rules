@@ -250,6 +250,17 @@ Alms and Donations.ESP
 Alms and Donations - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Andrano Ancestral Tomb Remastered
+
+[Order] ; Journal entry conflict makes tomb inaccessible without this rule, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+AndranoTombRemastered.esp
+
+[Order] ; Same as above (Pharis)
+BTB's Game Improvements (Necro Edit) Tweaked.ESP
+AndranoTomb+Retribution.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Antares Big Mod
 
 [Order]
