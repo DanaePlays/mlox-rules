@@ -413,6 +413,10 @@ BeaconOfstRilms - Clipping Fix.ESP
 
 [Order] ( Ref: The man himself ) (Pharis)
 Beautiful Cities of Morrowind.esp
+BCOM_Sadrith_Mora_dock_expanded.ESP
+
+[Order] ( Ref: The man himself ) (Pharis)
+Beautiful Cities of Morrowind.esp
 Foreign Quarter Market Square.esp
 
 [Order] ; Otherwise changes from Skar_face.esp don't show up
