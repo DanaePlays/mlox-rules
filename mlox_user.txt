@@ -252,14 +252,6 @@ Alms and Donations - Script Fix.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Andrano Ancestral Tomb Remastered
 
-[Order] ; Journal entry conflict makes tomb inaccessible without this rule, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
-BTB's Game Improvements (Necro Edit) Tweaked.ESP
-AndranoTombRemastered.esp
-
-[Order] ; Same as above (Pharis)
-BTB's Game Improvements (Necro Edit) Tweaked.ESP
-AndranoTomb+Retribution.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Antares Big Mod
 
@@ -951,7 +943,7 @@ Robert's Bodies.ESP
 New Khajiit Bodies - *.esp
 
 [Conflict]
-    There is no reason to use New Beast Bodies with Improved Argonians as they both replace Argonian bodies.
+	There is no reason to use New Beast Bodies with Improved Argonians as they both replace Argonian bodies.
 New Argonian Bodies - *.esp
 Improved Argonians.esp
 
@@ -1078,6 +1070,27 @@ mwse_PoisonCrafting.ESP
 	Use only one of these plugins.
 Morrowind Anti-Cheese Tweaked.ESP
 Morrowind Anti-Cheese.ESP
+
+;; Andrano Ancestral Tomb Remastered Patch
+[Patch] ; Journal entry conflict makes tomb inaccessible without patch, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
+	Lucas has provided a patch for "Andrano Ancestral Tomb Remastered" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+AndranoTombRemastered BTBGI Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		[ANY	AndranoTombRemastered.esp
+				AndranoTomb+Retribution.esp]]
+
+[Order] ; Patch simply needs to be after both plugins (Pharis)
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+AndranoTombRemastered BTBGI Patch.esp
+
+[Order]
+AndranoTombRemastered.esp
+AndranoTombRemastered BTBGI Patch.esp
+
+[Order]
+AndranoTomb+Retribution.esp
+AndranoTombRemastered BTBGI Patch.esp
 
 ;; BTBGI-NE ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
 [Order]
@@ -2341,7 +2354,7 @@ Bloodmoon Rebalance.esp
 Bloodmoon Rebalance - PFP.esp
 
 [Conflict]
-    You are using the full Beware the Sixth House plugin alongside at least one of the modular plugins. Use either only the full plugin or any combination of the modular plugins.
+	You are using the full Beware the Sixth House plugin alongside at least one of the modular plugins. Use either only the full plugin or any combination of the modular plugins.
 Beware the Sixth House.ESP
 [ANY	Sixth House Rebalance.ESP
   		Ash Vampire Script Fix.esp
@@ -2620,7 +2633,7 @@ Glowing Flames - TrueLightsAndDarkness Tweaks.ESP
 	( https://www.nexusmods.com/morrowind/mods/48028 )
 GoW-MaC Patch.esp
 [ALL Clean_Mines & Caverns.esp
-     God of Worms.esp]
+	 God of Worms.esp]
 
 [Order]
 Clean_Mines & Caverns.esp
@@ -2658,8 +2671,8 @@ Go To Jail*.esp
 
 [Conflict]
 	Use only one of these plugins:
-    	correctUV Ore Replacer_fixed.esp - Ore will not respawn.
-    	correctUV Ore Replacer_respawning.esp - Ore will respawn.
+		correctUV Ore Replacer_fixed.esp - Ore will not respawn.
+		correctUV Ore Replacer_respawning.esp - Ore will respawn.
 correctUV Ore Replacer_fixed.esp 
 correctUV Ore Replacer_respawning.esp
 
@@ -2827,9 +2840,9 @@ KS_Julan_MRM_Patch*.esp
   Already merged in compilation Imperial Legion Expansion.
 Imperial Legion Expansion.esp
 [ANY dukesarmor.esp
-     Legionpapers.esp
-     Imperial Legion Goods.esp
-     Publius_Claudius_Follower.ESP]
+	 Legionpapers.esp
+	 Imperial Legion Goods.esp
+	 Publius_Claudius_Follower.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Imperial Stables
@@ -2900,8 +2913,8 @@ The Publicans.ESP
 
 [Conflict]
 	Use only one of these plugins:
-    	Ebenerz-Claymore.esp - German version
-    	Ebony Claymore.esp - English version
+		Ebenerz-Claymore.esp - German version
+		Ebony Claymore.esp - English version
 Ebenerz-Claymore.esp
 Ebony Claymore.esp
 
@@ -2910,8 +2923,8 @@ Ebony Claymore.esp
 
 [Conflict]
 	Use only one of these plugins:
-    	Stahlwurfmesser-fix.esp - German version
-    	Steel Throwing Knife_fix.esp - English version
+		Stahlwurfmesser-fix.esp - German version
+		Steel Throwing Knife_fix.esp - English version
 Stahlwurfmesser-fix.esp
 Steel Throwing Knife_fix.esp
 
@@ -2982,43 +2995,43 @@ LDM - Choices & Consequences v<VER>.esp
   ( Written for version 1.5 )
 LDM - Context Matters <VER>.ESP
 [ANY A Cure for Vampirism - Skink's Solution.ESP
-     Caius Directions Anti-Journal.ESP
-     FMI_Disease_Descriptions.ESP
-     FMI_Ingredient_Locations <VER>.ESP
-     FMI_Misc.ESP
-     LDM - Abolitionists.esp
-     LDM - Ashlanders v<VER>.ESP
-     LDM - Vampire Talk.ESP
-     Ooh you're naked.esp]
+	 Caius Directions Anti-Journal.ESP
+	 FMI_Disease_Descriptions.ESP
+	 FMI_Ingredient_Locations <VER>.ESP
+	 FMI_Misc.ESP
+	 LDM - Abolitionists.esp
+	 LDM - Ashlanders v<VER>.ESP
+	 LDM - Vampire Talk.ESP
+	 Ooh you're naked.esp]
 
 [Conflict]
   Already merged, reimplemented or tweaked in compilation LDM - Choices and Consequences. Don't use together.
   ( Written for version 0.48 )
 LDM - Choices and Consequences v<VER>.ESP
 [ANY Ajira Deflowered.ESP
-     Balmora Rumours Fix*.ESP
-     Blight at the Hairat-Vassamsi Egg Mine.ESP
-     Duel of Honor - Improve the Chances.ESP
-     Expansion Delay.ESP
-     Fargoth in Distress.ESP
-     FMI - Alice's Package.ESP
-     FMI_Athyn_And_Shardie.ESP
-     FMI_Current_Councilors.ESP
-     FMI_HulStop <VER>.ESP
-     FMI_Legion_Dialogue.ESP
-     GAMA.esp
-     Hentus Needs Pants Overhaul.ESP
-     Libertarian Magical Services.ESP
-     Note from the Archcanon Fix.ESP
-     NPC Faction Affiliation Corrector (Maximalistic).ESP
-     NPC Faction Affiliation Corrector (Minimalistic).ESP
-     Oath to Saint Roris Instead.ESP
-     Pacifist Options - When it Makes Sense.ESP
-     Quarantined Vvardenfell.ESP
-     Redoran Freeloaders.esp
-     Strange Man at Gindrala Hleran's House Overhaul.ESP
-     Teach Nels Llendo a Lesson.esp
-     The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
+	 Balmora Rumours Fix*.ESP
+	 Blight at the Hairat-Vassamsi Egg Mine.ESP
+	 Duel of Honor - Improve the Chances.ESP
+	 Expansion Delay.ESP
+	 Fargoth in Distress.ESP
+	 FMI - Alice's Package.ESP
+	 FMI_Athyn_And_Shardie.ESP
+	 FMI_Current_Councilors.ESP
+	 FMI_HulStop <VER>.ESP
+	 FMI_Legion_Dialogue.ESP
+	 GAMA.esp
+	 Hentus Needs Pants Overhaul.ESP
+	 Libertarian Magical Services.ESP
+	 Note from the Archcanon Fix.ESP
+	 NPC Faction Affiliation Corrector (Maximalistic).ESP
+	 NPC Faction Affiliation Corrector (Minimalistic).ESP
+	 Oath to Saint Roris Instead.ESP
+	 Pacifist Options - When it Makes Sense.ESP
+	 Quarantined Vvardenfell.ESP
+	 Redoran Freeloaders.esp
+	 Strange Man at Gindrala Hleran's House Overhaul.ESP
+	 Teach Nels Llendo a Lesson.esp
+	 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Legend of Chemua
@@ -3079,17 +3092,17 @@ Immersive_corprus.ESP
   Already merged in compilation Main Quest Overhaul.
 Main_Quest_Overhaul.ESP
 [ANY Ashlander Quests.ESP
-     Consequences for Looting the Andrano Tomb.ESP
-     Exterminate all the Brutes.ESP
-     Hortator.ESP
-     Imperialist Nerevarine.ESP
-     Joinable Sixth House - So to Speak.ESP
-     Living With Caius.ESP
-     Nationalist Nerevarine.ESP
-     Past Life Regressions.ESP
-     Refuse the Main Quest.ESP
-     Sixth House Smugglers.ESP
-     Vampire_Nerevarine.ESP]
+	 Consequences for Looting the Andrano Tomb.ESP
+	 Exterminate all the Brutes.ESP
+	 Hortator.ESP
+	 Imperialist Nerevarine.ESP
+	 Joinable Sixth House - So to Speak.ESP
+	 Living With Caius.ESP
+	 Nationalist Nerevarine.ESP
+	 Past Life Regressions.ESP
+	 Refuse the Main Quest.ESP
+	 Sixth House Smugglers.ESP
+	 Vampire_Nerevarine.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mamaea Awakened
@@ -3251,7 +3264,7 @@ Morag Tong Polished.esp
 	!! Alvazir has a patch for Morag Tong Polished, TR Factions, and Economy Adjuster Adjustments Crime, download it here:
 	( https://www.nexusmods.com/morrowind/mods/48955 )
 [ALL TR_Factions.esp
-     Morag Tong Polished.esp
+	 Morag Tong Polished.esp
 	 EcoAdjCrime (Necro Edit).esp
 	 [NOT	Morag Tong Polished - TR_Factions - EcoAdjCrime_NE.esp]]
 
@@ -3787,7 +3800,7 @@ RedMountainReborn.esp
   Red Mountain Reborn includes an ESP replacer for Illuminated Order v2.0. However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora)
   (Ref: https://www.nexusmods.com/morrowind/mods/47414 )
 [All RedMountainReborn.esp
-     Illuminated Order v2.0 - Lore Friendly.ESP]
+	 Illuminated Order v2.0 - Lore Friendly.ESP]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Riders
@@ -4185,12 +4198,12 @@ There Can Be Only One (Alt Fyr 2).esp
 Thieves_Guild_Overhaul.ESP
 Thieves_Guild_Overhaul - Purist Ahnassi Romance version.ESP
 [ANY Bal Molagmer Add-on.esp
-     Lore-Friendly Bal Molagmer Gloves.esp
-     More Redoran Master Helms.esp
-     Plunder the Dungeon.esp
-     Smooth Moves - Romancing Ahnassi.esp
-     Thieves Guild in Gnaar Mok.esp
-     Wanted Posters.esp]
+	 Lore-Friendly Bal Molagmer Gloves.esp
+	 More Redoran Master Helms.esp
+	 Plunder the Dungeon.esp
+	 Smooth Moves - Romancing Ahnassi.esp
+	 Thieves Guild in Gnaar Mok.esp
+	 Wanted Posters.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod
@@ -4441,24 +4454,24 @@ AliceL93 Vanilla Quest Tweaks - Script Fix.esp
   Already merged in compilation Vanilla Quest Tweaks.
 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.ESP
 [ANY A Cure for Vampirism - Skink's Solution.esp
-     Champion of Clutter.esp
-     Duel of Honor - Improve the Chances.esp
-     Fargoth in Distress.esp
-     Fort Moonmoth Fundraiser Dinner.esp
-     Harvest's End Festival.esp
-     Hentus Needs Pants Overhaul.esp
-     Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
-     Immersive Neloth Reward.esp
-     Libertarian Magical Services.esp
-     Morrowind - Immanuel Kant Edition.esp
-     Oath to Saint Roris Instead.esp
-     Pacifist Options - When it Makes Sense.esp
-     Redoran Founder's Helm Add-on - Honor the Ancestors.esp
-     Teach Nels Llendo a Lesson.esp
-     The Corpse and the Skooma Pipe Overhaul.esp
-     The Frostmoth Smugglers - Properly Rewarded.esp
-     Thelas' Pillows Overhaul.esp
-     Therana vs. Trerayna.esp]
+	 Champion of Clutter.esp
+	 Duel of Honor - Improve the Chances.esp
+	 Fargoth in Distress.esp
+	 Fort Moonmoth Fundraiser Dinner.esp
+	 Harvest's End Festival.esp
+	 Hentus Needs Pants Overhaul.esp
+	 Hiring Guards for the Redoran Stronghold - Honorable Solution.esp
+	 Immersive Neloth Reward.esp
+	 Libertarian Magical Services.esp
+	 Morrowind - Immanuel Kant Edition.esp
+	 Oath to Saint Roris Instead.esp
+	 Pacifist Options - When it Makes Sense.esp
+	 Redoran Founder's Helm Add-on - Honor the Ancestors.esp
+	 Teach Nels Llendo a Lesson.esp
+	 The Corpse and the Skooma Pipe Overhaul.esp
+	 The Frostmoth Smugglers - Properly Rewarded.esp
+	 Thelas' Pillows Overhaul.esp
+	 Therana vs. Trerayna.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Vvardenfell Brotherhood
@@ -4584,7 +4597,7 @@ F&F_companions.ESP
 [Requires]
 Wares-base.esm
 [ANY Wares_Vvardenfell.esp
-     Wares_TR.esp]
+	 Wares_TR.esp]
 
 [Requires]
 Wares-TR_DATA.esp
@@ -4599,7 +4612,7 @@ ST_Books_Wares_rotate.ESP
 [Conflict]
 	Use only one of these plugins:
   		Wares_TR.esp - Covers both Vvardenfell and Tamriel Rebuilt.
-    	Wares_Vvardenfell.esp - Covers Vvardenfell only and can be used with Wares-TR_DATA.esp to add Tamriel Data items to levelled lists.
+		Wares_Vvardenfell.esp - Covers Vvardenfell only and can be used with Wares-TR_DATA.esp to add Tamriel Data items to levelled lists.
 Wares_TR.ESP
 Wares_Vvardenfell.ESP
 
@@ -4628,10 +4641,10 @@ Wares-even-MOAR.ESP
 	F&F includes and expands on CM_Partners, Outlaws, Starfire's npcs and MCA.
 F&F_base.esm
 [ANY CM_Partners_*.esp
-     Outlaws.esp
+	 Outlaws.esp
 	 OutlawsTR.esp
-     Starfires*.esp
-     MCA*.esp]
+	 Starfires*.esp
+	 MCA*.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Weary Vampire, @Weary Vampire
