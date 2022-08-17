@@ -3661,6 +3661,17 @@ Passage of Prayers - Full.esp
 Passage of Prayers - No Lore.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Patch for Purists
+
+[Order] ; Lucas' fixes for latest PFP, reported by JosephMcKean (Pharis)
+Patch for Purists - Semi-Purist Fixes.esp
+Patch for Purists - Merged Fixes.esp
+
+[Order]
+Patch for Purists - Book Typos.esp
+Patch for Purists - Merged Fixes.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Privileges and Services, @Privileges & Services
 
 [Order]
