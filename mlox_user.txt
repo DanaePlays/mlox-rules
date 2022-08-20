@@ -552,12 +552,9 @@ Beautiful cities of Morrowind.ESP
 Beautiful cities of Morrowind.esp
 The Publicans.esp
 
-[Order]
-Beautiful cities of Morrowind.esp
-An Armigers Tale*.esp
-
-[Order]
-An Armigers Tale*.esp
+[Order] ; ( Ref: RandomPal said so ) (Pharis)
+Beautiful Cities of Morrowind.esp
+Arvesa - An Armigers Tale.esp
 BCOM_Arvesa_patch.esp
 
 [Order]
