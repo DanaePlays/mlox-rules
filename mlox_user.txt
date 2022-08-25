@@ -2532,6 +2532,106 @@ DD_2_ExpeditionToMzelthuand.esp
 Weapon Sheaths Ult*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Fighters Guild Improved
+
+;; Dura Gra-Bol
+[Order] ; Order of all three specified ( Ref: Flin told me, also the loadorder.txt ) (Pharis)
+Fighters Guild Improved.esp
+Dura Gra-Bol's House Reclaimed.ESP
+FGI_DuraGraBolsHouseReclaimed_Patch.esp
+
+;; Bal Molagmer/Thieves' Guild Overhaul
+[Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
+Fighters Guild Improved.esp
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+
+[Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
+Thieves_Guild_Overhaul.esp
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+
+[Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
+Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+
+[Order] ; Patch after plugins it patches ( Ref: loadorder.txt ) (Pharis)
+Bal Molagmer Add-on.esp
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+
+[Patch]
+	FlinSunset provides a patch for either "Thieves' Guild Overhaul" or "Bal Molagmer Add-on" and "Fighters Guild Improved", download it here:
+	( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		[ANY	Thieves_Guild_Overhaul.esp
+				Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+				Bal Molagmer Add-on.esp]]
+
+;; Balmora Guilds Expanded
+[Order] ; Only specified that it needs to be after Balmora Guilds Expanded, deletes Dura Gra-Bol dialogue entry ( Ref: the loadorder.txt) (Pharis)
+Balmora Guilds Expanded.esp
+FGI_BalmoraGuildsExpanded_Patch.esp
+
+[Note]
+	!! FlinSunset provides a patch for "Balmora Guilds Expanded" and "Fighters Guild Improved", download it here:
+	!! ( https://www.nexusmods.com/morrowind/mods/51409 )
+[ALL    Fighters Guild Improved.esp
+		Balmora Guilds Expanded.esp
+		[NOT	[ANY	Dura Gra-Bol's House Reclaimed.ESP
+						FGI_BalmoraGuildsExpanded_Patch.esp]]]
+
+[Conflict]
+	This patch deletes a Dura Gra-Bol dialogue entry and is not meant to be used alongside "Dura Gra-Bol's House Reclaimed" according to the "Fighters Guild Improved" README, simply deactivate 'FGI_BalmoraGuildsExpanded_Patch.esp' when using "Dura Gra-Bol's House Reclaimed".
+FGI_BalmoraGuildsExpanded_Patch.esp
+Dura Gra-Bol's House Reclaimed.ESP
+
+;; Camonna Tong
+[Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
+Fighters Guild Improved.esp
+FGI_CaerisCamonnaTong_Patch
+
+[Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
+Camonna Tong.esp
+FGI_CaerisCamonnaTong_Patch
+
+[Patch]
+	FlinSunset provides a patch for "Camonna Tong" and "Fighters Guild Improved", download it here:
+	( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_CaerisCamonnaTong_Patch
+[ALL	Fighters Guild Improved.esp
+		Camonna Tong.esp]]
+
+;; Caldera Mine Expanded
+[Order] ; Only specified that it needs to be after FGI ( Ref: the loadorder.txt) (Pharis)
+Fighters Guild Improved.esp
+FGI_CalderaMineExpanded_Patch.esp
+
+[Patch]
+	FlinSunset provides a patch for "Caldera Mine Expanded" and "Fighters Guild Improved", download it here:
+	( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_CalderaMineExpanded_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		DD_Caldera_Expansion.esp]]
+
+;; Quests for Faction Leaders
+[Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
+Quests for Faction Leaders.esp
+Fighters Guild Improved.esp
+FGI_QuestsForFactionLeaders_Patch.esp
+
+[Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
+Quests for Faction Leaders Non TR version.ESP
+Fighters Guild Improved.esp
+FGI_QuestsForFactionLeaders_Patch.esp
+
+[Patch]
+	FlinSunset provides a patch for "Quests for Faction Leaders" and "Fighters Guild Improved", download it here:
+	( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_QuestsForFactionLeaders_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		[ANY	Quests for Faction Leaders.esp
+				Quests for Faction Leaders Non TR version.ESP]]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Fighters Guild Questline Overhaul
 
 [Order]
