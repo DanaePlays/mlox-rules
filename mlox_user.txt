@@ -3780,6 +3780,14 @@ OJAI - Framerate Version.esp
 ;; @Old Mournhold Expansion
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ownership Overhaul
+
+[Conflict]
+	Use only one of these plugins. If you're not sure which version to use, the ESM version is safer in terms of compatibility.
+Ownership Overhaul.esp
+Ownership Overhaul.esm
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Passage of Prayers - High Fane Corridor Overhaul
 
 [Conflict]
