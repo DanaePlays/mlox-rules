@@ -2598,7 +2598,7 @@ FGI_CaerisCamonnaTong_Patch.esp
 	( https://www.nexusmods.com/morrowind/mods/51409 )
 FGI_CaerisCamonnaTong_Patch.esp
 [ALL	Fighters Guild Improved.esp
-		Camonna Tong.esp]]
+		Camonna Tong.esp]
 
 ;; Caldera Mine Expanded
 [Order] ; Only specified that it needs to be after FGI ( Ref: the loadorder.txt) (Pharis)
@@ -2610,7 +2610,7 @@ FGI_CalderaMineExpanded_Patch.esp
 	( https://www.nexusmods.com/morrowind/mods/51409 )
 FGI_CalderaMineExpanded_Patch.esp
 [ALL	Fighters Guild Improved.esp
-		DD_Caldera_Expansion.esp]]
+		DD_Caldera_Expansion.esp]
 
 ;; Quests for Faction Leaders
 [Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
