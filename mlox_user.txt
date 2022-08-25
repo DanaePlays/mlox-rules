@@ -2587,16 +2587,16 @@ Dura Gra-Bol's House Reclaimed.ESP
 ;; Camonna Tong
 [Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
 Fighters Guild Improved.esp
-FGI_CaerisCamonnaTong_Patch
+FGI_CaerisCamonnaTong_Patch.esp
 
 [Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
 Camonna Tong.esp
-FGI_CaerisCamonnaTong_Patch
+FGI_CaerisCamonnaTong_Patch.esp
 
 [Patch]
 	FlinSunset provides a patch for "Camonna Tong" and "Fighters Guild Improved", download it here:
 	( https://www.nexusmods.com/morrowind/mods/51409 )
-FGI_CaerisCamonnaTong_Patch
+FGI_CaerisCamonnaTong_Patch.esp
 [ALL	Fighters Guild Improved.esp
 		Camonna Tong.esp]]
 
