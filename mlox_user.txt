@@ -346,6 +346,10 @@ Sheogorad - Groves of the North.esp
 Spines of Madness <VER>.esp
 Astrologians Guild.esp
 
+[Order] ; Cell name conflict, TES3Merge fixes but I'd rather it just not be reported again (Pharis)
+Sheogorad - Groves of the North.esp
+Astrologians Guild.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Baar Dau Mods, @Meteorite Ministry, @Ministry of Truth
 
@@ -407,9 +411,31 @@ BDC-SN_CEF compat.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Beacon of St Rilms,  @Beacon of St Rilms
 
+[Order] ; Landscape conflicts, patched plugin should load after (Pharis)
+RedMountainReborn.esp
+BeaconOfstRilmsBCOMReborn.esp
+
+[Order] ; Landscape conflicts, patched plugin should load after (Pharis)
+RedMountainReborn.esp
+BeaconOfstRilmsRedMtnReborn.esp
+
+[Conflict]
+	Use only the "BCOMReborn" version of "The Beacon of St Rilms" when using the "Beautiful Cities of Morrowind" ESP replacer for "Red Mountain Reborn", download it here:
+	( https://www.nexusmods.com/morrowind/mods/49515 )
+[ALL	Beautiful Cities of Morrowind.esp
+		BeaconOfstRilmsRedMtnReborn.esp
+		[NOT	BeaconOfstRilmsBCOMReborn.esp]]
+
+[Conflict]
+	Use only one of these plugins:
+		'BeaconOfstRilmsRedMtnReborn.esp' - For users of Knots' original mod.
+		'BeaconOfstRilmsBCOMReborn.esp' - For users of the "Beautiful Cities of Morrowind" ESP replacer for "Red Mountain Reborn.
+BeaconOfstRilmsRedMtnReborn.esp
+BeaconOfstRilmsBCOMReborn.esp
+
 [Order]
-BeaconOfstRilmsBCOMReborn.ESP
-BeaconOfstRilms - Clipping Fix.ESP
+BeaconOfstRilmsBCOMReborn.esp
+BeaconOfstRilms - Clipping Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Beautiful Cities of Morrowind, @BCOM
@@ -1048,9 +1074,13 @@ Yet Another Guard Diversity BTBGI Patch.ESP
 Yet Another Guard Diversity - Regular.ESP
 Yet Another Guard Diversity BTBGI Patch.ESP
 
-[Order] ; Not a fan of how common these kinds of rules seem to be but it was in the readme (Pharis)
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
 Mashed Lists.esp
-BTBGI Loot Patch*.ESP
+BTBGI Loot Patch*.esp
+
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
+Mashed Lists.esp
+Beware the Sixth House BTBGI Patch.esp
 
 [Conflict]
 	BTBGI Poison Crafting Patch.ESP includes all records from mwse_PoisonCrafting.ESP, use only one of them.
