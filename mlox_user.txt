@@ -3033,7 +3033,8 @@ Improved Inns Expanded*.esp
 [Conflict]
 	The Publicans is already merged in Improved Inns Expanded.
 Improved Inns Expanded*.esp
-The Publicans.ESP
+[ANY	The Publicans.ESP
+		The Publicans (LGNPC compatible version).esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Improved Weapon Meshes - Ebony
@@ -3174,6 +3175,17 @@ Legend of ChemuaM.esp
 	Landscape conflict.
 Legend of ChemuaM.esp
 TheManifoldSpires.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Lightweight Concept Art Gnisis
+
+[Order] ; Conflict with rentable bed, floaters if loaded the other way, reported by Pherim (Pharis)
+The Publicans.esp
+Concept art Gnisis - Lightweight.esp
+
+[Order] ; Same as above (Pharis)
+The Publicans (LGNPC compatible version).esp
+Concept art Gnisis - Lightweight.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mage Robes
