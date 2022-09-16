@@ -3686,6 +3686,14 @@ OAAB - Shipwrecks.ESP
 OAAB - Shipwrecks - TR Patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @OAAB - The Ashen Divide
+
+[Conflict]
+	'OAAB - The Ashen Divide - Vurt's Trees.esp' is an ESP replacer, do not use it alongside the original plugin.
+OAAB - The Ashen Divide.esp
+OAAB - The Ashen Divide - Vurt's Trees.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - Tombs and Towers
 
 [Order] ; WHGT values, TES3Merge will not fix (Pharis)
