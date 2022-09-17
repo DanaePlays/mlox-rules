@@ -2564,6 +2564,24 @@ Weapon Sheaths Ult*.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Fighters Guild Improved
 
+;; Reputation Fixes
+[Conflict] ; Compatible with modular version except for the Fighters Guild plugin (Pharis)
+	"Fighters Guild Improved" is incompatible with both the merged version of "Reputation Fixes" and its separate Fighters Guild plugin, to use these two mods together use the modular "Reputation Fixes" plugins and omit the Fighters Guild one.
+Fighters Guild Improved.esp
+[ANY	Reputation_Fixes_All.esp
+		Reputation_Fixes_Fighters_Guild_.esp]
+
+;; The Pretty Reckless
+[Order] ; Compatible if loaded before FGI ( Ref: Fighters Guild Improved Nexus Description, thanks Flin for reporting ) (Pharis)
+The Pretty Reckless.esp
+Fighters Guild Improved.esp
+
+;; More Deadly Morrowind Denizens
+[Order] ; Order of all three specified ( Ref: Flin told me ) (Pharis)
+MDMD - More Deadly Morrowind Denizens.esp
+Fighters Guild Improved.esp
+FGI_MDMD_Patch.esp
+
 ;; Dura Gra-Bol
 [Order] ; Order of all three specified ( Ref: Flin told me, also the loadorder.txt ) (Pharis)
 Fighters Guild Improved.esp
