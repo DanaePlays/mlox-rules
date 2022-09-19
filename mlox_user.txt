@@ -708,8 +708,8 @@ Beautiful cities of Morrowind.esp
 Morvayn Manor in Maar Gan.esp
 
 [Order]
-KS_Julan_Ashlander Companion*.esp
 Beautiful cities of Morrowind.esp
+KS_Julan_Ashlander Companion*.esp
 
 [Order]
 OAAB - Foyada Mamaea*.esp
