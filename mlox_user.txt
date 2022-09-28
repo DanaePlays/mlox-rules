@@ -6580,3 +6580,95 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order]
 Main_Quest_Overhaul.esp
 Your Own Ashlander Tribe.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Divayth Fyr Puzzle Fixed Ownership Overhaul Patch 
+;; dwrv_chest_divayth should be owned by divayth fyr (JosephMcKean)
+
+[Order]
+Divayth Fyr Puzzle Fixed.ESP
+Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Glass Domes of Vivec 
+
+;; Vivec, Foreign Quarter Plaza Behave like exterior (JosephMcKean)
+[Order]
+Broadsheets and Notice Boards.esp
+Glass Domes of Vivec.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Glass Domes of Vivec Ownership Overhaul Patch 
+;; Glass Domes of Vivec has to move the entire contents of many of the plaza cells, which is why the two mods conflict without the patch (JosephMcKean)
+
+[Order]
+Glass Domes of Vivec_atmospheric arena.esp
+Glass Domes of Vivec_atmospheric arena Ownership Overhaul Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Expansion Integrated MDMD Patch
+;; Added by JosephMcKean
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+Expansions Integrated MDMD Patch.ESP
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD Expansions Integrated Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @There Can Be Only One Expansions Integrated Patch
+;; Added by JosephMcKean
+
+[Order]
+There Can Be Only One.ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr).ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr 2).ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @There Can Be Only One MDMD Patch
+;; Added by JosephMcKean
+
+[Order]
+There Can Be Only One.ESP
+There Can Be Only One MDMD Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr).ESP
+There Can Be Only One (Alt Fyr) MDMD Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr 2).ESP
+There Can Be Only One (Alt Fyr 2) MDMD Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @BTB's Game Improvements (Necro Edit) 
+;; Both changes the weight of sc_paper plain and nine different ingredients, the base cost of resist paralysis, enchantpts of ebony staff (JosephMcKean)
+
+[Order]
+Patch for Purists - Semi-Purist Fixes.ESP
+BTB's Game Improvements (Necro Edit).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @BTBGI MDMD - Creatures Patch
+;; for example: bonelord, BTBGI adds diseaseChills scripts, mdmd adds spell mdmd_bonelordcurse (JosephMcKean)
+
+[Order]
+BTB's Game Improvements (Necro Edit).esp
+BTBGI MDMD - Creatures Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Rebalance Series BTBGI Patch
+
+;; corprus_lame_fyr01: AttackMin2 (JosephMcKean)
+[Order]
+Beware the Sixth House.esp
+Rebalance Series BTBGI Patch.ESP
