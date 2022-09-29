@@ -1173,6 +1173,10 @@ Bloodmoon Rebalance.esp
 BTB's Game Improvements (Necro Edit).esp
 Tribunal Rebalance.esp
 
+[Order] ; Both changes the weight of sc_paper plain and nine different ingredients, the base cost of resist paralysis, enchant pts of ebony staff (JosephMcKean)
+Patch for Purists - Semi-Purist Fixes.ESP
+BTB's Game Improvements (Necro Edit).esp
+
 [Order] ; Checked in TESPCD, Morrowind Anti-Cheese should be after BTBGI and its patches (Pharis)
 BTBGI Creature Buffs.esp
 Morrowind Anti-Cheese.ESP
@@ -1184,6 +1188,11 @@ Morrowind Anti-Cheese.ESP
 [Order]
 MDMD - Creatures Add-On.esp
 BTB's Game Improvements (Necro Edit).esp
+
+;; BTBGI MDMD - Creatures Patch
+[Order] ; for example: bonelord, BTBGI adds diseaseChills scripts, mdmd adds spell mdmd_bonelordcurse (JosephMcKean)
+BTB's Game Improvements (Necro Edit).esp
+BTBGI MDMD - Creatures Patch.esp
 
 [Order]
 There Can Be Only One.esp
@@ -1330,7 +1339,7 @@ avp BTBGI-NE - Various - Merged.esp
 		avp BTBGI-NE - tribunal rebalance.esp
 		avp BTBGI-NE - Uvirith's Legacy.esp]
 
-;; Alvazir's BTBGI-NE - Misc
+;; Alvazir BTBGI-NE - Misc
 [Order]
 Morag Tong Polished.esp
 avp BTBGI-NE - Misc.esp
@@ -1359,7 +1368,7 @@ avp BTBGI-NE - Misc.esp
 		The Rise of House Sadras.esp
 		Wanderers of Solstheim*.esp]
 
-;; Alvazir's BTBGI-NE Creature Buffs
+;; Alvazir BTBGI-NE Creature Buffs
 [Order]
 Beware the Sixth House.esp
 avp BTBGI-NE - Creature Buffs -*Beware the Sixth House.esp
@@ -1421,7 +1430,7 @@ avp BTBGI-NE - Creature Buffs - NDL - Merged.esp
 avp BTBGI-NE - Creature Buffs - Merged.esp
 avp BTBGI-NE - Creature Buffs - NDL - Merged.esp
 
-;; Alvazir's BTBGI-NE Factions ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
+;; Alvazir BTBGI-NE Factions ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
 [Order] ; Patch BTBGifies faction
 Imperial Factions.esp
 avp BTBGI-NE - Factions.esp
@@ -1454,7 +1463,7 @@ avp BTBGI-NE - Factions - TR_Factions.esp
 avp BTBGI-NE - Factions.esp
 avp BTBGI-NE - Factions - Vvardenfell Brotherhood.esp
 
-;; Alvazir's BTBGI-NE Factions Merged ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
+;; Alvazir BTBGI-NE Factions Merged ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
 [Order]
 Imperial Factions.esp
 avp BTBGI-NE - Factions - Merged.esp
@@ -1491,7 +1500,7 @@ avp BTBGI-NE - Factions - Merged.esp
 		avp BTBGI-NE - Factions - TR_Factions.esp
 		avp BTBGI-NE - Factions - Vvardenfell Brotherhood.esp]
 
-;; Alvazir's BTBGI-NE Factions NCGD ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
+;; Alvazir BTBGI-NE Factions NCGD ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
 [Order] ; Patch BTBGifies faction
 Imperial Factions.esp
 avp BTBGI-NE - NCGD - MBSP.esp
@@ -1556,17 +1565,21 @@ avp BTBGI-NE - NCGD - MBSP - Merged.esp
 avp BTBGI-NE - FM Unique Items - Replacement Patch.esp
 FM - Unique Items v<VER>.esp
 
-[Order]
+[Order] ; May be old, not sure (Pharis)
 tribunal rebalance.esp
 Mort's Rebalance Series BTBGI Patch.esp
 
-[Order]
+[Order] ; May be old, not sure (Pharis)
 Bloodmoon Rebalance.esp
 Mort's Rebalance Series BTBGI Patch.esp
 
-[Order]
+[Order] ; May be old, not sure (Pharis)
 Beware the Sixth House.esp
 Mort's Rebalance Series BTBGI Patch.esp
+
+[Order] ; corprus_lame_fyr01: AttackMin2 (JosephMcKean)
+Beware the Sixth House.esp
+Rebalance Series BTBGI Patch.ESP
 
 [Order]
 Realistic_Repair_Add-on.esp
@@ -2502,6 +2515,15 @@ distant_seafloor*.esm
 Bloodmoon.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Divayth Fyr Puzzle Fixed
+
+;; Ownership Overhaul Patch 
+;; dwrv_chest_divayth should be owned by divayth fyr (JosephMcKean)
+[Order]
+Divayth Fyr Puzzle Fixed.ESP
+Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Django's Dialogue
 
 [Order]
@@ -2579,6 +2601,16 @@ ESEP_Improved_Inns_Expanded.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Expansions Integrated
+
+;; MDMD Patches
+;; Added by JosephMcKean
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+Expansions Integrated MDMD Patch.ESP
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.ESP
+MDMD Expansions Integrated Patch.ESP
 
 [Conflict]
 	Use only one of these plugins.
@@ -2857,6 +2889,14 @@ Glass Domes of Vivec.esp
 [Order]
 Glass Domes of Vivec.esp
 Glass Domes of Vivec Ownership Overhaul Patch.esp
+
+[Order] ; Glass Domes of Vivec has to move the entire contents of many of the plaza cells, which is why the two mods conflict without the patch (JosephMcKean)
+Glass Domes of Vivec_atmospheric arena.esp
+Glass Domes of Vivec_atmospheric arena Ownership Overhaul Patch.ESP
+
+[Order] ; Vivec, Foreign Quarter Plaza Behave like exterior (JosephMcKean)
+Broadsheets and Notice Boards.esp
+Glass Domes of Vivec.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Glowing Flames
@@ -3897,7 +3937,7 @@ NPC Faction Affiliation Corrector (Maximalistic).esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Schedule
 
-[Order] ; This is from Alvazir's Various Patches (Pharis)
+[Order] ; AVP (Pharis)
 NPC_Schedule(beta).esp
 NPC_Schedule(beta) - Patch.esp
 
@@ -4251,7 +4291,7 @@ The Publicans (LGNPC compatible version).esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Quarra Clan, @Quarra Clan Refreshed
 
-;; Alvazir's Quarra Clan - Refreshed and patches ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
+;; Alvazir Quarra Clan - Refreshed and patches ( Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (Pharis)
 [Order] ; Overwrites changes to factions from mods such as Imperial Factions (Pharis)
 quarraclan_refreshed.esp
 quarraclan_refreshed - Faction Stats Override.esp
@@ -4284,7 +4324,7 @@ quarraclan_refreshed - Morrowind Anti-Cheese.esp
 Raym's Vampire Rumors.esp
 quarraclan_refreshed - Raym's Vampire Rumors.esp
 
-;;Alvazir's Quarra Clan - Refreshed merged patch
+;;Alvazir Quarra Clan - Refreshed merged patch
 [Order]
 quarraclan_refreshed.esp
 quarraclan_refreshed - Merged Patches.esp
@@ -4814,6 +4854,35 @@ MDMD - More Deadly Morrowind Denizens.esp
 MDMD - Creatures Add-On.esp
 There Can Be Only One (Alt Fyr 2).esp
 
+;; Expansions Integrated Patch
+;; Added by JosephMcKean
+[Order]
+There Can Be Only One.ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr).ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr 2).ESP
+There Can Be Only One Expansions Integrated Patch.ESP
+
+;; MDMD Patch
+;; Added by JosephMcKean
+[Order]
+There Can Be Only One.ESP
+There Can Be Only One MDMD Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr).ESP
+There Can Be Only One (Alt Fyr) MDMD Patch.ESP
+
+[Order]
+There Can Be Only One (Alt Fyr 2).ESP
+There Can Be Only One (Alt Fyr 2) MDMD Patch.ESP
+
+;; Alvazir There Can Only Be One Patches
 [Order]
 There Can Be Only One.esp
 avp There Can Be Only One -*.esp
@@ -5288,10 +5357,6 @@ Wanderers of Solstheim-TOTSP - Script Fix.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wares, @Friends and Foes, @F&F
 
-;[Order] ; Commented out for now, maybe remove later (Pharis)
-;OAAB_Data.esm
-;Wares-base.esm
-
 [Order]
 Wares-base.esm
 Solstheim Tomb of The Snow Prince.esm
@@ -5319,6 +5384,10 @@ F&F_companions.esp
 [Order]
 Animated_Morrowind - merged*.esp
 F&F_heads_*.esp
+
+[Order] ; Presonal rule can be added to override but this is how most would use it (Pharis)
+F&F_TR.esp
+F&F_heads_Westly.esp
 
 [Order]
 Mashed Lists.esp
@@ -6580,95 +6649,3 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order]
 Main_Quest_Overhaul.esp
 Your Own Ashlander Tribe.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Divayth Fyr Puzzle Fixed Ownership Overhaul Patch 
-;; dwrv_chest_divayth should be owned by divayth fyr (JosephMcKean)
-
-[Order]
-Divayth Fyr Puzzle Fixed.ESP
-Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Glass Domes of Vivec 
-
-;; Vivec, Foreign Quarter Plaza Behave like exterior (JosephMcKean)
-[Order]
-Broadsheets and Notice Boards.esp
-Glass Domes of Vivec.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Glass Domes of Vivec Ownership Overhaul Patch 
-;; Glass Domes of Vivec has to move the entire contents of many of the plaza cells, which is why the two mods conflict without the patch (JosephMcKean)
-
-[Order]
-Glass Domes of Vivec_atmospheric arena.esp
-Glass Domes of Vivec_atmospheric arena Ownership Overhaul Patch.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Expansion Integrated MDMD Patch
-;; Added by JosephMcKean
-
-[Order]
-MDMD - More Deadly Morrowind Denizens.ESP
-Expansions Integrated MDMD Patch.ESP
-
-[Order]
-MDMD - More Deadly Morrowind Denizens.ESP
-MDMD Expansions Integrated Patch.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @There Can Be Only One Expansions Integrated Patch
-;; Added by JosephMcKean
-
-[Order]
-There Can Be Only One.ESP
-There Can Be Only One Expansions Integrated Patch.ESP
-
-[Order]
-There Can Be Only One (Alt Fyr).ESP
-There Can Be Only One Expansions Integrated Patch.ESP
-
-[Order]
-There Can Be Only One (Alt Fyr 2).ESP
-There Can Be Only One Expansions Integrated Patch.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @There Can Be Only One MDMD Patch
-;; Added by JosephMcKean
-
-[Order]
-There Can Be Only One.ESP
-There Can Be Only One MDMD Patch.ESP
-
-[Order]
-There Can Be Only One (Alt Fyr).ESP
-There Can Be Only One (Alt Fyr) MDMD Patch.ESP
-
-[Order]
-There Can Be Only One (Alt Fyr 2).ESP
-There Can Be Only One (Alt Fyr 2) MDMD Patch.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @BTB's Game Improvements (Necro Edit) 
-;; Both changes the weight of sc_paper plain and nine different ingredients, the base cost of resist paralysis, enchantpts of ebony staff (JosephMcKean)
-
-[Order]
-Patch for Purists - Semi-Purist Fixes.ESP
-BTB's Game Improvements (Necro Edit).esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @BTBGI MDMD - Creatures Patch
-;; for example: bonelord, BTBGI adds diseaseChills scripts, mdmd adds spell mdmd_bonelordcurse (JosephMcKean)
-
-[Order]
-BTB's Game Improvements (Necro Edit).esp
-BTBGI MDMD - Creatures Patch.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Rebalance Series BTBGI Patch
-
-;; corprus_lame_fyr01: AttackMin2 (JosephMcKean)
-[Order]
-Beware the Sixth House.esp
-Rebalance Series BTBGI Patch.ESP
