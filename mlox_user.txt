@@ -4113,6 +4113,10 @@ OJAI - Framerate Version.esp
 Ownership Overhaul.esp
 Ownership Overhaul.esm
 
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48051 and I tested while helping someone troubleshoot ) necessary even with patch to avoid unwanted scuba diving (Pharis)
+Ownership Overhaul.esm
+Solstheim Tomb of the Snow Prince.esm
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Passage of Prayers - High Fane Corridor Overhaul
 
@@ -5385,7 +5389,7 @@ F&F_companions.esp
 Animated_Morrowind - merged*.esp
 F&F_heads_*.esp
 
-[Order] ; Presonal rule can be added to override but this is how most would use it (Pharis)
+[Order] ; Personal rule can be added to override but this is how most would use it (Pharis)
 F&F_TR.esp
 F&F_heads_Westly.esp
 
