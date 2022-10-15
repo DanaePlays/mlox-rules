@@ -4722,6 +4722,13 @@ Stripes.esp
 BM_CatCompanions1_0.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Suran Underworld
+
+[Order] ; Patch after plugin it patches ( Ref: https://www.nexusmods.com/morrowind/mods/44382 ) (Pharis)
+Suran_Underworld_v3.esp
+SU3fixes.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Swapping Samarys and Addamasartus
 
 [Order] ; Otherwise the exit door to Addamasartus will revert back to its vanilla location (Pharis)
