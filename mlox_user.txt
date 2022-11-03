@@ -3557,6 +3557,13 @@ MarenMabrigash.esp
 RR_Melchior's_Mudcrab_Merchant_Eng.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Memento Mori
+
+[Order] ; (JosephMcKean) If the patch is loaded last, the door in Hall of Ghost will teleport player to Tower of Dawn instead of Lower Level
+Memento Mori - BCOM Patch.esp
+Memento Mori.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mines & Caverns, @Mines and Caverns
 
 [Order] ; AVP (Pharis)
