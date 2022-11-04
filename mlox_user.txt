@@ -237,12 +237,12 @@ Area Effect Projectiles Integrated.esp
 Area Effect Projectiles Integrated - LeFemmArmor.esp
 
 [Order]
-Area Effect Projectiles Integrated.esp
-Area Effect Projectiles Integrated - Quill of Feyfolken 2.0.esp
-
-[Order]
 LeFemmArmor.esp
 Area Effect Projectiles Integrated - LeFemmArmor.esp
+
+[Order]
+Area Effect Projectiles Integrated.esp
+Area Effect Projectiles Integrated - Quill of Feyfolken 2.0.esp
 
 [Order]
 Quill of Feyfolken 2.0.esp
@@ -899,35 +899,6 @@ Beautiful cities of Morrowind.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bethesda Official Plugins Naturalized, @Official Plugins Naturalized
 
-[Conflict]
-	Use only one version of the "Adamantium Armor" official plugin.
-Adamantium Armor Naturalized.esp
-adamantiumarmor.esp
-Vivec - Adamantium Armor (UMOPP) [Replacer].esp ; From Vivec - God the City
-Vivec - Adamantium Armor (Naturalized) [Replacer].esp ; From Vivec - God the City
-
-[Conflict]
-	Use only one version of the "Area Effect Arrows" official plugin.
-Area Effect Arrows Naturalized.esp
-Area Effect Arrows.esp
-Vivec - Area of Effect (Remiros) [Replacer].esp ; From Vivec - God the City
-Vivec - Area of Effect (Remiros + Naturalized) [Replacer].esp ; From Vivec - God the City
-
-[Conflict]
-	Use only one version of the "Helm of Tohan" official plugin.
-Helm of Tohan Naturalized.esp
-EBQ_Artifact.esp
-
-[Conflict] ; Expand later (Pharis)^
-	Use only one version of the "Master Index" official plugin.
-Master Index Naturalized.esp
-[ANY	master_index.esp]
-
-[Conflict] ; Expand later (Pharis)^
-	Use only one version of the "Siege at Firemoth" official plugin.
-Siege at Firemoth Naturalized.esp
-[ANY	Siege at Firemoth.esp]
-
 [Order] ; AVP (Pharis)
 Siege at Firemoth Naturalized.esp
 Siege at Firemoth Naturalized - Script Fix.esp
@@ -1117,7 +1088,7 @@ BTBGI Loot Patch*.esp
 
 [Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
 Mashed Lists.esp
-Beware the Sixth House BTBGI Patch.esp
+BTBGI Beware the Sixth House Patch.esp
 
 [Conflict]
 	Use the tweaked "Morrowind Anti-Cheese" plugin provided with "BTB's Game Improvements (Necro Edit) Tweaked".
@@ -1135,22 +1106,20 @@ Morrowind Anti-Cheese.esp
 [Patch] ; Journal entry conflict makes tomb inaccessible without patch, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
 	Lucas has provided a patch for "Andrano Ancestral Tomb Remastered" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
 	( https://www.nexusmods.com/morrowind/mods/50308 )
-AndranoTombRemastered BTBGI Patch.esp
+BTBGI AndranoTombRemastered Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		[ANY	AndranoTombRemastered.esp
 				AndranoTomb+Retribution.esp]]
 
-[Order] ; Patch simply needs to be after both plugins (Pharis)
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-AndranoTombRemastered BTBGI Patch.esp
-
 [Order]
 AndranoTombRemastered.esp
-AndranoTombRemastered BTBGI Patch.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI AndranoTombRemastered Patch.esp
 
 [Order]
 AndranoTomb+Retribution.esp
-AndranoTombRemastered BTBGI Patch.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI AndranoTombRemastered Patch.esp
 
 ;; BTB's Game Improvements (Necro Edit) ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
 [Order]
@@ -1881,7 +1850,11 @@ BTBGIsation - The Vestige of Bethaleft.esp
 sm_tr.ESP
 BTBGIsation - sm_tr.esp
 
-;; Merged Version ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
+[Order]
+Weapons Expansion Morrowind.esp
+BTBGIsation - Weapons Expansion Morrowind.esp
+
+;; BTBGIsation Merged Version ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
 [Order]
 Welcome to the Arena! v6.7.esp
 BTBGIsation - Merged.esp
@@ -2166,6 +2139,10 @@ BTBGIsation - Merged.esp
 sm_tr.ESP
 BTBGIsation - Merged.esp
 
+[Order]
+Weapons Expansion Morrowind.esp
+BTBGIsation - Merged.esp
+
 [Conflict] ; The Better Robes - TR plugin is not included in the merge (Pharis)
 	Use either only the merged plugin or any combination of the modular plugins.
 BTBGIsation - Merged.esp
@@ -2241,11 +2218,23 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Uvirith's Legacy_3.53.esp
 		BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
 		BTBGIsation - Wanderers of Solstheim-TOTSP.esp
+		BTBGIsation - Weapons Expansion Morrowind.esp
 		BTBGIsation - Welcome to the Arena! v6.7.esp
 		BTBGIsation - Wyrmhaven.esp
 		BTBGIsation - abotWaterLife.esp
 		BTBGIsation - quarraclan_refreshed.esp
 		BTBGIsation - sm_tr.esp]
+
+
+;; BTBGIsation Spears Base Plugin
+
+[Order] ; If not loaded after BTBGI main plugin its changes are overwritten
+BTB's Game Improvements (Necro Edit).esp
+BTBGIsation - Spears - Base.esp
+
+[Order] ; If not loaded after BTBGI main plugin its changes are overwritten
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGIsation - Spears - Base.esp
 
 ;; Conflicts
 [Conflict]
@@ -2308,6 +2297,47 @@ Indoril Spear*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Cooking and Eating
+
+;; AVP Publicans Expansion ( Ref: Readme says plugin after plugins it patches )
+[Order]
+Building Up Uvirith's Legacy<VER>.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+Mudcrab Imports Pirate Adventures.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+Improved Inns Expanded -*.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+BeaconOfstRilms*.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+Vivec Waistworks Expansion.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+Vivec Waistworks Expansion - GoVH comp.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+BM_S_Inn - (Vanilla Inns - Animated Morrowind).esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+BM_S_Inn.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+BT_Whitewolf_2_0_HOTV.esp
+Cooking and Eating - Publicans Expansion.esp
+
+[Order]
+BT_Whitewolf_2_0.esp
+Cooking and Eating - Publicans Expansion.esp
 
 [Order]
 Cooking and Eating.esp
@@ -2591,6 +2621,17 @@ HM_DDD_Ghostfence_v1.0.esp
 [Order]
 Ebonheart_Underworks.esp
 Ebonheart_Underworks - Disable Rebirth Question.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Entertainers Expanded Again
+
+[Order] ; Already covered elsewhere but I'd probably forget and dupe it eventually regardless ( Ref: https://www.nexusmods.com/morrowind/mods/46889 ) (Pharis)
+Entertainers Expanded.esp
+Entertainers Expanded Again.esp
+
+[Requires]
+Entertainers Expanded Again.esp
+Entertainers Expanded.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Even Seedier Eight Plates
@@ -2955,7 +2996,7 @@ Go To Jail*.esp
 	!! ( https://www.nexusmods.com/morrowind/mods/48422 )
 [ALL    Grandfather Frost.esp
 		Solstheim Tomb of the Snow Prince.esm
-		[NOT    Grandfather Frost - TOTSP.esp]]
+		[NOT	Grandfather Frost - TOTSP.esp]]
 
 [Conflict]
 	'Grandfather Frost - TOTSP.esp' is an ESP replacer, do not use it alongside the original plugin.
@@ -3189,12 +3230,22 @@ Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.esp
 RP_NPCs.esp
 
 [Order]
-LGNPC_SeydaNeen (Necro Edit).esp
-Improved Inns Expanded - LGNPC Seyda Neen.esp
+LGNPC_SeydaNeen.esp
+Improved Inns Expanded - LGNPC Seyda Neen*.esp ; Asterisk covers Entertainers version (Pharis)
 
 [Order]
-LGNPC_SeydaNeen.esp
-Improved Inns Expanded - LGNPC Seyda Neen.esp
+LGNPC_SeydaNeen (Necro Edit).esp
+Improved Inns Expanded - LGNPC Seyda Neen*.esp ; Asterisk covers Entertainers version (Pharis)
+
+[Order]
+Entertainers Expanded.esp
+Entertainers Expanded Again.esp ; Modpage specifies it needs to go after 'Entertainers Expanded.esp', may as well cover that here instead of doubling these rules (Pharis)
+Improved Inns Expanded - Entertainers.esp
+
+[Order]
+Entertainers Expanded.esp
+Entertainers Expanded Again.esp ; Modpage specifies it needs to go after 'Entertainers Expanded.esp', may as well cover that here instead of doubling these rules (Pharis)
+Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.esp
 
 [Order]
 Improved Inns Expanded.esp
@@ -3202,14 +3253,6 @@ Improved Inns Expanded - Entertainers.esp
 Improved Inns Expanded - LGNPC Seyda Neen*.esp
 Improved Inns Expanded_Gnisis Patch.esp
 Improved Inns Expanded + EE_Gnisis Patch.esp
-
-[Order]
-LGNPC_SeydaNeen.esp
-Improved Inns Expanded - LGNPC Seyda Neen.esp
-
-[Order]
-LGNPC_SeydaNeen.esp
-Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.esp
 
 [Order]
 Djangos Dialogue - Patch for Purists.esp
@@ -3220,10 +3263,26 @@ Even Seedier Eight Plates.esp
 Improved Inns Expanded*.esp
 
 [Conflict]
-	"The Publicans" is already merged in "Improved Inns Expanded".
+	Already merged in "Improved Inns Expanded".
 Improved Inns Expanded*.esp
 [ANY	The Publicans.esp
-		The Publicans (LGNPC compatible version).esp]
+		The Publicans (LGNPC compatible version).esp
+		Improved Inns.esp
+		Improved Inns TB.esp
+		Improved Inns MW.esp
+		Improved Inns BM.esp]
+
+[Conflict]
+	Use only one of these plugins.
+Improved Inns Expanded - Entertainers.esp
+Improved Inns Expanded - LGNPC Seyda Neen - Entertainers.esp
+Improved Inns Expanded - LGNPC Seyda Neen.esp
+Improved Inns Expanded.esp
+
+[Conflict]
+	Use only one of these plugins.
+Improved Inns Expanded - TR Addon - Entertainers.esp
+Improved Inns Expanded - TR Addon.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Improved Weapon Meshes - Ebony
@@ -3550,6 +3609,13 @@ Creatures_RP*.esp
 MarenMabrigash.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Master Index Redux
+
+[Order] ( Ref: https://www.nexusmods.com/morrowind/mods/48977 )
+Caldera Mage Quarters.esp
+MasterIndexRedux.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Melchior's Mudcrab Merchant
 
 [Note] ; Only adding a note because BSAs are so rare and often forgotten in TES3 modding (Pharis)
@@ -3855,7 +3921,108 @@ Seekers Faction*.esp
 MW Containers Animated exp.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Morrowind Rebirth
+;; @Morrowind Rebirth ; The concept of maintaining multiple ESM replacers continues to baffle me (Pharis)
+
+;; Provided Unofficial Patch
+[Conflict]
+	Use the edited version of the "Morrowind Patch Project" provided with "Morrowind Rebirth" instead of "Patch for Purists".
+[ALL	Morrowind Rebirth [Main].esp
+		Patch for Purists.esm]
+[NOT	Morrowind Patch Project v1.6.6 [For Rebirth].esm]
+
+[Conflict]
+	Use only one of these plugins:
+		'Morrowind Patch Project v1.6.6 [For Rebirth].esm' - If you are using "Morrowind Rebirth".
+		'Patch for Purists.esm' - If you are not using "Morrowind Rebirth".
+Morrowind Patch Project v1.6.6 [For Rebirth].esm
+Patch for Purists.esm
+
+;; Siege At Firemoth Replacer
+[Conflict]
+	Use the edited version of "Siege at Firemoth" provided with "Morrowind Rebirth".
+[ALL	Morrowind Rebirth [Main].esp
+		[ANY	Siege at Firemoth.esp
+				Siege at Firemoth Naturalized.esp
+				LegionAtFiremoth.esp
+				Triumph at Firemoth - Siege at Firemoth.esp
+				FiremothReclaimed.esp
+				SiegeAtFiremoth.esp
+				[Official]Siege at Firemoth.esp]]
+[NOT	Siege at Firemoth [For Rebirth].esp]
+
+[Conflict]
+	Use only one of these plugins:
+		'Siege at Firemoth [For Rebirth].esp' - If you are using "Morrowind Rebirth".
+		'Insert any other version here' - If you are not using "Morrowind Rebirth".
+Siege at Firemoth [For Rebirth].esp
+[ANY	Siege at Firemoth.esp
+		Siege at Firemoth Naturalized.esp
+		LegionAtFiremoth.esp
+		Triumph at Firemoth - Siege at Firemoth.esp
+		FiremothReclaimed.esp
+		SiegeAtFiremoth.esp
+		[Official]Siege at Firemoth.esp]
+
+;; Province Cyrodiil Replacer
+[Conflict]
+	Use the edited version of "Province Cyrodiil" provided with "Morrowind Rebirth".
+[ALL	Morrowind Rebirth [Main].esp
+		Cyrodiil_Main.esm]
+[NOT	Province Cyrodiil [For Rebirth].esm]
+
+[Conflict]
+	Use only one of these plugins:
+		'Province Cyrodiil [For Rebirth].esm' - If you are using "Morrowind Rebirth".
+		'Cyrodiil_Main.esm' - If you are not using "Morrowind Rebirth".
+Province Cyrodiil [For Rebirth].esm
+Cyrodiil_Main.esm
+
+;; SHOTN Replacer
+[Conflict]
+	Use the edited version of "Skyrim Home Of The Nords" provided with "Morrowind Rebirth".
+[ALL	Morrowind Rebirth [Main].esp
+		Sky_Main.esm]
+[NOT	Skyrim Home of the Nords [For Rebirth].esm]
+
+[Conflict]
+	Use only one of these plugins:
+		'Skyrim Home of the Nords [For Rebirth].esm' - If you are using "Morrowind Rebirth".
+		'Sky_Main.esm' - If you are not using "Morrowind Rebirth".
+Skyrim Home of the Nords [For Rebirth].esm
+Sky_Main.esm
+
+;; Uvirith's Legacy Replacer
+[Conflict]
+	Use the edited version of "Uvirith's Legacy" provided with "Morrowind Rebirth".
+[ALL	Morrowind Rebirth [Main].esp
+		Uvirith's Legacy_3.53.esp]
+[NOT	Uvirith's Legacy 3.53 [For Rebirth].esp]
+
+[Conflict]
+	Use only one of these plugins:
+		'Uvirith's Legacy 3.53 [For Rebirth].esp' - If you are using "Morrowind Rebirth".
+		'Uvirith's Legacy_3.53.esp' - If you are not using "Morrowind Rebirth".
+Uvirith's Legacy 3.53 [For Rebirth].esp
+Uvirith's Legacy_3.53.esp
+
+;; Main Quest Overhaul Replacer
+[Conflict]
+	Use the edited version of "Main Quest Overhaul" provided with "Morrowind Rebirth".
+[ALL	Morrowind Rebirth [Main].esp
+		Main_Quest_Overhaul.esp]
+[NOT	Clean Main Quest Overhaul 1.3 [For Rebirth].esp]
+
+[Conflict]
+	Use only one of these plugins:
+		'Clean Main Quest Overhaul 1.3 [For Rebirth].esp' - If you are using "Morrowind Rebirth".
+		'Main_Quest_Overhaul.esp' - If you are not using "Morrowind Rebirth".
+Clean Main Quest Overhaul 1.3 [For Rebirth].esp
+Main_Quest_Overhaul.esp
+
+[Conflict]
+	Use only one of these plugins.
+Julan Ashlander Companion 2.02 [For Rebirth].esp
+Julan Ashlander Companion 3.0 beta [For Rebirth].esp
 
 [Order]
 Morrowind Rebirth - Birthsigns [Addon].esp
@@ -4377,6 +4544,14 @@ Quests for Clans and Vampire Legends - Morrowind Anti-Cheese.esp
 [Order] ; Move Moricius a bit to avoid being stuck into furniture added by VCCMO (Pharis)
 Quests for Clans and Vampire Legends.esp
 Quests for Clans and Vampire Legends - Vampire Clans - Clutter Monkey Overhaul.esp
+
+[Order] ; Ref ( Description on Files tab, https://www.nexusmods.com/morrowind/mods/49486?tab=files )
+Quests for Clans and Vampire Legends.esp
+QCVL_MR_SiltStriderPatch.esp
+
+[Order] ; Ref ( Description on Files tab, https://www.nexusmods.com/morrowind/mods/49486?tab=files )
+Morrowind Rebirth [Main].esp
+QCVL_MR_SiltStriderPatch.esp
 
 [Patch]
 	Alvazir has a patch for "Quests for Clans and Vampire Legends" and "Morrowind Anti-Cheese", download it here:
@@ -5125,6 +5300,51 @@ Area Effect Arrows Integrated + UMOPP Patch.esp
 Unofficial Morrowind Official Plugins Patched.esp
 Beautiful Cities of Morrowind.esp
 
+[Conflict] ; 
+	You are using the merged "UMOPP" plugin alongside at least one of the separate official plugins. Use either only the merged plugin, any combination of the modular "UMOPP" plugins, or a combination of modular "UMOPP" plugins and alternate versions ( such as PikachunoTM's "Naturalized" versions ).
+Unofficial Morrowind Official Plugins Patched.esp
+[ANY	adamantiumarmor.esp
+		Adamantium Armor Naturalized.esp
+		Vivec - Adamantium Armor (UMOPP) [Replacer].esp ; From Vivec - God the City
+		Vivec - Adamantium Armor (Naturalized) [Replacer].esp ; From Vivec - God the City
+		ImprovedAdamantiumArmor.esp
+		[Official]Adamantium Armor.esp
+		AreaEffectArrows.esp
+		Area Effect Arrows Integrated.esp
+		Area Effect Arrows Naturalized.esp
+		Vivec - Area of Effect (Remiros) [Replacer].esp ; From Vivec - God the City
+		Vivec - Area of Effect (Remiros + Naturalized) [Replacer].esp ; From Vivec - God the City
+		Area Effect Arrows.esp
+		AreaEffectArrows XB Edition.esp
+		Area Effect Projectiles.esp
+		Area Effect Projectiles (PAR Edit).esp
+		CleanAreaEffectArrows.esp
+		[Official]Area Effect Arrows.esp
+		entertainers.esp
+		Entertainers Expanded.esp
+		CleanEntertainers.esp
+		[Official]Entertainers.esp
+		EBQ_Artifact.esp
+		Helm of Tohan Naturalized.esp
+		CleanHelmOfTohan.esp
+		HelmOfTohan.esp
+		[Official]Helm of Tohan.esp
+		LeFemmArmor.esp
+		[Official]LeFemm Armor.esp
+		master_index.esp
+		Master Index Naturalized.esp
+		MasterIndexRedux.esp
+		CleanMasterIndex.esp
+		MasterIndex.esp
+		[Official]Master Index.esp
+		Siege at Firemoth.esp
+		Siege at Firemoth Naturalized.esp
+		LegionAtFiremoth.esp
+		Triumph at Firemoth - Siege at Firemoth.esp
+		FiremothReclaimed.esp
+		SiegeAtFiremoth.esp
+		[Official]Siege at Firemoth.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @URH - Khuul
 
@@ -5502,6 +5722,22 @@ F&F_base.esm
 	Use only one of these plugins.
 WealthWithinMeasure_v1.25.esp
 WealthWithinMeasure_TR_v1.25.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Weaponry of Resdayn Rebalanced
+
+;; Included Patches
+[Order]
+DN-GDRv<VER>*.esp
+WoRR_GDR.esp
+
+[Order] ; Double checked in TESPCD, found conflicts only with main MDMD plugin, not Creatures Add-on or UL patch (Pharis)
+MDMD - More Deadly Morrowind Denizens.esp
+WoRR_MDMD.esp
+
+[Order]
+Sotha Sil Expanded.esp
+WoRR_SSE.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Weary Vampire, @Weary Vampire
@@ -6587,7 +6823,7 @@ True Skyrimized Torches.esp
 Balance - spells.esp
 BadDefaultSpells*.esp
 
-[Order]
+[Order]^
 Restocking Alchemy Essentials.esp
 BTB's Game Improvements (Necro Edit)*.esp
 mwse_PoisonCrafting.esp

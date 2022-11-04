@@ -210,7 +210,7 @@ Merged Lands.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [Note]
-	!!! Morrowind Patch Project (MPP) and Unofficial Morrowind Patch Project (UMPP) are terribly obsolete and rather controversial. Use Patch for Purists instead ( https://www.nexusmods.com/morrowind/mods/45096 )
+	!!! "Morrowind Patch Project" (MPP) and "Unofficial Morrowind Patch Project" (UMPP) are terribly obsolete and rather controversial. Use "Patch for Purists" instead ( https://www.nexusmods.com/morrowind/mods/45096 ), unless you are using "Morrowind Rebirth" in which case use the provided version of the "Morrowind Patch Project".
 	( Ref: We know better now)
 Morrowind Patch*.esm
 
@@ -28537,164 +28537,114 @@ Dragon Falls V2.esp
 NoM 3.0.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Official Mods 5.0 [Deathbliss]
+;; @Official Plugins
 
 [Conflict]
- "OfficialMods_v5.esp" is a compilation of all the official Bethesda mods. You should deactivate the individual mods it includes.
-OfficialMods_v5.esp
-[ANY AdamantiumArmor.esp
-	 ImprovedAdamantiumArmor.esp
-	 [Official]Adamantium Armor.esp
-	 AreaEffectArrows.esp
-	 Area Effect Arrows.esp
-	 AreaEffectArrows XB Edition.esp
-	 Area Effect Projectiles.esp
-	 Area Effect Projectiles (PAR Edit).esp
-	 CleanAreaEffectArrows.esp
-	 [Official]Area Effect Arrows.esp
-	 BCsounds.esp
-	 BitterCoastSounds.esp
-	 CleanBitterCoastSounds.esp
-	 [Official]Bitter Coast Sounds.esp
-	 EBQ_Artifact.esp
-	 CleanHelmOfTohan.esp
-	 HelmOfTohan.esp
-	 [Official]Helm of Tohan.esp
-	 Entertainers.esp
-	 CleanEntertainers.esp
-	 [Official]Entertainers.esp
-	 [DESC /LeFemm(TM) armor/ LeFemmArmor.esp]
-	 [Official]LeFemm Armor.esp
-	 Master_Index.esp
-	 CleanMasterIndex.esp
-	 MasterIndex.esp
-	 [Official]Master Index.esp
-	 Siege at Firemoth.esp
-	 SiegeAtFiremoth.esp
-	 [Official]Siege at Firemoth.esp]
+	Use only one version of the "Adamantium Armor" official plugin.
+adamantiumarmor.esp
+Adamantium Armor Naturalized.esp
+Vivec - Adamantium Armor (UMOPP) [Replacer].esp ; From Vivec - God the City
+Vivec - Adamantium Armor (Naturalized) [Replacer].esp ; From Vivec - God the City
+ImprovedAdamantiumArmor.esp
+[Official]Adamantium Armor.esp
 
 [Conflict]
- Use only one of these plugins. These are all compilations of the official Bethesda mods.
-OfficialMods_v5.esp
-Clean Official Plugins v1.1.esp
-Official_2002_Mods.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Official 2002 Mods [Lycianzer]
-
-[Conflict]
- Lycianzer's "Official 2002 Mods" is a compilation of all the official Bethesda mods. You should deactivate the individual mods it includes.
- ( Ref: "Readme_Official_2002_Mods.txt" )
-Official_2002_Mods.esp
-[ANY AdamantiumArmor.esp
-	 ImprovedAdamantiumArmor.esp
-	 [Official]Adamantium Armor.esp
-	 AreaEffectArrows.esp
-	 Area Effect Arrows.esp
-	 AreaEffectArrows XB Edition.esp
-	 Area Effect Projectiles.esp
-	 Area Effect Projectiles (PAR Edit).esp
-	 CleanAreaEffectArrows.esp
-	 [Official]Area Effect Arrows.esp
-	 BCsounds.esp
-	 BitterCoastSounds.esp
-	 CleanBitterCoastSounds.esp
-	 [Official]Bitter Coast Sounds.esp
-	 EBQ_Artifact.esp
-	 CleanHelmOfTohan.esp
-	 HelmOfTohan.esp
-	 [Official]Helm of Tohan.esp
-	 Entertainers.esp
-	 CleanEntertainers.esp
-	 [Official]Entertainers.esp
-	 [DESC /LeFemm(TM) armor/ LeFemmArmor.esp]
-	 [Official]LeFemm Armor.esp
-	 Master_Index.esp
-	 CleanMasterIndex.esp
-	 MasterIndex.esp
-	 [Official]Master Index.esp
-	 Siege at Firemoth.esp
-	 SiegeAtFiremoth.esp
-	 [Official]Siege at Firemoth.esp]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Official Plugins 1.1 [Murlocke]
+	Use only one version of the "Area Effect Arrows" official plugin.
+Area Effect Arrows.esp
+Area Effect Arrows Integrated.esp
+Area Effect Arrows Naturalized.esp
+Vivec - Area of Effect (Remiros) [Replacer].esp ; From Vivec - God the City
+Vivec - Area of Effect (Remiros + Naturalized) [Replacer].esp ; From Vivec - God the City
+Area Effect Arrows.esp
+AreaEffectArrows XB Edition.esp
+Area Effect Projectiles.esp
+Area Effect Projectiles (PAR Edit).esp
+CleanAreaEffectArrows.esp
+[Official]Area Effect Arrows.esp
 
 [Conflict]
- Murlocke's "Clean Official Plugins v1.1.esp" is a compilation of all the official Bethesda mods. You should deactivate the individual mods it includes.
-Clean Official Plugins v1.1.esp
-[ANY AdamantiumArmor.esp
-	 ImprovedAdamantiumArmor.esp
-	 [Official]Adamantium Armor.esp
-	 AreaEffectArrows.esp
-	 Area Effect Arrows.esp
-	 AreaEffectArrows XB Edition.esp
-	 Area Effect Projectiles.esp
-	 Area Effect Projectiles (PAR Edit).esp
-	 CleanAreaEffectArrows.esp
-	 [Official]Area Effect Arrows.esp
-	 BCsounds.esp
-	 BitterCoastSounds.esp
-	 CleanBitterCoastSounds.esp
-	 [Official]Bitter Coast Sounds.esp
-	 EBQ_Artifact.esp
-	 CleanHelmOfTohan.esp
-	 HelmOfTohan.esp
-	 [Official]Helm of Tohan.esp
-	 Entertainers.esp
-	 CleanEntertainers.esp
-	 [Official]Entertainers.esp
-	 [DESC /LeFemm(TM) armor/ LeFemmArmor.esp]
-	 [Official]LeFemm Armor.esp
-	 Master_Index.esp
-	 CleanMasterIndex.esp
-	 MasterIndex.esp
-	 [Official]Master Index.esp
-	 Siege at Firemoth.esp
-	 SiegeAtFiremoth.esp
-	 [Official]Siege at Firemoth.esp]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Official Plugins [Fritz 2011]
+	Use only one version of the "Bitter Coast Sounds" official plugin.
+BCsounds.esp
+BitterCoastSounds.esp
+CleanBitterCoastSounds.esp
+[Official]Bitter Coast Sounds.esp
 
 [Conflict]
- Fritz's "Official_plugins_1C.esp" is a compilation of all the official Bethesda mods translated by 1C to Russian. You should deactivate the individual mods it includes.
- (Ref. "Readme.txt" )
-Official_plugins_1C.esp
-[ANY AdamantiumArmor.esp
-	 Adamantium_Armor.esp
-	 ImprovedAdamantiumArmor.esp
-	 [Official]Adamantium Armor.esp
-	 AreaEffectArrows.esp
-	 Area Effect Arrows.esp
-	 AreaEffectArrows XB Edition.esp
-	 Area Effect Projectiles.esp
-	 Area Effect Projectiles (PAR Edit).esp
-	 CleanAreaEffectArrows.esp
-	 [Official]Area Effect Arrows.esp
-	 BCSounds.esp
-	 BCSounds 1.2.esp
-	 BitterCoastSounds.esp
-	 CleanBitterCoastSounds.esp
-	 [Official]Bitter Coast Sounds.esp
-	 EBQ_Artifact.esp
-	 CleanHelmOfTohan.esp
-	 HelmOfTohan.esp
-	 [Official]Helm of Tohan.esp
-	 entertainers.esp
-	 CleanEntertainers.esp
-	 [Official]Entertainers.esp
-	 [DESC /LeFemm(TM) armor/ LeFemmArmor.esp]
-	 [Official]LeFemm Armor.esp
-	 LeFemmArmor.esp
-	 Master_Index.esp
-	 Master_Index_Upgarded.esp
-	 CleanMasterIndex.esp
-	 MasterIndex.esp
-	 [Official]Master Index.esp
-	 Siege at Firemoth.esp
-	 SiegeAtFiremoth.esp
-	 [Official]Siege at Firemoth.esp]
+	Use only one version of the "Entertainers" official plugin.
+entertainers.esp
+Entertainers Expanded.esp
+CleanEntertainers.esp
+[Official]Entertainers.esp
+
+[Conflict]
+	Use only one version of the "Helm of Tohan" official plugin.
+EBQ_Artifact.esp
+Helm of Tohan Naturalized.esp
+CleanHelmOfTohan.esp
+HelmOfTohan.esp
+[Official]Helm of Tohan.esp
+
+[Conflict]
+	Use only one version of the "LeFemm Armor" official plugin.
+LeFemmArmor.esp
+[Official]LeFemm Armor.esp
+
+[Conflict]
+	Use only one version of the "Master Index" official plugin.
+master_index.esp
+Master Index Naturalized.esp
+MasterIndexRedux.esp
+CleanMasterIndex.esp
+MasterIndex.esp
+[Official]Master Index.esp
+
+[Conflict]
+	Use only one version of the "Siege at Firemoth" official plugin.
+Siege at Firemoth.esp
+Siege at Firemoth Naturalized.esp
+LegionAtFiremoth.esp
+Triumph at Firemoth - Siege at Firemoth.esp
+FiremothReclaimed.esp
+SiegeAtFiremoth.esp
+[Official]Siege at Firemoth.esp
+
+[Conflict]
+	You are using a compilation of the official Bethesda plugins alongside one or more of the individual plugins. You should deactivate either the individual plugins or the compilation.
+[ANY	OfficialMods_v5.esp
+		Official_2002_Mods.esp
+		Clean Official Plugins v1.1.esp
+		Official_plugins_1C.esp]
+[ANY	AdamantiumArmor.esp
+		ImprovedAdamantiumArmor.esp
+		[Official]Adamantium Armor.esp
+		AreaEffectArrows.esp
+		Area Effect Arrows.esp
+		AreaEffectArrows XB Edition.esp
+		Area Effect Projectiles.esp
+		Area Effect Projectiles (PAR Edit).esp
+		CleanAreaEffectArrows.esp
+		[Official]Area Effect Arrows.esp
+		BCsounds.esp
+		BitterCoastSounds.esp
+		CleanBitterCoastSounds.esp
+		[Official]Bitter Coast Sounds.esp
+		EBQ_Artifact.esp
+		CleanHelmOfTohan.esp
+		HelmOfTohan.esp
+		[Official]Helm of Tohan.esp
+		Entertainers.esp
+		Entertainers Expanded.esp
+		CleanEntertainers.esp
+		[Official]Entertainers.esp
+		[DESC /LeFemm(TM) armor/ LeFemmArmor.esp]
+		[Official]LeFemm Armor.esp
+		Master_Index.esp
+		CleanMasterIndex.esp
+		MasterIndex.esp
+		[Official]Master Index.esp
+		Siege at Firemoth.esp
+		SiegeAtFiremoth.esp
+		[Official]Siege at Firemoth.esp]
 
 [Order]
 Official_plugins_1C.esp
