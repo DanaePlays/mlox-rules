@@ -990,29 +990,47 @@ Morrowind Anti-Cheese Tweaked.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 Beware the Sixth House.esp
 
-[Order]
+[Order] ; Order of all three is important (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 Bloodmoon Rebalance.esp
+BTBGI Bloodmoon Rebalance Patch.esp
+
+[Order] ; Order of all three is important (Pharis)
+Tribunal Rebalance.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI Tribunal Rebalance Patch.esp
+
+[Order]
+Patch for Purists - Book Typos.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+
+[Order]
+Antares' Mages Robes.esp
+Antares' Mages Robes BTBGI Patch.esp
 
 [Order]
 BTB's Game Improvements (Necro Edit) Tweaked.esp
-Tribunal Rebalance.esp
+mwse_PoisonCrafting.esp
 
 [Order]
 MDMD - Creatures Add-On.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 
-[Order]
-There Can Be Only One.esp
+[Order] ; Patch just needs to be after both plugins (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI There Can Be Only One Patch.esp
+
+[Order] ; Patch just needs to be after both plugins (Pharis)
+There Can Be Only One.esp
+BTBGI There Can Be Only One Patch.esp
 
 [Order]
 There Can Be Only One (Alt Fyr).esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI There Can Be Only One Patch.esp
 
 [Order]
 There Can Be Only One (Alt Fyr 2).esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI There Can Be Only One Patch.esp
 
 [Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
 Expansions Integrated.esp
@@ -1068,14 +1086,6 @@ Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.esp
 
 [Order]
 BTB's Game Improvements (Necro Edit) Tweaked.esp
-Antares' Mage Robes BTBGI Patch.esp
-
-[Order]
-Antares' Mage Robes.esp
-Antares' Mage Robes BTBGI Patch.esp
-
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
 Yet Another Guard Diversity BTBGI Patch.esp
 
 [Order]
@@ -1089,6 +1099,10 @@ BTBGI Loot Patch*.esp
 [Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
 Mashed Lists.esp
 BTBGI Beware the Sixth House Patch.esp
+
+[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
+Merged Objects.ESP
+Merged Objects PfP BTBGI Fix.ESP
 
 [Conflict]
 	Use the tweaked "Morrowind Anti-Cheese" plugin provided with "BTB's Game Improvements (Necro Edit) Tweaked".
@@ -2621,6 +2635,13 @@ HM_DDD_Ghostfence_v1.0.esp
 [Order]
 Ebonheart_Underworks.esp
 Ebonheart_Underworks - Disable Rebirth Question.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Economy Adjuster Adjustments
+
+[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
+LDM - Context Matters <VER>.esp
+EcoAdjCrime (Necro Edit).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Entertainers Expanded Again
