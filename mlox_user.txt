@@ -6896,3 +6896,8 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order]
 Main_Quest_Overhaul.esp
 Your Own Ashlander Tribe.esp
+
+[Order]
+Beautiful cities of morrowind.esp
+BCOM - Taller Lighthouse.esp
+Shipyards of Vvardenfell*.esp
