@@ -6869,8 +6869,6 @@ BU_pgrd.esp
 [Order]
 EcoAdjCrime*.esp
 Cutting Room Floor.esp
-Morag Tong Polished.esp
-BTB's Game Improvements*.esp
 
 [Order]
 Camonna Tong.esp
