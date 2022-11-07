@@ -4194,6 +4194,10 @@ Moonmoth Legion Fort Overhaul.esp
 OAAB - Shipwrecks.esp
 OAAB - Shipwrecks - TR Patch.esp
 
+[Order] ; Otherwise two ships in the same place
+Justice4Khartag.esp
+OAAB - Shipwrecks.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - The Ashen Divide
 
