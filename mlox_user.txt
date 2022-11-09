@@ -6926,3 +6926,7 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order]
 Main_Quest_Overhaul.esp
 Your Own Ashlander Tribe.esp
+
+[Order]
+Clean_Mines & Caverns.esp
+SecretsOfTheCrystalCity.esp
