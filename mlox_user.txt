@@ -749,6 +749,10 @@ Beautiful cities of Morrowind.esp
 RedMountainReborn.esp
 RMR_patch.esp
 
+[Order] ; Prevents land tear
+BCOM - Taller Lighthouse.esp
+Shipyards of Vvardenfell.esp
+
 [Order]
 Beautiful cities of Morrowind.esp
 Yet Another Guard*.esp
@@ -3879,6 +3883,10 @@ ab01scenicCompilation*.esp
 [Order]
 Clean_Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
+
+[Order]
+Clean_Mines & Caverns.esp
+SecretsOfTheCrystalCity.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining
