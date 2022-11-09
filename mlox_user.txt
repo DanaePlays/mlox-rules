@@ -896,6 +896,11 @@ Beautiful cities of Morrowind.esp
 		URH_Khuul.esp
 		URH_Ald_Velothi.esp]
 
+[Order]
+Beautiful cities of morrowind.esp
+BCOM - Taller Lighthouse.esp
+Shipyards of Vvardenfell*.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bethesda Official Plugins Naturalized, @Official Plugins Naturalized
 
@@ -3684,6 +3689,10 @@ Ministry_of_Clarity.esp
 [Order]
 Clean_Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
+
+[Order]
+Clean_Mines & Caverns.esp
+SecretsOfTheCrystalCity.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining
