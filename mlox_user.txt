@@ -832,7 +832,7 @@ Balmora Waterworks.esp
 [Conflict]
 	Not compatible with "Beautiful Cities of Morrowind".
 Beautiful cities of Morrowind.esp
-[ANY    BalmoraDocks.esp
+[ANY	BalmoraDocks.esp
 		MDP*.esp
 		Duke's Throne Room Overhaul.esp
 		ImperiumCastleEbonheart.esp
@@ -958,10 +958,6 @@ Remiros' Uniques.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Better Siege at Firemoth Followers
 
-[Requires]
-Better Siege at Firemoth Followers.esp
-Siege at Firemoth.esp
-
 [Order]
 Siege at Firemoth.esp
 Better Siege at Firemoth Followers.esp
@@ -979,42 +975,80 @@ New Argonian Bodies - *.esp
 Improved Argonians.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @BTBGI
-
-;; BTB's Game Improvements (Necro Edit) Tweaked ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-Morrowind Anti-Cheese Tweaked.esp
+;; @BTBGI, @BTB's Game Improvements (Necro Edit) Tweaked ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
 
 [Order]
+Patch for Purists - Book Typos.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
-Beware the Sixth House.esp
 
-[Order] ; Order of all three is important (Pharis)
+[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
+Mashed Lists.esp
+Merged Objects PfP BTBGI Fix.esp
+
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
+Mashed Lists.esp
+BTBGI Beware the Sixth House Patch.esp
+
+[Order]
 BTB's Game Improvements (Necro Edit) Tweaked.esp
+mwse_PoisonCrafting.esp
+
+[Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
+Expansions Integrated.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+
+[Order]
+Expansions Integrated - Fewer BM Creatures.esp
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+
+;; Mort's Rebalance Patches
+[Patch]
+	Lucas provides a patch for "Bloodmoon Rebalance" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+BTBGI Bloodmoon Rebalance Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Bloodmoon Rebalance.esp]
+
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI Bloodmoon Rebalance Patch.esp
+
+[Order]
 Bloodmoon Rebalance.esp
 BTBGI Bloodmoon Rebalance Patch.esp
+
+[Patch]
+	Lucas provides a patch for "Tribunal Rebalance" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+BTBGI Tribunal Rebalance Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Tribunal Rebalance.esp]
 
 [Order] ; Order of all three is important (Pharis)
 Tribunal Rebalance.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI Tribunal Rebalance Patch.esp
 
-[Order]
-Patch for Purists - Book Typos.esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
+[Patch]
+	Lucas provides a patch for "Beware the Sixth House" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+BTBGI Beware the Sixth House Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Beware the Sixth House.esp]
 
-[Order]
-Antares' Mages Robes.esp
-Antares' Mages Robes BTBGI Patch.esp
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
+Mashed Lists.esp
+BTBGI Beware the Sixth House Patch.esp
 
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-mwse_PoisonCrafting.esp
-
-[Order]
-MDMD - Creatures Add-On.esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
+;; There Can Be Only One Patch
+[Patch]
+	Lucas provides a patch for "There Can Be Only One" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+BTBGI There Can Be Only One Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]]
 
 [Order] ; Patch just needs to be after both plugins (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
@@ -1032,17 +1066,13 @@ BTBGI There Can Be Only One Patch.esp
 There Can Be Only One (Alt Fyr 2).esp
 BTBGI There Can Be Only One Patch.esp
 
-[Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
-Expansions Integrated.esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-
-[Order]
-Expansions Integrated - Fewer BM Creatures.esp
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-BTBGI Poison Crafting Patch.esp
+;; Realistic Repair Add-on Patch
+[Patch]
+	Lucas provides a patch for "Realistic Repair - Add-on" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+BTBGI Realistic Repair Add-on Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Realistic_Repair_Add-on.esp]
 
 [Order]
 Realistic_Repair_Add-on.esp
@@ -1052,6 +1082,7 @@ BTBGI Realistic Repair Add-on Patch.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI Realistic Repair Add-on Patch.esp
 
+;; OAAB_Data and Community Equipment Integration Patches
 [Order]
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 RV Armors Integrated BTBGI Patch.esp
@@ -1084,6 +1115,7 @@ Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.esp
 Redoran War and Sathil Mercenary Armor Integrated.esp
 Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.esp
 
+;; Yet Another Guard Diversity Patch
 [Order]
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 Yet Another Guard Diversity BTBGI Patch.esp
@@ -1092,33 +1124,21 @@ Yet Another Guard Diversity BTBGI Patch.esp
 Yet Another Guard Diversity - Regular.esp
 Yet Another Guard Diversity BTBGI Patch.esp
 
-[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
-Mashed Lists.esp
-BTBGI Loot Patch*.esp
-
-[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
-Mashed Lists.esp
-BTBGI Beware the Sixth House Patch.esp
-
-[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
-Merged Objects.ESP
-Merged Objects PfP BTBGI Fix.ESP
-
-[Conflict]
-	Use the tweaked "Morrowind Anti-Cheese" plugin provided with "BTB's Game Improvements (Necro Edit) Tweaked".
+;; Antares' Mages Robes Patch
+[Patch]
+	Lucas provides a patch for "Antares' Mages Robes" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	( https://www.nexusmods.com/morrowind/mods/50308 )
+Antares' Mages Robes BTBGI Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
-		Morrowind Anti-Cheese.esp]
-[NOT	[ANY	Morrowind Anti-Cheese Tweaked.esp
-				Beautiful Cities of Morrowind.esp]]
+		Antares' Mages Robes.esp]
 
-[Conflict]
-	Use only one of these plugins.
-Morrowind Anti-Cheese Tweaked.esp
-Morrowind Anti-Cheese.esp
+[Order] 
+Antares' Mages Robes.esp
+Antares' Mages Robes BTBGI Patch.esp
 
 ;; Andrano Ancestral Tomb Remastered Patch
 [Patch] ; Journal entry conflict makes tomb inaccessible without patch, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
-	Lucas has provided a patch for "Andrano Ancestral Tomb Remastered" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
+	Lucas provides a patch for "Andrano Ancestral Tomb Remastered" in the "BTB's Game Improvements (Necro Edit) Tweaked" archive, download it here:
 	( https://www.nexusmods.com/morrowind/mods/50308 )
 BTBGI AndranoTombRemastered Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
@@ -1135,7 +1155,61 @@ AndranoTomb+Retribution.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI AndranoTombRemastered Patch.esp
 
-;; BTB's Game Improvements (Necro Edit) ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+;; BTBGI Loot Patch
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
+Mashed Lists.esp
+BTBGI Loot Patch*.esp
+
+[Conflict]
+	Use only one of these plugins:
+		'BTBGI Loot Patch.esp' - If you are not using "There Can Be Only One", "OAAB Weapons Integrated", or "Oriental Ebony Weapons Integrated".
+		'BTBGI Loot Patch TCBOO.esp' - If you are using only "There Can Be Only One".
+		'BTBGI Loot Patch Weapons Integrated.esp' - If you are using only "OAAB Weapons Integrated" and "Oriental Ebony Weapons Integrated".
+		'BTBGI Loot Patch TCBOO Weapons Integrated.esp' - If you are using "OAAB Weapons Integrated", "Oriental Ebony Weapons Integrated", and "There Can Be Only One".
+BTBGI Loot Patch.esp
+BTBGI Loot Patch TCBOO.esp
+BTBGI Loot Patch Weapons Integrated.esp
+BTBGI Loot Patch TCBOO Weapons Integrated.esp
+
+[Requires]
+BTBGI Loot Patch TCBOO.esp
+[ANY	There Can Be Only One.esp
+		There Can Be Only One (Alt Fyr).esp
+		There Can Be Only One (Alt Fyr 2).esp]
+
+[Requires]
+BTBGI Loot Patch Weapons Integrated.esp
+[ALL	OAAB Weapons Integrated.esp
+		Oriental Ebony Weapons Integrated.esp]
+
+[Requires]
+BTBGI Loot Patch TCBOO Weapons Integrated.esp
+[ALL	[ANY	There Can Be Only One.esp
+				There Can Be Only One (Alt Fyr).esp
+				There Can Be Only One (Alt Fyr 2).esp]
+		OAAB Weapons Integrated TCBOO.esp
+		Oriental Ebony Weapons Integrated TCBOO.esp]
+
+;; Anti-Cheese Tweaked
+[Order]
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+Morrowind Anti-Cheese Tweaked.esp
+
+[Conflict]
+	Use the tweaked "Morrowind Anti-Cheese" plugin provided with "BTB's Game Improvements (Necro Edit) Tweaked".
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Morrowind Anti-Cheese.esp]
+[NOT	[ANY	Morrowind Anti-Cheese Tweaked.esp
+				Beautiful Cities of Morrowind.esp]]
+
+[Conflict]
+	Use only one of these plugins.
+Morrowind Anti-Cheese Tweaked.esp
+Morrowind Anti-Cheese.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @BTBGI, BTB's Game Improvements (Necro Edit) ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+
 [Order]
 BTB's Game Improvements (Necro Edit).esp
 BTBGI Creature Buffs.esp
@@ -1579,10 +1653,16 @@ Full Game Balance - BTB and Wackim combined - 4 - Equipment.esp
 BTBGI Loot Patch.esp
 OAAB BTBGI Loot Patch.esp
 
-;; BTBGIsation ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @BTBGIsation ( Ref: https://www.nexusmods.com/morrowind/mods/50325 )
+
 [Order]
-Welcome to the Arena! v6.7.esp
-BTBGIsation - Welcome to the Arena! v6.7.esp
+A Hermit's Request.esp
+BTBGIsation - A Hermit's Request.esp
+
+[Order]
+After the Blight.esp
+BTBGIsation - After the Blight.esp
 
 [Order]
 Ancient Foes.esp
@@ -1593,10 +1673,38 @@ Area Effect Projectiles Integrated.esp
 BTBGIsation - Area Effect Projectiles Integrated.esp
 
 [Order]
+Astrologians Guild.esp
+BTBGIsation - Astrologians Guild.esp
+
+[Order]
+Baan_Binif.esp
+BTBGIsation - Baan_Binif.esp
+
+[Order]
+Balmora Guilds Expanded.esp
+BTBGIsation - Balmora Guilds Expanded.esp
+
+[Order]
+Better Robes TR.esp
+BTBGIsation - Better Robes TR.esp
+
+[Order]
+Clean__Blackthorn Barrow.esp
+BTBGIsation - Blackthorn Barrow.esp
+
+[Order]
+Blacktooth.esp
+BTBGIsation - Blacktooth.esp
+
+[Order]
 BT_Whitewolf_2_0_HOTV.esp
 BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
 
 [Order]
+Camonna Tong.esp
+BTBGIsation - Camonna Tong.esp
+
+[Order] ; Deprecated but still available (Pharis)
 Clean To Serve Sithis_.esp
 BTBGIsation - Clean To Serve Sithis_.esp
 
@@ -1609,28 +1717,104 @@ CultSheog.esp
 BTBGIsation - CultSheog.esp
 
 [Order]
+DA_Sobitur_Facility_Clean.esp
+BTBGIsation - DA_Sobitur_Facility_Clean.esp
+
+[Order]
+DA_Sobitur_Quest_Part_1 Clean.esp
+BTBGIsation - DA_Sobitur_Quest_Part_1 Clean.esp
+
+[Order]
+DA_Sobitur_Quest_Part_2 Clean.esp
+BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
+
+[Order]
+DA_Sobitur_Repurposed_1.esp
+BTBGIsation - DA_Sobitur_Repurposed_1.esp
+
+[Order]
 DD_Caldera_Expansion.esp
 BTBGIsation - DD_Caldera_Expansion.esp
+
+[Order]
+DRPV1.9.esp
+BTBGIsation - DRPV1.9.esp
+
+[Order]
+Entertainers Expanded.esp
+BTBGIsation - Entertainers Expanded.esp
 
 [Order]
 Face of the Hortator.esp
 BTBGIsation - Face of the Hortator.esp
 
 [Order]
+Fighters_Guild_Questline_Overhaul.esp
+BTBGIsation - Fighters_Guild_Questline_Overhaul.esp
+
+[Order]
+Fishing.esp
+BTBGIsation - Fishing.esp
+
+[Order]
+Helm of Tohan Naturalized.esp
+BTBGIsation - Helm of Tohan Naturalized.esp
+
+[Order]
 Hunter's Mark - A Marksman Mod.esp
 BTBGIsation - Hunter's Mark - A Marksman Mod.esp
+
+[Order]
+Imperial Employment Office (MD edits).esp
+BTBGIsation - Imperial Employment Office (MD edits).esp
+
+[Order] ; Deprecated but still available (Pharis)
+King of Worms.esp
+BTBGIsation - King of Worms.esp
+
+[Order]
+lack_stridersnest.esp
+BTBGIsation - lack_stridersnest.esp
 
 [Order]
 LeFemmArmor.esp
 BTBGIsation - LeFemmArmor.esp
 
 [Order]
+Legacy of Odiil.esp
+BTBGIsation - Legacy of Odiil.esp
+
+[Order]
+Legend of ChemuaM.esp
+BTBGIsation - Legend of ChemuaM.esp
+
+[Order]
+LegendOmnidex.esp
+BTBGIsation - LegendOmnidex.esp
+
+[Order]
+Library of Vivec Overhaul - Full.esp
+BTBGIsation - Library of Vivec Overhaul - Full.esp
+
+[Order]
 Lost Redoran Relics.esp
 BTBGIsation - Lost Redoran Relics.esp
 
 [Order]
+Main_Quest_Overhaul.esp
+BTBGIsation - Main_Quest_Overhaul.esp
+
+[Order]
+Malham Companion Weapon.esp
+BTBGIsation - Malham Companion Weapon.esp
+
+[Order]
 Mamaea Awakened.esp
 BTBGIsation - Mamaea Awakened.esp
+
+[Order]
+ManyClothHelms.esp
+BTBGIsation - ManyClothHelms.esp
 
 [Order]
 Missing snow armor.esp
@@ -1653,6 +1837,14 @@ New Ilunibi.esp
 BTBGIsation - New Ilunibi.esp
 
 [Order]
+NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
+BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
+
+[Order]
+OAAB - Shipwrecks.esp
+BTBGIsation - OAAB - Shipwrecks.esp
+
+[Order]
 OAAB_Data.esm
 BTBGIsation - OAAB_Data.esp
 
@@ -1661,120 +1853,16 @@ OAAB_Tel Mora.esp
 BTBGIsation - OAAB_Tel Mora.esp
 
 [Order]
+Of Dungeons and Abodes.esp
+BTBGIsation - Of Dungeons and Abodes.esp
+
+[Order]
 OJAI - Framerate Version.esp
 BTBGIsation - OJAI - Framerate Version.esp
 
 [Order]
 Olafs Cloaks and Hoods.esp
 BTBGIsation - Olafs Cloaks and Hoods.esp
-
-[Order]
-Racer Dust Arms and Armor.esp
-BTBGIsation - Racer Dust Arms and Armor.esp
-
-[Order]
-Redoran Exile Armor.esp
-BTBGIsation - Redoran Exile Armor.esp
-
-[Order]
-Tel_Aruhn_Chronicles.esp
-BTBGIsation - Tel_Aruhn_Chronicles.esp
-
-[Order]
-Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
-BTBGIsation - Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
-
-[Order]
-Umbra, Blademaster.esp
-BTBGIsation - Umbra, Blademaster.esp
-
-[Order]
-Uvirith's Legacy_3.53.esp
-BTBGIsation - Uvirith's Legacy_3.53.esp
-
-[Order]
-Wanderers of Solstheim-TOTSP.esp
-BTBGIsation - Wanderers of Solstheim-TOTSP.esp
-
-[Order]
-A Hermit's Request.esp
-BTBGIsation - A Hermit's Request.esp
-
-[Order]
-Balmora Guilds Expanded.esp
-BTBGIsation - Balmora Guilds Expanded.esp
-
-[Order]
-Better Robes TR.esp
-BTBGIsation - Better Robes TR.esp
-
-[Order]
-Blacktooth.esp
-BTBGIsation - Blacktooth.esp
-
-[Order]
-DA_Sobitur_Facility_Clean.esp
-BTBGIsation - DA_Sobitur_Facility_Clean.esp
-
-[Order]
-DA_Sobitur_Quest_Part_1 Clean.esp
-BTBGIsation - DA_Sobitur_Quest_Part_1 Clean.esp
-
-[Order]
-DA_Sobitur_Quest_Part_2 Clean.esp
-BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
-
-[Order]
-DA_Sobitur_Repurposed_1.esp
-BTBGIsation - DA_Sobitur_Repurposed_1.esp
-
-[Order]
-DRPV1.9.esp
-BTBGIsation - DRPV1.9.esp
-
-[Order]
-Entertainers Expanded.esp
-BTBGIsation - Entertainers Expanded.esp
-
-[Order]
-Fighters_Guild_Questline_Overhaul.esp
-BTBGIsation - Fighters_Guild_Questline_Overhaul.esp
-
-[Order]
-Fishing.esp
-BTBGIsation - Fishing.esp
-
-[Order]
-King of Worms.esp
-BTBGIsation - King of Worms.esp
-
-[Order]
-Legacy of Odiil.esp
-BTBGIsation - Legacy of Odiil.esp
-
-[Order]
-Legend of ChemuaM.esp
-BTBGIsation - Legend of ChemuaM.esp
-
-[Order]
-LegendOmnidex.esp
-BTBGIsation - LegendOmnidex.esp
-
-[Order]
-Library of Vivec Overhaul - Full.esp
-BTBGIsation - Library of Vivec Overhaul - Full.esp
-
-[Order]
-ManyClothHelms.esp
-BTBGIsation - ManyClothHelms.esp
-
-[Order]
-NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
-BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
-
-[Order]
-Of Dungeons and Abodes.esp
-BTBGIsation - Of Dungeons and Abodes.esp
 
 [Order]
 OldMournholdOverhaul.esp
@@ -1793,6 +1881,26 @@ Quests for Clans and Vampire Legends.esp
 BTBGIsation - Quests for Clans and Vampire Legends.esp
 
 [Order]
+Racer Dust Arms and Armor.esp
+BTBGIsation - Racer Dust Arms and Armor.esp
+
+[Order]
+Redoran Exile Armor.esp
+BTBGIsation - Redoran Exile Armor.esp
+
+[Order]
+RV Necrorobes.esp
+BTBGIsation - RV Necrorobes.esp
+
+[Order]
+Sacred Necromancer.esp
+BTBGIsation - Sacred Necromancer.esp
+
+[Order]
+Sacred Necromancer no npcs.esp
+BTBGIsation - Sacred Necromancer.esp
+
+[Order]
 SHS - Bloodskal Barrow.esp
 BTBGIsation - SHS - Bloodskal Barrow.esp
 
@@ -1801,12 +1909,24 @@ Siege at Firemoth.esp
 BTBGIsation - Siege at Firemoth.esp
 
 [Order]
+Siege at Firemoth Naturalized.esp
+BTBGIsation - Siege at Firemoth Naturalized.esp
+
+[Order]
 Silent Island.esp
 BTBGIsation - Silent Island.esp
 
 [Order]
+sm_tr.ESP
+BTBGIsation - sm_tr.esp
+
+[Order]
 Sotha Sil Expanded.esp
 BTBGIsation - Sotha Sil Expanded.esp
+
+[Order]
+Strider Burial.esp
+BTBGIsation - Strider Burial.esp
 
 [Order]
 SV - Terrors Of The Night Normal.esp
@@ -1815,6 +1935,10 @@ BTBGIsation - SV - Terrors Of The Night Normal.esp
 [Order]
 Talos Cult Conspiracy.esp
 BTBGIsation - Talos Cult Conspiracy.esp
+
+[Order]
+Tel_Aruhn_Chronicles.esp
+BTBGIsation - Tel_Aruhn_Chronicles.esp
 
 [Order]
 The Hammer of Orsinium.esp
@@ -1833,44 +1957,56 @@ The Rise of the Tribe Unmourned.esp
 BTBGIsation - The Rise of the Tribe Unmourned.esp
 
 [Order]
+The Vestige of Bethaleft.esp
+BTBGIsation - The Vestige of Bethaleft.esp
+
+[Order]
 TheRedoranAmulet.esp
 BTBGIsation - TheRedoranAmulet.esp
 
 [Order]
-Vivec Waistworks Expansion - GoVH comp.esp
-BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
-
-[Order]
-Camonna Tong.esp
-BTBGIsation - Camonna Tong.esp
-
-[Order]
-Malham Companion Weapon.esp
-BTBGIsation - Malham Companion Weapon.esp
-
-[Order]
-Main_Quest_Overhaul.esp
-BTBGIsation - Main_Quest_Overhaul.esp
+Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+BTBGIsation - Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
 
 [Order]
 THTWG - Harder Version.esp
 BTBGIsation - THTWG - Harder Version.esp
 
 [Order]
-The Vestige of Bethaleft.esp
-BTBGIsation - The Vestige of Bethaleft.esp
+Umbra, Blademaster.esp
+BTBGIsation - Umbra, Blademaster.esp
 
 [Order]
-sm_tr.ESP
-BTBGIsation - sm_tr.esp
+Uvirith's Legacy_3.53.esp
+BTBGIsation - Uvirith's Legacy_3.53.esp
+
+[Order]
+Vampire Hunters, but They Want to Reintroduce You to Death.esp
+BTBGIsation - Vampire Hunters, but They Want to Reintroduce You to Death.esp
+
+[Order]
+Vivec Waistworks Expansion - GoVH comp.esp
+BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
+
+[Order]
+Wanderers of Solstheim-TOTSP.esp
+BTBGIsation - Wanderers of Solstheim-TOTSP.esp
 
 [Order]
 Weapons Expansion Morrowind.esp
 BTBGIsation - Weapons Expansion Morrowind.esp
 
-;; BTBGIsation Merged Version ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
 [Order]
 Welcome to the Arena! v6.7.esp
+BTBGIsation - Welcome to the Arena! v6.7.esp
+
+;; BTBGIsation Merged Version ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
+[Order]
+A Hermit's Request.esp
+BTBGIsation - Merged.esp
+
+[Order]
+After the Blight.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -1882,10 +2018,34 @@ Area Effect Projectiles Integrated.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Astrologians Guild.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Baan_Binif.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Balmora Guilds Expanded.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Clean__Blackthorn Barrow.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Blacktooth.esp
+BTBGIsation - Merged.esp
+
+[Order]
 BT_Whitewolf_2_0_HOTV.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Camonna Tong.esp
+BTBGIsation - Merged.esp
+
+[Order] ; Deprecated but still available (Pharis)
 Clean To Serve Sithis_.esp
 BTBGIsation - Merged.esp
 
@@ -1898,7 +2058,31 @@ CultSheog.esp
 BTBGIsation - Merged.esp
 
 [Order]
+DA_Sobitur_Facility_Clean.esp
+BTBGIsation - Merged.esp
+
+[Order]
+DA_Sobitur_Quest_Part_1 Clean.esp
+BTBGIsation - Merged.esp
+
+[Order]
+DA_Sobitur_Quest_Part_2 Clean.esp
+BTBGIsation - Merged.esp
+
+[Order]
+DA_Sobitur_Repurposed_1.esp
+BTBGIsation - Merged.esp
+
+[Order]
 DD_Caldera_Expansion.esp
+BTBGIsation - Merged.esp
+
+[Order]
+DRPV1.9.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Entertainers Expanded.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -1906,7 +2090,31 @@ Face of the Hortator.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Fighters_Guild_Questline_Overhaul.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Fishing.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Helm of Tohan Naturalized.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Hunter's Mark - A Marksman Mod.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Imperial Employment Office (MD edits).esp
+BTBGIsation - Merged.esp
+
+[Order] ; Deprecated but still available (Pharis)
+King of Worms.esp
+BTBGIsation - Merged.esp
+
+[Order]
+lack_stridersnest.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -1914,11 +2122,39 @@ LeFemmArmor.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Legacy of Odiil.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Legend of ChemuaM.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LegendOmnidex.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Library of Vivec Overhaul - Full.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Lost Redoran Relics.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Main_Quest_Overhaul.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Malham Companion Weapon.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Mamaea Awakened.esp
+BTBGIsation - Merged.esp
+
+[Order]
+ManyClothHelms.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -1942,6 +2178,14 @@ New Ilunibi.esp
 BTBGIsation - Merged.esp
 
 [Order]
+NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
+BTBGIsation - Merged.esp
+
+[Order]
+OAAB - Shipwrecks.esp
+BTBGIsation - Merged.esp
+
+[Order]
 OAAB_Data.esm
 BTBGIsation - Merged.esp
 
@@ -1950,119 +2194,15 @@ OAAB_Tel Mora.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Of Dungeons and Abodes.esp
+BTBGIsation - Merged.esp
+
+[Order]
 OJAI - Framerate Version.esp
 BTBGIsation - Merged.esp
 
 [Order]
 Olafs Cloaks and Hoods.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Racer Dust Arms and Armor.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Redoran Exile Armor.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Tel_Aruhn_Chronicles.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Umbra, Blademaster.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Uvirith's Legacy_3.53.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Wanderers of Solstheim-TOTSP.esp
-BTBGIsation - Merged.esp
-
-[Order]
-A Hermit's Request.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Balmora Guilds Expanded.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Better Robes TR.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Blacktooth.esp
-BTBGIsation - Merged.esp
-
-[Order]
-DA_Sobitur_Facility_Clean.esp
-BTBGIsation - Merged.esp
-
-[Order]
-DA_Sobitur_Quest_Part_1 Clean.esp
-BTBGIsation - Merged.esp
-
-[Order]
-DA_Sobitur_Quest_Part_2 Clean.esp
-BTBGIsation - Merged.esp
-
-[Order]
-DA_Sobitur_Repurposed_1.esp
-BTBGIsation - Merged.esp
-
-[Order]
-DRPV1.9.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Entertainers Expanded.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Fighters_Guild_Questline_Overhaul.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Fishing.esp
-BTBGIsation - Merged.esp
-
-[Order]
-King of Worms.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Legacy of Odiil.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Legend of ChemuaM.esp
-BTBGIsation - Merged.esp
-
-[Order]
-LegendOmnidex.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Library of Vivec Overhaul - Full.esp
-BTBGIsation - Merged.esp
-
-[Order]
-ManyClothHelms.esp
-BTBGIsation - Merged.esp
-
-[Order]
-NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Of Dungeons and Abodes.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2082,6 +2222,26 @@ Quests for Clans and Vampire Legends.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Racer Dust Arms and Armor.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Redoran Exile Armor.esp
+BTBGIsation - Merged.esp
+
+[Order]
+RV Necrorobes.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Sacred Necromancer.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Sacred Necromancer no npcs.esp
+BTBGIsation - Merged.esp
+
+[Order]
 SHS - Bloodskal Barrow.esp
 BTBGIsation - Merged.esp
 
@@ -2090,11 +2250,23 @@ Siege at Firemoth.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Siege at Firemoth Naturalized.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Silent Island.esp
 BTBGIsation - Merged.esp
 
 [Order]
+sm_tr.ESP
+BTBGIsation - Merged.esp
+
+[Order]
 Sotha Sil Expanded.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Strider Burial.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2103,6 +2275,10 @@ BTBGIsation - Merged.esp
 
 [Order]
 Talos Cult Conspiracy.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Tel_Aruhn_Chronicles.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2122,23 +2298,15 @@ The Rise of the Tribe Unmourned.esp
 BTBGIsation - Merged.esp
 
 [Order]
+The Vestige of Bethaleft.esp
+BTBGIsation - Merged.esp
+
+[Order]
 TheRedoranAmulet.esp
 BTBGIsation - Merged.esp
 
 [Order]
-Vivec Waistworks Expansion - GoVH comp.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Camonna Tong.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Malham Companion Weapon.esp
-BTBGIsation - Merged.esp
-
-[Order]
-Main_Quest_Overhaul.esp
+Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2146,15 +2314,31 @@ THTWG - Harder Version.esp
 BTBGIsation - Merged.esp
 
 [Order]
-The Vestige of Bethaleft.esp
+Umbra, Blademaster.esp
 BTBGIsation - Merged.esp
 
 [Order]
-sm_tr.ESP
+Uvirith's Legacy_3.53.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Vampire Hunters, but They Want to Reintroduce You to Death.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Vivec Waistworks Expansion - GoVH comp.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Wanderers of Solstheim-TOTSP.esp
 BTBGIsation - Merged.esp
 
 [Order]
 Weapons Expansion Morrowind.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Welcome to the Arena! v6.7.esp
 BTBGIsation - Merged.esp
 
 [Conflict] ; The Better Robes - TR plugin is not included in the merge (Pharis)
@@ -2237,11 +2421,22 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Wyrmhaven.esp
 		BTBGIsation - abotWaterLife.esp
 		BTBGIsation - quarraclan_refreshed.esp
-		BTBGIsation - sm_tr.esp]
+		BTBGIsation - sm_tr.esp
+		BTBGIsation - After the Blight.esp
+		BTBGIsation - Baan_Binif.esp
+		BTBGIsation - Blackthorn Barrow.esp
+		BTBGIsation - Havish.esp
+		BTBGIsation - Helm of Tohan Naturalized.esp
+		BTBGIsation - Imperial Employment Office (MD edits).esp
+		BTBGIsation - lack_stridersnest.esp
+		BTBGIsation - OAAB - Shipwrecks.esp
+		BTBGIsation - RV Necrorobes.esp
+		BTBGIsation - Sacred Necromancer.esp
+		BTBGIsation - Vampire Hunters, but They Want to Reintroduce You to Death.esp
+		BTBGIsation - Astrologians Guild.esp]
 
 
 ;; BTBGIsation Spears Base Plugin
-
 [Order] ; If not loaded after BTBGI main plugin its changes are overwritten
 BTB's Game Improvements (Necro Edit).esp
 BTBGIsation - Spears - Base.esp
@@ -2249,21 +2444,6 @@ BTBGIsation - Spears - Base.esp
 [Order] ; If not loaded after BTBGI main plugin its changes are overwritten
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGIsation - Spears - Base.esp
-
-;; Conflicts
-[Conflict]
-	Use only one of these plugins:
-		'BTBGI Loot Patch.esp' - If you are not using "There Can Be Only One".
-		'BTBGI Loot Patch TCBOO.esp' - If you are using "There Can Be Only One".
-BTBGI Loot Patch.esp
-BTBGI Loot Patch TCBOO.esp
-
-[Conflict]
-	Use only one of these plugins:
-		'BTBGI Loot Patch Weapons Integrated.esp' - With "OAAB Weapons Integrated" and "Oriental Ebony Weapons Integrated".
-		'BTBGI Loot Patch TCBOO Weapons Integrated.esp' - With "OAAB Weapons Integrated", "Oriental Ebony Weapons Integrated", and "There Can Be Only One".
-BTBGI Loot Patch Weapons Integrated.esp
-BTBGI Loot Patch TCBOO Weapons Integrated.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Caldera Mine Expansion
@@ -2766,7 +2946,7 @@ FGI_BalmoraGuildsExpanded_Patch.esp
 [Note]
 	!! FlinSunset provides a patch for "Balmora Guilds Expanded" and "Fighters Guild Improved", download it here:
 	!! ( https://www.nexusmods.com/morrowind/mods/51409 )
-[ALL    Fighters Guild Improved.esp
+[ALL	Fighters Guild Improved.esp
 		Balmora Guilds Expanded.esp
 		[NOT	[ANY	Dura Gra-Bol's House Reclaimed.ESP
 						FGI_BalmoraGuildsExpanded_Patch.esp]]]
@@ -2975,8 +3155,8 @@ Glowing Flames - TrueLightsAndDarkness Tweaks.esp
 	Caeris provides a patch for "Mines & Caverns" and "God of Worms", download it here:
 	( https://www.nexusmods.com/morrowind/mods/48028 )
 GoW-MaC Patch.esp
-[ALL Clean_Mines & Caverns.esp
-	 God of Worms.esp]
+[ALL	Clean_Mines & Caverns.esp
+		God of Worms.esp]
 
 [Order]
 Clean_Mines & Caverns.esp
@@ -3015,7 +3195,7 @@ Go To Jail*.esp
 [Note]
 	!! There is an ESP replacer for "Grandfather Frost" that is compatible with "Solstheim - Tomb of the Snow Prince", download it here:
 	!! ( https://www.nexusmods.com/morrowind/mods/48422 )
-[ALL    Grandfather Frost.esp
+[ALL	Grandfather Frost.esp
 		Solstheim Tomb of the Snow Prince.esm
 		[NOT	Grandfather Frost - TOTSP.esp]]
 
@@ -3098,6 +3278,21 @@ LuceEdit - Guild of Vampire Hunters.esp
 [Order] ; AVP (Pharis)
 The Hammer of Orsinium.esp
 The Hammer of Orsinium - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Helms Of Sight
+
+[Order]
+Galleo_AW_Shields_Back*.esp
+Helms Of Sight*.esp
+
+[Order]
+Bound Armor*.esp
+Helms Of Sight*.esp
+
+[Order]
+ab01armorsWeaponsMerged*.esp
+Helms Of Sight*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Hold It
@@ -3437,7 +3632,7 @@ LDM - Choices & Consequences v<VER>.esp
 	Already merged in compilation "LDM - Context Matters".
 	( Written for version 1.5 )
 LDM - Context Matters <VER>.esp
-[ANY    A Cure for Vampirism - Skink's Solution.esp
+[ANY	A Cure for Vampirism - Skink's Solution.esp
 		Caius Directions Anti-Journal.esp
 		FMI_Disease_Descriptions.esp
 		FMI_Ingredient_Locations <VER>.esp
@@ -3451,7 +3646,7 @@ LDM - Context Matters <VER>.esp
 	Already merged, reimplemented or tweaked in compilation "LDM - Choices and Consequences". Don't use together.
 	( Written for version 0.48 )
 LDM - Choices and Consequences v<VER>.esp
-[ANY    Ajira Deflowered.esp
+[ANY	Ajira Deflowered.esp
 		Balmora Rumours Fix*.esp
 		Blight at the Hairat-Vassamsi Egg Mine.esp
 		Duel of Honor - Improve the Chances.esp
@@ -3583,6 +3778,10 @@ Save the Date - MQO Patch.esp
 Main Quest Overhaul.esp
 Immersive_corprus.esp
 
+[Order]
+Main_Quest_Overhaul.esp
+Your Own Ashlander Tribe.esp
+
 [Conflict]
 	Already merged in compilation "Main Quest Overhaul".
 Main_Quest_Overhaul.esp
@@ -3679,10 +3878,6 @@ ab01scenicCompilation*.esp
 
 [Order]
 Clean_Mines & Caverns.esp
-Ministry_of_Clarity.esp
-
-[Order]
-Clean_Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3693,6 +3888,21 @@ correctUV Ore Replacer_fixed.esp
 Mining Pick Requirement - correctUV Ore Replacer_fixed from GH.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ministry of Clarity
+
+[Order]
+Clean_Mines & Caverns.esp
+Ministry_of_Clarity.esp
+
+[Order]
+K_Scroll_Upgrade_STH+misc.esp
+Ministry_of_Clarity.esp
+
+[Order]
+Sixth House.esp
+Ministry_of_Clarity.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Minotaurs Ring
 
 [Order] ; AVP (Pharis)
@@ -3701,8 +3911,6 @@ The Minotaurs Ring - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mixed Cantons of Vivec
-
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Moonlight on the Odai River
@@ -3810,6 +4018,10 @@ Morag Tong Polished.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD
 
+[Order] ; Conflict with one creature, addon should probably win that (Pharis)
+MDMD - More Deadly Morrowind Denizens.esp
+MDMD - Creatures Add-On.esp
+
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
 Expansions Integrated.esp
 MDMD - More Deadly Morrowind Denizens.esp
@@ -3898,7 +4110,7 @@ mdmd - uvirith legacy cooperation.esp
 
 [Conflict]
 	Use only one of these plugins:
-  		'MDMD - More Deadly Morrowind Denizens.esp' - Full MDMD experience.
+  		'MDMD - More Deadly Morrowind Denizens.esp' - Full "MDMD" experience.
   		'MDMD - Bosses Only.esp - Only change bosses of faction questlines and artifact owners.
 MDMD - More Deadly Morrowind Denizens.esp
 MDMD - Bosses Only.esp
@@ -4146,7 +4358,7 @@ OAAB Weapons Integrated TB Patch.esp
 [Conflict]
 	'Oriental Ebony Weapon.esp' should be disabled.
 Oriental Ebony Weapon.esp
-[ANY    Oriental Ebony Weapons Integrated.esp
+[ANY	Oriental Ebony Weapons Integrated.esp
 		Oriental Ebony Weapons Integrated - TCBOO.esp]
 
 [Order]
@@ -4194,7 +4406,7 @@ Moonmoth Legion Fort Overhaul.esp
 OAAB - Shipwrecks.esp
 OAAB - Shipwrecks - TR Patch.esp
 
-[Order] ; Otherwise two ships in the same place
+[Order] ; Otherwise two ships in the same place (Pharis)
 Justice4Khartag.esp
 OAAB - Shipwrecks.esp
 
@@ -4432,7 +4644,7 @@ PCD_PFP_Compat.esp
 ;; @Ports of Vvardenfell
 
 [Conflict]
-	Each of these plugins is a different version of "The Stonewood Pass", use only one of them.
+	Each of these plugins is a different version of "Ports of Vvardenfell", use only one of them.
 Ports Of Vvardenfell V1.6.ESP
 Ports Of Vvardenfell LITE.esp
 Ports Of Vvardenfell V1.6 - Clean.esp ; AVP
@@ -4749,6 +4961,17 @@ TR_Travels*.esp
 TC_SadrithMoraClosed.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Save the Date
+
+[Order]
+Save the Date.esp
+Save the Date - MQO Patch.esp
+
+[Order]
+Vvardenfell Brotherhood.esp
+Save the Date.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silgrad Tower
 
 [Order]
@@ -4844,7 +5067,7 @@ Stone Halls of Solstheim.esp
 Stone Halls of Solstheim - Mortified.esp
 
 [Conflict]
-	'SHS - Bloodskal Barrow.esp' is outdated
+	'SHS - Bloodskal Barrow.esp' is outdated.
 SHS - Bloodskal Barrow.esp
 Stone Halls of Solstheim*.esp
 
@@ -5100,7 +5323,7 @@ There Can Be Only One (Alt Fyr) MDMD Patch.ESP
 There Can Be Only One (Alt Fyr 2).ESP
 There Can Be Only One (Alt Fyr 2) MDMD Patch.ESP
 
-;; Alvazir There Can Only Be One Patches
+;; Alvazir There Can Be Only One Patches
 [Order]
 There Can Be Only One.esp
 avp There Can Be Only One -*.esp
@@ -5713,7 +5936,7 @@ ST_Books_Wares_rotate.esp
 [Conflict]
 	Use only one of these plugins:
   		'Wares_TR.esp' - Covers both Vvardenfell and "Tamriel Rebuilt".
-		'Wares_Vvardenfell.esp' - Covers Vvardenfell only and can be used with 'Wares-TR_DATA.esp' to add Tamriel Data items to levelled lists.
+		'Wares_Vvardenfell.esp' - Covers Vvardenfell only and can be used with 'Wares-TR_DATA.esp' to add "Tamriel Data" items to levelled lists.
 Wares_TR.esp
 Wares_Vvardenfell.esp
 
@@ -5726,7 +5949,7 @@ F&F_MOAR.esp
 
 [Conflict]
 	Use only one of these plugins:
-		'F&F_heads_vanilla.esp' -  If you have F&F_TR but don't want npcs to use TR heads.
+		'F&F_heads_vanilla.esp' -  If you have "F&F_TR" but don't want npcs to use TR heads.
 		'F&F_heads_Westly.esp' - NPCs will use heads from "Westly's Master Head Pack", download it here ( https://www.nexusmods.com/morrowind/mods/47605 ).
 F&F_heads_vanilla.esp
 F&F_heads_Westly.esp
@@ -6059,7 +6282,7 @@ Area Effect Projectiles and OAAB Weapons Integrated Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-[Order] ; Split this up and left in ab01GOTYpatch.esp because I just can't find it to check conflicts (Pharis)^
+[Order]
 ab01GOTYpatch.esp
 Sotha Sil Expanded*.esp
 
@@ -6189,14 +6412,6 @@ NPC_Commands*.esp
 Bound Armor*.esp
 
 [Order]
-Galleo_AW_Shields_Back*.esp
-Helms Of Sight*.esp
-
-[Order]
-Bound Armor*.esp
-Helms Of Sight*.esp
-
-[Order]
 ab01officialMerged*.esp
 ab01armorsFixedMerged.esp
 ab01ManaUserMerged*.esp
@@ -6256,10 +6471,6 @@ NOM3*.esp
 [Order]
 ab01GOTYpatch.esp
 ;JoinAll*.esp
-
-[Order]
-K_Scroll_Upgrade_STH+misc.esp
-Ministry_of_Clarity.esp
 
 [Order]
 ab01gameplay.esp
@@ -6408,10 +6619,6 @@ WolfCompwhite*.esp
 [Order]
 k_weather.esp
 ab01Resources Enhanced Kollops&KwamaEggs.esp
-
-[Order]
-ab01armorsWeaponsMerged*.esp
-Helms Of Sight*.esp
 
 [Order]
 ab01armorsWeaponsMerged*.esp
@@ -6616,10 +6823,6 @@ Morag Tong Polished.esp
 MTP - CR Patch.esp
 
 [Order]
-Sixth House.esp
-Ministry_of_Clarity.esp
-
-[Order]
 Creatures (*).esp
 Putting Power in Willpower - Absorbonach.esp
 
@@ -6781,7 +6984,7 @@ Vanheim*.esp
 
 [Order]
 *Miridian*.esp
-*toes*.esp ; Odd rule (Pharis)
+*toes*.esp
 
 [Order]
 Creatures_RP*.esp
@@ -6891,10 +7094,6 @@ The Talos Cult Conspiracy.esp
 Talos Cult Revised.esp
 
 [Order]
-Vvardenfell Brotherhood.esp
-Save the Date.esp
-
-[Order]
 Morrowind Anti-Cheese.esp
 Imperial Factions.esp
 quarraclan_refreshed_legends - Faction and Anti-Cheese.esp
@@ -6903,10 +7102,6 @@ quarraclan_refreshed_legends - Faction and Anti-Cheese.esp
 No One is Above the Law (Stable).esp
 Go To Jail 3.7.esp
 No one is Above the law - Go To Jail Patch.esp
-
-[Order]
-Save the Date.esp
-Save the Date - MQO Patch.esp
 
 [Order]
 Imperial Legion Expansion.esp
@@ -6922,7 +7117,3 @@ RP House Hlaalu.esp
 [Order]
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
-
-[Order]
-Main_Quest_Overhaul.esp
-Your Own Ashlander Tribe.esp
