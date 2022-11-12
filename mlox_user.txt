@@ -749,7 +749,7 @@ Beautiful cities of Morrowind.esp
 RedMountainReborn.esp
 RMR_patch.esp
 
-[Order] ; Prevents land tear
+[Order] ; Prevents land tear, I'd rather remove this and solve the incompatibility in some other way^ (Pharis)
 BCOM - Taller Lighthouse.esp
 Shipyards of Vvardenfell.esp
 
@@ -1013,7 +1013,7 @@ BTBGI Bloodmoon Rebalance Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Bloodmoon Rebalance.esp]
 
-[Order]
+[Order] ; Patch just needs to be after both plugins (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI Bloodmoon Rebalance Patch.esp
 
@@ -1028,9 +1028,12 @@ BTBGI Tribunal Rebalance Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Tribunal Rebalance.esp]
 
-[Order] ; Order of all three is important (Pharis)
-Tribunal Rebalance.esp
+[Order] ; Patch just needs to be after both plugins (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI Tribunal Rebalance Patch.esp
+
+[Order]
+Tribunal Rebalance.esp
 BTBGI Tribunal Rebalance Patch.esp
 
 [Patch]
@@ -4978,6 +4981,13 @@ Save the Date - MQO Patch.esp
 [Order]
 Vvardenfell Brotherhood.esp
 Save the Date.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Secrets of the Crystal City
+
+[Order] ; If Mines & Caverns loads after Massama Cave is filled with water ( Ref: readme https://www.nexusmods.com/morrowind/mods/51932 ) (Pharis)
+Clean_Mines & Caverns.esp
+SecretsOfTheCrystalCity.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silgrad Tower
