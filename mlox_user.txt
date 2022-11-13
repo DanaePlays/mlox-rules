@@ -109,6 +109,21 @@ abotBoatsTR2002_RVP.esp
 TOTSP_abotBoats.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Adamantium Armor Integrated
+
+[Order]
+Adamantium Armor Integrated.esp
+Morrowind Anti-Cheese Adamantium Armor Integrated Patch.esp
+
+[Order]
+Morrowind Anti-Cheese.esp
+Morrowind Anti-Cheese Adamantium Armor Integrated Patch.esp
+
+[Order]
+Morrowind Anti-Cheese Tweaked.esp
+Morrowind Anti-Cheese Adamantium Armor Integrated Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @A Different Way to Go about Sheep Sounds - The Story of Shaggy the Goat
 
 [Conflict]
@@ -1285,6 +1300,10 @@ chuzei_helm_no_neck - BTBGI.esp
 [Order]
 BTB's Game Improvements*.esp
 chuzei_helm_no_neck - BTBGI.esp
+
+[Order]
+EBQ_Artifact.esp
+Helm of Tohan BTBGI Patch.esp
 
 [Note]
 	! Necrolesian recommends the tweaked "Morrowind Anti-Cheese" plugin provided with "BTB's Game Improvements (Necro Edit) Tweaked" instead of the original "Morrowind Anti-Cheese" plugin, download it here:
@@ -4913,6 +4932,17 @@ Reputation_Fixes_All.esp
 		Reputation_Fixes_Thieves_Guild.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Restocking Alchemy Essentials
+
+[Order] ; Patch after both mods ( Ref: https://www.nexusmods.com/morrowind/mods/49232 )
+Restocking Alchemy Essentials.esp
+Restocking Alchemy Essentials PoisonCrafting Patch.esp
+
+[Order]
+mwse_PoisonCrafting.esp
+Restocking Alchemy Essentials PoisonCrafting Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rethinking Vivec
 
 ;; TR_Travels Patches, order not specified anywhere but makes sense based on conflicts in TESPCD (Pharis)
@@ -7075,14 +7105,6 @@ True Skyrimized Torches.esp
 [Order]
 Balance - spells.esp
 BadDefaultSpells*.esp
-
-[Order]^
-Restocking Alchemy Essentials.esp
-BTB's Game Improvements (Necro Edit)*.esp
-mwse_PoisonCrafting.esp
-Restocking Alchemy Essentials PoisonCrafting Patch.esp
-Realistic_Repair_Add-on.esp
-BTBGI Realistic Repair Add-on Patch.esp
 
 [Order]
 OAAB Creature Loot and Ingredients BTBGI Patch.esp
