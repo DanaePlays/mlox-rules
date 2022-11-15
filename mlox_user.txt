@@ -2925,11 +2925,14 @@ DD_2_ExpeditionToMzelthuand.esp
 ;; @Fighters Guild Improved [FlinSunset]
 
 ;; Reputation Fixes
-[Conflict] ; Compatible with modular version except for the Fighters Guild plugin (Pharis)
-	"Fighters Guild Improved" is incompatible with both the merged version of "Reputation Fixes" and its separate Fighters Guild plugin, to use these two mods together use the modular "Reputation Fixes" plugins and omit the Fighters Guild one.
+[Order]
+Reputation_Fixes_All.esp
 Fighters Guild Improved.esp
-[ANY	Reputation_Fixes_All.esp
-		Reputation_Fixes_Fighters_Guild_.esp]
+
+[Conflict]
+	"Fighters Guild Improved" is incompatible with the "Reputation Fixes" modular Fighters Guild only plugin; use either only the merged "Reputation Fixes" plugin or any combination of the other modular plugins.
+Fighters Guild Improved.esp
+Reputation_Fixes_Fighters_Guild_.esp
 
 ;; The Pretty Reckless
 [Order] ; Compatible if loaded before FGI ( Ref: Fighters Guild Improved Nexus Description, thanks Flin for reporting ) (Pharis)
@@ -2937,8 +2940,11 @@ The Pretty Reckless.esp
 Fighters Guild Improved.esp
 
 ;; More Deadly Morrowind Denizens
-[Order] ; Order of all three specified ( Ref: Flin told me ) (Pharis)
+[Order] ; ( Ref: Flin told me ) (Pharis)
 MDMD - More Deadly Morrowind Denizens.esp
+FGI_MDMD_Patch.esp
+
+[Order]
 Fighters Guild Improved.esp
 FGI_MDMD_Patch.esp
 
@@ -2949,6 +2955,15 @@ Dura Gra-Bol's House Reclaimed.ESP
 FGI_DuraGraBolsHouseReclaimed_Patch.esp
 
 ;; Bal Molagmer/Thieves' Guild Overhaul
+[Patch]
+	FlinSunset provides a patch for either "Thieves' Guild Overhaul" or "Bal Molagmer Add-on" and "Fighters Guild Improved".
+	[Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		[ANY	Thieves_Guild_Overhaul.esp
+				Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+				Bal Molagmer Add-on.esp]]
+
 [Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
 Fighters Guild Improved.esp
 FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
@@ -2965,79 +2980,101 @@ FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
 Bal Molagmer Add-on.esp
 FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
 
-[Patch]
-	FlinSunset provides a patch for either "Thieves' Guild Overhaul" or "Bal Molagmer Add-on" and "Fighters Guild Improved", download it here:
-	( https://www.nexusmods.com/morrowind/mods/51409 )
-FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
-[ALL	Fighters Guild Improved.esp
-		[ANY	Thieves_Guild_Overhaul.esp
-				Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
-				Bal Molagmer Add-on.esp]]
-
 ;; Balmora Guilds Expanded
-[Order] ; Only specified that it needs to be after Balmora Guilds Expanded, deletes Dura Gra-Bol dialogue entry ( Ref: the loadorder.txt) (Pharis)
-Balmora Guilds Expanded.esp
-FGI_BalmoraGuildsExpanded_Patch.esp
-
 [Note]
-	!! FlinSunset provides a patch for "Balmora Guilds Expanded" and "Fighters Guild Improved", download it here:
-	!! ( https://www.nexusmods.com/morrowind/mods/51409 )
+	!! FlinSunset provides a patch for "Balmora Guilds Expanded" and "Fighters Guild Improved".
+	!! [Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
 [ALL	Fighters Guild Improved.esp
 		Balmora Guilds Expanded.esp
 		[NOT	[ANY	Dura Gra-Bol's House Reclaimed.ESP
 						FGI_BalmoraGuildsExpanded_Patch.esp]]]
 
-[Conflict]
-	This patch deletes a Dura Gra-Bol dialogue entry and is not meant to be used alongside "Dura Gra-Bol's House Reclaimed" according to the "Fighters Guild Improved" README, simply deactivate 'FGI_BalmoraGuildsExpanded_Patch.esp' when using "Dura Gra-Bol's House Reclaimed".
+[Order] ; Only specified that it needs to be after Balmora Guilds Expanded, deletes Dura Gra-Bol dialogue entry ( Ref: the loadorder.txt) (Pharis)
+Balmora Guilds Expanded.esp
 FGI_BalmoraGuildsExpanded_Patch.esp
-Dura Gra-Bol's House Reclaimed.ESP
+
+[Conflict]
+	This patch deletes a Dura Gra-Bol dialogue entry and is not meant to be used alongside "Dura Gra-Bol's House Reclaimed" according to the "Fighters Guild Improved" ReadMe; simply deactivate 'FGI_BalmoraGuildsExpanded_Patch.esp' when using "Dura Gra-Bol's House Reclaimed".
+FGI_BalmoraGuildsExpanded_Patch.esp
+Dura Gra-Bol's House Reclaimed.esp
 
 ;; Camonna Tong
+[Patch]
+	FlinSunset provides a patch for "Camonna Tong" and "Fighters Guild Improved".
+	[Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_CaerisCamonnaTong_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		[DESC /Enjoy!/ Camonna Tong.esp]]
+
 [Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
 Fighters Guild Improved.esp
 FGI_CaerisCamonnaTong_Patch.esp
 
 [Order] ; Patch after plugins it patches ( Ref: the loadorder.txt ) (Pharis)
-Camonna Tong.esp
+[DESC /Enjoy!/ Camonna Tong.esp]
 FGI_CaerisCamonnaTong_Patch.esp
 
+;; Join the Camonna Tong
 [Patch]
-	FlinSunset provides a patch for "Camonna Tong" and "Fighters Guild Improved", download it here:
-	( https://www.nexusmods.com/morrowind/mods/51409 )
-FGI_CaerisCamonnaTong_Patch.esp
+	FlinSunset provides a patch for "Join the Camonna Tong" and "Fighters Guild Improved".
+	[Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_JoinTheCamonnaTong_Patch.esp
 [ALL	Fighters Guild Improved.esp
-		Camonna Tong.esp]
+		[DESC !/Enjoy!/ Camonna Tong.esp]]
 
-;; Caldera Mine Expanded
-[Order] ; Only specified that it needs to be after FGI ( Ref: the loadorder.txt) (Pharis)
+[Order]
+[DESC !/Enjoy!/ Camonna Tong.esp]
 Fighters Guild Improved.esp
-FGI_CalderaMineExpanded_Patch.esp
 
-[Patch]
-	FlinSunset provides a patch for "Caldera Mine Expanded" and "Fighters Guild Improved", download it here:
-	( https://www.nexusmods.com/morrowind/mods/51409 )
-FGI_CalderaMineExpanded_Patch.esp
-[ALL	Fighters Guild Improved.esp
-		DD_Caldera_Expansion.esp]
+[Order]
+[DESC !/Enjoy!/ Camonna Tong.esp]
+FGI_JoinTheCamonnaTong_Patch.esp
+
+;; Cutting Room Floor
+[Order]
+Cutting Room Floor.esp
+Fighters Guild Improved.esp
+
+[Order]
+Cutting Room Floor - Quests.esp
+Fighters Guild Improved.esp
 
 ;; Quests for Faction Leaders
+[Patch]
+	FlinSunset provides a patch for "Quests for Faction Leaders" and "Fighters Guild Improved".
+	[Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
+FGI_QuestsForFactionLeaders_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		[ANY	Quests for Faction Leaders.esp
+				Quests for Faction Leaders Non TR version.esp]]
+
 [Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
 Quests for Faction Leaders.esp
 Fighters Guild Improved.esp
 FGI_QuestsForFactionLeaders_Patch.esp
 
 [Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
-Quests for Faction Leaders Non TR version.ESP
+Quests for Faction Leaders Non TR version.esp
 Fighters Guild Improved.esp
 FGI_QuestsForFactionLeaders_Patch.esp
 
-[Patch]
-	FlinSunset provides a patch for "Quests for Faction Leaders" and "Fighters Guild Improved", download it here:
-	( https://www.nexusmods.com/morrowind/mods/51409 )
-FGI_QuestsForFactionLeaders_Patch.esp
-[ALL	Fighters Guild Improved.esp
-		[ANY	Quests for Faction Leaders.esp
-				Quests for Faction Leaders Non TR version.ESP]]
+;; Quest Tweaks and Alternatives
+[Conflict]
+	Use only the "1.19 - No FG" version of "Quest Tweaks and Alternatives" provided in the "Fighters Guild Improved" BAIN installer.
+	[Fighters Guild Improved]( https://www.nexusmods.com/morrowind/mods/51409 )
+Fighters Guild Improved.esp
+[ALL	Quest Tweaks and Alternatives_<VER>.esp
+		[NOT	Quest Tweaks and Alternatives_1.19 - No FG Version.esp]]
+
+;; General Conflicts
+[Conflict]
+	Incompatible with "Fighters Guild Improved".
+Fighters Guild Improved.esp
+[ANY	Freelancer v1.1.esp
+		Fighters_Guild_Questline_Overhaul.esp
+		FG_VivecRefuseKills.esp
+		Desele's Debt Money Tweaked 500.esp
+		Desele's Debt Money Tweaked 1000.esp]
 
 [Conflict] ; Already a BAIN but someone could still accidentally have modular and merged so I may as well add it (Pharis)
 	You are using the full "Fighters Guild Improved" plugin alongside at least one of the modular plugins. Use either only the full plugin or any combination of the modular plugins.
