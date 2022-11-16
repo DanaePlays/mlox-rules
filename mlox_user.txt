@@ -141,11 +141,11 @@ Ajira Deflowered - Patch for Purists.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ald'ruhn - Seat of power of House Redoran [RandomPal]
 
-[Order] ; ( Ref: Knots told me ) (Pharis) 
+[Order] ; ( Ref: Knots told me ) (Pharis)
 RedMountainReborn.esp
 AldRuhn_seat_of_power_RMR.esp
 
-[Order] ; ( Ref: Knots told me ) (Pharis) 
+[Order] ; ( Ref: Knots told me ) (Pharis)
 RedMountainReborn.esp
 AldRuhn_seat_of_power_RR_Skar_RMR.esp
 
@@ -174,7 +174,7 @@ Ald-Ruhn Temple Expansion 1.5.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Alms for ALMSIVI [Zaarin]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Alms and Donations.esp
 Alms and Donations - Script Fix.esp
 
@@ -336,26 +336,26 @@ BalmoraGravemarketBCOM.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balmora Guilds Expanded [Lucevar]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Balmora Guilds Expanded.esp
 Balmora Guilds Expanded - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balmora Waterworks [MwGek]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Balmora Waterworks.esp
 Boys in the Hood - Balmora Waterworks.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Boys in the Hood.esp
 Boys in the Hood - Balmora Waterworks.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Balmora Waterworks.esp
 FMI_HulStop 1.6 - Balmora Waterworks.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 FMI_HulStop 1.6.esp
 FMI_HulStop 1.6 - Balmora Waterworks.esp
 
@@ -416,7 +416,7 @@ Animated_Morrowind - merged - Balmora Waterworks Patch.esp
 Animated_Morrowind - merged - OpenMW.esp
 Animated_Morrowind - merged - Balmora Waterworks Patch.esp
 
-[Note] ; AVP (Pharis)
+[Note] ; From Alvazir's Various Patches (Pharis)
 	There is an ESP replacer for "Ports of Vvardenfell" that is compatible with "Balmora Waterworks" ( Choose either the Aggressively Compatible or Ultra Aggressively Compatible version ), download it here:
 	( https://www.nexusmods.com/morrowind/mods/48955 )
 [ALL	Balmora Waterworks.esp
@@ -657,7 +657,7 @@ MasterIndexRedux.esp
 Beautiful Cities of Morrowind.esp
 Racer Dust Arms and Armor.esp
 
-[Order] 
+[Order]
 Beautiful Cities of Morrowind.esp
 Living Quarters.esp
 
@@ -918,11 +918,11 @@ Beautiful cities of Morrowind.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bethesda Official Plugins Naturalized, @Official Plugins Naturalized [PikachunoTM]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Siege at Firemoth Naturalized.esp
 Siege at Firemoth Naturalized - Script Fix.esp
 
-[Requires] ; AVP (Pharis)
+[Requires] ; From Alvazir's Various Patches (Pharis)
 Siege at Firemoth Naturalized - Script Fix.esp
 Siege at Firemoth Naturalized.esp
 
@@ -1158,7 +1158,7 @@ Antares' Mages Robes BTBGI Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Antares' Mages Robes.esp]
 
-[Order] 
+[Order]
 Antares' Mages Robes.esp
 Antares' Mages Robes BTBGI Patch.esp
 
@@ -2482,7 +2482,7 @@ BTBGIsation - Spears - Base.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Caldera Mine Expanded [Greatness7, Melchior Dahrk, TheDrunkenMudcrab]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 DD_Caldera_Expansion.esp
 DD_Caldera_Expansion - Script Fix.esp
 
@@ -2508,7 +2508,7 @@ Camonna Tong - Improved Inns Expanded - Entertainers.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @CCM Secrets of Vos [clydemcelroy1]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 CCM-SecretsofVos-V2-TB.esp
 CCM-SecretsofVos-V2-TB - Script Fix.esp
 
@@ -2777,7 +2777,7 @@ Bloodmoon.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Divayth Fyr Puzzle Fixed [Remiros]
 
-;; Ownership Overhaul Patch 
+;; Ownership Overhaul Patch
 ;; dwrv_chest_divayth should be owned by divayth fyr (JosephMcKean)
 [Order]
 Divayth Fyr Puzzle Fixed.ESP
@@ -2805,7 +2805,7 @@ Djangos Dialogue.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Doors of Oblivion, @Doors of Oblivion [Ashstaar]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 The Doors of Oblivion 1.4.esp
 The Doors of Oblivion 1.4 - Script Fix.esp
 
@@ -2832,7 +2832,7 @@ DwemerContraband.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dwemer Rebirth Project [RubberMan]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 DRPV1.9.esp
 DRPV1.9 - Script Fix.esp
 
@@ -3108,11 +3108,11 @@ Fighters Guild Improved.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Fighters Guild Questline Overhaul [zelazko]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Fighters_Guild_Questline_Overhaul.esp
 Fighters_Guild_Questline_Overhaul - Enable OpenMW.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Fighters_Guild_Questline_Overhaul.esp
 Fighters_Guild_Questline_Overhaul - Script Fix.esp
 
@@ -3143,7 +3143,7 @@ floaty_boaties*.esp
 ;; @FMGS - Unique Items Compilation [PikachunoTM]
 
 [Order]
-FM - Unique Items v1.0.esp 
+FM - Unique Items v1.0.esp
 FM - Unique Items v1.0 - PfP.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3284,7 +3284,7 @@ Grandfather Frost - TOTSP.esp
 	Use only one of these plugins:
 		'correctUV Ore Replacer_fixed.esp' - Ore will not respawn.
 		'correctUV Ore Replacer_respawning.esp' - Ore will respawn.
-correctUV Ore Replacer_fixed.esp 
+correctUV Ore Replacer_fixed.esp
 correctUV Ore Replacer_respawning.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -3300,7 +3300,7 @@ Graht Morrowind Swamp Trees.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Great Wizard Fantasco [DasOmega]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 The Great Fantasco.esp
 The Great Fantasco - Script Fix.esp
 
@@ -3323,7 +3323,7 @@ LGNPC_NoLore.esp
 GfNL-LGNPC Patch.esp
 
 [Patch]
-	There is a patch for "Greetings for No Lore" and "LGNPC_NoLore", download it here: 
+	There is a patch for "Greetings for No Lore" and "LGNPC_NoLore", download it here:
 	( https://www.nexusmods.com/morrowind/mods/46063?tab=description )
 GfNL-LGNPC Patch.esp
 [ALL	Greetings for No Lore.esp
@@ -3348,7 +3348,7 @@ LuceEdit - Guild of Vampire Hunters.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Hammer of Orsinium [Terik Fel]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 The Hammer of Orsinium.esp
 The Hammer of Orsinium - Script Fix.esp
 
@@ -3797,7 +3797,7 @@ Concept art Gnisis - Lightweight.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mage Robes [Melchior Dahrk]
 
-[Order] ; Overwrites robe enchantments (Pharis) 
+[Order] ; Overwrites robe enchantments (Pharis)
 Mage Robes.esp
 Mage Robes_Weak.esp
 
@@ -3925,7 +3925,7 @@ Memento Mori.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mines and Caverns [jsp25]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Clean_Mines & Caverns.esp
 Clean_Mines & Caverns - Script Fix.esp
 
@@ -3982,7 +3982,7 @@ Ministry_of_Clarity.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Minotaurs Ring [Hequm]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 The Minotaurs Ring.esp
 The Minotaurs Ring - Script Fix.esp
 
@@ -3992,7 +3992,7 @@ The Minotaurs Ring - Script Fix.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Moonlight on the Odai River [MatthewTheBagel]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 MoonlightOnTheOdaiRiver.esp
 MoonlightOnTheOdaiRiver - Script Fix.esp
 
@@ -4050,7 +4050,7 @@ Morag Tong Polished.esp
 [Note]
 	!! Alvazir has a patch for "Morag Tong Polished" and "TR Factions", download it here:
 	!! ( https://www.nexusmods.com/morrowind/mods/48955 )
-[ALL	Morag Tong Polished.esp 
+[ALL	Morag Tong Polished.esp
 		TR_Factions.esp
  		[NOT 	[ANY	Morag Tong Polished - TR_Factions.esp
 	 					EcoAdjCrime (Necro Edit).esp]]]
@@ -4058,7 +4058,7 @@ Morag Tong Polished.esp
 [Note]
 	!! Alvazir has a patch for "Morag Tong Polished" and "Economy Adjuster Adjustments Crime", download it here:
 	!! ( https://www.nexusmods.com/morrowind/mods/48955 )
-[ALL	Morag Tong Polished.esp 
+[ALL	Morag Tong Polished.esp
 		EcoAdjCrime (Necro Edit).esp
 		[NOT 	[ANY	Morag Tong Polished - EcoAdjCrime_NE.esp
 						TR_Factions.esp]]]
@@ -4079,7 +4079,7 @@ Morag Tong Polished - TR_Factions.esp
 [Requires]
 Morag Tong Polished - EcoAdjCrime_NE.esp
 [All	Morag Tong Polished.esp
-		EcoAdjCrime (Necro Edit).esp]	
+		EcoAdjCrime (Necro Edit).esp]
 
 [Requires]
 Morag Tong Polished - TR_Factions - EcoAdjCrime_NE.esp
@@ -4421,7 +4421,7 @@ NPC Faction Affiliation Corrector (Maximalistic).esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Schedule [Grumpy, Dungeom]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 NPC_Schedule(beta).esp
 NPC_Schedule(beta) - Patch.esp
 
@@ -4572,7 +4572,7 @@ Of Dungeons and Abodes-TeleportAmulet-Fix.esp
 Beautiful cities of Morrowind.esp
 OEAD_BCOM_Patch.esp
 
-[Order] 
+[Order]
 Of Eggs and Dwarves.esp
 OEAD_BCOM_Patch.esp
 
@@ -5096,11 +5096,11 @@ Skar_face.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sobitur Facility [dagothagahnim]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 DA_Sobitur_Facility_Clean.esp
 DA_Sobitur_Facility_Clean - Script Fix.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 DA_Sobitur_Quest_Part_1 Clean.esp
 DA_Sobitur_Quest_Part_1 Clean - Script Fix.esp
 
@@ -5131,14 +5131,14 @@ Lake Fjalding Anti-Suck.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sotha Sil Expanded [Team SSE]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Sotha Sil Expanded.esp
 Sotha Sil Expanded - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Staff Agency 2.1 [Danae]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Staff Agency_NoModels.esp
 Staff Agency_NoModels - Script Fix.esp
 
@@ -5152,7 +5152,7 @@ Stone Halls of Solstheim.esp
 Stone Halls of Solstheim - Mortified.esp
 Haunted Barrows_SHS Patch.esp
 
-[Order] ; AVP, Outdated version but it's still on the Nexus so why not (Pharis) 
+[Order] ; AVP, Outdated version but it's still on the Nexus so why not (Pharis)
 SHS - Bloodskal Barrow.esp
 SHS - Bloodskal Barrow - Script Fix.esp
 
@@ -5366,7 +5366,7 @@ Ashfall.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TeaMod [StuporStar]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 TeaMod_2.1.esp
 TeaMod_2.1 - Script Fix.esp
 
@@ -5546,7 +5546,7 @@ The Tribe Unmourned*.esp
 DN-GDRv<VER>*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @True Lights and Darkness, @TLAD [Cool Demon, B00ze, Necrolesian] 
+;; @True Lights and Darkness, @TLAD [Cool Demon, B00ze, Necrolesian]
 
 [Order]
 TLAD Full - Still -*.esp
@@ -5650,7 +5650,7 @@ Area Effect Arrows Integrated + UMOPP Patch.esp
 Unofficial Morrowind Official Plugins Patched.esp
 Beautiful Cities of Morrowind.esp
 
-[Conflict] ; 
+[Conflict] ;
 	You are using the merged "UMOPP" plugin alongside at least one of the separate official plugins. Use either only the merged plugin, any combination of the modular "UMOPP" plugins, or a combination of modular "UMOPP" plugins and alternate versions ( such as PikachunoTM's "Naturalized" versions ).
 Unofficial Morrowind Official Plugins Patched.esp
 [ANY	adamantiumarmor.esp
@@ -5710,7 +5710,7 @@ Cozy Khuul&Ald Velothi Ver.<VER>.esp
 Uvirith's Legacy_3.53.esp
 UL_3.5_TR_20.02_Add-on.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Uvirith's Legacy_3.53.esp
 Uvirith's Legacy_3.53 - Script Fix.esp
 
@@ -5806,7 +5806,7 @@ The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_E
 Religions Elaborated.esp
 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
 AliceL93 Vanilla Quest Tweaks - Script Fix.esp
 
@@ -5849,7 +5849,7 @@ Vvardenfell Brotherhood.esp
 Clean To Serve Sithis_.esp
 VB_EmynDB_Patch.esp
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 VB_EmynDB_Patch.esp
 VB_EmynDB_Patch - Script Fix.esp
 
@@ -5858,7 +5858,7 @@ VB_EmynDB_Patch - Script Fix.esp
 
 [Order]
 Velothi Wall Art.esp
-Velothi Wall Art Re-Addon.esp 
+Velothi Wall Art Re-Addon.esp
 
 [Order]
 Velothi Wall Art.esp
@@ -5931,7 +5931,7 @@ Vivec - God the City.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wanderers of Solstheim [ManaUser]
 
-[Order] ; AVP (Pharis)
+[Order] ; From Alvazir's Various Patches (Pharis)
 Wanderers of Solstheim-TOTSP.esp
 Wanderers of Solstheim-TOTSP - Script Fix.esp
 
@@ -6027,7 +6027,7 @@ Wares_Vvardenfell.esp
 ST_Books_Wares.esp
 ST_Books_Wares OAAB.esp
 ST_Books_Wares_rotate.esp
- 
+
 [Conflict]
 	Use only one of these plugins:
   		'Wares_TR.esp' - Covers both Vvardenfell and "Tamriel Rebuilt".
@@ -6113,7 +6113,7 @@ Solstheim Tomb of The Snow Prince.esm
 BT_Whitewolf*.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Windows Glow [Max a.k.a. ~NOBODY~, Colt17, abot] 
+;; @Windows Glow [Max a.k.a. ~NOBODY~, Colt17, abot]
 
 [Order]
 Windows?Glow*.esp
@@ -6876,7 +6876,7 @@ Guild of Vampire Hunters.esp
 ExpansionIntegration_1.1.esp
 Hunter's Mark - A Marksman Mod.esp
 
-[Order] 
+[Order]
 Djangos Dialogue.esp
 Kummu Monastery Revisited.esp
 constance1_0.esp
@@ -7161,7 +7161,7 @@ Yet Another Guard Diversity - Regular.esp
 Complete and Revised Vanilla Equipment Integrated YAGD Patch.esp
 OAAB Weapons Integrated YAGD Patch.esp
 
-[Order] ; On nexus Slave Markets mod page, RP says 
+[Order] ; On nexus Slave Markets mod page, RP says
 Improved Inns Expanded.esp
 Slave Markets_IEE_EE Patch.esp
 
