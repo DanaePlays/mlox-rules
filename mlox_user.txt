@@ -341,6 +341,16 @@ Balmora Guilds Expanded.esp
 Balmora Guilds Expanded - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Balmora Syndrayn Manor [Aystrasz]
+
+[Conflict]
+	Use only one of these plugins; each of these plugins adds a house to the same spot.
+Balmora Syndrayn Manor.esp
+Balmora_Empty_House.esp
+Balmora Wall House.esp
+BalmoraSouthGateHouse.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balmora Waterworks [MwGek]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
@@ -3346,6 +3356,16 @@ ab01armorsWeaponsMerged*.esp
 Helms Of Sight*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Hla Odai
+
+[Conflict] ; ( Ref: noticed OAAB Brother Junipers Twin Lamps issue in game and others reported on Nexus, https://www.nexusmods.com/morrowind/mods/51942 ) (Pharis)
+	Incompatible with "Hla Odai".
+Mad_HlaOdai_V1.2.esp
+[ANY	OAAB Brother Junipers Twin Lamps.esp
+		SwampFever.ESP
+		The Sable Dragon <VER>.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Hold It [Danae]
 
 [Order]
@@ -4152,7 +4172,8 @@ MDMD*.esp
 ;Morrowind Anti-Cheese Tweaked.esp
 ;MDMD*.esp
 
-;; Uvirith's Legacy Patch, overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
+;; Uvirith's Legacy Patch
+; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
 [Order]
 MDMD - More Deadly Morrowind Denizens.esp
 mdmd - uvirith legacy cooperation.esp
@@ -5086,6 +5107,10 @@ DA_Sobitur_YA_Compatibility.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Solstheim - Tomb of the Snow Prince, @STOTSP [TOTSP Team]
 
+[Order] ; Dependency (Pharis)
+Tamriel_Data.esm
+Solstheim Tomb of The Snow Prince.esm
+
 [Order]
 Solstheim Tomb of the Snow Prince.esm
 MW_Children_1_0.esm
@@ -5708,7 +5733,7 @@ GMST Vality's Bitter Coast Addon.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Vanilla Friendly Wearables Expansion, @VFWE [RandomPal]
 
-[Order]
+[Order] ; Dependency (Pharis)
 Tamriel_Data.esm
 Vanilla friendly wearables expansion.esm
 
@@ -5981,6 +6006,18 @@ rations-wares.esp
 Liar yes Idiot no.esp
 F&F_companions.esp
 
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
+Wares_NPC*.esp
+Dankes Armors Wares.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
+Wares_NPC*.esp
+House of Earthly Delights, Harem Style.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
+Wares_NPC*.esp
+Illy's Oh my Goddess.esp
+
 [Requires]
 Wares-base.esm
 [ANY	Wares_Vvardenfell.esp
@@ -5991,7 +6028,7 @@ Wares-TR_DATA.esp
 Wares_Vvardenfell.esp
 
 [Conflict]
-	Use only one plugin.
+	Use only one of these plugins.
 ST_Books_Wares.esp
 ST_Books_Wares OAAB.esp
 ST_Books_Wares_rotate.esp
@@ -6070,6 +6107,10 @@ The Weary Vampire - Guild of Vampire Hunters Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The White Wolf of the Lokken Mountain [Emma and Teutonic], @Landscape Overhaul For The White Wolf of Lokken Mountain [RandomPal]
+
+[Order] ; Dependency (Pharis)
+OAAB_Data.esm
+BT_Whitewolf_2_0_HOTV.esm
 
 [Order]
 BT_Whitewolf*.esm
