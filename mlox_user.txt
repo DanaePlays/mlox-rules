@@ -3900,7 +3900,7 @@ MarenMabrigash.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Master Index Redux [Endoran]
 
-[Order] ( Ref: https://www.nexusmods.com/morrowind/mods/48977 )
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48977 )
 Caldera Mage Quarters.esp
 MasterIndexRedux.esp
 
@@ -4958,7 +4958,7 @@ RedMountainReborn.esp
 		AldRuhn_seat_of_power_no_underskar.esp
 		AldRuhn_seat_of_power_RR_Skar.esp]
 
-[Note] ( Ref: https://www.nexusmods.com/morrowind/mods/47414 )
+[Note] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47414 )
 	"Red Mountain Reborn" includes an ESP replacer for "Illuminated Order v2.0". However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora).
 [All	RedMountainReborn.esp
 		Illuminated Order v2.0 - Lore Friendly.esp]
