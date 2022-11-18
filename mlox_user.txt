@@ -1026,7 +1026,7 @@ BTB's Game Improvements (Necro Edit) Tweaked.esp
 
 ;; Mort's Rebalance Patches
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Bloodmoon Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Bloodmoon Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Bloodmoon Rebalance Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Bloodmoon Rebalance.esp]
@@ -1040,7 +1040,7 @@ Bloodmoon Rebalance.esp
 BTBGI Bloodmoon Rebalance Patch.esp
 
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Tribunal Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Tribunal Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Tribunal Rebalance Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Tribunal Rebalance.esp]
@@ -1054,7 +1054,7 @@ Tribunal Rebalance.esp
 BTBGI Tribunal Rebalance Patch.esp
 
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Beware the Sixth House" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Beware the Sixth House" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Beware the Sixth House Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Beware the Sixth House.esp]
@@ -1065,7 +1065,7 @@ BTBGI Beware the Sixth House Patch.esp
 
 ;; There Can Be Only One Patch
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "There Can Be Only One" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "There Can Be Only One" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI There Can Be Only One Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		[ANY	There Can Be Only One.esp
@@ -1090,7 +1090,7 @@ BTBGI There Can Be Only One Patch.esp
 
 ;; Realistic Repair Add-on Patch
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Realistic Repair - Add-on" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Realistic Repair - Add-on" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Realistic Repair Add-on Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Realistic_Repair_Add-on.esp]
@@ -1147,7 +1147,7 @@ Yet Another Guard Diversity BTBGI Patch.esp
 
 ;; Antares' Mages Robes Patch
 [Patch]
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Antares' Mages Robes" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Antares' Mages Robes" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 Antares' Mages Robes BTBGI Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Antares' Mages Robes.esp]
@@ -1158,7 +1158,7 @@ Antares' Mages Robes BTBGI Patch.esp
 
 ;; Andrano Ancestral Tomb Remastered Patch
 [Patch] ; Journal entry conflict makes tomb inaccessible without patch, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
-	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Andrano Ancestral Tomb Remastered" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Andrano Ancestral Tomb Remastered" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI AndranoTombRemastered Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		[ANY	AndranoTombRemastered.esp
@@ -1215,7 +1215,7 @@ BTB's Game Improvements (Necro Edit) Tweaked.esp
 Morrowind Anti-Cheese Tweaked.esp
 
 [Conflict]
-	Use the tweaked "Morrowind Anti-Cheese" plugin provided in the "BTB's Game Improvements (Necro Edit) Tweaked" installer.
+	Use the tweaked "Morrowind Anti-Cheese" plugin provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Morrowind Anti-Cheese.esp]
 [NOT	[ANY	Morrowind Anti-Cheese Tweaked.esp
@@ -2949,7 +2949,7 @@ FGI_DuraGraBolsHouseReclaimed_Patch.esp
 
 ;; Bal Molagmer/Thieves' Guild Overhaul
 [Patch]
-	A patch for "Fighters Guild Improved" and either "Thieves' Guild Overhaul" or "Bal Molagmer Add-on" is provided in the "Fighters Guild Improved" installer.
+	A patch for "Fighters Guild Improved" and either "Thieves' Guild Overhaul" or "Bal Molagmer Add-on" is provided in the "Fighters Guild Improved" archive.
 FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
 [ALL	Fighters Guild Improved.esp
 		[ANY	Thieves_Guild_Overhaul.esp
@@ -2974,7 +2974,7 @@ FGI_BalMolagmerAddon_ThievesGuildOverhaul_Patch.esp
 
 ;; Balmora Guilds Expanded
 [Note]
-	!! A patch for "Fighters Guild Improved" and "Balmora Guilds Expanded" is provided in the "Fighters Guild Improved" installer.
+	!! A patch for "Fighters Guild Improved" and "Balmora Guilds Expanded" is provided in the "Fighters Guild Improved" archive.
 [ALL	Fighters Guild Improved.esp
 		Balmora Guilds Expanded.esp
 		[NOT	[ANY	Dura Gra-Bol's House Reclaimed.ESP
@@ -2991,7 +2991,7 @@ Dura Gra-Bol's House Reclaimed.esp
 
 ;; Camonna Tong
 [Patch] ; Two mods with the same plugin name, thankfully these mod authors added descriptions, checking for Caeris' (Pharis)
-	A patch for "Fighters Guild Improved" and "Camonna Tong" is provided in the "Fighters Guild Improved" installer.
+	A patch for "Fighters Guild Improved" and "Camonna Tong" is provided in the "Fighters Guild Improved" archive.
 FGI_CaerisCamonnaTong_Patch.esp
 [ALL	Fighters Guild Improved.esp
 		[DESC /Enjoy!/ Camonna Tong.esp]]
@@ -3006,7 +3006,7 @@ FGI_CaerisCamonnaTong_Patch.esp
 
 ;; Join the Camonna Tong
 [Patch]
-	A patch for "Fighters Guild Improved" and "Join the Camonna Tong" is provided in the "Fighters Guild Improved" installer.
+	A patch for "Fighters Guild Improved" and "Join the Camonna Tong" is provided in the "Fighters Guild Improved" archive.
 FGI_JoinTheCamonnaTong_Patch.esp
 [ALL	Fighters Guild Improved.esp
 		[DESC !/Enjoy!/ Camonna Tong.esp]]
@@ -3039,7 +3039,7 @@ Fighters Guild Improved.esp
 
 ;; Quest Tweaks and Alternatives
 [Conflict]
-	An ESP replacer for "Quest Tweaks and Alternatives" that is compatible with "Fighters Guild Improved" is provided in the "Fighters Guild Improved" installer.
+	An ESP replacer for "Quest Tweaks and Alternatives" that is compatible with "Fighters Guild Improved" is provided in the "Fighters Guild Improved" archive.
 Fighters Guild Improved.esp
 [ALL	Quest Tweaks and Alternatives_<VER>.esp
 		[NOT	Quest Tweaks and Alternatives_1.19 - No FG Version.esp]]
@@ -5860,38 +5860,38 @@ Vivec - God the City.esp
 		Altar of the High Fane.esp]
 
 [Conflict]
-	An ESP replacer for "Guild of Vampire Hunters" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer.
+	An ESP replacer for "Guild of Vampire Hunters" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive.
 Vivec - God the City.esp
 [ALL	[ANY	Guild of Vampire Hunters.esp
 				LuceEdit - Guild of Vampire Hunters.esp]
 		[NOT	Vivec - Guild of Vampire Hunters [Replacer].esp]]
 
 [Conflict]
-	An ESP replacer for "Racer Dust Arms and Armor" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer.
+	An ESP replacer for "Racer Dust Arms and Armor" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive.
 Vivec - God the City.esp
 [ALL	Racer Dust Arms and Armor.esp
 		[NOT	Vivec - Racer Dust Arms and Armor [Replacer].esp]]
 
 [Conflict]
-	An ESP replacer for "Adamantium Armor Naturalized" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer.
+	An ESP replacer for "Adamantium Armor Naturalized" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive.
 Vivec - God the City.esp
 [ALL	Adamantium Armor Naturalized.esp
 		[NOT	Vivec - Adamantium Armor (Naturalized) [Replacer].esp]]
 
 [Conflict]
-	An ESP replacer for "Area Effect Arrows Naturalized" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer.
+	An ESP replacer for "Area Effect Arrows Naturalized" that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive.
 Vivec - God the City.esp
 [ALL	Adamantium Armor Naturalized.esp
 		[NOT	Vivec - Area of Effect (Remiros + Naturalized) [Replacer].esp]]
 
 [Conflict]
-	An ESP replacer for the "Adamantium Armor" official plugin that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer. (If using the merged version of "Unofficial Morrowind Official Plugins Patched" switch to the modular version and use the compatible replacer)
+	An ESP replacer for the "Adamantium Armor" official plugin that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive. (If using the merged version of "Unofficial Morrowind Official Plugins Patched" switch to the modular version and use the compatible replacer)
 Vivec - God the City.esp
 [ALL	Adamantium Armor.esp
 		[NOT	Vivec - Adamantium Armor (UMOPP) [Replacer].esp]]
 
 [Conflict]
-	An ESP replacer for the "Area Effect Arrows" official plugin that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" installer. (If using the merged version of "Unofficial Morrowind Official Plugins Patched" switch to the modular version and use the compatible replacer)
+	An ESP replacer for the "Area Effect Arrows" official plugin that is compatible with "Vivec - God the City" is provided in the "Vivec - God the City" archive. (If using the merged version of "Unofficial Morrowind Official Plugins Patched" switch to the modular version and use the compatible replacer)
 Vivec - God the City.esp
 [ALL	Area Effect Arrows.esp
 		[NOT	Vivec - Area of Effect (Remiros) [Replacer].esp]]
