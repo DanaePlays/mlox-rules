@@ -3029,22 +3029,13 @@ Cutting Room Floor - Quests.esp
 Fighters Guild Improved.esp
 
 ;; Quests for Faction Leaders
-[Patch]
-	A patch for "Fighters Guild Improved" and "Quests for Faction Leaders" is provided in the "Fighters Guild Improved" installer.
-FGI_QuestsForFactionLeaders_Patch.esp
-[ALL	Fighters Guild Improved.esp
-		[ANY	Quests for Faction Leaders.esp
-				Quests for Faction Leaders Non TR version.esp]]
-
-[Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51409# ) (Pharis)
 Quests for Faction Leaders.esp
 Fighters Guild Improved.esp
-FGI_QuestsForFactionLeaders_Patch.esp
 
-[Order] ; Order of all three specified ( Ref: the loadorder.txt ) (Pharis)
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51409# ) (Pharis)
 Quests for Faction Leaders Non TR version.esp
 Fighters Guild Improved.esp
-FGI_QuestsForFactionLeaders_Patch.esp
 
 ;; Quest Tweaks and Alternatives
 [Conflict]
@@ -4321,10 +4312,19 @@ Uvirith's Legacy_3.53.esp
 Clean Main Quest Overhaul 1.3 [For Rebirth].esp
 Main_Quest_Overhaul.esp
 
+;; Julan, Ashlander Companion
+[Conflict]
+	An ESP replacer for "Julan, Ashlander Companion" that is compatible with "Morrowind Rebirth" is provided in the "Morrowind Rebirth" archive.
+[ALL		Morrowind Rebirth [Main].esp
+		[ANY	KS_Julan_Ashlander Companion_<VER>.esp
+				KS_Julan_Ashlander Companion_3.0_beta.esp]
+[NOT	Julan Ashlander Companion <VER>*[For Rebirth].esp]]
+
 [Conflict]
 	Use only one of these plugins.
-Julan Ashlander Companion 2.02 [For Rebirth].esp
-Julan Ashlander Companion 3.0 beta [For Rebirth].esp
+[ANY	KS_Julan_Ashlander Companion_<VER>.esp
+		KS_Julan_Ashlander Companion_3.0_beta.esp]
+Julan Ashlander Companion <VER>*[For Rebirth].esp
 
 [Order]
 Morrowind Rebirth - Birthsigns [Addon].esp
