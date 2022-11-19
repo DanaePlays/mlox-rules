@@ -3494,6 +3494,7 @@ Imperial Legion Expansion.esp
 [Order]
 Beautiful cities of Morrowind.esp
 Imperial Stables BCOM.esp
+Taddeus_Foods_of_Tamriel.esp
 
 [Conflict]
 	Use either the BCOM plugin or the the vanilla plugin, not both.
