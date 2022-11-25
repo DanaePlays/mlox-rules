@@ -774,10 +774,6 @@ Beautiful cities of Morrowind.esp
 RedMountainReborn.esp
 RMR_patch.esp
 
-[Order] ; Prevents land tear, I'd rather remove this and solve the incompatibility in some other way^ (Pharis)
-BCOM - Taller Lighthouse.esp
-Shipyards of Vvardenfell.esp
-
 [Order]
 Beautiful cities of Morrowind.esp
 Yet Another Guard*.esp
@@ -5061,6 +5057,19 @@ Save the Date.esp
 [Order] ; If Mines & Caverns loads after Massama Cave is filled with water ( Ref: readme https://www.nexusmods.com/morrowind/mods/51932 ) (Pharis)
 Clean_Mines & Caverns.esp
 SecretsOfTheCrystalCity.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Shipyards of Vvardenfell (Sadrith Mora - Seyda Neen - Gnaar Mok)
+
+[Order] ; Order of all three specified ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Pharis)
+Beautiful Cities of Morrowind.esp
+Shipyards of Vvardenfell.esp
+BCOM_Sadrith_Mora_dock_expanded.esp
+
+[Conflict]
+	Causes land tear near Seyda Neen.
+Shipyards of Vvardenfell.esp
+BCOM - Taller Lighthouse.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silgrad Tower [Various]
