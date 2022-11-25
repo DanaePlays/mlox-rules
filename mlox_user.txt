@@ -5059,7 +5059,7 @@ Clean_Mines & Caverns.esp
 SecretsOfTheCrystalCity.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Shipyards of Vvardenfell (Sadrith Mora - Seyda Neen - Gnaar Mok)
+;; @Shipyards of Vvardenfell (Sadrith Mora - Seyda Neen - Gnaar Mok) [DetailDevil, Sjek]
 
 [Order] ; Order of all three specified ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Pharis)
 Beautiful Cities of Morrowind.esp
