@@ -202,7 +202,7 @@ Merged Lands.esp
 ;; Danae: remove TB and BM dependency warnings, most people use GOTY
 ;; Danae: deleted rules Dragon32 commented out
 ;; Danae: edited/removed rules about my own mods
-;; Danae: changed TR_data.esm requirements to fit modern TP/PT 
+;; Danae: changed TR_data.esm requirements to fit modern TP/PT
 ;; Danae: removed rules about old MPP and UMPP + added a general warning about MPP
 ;; Danae: removed the "There is a new version, you should upgrade" warning (some are already outdated, we'd need to add tons more and MO2 track versions automatically)
 ;; Danae: removed [Require] .esm warnings:mod managers give warning + auto-enable masters
@@ -1036,7 +1036,7 @@ Almilia's daughters 4.0.esp
 ;; ( Ref: "almilia's daughters 4.0.txt" )
 ;;Dragon32: Seems to set Global variables used by main Almilia's plugin
 ;; These two rules will assure that LGNPC_Detect.esp loads before all LGNPC mods (Pharis)
-[Order] 
+[Order]
 LGNPC_Detect.esp
 Less Lore.esp
 
@@ -1157,7 +1157,7 @@ Slof's Goth Shop 1.1.esp
 Clothing Mod Detector.ESP
 The Crimson Wire by Mandamus-EV1.0.esp
 
-[Patch] ; ( Ref: "almilia's daughters 4.0.txt" ) 
+[Patch] ; ( Ref: "almilia's daughters 4.0.txt" )
 Almilia - Beryl's_Head_Replacer.esp
 [ALL    Almilia's daughters 4.0.esp
 		Beryl's_Head_Replacer_v1.0.esm]
@@ -1577,7 +1577,7 @@ Animated_Morrowind - Expanded.esp
 [Order]
 Animated Morrowind 1.0.esp
 Animated Morrowind - Expanded - MCA_Patch.esp
-	
+
 ;;Dragon32: Spirithawke says "This patch has been verified against MCA v7.1." Hopefully works with later versions too
 [Conflict] ; ( Ref: http://mw.modhistory.com/download-11-6629 )
 	'MCA__Animated_Morrowind__Expanded.esp' should be used if you use also "MCA".
@@ -1773,7 +1773,7 @@ Antares' Tribunal Main QUest.esp
 
 [Order]
 UFR_v3dot2_noRobe.esp
-Antares' Tribunal Main QUest.esp 
+Antares' Tribunal Main QUest.esp
 
 [Order]
 Creatures.esp
@@ -2108,7 +2108,7 @@ Armor Effects-LD 2.0-WD.esp
 Wakim's Game Improvement 9.esp
 Armor Effects Armor Balance-LD 1.0 (Tribunal).esp
 
-[Order] ; Same as above 
+[Order] ; Same as above
 Wakim's Game Improvements with No-glo v9.esp
 Armor Effects Armor Balance-LD 1.0 (Tribunal).esp
 
@@ -4982,7 +4982,7 @@ BetterClothesBloodmoonPlus<VER>.esp
 									Better Clothes_v1.1_nac.esp
 									Better Clothes.esp
 									Better Clothes nac.esp]
-							More Better Clothes.esp]   
+							More Better Clothes.esp]
 						Better Clothes Complete (BTB Edit).esp]
 				BetterClothesForTB.esp]
 		Better Clothes Complete.esp]
@@ -5929,7 +5929,7 @@ TheBlackMill11.esp
 TheBlackMill11.esp
 Juniper's Twin Lamps (1.1 Tribunal).esp
 
-[Conflict] ; ( Ref: http://gmml.pbwiki.com/Mod+Conflicts 
+[Conflict] ; ( Ref: http://gmml.pbwiki.com/Mod+Conflicts
 	"Seyda Neen Docks and Haldershore" conflicts with house added in "Black Mill".
 [ANY	TheBlackMill11.esp
 		TheBlackMill11FMN.esp]
@@ -6446,7 +6446,7 @@ Jobs (Rhysk).ESP
 [Note]
 	If you feel the need to load this mod because the three summons (Fabricant, Wolf, Bear) do not work when using Bloodmoon then a dirty plugin loading later in your modlist is breaking the spells.
 		You should use tes3cmd to clean your plugins:
-			( https://code.google.com/p/mlox/wiki/Tes3cmd ) 
+			( https://code.google.com/p/mlox/wiki/Tes3cmd )
 		As tes3cmd is a commandline program you may wish to use one of these batch files:
 			( http://www.fliggerty.com/phpBB3/viewtopic.php?style=5&f=9&t=5734 )
 BM_SpellFix.esp
@@ -6586,7 +6586,7 @@ mel_teleportPlugin_1_3.esp
 
 [Requires] ; ( Ref: Bob's Armory Wardrobe.txt )
 	Bryss Phoenix & Fliggerty's "Bob's Armory Wardrobe" is dependent on Bryss Phoenix's modified version of "Bob's Armory", "Icons for Bob's Armory". It will not work with Mr Dave's original version.
-	( http://mw.modhistory.com/download-76-10560 ) 
+	( http://mw.modhistory.com/download-76-10560 )
 BobsArmoryWardrobe.esp
 [SIZE 134091 Bob's Armory.esp]
 
@@ -22028,7 +22028,7 @@ MoreGems for MC.esp
 ;; @More Gems - Compatability Patches [sa9097]
 
 [Conflict] ; ( Ref: "MoreGems_Compatability_Patches-Readme.txt" )
-	Use only one of these plugins:	
+	Use only one of these plugins:
 		'MGP ColourGlass.esp' - For "More Gems" and "A Whole New Shade of Glass".
 		'MGP ColourGlass + PearlsEnhanced.esp' - For "More Gems", "A Whole New Shade of Glass" and "Pearls Enhanced".
 		'MGP ColourGlass + PearlsEnhancedB.esp' - For "More Gems", "A Whole New Shade of Glass" and the colored "Pearls Enhanced".
@@ -22132,7 +22132,7 @@ MGP PearlsEnhancedB.esp
 ;; @More Gems Expansion Expanded [maura amalia]
 
 [Conflict] ; ( Ref: "More Gems Expansion addons ReadMe.txt" )
-	Use only one of these plugins:	
+	Use only one of these plugins:
 		'More Gems Expansion Expanded for MC.ESP' - If you use Drac & Toccatta's "Morrowind Crafting".
 		'More Gems Expansion Expanded.ESP' - If you do not.
 More Gems Expansion Expanded for MC.ESP
@@ -28809,7 +28809,7 @@ Oriental weapons pack.esp
 	 ktx_real_katana_1.2.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Original Faces 1.3 [ARHIZ] 
+;; @Original Faces 1.3 [ARHIZ]
 
 [Conflict]
   Use only one of these plugins:
@@ -34866,7 +34866,7 @@ Suran Archery Store_v3.0.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Suran_Underworld_2.5-jms_patch [john.moonsugar]
 
-[Patch] ; ( Ref: Suran_underworld_2.5-jms_patch.txt ) 
+[Patch] ; ( Ref: Suran_underworld_2.5-jms_patch.txt )
 	You should use the compatiblity patch as you are running both "White Wolf of Lokken" and "Suran Underworld." These mods conflict through the dialog topics "to rescue me" and "rescue me".
 	Whilst the patch was created for v2.5 of "Suran Underworld", it should still work with v3.
 	( http://sites.google.com/site/johnmoonsugar/Home/morrowind-mods )
@@ -34896,7 +34896,7 @@ Suran_Underworld_2.5-jms_patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Suran Underworld/Suran Waterfront Compatibility Patch [bryman1970]
 
-[Conflict] 
+[Conflict]
 	"Suran Underworld" and "Suran Waterfront" conflict, an edit of "Suran Underworld" version 2.5 by bryman1970 is available which "removes a stray dock and a lone suspended light left by the Suran Underworld mod."
 	bryman1970's modified version of "Suran Underworld" is available from Morrowind Modding History:
 	( http://mw.modhistory.com/download-64-14085 )
@@ -35298,7 +35298,7 @@ TR_Mainland.esm
 		Rahj.esm
 		Makunde.esp
 		Clean Roman city v.4 expansion added #4.esp
-	 	Clean Roman city v.4 MORROWIND ONLY.esp]		
+	 	Clean Roman city v.4 MORROWIND ONLY.esp]
 
 [Conflict]
 	Conflicts with TR_Preview.
@@ -40986,7 +40986,9 @@ Sea_of_Solstheim.esp
 
 [ANY TR_Mainland.esm
 	 TR_Preview.esp]
-[SIZE	!14993627 Wizards Islands - Scourge of the Frost Bringer.esm]
+[ALL	Wizards Islands - Scourge of the Frost Bringer.esm
+		[NOT	Wizards' Islands Super Patch.esp]]
+
 
 ;;Dragon32: Version from Super Patch seems to work with Silgrad Tower too. At least no LAND conflicts in TESPCD.
 [Conflict]
@@ -40995,16 +40997,18 @@ Sea_of_Solstheim.esp
  http://mw.modhistory.com/download-37-14254
  ( Ref: http://gmml.pbwiki.com/Mod+Conflicts )
 Wizards Islands - Scourge of the Frost Bringer.esm
-[ANY silgrad_tower_internal_release_1-4_6.6.esp
-	 silgrad_tower_1-4_6.6.esp]
+[ALL	[ANY	silgrad_tower_internal_release_1-4_6.6.esp
+				silgrad_tower_1-4_6.6.esp]
+		[NOT	Wizards' Islands Super Patch.esp]]
 
 ;;Dragon32: See Balmora Expanded section for conflict info.
 
-[Patch]
- Patch 1.05 for "Wizards Islands - Scourge of the Frost Bringer" is available.
- http://mw.modhistory.com/download-48-9934
-Wizards_Islands_SotFB_Patch.esp
-Wizards Islands - Scourge of the Frost Bringer.esm
+[Note]
+	!! Patch 1.05 for "Wizards Islands - Scourge of the Frost Bringer" is available.
+	!! http://mw.modhistory.com/download-48-9934
+[ALL	Wizards_Islands_SotFB_Patch.esp
+		Wizards Islands - Scourge of the Frost Bringer.esm
+		[NOT	Wizards' Islands Super Patch.esp]]
 
 [Conflict]
  Landmass conflict.
