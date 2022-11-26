@@ -62,7 +62,7 @@ Clean_bloodmoonpatch_05.esp
 Hold it - replacer*.esp
 GFM_6.3.2_1C.esp
 Wares_NPC*.esp
-TR_Mainland*hotfix.esp
+TR_*hotfix*.esp
 Walkers of Morrowind.esp
 Unofficial Morrowind Official Plugins Patched.ESP
 Bloodmoon Rebalance.esp
