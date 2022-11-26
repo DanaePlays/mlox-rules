@@ -5310,7 +5310,7 @@ Baan_Binif.esp
 
 [Order]
 TR_Preview.esp
-TR_Mainland*hotfix.esp
+TR_*hotfix*.esp
 
 [Order]
 TR_Preview.esp
@@ -6301,7 +6301,7 @@ Stonewood Pass*.esp
 Trade Disputes*.esp
 Caverns Overhaul.esp
 TR_Preview.esp
-TR_Mainland*hotfix.esp
+TR_*hotfix*.esp
 abotWaterLifeTRaddon*.esp
 MCA - TR Addon*.esp
 abotWindowsGlow.esp
@@ -6567,7 +6567,7 @@ CultSheog-TR1912.esp
 
 [Order]
 TR_Preview.esp
-TR_Mainland*hotfix*.esp
+TR_*hotfix*.esp
 TR_signs+fixes*.esp
 
 [Order]
