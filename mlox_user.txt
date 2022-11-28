@@ -5308,6 +5308,34 @@ Baan_Binif.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamriel Rebuilt, @TR, @PT [Tamriel Rebuilt Team]
 
+[Patch]
+	!!! Be sure to get the hotfix available on the "Tamriel Rebuilt" mod page.
+	!!! [Patch Download](https://www.nexusmods.com/morrowind/mods/42145)
+TR_Hotfix.esp
+TR_Mainland.esm
+
+[Patch]
+	!!! Be sure to get the hotfix available on the "Tamriel Data" mod page.
+	!!! [Patch Download](https://www.nexusmods.com/morrowind/mods/44537)
+TD_Hotfix.esp
+Tamriel_Data.esm
+
+[Note]
+	! TR_Travels is now part of the main "Tamriel Rebuilt" plugin, the TR_Travels plugins included in the 22.11 release are dummy plugins and add nothing to the game.
+[ALL	[DESC /Main File v. 22.11/ TR_Mainland.esm]
+		[ANY	TR_Travels.esp
+				TR_Travels_Preview_and_Mainland.esp
+				TR_OldTravels.esp]]
+
+[Note]
+	! TR_Preview is now deprecated, the TR_Preview plugin included in the 22.11 release is a dummy plugin and adds nothing to the game.
+[ALL	[DESC /Main File v. 22.11/ TR_Mainland.esm]
+		TR_Preview.esp]
+
+[Order]
+Siege at Firemoth.esp
+TR_Firemoth_Vanilla_patch.esp
+
 [Order]
 TR_Preview.esp
 TR_*hotfix*.esp
