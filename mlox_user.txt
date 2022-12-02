@@ -832,12 +832,12 @@ BCOM_Vanilla Trees.esp
 
 [Order]
 Beautiful Cities of Morrowind.esp
-Merged Objects.esp
+Mashed Lists.esp
 BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
 BCOM_OpenMW_plazas.esp
 
-;; @BCOM Conflicts
+;; BCOM Conflicts
 
 [Conflict]
 	'BCOM Rocky West Gash.esp' is an ESP replacer, do not use it alongside the original plugin.
@@ -6157,13 +6157,17 @@ Wanderers of Solstheim-TOTSP - Script Fix.esp
 Wares-base.esm
 Solstheim Tomb of The Snow Prince.esm
 
+[Order] ; Dependency (Pharis)
+Wares-base.esm
+F&F_base.esm
+
+[Note]
+	!! You are using an old and unsupported version of 'Wares-base.esm' (that may have been bundled with another mod), this will cause issues with the new "Wares" plugins.
+[SIZE !265838 Wares-base.esm]
+
 [Order]
 Wares*.esp
 F&F_*.esp
-
-;[Order]
-;Wares_Vvardenfell.esp
-;Wares-TR_DATA.esp
 
 [Order]
 Wares_TR_npcs.esp
@@ -6240,27 +6244,11 @@ House of Earthly Delights, Harem Style.esp
 Wares*.esp
 Illy's Oh my Goddess.esp
 
-[Requires]
-Wares-base.esm
-[ANY	Wares_Vvardenfell.esp
-		Wares_TR.esp]
-
-;[Requires]
-;Wares-TR_DATA.esp
-;Wares_Vvardenfell.esp
-
 [Conflict]
 	Use only one of these plugins.
 ST_Books_Wares.esp
 ST_Books_Wares OAAB.esp
 ST_Books_Wares_rotate.esp
-
-;[Conflict]
-;	Use only one of these plugins:
- ; 		'Wares_TR.esp' - Covers both Vvardenfell and "Tamriel Rebuilt".
-;		'Wares_Vvardenfell.esp' - Covers Vvardenfell only and can be used with 'Wares-TR_DATA.esp' to add "Tamriel Data" items to levelled lists.
-;Wares_TR.esp
-;Wares_Vvardenfell.esp
 
 [Conflict]
 	Use only one of these plugins:
