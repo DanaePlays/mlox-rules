@@ -705,7 +705,7 @@ Morrowind Anti-Cheese Tweaked.esp
 Beautiful cities of Morrowind.esp
 
 [Order]
-Wares_NPC*.esp
+Wares*.esp
 Beautiful cities of Morrowind.esp
 
 [Order]
@@ -6158,15 +6158,15 @@ Wares-base.esm
 Solstheim Tomb of The Snow Prince.esm
 
 [Order]
-Wares-*.esp
+Wares*.esp
 F&F_*.esp
 
-[Order]
-Wares_Vvardenfell.esp
-Wares-TR_DATA.esp
+;[Order]
+;Wares_Vvardenfell.esp
+;Wares-TR_DATA.esp
 
 [Order]
-Wares_NPC_TR.esp
+Wares_TR_npcs.esp
 TR_Travels*.esp
 
 [Order]
@@ -6209,10 +6209,10 @@ F&F_companions.esp
 
 [Order]
 Hold_it*.esp
-Wares_NPC*.esp
+Wares*.esp
 
 [Order]
-Wares-*.esp
+Wares*.esp
 ST_Books_Wares*.esp
 F&F_*.esp
 
@@ -6229,15 +6229,15 @@ Liar yes Idiot no.esp
 F&F_companions.esp
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
-Wares_NPC*.esp
+Wares*.esp
 Dankes Armors Wares.esp
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
-Wares_NPC*.esp
+Wares*.esp
 House of Earthly Delights, Harem Style.esp
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
-Wares_NPC*.esp
+Wares*.esp
 Illy's Oh my Goddess.esp
 
 [Requires]
@@ -6245,9 +6245,9 @@ Wares-base.esm
 [ANY	Wares_Vvardenfell.esp
 		Wares_TR.esp]
 
-[Requires]
-Wares-TR_DATA.esp
-Wares_Vvardenfell.esp
+;[Requires]
+;Wares-TR_DATA.esp
+;Wares_Vvardenfell.esp
 
 [Conflict]
 	Use only one of these plugins.
@@ -6255,12 +6255,12 @@ ST_Books_Wares.esp
 ST_Books_Wares OAAB.esp
 ST_Books_Wares_rotate.esp
 
-[Conflict]
-	Use only one of these plugins:
-  		'Wares_TR.esp' - Covers both Vvardenfell and "Tamriel Rebuilt".
-		'Wares_Vvardenfell.esp' - Covers Vvardenfell only and can be used with 'Wares-TR_DATA.esp' to add "Tamriel Data" items to levelled lists.
-Wares_TR.esp
-Wares_Vvardenfell.esp
+;[Conflict]
+;	Use only one of these plugins:
+ ; 		'Wares_TR.esp' - Covers both Vvardenfell and "Tamriel Rebuilt".
+;		'Wares_Vvardenfell.esp' - Covers Vvardenfell only and can be used with 'Wares-TR_DATA.esp' to add "Tamriel Data" items to levelled lists.
+;Wares_TR.esp
+;Wares_Vvardenfell.esp
 
 [Conflict]
 	Use only one of these plugins:
