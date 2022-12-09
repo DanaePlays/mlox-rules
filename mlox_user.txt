@@ -4429,26 +4429,89 @@ NPC_Schedule(beta).esp
 NPC_Schedule(beta) - Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @OAAB_Data and Community Equipment Integration, @RV Armors Integrated, @Oriental Weapons Integrated, @Redoran War and Sathil Mercenary Armor Integrated, @OAAB Weapons Integrated [Sigourn]
+;; @OAAB_Data and Community Equipment Integration [Sigourn]
 
-[Order]
-OAAB Weapons Integrated.esp
-OAAB Weapons Integrated TB Patch.esp
-
-[Conflict]
-	Already merged into or otherwise replicated by "Oriental Ebony Weapons Integrated".
+;; Oriental Ebony Weapons Integrated
+[Requires]
 [ANY	Oriental Ebony Weapons Integrated.esp
 		Oriental Ebony Weapons Integrated - TCBOO.esp]
 Oriental Ebony Weapon.esp
 
+[Order] ; Oriental Ebony Weapons Integrated plugins only contain levelled lists ( Ref: Readme and TESPCD ) (Pharis)
+Oriental Ebony Weapon.esp
+Oriental Ebony Weapons Integrated.esp
+
 [Order]
 Oriental Ebony Weapons Integrated.esp
-There Can Be Only One.esp
+Oriental Ebony Weapons Rebalanced.esp
+
+[Order]
+Oriental Ebony Weapon.esp
+Oriental Ebony Weapons Integrated - TCBOO.esp
 
 [Order]
 Oriental Ebony Weapons Integrated - TCBOO.esp
-There Can Be Only One.esp
+Oriental Ebony Weapons Rebalanced.esp
 
+[Order]
+There Can Be Only One.esp
+Oriental Ebony Weapons Integrated - TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+Oriental Ebony Weapons Integrated - TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+Oriental Ebony Weapons Integrated - TCBOO.esp
+
+;; OAAB Weapons Integrated
+; ( Ref: Readme and TESPCD ) (Pharis)
+[Order]
+OAAB Weapons Integrated.esp
+OAAB Weapons Integrated TB Patch.esp
+
+[Order]
+OAAB Weapons Integrated.esp
+OAAB Weapons Rebalanced.esp
+
+[Order]
+OAAB Weapons Integrated TCBOO.esp
+OAAB Weapons Rebalanced.esp
+
+[Order]
+There Can Be Only One.esp
+OAAB Weapons Integrated TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+OAAB Weapons Integrated TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+OAAB Weapons Integrated TCBOO.esp
+
+[Order]
+OAAB Weapons Integrated TCBOO.esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+[Order]
+Oriental Ebony Weapons Integrated - TCBOO.esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+[Order]
+There Can Be Only One.esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr).esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+[Order]
+There Can Be Only One (Alt Fyr 2).esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+;; Redoran War and Sathil Mercenary Armor Integrated
 [Conflict]
 	'Redoran War and Sathil Mercenary Armor.esp' should be disabled.
 Redoran War and Sathil Mercenary Armor.esp
@@ -4458,8 +4521,26 @@ Redoran War and Sathil Mercenary Armor Integrated.esp
 Redoran War and Sathil Mercenary Armor Integrated.esp
 Redoran War and Sathil Mercenary Armor Integrated Temple Service Refusal Patch.esp
 
+;; RuffinVangarr Armors Integrated
+; ( Ref: Readme and TESPCD ) (Pharis)
+[Order]
+OAAB Weapons Integrated.esp
+OAAB Weapons Integrated RV Duke's Guard Patch.esp
+
+[Order]
+OAAB Weapons Integrated TCBOO.esp
+OAAB Weapons Integrated RV Duke's Guard Patch.esp
+
+[Order]
+RV Dukes guard.esp
+OAAB Weapons Integrated RV Duke's Guard Patch.esp
+
+[Order]
+RV Armors Integrated.esp
+OAAB Weapons Integrated RV Duke's Guard Patch.esp
+
 [Conflict]
-	Already merged into or otherwise replicated by 'RV Armors Integrated.esp'.
+	Already merged into or otherwise replicated by "RV Armors Integrated".
 RV Armors Integrated.esp
 [ANY	Concept Art Daedric Helms.esp
   		Complete dreugh armor.esp
@@ -4467,10 +4548,33 @@ RV Armors Integrated.esp
   		Complete and Revised Studded leather v 1.5.esp
   		RV Dukes guard.esp]
 
-[Order]^
+;; Yet Another Guard Diversity Patches
+; ( Ref: Readme and TESPCD )
+[Order] ; No conflicts with RV Armors Integrated plugin (Pharis)
 Yet Another Guard Diversity - Regular.esp
 Yet Another Guard Diversity RV Armors Integrated Patch.esp
-RV Armors Integrated.esp
+
+[Order] ; No conflicts with OAAB Weapons Integrated plugin (Pharis)
+Yet Another Guard Diversity - Regular.ESP
+OAAB Weapons Integrated Yet Another Guard Diversity Patch.esp
+
+;; Area Effect Arrows Integrated Patches
+; ( Ref: Readme and TESPCD )
+[Order]
+OAAB Weapons Integrated TCBOO.esp
+Area Effect Arrows and OAAB Weapons Integrated Patch.esp
+
+[Order]
+OAAB Weapons Integrated.esp
+Area Effect Projectiles and OAAB Weapons Integrated Patch.esp
+
+[Order]
+Area Effect Arrows Integrated.esp
+Area Effect Arrows and OAAB Weapons Integrated Patch.esp
+
+[Order]
+Area Effect Projectiles Integrated.esp
+Area Effect Projectiles and OAAB Weapons Integrated Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - Foyada Mamaea [Remiros]
