@@ -1010,7 +1010,7 @@ Improved Argonians.esp
 Patch for Purists - Book Typos.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 
-[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
+[Order] ; ( Ref: Lucas told me ) (Pharis)
 Mashed Lists.esp
 Merged Objects PfP BTBGI Fix.esp
 
@@ -4434,7 +4434,7 @@ NPC_Schedule(beta) - Patch.esp
 ;; Oriental Ebony Weapons Integrated
 [Requires]
 [ANY	Oriental Ebony Weapons Integrated.esp
-		Oriental Ebony Weapons Integrated - TCBOO.esp]
+		Oriental Ebony Weapons Integrated TCBOO.esp]
 Oriental Ebony Weapon.esp
 
 [Order] ; Oriental Ebony Weapons Integrated plugins only contain levelled lists ( Ref: Readme and TESPCD ) (Pharis)
@@ -4447,23 +4447,23 @@ Oriental Ebony Weapons Rebalanced.esp
 
 [Order]
 Oriental Ebony Weapon.esp
-Oriental Ebony Weapons Integrated - TCBOO.esp
+Oriental Ebony Weapons Integrated TCBOO.esp
 
 [Order]
-Oriental Ebony Weapons Integrated - TCBOO.esp
+Oriental Ebony Weapons Integrated TCBOO.esp
 Oriental Ebony Weapons Rebalanced.esp
 
 [Order]
 There Can Be Only One.esp
-Oriental Ebony Weapons Integrated - TCBOO.esp
+Oriental Ebony Weapons Integrated TCBOO.esp
 
 [Order]
 There Can Be Only One (Alt Fyr).esp
-Oriental Ebony Weapons Integrated - TCBOO.esp
+Oriental Ebony Weapons Integrated TCBOO.esp
 
 [Order]
 There Can Be Only One (Alt Fyr 2).esp
-Oriental Ebony Weapons Integrated - TCBOO.esp
+Oriental Ebony Weapons Integrated TCBOO.esp
 
 ;; OAAB Weapons Integrated
 ; ( Ref: Readme and TESPCD ) (Pharis)
@@ -4492,23 +4492,7 @@ There Can Be Only One (Alt Fyr 2).esp
 OAAB Weapons Integrated TCBOO.esp
 
 [Order]
-OAAB Weapons Integrated TCBOO.esp
-OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
-
-[Order]
-Oriental Ebony Weapons Integrated - TCBOO.esp
-OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
-
-[Order]
-There Can Be Only One.esp
-OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
-
-[Order]
-There Can Be Only One (Alt Fyr).esp
-OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
-
-[Order]
-There Can Be Only One (Alt Fyr 2).esp
+Mashed Lists.esp
 OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
 
 ;; Redoran War and Sathil Mercenary Armor Integrated
@@ -6686,20 +6670,6 @@ Clear Your Name.esp
 hunters_achievements.esp
 BoundWeaponReplacer.esp
 
-[Order]
-Yet Another Guard Diversity - Regular.esp
-Yet Another Guard Diversity OAAB Weapons Integrated Patch.esp
-
-[Order] ; Break up incoming (Pharis)^
-OAAB Weapons Integrated.esp
-There Can Be Only One.esp
-RV Dukes guard.esp
-RV Armors Integrated.esp
-OAAB Weapons Integrated RV Duke's Guard Patch.esp
-Area Effect Arrows Integrated.esp
-Area Effect Arrows and OAAB Weapons Integrated Patch.esp
-Area Effect Projectiles and OAAB Weapons Integrated Patch.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [Order]
@@ -7482,7 +7452,6 @@ BadDefaultSpells*.esp
 OAAB Creature Loot and Ingredients BTBGI Patch.esp
 Yet Another Guard Diversity - Regular.esp
 Complete and Revised Vanilla Equipment Integrated YAGD Patch.esp
-OAAB Weapons Integrated YAGD Patch.esp
 
 [Order] ; On nexus Slave Markets mod page, RP says
 Improved Inns Expanded.esp
