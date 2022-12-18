@@ -1731,8 +1731,26 @@ OAAB BTBGI Loot Patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @BTBGIsation [Alvazir]
 
-;( Ref: https://www.nexusmods.com/morrowind/mods/50325 )
+; ( Ref: https://www.nexusmods.com/morrowind/mods/50325 )
 
+;; BTBGIsation Modular Primary
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+BTBGIsation - Tamriel_Data - Merged.esp
+[ALL	[ANY	BTBGIsation - Tamriel_Data.esp
+				BTBGIsation - TD_Hotfix.esp]
+		[NOT	[ANY	BTBGIsation - Primary - Merged.esp
+						BTBGIsation - Merged.esp]]]
+
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+BTBGIsation - TR_Mainland - Merged.esp
+[ALL	[ANY	BTBGIsation - TR_Mainland.esp
+				BTBGIsation - TR_Hotfix.esp]
+		[NOT	[ANY	BTBGIsation - Primary - Merged.esp
+						BTBGIsation - Merged.esp]]]
+
+;; BTBGIsation Modular Secondary
 [Order]
 A Hermit's Request.esp
 BTBGIsation - A Hermit's Request.esp
@@ -1762,10 +1780,6 @@ Balmora Guilds Expanded.esp
 BTBGIsation - Balmora Guilds Expanded.esp
 
 [Order]
-Better Robes TR.esp
-BTBGIsation - Better Robes TR.esp
-
-[Order]
 Clean__Blackthorn Barrow.esp
 BTBGIsation - Blackthorn Barrow.esp
 
@@ -1778,12 +1792,8 @@ BT_Whitewolf_2_0_HOTV.esp
 BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
 
 [Order]
-Camonna Tong.esp
+[DESC /Enjoy!/ Camonna Tong.esp]
 BTBGIsation - Camonna Tong.esp
-
-[Order] ; Deprecated but still available (Pharis)
-Clean To Serve Sithis_.esp
-BTBGIsation - Clean To Serve Sithis_.esp
 
 [Order]
 Clean_Mines & Caverns.esp
@@ -1792,6 +1802,22 @@ BTBGIsation - Clean_Mines & Caverns.esp
 [Order]
 CultSheog.esp
 BTBGIsation - CultSheog.esp
+
+[Order]
+DA_Sobitur_Facility_Clean.esp
+BTBGIsation - DA_Sobitur - Merged.esp
+
+[Order]
+DA_Sobitur_Quest_Part_1 Clean.esp
+BTBGIsation - DA_Sobitur - Merged.esp
+
+[Order]
+DA_Sobitur_Quest_Part_2 Clean.esp
+BTBGIsation - DA_Sobitur - Merged.esp
+
+[Order]
+DA_Sobitur_Repurposed_1.esp
+BTBGIsation - DA_Sobitur - Merged.esp
 
 [Order]
 DA_Sobitur_Facility_Clean.esp
@@ -1808,6 +1834,14 @@ BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
 [Order]
 DA_Sobitur_Repurposed_1.esp
 BTBGIsation - DA_Sobitur_Repurposed_1.esp
+
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+BTBGIsation - DA_Sobitur - Merged.esp
+[ANY	BTBGIsation - DA_Sobitur_Facility_Clean.esp
+		BTBGIsation - DA_Sobitur_Quest_Part_1 Clean.esp
+		BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
+		BTBGIsation - DA_Sobitur_Repurposed_1.esp]
 
 [Order]
 DD_Caldera_Expansion.esp
@@ -1868,6 +1902,82 @@ BTBGIsation - Legend of ChemuaM.esp
 [Order]
 LegendOmnidex.esp
 BTBGIsation - LegendOmnidex.esp
+
+[Order]
+LGNPC_Aldruhn.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_Aldruhn_suppl.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_PaxRedoran.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_TelMora.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_TelUvirith.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_VivecFQ.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_VivecRedoran.esp
+BTBGIsation - LGNPC - Merged.esp
+
+[Order]
+LGNPC_Aldruhn.esp
+BTBGIsation - LGNPC_Aldruhn.esp
+
+[Order]
+LGNPC_Aldruhn_suppl.esp
+BTBGIsation - LGNPC_Aldruhn_suppl.esp
+
+[Order]
+LGNPC_PaxRedoran.esp
+BTBGIsation - LGNPC_PaxRedoran.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+BTBGIsation - LGNPC_SecretMasters.esp
+
+[Order]
+LGNPC_TelMora.esp
+BTBGIsation - LGNPC_TelMora.esp
+
+[Order]
+LGNPC_TelUvirith.esp
+BTBGIsation - LGNPC_TelUvirith.esp
+
+[Order]
+LGNPC_VivecFQ.esp
+BTBGIsation - LGNPC_VivecFQ.esp
+
+[Order]
+LGNPC_VivecRedoran.esp
+BTBGIsation - LGNPC_VivecRedoran.esp
+
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+BTBGIsation - LGNPC - Merged.esp
+[ANY	BTBGIsation - LGNPC_Aldruhn.esp
+		BTBGIsation - LGNPC_Aldruhn_suppl.esp
+		BTBGIsation - LGNPC_PaxRedoran.esp
+		BTBGIsation - LGNPC_SecretMasters.esp
+		BTBGIsation - LGNPC_TelMora.esp
+		BTBGIsation - LGNPC_TelUvirith.esp
+		BTBGIsation - LGNPC_VivecFQ.esp
+		BTBGIsation - LGNPC_VivecRedoran.esp]
 
 [Order]
 Library of Vivec Overhaul - Full.esp
@@ -2077,7 +2187,7 @@ BTBGIsation - Weapons Expansion Morrowind.esp
 Welcome to the Arena! v6.7.esp
 BTBGIsation - Welcome to the Arena! v6.7.esp
 
-;; BTBGIsation Merged Version ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
+;; BTBGIsation Merged Complete ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
 [Order]
 A Hermit's Request.esp
 BTBGIsation - Merged.esp
@@ -2120,10 +2230,6 @@ BTBGIsation - Merged.esp
 
 [Order]
 Camonna Tong.esp
-BTBGIsation - Merged.esp
-
-[Order] ; Deprecated but still available (Pharis)
-Clean To Serve Sithis_.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2186,10 +2292,6 @@ BTBGIsation - Merged.esp
 Imperial Employment Office (MD edits).esp
 BTBGIsation - Merged.esp
 
-[Order] ; Deprecated but still available (Pharis)
-King of Worms.esp
-BTBGIsation - Merged.esp
-
 [Order]
 lack_stridersnest.esp
 BTBGIsation - Merged.esp
@@ -2208,6 +2310,38 @@ BTBGIsation - Merged.esp
 
 [Order]
 LegendOmnidex.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_Aldruhn.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_Aldruhn_suppl.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_PaxRedoran.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_TelMora.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_TelUvirith.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_VivecFQ.esp
+BTBGIsation - Merged.esp
+
+[Order]
+LGNPC_VivecRedoran.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2421,21 +2555,21 @@ BTBGIsation - Merged.esp
 [Conflict] ; The Better Robes - TR plugin is not included in the merge (Pharis)
 	Use either only the merged plugin or any combination of the modular plugins.
 BTBGIsation - Merged.esp
-[ANY	BTBGIsation - Cyrodiil_Main.esp
-		BTBGIsation - OAAB_Data.esp
-		BTBGIsation - Sky_Main.esp
-		BTBGIsation - TR_Mainland.esp
-		BTBGIsation - Tamriel_Data.esp
-		BTBGIsation - A Hermit's Request.esp
+[ANY	BTBGIsation - A Hermit's Request.esp
+		BTBGIsation - After the Blight.esp
 		BTBGIsation - Ancient Foes.esp
 		BTBGIsation - Area Effect Projectiles Integrated.esp
+		BTBGIsation - Astrologians Guild.esp
 		BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
+		BTBGIsation - Baan_Binif.esp
 		BTBGIsation - Balmora Guilds Expanded.esp
+		BTBGIsation - Blackthorn Barrow.esp
 		BTBGIsation - Blacktooth.esp
 		BTBGIsation - Camonna Tong.esp
-		BTBGIsation - Clean To Serve Sithis_.esp
 		BTBGIsation - Clean_Mines & Caverns.esp
 		BTBGIsation - CultSheog.esp
+		BTBGIsation - Cyr_Main.esp
+		BTBGIsation - DA_Sobitur - Merged.esp
 		BTBGIsation - DA_Sobitur_Facility_Clean.esp
 		BTBGIsation - DA_Sobitur_Quest_Part_1 Clean.esp
 		BTBGIsation - DA_Sobitur_Quest_Part_2 Clean.esp
@@ -2444,10 +2578,21 @@ BTBGIsation - Merged.esp
 		BTBGIsation - DRPV1.9.esp
 		BTBGIsation - Entertainers Expanded.esp
 		BTBGIsation - Face of the Hortator.esp
-		BTBGIsation - Fighters_Guild_Questline_Overhaul.esp
 		BTBGIsation - Fishing.esp
 		BTBGIsation - GDR_MasterFile.esp
+		BTBGIsation - Havish.esp
+		BTBGIsation - Helm of Tohan Naturalized.esp
 		BTBGIsation - Hunter's Mark - A Marksman Mod.esp
+		BTBGIsation - Imperial Employment Office (MD edits).esp
+		BTBGIsation - LGNPC - Merged.esp
+		BTBGIsation - LGNPC_Aldruhn.esp
+		BTBGIsation - LGNPC_Aldruhn_suppl.esp
+		BTBGIsation - LGNPC_PaxRedoran.esp
+		BTBGIsation - LGNPC_SecretMasters.esp
+		BTBGIsation - LGNPC_TelMora.esp
+		BTBGIsation - LGNPC_TelUvirith.esp
+		BTBGIsation - LGNPC_VivecFQ.esp
+		BTBGIsation - LGNPC_VivecRedoran.esp
 		BTBGIsation - LeFemmArmor.esp
 		BTBGIsation - Legacy of Odiil.esp
 		BTBGIsation - Legend of ChemuaM.esp
@@ -2464,23 +2609,30 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Mudcrab Imports Pirate Adventures.esp
 		BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
 		BTBGIsation - New Ilunibi.esp
+		BTBGIsation - OAAB - Shipwrecks.esp
+		BTBGIsation - OAAB_Data.esp
 		BTBGIsation - OAAB_Tel Mora.esp
 		BTBGIsation - OJAI - Framerate Version.esp
 		BTBGIsation - Of Dungeons and Abodes.esp
 		BTBGIsation - Olafs Cloaks and Hoods.esp
-		BTBGIsation - OldMournholdOverhaul.esp
 		BTBGIsation - Plumed Mountain.esp
 		BTBGIsation - Quests for Clans and Vampire Legends.esp
+		BTBGIsation - RV Necrorobes.esp
 		BTBGIsation - Racer Dust Arms and Armor.esp
 		BTBGIsation - Redoran Exile Armor.esp
 		BTBGIsation - SHS - Bloodskal Barrow.esp
 		BTBGIsation - SV - Terrors Of The Night Normal.esp
-		BTBGIsation - Siege at Firemoth.esp
+		BTBGIsation - Sacred_Necromancer.esp
+		BTBGIsation - Siege at Firemoth Naturalized.esp
 		BTBGIsation - Silent Island.esp
+		BTBGIsation - Sky_Main.esp
 		BTBGIsation - Solstheim Tomb of The Snow Prince.esp
 		BTBGIsation - Sotha Sil Expanded.esp
-		BTBGIsation - THTWG - Harder Version.esp
+		BTBGIsation - Strider Burial.esp
 		BTBGIsation - Talos Cult Conspiracy.esp
+		BTBGIsation - Tamriel_Data - Merged.esp
+		BTBGIsation - Tamriel_Data.esp
+		BTBGIsation - TD_Hotfix.esp
 		BTBGIsation - Tel_Aruhn_Chronicles.esp
 		BTBGIsation - The Hammer of Orsinium.esp
 		BTBGIsation - The Lamp.esp
@@ -2489,38 +2641,55 @@ BTBGIsation - Merged.esp
 		BTBGIsation - The Vestige of Bethaleft.esp
 		BTBGIsation - TheRedoranAmulet.esp
 		BTBGIsation - Thieves_Guild_Overhaul - Purist Ahnassi Romance version.esp
+		BTBGIsation - THTWG - Harder Version.esp
+		BTBGIsation - TR_Hotfix.esp
+		BTBGIsation - TR_Mainland - Merged.esp
+		BTBGIsation - TR_Mainland.esp
 		BTBGIsation - Umbra, Blademaster.esp
 		BTBGIsation - Uvirith's Legacy_3.53.esp
+		BTBGIsation - Vampire Hunters, but They Want to Reintroduce You to Death.esp
 		BTBGIsation - Vivec Waistworks Expansion - GoVH comp.esp
 		BTBGIsation - Wanderers of Solstheim-TOTSP.esp
 		BTBGIsation - Weapons Expansion Morrowind.esp
 		BTBGIsation - Welcome to the Arena! v6.7.esp
 		BTBGIsation - Wyrmhaven.esp
 		BTBGIsation - abotWaterLife.esp
-		BTBGIsation - quarraclan_refreshed.esp
-		BTBGIsation - sm_tr.esp
-		BTBGIsation - After the Blight.esp
-		BTBGIsation - Baan_Binif.esp
-		BTBGIsation - Blackthorn Barrow.esp
-		BTBGIsation - Havish.esp
-		BTBGIsation - Helm of Tohan Naturalized.esp
-		BTBGIsation - Imperial Employment Office (MD edits).esp
 		BTBGIsation - lack_stridersnest.esp
-		BTBGIsation - OAAB - Shipwrecks.esp
-		BTBGIsation - RV Necrorobes.esp
-		BTBGIsation - Sacred Necromancer.esp
-		BTBGIsation - Vampire Hunters, but They Want to Reintroduce You to Death.esp
-		BTBGIsation - Astrologians Guild.esp]
+		BTBGIsation - quarraclan_refreshed.esp
+		BTBGIsation - sm_tr.esp]
 
+[Conflict] ; Merged Complete includes Merged Primary (Pharis)
+	Use only one of these plugins.
+BTBGIsation - Merged.esp
+BTBGIsation - Primary - Merged.esp
+
+;; BTBGIsation Merged Primary
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+BTBGIsation - Primary - Merged.esp
+[ANY	BTBGIsation - Cyr_Main.esp
+		BTBGIsation - OAAB_Data.esp
+		BTBGIsation - Sky_Main.esp
+		BTBGIsation - Tamriel_Data - Merged.esp
+		BTBGIsation - Tamriel_Data.esp
+		BTBGIsation - TD_Hotfix.esp
+		BTBGIsation - TR_Hotfix.esp
+		BTBGIsation - TR_Mainland - Merged.esp
+		BTBGIsation - TR_Mainland.esp]
 
 ;; BTBGIsation Spears Base Plugin
-[Order] ; If not loaded after BTBGI main plugin its changes are overwritten
+[Order] ; If not loaded after BTBGI main plugin its changes are overwritten (Pharis)
 BTB's Game Improvements (Necro Edit).esp
 BTBGIsation - Spears - Base.esp
 
-[Order] ; If not loaded after BTBGI main plugin its changes are overwritten
+[Order] ; If not loaded after BTBGI main plugin its changes are overwritten (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGIsation - Spears - Base.esp
+
+;; Better Robes - TR
+[Order]
+Better Robes TR.esp
+BTBGIsation - Better Robes TR.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Caldera Mine Expanded [Greatness7, Melchior Dahrk, TheDrunkenMudcrab]
