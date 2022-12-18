@@ -1006,22 +1006,26 @@ Improved Argonians.esp
 
 ; ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
 
+;; Patch for Purists
 [Order]
 Patch for Purists - Book Typos.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 
-[Order] ; ( Ref: Lucas told me ) (Pharis)
+[Order]
 Mashed Lists.esp
 Merged Objects PfP BTBGI Fix.esp
 
-[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
-Mashed Lists.esp
-BTBGI Beware the Sixth House Patch.esp
-
-[Order]
+;; Poison Crafting
+[Order] ; Container entry conflicts ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
-mwse_PoisonCrafting.esp
+[DESC /Patches Poison Crafting/ mwse_PoisonCrafting.esp]
 
+[Conflict]
+	An ESP replacer for "Poison Crafting" that is compatible with "BTB's Game Improvements (Necro Edit) Tweaked" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+[DESC !/Patches Poison Crafting/ mwse_PoisonCrafting.esp]
+
+;; Expansions Integrated
 [Order] ; No conflicts with Tribunal Integrated.esp in TESPCD (Pharis)
 Expansions Integrated.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
@@ -1030,7 +1034,7 @@ BTB's Game Improvements (Necro Edit) Tweaked.esp
 Expansions Integrated - Fewer BM Creatures.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 
-;; Mort's Rebalance Patches
+;; Bloodmoon Rebalance
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Bloodmoon Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Bloodmoon Rebalance Patch.esp
@@ -1045,6 +1049,7 @@ BTBGI Bloodmoon Rebalance Patch.esp
 Bloodmoon Rebalance.esp
 BTBGI Bloodmoon Rebalance Patch.esp
 
+;; Tribunal Rebalance
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Tribunal Rebalance" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Tribunal Rebalance Patch.esp
@@ -1059,17 +1064,22 @@ BTBGI Tribunal Rebalance Patch.esp
 Tribunal Rebalance.esp
 BTBGI Tribunal Rebalance Patch.esp
 
+;; Beware the Sixth House
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Beware the Sixth House" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Beware the Sixth House Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Beware the Sixth House.esp]
 
-[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
-Mashed Lists.esp
+[Order] ; Patch merges creature and spell entries (Pharis)
+Beware the Sixth House.esp
 BTBGI Beware the Sixth House Patch.esp
 
-;; There Can Be Only One Patch
+[Order]
+Beware the Sixth House.esp
+BTBGI Beware the Sixth House Patch.esp
+
+;; There Can Be Only One
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "There Can Be Only One" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI There Can Be Only One Patch.esp
@@ -1078,11 +1088,11 @@ BTBGI There Can Be Only One Patch.esp
 				There Can Be Only One (Alt Fyr).esp
 				There Can Be Only One (Alt Fyr 2).esp]]
 
-[Order] ; Patch just needs to be after both plugins (Pharis)
+[Order] ; Patch merges changes to creatures and Helseth, just needs to be after both plugins (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI There Can Be Only One Patch.esp
 
-[Order] ; Patch just needs to be after both plugins (Pharis)
+[Order]
 There Can Be Only One.esp
 BTBGI There Can Be Only One Patch.esp
 
@@ -1094,14 +1104,14 @@ BTBGI There Can Be Only One Patch.esp
 There Can Be Only One (Alt Fyr 2).esp
 BTBGI There Can Be Only One Patch.esp
 
-;; Realistic Repair Add-on Patch
+;; Realistic Repair Add-on
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Realistic Repair - Add-on" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Realistic Repair Add-on Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Realistic_Repair_Add-on.esp]
 
-[Order]
+[Order] ; Patch merges changes to Arille, just needs to be after both plugins (Pharis)
 Realistic_Repair_Add-on.esp
 BTBGI Realistic Repair Add-on Patch.esp
 
@@ -1109,60 +1119,94 @@ BTBGI Realistic Repair Add-on Patch.esp
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 BTBGI Realistic Repair Add-on Patch.esp
 
-;; OAAB_Data and Community Equipment Integration Patches
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-RV Armors Integrated BTBGI Patch.esp
+;; OAAB_Data and Community Equipment Integration
+[Patch]
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "RuffinVangarr Armors Integrated" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTBGI RV Armors Integrated Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		RV Armors Integrated.esp]
 
-[Order]
+[Order] ; Only levelled list conflicts with the main plugin, adding regardless (Pharis)
+BTB's Game Improvements (Necro Edit) Tweaked.esp
+BTBGI RV Armors Integrated Patch.esp
+
+[Order] ; Overwrites armor entries and levelled lists (Pharis)
 RV Armors Integrated.esp
-RV Armors Integrated BTBGI Patch.esp
+BTBGI RV Armors Integrated Patch.esp
 
 [Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-Oriental Ebony Weapons Integrated BTBGI Patch.esp
+Mashed Lists.esp
+Merged Objects RV Armors BTBGI Fix.esp
 
-[Order]
-Oriental Ebony Weapons Integrated.esp
-Oriental Ebony Weapons Integrated BTBGI Patch.esp
+[Patch]
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Oriental Ebony Weapons" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTBGI Oriental Ebony Weapons Integrated Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Oriental Ebony Weapon.esp]
 
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-OAAB Weapons Integrated BTBGI Patch.esp
+[Order] ; Overwrites weapon records, since the integrated plugin no longer contains weapon records it doesn't conflict with the patch (Pharis)
+Oriental Ebony Weapon.esp
+BTBGI Oriental Ebony Weapons Integrated Patch.esp
 
-[Order]
+[Patch]
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "OAAB Weapons Integrated" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTBGI OAAB Weapons Integrated Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		[ANY	OAAB Weapons Integrated.esp
+				OAAB Weapons Integrated TCBOO.esp]
+
+[Order] ; Overwrites weapon records, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
 OAAB Weapons Integrated.esp
-OAAB Weapons Integrated BTBGI Patch.esp
+BTBGI OAAB Weapons Integrated Patch.esp
+
+[Order] ; Overwrites weapon records, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
+OAAB Weapons Integrated TCBOO.esp
+BTBGI OAAB Weapons Integrated Patch.esp
 
 [Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.esp
+Mashed Lists.esp
+Merged Objects OAAB Weapons BTBGI Fix.esp
 
-[Order]
-Redoran War and Sathil Mercenary Armor Integrated.esp
-Redoran War and Sathil Mercenary Armor Integrated BTBGI Patch.esp
-
-;; Yet Another Guard Diversity Patch
-[Order]
-BTB's Game Improvements (Necro Edit) Tweaked.esp
-Yet Another Guard Diversity BTBGI Patch.esp
-
-[Order]
-Yet Another Guard Diversity - Regular.esp
-Yet Another Guard Diversity BTBGI Patch.esp
-
-;; Antares' Mages Robes Patch
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Antares' Mages Robes" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
-Antares' Mages Robes BTBGI Patch.esp
+BTBGI Antares' Mages Robes Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		Antares' Mages Robes.esp]
 
-[Order]
-Antares' Mages Robes.esp
-Antares' Mages Robes BTBGI Patch.esp
+[Order] ; Overwrites weapon, cloth, and enchantment records, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
+Redoran War and Sathil Mercenary Armor Integrated.esp
+BTBGI Redoran War and Sathil Mercenary Armor Integrated Patch.esp
 
-;; Andrano Ancestral Tomb Remastered Patch
+[Conflict]
+	The rebalance plugins included with "OAAB_Data and Community Equipment Integration" are made redundant by the patches provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+[ANY	BTBGI OAAB Weapons Integrated Patch.esp
+		BTBGI Oriental Ebony Weapons Integrated Patch.esp]
+[ANY	OAAB Weapons Rebalanced.esp
+		Oriental Ebony Weapons Rebalanced.esp]
+
+;; Yet Another Guard Diversity
+[Patch]
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Yet Another Guard Diversity" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTBGI Yet Another Guard Diversity Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Yet Another Guard Diversity - Regular.esp]
+
+[Order] ; Overwrites pauldron armor entries, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
+Yet Another Guard Diversity - Regular.esp
+BTBGI Yet Another Guard Diversity Patch.esp
+
+;; Antares' Mages Robes
+[Patch]
+	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Antares' Mages Robes" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
+BTBGI Antares' Mages Robes Patch.esp
+[ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
+		Antares' Mages Robes.esp]
+
+[Order] ; Overwrites cloth, enchantment, and dialog, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
+Antares' Mages Robes.esp
+BTBGI Antares' Mages Robes Patch.esp
+
+;; Andrano Ancestral Tomb Remastered
 [Patch] ; Journal entry conflict makes tomb inaccessible without patch, reported by Pherim, only Lucas' tweaked version has this conflict (Pharis)
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Andrano Ancestral Tomb Remastered" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI AndranoTombRemastered Patch.esp
