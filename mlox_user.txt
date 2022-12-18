@@ -1153,7 +1153,7 @@ BTBGI Oriental Ebony Weapons Integrated Patch.esp
 BTBGI OAAB Weapons Integrated Patch.esp
 [ALL	BTB's Game Improvements (Necro Edit) Tweaked.esp
 		[ANY	OAAB Weapons Integrated.esp
-				OAAB Weapons Integrated TCBOO.esp]
+				OAAB Weapons Integrated TCBOO.esp]]
 
 [Order] ; Overwrites weapon records, no conflicts with main BTBGI-NE Tweaked plugin (Pharis)
 OAAB Weapons Integrated.esp
