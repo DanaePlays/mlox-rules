@@ -7711,3 +7711,7 @@ RP House Hlaalu.esp
 [Order]
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+Julan head.esp
