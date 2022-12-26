@@ -778,6 +778,10 @@ RMR_patch.esp
 Beautiful cities of Morrowind.esp
 Yet Another Guard*.esp
 
+[Order]
+Beautiful cities of Morrowind.esp
+Thirteen Telvanni.esp
+
 [Order] ; This is supposed to be only the 02 version, don't "fix" it ( Ref: RP told me ) (Pharis)
 Beautiful cities of Morrowind.esp
 BCOM_Canal_02.esp
