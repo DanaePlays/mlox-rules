@@ -4679,6 +4679,10 @@ Oriental Ebony Weapons Integrated TCBOO.esp
 OAAB Weapons Integrated.esp
 OAAB Weapons Integrated TB Patch.esp
 
+[Order] ;  This one has weapon records for some reason (Pharis)
+OAAB Weapons Integrated TCBOO.esp
+OAAB Weapons Rebalanced.esp
+
 [Order]
 There Can Be Only One.esp
 OAAB Weapons Integrated TCBOO.esp
