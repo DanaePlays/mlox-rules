@@ -3861,6 +3861,10 @@ MRM*.esm
 KS_Julan_Ashlander Companion*.esp
 KS_Julan_MRM_Patch*.esp
 
+[Order]
+KS_Julan_Ashlander Companion*.esp
+Julan head.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Know Thy Ancestors [Xero Foxx]
 
@@ -7711,7 +7715,3 @@ RP House Hlaalu.esp
 [Order]
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
-
-[Order]
-KS_Julan_Ashlander Companion*.esp
-Julan head.esp
