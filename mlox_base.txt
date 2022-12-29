@@ -18818,8 +18818,9 @@ Services Restored.esp
 Cinia.esp
 Cutting Room Floor.esp
 Cutting Room Floor - Travel.esp
-[ANY      Elders 0 Count NPC add-on (Trib & BM).esp
-		 Elders 0 Count NPC add-on.esp]
+[ANY    Elders 0 Count NPC add-on (Trib & BM).esp
+		Elders 0 Count NPC add-on.esp]
+NOD - Cinia Urtius Addon.esp
 
 [Patch] ; Dragon32: Unsure if this works with v6.x or v7.x of MCA
  "For users of MCA 5.*, using LGNPC_SM_MCA5 will fix a hostile spawn point that will conflict with the location of one of the Secret Masters."

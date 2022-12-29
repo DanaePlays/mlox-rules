@@ -4631,6 +4631,23 @@ Nocturnal Moths - Vanilla.esp
 Nocturnal Moths - TLD.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @NOD - NPC Outfit Diversity [Lucevar]
+
+[Conflict]
+	Use only one of these plugins.
+NOD - Core.esm
+Vanilla friendly wearables expansion.esm
+
+[Requires]
+	"NOD - NPC Outfit Diversity" requires "Better Bodies".
+NOD - Core.esm
+Better Bodies*.esp
+
+[Note]
+	!! This plugin is for testing only and is not intended for normal gameplay.
+NOD - Equipment Test Addon.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Faction Affiliation Corrector [AliceL93]
 
 [Order]
