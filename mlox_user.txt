@@ -6489,6 +6489,7 @@ F&F_TR.esp
 [Order]
 Animated_Morrowind - merged*.esp
 F&F_companions.esp
+Friends and Frens.esp
 
 [Order]
 Animated_Morrowind - merged*.esp
@@ -6515,10 +6516,12 @@ F&F_NoSitters.esp
 Ahead of the Classes.esp
 Ahead of the Classes-FF addon.esp
 F&F_companions.esp
+Friends and Frens.esp
 
 [Order]
 A Bard's Life.esp
 F&F_companions.esp
+Friends and Frens.esp
 
 [Order]
 Hold_it*.esp
@@ -6540,6 +6543,7 @@ rations-wares.esp
 [Order]
 Liar yes Idiot no.esp
 F&F_companions.esp
+Friends and Frens.esp
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51657) (Pharis)
 Wares*.esp
@@ -6588,6 +6592,45 @@ F&F_base.esm
 		OutlawsTR.esp
 		Starfires*.esp
 		MCA*.esp]
+
+[Conflict]
+	Use only one of these plugins:
+		'Wares_TR_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
+		'Wares_TR_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
+
+[Conflict]
+	Use only one of these plugins:
+		'Wares_VV_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
+		'Wares_VV_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
+
+[Conflict]
+	Use only one of these plugins:
+		'Wares_PC_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
+		'Wares_PC_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
+
+[Conflict]
+	Use only one of these plugins:
+		'Wares_SHOTN_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
+		'Wares_SHOTN_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
+
+[Conflict]
+	Use only one of these plugins:
+		'OAAB for Wares.esp'- old, use Wares_lists_OAAB.esp.
+		'Wares_lists_OAAB.esp' - latest version.
+
+[Conflict]
+	Use only one of these plugins:
+		'F&F_companions.esp'- old and unsupported, use Friends and Frens.esp.
+		'Friends and Frens.esp' - latest version.
+
+[Conflict]
+	Use only one of these plugins:
+		'Hold_it*.esp'- old and unsupported, use Wares_lists_hold.ESP.
+		'Wares_lists_hold.ESP' - latest version.
+
+[Order]
+Wares_*.esp
+NOD -*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
