@@ -6632,6 +6632,8 @@ Wares_lists_OAAB.esp
 	Use only one of these plugins:
 		'F&F_companions.esp'- old and unsupported, use Friends and Frens.esp.
 		'Friends and Frens.esp' - latest version.
+F&F_companions.esp
+Friends and Frens.esp
 
 [Conflict]
 	Use only one of these plugins:
