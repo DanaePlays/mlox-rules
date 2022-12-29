@@ -4671,25 +4671,12 @@ NPC_Schedule(beta) - Patch.esp
 
 ;; Oriental Ebony Weapons Integrated
 [Requires]
+	The "Oriental Ebony Weapons" integration plugins contain no weapon records so they require either the plugin from the original "Oriental Ebony Weapons" mod or the included rebalance plugin.
+	[Oriental Ebony Weapons Download](https://www.nexusmods.com/morrowind/mods/47173)
 [ANY	Oriental Ebony Weapons Integrated.esp
 		Oriental Ebony Weapons Integrated TCBOO.esp]
-Oriental Ebony Weapon.esp
-
-[Order] ; Oriental Ebony Weapons Integrated plugins only contain levelled lists ( Ref: Readme and TESPCD ) (Pharis)
-Oriental Ebony Weapon.esp
-Oriental Ebony Weapons Integrated.esp
-
-[Order]
-Oriental Ebony Weapons Integrated.esp
-Oriental Ebony Weapons Rebalanced.esp
-
-[Order]
-Oriental Ebony Weapon.esp
-Oriental Ebony Weapons Integrated TCBOO.esp
-
-[Order]
-Oriental Ebony Weapons Integrated TCBOO.esp
-Oriental Ebony Weapons Rebalanced.esp
+[ANY	Oriental Ebony Weapon.esp
+		Oriental Ebony Weapons Rebalanced.esp]
 
 [Order]
 There Can Be Only One.esp
@@ -4709,11 +4696,7 @@ Oriental Ebony Weapons Integrated TCBOO.esp
 OAAB Weapons Integrated.esp
 OAAB Weapons Integrated TB Patch.esp
 
-[Order]
-OAAB Weapons Integrated.esp
-OAAB Weapons Rebalanced.esp
-
-[Order]
+[Order] ;  This one has weapon records for some reason (Pharis)
 OAAB Weapons Integrated TCBOO.esp
 OAAB Weapons Rebalanced.esp
 
