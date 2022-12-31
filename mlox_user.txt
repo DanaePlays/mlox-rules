@@ -505,6 +505,10 @@ BeaconOfstRilmsMRM.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Beautiful Cities of Morrowind, @BCOM [RandomPal]
 
+[Order] ; Prevents misplaced banner in Gnisis ( Ref: issue reported on Discord and checked in game ) (Pharis)
+Beautiful Cities of Morrowind.esp
+The Lamp.esp
+
 [Order] ; ( Ref: The man himself ) (Pharis)
 Beautiful Cities of Morrowind.esp
 BCOM_Sadrith_Mora_dock_expanded.ESP
