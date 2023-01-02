@@ -5199,7 +5199,7 @@ Quests for Clans and Vampire Legends - Morrowind Anti-Cheese.esp
 				Morrowind Anti-Cheese Tweaked.esp]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Questline - Vivec Lighthouse Keeper
+;; @Questline - Vivec Lighthouse Keeper [Dillonn241]
 
 [Order] ; ( Ref: reported by MwGek, the author of Vivec Lighthouse, on Discord ) (Pharis)
 Vivec_Lighthouse.esp
