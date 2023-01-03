@@ -4645,7 +4645,7 @@ Vanilla friendly wearables expansion.esm
 [Requires]
 	"NOD - NPC Outfit Diversity" requires "Better Bodies".
 NOD - Core.esm
-Better Bodies*.esp
+Better?Bodies*.esp
 
 [Note]
 	!! This plugin is for testing only and is not intended for normal gameplay.
