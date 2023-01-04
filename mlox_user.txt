@@ -4643,7 +4643,7 @@ NOD - Core.esm
 Vanilla friendly wearables expansion.esm
 
 [Requires]
-	"NOD - NPC Outfit Diversity" requires "Better Bodies".
+	"NOD - NPC Outfit Diversity" requires "Better Bodies", the pluginless version also works but mlox cannot detect if you have it installed. If you already have the pluginless version ignore this message.
 NOD - Core.esm
 Better?Bodies*.esp
 
