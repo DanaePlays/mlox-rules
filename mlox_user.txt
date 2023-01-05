@@ -4638,12 +4638,36 @@ Nocturnal Moths - TLD.esp
 ;; @NOD - NPC Outfit Diversity [Lucevar]
 
 [Conflict]
-	Use only one of these plugins.
+	Already merged into or otherwise replicated by "NOD - NPC Outfit Diversity".
+Properly clothed NPCs.esp
+Sacred_Necromancer.esp
+Sacred Necromancer no npcs.esp
+RV Necrorobes.esp
+Ceremonial Adamantium Armor.esp
+More Argonian Hair.esp
+More Argonian Hair_Plus NPCs.esp
+Hlaalu Nobles Facial Overhaul.esp
+Rogues Gallery.esp
+RV Armors Integrated.esp
+BuyoantArmigersArmor_NPC.esp
+ArmoredRobes_NPC_Compilation.esp
+DimKhajiitHH.esp
+RV Dukes guard.esp
+Complete Nordic Iron.esp
+Concept Art Daedric Helms.esp
+Dwemer Scrap Armor V2.esp
+Heavy Chitin.esp
+Complete dreugh armor.esp
+Complete and Revised Studded leather v 1.5.esp
+Concept Art Dunmer Helms.esp
+
+[Conflict]
+	Incompatible with "NOD - NPC Outfit Diversity".
 NOD - Core.esm
 Vanilla friendly wearables expansion.esm
 
 [Requires]
-	"NOD - NPC Outfit Diversity" requires "Better Bodies".
+	"NOD - NPC Outfit Diversity" requires "Better Bodies", the pluginless version also works but mlox cannot detect if you have it installed. If you already have the pluginless version ignore this message.
 NOD - Core.esm
 Better?Bodies*.esp
 
@@ -6660,6 +6684,12 @@ Wares_lists_hold.ESP
 [Order]
 Wares_*.esp
 NOD -*.esp
+
+[Patch]
+	A patch for "Wares Ultimate" and "NOD - NPC Outfit Diversity" is provided in the "Wares Ultimate" archive.
+NOD - Wares.esp
+[ALL	Wares-base.esm
+		NOD - Core.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
