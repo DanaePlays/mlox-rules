@@ -4637,6 +4637,14 @@ Nocturnal Moths - TLD.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NOD - NPC Outfit Diversity [Lucevar]
 
+[Order] ; Dependency (Pharis)
+Tamriel_Data.esm
+NOD - Core.esm
+
+[Order] ; Dependency (Pharis)
+OAAB_Data.esm
+NOD - Core.esm
+
 [Conflict]
 	Already merged into or otherwise replicated by "NOD - NPC Outfit Diversity".
 Properly clothed NPCs.esp
