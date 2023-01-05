@@ -6681,6 +6681,12 @@ Wares_lists_hold.ESP
 Wares_*.esp
 NOD -*.esp
 
+[Patch]
+	A patch for "Wares Ultimate" and "NOD - NPC Outfit Diversity" is provided in the "Wares Ultimate" archive.
+NOD - Wares.esp
+[ALL	Wares-base.esm
+		NOD - Core.esm]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
 
