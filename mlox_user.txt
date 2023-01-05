@@ -6688,7 +6688,8 @@ NOD -*.esp
 [Patch]
 	A patch for "Wares Ultimate" and "NOD - NPC Outfit Diversity" is provided in the "Wares Ultimate" archive.
 NOD - Wares.esp
-[ALL	Wares-base.esm
+[ALL	[ANY	Wares_VV_npcs.esp
+				Wares_VV_npcs_purist.esp]
 		NOD - Core.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
