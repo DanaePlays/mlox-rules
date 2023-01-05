@@ -6279,6 +6279,10 @@ GMST Vality's Bitter Coast Addon.esp
 Tamriel_Data.esm
 Vanilla friendly wearables expansion.esm
 
+[Order] ; Dependency (Pharis)
+OAAB_Data.esm
+Vanilla friendly wearables expansion.esm
+
 [Order]
 Merged Objects.esp
 VFWE_merged_objects_fix.esp
