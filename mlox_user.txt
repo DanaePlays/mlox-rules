@@ -6548,19 +6548,16 @@ F&F_TR.esp
 F&F_heads_Westly.esp
 
 [Order]
-Mashed Lists.esp
 Merged Objects.esp
 F&F_scarce.esp
 F&F_MOAR.esp
 
 [Order]
-Mashed Lists.esp
 Merged Objects.esp
 F&F_Friends_only.esp
 F&F_no_hostiles.ESP
 
 [Order]
-Mashed Lists.esp
 Merged Objects.esp
 F&F_no_city_exterior.ESP
 F&F_no_city_interiors.ESP
