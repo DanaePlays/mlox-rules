@@ -6074,6 +6074,117 @@ Thirsk Expanded.esp
 Thirsk Expanded for TOTSP.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Thirteen Telvanni - a Dunmeri Card Game
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Ald-ruhn, Ald Skar Inn.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Balmora, South Wall Cornerclub (Atmospheric).esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Balmora, South Wall Cornerclub.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Buckmoth Legion Fort, Interior.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Gateway Inn.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Gnisis, Madach Tradehouse (BCOM).esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Gnisis, Madach Tradehouse.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Molag Mar, St. Veloth's Hostel.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Sadrith Mora, Fara's Hole in the Wall.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Seyda Neen, Arrille's Tradehouse.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Suran, Suran Tradehouse.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Vivec, Black Shalk Cornerclub (BCOM).esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Vivec, Black Shalk Cornerclub.esp
+
+[Order]
+Thirteen Telvanni - Core.esp
+Thirteen Telvanni - Vos, Varo Tradehouse.esp
+
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+Thirteen Telvanni.esp
+[ANY	Thirteen Telvanni - Ald-ruhn, Ald Skar Inn.esp
+		Thirteen Telvanni - Balmora, South Wall Cornerclub (Atmospheric).esp
+		Thirteen Telvanni - Balmora, South Wall Cornerclub.esp
+		Thirteen Telvanni - Buckmoth Legion Fort, Interior.esp
+		Thirteen Telvanni - Gateway Inn.esp
+		Thirteen Telvanni - Gnisis, Madach Tradehouse (BCOM).esp
+		Thirteen Telvanni - Gnisis, Madach Tradehouse.esp
+		Thirteen Telvanni - Molag Mar, St. Veloth's Hostel.esp
+		Thirteen Telvanni - Sadrith Mora, Fara's Hole in the Wall.esp
+		Thirteen Telvanni - Seyda Neen, Arrille's Tradehouse.esp
+		Thirteen Telvanni - Suran, Suran Tradehouse.esp
+		Thirteen Telvanni - Vivec, Black Shalk Cornerclub (BCOM).esp
+		Thirteen Telvanni - Vivec, Black Shalk Cornerclub.esp
+		Thirteen Telvanni - Vos, Varo Tradehouse.esp]
+
+[Conflict]
+	The modular version of "Thirteen Telvanni" is required for compatibility with these plugins.
+Thirteen Telvanni.esp
+[ANY	Beautiful Cities of Morrowind.esp
+		SouthWallDenOfIniquity2.0.1.esp
+		SouthWallDOI2.0.1-OpenMW.esp
+		South Wall_RP.esp]
+
+[Conflict]
+	Use only the "BCOM" version of these plugins with "Beautiful Cities of Morrowind".
+Beautiful Cities of Morrowind.esp
+[ANY	Thirteen Telvanni - Vivec, Black Shalk Cornerclub.esp
+		Thirteen Telvanni - Gnisis, Madach Tradehouse.esp]
+
+[Requires]
+	These plugins require "Beautiful Cities of Morrowind".
+[ANY	Thirteen Telvanni - Vivec, Black Shalk Cornerclub (BCOM).esp
+		Thirteen Telvanni - Gnisis, Madach Tradehouse (BCOM).esp]
+Beautiful Cities of Morrowind.esp
+
+[Conflict]
+	Use only the "Atmospheric" version of this plugin with "Atmospheric South Wall Cornerclub" or "South Wall Den Of Iniquity".
+[ANY	SouthWallDenOfIniquity2.0.1.esp
+		SouthWallDOI2.0.1-OpenMW.esp
+		South Wall_RP.esp]
+Thirteen Telvanni - Balmora, South Wall Cornerclub.esp
+
+[Requires]
+	This plugin requires "Atmospheric South Wall Cornerclub" or "South Wall Den Of Iniquity".
+Thirteen Telvanni - Balmora, South Wall Cornerclub (Atmospheric).esp
+[ANY	SouthWallDenOfIniquity2.0.1.esp
+		SouthWallDOI2.0.1-OpenMW.esp
+		South Wall_RP.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tirram Terala's Treasure Trove of Trinkets [Remiros]
 
 [Conflict]
