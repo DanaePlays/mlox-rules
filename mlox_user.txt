@@ -6074,7 +6074,7 @@ Thirsk Expanded.esp
 Thirsk Expanded for TOTSP.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Thirteen Telvanni - a Dunmeri Card Game
+;; @Thirteen Telvanni - a Dunmeri Card Game [Dillonn241]
 
 [Order]
 Thirteen Telvanni - Core.esp
