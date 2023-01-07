@@ -4625,6 +4625,85 @@ NewIlunibi_MainQuestOverhaul_Patch.esp
 				Sixth House Smugglers.esp]]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Nine Holes [Dillonn241]
+
+;; Modular Version
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Ald-ruhn, The Rat In The Pot.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Caldera, Ghorak Manor.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Dagon Fel, The End of the World.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Ebonheart, Six Fishes.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Moonmoth Legion Fort.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Pelagiad, Halfway Tavern.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Sadrith Mora, Dirty Muriel's Cornerclub.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Seyda Neen, Arrille's Tradehouse.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Suran, Goldyn Belaram (BCOM).esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Suran, Goldyn Belaram.esp
+
+[Order]
+Nine-holes - Core.esp
+Nine-holes - Vivec, Elven Nations Cornerclub.esp
+
+;; Conflicts
+[Conflict]
+	Use either only the merged plugin or any combination of the modular plugins.
+Nine-holes.esp
+[ANY	Nine-holes - Ald-ruhn, The Rat In The Pot.esp
+		Nine-holes - Caldera, Ghorak Manor.esp
+		Nine-holes - Dagon Fel, The End of the World.esp
+		Nine-holes - Ebonheart, Six Fishes.esp
+		Nine-holes - Moonmoth Legion Fort.esp
+		Nine-holes - Pelagiad, Halfway Tavern.esp
+		Nine-holes - Sadrith Mora, Dirty Muriel's Cornerclub.esp
+		Nine-holes - Seyda Neen, Arrille's Tradehouse.esp
+		Nine-holes - Suran, Goldyn Belaram (BCOM).esp
+		Nine-holes - Suran, Goldyn Belaram.esp
+		Nine-holes - Vivec, Elven Nations Cornerclub.esp]
+
+[Conflict]
+	The modular version of "Nine Holes" is required for compatibility with this plugin.
+Nine-holes.esp
+Beautiful Cities of Morrowind.esp
+
+[Conflict]
+	Use only the "BCOM" version of this plugin with "Beautiful Cities of Morrowind".
+Nine-holes - Suran, Goldyn Belaram.esp
+Beautiful Cities of Morrowind.esp
+
+[Requires]
+	This plugin requires "Beautiful Cities of Morrowind".
+Nine-holes - Suran, Goldyn Belaram (BCOM).esp
+Beautiful Cities of Morrowind.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Nocturnal Moths [Reizeron]
 
 [Conflict]
