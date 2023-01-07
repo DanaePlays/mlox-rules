@@ -6076,6 +6076,7 @@ Thirsk Expanded for TOTSP.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Thirteen Telvanni - a Dunmeri Card Game [Dillonn241]
 
+;; Modular Version
 [Order]
 Thirteen Telvanni - Core.esp
 Thirteen Telvanni - Ald-ruhn, Ald Skar Inn.esp
@@ -6132,6 +6133,7 @@ Thirteen Telvanni - Vivec, Black Shalk Cornerclub.esp
 Thirteen Telvanni - Core.esp
 Thirteen Telvanni - Vos, Varo Tradehouse.esp
 
+;; Conflicts
 [Conflict]
 	Use either only the merged plugin or any combination of the modular plugins.
 Thirteen Telvanni.esp
