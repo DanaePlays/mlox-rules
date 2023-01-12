@@ -3168,11 +3168,26 @@ FGI_MDMD_Patch.esp
 Fighters Guild Improved.esp
 FGI_MDMD_Patch.esp
 
+[Order] ; ( Ref: Flin told me ) (Pharis)
+Fighters Guild Improved.esp
+MDMD - Creatures Add-On.ESP
+
 ;; Dura Gra-Bol
 [Order] ; Order of all three specified ( Ref: Flin told me, also the loadorder.txt ) (Pharis)
 Fighters Guild Improved.esp
 Dura Gra-Bol's House Reclaimed.ESP
 FGI_DuraGraBolsHouseReclaimed_Patch.esp
+
+;; Errands for Orvas
+[Patch]
+	A patch for "Fighters Guild Improved" and "Errands for Orvas" is provided in the "Fighters Guild Improved" archive.
+FGI_ErrandsForOrvas_Patch.esp
+[ALL	Fighters Guild Improved.esp
+		RanesPlaced.esm]
+
+[Order]
+Fighters Guild Improved.esp
+FGI_ErrandsForOrvas_Patch.esp
 
 ;; Bal Molagmer/Thieves' Guild Overhaul
 [Patch]
