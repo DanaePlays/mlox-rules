@@ -4140,6 +4140,10 @@ RR_Melchior's_Mudcrab_Merchant_Eng.esp
 Memento Mori - BCOM Patch.esp
 Memento Mori.esp
 
+[Order] ; (JosephMcKean) The patch changes the sitter leveled list none chance from 0 to 100
+Memento Mori.esp
+Memento Mori - OpenMW Patch.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mines and Caverns [jsp25]
 
