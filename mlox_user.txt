@@ -439,7 +439,7 @@ Balmora Waterworks.esp
 ;; @BDC [Enclavekiller]
 
 [Order] ; Order of all three plugins specified on mod page
-LDM - Choices and Consequences v0.48.esp
+LDM - Choices and Consequences v<VER>.esp
 BDC Seyda Neen.esp
 BDC-SN_LDM-CC compat.esp
 
@@ -3922,19 +3922,19 @@ LDM - Context Matters <VER>.esp
 
 [Order]
 LDM - Context Matters <VER>.esp
-LDM - Choices & Consequences v<VER>.esp
+LDM - Choices and Consequences v<VER>.esp
 
 [Order]
 LDM - Context Matters <VER>.esp
 Raym's Vampire Rumors.esp
 
 [Order]
-LDM - Choices & Consequences v<VER>.esp
+LDM - Choices and Consequences v<VER>.esp
 Hlaalu Rank-Adjust v<VER>.esp
 
 [Order]
 Dual Faction Membership for NPCs.esp
-LDM - Choices & Consequences v<VER>.esp
+LDM - Choices and Consequences v<VER>.esp
 
 [Conflict] ; ( Written for version 1.5 )
 	Already merged into or otherwise replicated by "LDM - Context Matters".
