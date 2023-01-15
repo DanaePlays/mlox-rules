@@ -6772,7 +6772,7 @@ F&F_no_hostiles.ESP
 Merged Objects.esp
 F&F_no_city_exterior.ESP
 F&F_no_city_interiors.ESP
-F&F_NoSitters.esp
+F&F_No_Sitters.esp
 
 [Order]
 F&F_companions.esp
