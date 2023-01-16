@@ -5208,6 +5208,13 @@ RP_NPCs.esp
 Properly clothed NPCs.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Province Cyrodiil [Province Cyrodiil Team]
+
+[Order] ; Dependency (Pharis)
+Tamriel_Data.esm
+Cyr_Main.esm
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Publicans, @Publicans [half11]
 
 [Order]
@@ -5734,6 +5741,13 @@ Skar_face.esp
 		AldRuhn_seat_of_power_RR_Skar_RMR.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Skyrim Home of the Nords [SHOTN Team]
+
+[Order] ; Dependency (Pharis)
+Tamriel_Data.esm
+Sky_Main.esm
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sobitur Facility [dagothagahnim]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
@@ -5941,7 +5955,7 @@ Bal'laku - The Lonely Towers.esp
 Baan_Binif.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Tamriel Rebuilt, @TR, @PT [Tamriel Rebuilt Team]
+;; @Tamriel Rebuilt, @TR [Tamriel Rebuilt Team]
 
 [Patch]
 	!!! Be sure to get the hotfix available on the "Tamriel Rebuilt" mod page.
