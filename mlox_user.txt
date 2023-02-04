@@ -6776,6 +6776,7 @@ F&F_heads_Westly.esp
 Merged Objects.esp
 F&F_scarce.esp
 F&F_MOAR.esp
+F&F_No_Sitters.ESP
 
 [Order]
 Merged Objects.esp
