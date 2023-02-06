@@ -7005,6 +7005,14 @@ NPC LCV Schedules*VOC.esp
 NPC LCV Locks*VOC.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Wolverine Hall [DuoDinamico aka RandomPal and Vegetto]
+
+[Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/52199 )
+BCOM_pathgrid_reset.esp
+RPNR_WHO.esp
+RPNR_WHO_BCOM.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Yet Another Guard Diversity, @YAGD [half11]
 
 [Order] ; Overwrites Ordinator levelled lists (Pharis)
