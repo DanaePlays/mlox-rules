@@ -12078,7 +12078,9 @@ MW_Children_1_0.esm
  ( Ref: "readme Fairytales of Vvardenfell.txt" )
 Fairytales+Lokken1.esp
 [ANY BT_Whitewolf_2_0.esp
-	 BT_Whitewolf_2_0.esm]
+	 BT_Whitewolf_2_0.esm
+	 BT_Whitewolf_2_0_HOTV.esp
+	 BT_Whitewolf_2_0_HOTV.esm]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Falling Down 2.01 [Duncan]
