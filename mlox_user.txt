@@ -8061,6 +8061,12 @@ More Exclusive Factions.esp
 Religions Elaborated.esp
 Imperial Factions.esp
 
+; imperial factions before TR_Factions for proper factions relations
+; lose increased guild requierements this way, need proper patch
+[Order] 
+Imperial Factions.esp
+TR_Factions.esp
+
 [Order]
 Hlaalu Rank-Adjust v<VER>.esp
 RP House Hlaalu.esp
