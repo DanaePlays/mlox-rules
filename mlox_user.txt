@@ -5707,10 +5707,6 @@ SecretsOfTheCrystalCity.esp
 Beautiful Cities of Morrowind.esp
 Shipyards of Vvardenfell.esp
 BCOM_Sadrith_Mora_dock_expanded.esp
-
-[Conflict]
-	Causes land tear near Seyda Neen.
-Shipyards of Vvardenfell.esp
 BCOM - Taller Lighthouse.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
