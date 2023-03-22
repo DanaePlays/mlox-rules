@@ -5704,10 +5704,8 @@ SecretsOfTheCrystalCity.esp
 ;; @Shipyards of Vvardenfell (Sadrith Mora - Seyda Neen - Gnaar Mok) [DetailDevil, Sjek]
 
 [Order] ; Order of all three specified ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Pharis)
-Beautiful Cities of Morrowind.esp
 Shipyards of Vvardenfell.esp
-BCOM_Sadrith_Mora_dock_expanded.esp
-BCOM - Taller Lighthouse.esp
+Beautiful Cities of Morrowind.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silgrad Tower [Various]
