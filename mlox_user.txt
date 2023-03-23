@@ -7234,6 +7234,23 @@ Clear Your Name.esp
 hunters_achievements.esp
 BoundWeaponReplacer.esp
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Grass warnings
+[Note]
+	!!! Do not enable these ESPs or grass will have collision and tank FPS.
+	!! When creating your distant lands, select one plugin per region only.
+VSW-Rem-Anthology Solstheim.esp
+Rem_WG_TR.esp
+Rem_VM_TR.esp
+Rem_RR_TR.esp
+Rem_GL_TR.esp
+Rem_BC_TR.esp
+Rem_AT_TR.esp
+Rem_AL_TR.esp
+Rem_AI_TR.esp
+Rem_AC_TR.esp
+Rem_GL - OAAB Landscape.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 [Order]
