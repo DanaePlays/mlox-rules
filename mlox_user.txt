@@ -8085,3 +8085,8 @@ RP House Hlaalu.esp
 [Order]
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
+
+[Order]
+Quest Voice Greetings.esp
+Quest Voice Greetings - Class dismissed.ESP
+FGI_QuestVoiceGreetings_Patch.esp
