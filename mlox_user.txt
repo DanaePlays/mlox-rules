@@ -4165,6 +4165,11 @@ Memento Mori.esp
 Memento Mori.esp
 Memento Mori - OpenMW Patch.esp
 
+[Order] ; (ActuallyUlysses) This is a patch for MM + RMR + BCOM. I published in on discord and its currently being tested for left over seams, ters and floaters - Link to discord https://discord.com/channels/210394599246659585/847622100218544158/1097228510579413053
+Memento Mori.esp
+RedMountainReborn.esp
+Memento_Mori_Patch_RMR__BCOM.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mines and Caverns [jsp25]
 
