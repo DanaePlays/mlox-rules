@@ -3075,9 +3075,9 @@ Ebonheart_Underworks - Disable Rebirth Question.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Economy Adjuster Adjustments [Necrolesian]
 
-[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis)
-LDM - Context Matters <VER>.esp
-EcoAdjCrime (Necro Edit).esp
+;[Order] ; ( Ref: Lucas(Sigourn) told me ) (Pharis) (Amalie: An unnecessary rule and causes a cycle between Cutting Room Floor and EcoAdjCrime (Necro Edit))
+;LDM - Context Matters <VER>.esp
+;EcoAdjCrime (Necro Edit).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Entertainers Expanded Again [Chantox]
