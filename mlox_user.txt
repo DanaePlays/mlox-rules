@@ -3246,6 +3246,10 @@ FGI_CaerisCamonnaTong_Patch.esp
 [DESC /Enjoy!/ Camonna Tong.esp]
 FGI_CaerisCamonnaTong_Patch.esp
 
+[Order]
+Camonna Tong.esp
+FGI_CaerisCamonnaTong_Patch.esp
+
 ;; Join the Camonna Tong
 [Patch]
 	A patch for "Fighters Guild Improved" and "Join the Camonna Tong" is provided in the "Fighters Guild Improved" archive.
@@ -3725,6 +3729,14 @@ Imperial Legion Expansion.esp
 		Legionpapers.esp
 		Imperial Legion Goods.esp
 		Publius_Claudius_Follower.esp]
+
+[Order]
+Talos Cult Conspiracy.esp
+TCCult_ILExpansionAmuletPatch.ESP
+
+[Order]
+Imperial Legion Expansion.esp
+TCCult_ILExpansionAmuletPatch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Imperial Stables [Danae]
