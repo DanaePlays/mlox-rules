@@ -7139,6 +7139,39 @@ YANDL - Merged.esp
 		YANDL - Ttooth Ecology - TR Patch.esp
 		YANDL - Ttooth Ecology - BMR Patch.esp]
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Interesting Outfits - Cultists, @IO - Cultists [TipsyTekPriest]
+
+(Ref: https://www.nexusmods.com/morrowind/mods/51922?tab=docs )
+
+[Patch]
+	A patch for "Interesting Outfits - Cultists" and "The Fires of Orc" is provided on the "Interesting Outfits - Cultists" mod page.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51922 )
+IO - The Fires of Orc Patch.ESP
+[ALL	The_Fires_of_Orc.ESP
+		IO - Cultists.esp]
+
+[Order]
+The_Fires_of_Orc.ESP
+IO - Cultists.esp
+IO - The Fires of Orc Patch.ESP
+
+[Order]
+Daedric Shrine Overhaul Malacath.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Mehrunes Dagon.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Molag Bal.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Sheogorath.ESP
+IO - Cultists.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rejects ; Need tweaking
 
