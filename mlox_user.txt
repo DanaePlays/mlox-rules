@@ -3856,6 +3856,92 @@ TR_Mainland.esm
 Indoril_armor.esp
 Indoril_armor - TR.esp
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Interesting Outfits - Cultists, @IO - Cultists [TipsyTekPriest]
+
+(Ref: https://www.nexusmods.com/morrowind/mods/51922?tab=docs )
+
+[Order]
+The_Fires_of_Orc.ESP
+IO - Cultists.esp
+IO - The Fires of Orc Patch.ESP
+
+[Order]
+Daedric Shrine Overhaul Malacath.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Mehrunes Dagon.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Molag Bal.ESP
+IO - Cultists.esp
+
+[Order]
+Daedric Shrine Overhaul Sheogorath.ESP
+IO - Cultists.esp
+
+[Patch]
+	A patch for "Interesting Outfits - Cultists" and "The Fires of Orc" is provided on the "Interesting Outfits - Cultists" mod page.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51922 )
+IO - The Fires of Orc Patch.ESP
+[ALL	The_Fires_of_Orc.ESP
+		IO - Cultists.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
+
+(Ref: https://www.nexusmods.com/morrowind/mods/52167?tab=docs )
+
+[Order]
+Beautiful cities of morrowind.esp
+IO - Kinsmer.ESP
+
+[Order]
+Uvirith's Legacy_3.53.esp
+IO - Kinsmer.ESP
+IO - UL Compatibility Patch.ESP
+
+[Patch]
+	A patch for "Interesting Outfits - Kinsmer" and "Uvirith's Legacy" is provided on the "Interesting Outfits - Kinsmer" mod page.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
+IO - The Fires of Orc Patch.ESP
+[ALL	The_Fires_of_Orc.ESP
+		IO - Cultists.esp]
+
+[Conflict]
+	"Armored Robes Compilation and NPC changes" is already merged into "Interesting Outfits - Kinsmer" - do not use both.
+IO - Kinsmer.esp
+[ANY	ArmoredRobes_NPC_Compilation.ESP
+		ArmoredRobes_v1.3.ESP
+		MabrigashArmoredRobes_NPC.ESP]
+
+[Conflict]
+	"FMI - Athyn and Shardie" is incompatible with "Interesting Outfits - Kinsmer" as IO - Kinsmer also makes changes to Athyn and Shardie.
+FMI_Athyn_And_Shardie.ESP
+IO - Kinsmer.esp
+
+[Conflict]
+	"Yet Another Guard Diversity" is already merged into and expanded upon in the 'IO - Kinsmer + YAGD' and 'IO - Kinsmer + YAGD BCOM Compatibility Version' modules of "Interesting Outfits - Kinsmer" - Remove YAGD if using IO - Kinsmer,
+IO - Kinsmer.esp
+[ANY	Yet Another Guard Diversity - Regular.ESP
+		Yet Another Guard Diversity - Full Cephalopod.ESP
+		Yet Another Guard Diversity - Hlaalu.ESP
+		Yet Another Guard Diversity - Imperial.ESP
+		Yet Another Guard Diversity - Ordinator.ESP
+		Yet Another Guard Diversity - Redoran.ESP
+		Yet Another Guard Diversity - Telvanni (Full Cephalopod).ESP
+		Yet Another Guard Diversity - Telvanni (Purist).ESP
+		Yet Another Guard Diversity - Telvanni (Regular).ESP 
+			[NOT	Yet Another Guard Diversity - Bloodmoon.ESP
+					Yet Another Guard Diversity]]
+
+[Note]
+	"Interesting Outfits - Kinsmer" contains a BCOM compatible version in the 'BCOM Compatibility Version' and 'IO - Kinsmer + YAGD BCOM Compatibility Version' modules - ensure you replace the esp in the 'Core' folder with either of these - pick one.
+[All	Beautiful cities of Morrowind.ESP
+	IO - Kinsmer.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Iron Mesh Improvements - Uniques [Psymoniser]
 
@@ -7138,39 +7224,6 @@ YANDL - Merged.esp
 		YANDL - Ttooth Ecology.esp
 		YANDL - Ttooth Ecology - TR Patch.esp
 		YANDL - Ttooth Ecology - BMR Patch.esp]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Interesting Outfits - Cultists, @IO - Cultists [TipsyTekPriest]
-
-(Ref: https://www.nexusmods.com/morrowind/mods/51922?tab=docs )
-
-[Patch]
-	A patch for "Interesting Outfits - Cultists" and "The Fires of Orc" is provided on the "Interesting Outfits - Cultists" mod page.
-	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51922 )
-IO - The Fires of Orc Patch.ESP
-[ALL	The_Fires_of_Orc.ESP
-		IO - Cultists.esp]
-
-[Order]
-The_Fires_of_Orc.ESP
-IO - Cultists.esp
-IO - The Fires of Orc Patch.ESP
-
-[Order]
-Daedric Shrine Overhaul Malacath.ESP
-IO - Cultists.esp
-
-[Order]
-Daedric Shrine Overhaul Mehrunes Dagon.ESP
-IO - Cultists.esp
-
-[Order]
-Daedric Shrine Overhaul Molag Bal.ESP
-IO - Cultists.esp
-
-[Order]
-Daedric Shrine Overhaul Sheogorath.ESP
-IO - Cultists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rejects ; Need tweaking
