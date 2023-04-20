@@ -3859,8 +3859,6 @@ Indoril_armor - TR.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Cultists, @IO - Cultists [TipsyTekPriest]
 
-(Ref: https://www.nexusmods.com/morrowind/mods/51922?tab=docs )
-
 [Order]
 The_Fires_of_Orc.ESP
 IO - Cultists.esp
@@ -3892,8 +3890,6 @@ IO - The Fires of Orc Patch.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
 
-(Ref: https://www.nexusmods.com/morrowind/mods/52167?tab=docs )
-
 [Order]
 Beautiful cities of morrowind.esp
 IO - Kinsmer.ESP
@@ -3906,9 +3902,9 @@ IO - UL Compatibility Patch.ESP
 [Patch]
 	A patch for "Interesting Outfits - Kinsmer" and "Uvirith's Legacy" is provided on the "Interesting Outfits - Kinsmer" mod page.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
-IO - The Fires of Orc Patch.ESP
-[ALL	The_Fires_of_Orc.ESP
-		IO - Cultists.esp]
+IO - UL Compatibility Patch.ESP
+[ALL	Uvirith's Legacy_3.53.esp
+		IO - Kinsmer.esp]
 
 [Conflict]
 	"Armored Robes Compilation and NPC changes" is already merged into "Interesting Outfits - Kinsmer" - do not use both.
@@ -3933,9 +3929,7 @@ IO - Kinsmer.esp
 		Yet Another Guard Diversity - Redoran.ESP
 		Yet Another Guard Diversity - Telvanni (Full Cephalopod).ESP
 		Yet Another Guard Diversity - Telvanni (Purist).ESP
-		Yet Another Guard Diversity - Telvanni (Regular).ESP 
-			[NOT	Yet Another Guard Diversity - Bloodmoon.ESP
-					Yet Another Guard Diversity]]
+		Yet Another Guard Diversity - Telvanni (Regular).ESP]
 
 [Note]
 	"Interesting Outfits - Kinsmer" contains a BCOM compatible version in the 'BCOM Compatibility Version' and 'IO - Kinsmer + YAGD BCOM Compatibility Version' modules - ensure you replace the esp in the 'Core' folder with either of these - pick one.
