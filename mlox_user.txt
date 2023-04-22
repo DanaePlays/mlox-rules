@@ -293,6 +293,18 @@ Ashfall.esp
 RP_Bandits camps*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ashfall Survival Start [Amalie]
+
+[Order] ;(Amalie: Both change the CharGen script)
+Quick Char (Necro Edit).esp
+Ashfall Survival Start.esp
+
+[Conflict] ;(Amalie)
+	Landscape conflicts.
+Ashfall Survival Start.esp
+Invasion of Stormwatch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Assarnud and Mat Overhaul [jsp25]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
