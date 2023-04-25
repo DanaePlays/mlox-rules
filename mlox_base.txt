@@ -217,8 +217,13 @@ Morrowind Patch*.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Grass warnings
 [Note]
-	!!! Do not enable these ESPs or grass will have collision and tank FPS.
-	!! When creating your distant lands, select one plugin per region only.
+	!!! Grouncover plugins should not be enabled. For MGE XE they should be used only in the distant land
+	!!! generation wizard, and for OpenMW they should be added to your 'openmw.cfg' on a "grouncover=" line.
+	!!! Select only one plugin per region.
+NoM_Grass FotG+FF.esp
+Ozzy's Grass*.esp
+PC_Stirk_Grass.esp
+ReBirthGrass.esp
 Grass AC.esp
 Grass AI.esp
 Grass AL.esp
@@ -239,31 +244,49 @@ Grass_Ascadian Isles.esp
 Grass_Bitter Coast.esp
 Grass_Elnagor.esp
 Grass_Grazelands.esp
+Grass_West Gash.esp
 Grass_M4Ash_Knots.esp
 Grass_Mainland_Knots.esp
 Grass_Map4v1_Knots.esp
 Grass_Tamriel Rebuilt.esp
 Grass_TR_TI&M.esp
-Grass_West Gash.esp
-NoM_Grass FotG+FF.esp
-Ozzy's Grass*.esp
-PC_Stirk_Grass.ESP
-ReBirthGrass.esp
-Rem_AC.esp
-Rem_AI.esp
-Rem_AL.esp
-Rem_BC.esp
-Rem_GL.esp
-Rem_LoC.esp
-Rem_LoCM.esp
+AesAdGrass_TR_??.esp
+AesGrass_TR_??.esp
+Rem_TR_AT.esp
+AesAdGrass_TRp_??.esp
+AesGrass_TRp_??.esp
+AesAdGrass_??.esp
+AesGrass_??.esp
+GrassZ10.esp
+Grass_HOTV-STOTSP.esp
+Grass TR Custom.esp
+Grass TRp Custom.esp
+Rem_??.esp
+Rem_LoC?.esp
 Rem_Solstheim.esp
-Rem_TR*.esp
-Rem_WG.esp
+Rem_??_TR.esp
+Rem_TRp_??.esp
 Sky_Main_Grass.esp
 Vurt's Corals.esp
 Vurt's Groundcover*.esp
 SGOTN_Aesthesia.esp
 SGOTN_Remiros.esp
+VSW-Rem-Anthology Solstheim.esp
+Rem_GL - OAAB Landscape.esp
+Gotn_Ryt_Full_Grass.esp
+Gotn_Grass_Rem_AC.esp
+Gotn_Grass_Rem_SH.esp
+Gotn_Grass_Rem_WG.esp
+Gotn_Grass_Ryt_AC.esp
+Gotn_Grass_Ryt_Cliff.esp
+Gotn_Grass_Ryt_Rem_Full.esp
+Gotn_Grass_Ryt_SH.esp
+Gotn_Grass_Ryt_WG.esp
+KN_Rem_Lokken_Grass.esp
+KN_Rem_TelMorgana_Grass.esp
+KN_Rem_BattleRite_Grass.esp
+KN_Rem_AC.esp
+KN_Rem_SheogoradGOTN_Grass.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Plugins using Deprecated Leveled List Functions on Bethsoft lists
