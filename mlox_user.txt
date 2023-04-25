@@ -4304,6 +4304,10 @@ Clean_KS_Julan_Ashlander - MC_patch.esp
 Clean_Mines & Caverns.esp
 SecretsOfTheCrystalCity.esp
 
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+Clean_Mines & Caverns.esp
+Patch for Purists - Clean_Mines & Caverns - Mat.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining [TheDrunkenMudcrab]
 
@@ -5082,6 +5086,10 @@ DD_Caldera_Expansion.esp
 Yet Another Guard*.esp
 OAAB Brother Junipers Twin Lamps.esp
 
+[Order] ; From Alvazir's Various Patches (MasssiveJuice) 
+OAAB Brother Junipers Twin Lamps.esp
+OAAB Brother Junipers Twin Lamps - Script Fix.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Grazelands [Melchior Dahrk]
 
@@ -5114,6 +5122,10 @@ OAAB Ingredients.esp
 [Order] ; else no new path grid for platforms
 NOM3*.esp
 OAAB_Tel Mora.esp
+
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+OAAB_Tel Mora.ESP
+OAAB_Tel Mora - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Of Dungeons and Abodes [Darkelfguy]
@@ -5500,6 +5512,10 @@ Library of Vivec Overhaul - Full - OpenMW Patch.esp
 	Use only one of these plugins.
 Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Lite.esp
+
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+Library of Vivec Overhaul - Full.esp
+Library of Vivec Overhaul - Full - Dialogue Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Red Mountain Reborn, @RMR [Knots, Trancemaster_1988]
@@ -8195,3 +8211,11 @@ RP House Hlaalu.esp
 [Order]
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
+NoMoreStageDiving.ESP
+Just Twerk (all dancers).esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
+NoMoreStageDiving.ESP
+Just Twerk (one dancer).esp
