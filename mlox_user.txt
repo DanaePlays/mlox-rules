@@ -3707,6 +3707,16 @@ Clean Royal Chargen.esp
 Mournhold LOD.esp
 Immersive Mournhold.esp
 
+[Order] ; (Ref: https://www.nexusmods.com/morrowind/mods/52601 )
+Karethys consort wizard.ESP
+Immersive Mournhold.esp
+
+[Note] ; (Ref: https://www.nexusmods.com/morrowind/mods/52601 ) (MasssiveJuice)
+	A patch for "Karethys in Morrowind" and "Immersive Mournhold" is available.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52601 )
+[ALL	Karethys consort wizard.ESP
+	Immersive Mournhold.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Imperial Dwemer Society, @Imperial Dwemer Society [LadyPhoenixFireRose, kiramarshiku, Pseunomix, Danae]
 
@@ -3739,6 +3749,41 @@ OAAB - The Ashen Divide.esp
 	Each of these plugins is a different version of "Imperial Employment Office", use only one of them.
 Imperial Employment Office.esp
 Imperial Employment Office (MD edits).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Imperial Knights Faction [AliceL93]
+
+;; Imperial Knight Faction - Deeds for Other Mods patches (Ref: https://www.nexusmods.com/morrowind/mods/52503 ) (MasssiveJuice)
+
+[Patch]
+	A patch for "Imperial Knights Faction" and "Hlormaren Reclaimed - Slightly Improved" is available.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52503 )
+IK_FurtherChivalricDeeds_HR.ESP
+[ALL	Imperial Knights Faction.ESP
+		Hlormaren Reclaimed.ESP]
+
+[Patch]
+	A patch for "Imperial Knights Faction" and "-Order of Sanctity-" is available.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52503 )
+IK_FurtherChivalricDeeds_OOS.ESP
+[ALL	Imperial Knights Faction.ESP
+		Order_Of_Sanctity.ESP]
+
+[Order]
+Imperial Knights Faction.ESP
+IK_FurtherChivalricDeeds_HR.ESP
+
+[Order]
+Hlormaren Reclaimed.ESP
+IK_FurtherChivalricDeeds_HR.ESP
+
+[Order] 
+Imperial Knights Faction.ESP
+IK_FurtherChivalricDeeds_OOS.ESP
+
+[Order] 
+Order_Of_Sanctity.ESP
+IK_FurtherChivalricDeeds_OOS.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Imperial Legion Expansion [AliceL93]
@@ -4110,6 +4155,26 @@ Legend of ChemuaM.esp
 	Landscape conflict.
 Legend of ChemuaM.esp
 TheManifoldSpires.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Legion at the Siege of Firemoth [EndoranWest]
+
+[Conflict] ; (Ref: https://www.nexusmods.com/morrowind/mods/47924 ) (MasssiveJuice)
+	Not compatible with "Legion at the Siege of Firemoth".
+LegionAtFiremoth.esp
+[ANY	Better Siege at Firemoth Followers.esp
+	FiremothReclaimed.esp
+	SiegeAtFiremoth.esp
+	Siege at Firemoth.esp
+	Siege at Firemoth Naturalized.esp
+	Siege at Firemoth Naturalized - Script Fix.esp
+	Triumph at Firemoth - Siege at Firemoth.esp]
+
+[Note] ; (Ref: https://www.nexusmods.com/morrowind/mods/52601 ) (MasssiveJuice)
+	A patch for "Legion at the Siege of Firemoth" and "BCOM" is available.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52601 )
+[ALL	LegionAtFiremoth.esp
+	Beautiful cities of Morrowind.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Library of Vivec Enhanced [RandomPal, Vegetto]
