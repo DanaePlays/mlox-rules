@@ -861,6 +861,10 @@ BCOM_OpenMW_plazas.esp
 Beautiful cities of Morrowind.esp
 BalmoraDocks.esp
 
+[Order]
+Beautiful Cities of Morrowind.esp
+BCOM_Vanilla_Skar.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
