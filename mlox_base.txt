@@ -268,7 +268,10 @@ Rem_??_TR.esp
 Rem_TRp_??.esp
 Sky_Main_Grass.esp
 Vurt's Corals.esp
-Vurt's Groundcover*.esp
+Vurt's Groundcover - BC, AI, WG, GL.esp
+Vurt's Groundcover - Reeds.esp
+Vurt's Groundcover - Solstheim.esp
+Vurt's Groundcover - The Ashlands.esp
 SGOTN_Aesthesia.esp
 SGOTN_Remiros.esp
 VSW-Rem-Anthology Solstheim.esp
@@ -287,6 +290,27 @@ KN_Rem_TelMorgana_Grass.esp
 KN_Rem_BattleRite_Grass.esp
 KN_Rem_AC.esp
 KN_Rem_SheogoradGOTN_Grass.esp
+Grass rebirth 1.esp
+Grass rebirth 2.esp
+Grass for Morrowind Rebirth 4.7.1.esp
+ReBirthGrassv02.esp
+hm-grass-mainland-GROUNDCOVER.esp
+hm-grass-vvardenfell-GROUNDCOVER.esp
+hm-grass-bcom-GROUNDCOVER.esp
+Grass GL_Trackless GL.esp
+Rem_GL_Trackless_GL.ESP
+GrassRebirth1.esp
+GrassRebirth2.esp
+Grass-TR.esp
+Grass1.esp
+Grass2.esp
+Grass3.esp
+(DC) Morrowind Rebirth Grass.esp
+Legend_of_Chemua_Grass.esp
+Grass_Arktwend.esp
+Grass_DBA.esp
+Grass_MA_RoK.esp
+Grass_SOP.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Plugins using Deprecated Leveled List Functions on Bethsoft lists
