@@ -3781,11 +3781,11 @@ IK_FurtherChivalricDeeds_HR.ESP
 Hlormaren Reclaimed.ESP
 IK_FurtherChivalricDeeds_HR.ESP
 
-[Order] 
+[Order]
 Imperial Knights Faction.ESP
 IK_FurtherChivalricDeeds_OOS.ESP
 
-[Order] 
+[Order]
 Order_Of_Sanctity.ESP
 IK_FurtherChivalricDeeds_OOS.ESP
 
@@ -3926,7 +3926,7 @@ TR_Mainland.esm
 Indoril_armor.esp
 Indoril_armor - TR.esp
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Cultists, @IO - Cultists [TipsyTekPriest]
 
 [Order]
@@ -3957,7 +3957,7 @@ IO - The Fires of Orc Patch.ESP
 [ALL	The_Fires_of_Orc.ESP
 		IO - Cultists.esp]
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
 
 [Order]
@@ -5164,7 +5164,7 @@ DD_Caldera_Expansion.esp
 Yet Another Guard*.esp
 OAAB Brother Junipers Twin Lamps.esp
 
-[Order] ; From Alvazir's Various Patches (MasssiveJuice) 
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
 OAAB Brother Junipers Twin Lamps.esp
 OAAB Brother Junipers Twin Lamps - Script Fix.esp
 
@@ -8278,7 +8278,7 @@ Imperial Factions.esp
 
 ; imperial factions before TR_Factions for proper factions relations
 ; lose increased guild requierements this way, need proper patch
-[Order] 
+[Order]
 Imperial Factions.esp
 TR_Factions.esp
 
