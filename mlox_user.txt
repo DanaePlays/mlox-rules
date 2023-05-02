@@ -5544,6 +5544,37 @@ Vivec_Lighthouse.esp
 Vivec Lighthouse Questline.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Quests in Balmora Waterworks [FlinSunset]
+
+; ( Ref: https://www.nexusmods.com/morrowind/mods/52758 )
+
+[Order]
+ScrewYouSovor.esp
+Quests In Balmora Waterworks.esp
+
+[Order]
+ScrewYouSovor.esp
+Quests In Balmora Waterworks - No Dura gra-Bol.esp
+
+[Conflict]
+	Use only one of these plugins.
+Quests In Balmora Waterworks.esp
+Quests In Balmora Waterworks - No Dura gra-Bol.esp
+
+[Conflict]
+	An ESP replacer for "Quests in Balmora Waterworks" that is compatible with "Dura gra-Bol's House Reclaimed - And the Grab-All Gang" and "Fighters Guild Improved" provided on the "Quests in Balmora Waterworks" mod page.
+	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52758 )
+Quests In Balmora Waterworks.esp
+[ANY	Dura Gra-Bol's House Reclaimed.esp
+		Fighters Guild Improved.esp]
+
+[Conflict]
+	Incompatible with "Quests in Balmora Waterworks".
+Quests In Balmora Waterworks.esp
+[ANY	Balmora City of Contrasts.esp
+		Sleep with the Fishes.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Quill of Feyfolken [Dormouse]
 
 [Order]
