@@ -5548,6 +5548,14 @@ Vivec Lighthouse Questline.esp
 
 ; ( Ref: https://www.nexusmods.com/morrowind/mods/52758 )
 
+[Order]
+ScrewYouSovor.esp
+Quests In Balmora Waterworks.esp
+
+[Order]
+ScrewYouSovor.esp
+Quests In Balmora Waterworks - No Dura gra-Bol.esp
+
 [Conflict]
 	Use only one of these plugins.
 Quests In Balmora Waterworks.esp
