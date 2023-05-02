@@ -5180,6 +5180,15 @@ OAAB_Grazelands.esp
 Valley of the Wind Overhaul.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @OAAB Greater Samarys
+
+[Conflict]
+	Each of these plugins overhaul the Samarys Ancestral Tomb. Use only one of them.
+Greater Samarys.esp
+[ANY	Tombs Expanded.esp
+		Samarys Ancestral Tomb Expanded.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Integrations [OAAB_Data Team]
 
 [Order]
