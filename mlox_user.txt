@@ -1813,6 +1813,10 @@ Balmora Guilds Expanded.esp
 BTBGIsation - Balmora Guilds Expanded.esp
 
 [Order]
+BigTooth.esp
+BTBGIsation - BigTooth.esp
+
+[Order]
 Clean__Blackthorn Barrow.esp
 BTBGIsation - Blackthorn Barrow.esp
 
@@ -2021,6 +2025,10 @@ Lost Redoran Relics.esp
 BTBGIsation - Lost Redoran Relics.esp
 
 [Order]
+Magical Missions.esp
+BTBGIsation - Magical Missions.esp
+
+[Order]
 Main_Quest_Overhaul.esp
 BTBGIsation - Main_Quest_Overhaul.esp
 
@@ -2035,6 +2043,10 @@ BTBGIsation - Mamaea Awakened.esp
 [Order]
 ManyClothHelms.esp
 BTBGIsation - ManyClothHelms.esp
+
+[Order]
+Memento Mori.esp
+BTBGIsation - Memento Mori.esp
 
 [Order]
 Missing snow armor.esp
@@ -2063,6 +2075,10 @@ BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
 [Order]
 OAAB - Shipwrecks.esp
 BTBGIsation - OAAB - Shipwrecks.esp
+
+[Order]
+OAAB Brother Junipers Twin Lamps.esp
+BTBGIsation - OAAB Brother Junipers Twin Lamps.esp
 
 [Order]
 OAAB_Data.esm
@@ -2121,6 +2137,14 @@ Sacred Necromancer no npcs.esp
 BTBGIsation - Sacred Necromancer.esp
 
 [Order]
+SecretsOfTheCrystalCity.esp
+BTBGIsation - SecretsOfTheCrystalCity.esp
+
+[Order]
+Shipyards of Vvardenfell.esp
+BTBGIsation - Shipyards of Vvardenfell.esp
+
+[Order]
 SHS - Bloodskal Barrow.esp
 BTBGIsation - SHS - Bloodskal Barrow.esp
 
@@ -2137,8 +2161,12 @@ Silent Island.esp
 BTBGIsation - Silent Island.esp
 
 [Order]
-sm_tr.ESP
+sm_tr.esp
 BTBGIsation - sm_tr.esp
+
+[Order]
+Sorcerer of Alteration.esp
+BTBGIsation - Sorcerer of Alteration.esp
 
 [Order]
 Sotha Sil Expanded.esp
@@ -2159,6 +2187,10 @@ BTBGIsation - Talos Cult Conspiracy.esp
 [Order]
 Tel_Aruhn_Chronicles.esp
 BTBGIsation - Tel_Aruhn_Chronicles.esp
+
+[Order]
+Tel_Eurus.esp
+BTBGIsation - Tel_Eurus.esp
 
 [Order]
 The Hammer of Orsinium.esp
@@ -2220,6 +2252,10 @@ BTBGIsation - Weapons Expansion Morrowind.esp
 Welcome to the Arena! v6.7.esp
 BTBGIsation - Welcome to the Arena! v6.7.esp
 
+[Order]
+Yul Marshee and the Visage of Mzund.esp
+BTBGIsation - Yul Marshee and the Visage of Mzund.esp
+
 ;; BTBGIsation Merged Complete ( Ref: https://www.nexusmods.com/morrowind/mods/50325 ) (Pharis)
 [Order]
 A Hermit's Request.esp
@@ -2247,6 +2283,10 @@ BTBGIsation - Merged.esp
 
 [Order]
 Balmora Guilds Expanded.esp
+BTBGIsation - Merged.esp
+
+[Order]
+BigTooth.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2386,6 +2426,10 @@ Lost Redoran Relics.esp
 BTBGIsation - Merged.esp
 
 [Order]
+Magical Missions.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Main_Quest_Overhaul.esp
 BTBGIsation - Merged.esp
 
@@ -2399,6 +2443,10 @@ BTBGIsation - Merged.esp
 
 [Order]
 ManyClothHelms.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Memento Mori.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2427,6 +2475,10 @@ BTBGIsation - Merged.esp
 
 [Order]
 OAAB - Shipwrecks.esp
+BTBGIsation - Merged.esp
+
+[Order]
+OAAB Brother Junipers Twin Lamps.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2486,6 +2538,14 @@ Sacred Necromancer no npcs.esp
 BTBGIsation - Merged.esp
 
 [Order]
+SecretsOfTheCrystalCity.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Shipyards of Vvardenfell.esp
+BTBGIsation - Merged.esp
+
+[Order]
 SHS - Bloodskal Barrow.esp
 BTBGIsation - Merged.esp
 
@@ -2506,6 +2566,10 @@ sm_tr.ESP
 BTBGIsation - Merged.esp
 
 [Order]
+Sorcerer of Alteration.esp
+BTBGIsation - Merged.esp
+
+[Order]
 Sotha Sil Expanded.esp
 BTBGIsation - Merged.esp
 
@@ -2523,6 +2587,10 @@ BTBGIsation - Merged.esp
 
 [Order]
 Tel_Aruhn_Chronicles.esp
+BTBGIsation - Merged.esp
+
+[Order]
+Tel_Eurus.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -2585,10 +2653,15 @@ BTBGIsation - Merged.esp
 Welcome to the Arena! v6.7.esp
 BTBGIsation - Merged.esp
 
+[Order]
+Yul Marshee and the Visage of Mzund.esp
+BTBGIsation - Merged.esp
+
 [Conflict] ; The Better Robes - TR plugin is not included in the merge (Pharis)
 	Use either only the merged plugin or any combination of the modular plugins.
 BTBGIsation - Merged.esp
 [ANY	BTBGIsation - A Hermit's Request.esp
+		BTBGIsation - abotWaterLife.esp
 		BTBGIsation - After the Blight.esp
 		BTBGIsation - Ancient Foes.esp
 		BTBGIsation - Area Effect Projectiles Integrated.esp
@@ -2596,6 +2669,7 @@ BTBGIsation - Merged.esp
 		BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
 		BTBGIsation - Baan_Binif.esp
 		BTBGIsation - Balmora Guilds Expanded.esp
+		BTBGIsation - BigTooth.esp
 		BTBGIsation - Blackthorn Barrow.esp
 		BTBGIsation - Blacktooth.esp
 		BTBGIsation - Camonna Tong.esp
@@ -2617,6 +2691,11 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Helm of Tohan Naturalized.esp
 		BTBGIsation - Hunter's Mark - A Marksman Mod.esp
 		BTBGIsation - Imperial Employment Office (MD edits).esp
+		BTBGIsation - lack_stridersnest.esp
+		BTBGIsation - LeFemmArmor.esp
+		BTBGIsation - Legacy of Odiil.esp
+		BTBGIsation - Legend of ChemuaM.esp
+		BTBGIsation - LegendOmnidex.esp
 		BTBGIsation - LGNPC - Merged.esp
 		BTBGIsation - LGNPC_Aldruhn.esp
 		BTBGIsation - LGNPC_Aldruhn_suppl.esp
@@ -2626,16 +2705,14 @@ BTBGIsation - Merged.esp
 		BTBGIsation - LGNPC_TelUvirith.esp
 		BTBGIsation - LGNPC_VivecFQ.esp
 		BTBGIsation - LGNPC_VivecRedoran.esp
-		BTBGIsation - LeFemmArmor.esp
-		BTBGIsation - Legacy of Odiil.esp
-		BTBGIsation - Legend of ChemuaM.esp
-		BTBGIsation - LegendOmnidex.esp
 		BTBGIsation - Library of Vivec Overhaul - Full.esp
 		BTBGIsation - Lost Redoran Relics.esp
+		BTBGIsation - Magical Missions.esp
 		BTBGIsation - Main_Quest_Overhaul.esp
 		BTBGIsation - Malham Companion Weapon.esp
 		BTBGIsation - Mamaea Awakened.esp
 		BTBGIsation - ManyClothHelms.esp
+		BTBGIsation - Memento Mori.esp
 		BTBGIsation - Missing snow armor.esp
 		BTBGIsation - MoonlightOnTheOdaiRiver.esp
 		BTBGIsation - Morag Tong Polished.esp
@@ -2643,12 +2720,14 @@ BTBGIsation - Merged.esp
 		BTBGIsation - NON1.LoveintheTimeofDaedra.v1.03_Abot.esp
 		BTBGIsation - New Ilunibi.esp
 		BTBGIsation - OAAB - Shipwrecks.esp
+		BTBGIsation - OAAB Brother Junipers Twin Lamps.esp
 		BTBGIsation - OAAB_Data.esp
 		BTBGIsation - OAAB_Tel Mora.esp
 		BTBGIsation - OJAI - Framerate Version.esp
 		BTBGIsation - Of Dungeons and Abodes.esp
 		BTBGIsation - Olafs Cloaks and Hoods.esp
 		BTBGIsation - Plumed Mountain.esp
+		BTBGIsation - quarraclan_refreshed.esp
 		BTBGIsation - Quests for Clans and Vampire Legends.esp
 		BTBGIsation - RV Necrorobes.esp
 		BTBGIsation - Racer Dust Arms and Armor.esp
@@ -2656,10 +2735,14 @@ BTBGIsation - Merged.esp
 		BTBGIsation - SHS - Bloodskal Barrow.esp
 		BTBGIsation - SV - Terrors Of The Night Normal.esp
 		BTBGIsation - Sacred_Necromancer.esp
+		BTBGIsation - SecretsOfTheCrystalCity.esp
+		BTBGIsation - Shipyards of Vvardenfell.esp
 		BTBGIsation - Siege at Firemoth Naturalized.esp
 		BTBGIsation - Silent Island.esp
 		BTBGIsation - Sky_Main.esp
+		BTBGIsation - sm_tr.esp
 		BTBGIsation - Solstheim Tomb of The Snow Prince.esp
+		BTBGIsation - Sorcerer of Alteration.esp
 		BTBGIsation - Sotha Sil Expanded.esp
 		BTBGIsation - Strider Burial.esp
 		BTBGIsation - Talos Cult Conspiracy.esp
@@ -2667,6 +2750,7 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Tamriel_Data.esp
 		BTBGIsation - TD_Hotfix.esp
 		BTBGIsation - Tel_Aruhn_Chronicles.esp
+		BTBGIsation - Tel_Eurus.esp
 		BTBGIsation - The Hammer of Orsinium.esp
 		BTBGIsation - The Lamp.esp
 		BTBGIsation - The Merchant Fendus.esp
@@ -2686,10 +2770,7 @@ BTBGIsation - Merged.esp
 		BTBGIsation - Weapons Expansion Morrowind.esp
 		BTBGIsation - Welcome to the Arena! v6.7.esp
 		BTBGIsation - Wyrmhaven.esp
-		BTBGIsation - abotWaterLife.esp
-		BTBGIsation - lack_stridersnest.esp
-		BTBGIsation - quarraclan_refreshed.esp
-		BTBGIsation - sm_tr.esp]
+		BTBGIsation - Yul Marshee and the Visage of Mzund.esp]
 
 [Conflict] ; Merged Complete includes Merged Primary (Pharis)
 	Use only one of these plugins.
