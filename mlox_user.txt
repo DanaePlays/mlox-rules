@@ -7601,6 +7601,21 @@ Wares-base - Expansion - Wolverine Hall Interior Expanded - No Legion HQ.esp
 Your Own Ashlander Tribe.ESP
 Wares-base - Expansion - Your Own Ashlander Tribe.esp
 
+[Conflict] 
+	"Wares-base - Expansion - Cyr_Main.esp" is outdated. Use PC addons from "Wares Ultimate" instead.
+Wares-base - Expansion - Cyr_Main.esp
+[ANY	Wares_PC_*.esp]
+
+[Conflict]
+	"Wares-base - Expansion - Sky_Main.esp" is outdated. Use SHOTN addons from "Wares Ultimate" instead.
+Wares-base - Expansion - Sky_Main.esp
+[ANY	Wares_SHOTN_*.esp]
+
+[Conflict]
+	"Wares-base - Expansion - TR_Mainland.esp" is outdated. Use TR addons from "Wares Ultimate" instead.
+Wares-base - Expansion - TR_Mainland.esp
+[ANY	Wares_TR_*.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
 
