@@ -7471,6 +7471,136 @@ NOD - Wares.esp
 				Wares_VV_npcs_purist.esp]
 		NOD - Core.esm]
 
+;; Alvazir's Various Patches - Wares Base Expansion (Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (MasssiveJuice)
+
+[Order] ; Ald-Ruhn Temple Expansion
+Ald-Ruhn Temple Expansion 1.5.esp
+Wares-base - Expansion - Ald-Ruhn Temple Expansion 1.5.esp
+
+[Order] ; Animated Morrowind - Merged
+Animated_Morrowind - merged.esp
+Wares-base - Expansion - Animated_Morrowind - merged.esp
+
+[Order] ; Ashlander Traders Remastered
+Ashlander Traders Remastered.esp
+Wares-base - Expansion - Ashlander Traders Remastered.esp
+
+[Order] ; Balmora Waterworks
+Balmora Waterworks.esp
+Wares-base - Expansion - Balmora Waterworks.esp
+
+[Order] ; Beacon of St Rilms No Anim
+BeaconOfstRilmsNoAnim.ESP
+Wares-base - Expansion - BeaconOfstRilmsNoAnim.esp
+
+[Order] ; The Moldy Horker
+BM_S_Inn.esp
+Wares-base - Expansion - BM_S_Inn.esp
+
+[Order] ; The White Wolf of Lokken Mountain
+BT_Whitewolf_2_0_HOTV.esp
+Wares-base - Expansion - BT_Whitewolf_2_0_HOTV.esp
+
+[Order] ; Building Up Uvirith's Legacy
+Building Up Uvirith's Legacy1.1.esp
+Wares-base - Expansion - Building Up Uvirith's Legacy1.1.esp
+
+[Order] ; Camonna Tong
+Camonna Tong.esp
+Wares-base - Expansion - Camonna Tong.esp
+
+[Order] ; CCM Secrets of Vos
+CCM-SecretsofVos-V2-TB.esp
+Wares-base - Expansion - CCM-SecretsofVos-V2-TB.esp
+
+[Order] ; Sobitur Facility
+DA_Sobitur_Repurposed_1.esp
+Wares-base - Expansion - DA_Sobitur_Repurposed_1.esp
+
+[Order] ; Caldera Mine Expanded
+DD_Caldera_Expansion.esp
+Wares-base - Expansion - DD_Caldera_Expansion.esp
+
+[Order] ; Hlormaren Reclaimed
+Hlormaren Reclaimed.ESP
+Wares-base - Expansion - Hlormaren Reclaimed.esp
+
+[Order] ; Immersive Mournhold
+Immersive Mournhold.esp
+Wares-base - Expansion - Immersive Mournhold.esp
+
+[Order] ; Improved Inns Expanded - Entertainers
+Improved Inns Expanded - Entertainers.esp
+Wares-base - Expansion - Improved Inns Expanded - Entertainers.esp
+
+[Order] ; Inner Sea Trading Company
+Inner Sea Trading Company.esp
+Wares-base - Expansion - Inner Sea Trading Company.esp
+
+[Order] ; Morag Tong Polished
+Morag Tong Polished.esp
+Wares-base - Expansion - Morag Tong Polished.esp
+
+[Order] ; Mudcrab Imports Pirate Adventures
+Mudcrab Imports Pirate Adventures.esp
+Wares-base - Expansion - Mudcrab Imports Pirate Adventures.esp
+
+[Order] ; Nemon's Vivec Interiorator Lite
+NVI Lite.esp
+Wares-base - Expansion - NVI Lite.esp
+
+[Order] ; OAAB Tel Mora
+OAAB_Tel Mora.esp
+Wares-base - Expansion - OAAB_Tel Mora.esp
+
+[Order] ; Old Vos Tradepost
+OldVosTradepost.esp
+Wares-base - Expansion - OldVosTradepost.esp
+
+[Order] ; Sadrith Mora Expanded
+SadrithMoraExpandedTR.esp
+Wares-base - Expansion - SadrithMoraExpandedTR.esp
+
+[Order] ; Tel Aruhn Chronicles
+Tel_Aruhn_Chronicles.esp
+Wares-base - Expansion - Tel_Aruhn_Chronicles.esp
+
+[Order] ; The Merchants of Sadrith Mora
+The Merchants of Sadrith Mora.esp
+Wares-base - Expansion - The Merchants of Sadrith Mora.esp
+
+[Order] ; Rise of the Tribe Unmourned (Crown Edition)
+The Rise of the Tribe Unmourned.esp
+Wares-base - Expansion - The Rise of the Tribe Unmourned.esp
+
+[Order]
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
+Wares-base - Expansion - The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
+
+[Order] ; Thirsk Expanded
+Thirsk Expanded.esp
+Wares-base - Expansion - Thirsk Expanded.esp
+
+[Order] ; Traveling Merchants
+TravelingMerchants_v2_3.esp
+Wares-base - Expansion - TravelingMerchants_v2_3.esp
+
+[Order] ; Vivec Waistworks Expansion
+Vivec Waistworks Expansion - GoVH comp.esp
+Wares-base - Expansion - Vivec Waistworks Expansion - GoVH comp.esp
+
+[Order] ; War Leader Nerevar
+War Leader Nerevar*.esp
+Wares-base - Expansion - War Leader Nerevar.esp
+
+[Order] ; Wolverine Hall Interior Expansion
+Wolverine Hall Interior Expanded.ESP
+Wares-base - Expansion - Wolverine Hall Interior Expanded - No Legion HQ.esp
+
+[Order] ; Your Own Ashlander Tribe
+Your Own Ashlander Tribe.ESP
+Wares-base - Expansion - Your Own Ashlander Tribe.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
 
