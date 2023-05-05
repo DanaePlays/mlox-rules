@@ -8768,3 +8768,7 @@ Just Twerk (all dancers).esp
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
 NoMoreStageDiving.ESP
 Just Twerk (one dancer).esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
+abotGuars.esp
+abotGuars-OpenMW patch.ESP
