@@ -5937,6 +5937,228 @@ Reputation_Fixes_All.esp
 		Reputation_Fixes_Imperial_Legion.esp
 		Reputation_Fixes_Thieves_Guild.esp]
 
+;; Alvazir's Various Patches Reputation Fixes Patches
+
+[Order] ; Persistent Corpse Disposal
+Reputation_Fixes_All.ESP
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Persistent Corpse Disposal
+PCD_PFP_Compat.esp
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Persistent Corpse Disposal
+persistent_corpse_disposal.esp
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Imperial Legion Expansion
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion.esp
+
+[Order] ; Imperial Legion Expansion
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion.esp
+
+[Order] ; Mournhold Courtiers
+Reputation_Fixes_All.ESP
+RF-Mournhold_Courtiers.esp
+
+[Order] ; Mournhold Courtiers
+Mournhold Courtiers.esp
+RF-Mournhold_Courtiers.esp
+
+[Order] ; Creeping Blight
+Reputation_Fixes_All.ESP
+RF-Creeping_Blight.esp
+
+[Order] ; Creeping Blight
+Creeping Blight.esp
+RF-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+PCD_PFP_Compat.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+persistent_corpse_disposal.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blights merged
+PCD_PFP_Compat.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Creeping Blight.esp
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Restocking Alchemy Essentials [Sigourn]
 
