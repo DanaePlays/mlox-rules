@@ -5937,6 +5937,228 @@ Reputation_Fixes_All.esp
 		Reputation_Fixes_Imperial_Legion.esp
 		Reputation_Fixes_Thieves_Guild.esp]
 
+;; Alvazir's Various Patches Reputation Fixes Patches
+
+[Order] ; Persistent Corpse Disposal
+Reputation_Fixes_All.ESP
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Persistent Corpse Disposal
+PCD_PFP_Compat.esp
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Persistent Corpse Disposal
+persistent_corpse_disposal.esp
+RF-Persistent_Corpse_Disposal.esp
+
+[Order] ; Imperial Legion Expansion
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion.esp
+
+[Order] ; Imperial Legion Expansion
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion.esp
+
+[Order] ; Mournhold Courtiers
+Reputation_Fixes_All.ESP
+RF-Mournhold_Courtiers.esp
+
+[Order] ; Mournhold Courtiers
+Mournhold Courtiers.esp
+RF-Mournhold_Courtiers.esp
+
+[Order] ; Creeping Blight
+Reputation_Fixes_All.ESP
+RF-Creeping_Blight.esp
+
+[Order] ; Creeping Blight
+Creeping Blight.esp
+RF-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Imperial Legion Expansion merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+PCD_PFP_Compat.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+persistent_corpse_disposal.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-PCD-Mournhold_Courtiers.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blights merged
+PCD_PFP_Compat.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Persistent Corpse Disposal + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Creeping Blight merged
+Creeping Blight.esp
+RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers merged
+Mournhold Courtiers.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Reputation_Fixes_All.ESP
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+PCD_PFP_Compat.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+persistent_corpse_disposal.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Imperial Legion Expansion.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Mournhold Courtiers.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
+[Order] ; PCD + Imperial Legion Expansion + Mournhold Courtiers + Creeping Blight merged
+Creeping Blight.esp
+RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Restocking Alchemy Essentials [Sigourn]
 
@@ -7249,6 +7471,151 @@ NOD - Wares.esp
 				Wares_VV_npcs_purist.esp]
 		NOD - Core.esm]
 
+;; Alvazir's Various Patches - Wares Base Expansion (Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (MasssiveJuice)
+
+[Order] ; Ald-Ruhn Temple Expansion
+Ald-Ruhn Temple Expansion 1.5.esp
+Wares-base - Expansion - Ald-Ruhn Temple Expansion 1.5.esp
+
+[Order] ; Animated Morrowind - Merged
+Animated_Morrowind - merged.esp
+Wares-base - Expansion - Animated_Morrowind - merged.esp
+
+[Order] ; Ashlander Traders Remastered
+Ashlander Traders Remastered.esp
+Wares-base - Expansion - Ashlander Traders Remastered.esp
+
+[Order] ; Balmora Waterworks
+Balmora Waterworks.esp
+Wares-base - Expansion - Balmora Waterworks.esp
+
+[Order] ; Beacon of St Rilms No Anim
+BeaconOfstRilmsNoAnim.ESP
+Wares-base - Expansion - BeaconOfstRilmsNoAnim.esp
+
+[Order] ; The Moldy Horker
+BM_S_Inn.esp
+Wares-base - Expansion - BM_S_Inn.esp
+
+[Order] ; The White Wolf of Lokken Mountain
+BT_Whitewolf_2_0_HOTV.esp
+Wares-base - Expansion - BT_Whitewolf_2_0_HOTV.esp
+
+[Order] ; Building Up Uvirith's Legacy
+Building Up Uvirith's Legacy1.1.esp
+Wares-base - Expansion - Building Up Uvirith's Legacy1.1.esp
+
+[Order] ; Camonna Tong
+Camonna Tong.esp
+Wares-base - Expansion - Camonna Tong.esp
+
+[Order] ; CCM Secrets of Vos
+CCM-SecretsofVos-V2-TB.esp
+Wares-base - Expansion - CCM-SecretsofVos-V2-TB.esp
+
+[Order] ; Sobitur Facility
+DA_Sobitur_Repurposed_1.esp
+Wares-base - Expansion - DA_Sobitur_Repurposed_1.esp
+
+[Order] ; Caldera Mine Expanded
+DD_Caldera_Expansion.esp
+Wares-base - Expansion - DD_Caldera_Expansion.esp
+
+[Order] ; Hlormaren Reclaimed
+Hlormaren Reclaimed.ESP
+Wares-base - Expansion - Hlormaren Reclaimed.esp
+
+[Order] ; Immersive Mournhold
+Immersive Mournhold.esp
+Wares-base - Expansion - Immersive Mournhold.esp
+
+[Order] ; Improved Inns Expanded - Entertainers
+Improved Inns Expanded - Entertainers.esp
+Wares-base - Expansion - Improved Inns Expanded - Entertainers.esp
+
+[Order] ; Inner Sea Trading Company
+Inner Sea Trading Company.esp
+Wares-base - Expansion - Inner Sea Trading Company.esp
+
+[Order] ; Morag Tong Polished
+Morag Tong Polished.esp
+Wares-base - Expansion - Morag Tong Polished.esp
+
+[Order] ; Mudcrab Imports Pirate Adventures
+Mudcrab Imports Pirate Adventures.esp
+Wares-base - Expansion - Mudcrab Imports Pirate Adventures.esp
+
+[Order] ; Nemon's Vivec Interiorator Lite
+NVI Lite.esp
+Wares-base - Expansion - NVI Lite.esp
+
+[Order] ; OAAB Tel Mora
+OAAB_Tel Mora.esp
+Wares-base - Expansion - OAAB_Tel Mora.esp
+
+[Order] ; Old Vos Tradepost
+OldVosTradepost.esp
+Wares-base - Expansion - OldVosTradepost.esp
+
+[Order] ; Sadrith Mora Expanded
+SadrithMoraExpandedTR.esp
+Wares-base - Expansion - SadrithMoraExpandedTR.esp
+
+[Order] ; Tel Aruhn Chronicles
+Tel_Aruhn_Chronicles.esp
+Wares-base - Expansion - Tel_Aruhn_Chronicles.esp
+
+[Order] ; The Merchants of Sadrith Mora
+The Merchants of Sadrith Mora.esp
+Wares-base - Expansion - The Merchants of Sadrith Mora.esp
+
+[Order] ; Rise of the Tribe Unmourned (Crown Edition)
+The Rise of the Tribe Unmourned.esp
+Wares-base - Expansion - The Rise of the Tribe Unmourned.esp
+
+[Order]
+The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
+Wares-base - Expansion - The_Vanilla_Quest_Tweaks_RP_Choices_Consequences_Super_Mega_Package_-_Ultimate_Edition.esp
+
+[Order] ; Thirsk Expanded
+Thirsk Expanded.esp
+Wares-base - Expansion - Thirsk Expanded.esp
+
+[Order] ; Traveling Merchants
+TravelingMerchants_v2_3.esp
+Wares-base - Expansion - TravelingMerchants_v2_3.esp
+
+[Order] ; Vivec Waistworks Expansion
+Vivec Waistworks Expansion - GoVH comp.esp
+Wares-base - Expansion - Vivec Waistworks Expansion - GoVH comp.esp
+
+[Order] ; War Leader Nerevar
+War Leader Nerevar*.esp
+Wares-base - Expansion - War Leader Nerevar.esp
+
+[Order] ; Wolverine Hall Interior Expansion
+Wolverine Hall Interior Expanded.ESP
+Wares-base - Expansion - Wolverine Hall Interior Expanded - No Legion HQ.esp
+
+[Order] ; Your Own Ashlander Tribe
+Your Own Ashlander Tribe.ESP
+Wares-base - Expansion - Your Own Ashlander Tribe.esp
+
+[Conflict] 
+	"Wares-base - Expansion - Cyr_Main.esp" is outdated. Use PC addons from "Wares Ultimate" instead.
+Wares-base - Expansion - Cyr_Main.esp
+[ANY	Wares_PC_*.esp]
+
+[Conflict]
+	"Wares-base - Expansion - Sky_Main.esp" is outdated. Use SHOTN addons from "Wares Ultimate" instead.
+Wares-base - Expansion - Sky_Main.esp
+[ANY	Wares_SHOTN_*.esp]
+
+[Conflict]
+	"Wares-base - Expansion - TR_Mainland.esp" is outdated. Use TR addons from "Wares Ultimate" instead.
+Wares-base - Expansion - TR_Mainland.esp
+[ANY	Wares_TR_*.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
 
@@ -8401,3 +8768,7 @@ Just Twerk (all dancers).esp
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
 NoMoreStageDiving.ESP
 Just Twerk (one dancer).esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
+abotGuars.esp
+abotGuars-OpenMW patch.ESP
