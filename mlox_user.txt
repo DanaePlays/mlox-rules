@@ -865,6 +865,10 @@ BalmoraDocks.esp
 Beautiful Cities of Morrowind.esp
 BCOM_Vanilla_Skar.esp
 
+[Order]
+Beautiful cities of Morrowind.esp
+Bustling Vivec.ESP
+
 ;; BCOM Conflicts
 
 [Conflict]
