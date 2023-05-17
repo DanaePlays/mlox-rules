@@ -8776,3 +8776,7 @@ Just Twerk (one dancer).esp
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
 abotGuars.esp
 abotGuars-OpenMW patch.ESP
+
+[Order] ;
+Rocky_WG_Base_1.1.ESP
+Caldera Priory.ESP
