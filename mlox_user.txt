@@ -4551,10 +4551,6 @@ Morag Tong Polished - TR_Factions - EcoAdjCrime_NE.esp
 
 [Order]
 Morag Tong Polished.esp
-Morag Tong Polished - BCoM Patch.esp
-
-[Order]
-Morag Tong Polished.esp
 ESEP - Morag Tong Polished.esp
 
 [Order]
