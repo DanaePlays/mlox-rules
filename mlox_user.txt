@@ -4606,6 +4606,21 @@ Morag Tong Polished - TR_Factions - EcoAdjCrime_NE.esp
 Heins Morag Tong Armor.esp
 Morag Tong Polished.esp
 
+[Patch] ; Moves a misplaced NPC if using "Morag Tong Polished" with "BCOM" (MasssiveJuice)
+	A patch for "Morag Tong Polished" and "BCOM" is available from Beyond's Various Patches and also works with the "VFWE version" of "Morag Tong Polished".
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51194 )
+Morag Tong Polished - BCoM Patch.ESP
+[ALL	Morag Tong Polished.esp
+		Beautiful cities of Morrowind.ESP]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51194 ) (MasssiveJuice)
+Morag Tong Polished.esp
+Morag Tong Polished - BCoM Patch.ESP
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51194 ) (MasssiveJuice)
+Beautiful cities of Morrowind.ESP
+Morag Tong Polished - BCoM Patch.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD [AutumnBramble]
 
@@ -5493,6 +5508,10 @@ P&S -  No team jackets - Dialogue edits.esp
 	These plugins have a script conflict as they both use the same script ID.
 Privileges&Services <VER>.esp
 Antares little mods.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52371 ) (MassiveJuice)
+Privileges&Services 1.1.esp
+Privileges&Services - Put It Back Patch for OpenMW.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Properly Clothed NPCs [RandomPal]
@@ -8776,3 +8795,7 @@ Just Twerk (one dancer).esp
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
 abotGuars.esp
 abotGuars-OpenMW patch.ESP
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
+Magical Missions.ESP
+Magical Missions (Amenophis Fix).ESP
