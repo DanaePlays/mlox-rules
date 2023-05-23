@@ -1022,6 +1022,18 @@ Better Morrowind Armor DeFemm(?).esp
 Remiros' Uniques.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Better Dwemer Interiors, @BDI [SilentJacket]
+
+[requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/52916 ) (MasssiveJuice)
+	This plugin requires "Better Dwemer Interiors".
+BDI - Nchuleft.ESP
+BetterDwemerInteriors.esp
+
+[order] ; confirmed with SilentJacket (MasssiveJuice)
+BetterDwemerInteriors.esp
+BDI - Nchuleft.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Better Siege at Firemoth Followers [PikachunoTM]
 
 [Order]
