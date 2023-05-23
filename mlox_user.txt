@@ -869,6 +869,10 @@ BCOM_Vanilla_Skar.esp
 Beautiful cities of Morrowind.esp
 Bustling Vivec.ESP
 
+[Order] ; otherwise pathgrid changes to moon's new position get overridden by BCOM_Pathgrid_Reset (MasssiveJuice)
+BCOM_pathgrid_reset.esp
+Baar Dau.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
@@ -8795,3 +8799,7 @@ abotGuars-OpenMW patch.ESP
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
 Magical Missions.ESP
 Magical Missions (Amenophis Fix).ESP
+
+[Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
+Alex's Better Fitted Female Armors.ESP
+Clean_Nordic Fur Armour Replacer Symph.esp
