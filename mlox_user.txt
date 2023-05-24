@@ -4061,8 +4061,12 @@ IO - The Fires of Orc Patch.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
 
-[Order]
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (MasssiveJuice)
 Beautiful cities of morrowind.esp
+IO - Kinsmer.ESP
+
+[Order] ; Otherwise BCOM-compatible pathgrid edits will be overwritten (MasssiveJuice)
+BCOM_pathgrid_reset.esp
 IO - Kinsmer.ESP
 
 [Order]
