@@ -8812,6 +8812,10 @@ Just Twerk (one dancer).esp
 abotGuars.esp
 abotGuars-OpenMW patch.ESP
 
+[Order] ;
+Rocky_WG_Base_1.1.ESP
+Caldera Priory.ESP
+
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
 Magical Missions.ESP
 Magical Missions (Amenophis Fix).ESP
