@@ -8815,3 +8815,11 @@ Magical Missions (Amenophis Fix).ESP
 [Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
 Alex's Better Fitted Female Armors.ESP
 Clean_Nordic Fur Armour Replacer Symph.esp
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_OAAB.ESP
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_TR.ESP
