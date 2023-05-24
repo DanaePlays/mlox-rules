@@ -869,6 +869,10 @@ BCOM_Vanilla_Skar.esp
 Beautiful cities of Morrowind.esp
 Bustling Vivec.ESP
 
+[Order] ; otherwise pathgrid changes to moon's new position get overridden by BCOM_Pathgrid_Reset (MasssiveJuice)
+BCOM_pathgrid_reset.esp
+Baar Dau.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
@@ -1016,6 +1020,18 @@ Plangke's Female Cuirass Replacer.esp
 [Order] ; Prevents unique models from being overwritten (Pharis)
 Better Morrowind Armor DeFemm(?).esp
 Remiros' Uniques.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Better Dwemer Interiors, @BDI [SilentJacket]
+
+[requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/52916 ) (MasssiveJuice)
+	This plugin requires "Better Dwemer Interiors".
+BDI - Nchuleft.ESP
+BetterDwemerInteriors.esp
+
+[order] ; confirmed with SilentJacket (MasssiveJuice)
+BetterDwemerInteriors.esp
+BDI - Nchuleft.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Better Siege at Firemoth Followers [PikachunoTM]
@@ -4045,8 +4061,12 @@ IO - The Fires of Orc Patch.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
 
-[Order]
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (MasssiveJuice)
 Beautiful cities of morrowind.esp
+IO - Kinsmer.ESP
+
+[Order] ; Otherwise BCOM-compatible pathgrid edits will be overwritten (MasssiveJuice)
+BCOM_pathgrid_reset.esp
 IO - Kinsmer.ESP
 
 [Order]
@@ -8795,3 +8815,15 @@ abotGuars-OpenMW patch.ESP
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
 Magical Missions.ESP
 Magical Missions (Amenophis Fix).ESP
+
+[Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
+Alex's Better Fitted Female Armors.ESP
+Clean_Nordic Fur Armour Replacer Symph.esp
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_OAAB.ESP
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_TR.ESP
