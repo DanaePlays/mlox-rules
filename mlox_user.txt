@@ -7359,6 +7359,10 @@ F&F_MOAR.esp
 F&F_No_Sitters.ESP
 
 [Order]
+Repopulated*.ESP
+F&F_RM Patch.ESP
+
+[Order]
 Merged Objects.esp
 F&F_Friends_only.esp
 F&F_no_hostiles.ESP
