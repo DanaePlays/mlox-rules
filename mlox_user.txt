@@ -6897,6 +6897,33 @@ Tirram Terala's Treasure Trove of Trinkets.esp
 Tirram Terala's Treasure Trove of Trinkets - No Pillows.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Total Overhaul Patches [johnnyhostile]
+
+;; BCOM+Imperial Towns Revamp Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Beautiful cities of Morrowind.esp
+BCOM+Imperial Towns Revamp Patch.esp
+
+;; Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Kogoruhn - Extinct City of Ash and Sulfur.esp
+Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
+
+[Order]
+Kogoruhn - Extinct City of Ash and Sulfur.omwscripts
+Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
+
+;; Redaynia Restored+Mushroom Tree Replacer Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Redaynia Restored.ESP
+Redaynia Restored Mushroom Tree Replacer Patch.esp
+
+;; UvirithsLegacy+TR Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Uvirith's Legacy_3.53.esp
+UvirithsLegacy+TR Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod [TriangleTooth]
 
 [Order]
