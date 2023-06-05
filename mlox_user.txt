@@ -5579,6 +5579,13 @@ Cyr_Main.esm
 [Order]
 The Publicans.ESP
 The Publicans - Delightful Earthly Delights.ESP
+
+[Order]
+The Publicans.ESP
+The Publicans - LGNPC Patch.ESP
+
+[Order]
+The Publicans - Delightful Earthly Delights.ESP
 The Publicans - LGNPC Patch.ESP
 
 [Order]
