@@ -3188,8 +3188,32 @@ DRPV1.9 - Script Fix.esp
 [Conflict] ; ( Ref: I checked in game it's very obvious ) (Pharis)
 	Incompatible, will cause double Ghostfence and clipping with Ghostgate Fortress if used together.
 HM_DDD_Ghostfence_v1.0.esp
-[ANY	Beautiful Cities of Morrowind.esp
-		RR_Ghost_Gate_Fortress_Eng.esp]
+RR_Ghost_Gate_Fortress_Eng.esp
+
+;; Total Overhaul Patches
+[Patch] ; ( ref: https://www.nexusmods.com/morrowind/mods/52989 ) (MasssiveJuice)
+	A patch for "Dynamic Distant Details" and "BCOM" is provided in "Total Overhaul Patches" by johnnyhostile - requires OpenMW.
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+[ALL	Beautiful cities of Morrowind.esp
+		HM_DDD_Ghostfence_v1.0.esp]
+
+[Requires]
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+[All	Beautiful cities of Morrowind.esp
+		ghastly gg.esp
+		HM_DDD_Ghostfence_v1.0.esp]
+
+[Order]
+HM_DDD_Ghostfence_v1.0.esp
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+
+[Order]
+ghastly gg.esp
+HM_DDD_Ghostfence_v1.0.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+HM_DDD_Ghostfence_v1.0.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ebonheart Underworks [Dandy Daedra]
@@ -4094,7 +4118,7 @@ FMI_Athyn_And_Shardie.ESP
 IO - Kinsmer.esp
 
 [Conflict]
-	"Yet Another Guard Diversity" is already merged into and expanded upon in the 'IO - Kinsmer + YAGD' and 'IO - Kinsmer + YAGD BCOM Compatibility Version' modules of "Interesting Outfits - Kinsmer" - Remove YAGD if using IO - Kinsmer,
+	"Yet Another Guard Diversity" is already merged into and expanded upon in "Interesting Outfits - Kinsmer".
 IO - Kinsmer.esp
 [ANY	Yet Another Guard Diversity - Regular.ESP
 		Yet Another Guard Diversity - Full Cephalopod.ESP
@@ -4105,11 +4129,6 @@ IO - Kinsmer.esp
 		Yet Another Guard Diversity - Telvanni (Full Cephalopod).ESP
 		Yet Another Guard Diversity - Telvanni (Purist).ESP
 		Yet Another Guard Diversity - Telvanni (Regular).ESP]
-
-[Note]
-	"Interesting Outfits - Kinsmer" contains a BCOM compatible version in the 'BCOM Compatibility Version' and 'IO - Kinsmer + YAGD BCOM Compatibility Version' modules - ensure you replace the esp in the 'Core' folder with either of these - pick one.
-[All	Beautiful cities of Morrowind.ESP
-	IO - Kinsmer.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Iron Mesh Improvements - Uniques [Psymoniser]
@@ -4181,6 +4200,17 @@ KogoruhnExpanded.esp
 [Order]
 KogoruhnExpanded.esp
 Dangerous Roads of Morrowind*.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Kogoruhn - Extinct City of Ash and Sulfur, @Kogoruhn ECoAaS [johnnyhostile]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51615 ) (MasssiveJuice)
+Riharradroon - Path to Kogoruhn v1.0.ESP
+Kogoruhn - Extinct City of Ash and Sulfur.esp
+
+[Requires]
+Kogoruhn - Extinct City of Ash and Sulfur.esp
+Riharradroon - Path to Kogoruhn v1.0.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @LDM [Lucevar]
@@ -6885,6 +6915,29 @@ Thirteen Telvanni - Balmora, South Wall Cornerclub (Atmospheric).esp
 	Use only one of these plugins, depending on the desired level of degeneracy.
 Tirram Terala's Treasure Trove of Trinkets.esp
 Tirram Terala's Treasure Trove of Trinkets - No Pillows.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Total Overhaul Patches [johnnyhostile]
+
+;; BCOM+Imperial Towns Revamp Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Beautiful cities of Morrowind.esp
+BCOM+Imperial Towns Revamp Patch.esp
+
+;; Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Kogoruhn - Extinct City of Ash and Sulfur.esp
+Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
+
+;; Redaynia Restored+Mushroom Tree Replacer Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Redaynia Restored.ESP
+Redaynia Restored Mushroom Tree Replacer Patch.esp
+
+;; UvirithsLegacy+TR Patch
+[Order] ; ( ref: readme file ) (MasssiveJuice)
+Uvirith's Legacy_3.53.esp
+UvirithsLegacy+TR Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod [TriangleTooth]
