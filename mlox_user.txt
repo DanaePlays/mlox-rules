@@ -945,6 +945,7 @@ Beautiful cities of Morrowind.esp
 		Dramatic Vivec - Temple only.esp
 		Improved Temple Experience.esp
 		RR_Ghost_Gate_Fortress_Eng.esp
+		Ruined Molag Mar.esp
 		IntoTheFyr.esp
 		Whitney_EdwinnaStudy.esp
 		Tel Naga Treasury.esp
@@ -6356,6 +6357,16 @@ Skar_face.esp
 [Order] ; Dependency (Pharis)
 Tamriel_Data.esm
 Sky_Main.esm
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Sloadic Transports [Ashstaar and Melchior Dahrk]
+
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50546 ) (yohannes)
+	Use only one of these plugins:
+        'Sloadic Transport Necro.ESP' - Sloadic Transport Necro Version
+        'Sloadic Transport.ESP' - Sloadic Transport Regular Version
+Sloadic Transport Necro.ESP
+Sloadic Transport.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sobitur Facility [dagothagahnim]
