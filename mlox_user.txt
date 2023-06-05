@@ -4208,10 +4208,6 @@ Dangerous Roads of Morrowind*.esp
 Riharradroon - Path to Kogoruhn v1.0.ESP
 Kogoruhn - Extinct City of Ash and Sulfur.esp
 
-[Order]
-Kogoruhn - Extinct City of Ash and Sulfur.esp
-Kogoruhn - Extinct City of Ash and Sulfur.omwscripts
-
 [Requires]
 Kogoruhn - Extinct City of Ash and Sulfur.esp
 Riharradroon - Path to Kogoruhn v1.0.ESP
@@ -6931,10 +6927,6 @@ BCOM+Imperial Towns Revamp Patch.esp
 ;; Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch
 [Order] ; ( ref: readme file ) (MasssiveJuice)
 Kogoruhn - Extinct City of Ash and Sulfur.esp
-Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
-
-[Order]
-Kogoruhn - Extinct City of Ash and Sulfur.omwscripts
 Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
 
 ;; Redaynia Restored+Mushroom Tree Replacer Patch
