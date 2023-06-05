@@ -3188,8 +3188,32 @@ DRPV1.9 - Script Fix.esp
 [Conflict] ; ( Ref: I checked in game it's very obvious ) (Pharis)
 	Incompatible, will cause double Ghostfence and clipping with Ghostgate Fortress if used together.
 HM_DDD_Ghostfence_v1.0.esp
-[ANY	Beautiful Cities of Morrowind.esp
-		RR_Ghost_Gate_Fortress_Eng.esp]
+RR_Ghost_Gate_Fortress_Eng.esp
+
+;; Total Overhaul Patches
+[Patch] ; ( ref: https://www.nexusmods.com/morrowind/mods/52989 ) (MasssiveJuice)
+	A patch for "Dynamic Distant Details" and "BCOM" is provided in "Total Overhaul Patches" by johnnyhostile - requires OpenMW.
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+[ALL	Beautiful cities of Morrowind.esp
+		HM_DDD_Ghostfence_v1.0.esp]
+
+[Requires]
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+[All	Beautiful cities of Morrowind.esp
+		ghastly gg.esp
+		HM_DDD_Ghostfence_v1.0.esp]
+
+[Order]
+HM_DDD_Ghostfence_v1.0.esp
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+
+[Order]
+ghastly gg.esp
+HM_DDD_Ghostfence_v1.0.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+HM_DDD_Ghostfence_v1.0.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ebonheart Underworks [Dandy Daedra]
