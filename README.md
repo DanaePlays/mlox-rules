@@ -1,7 +1,7 @@
 First time here, follow these steps:
 
 You have the very latest MLOX (v1.1+)fork by rfuzzo
-[https://github.com/rfuzzo/mlox/releases/tag/1.1.2](https://github.com/rfuzzo/mlox/releases/latest)
+[https://github.com/rfuzzo/mlox/releases/latest](https://github.com/rfuzzo/mlox/releases/latest)
 After dropping mlox.exe on your Morrowind folder, simply execute it. 
 Mlox v1.1+ will automatically download the latest rules from the mlox-rules GitHub repository.
 But even with this new functionality, you can still add your own personal rules like so:
