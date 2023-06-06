@@ -721,7 +721,7 @@ Morrowind Anti-Cheese Tweaked.esp
 Beautiful cities of Morrowind.esp
 
 [Order]
-Wares*.esp
+Wares_*.esp
 Beautiful cities of Morrowind.esp
 
 [Order]
