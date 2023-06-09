@@ -217,7 +217,7 @@ Morrowind Patch*.esm
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Grass warnings
 [Note]
-	!!! Grouncover plugins should not be enabled. For MGE XE they should be used only in the distant land
+	!!! Groundcover plugins should not be enabled. For MGE XE they should be used only in the distant land
 	!!! generation wizard, and for OpenMW they should be added to your 'openmw.cfg' on a "grouncover=" line.
 	!!! Select only one plugin per region.
 NoM_Grass FotG+FF.esp
@@ -264,6 +264,7 @@ Grass TRp Custom.esp
 Rem_??.esp
 Rem_LoC?.esp
 Rem_Solstheim.esp
+Rem-TOTSP.esp
 Rem_??_TR.esp
 Rem_TRp_??.esp
 Sky_Main_Grass.esp
@@ -311,6 +312,7 @@ Grass_Arktwend.esp
 Grass_DBA.esp
 Grass_MA_RoK.esp
 Grass_SOP.esp
+lush_synthesis_*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Plugins using Deprecated Leveled List Functions on Bethsoft lists
