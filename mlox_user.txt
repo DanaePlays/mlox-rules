@@ -5594,16 +5594,28 @@ Cyr_Main.esm
 ;; @The Publicans, @Publicans [half11]
 
 [Order]
+The Publicans.ESP
+The Publicans - Delightful Earthly Delights.ESP
+
+[Order]
+The Publicans.ESP
+The Publicans - LGNPC Patch.ESP
+
+[Order]
+The Publicans - Delightful Earthly Delights.ESP
+The Publicans - LGNPC Patch.ESP
+
+[Order]
 SkoomaAddictionV2.0.esp
 The Publicans.esp
 
 [Order]
 LGNPC_Aldruhn.esp
-The Publicans (LGNPC compatible version).esp
+The Publicans - LGNPC Patch.ESP
 
 [Order]
 LGNPC_Aldruhn_suppl.esp
-The Publicans (LGNPC compatible version).esp
+The Publicans - LGNPC Patch.ESP
 
 [Conflict]
 	Use only one of these plugins.
