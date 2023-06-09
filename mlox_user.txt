@@ -109,6 +109,103 @@ abotBoatsTR2002_RVP.esp
 TOTSP_abotBoats.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Abot's Tweaked and Merged Mods [abot, various] ; Had to group these somehow (Pharis)
+
+[Order]
+NOM3*.esp
+NoM_MC*.esp
+NoM_BF*.esp
+RoHT NoM Addon.esp
+ab01WorldFixes*.esp
+
+[Order]
+abotGuards*.esp
+ab01ManaUserMerged*.esp
+
+[Order]
+k_weather.esp
+ab01Resources Enhanced Kollops&KwamaEggs.esp
+
+[Order]
+ab01armorsWeaponsMerged*.esp
+DualWeapons*.esp
+
+[Order]
+ab01officialMerged*.esp
+ab01armorsFixedMerged.esp
+ab01ManaUserMerged*.esp
+
+[Order]
+Roads&Races*.esp
+ab01gameplay.esp
+
+[Order]
+k_weather.esp
+ab01gameplay*.esp
+
+[Order]
+Magic Diversity*.esp
+ab01gameplay*.esp
+
+[Order]
+abotThunders&Lightnings.esp
+ab01gameplay*.esp
+
+[Order]
+gladiator.esp
+ab01GOTYpatch.esp
+
+[Order]
+ab01gameplay*.esp
+QuickChar*.esp
+
+[Order]
+ab01GOTYpatch.esp
+QuickChar*.esp
+
+[Order]
+vgreetings*.esp
+ab01GOTYpatch.esp
+
+[Order]
+ST Practice Dummies*.esp
+ab01housesMerged*.esp
+
+[Order]
+MAO_PCSound.esp
+ab01gameplay*.esp
+
+[Order]
+k_weather.esp
+ab01gameplay*.esp
+
+
+[Order]
+TheGoblinLab*.esp
+ab01gameplay*.esp
+
+[Order]
+Haldenshore*.esp
+ab01gameplay*.esp
+
+[Order]
+AIM_*.esp
+ab01armorsWeaponsMerged*.esp
+
+[Order]
+AIM_*.esp
+ab01GOTYpatch.esp
+
+[Order]
+WGIBalancing.esp
+ab01WGIBalancing.esp
+ab01gameplay*.esp
+
+[Order] ; just to put this one down to avoid other mods overwriting changes to cell water
+ab01gameplay*.esp
+Remiros' Tombs Expansion*.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Adamantium Armor Integrated [Necrolesian]
 
 [Order]
@@ -142,7 +239,7 @@ Ajira Deflowered - Patch for Purists.esp
 ;; @Alchemial Hustle [Rosynant]
 
 [Conflict] ; (ref: included readme https://www.nexusmods.com/morrowind/mods/51050 ) (yohannes)
-	Use either only the merged plugin 'Alchemical_Hustle.esp' or a combination of the modular plugins. 
+	Use either only the merged plugin 'Alchemical_Hustle.esp' or a combination of the modular plugins.
 Alchemical_Hustle.esp
 [ANY	AH_GMSTs.esp
 	AH_Ingredients.esp
@@ -2868,6 +2965,13 @@ DD_Caldera_Expansion.esp
 DD_Caldera_Expansion - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Caldera Priory and the Depths of Blood and Bone [seelof and his minions]
+
+[Order]
+Rocky_WG_Base_1.1.ESP
+Caldera Priory.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Camonna Tong [Caeris]
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50740 ) (Pharis)
@@ -3183,6 +3287,10 @@ Djangos Dialogue - Patch for Purists.esp
 Seekers Faction*.esp
 Djangos Dialogue.esp
 
+[Order]
+Haldenshore*.esp
+Djangos Dialogue.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Doors of Oblivion, @Doors of Oblivion [Ashstaar]
 
@@ -3228,7 +3336,7 @@ RR_Ghost_Gate_Fortress_Eng.esp
 ;; Total Overhaul Patches
 [Conflict] ; ( Ref: tested the plugin for johnnyhostile ) (yohannes)
 	An ESP replacer for "Dynamic Distant Buildings for OpenMW - Ghostfence Plugin" that is compatible with "BCOM" is provided in "Total Overhaul Patches".
-	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52989 ) 
+	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52989 )
 HM_DDD_Ghostfence_v1.0.esp
 Beautiful cities of Morrowind.esp
 
@@ -3544,6 +3652,13 @@ FM - Unique Items v1.0.esp
 FM - Unique Items v1.0 - PfP.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @FMI - Misc [PoodleSandwich]
+
+[Order] ; Prefer Urnest Loot over FMI_GraveDust. Urnest Loot provides a chance for gravedust
+FMI_GraveDust.esp
+Urnest Loot.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Fort Frostmoth Renovated [Sawyer Morgan]
 
 [Conflict]
@@ -3734,6 +3849,13 @@ CliffRacerNests&Eggs2.esp
 The Grove of Ben'Abi.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Guars [abot]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
+abotGuars.esp
+abotGuars-OpenMW patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Guild of Vampire Hunters [AliceL93]
 
 [Conflict]
@@ -3741,6 +3863,10 @@ The Grove of Ben'Abi.esp
 Vivec - Guild of Vampire Hunters [Replacer].esp
 Guild of Vampire Hunters.esp
 LuceEdit - Guild of Vampire Hunters.esp
+
+[Order]
+NX9_StuddedArmor.esp
+Guild of Vampire Hunters.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Hammer of Orsinium [Terik Fel]
@@ -3842,6 +3968,29 @@ Illuminated Order v2.0 - Lore Friendly.esp
 Illuminated Order Improved.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Immersive Corprus [mort]
+
+[Order]
+Sixth House.esp
+Immersive_corprus.esp
+
+[Order]
+Main Quest Overhaul.esp
+Immersive_corprus.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Immersive Madness [rotat]
+
+[Order]
+LGNPC__merged.esp
+CultSheog.esp
+CultSheog-TR1912.esp
+
+[Order]
+MDMD*.esp
+CultSheog.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Immersive Mournhold [RandomPal]
 
 [Order] ; ( Ref: https://forums.nexusmods.com/index.php?/topic/8643908-royal-chargen/?p=109464548 ) (Pharis)
@@ -3895,6 +4044,13 @@ OAAB - The Ashen Divide.esp
 	Each of these plugins is a different version of "Imperial Employment Office", use only one of them.
 Imperial Employment Office.esp
 Imperial Employment Office (MD edits).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Imperial Factions [Danae]
+
+[Order] ; Imperial factions before TR_Factions for proper factions relations. Lose increased guild requierements this way, needs proper patch.
+Imperial Factions.esp
+TR_Factions.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Imperial Knights Faction [AliceL93]
@@ -4168,12 +4324,6 @@ Psy_IronMeshImprove_Uniques_I.esp
 Complete Trade Fix*.esp
 KS_Julan_Ashlander Companion*.esp
 
-[Order]^
-KS_Julan_Ashlander Companion*.esp
-KS_Julan*Patch.esp
-Clean_KS_Julan_Ashlander - MC_patch.esp
-mel_teleportPlugin_1_3.esp
-
 [Order]
 KS_Julan_Ashlander Companion_3.0_beta.esp
 Julan+TOTSP Patch.esp
@@ -4196,6 +4346,17 @@ KS_Julan_MRM_Patch*.esp
 [Order]
 KS_Julan_Ashlander Companion*.esp
 Julan head.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Just Twerk [Billyfighter]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
+NoMoreStageDiving.ESP
+Just Twerk (all dancers).esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
+NoMoreStageDiving.ESP
+Just Twerk (one dancer).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Know Thy Ancestors [Xero Foxx]
@@ -4384,6 +4545,13 @@ Mage Robes_Weak.esp
 Mage Robes.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Magical Missions [Von Djangos]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
+Magical Missions.ESP
+Magical Missions (Amenophis Fix).ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Magicka Expanded [OperatorJack]
 
 [Order]
@@ -4419,10 +4587,6 @@ Effect Data - Load after Merged Objects.esp
 [Order]
 Main_Quest_Overhaul.esp
 Save the Date - MQO Patch.esp
-
-[Order]
-Main Quest Overhaul.esp
-Immersive_corprus.esp
 
 [Order]
 Main_Quest_Overhaul.esp
@@ -4487,6 +4651,27 @@ MasterIndexRedux.esp
 [Note] ; Only adding a note because BSAs are so rare and often forgotten in TES3 modding (Pharis)
 	! This mod has a BSA, be sure to register it.
 RR_Melchior's_Mudcrab_Merchant_Eng.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Melian's Teleport Mod 1.3 [melian]
+
+[Order]
+KS_Julan_Ashlander Companion*.esp
+KS_Julan*Patch.esp
+Clean_KS_Julan_Ashlander - MC_patch.esp
+mel_teleportPlugin_1_3.esp
+
+[Order]
+UG2*.esp
+mel_teleportPlugin_1_3_Patches.esp
+
+[Order]
+The Underground - Repackage.esp
+mel_teleportPlugin_1_3_Patches.esp
+
+[Order]
+mel_teleportPlugin_1_3*.esp
+mel_teleportPluginLeveledMarksPatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Memento Mori [globemallow, JosephMcKean, Kalinter, Maligerent, ProfArmitage]
@@ -4730,10 +4915,6 @@ MDMD - More Deadly Morrowind Denizens.esp
 
 [Order]
 MDMD*.esp
-CultSheog.esp
-
-[Order]
-MDMD*.esp
 EcoAdj5mMerged.esp
 
 [Order]
@@ -4964,6 +5145,19 @@ NOM3*.esp
 
 [Order]
 Ashfall*.esp
+NOM3*.esp
+
+[Order] ; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
+NOM3*.esp
+NoM_Creatures Loot Standard.esp
+Building Up Uvirith*.esp
+
+[Order]
+ST Practice Dummies*.esp
+NOM3*.esp
+
+[Order]
+Seekers Faction*.esp
 NOM3*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5773,6 +5967,13 @@ Quill of Feyfolken 2.0-OpenMW-Patch.esp
 ;; @Rain's Hand Hall [Bjorn], @Restoring Rain's Hand Hall [Chesko]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @rations [Stripes]
+
+[Order]
+rations.esp
+rations-wares.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Raven [Von Djangos]
 
 [Order]
@@ -5815,6 +6016,17 @@ Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Full - Dialogue Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Red Bags [GrumblingVomit]
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_OAAB.ESP
+
+[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
+TheRedBags.ESP
+TheRedBags_TR.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Red Mountain Reborn, @RMR [Knots, Trancemaster_1988]
 
 [Order]
@@ -5840,6 +6052,13 @@ RedMountainReborn.esp
 	"Red Mountain Reborn" includes an ESP replacer for "Illuminated Order v2.0". However, V3.0 already removed the Red Mountain Edits (Tower of Semuta is renamed and moved south of Tel Branora).
 [All	RedMountainReborn.esp
 		Illuminated Order v2.0 - Lore Friendly.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Religions Elaborated [Caeris]
+
+[Order]
+Half11 misc mods + anticheese.esp
+Religions Elaborated.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Repopulated Morrowind [GrumblingVomit]
@@ -6344,6 +6563,29 @@ Save the Date.esp
 [Order] ; If Mines & Caverns loads after Massama Cave is filled with water ( Ref: readme https://www.nexusmods.com/morrowind/mods/51932 ) (Pharis)
 Clean_Mines & Caverns.esp
 SecretsOfTheCrystalCity.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Seekers Faction [Dale French]
+
+[Order]
+Seekers Faction*.esp
+Complete Trade Fix*.esp
+
+[Order]
+Seekers Faction*.esp
+Less_Generic_Nerevarine.esp
+
+[Order]
+Seekers Faction*.esp
+LGNPC_NoLore.esp
+
+[Order]
+Seekers Faction*.esp
+Lich Father*.esp
+
+[Order]
+Seekers Faction*.esp
+The Sable Dragon*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Shipyards of Vvardenfell (Sadrith Mora - Seyda Neen - Gnaar Mok) [DetailDevil, Sjek]
@@ -7154,6 +7396,11 @@ TLAD Still Necro Colors - Nocturnal Moths.esp
 LGNPC__merged.esp
 True_Lights_And_Darkness*.esp
 
+[Order]
+TLAD*.esp
+True Lights and Darkness PS TWEAKS.esp
+True Skyrimized Torches.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ultra Violent Camonna Tong [QwertyQuit, ErwintheGerman]
 
@@ -7575,10 +7822,6 @@ Beautiful cities of Morrowind.esp
 BCoM_for_Wares.esp
 
 [Order]
-rations.esp
-rations-wares.esp
-
-[Order]
 Liar yes Idiot no.esp
 F&F_companions.esp
 Friends and Frens.esp
@@ -7821,7 +8064,7 @@ Wares-base - Expansion - Wolverine Hall Interior Expanded - No Legion HQ.esp
 Your Own Ashlander Tribe.ESP
 Wares-base - Expansion - Your Own Ashlander Tribe.esp
 
-[Conflict] 
+[Conflict]
 	"Wares-base - Expansion - Cyr_Main.esp" is outdated. Use PC addons from "Wares Ultimate" instead.
 Wares-base - Expansion - Cyr_Main.esp
 [ANY	Wares_PC_*.esp]
@@ -7899,7 +8142,7 @@ abotWindowsGlowTR*.esp
 The Sable Dragon*.esp
 abotWindowsGlow*.esp
 
-[Order]^
+[Order]
 Windows Glow.esp
 Windows Glow - Tribunal Eng.esp
 Windows Glow - Bloodmoon Eng.esp
@@ -8043,7 +8286,7 @@ What Thieves Guild*.esp
 The Tribe Unmourned*.esp
 Morag Tong*.esp
 
-;[Order]^
+;[Order]
 ;Morrowind Anti-Cheese.esp
 ;Ownership Overhaul.esp
 ;Dark Brotherhood Armor Replacer.esp
@@ -8060,7 +8303,7 @@ Morag Tong*.esp
 ;Economy Adjuster Crime (Necro Edit).esp
 ;There Can Be Only One.esp
 
-[Order]^
+[Order]
 Stonewood Pass*.esp
 Trade Disputes*.esp
 Caverns Overhaul.esp
@@ -8080,7 +8323,7 @@ PB_SignpostsRetexturedTR.esp
 TR_signs*.esp
 Poe Lighthouse.esp
 
-[Order]^
+[Order]
 Morrowind Crafting 2*.esp
 Morrowind Crafting Equipment.esp
 Morrowind Crafting Houses.esp
@@ -8157,14 +8400,6 @@ Sotha Sil Expanded*.esp
 Uvirith Inside.esp
 
 [Order]
-UG2*.esp
-mel_teleportPlugin_1_3_Patches.esp
-
-[Order]
-The Underground - Repackage.esp
-mel_teleportPlugin_1_3_Patches.esp
-
-[Order]
 Creatures.esp
 Creatures (*).esp
 abotLootControl.esp
@@ -8231,13 +8466,6 @@ MW Containers Animated exp.esp
 MEN_Combat_merged.esp
 
 [Order]
-NOM3*.esp
-NoM_MC*.esp
-NoM_BF*.esp
-RoHT NoM Addon.esp
-ab01WorldFixes*.esp
-
-[Order]
 Better Clothes*.esp
 abotGuards*.esp
 ;Sentinel+Serendipity*.esp
@@ -8278,11 +8506,6 @@ NPC_Commands*.esp
 Bound Armor*.esp
 
 [Order]
-ab01officialMerged*.esp
-ab01armorsFixedMerged.esp
-ab01ManaUserMerged*.esp
-
-[Order]
 Real Misc Items GFX.esp
 SpzInteriorDaylight.esp
 TownSounds.esp
@@ -8293,27 +8516,8 @@ Great Shoals*.esp
 TheForgottenShields*.esp
 
 [Order]
-WGIBalancing.esp
-ab01WGIBalancing.esp
-ab01gameplay*.esp
-
-[Order] ; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
-NOM3*.esp
-NoM_Creatures Loot Standard.esp
-Building Up Uvirith*.esp
-
-[Order]
-Seekers Faction*.esp
-;JoinAll*.esp
-
-[Order]
 ab01ManaUserMerged*.esp
 LGNPC__merged.esp
-
-[Order]
-LGNPC__merged.esp
-CultSheog.esp
-CultSheog-TR1912.esp
 
 [Order]
 TR_Preview.esp
@@ -8328,15 +8532,11 @@ Dwemer blinking lights*.esp
 chapelsv2.esp
 Imperial Graveyards of MW.esp
 
-[Order] ;  TODO Check in TES3View (Pharis)^
+[Order]
 Go To Jail*.esp
 Better Expansion Implementations.esp
 Expansion Delay.esp
 NOM3*.esp
-
-[Order]
-ab01GOTYpatch.esp
-;JoinAll*.esp
 
 [Order]
 ab01gameplay.esp
@@ -8347,32 +8547,8 @@ ab01GOTYpatch.esp
 Roads&Races*.esp
 
 [Order]
-Roads&Races*.esp
-ab01gameplay.esp
-
-[Order]
-k_weather.esp
-ab01gameplay*.esp
-
-[Order]
-Magic Diversity*.esp
-ab01gameplay*.esp
-
-[Order]
-abotThunders&Lightnings.esp
-ab01gameplay*.esp
-
-[Order]
 Dwemer blinking lights*.esp
 abotCityLanterns.esp
-
-[Order]
-AIM_*.esp
-ab01armorsWeaponsMerged*.esp
-
-[Order]
-AIM_*.esp
-ab01GOTYpatch.esp
 
 [Order]
 AIM_*.esp
@@ -8417,24 +8593,8 @@ Creatures (*).esp
 Solstheim_mage_tower*.esp
 
 [Order]
-gladiator.esp
-ab01GOTYpatch.esp
-
-[Order]
-ab01gameplay*.esp
-QuickChar*.esp
-
-[Order]
-ab01GOTYpatch.esp
-QuickChar*.esp
-
-[Order]
 abotAlt.esp
 abotHideCorpse.esp
-
-[Order]
-vgreetings*.esp
-ab01GOTYpatch.esp
 
 [Order]
 Juniper's Twin Lamps*.esp
@@ -8459,14 +8619,6 @@ Animated_Morrowind - merged*.esp
 Better Balmora river*.esp
 
 [Order]
-TheGoblinLab*.esp
-ab01gameplay*.esp
-
-[Order]
-Haldenshore*.esp
-ab01gameplay*.esp
-
-[Order]
 Korobal*.esp
 Fields of Kummu*.esp
 
@@ -8475,32 +8627,12 @@ MCA - TR Addon*.esp
 abotGuards*.esp
 
 [Order]
-abotGuards*.esp
-ab01ManaUserMerged*.esp
-
-[Order]
 ShockCenturionCompanion*.esp
 WolfCompwhite*.esp
 
 [Order]
-k_weather.esp
-ab01Resources Enhanced Kollops&KwamaEggs.esp
-
-[Order]
-ab01armorsWeaponsMerged*.esp
-DualWeapons*.esp
-
-[Order]
-mel_teleportPlugin_1_3*.esp
-mel_teleportPluginLeveledMarksPatch.esp
-
-[Order]
 Less Lore*.esp
 vgreetings*.esp
-
-[Order]
-Haldenshore*.esp
-Djangos Dialogue.esp
 
 [Order]
 ab01officialMerged.esp
@@ -8511,44 +8643,12 @@ TarMar.esp
 serenetower*.esp
 
 [Order]
-MAO_PCSound.esp
-ab01gameplay*.esp
-
-[Order]
-k_weather.esp
-ab01gameplay*.esp
-
-[Order]
 AshlanderTent*.esp
 abotPracticeDummies*.esp
 
 [Order]
-Seekers Faction*.esp
-Complete Trade Fix*.esp
-
-[Order]
 Less_generic_Nerevarine*.esp
 The Rise of the Tribe Unmourned*.esp
-
-[Order]
-Seekers Faction*.esp
-Less_Generic_Nerevarine.esp
-
-[Order]
-Seekers Faction*.esp
-LGNPC_NoLore.esp
-
-[Order]
-Seekers Faction*.esp
-Lich Father*.esp
-
-[Order]
-Seekers Faction*.esp
-The Sable Dragon*.esp
-
-[Order]
-Seekers Faction*.esp
-NOM3*.esp
 
 [Order]
 LGNPC__merged.esp
@@ -8580,23 +8680,11 @@ Morrowind Crafting*.esp
 
 [Order]
 ST Practice Dummies*.esp
-ab01housesMerged*.esp
-
-[Order]
-ST Practice Dummies*.esp
 Sentinel+Serendipity*.esp
-
-[Order]
-ST Practice Dummies*.esp
-NOM3*.esp
 
 [Order]
 ab01scenicCompilation*.esp
 Meteorite Ministry*.esp
-
-[Order] ; just to put this one down to avoid other mods overwriting changes to cell water
-ab01gameplay*.esp
-Remiros' Tombs Expansion*.esp
 
 [Order]
 Outlaws.esp
@@ -8638,10 +8726,6 @@ Adventurer's backback.esp
 Ashfall_legacy.esp
 
 [Order]
-NX9_StuddedArmor.esp
-Guild of Vampire Hunters.esp
-
-[Order]
 ExpansionIntegration_1.1.esp
 Hunter's Mark - A Marksman Mod.esp
 
@@ -8677,10 +8761,6 @@ Advanced Conjuration.esp
 [Order]
 RFD_Heartthrum.esp
 Shattered Stones - An Earthquake Mod.esp
-
-[Order]
-Sixth House.esp
-Immersive_corprus.esp
 
 [Order]
 Clean Imperial Noble Titles.esp
@@ -8748,16 +8828,8 @@ Illuminated Order v2.0 - Lore Friendly.esp
 SGOTN and Illuminated Order patch.esp
 
 [Order]
-Caldera Mages Guild Expanded.esp
-Stav_MaGAO_OpenVivec.esp
-
-[Order]
 Mournhold Overhaul by RP.esp
 RP_Overhaul.esp
-
-[Order]
-Half11 misc mods + anticheese.esp
-Religions Elaborated.esp
 
 [Order]
 Hold it - replacerWS.esp
@@ -8803,19 +8875,11 @@ Half11 misc mods + anticheese.esp
 danke_armors.esp
 RR_Danke's_Cephalopod_Armor_Eng.esp
 
-[Order]
-Caldera Mages Guild Expanded.esp
-Stav_MaGAO.esp
-
 [Order] ; Get the Rise of House Telvanni files in order
 ROHT_2_0_8.esp
 Dagon fell additions- ROHT.esp
 ROHT - SMSOP_patch.esp
 UL_3.5_RoHT_1.52_Add-on.esp
-
-[Order] ; Prefer Urnest Loot over FMI_GraveDust. Urnest Loot provides a chance for gravedust
-FMI_GraveDust.esp
-Urnest Loot.esp
 
 [Order]
 Mixed Cantons of Vivec.esp
@@ -8830,11 +8894,6 @@ Mudcrab Island*.esp
 Great Shoals*.esp
 TheForgottenShields*.esp
 AIM_+Forgotten*.esp
-
-[Order] ; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
-NOM3*.esp
-NoM_Creatures Loot Standard.esp
-Building Up Uvirith*.esp
 
 [Order]
 Complete Trade Fix.esp
@@ -8916,11 +8975,6 @@ A Bard's Life.esp
 MTC.esp
 
 [Order]
-TLAD*.esp
-True Lights and Darkness PS TWEAKS.esp
-True Skyrimized Torches.esp
-
-[Order]
 Balance - spells.esp
 BadDefaultSpells*.esp
 
@@ -8967,12 +9021,6 @@ More Exclusive Factions.esp
 Religions Elaborated.esp
 Imperial Factions.esp
 
-; imperial factions before TR_Factions for proper factions relations
-; lose increased guild requierements this way, need proper patch
-[Order]
-Imperial Factions.esp
-TR_Factions.esp
-
 [Order]
 Hlaalu Rank-Adjust v<VER>.esp
 RP House Hlaalu.esp
@@ -8981,34 +9029,6 @@ RP House Hlaalu.esp
 RP House Hlaalu.esp
 Quest Tweaks and Alternatives_<VER>.esp
 
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
-NoMoreStageDiving.ESP
-Just Twerk (all dancers).esp
-
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50056 ) (MasssiveJuice)
-NoMoreStageDiving.ESP
-Just Twerk (one dancer).esp
-
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/48941 ) (MasssiveJuice)
-abotGuars.esp
-abotGuars-OpenMW patch.ESP
-
-[Order] ;
-Rocky_WG_Base_1.1.ESP
-Caldera Priory.ESP
-
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
-Magical Missions.ESP
-Magical Missions (Amenophis Fix).ESP
-
 [Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
 Alex's Better Fitted Female Armors.ESP
 Clean_Nordic Fur Armour Replacer Symph.esp
-
-[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
-TheRedBags.ESP
-TheRedBags_OAAB.ESP
-
-[order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52924 ) (MasssiveJuice)
-TheRedBags.ESP
-TheRedBags_TR.ESP
