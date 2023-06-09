@@ -139,6 +139,27 @@ Ajira Deflowered.esp
 Ajira Deflowered - Patch for Purists.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Alchemial Hustle [Rosynant]
+
+[Conflict] ; (ref: included readme https://www.nexusmods.com/morrowind/mods/51050 ) (yohannes)
+	Use either only the merged plugin 'Alchemical_Hustle.esp' or a combination of the modular plugins. 
+Alchemical_Hustle.esp
+[ANY	AH_GMSTs.esp
+	AH_Ingredients.esp
+	AH_Magic.esp
+	AH_Potions.esp
+	AH_Toxicity_Default.esp
+	AH_Toxicity_Hard.esp
+	AH_Toxicity_Spell_Effect.esp]
+
+[Conflict] ; ( ref: included readme ) (yohannes)
+	Use only one of these plugins. For more information see the included readme:
+	'AH_Toxicity_Default.esp' - default toxic effect
+	'AH_Toxicity_Hard.esp' 	- potion abuse will result in certain death
+AH_Toxicity_Default.esp
+AH_Toxicity_Hard.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ald'ruhn - Seat of power of House Redoran [RandomPal]
 
 [Order] ; ( Ref: Knots told me ) (Pharis)
@@ -945,6 +966,7 @@ Beautiful cities of Morrowind.esp
 		Dramatic Vivec - Temple only.esp
 		Improved Temple Experience.esp
 		RR_Ghost_Gate_Fortress_Eng.esp
+		Ruined Molag Mar.esp
 		IntoTheFyr.esp
 		Whitney_EdwinnaStudy.esp
 		Tel Naga Treasury.esp
@@ -961,6 +983,19 @@ Beautiful cities of Morrowind.esp
 		Barabus' fireplaces*.esp
 		URH_Khuul.esp
 		URH_Ald_Velothi.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Bell Towers of Vvardenfell [Markond] @Bell Towers of Vvardenfell Directional Sound [Markond - DetailDevil]
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/52523 ) (yohannes)
+	Use only one of these plugins.
+BalmoraHighTownBell.esp
+BalmoraHighTownBellBCOM.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/52523 ) (yohannes)
+	Use only one of these plugins:
+SuranBell.esp
+SuranBellWhite.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bethesda Official Plugins Naturalized, @Official Plugins Naturalized [PikachunoTM]
@@ -3191,29 +3226,11 @@ HM_DDD_Ghostfence_v1.0.esp
 RR_Ghost_Gate_Fortress_Eng.esp
 
 ;; Total Overhaul Patches
-[Patch] ; ( ref: https://www.nexusmods.com/morrowind/mods/52989 ) (MasssiveJuice)
-	A patch for "Dynamic Distant Details" and "BCOM" is provided in "Total Overhaul Patches" by johnnyhostile - requires OpenMW.
-BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
-[ALL	Beautiful cities of Morrowind.esp
-		HM_DDD_Ghostfence_v1.0.esp]
-
-[Requires]
-BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
-[All	Beautiful cities of Morrowind.esp
-		ghastly gg.esp
-		HM_DDD_Ghostfence_v1.0.esp]
-
-[Order]
+[Conflict] ; ( Ref: tested the plugin for johnnyhostile ) (yohannes)
+	An ESP replacer for "Dynamic Distant Buildings for OpenMW - Ghostfence Plugin" that is compatible with "BCOM" is provided in "Total Overhaul Patches".
+	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52989 ) 
 HM_DDD_Ghostfence_v1.0.esp
-BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
-
-[Order]
-ghastly gg.esp
-HM_DDD_Ghostfence_v1.0.esp
-
-[Order]
 Beautiful cities of Morrowind.esp
-HM_DDD_Ghostfence_v1.0.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ebonheart Underworks [Dandy Daedra]
@@ -6358,6 +6375,16 @@ Tamriel_Data.esm
 Sky_Main.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Sloadic Transports [Ashstaar and Melchior Dahrk]
+
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/50546 ) (yohannes)
+	Use only one of these plugins:
+        'Sloadic Transport Necro.ESP' - Sloadic Transport Necro Version
+        'Sloadic Transport.ESP' - Sloadic Transport Regular Version
+Sloadic Transport Necro.ESP
+Sloadic Transport.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sobitur Facility [dagothagahnim]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
@@ -6667,6 +6694,77 @@ TeaMod_2.1.esp
 TeaMod_2.1 - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Temple Master [Melchior Dahrk]
+
+[Order] ; ( ref: included readme ) (yohannes)
+WhiteSuran2_MD_Edition.esp
+Temple Master.esp
+
+[Order]
+Beautiful Cities of Morrowind.esp
+Temple Master.esp
+
+[Order]
+BCOM_White_Suran.esp
+Temple Master.esp
+
+;;Patches ( Since the Suran Underworld 3 Patch is a replacer plugin, rules are already covered in the bcom section, lines 648-651. ) (yohannes)
+[Patch] ; patch for temple master + bell towers of vvardenfell (yohannes)
+	A patch for "Temple Master" and "Bell Towers of Vvardenfell" is part of the newest "Temple Master" release.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52749 )
+Temple Master_Bell Towers Patch.esp
+[ALL	Temple Master.esp
+		SuranBell.esp]
+
+[Order]
+Temple Master.esp
+Temple Master_Bell Towers Patch.esp
+
+[Order]
+SuranBell.esp
+Temple Master_Bell Towers Patch.esp
+
+[Patch] ; patch for temple master + bell towers of vvardenfell + white suran (yohannes)
+	A patch for "Temple Master", a version of "White Suran" and "Bell Towers of Vvardenfell" is part of the newest "Temple Master" release.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52749 )
+Temple Master_Bell Towers_WS2 Patch.esp
+[ALL	Temple Master.esp
+		SuranBellWhite.esp
+	[ANY		WhiteSuran2_MD_Edition.esp
+				BCOM_White_Suran.esp]]
+
+[Order]
+WhiteSuran2_MD_Edition.esp
+Temple Master_Bell Towers_WS2 Patch.esp
+
+[Order]
+BCOM_White_Suran.esp
+Temple Master_Bell Towers_WS2 Patch.esp
+
+[Order]
+Temple Master.esp
+Temple Master_Bell Towers_WS2 Patch.esp
+
+[Order]
+SuranBell.esp
+Temple Master_Bell Towers_WS2 Patch.esp
+
+[Conflict] ; ( ref: included readme ) (yohannes)
+	Use only one of these plugins:
+	'Temple Master_Bell Towers Patch.esp' - patch for vanilla suran
+	'Temple Master_Bell Towers_WS2 Patch.esp' - patch for white suran
+Temple Master_Bell Towers Patch.esp
+Temple Master_Bell Towers_WS2 Patch.esp
+
+[Conflict] ; ( ref: included readme ) (yohannes)
+	Use only one of these plugins:
+	'WhiteSuran2_MD_Edition.esp' - standalone White Suran
+	'BCOM_White_Suran.esp' - White suran merged into BCoM
+WhiteSuran2_MD_Edition.esp
+BCOM_White_Suran.esp
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @There Can Be Only One [Necrolesian]
 
 ; According to ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) Expansions Integrated should be before TCBOO but a rule is not needed as it is already before MDMD (Pharis)
@@ -6938,6 +7036,20 @@ Redaynia Restored Mushroom Tree Replacer Patch.esp
 [Order] ; ( ref: readme file ) (MasssiveJuice)
 Uvirith's Legacy_3.53.esp
 UvirithsLegacy+TR Patch.esp
+
+;; Dynamic Distant Buildings+BCOM Replacer Patch
+[Requires]
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+[ALL	Beautiful cities of Morrowind.esp
+		ghastly gg.esp]
+
+[Order] ; ( ref: readme file ) (yohannes)
+ghastly gg.esp
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod [TriangleTooth]
