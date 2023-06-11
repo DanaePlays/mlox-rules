@@ -3307,6 +3307,23 @@ Doors of Oblivion+TOTSP Patch.esp
 The Doors of Oblivion*.esp
 Corprusarium_Doors_of_Oblivion_Patch.esp
 
+;;Daedric Shrine Overhauls
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51882 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Malacath.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51607 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Mehrunes Dagon.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51632 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Molag Bal.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51890 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Sheogorath.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dwemer Contraband [Hive Master]
 
@@ -5131,6 +5148,39 @@ Birthsigns.esp
 [Order]
 Morrowind Rebirth - Races [Addon].esp
 Beastly Abilities.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Mysterious Affairs of Sara Shenk @Mysterious Affairs of Sara Shenk [Juidius Danae]
+
+;;Main
+[Conflict] ; ( Ref: included readme ) (yohannes)
+	Use only one of these plugins:
+	'Mysterious_Affair_Sara_Shenk.esp' - If you are not using Beauticul Cities of Morrowind.
+	'Mysterious_Affair_Sara_Shenk - BCOM.esp' - If you are using Beautiful Cities of Morrowind.
+Mysterious_Affair_Sara_Shenk.esp
+Mysterious_Affair_Sara_Shenk - BCOM.esp
+
+;;Morrowind Interiors Project - Patch
+[Patch] ; ( Ref: included readme ) (yohannes)
+	A Patch for "The Mysterios Affairs of Sara Shenk" and "Morrowind Interiors Project" is available in the "The Mysterios Affairs of Sara Shenk" archive.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52968 )
+Mysterious_Affair_Sara_Shenk MIP.esp
+[ALL	Mysterious_Affair_Sara_Shenk.esp
+	MorrowindInteriorsProject.esp]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/52968 ) (yohannes)
+Mysterious_Affair_Sara_Shenk.esp
+Mysterious_Affair_Sara_Shenk MIP.esp
+
+[Order]
+MorrowindInteriorsProject.esp
+Mysterious_Affair_Sara_Shenk MIP.esp
+
+;; Conflict MIP+BCOM
+[Conflict] ; ( while both plugins are technically compatible, rebuilt exteriors in interior cells do not represent bcom exteriors ) (yohannes)
+	"Beautiful Cities of Morrowind" and "Morrowind Interiors Project" are not yet compatible.
+Beautiful cities of Morrowind.esp
+MorrowindInteriorsProject.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Necessities of Morrowind, @NOM [Taddeus]
