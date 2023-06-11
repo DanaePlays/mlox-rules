@@ -5150,19 +5150,19 @@ Morrowind Rebirth - Races [Addon].esp
 Beastly Abilities.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @The Mysterious Affairs of Sara Shenk @Mysterious Affairs of Sara Shenk [Juidius Danae]
+;; @The Mysterious Affair of Sara Shenk @Mysterious Affair of Sara Shenk [Juidius Danae]
 
 ;;Main
 [Conflict] ; ( Ref: included readme ) (yohannes)
 	Use only one of these plugins:
-	'Mysterious_Affair_Sara_Shenk.esp' - If you are not using Beauticul Cities of Morrowind.
+	'Mysterious_Affair_Sara_Shenk.esp' - If you are not using Beautiful Cities of Morrowind.
 	'Mysterious_Affair_Sara_Shenk - BCOM.esp' - If you are using Beautiful Cities of Morrowind.
 Mysterious_Affair_Sara_Shenk.esp
 Mysterious_Affair_Sara_Shenk - BCOM.esp
 
 ;;Morrowind Interiors Project - Patch
 [Patch] ; ( Ref: included readme ) (yohannes)
-	A Patch for "The Mysterios Affairs of Sara Shenk" and "Morrowind Interiors Project" is available in the "The Mysterios Affairs of Sara Shenk" archive.
+	A Patch for "The Mysterious Affair of Sara Shenk" and "Morrowind Interiors Project" is available in the "The Mysterious Affair of Sara Shenk" archive.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52968 )
 Mysterious_Affair_Sara_Shenk MIP.esp
 [ALL	Mysterious_Affair_Sara_Shenk.esp
