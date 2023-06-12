@@ -8338,29 +8338,12 @@ YANDL - Merged.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rejects ; Need tweaking
 
-[Order] ; TODO Look at later (Pharis)^
+[Order]
 Magical Missions.esp
 Djangos Dialogue.esp
 What Thieves Guild*.esp
 The Tribe Unmourned*.esp
 Morag Tong*.esp
-
-;[Order]
-;Morrowind Anti-Cheese.esp
-;Ownership Overhaul.esp
-;Dark Brotherhood Armor Replacer.esp
-;Expansions Integrated.esp
-;BTB's Game Improvements (Necro Edit).esp
-;BTB's Game Improvements (Necro Edit).Tweaked.esp
-;BTBGI PFP Patch.esp
-;Morrowind Anti-Cheese Tweaked.esp
-;Beware the Sixth House.esp
-;Tribunal Rebalance.esp
-;Bloodmoon Rebalance.esp
-;More Deadly Morrowind Denizens.esp
-;MDMD - Creatures Addon.esp
-;Economy Adjuster Crime (Necro Edit).esp
-;There Can Be Only One.esp
 
 [Order]
 Stonewood Pass*.esp
