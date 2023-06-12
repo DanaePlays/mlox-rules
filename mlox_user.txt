@@ -6876,7 +6876,23 @@ SwapAddamasartusSamarys_<VER>.esp
 ;; @Taddeus' Foods of Tamriel [Taddeus, Danae]
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/49388 )
-BeaconOfstRilms*.esp ; '*' to cover various versions with different names (Pharis)
+BeaconOfstRilms.esp
+Taddeus_Foods_of_Tamriel.esp
+
+[Order]
+BeaconOfstRilmsBCOMReborn.esp
+Taddeus_Foods_of_Tamriel.esp
+
+[Order]
+BeaconOfstRilmsMRM.esp
+Taddeus_Foods_of_Tamriel.esp
+
+[Order]
+BeaconOfstRilmsNoAnim.esp
+Taddeus_Foods_of_Tamriel.esp
+
+[Order]
+BeaconOfstRilmsRedMtnReborn.esp
 Taddeus_Foods_of_Tamriel.esp
 
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/49388 )
@@ -7474,7 +7490,12 @@ Ultra Violent Camonna Tong.esp
 
 [Order] ; Anyone who cares enough about specific conflicts between these mods would add their own rule to override this, this is the best order for most people (Pharis)
 Unique Jewelry and Accessories.esp
-UFR_v3dot2*.esp
+UFR_v3dot2.esp
+Unique Jewelry Redone.esp
+
+[Order]
+Unique Jewelry and Accessories.esp
+UFR_v3dot2_noRobe.esp
 Unique Jewelry Redone.esp
 
 [Order]
@@ -7492,7 +7513,11 @@ IceNioLivRobeReplacer*.esp
 Robe of the Drake's Pride.esp
 
 [Order] ; To prevent NecromancersAmulet.esp being made completely redundant (Pharis)
-UFR_v3dot2*.esp
+UFR_v3dot2.esp
+NecromancersAmulet.esp
+
+[Order] ; To prevent NecromancersAmulet.esp being made completely redundant (Pharis)
+UFR_v3dot2_noRobe.esp
 NecromancersAmulet.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
