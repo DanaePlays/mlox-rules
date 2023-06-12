@@ -5534,6 +5534,15 @@ Justice4Khartag.esp
 OAAB - Shipwrecks.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @OAAB Shipwrecks and Justice for Khartag - merged plugin [Corsair, Vegetto, ffann1998]
+
+[Conflict]
+	"OAAB Shipwrecks and Justice for Khartag - merged plugin" includes both "OAAB Shipwrecks" and "Justice for Khartag (J.F.K.)" and should not be used alongside the original plugins.
+Justice4Khartag+OAAB_Shipwreck - merged.esp
+[ANY	OAAB - Shipwrecks.esp
+		Justice4Khartag.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - The Ashen Divide [Remiros]
 
 [Conflict]
