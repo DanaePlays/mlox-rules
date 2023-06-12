@@ -3827,6 +3827,13 @@ Graht Morrowind Swamp Trees.esp
 Morrowind Swamp Trees.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Grahtwood Roost [Melchior Dahrk]
+
+[Requires]
+GrahtwoodRoost.esp
+Graht Morrowind Swamp Trees.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Great Wizard Fantasco [DasOmega]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
