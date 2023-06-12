@@ -5523,7 +5523,7 @@ OAAB - Foyada Mamaea*.esp
 Moonmoth Legion Fort Overhaul.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @OAAB - Shipwrecks [Corsair]
+;; @OAAB Shipwrecks [Corsair]
 
 [Order]
 OAAB - Shipwrecks.esp
