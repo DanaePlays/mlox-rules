@@ -3009,6 +3009,19 @@ Yet Another Guard*.esp
 Indoril Spear*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Container Ownership [Half11 or l1lartur0]
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/47068 ) (MasssiveJuice)
+	"Container Ownership" by Half11 is already incorporated into "Morrowind Anti-Cheese" by Remiros.
+Container Ownership.esp
+Morrowind Anti-Cheese.esp
+
+[Conflict] ; ( ref: RandomPal said so on MMC ) (MasssiveJuice)
+	"Container Ownership" by Half11 conflicts with "BCOM" - consider using "Ownership Overhaul" by Necrolesian instead.
+Container Ownership.esp
+Beautiful cities of Morrowind.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Cooking and Eating [RacerPlume]
 
 ;; AVP Publicans Expansion ( Ref: Readme says plugin after plugins it patches )
@@ -5523,6 +5536,17 @@ Area Effect Projectiles Integrated.esp
 Area Effect Projectiles and OAAB Weapons Integrated Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @OAAB Dwemer Pavements [Melchior Dahrk]
+
+[Order] ; ( ref: mod readme ) (MasssiveJuice)
+OAAB Dwemer Pavements.esp
+Trackless?Grazeland.esp
+
+[Order]
+Trackless?Grazeland.esp
+Trackless Grazeland OAAB Dwemer Pavements Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - Foyada Mamaea [Remiros]
 
 [Order]
@@ -5668,6 +5692,18 @@ Of Eggs and Dwarves.esp
   		'OJAI - Framerate Version.esp' - Divides the dungeon up into 6 cells and removes some lights to help increase framerate. This is the recommended version for most users.
 Of Justice and Innocence.esp
 OJAI - Framerate Version.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Oh No Stolen Reports [johnnyhostile]
+
+[Order] ; dependent on BCOM esp (MasssiveJuice)
+Beautiful cities of Morrowind.esp
+onsr-bcom.esp
+
+[Conflict] ; ( ref: mod readme ) (yohannes)
+	Use only one of these plugins.
+onsr.esp
+onsr-bcom.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Old Mournhold Expansion [millerMill]
