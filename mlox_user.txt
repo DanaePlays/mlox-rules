@@ -5597,6 +5597,11 @@ Trackless?Grazeland.esp
 OAAB_Grazelands.esp
 Valley of the Wind Overhaul.esp
 
+[Conflict] ; ( https://www.nexusmods.com/morrowind/mods/49075 ) (yohannes)
+	"OAAB Golden Reeds" is already incorporated into "OAAB Grazelands".
+OAAB_GoldenReeds.esp
+OAAB_Grazelands.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Greater Samarys [Varlothen]
 
@@ -8252,12 +8257,70 @@ NPC LCV Schedules*VOC.esp
 NPC LCV Locks*VOC.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @The Wolverine Hall [DuoDinamico aka RandomPal and Vegetto]
+;; @The Wolverine Hall, @Wolverine Hall [DuoDinamico aka RandomPal and Vegetto]
 
 [Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/52199 )
 BCOM_pathgrid_reset.esp
 RPNR_WHO.esp
 RPNR_WHO_BCOM.esp
+
+[Order] ; prevents landscape tears in vanilla Sadrith Mora (yohannes)
+Shipyards of Vvardenfell.esp
+RPNR_WHO.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @The Wrath of God - Vivec Boss Fight Overhaul, @Wrath of God [ffann1998]
+
+[Order]
+Vivec_Voice_addon TRIBUNAL.esp
+The Wrath of God.esp
+
+[Order]
+Vivec_Voice_addon TRIBUNAL - Refreshed - OpenMW.esp
+The Wrath of God.esp
+
+;;Patches
+[Patch] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079 ) (yohannes)
+	A patch for "The Wrath of God - Vivec Boss Fight Overhaul" and "Concept Art Palace" is provided on the "The Wrath of God - Vivec Boss Fight Overhaul" mod page.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/53079 )
+The Wrath of God - CAP patch.esp
+[ALL	The Wrath of God.esp
+		Concept art palace.esp
+		CAP Dome.esp]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079) (yohannes)
+The Wrath of God.esp
+The Wrath of God - CAP patch.esp
+
+[Order]
+Concept art palace.esp
+The Wrath of God - CAP patch.esp
+
+[Order]
+CAP Dome.esp
+The Wrath of God - CAP patch.esp
+
+;;Conflicts
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079 ) (yohannes)
+	"Vivec's Muatra" by Randolph Carter is already incorporated into "The Wrath of God - Vivec Boss Fight Overhaul" by ffann1998.
+The Wrath of God.esp
+RC_VivecsMuatra.esp
+
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079 ) (yohannes)
+	"Divine Vivec - Floating Vivec" by OffworldDevil is already incorporated into "The Wrath of God - Vivec Boss Fight Overhaul" by ffann1998.
+The Wrath of God.esp
+Floating Vivec.ESP
+
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079 ) (yohannes)
+	These plugins overhaul the fight against Vivec. Use only one of them.
+The Wrath of God.esp
+[ANY	VersusVivec.esp
+		Tougher Vivec.ESP]
+
+[Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53079 ) (yohannes)
+	Incompatible. Use only one of these plugins.
+The Wrath of God.esp
+FNK_SV SheVivec.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Yet Another Guard Diversity, @YAGD [half11]
