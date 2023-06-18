@@ -5544,6 +5544,10 @@ Justice4Khartag+OAAB_Shipwreck - merged.esp
 [ANY	OAAB - Shipwrecks.esp
 		Justice4Khartag.esp]
 
+[Order] ; Original mod's TR patch prob still necessary (Zilophos)
+Justice4Khartag+OAAB_Shipwreck - merged.esp
+OAAB - Shipwrecks - TR Patch.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - The Ashen Divide [Remiros]
 
