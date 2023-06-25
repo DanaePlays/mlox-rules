@@ -4277,14 +4277,42 @@ IO - Kinsmer.ESP
 [Order]
 Uvirith's Legacy_3.53.esp
 IO - Kinsmer.ESP
-IO - UL Compatibility Patch.ESP
+IO - Uvirith's Legacy Patch.esp
 
 [Patch]
 	A patch for "Interesting Outfits - Kinsmer" and "Uvirith's Legacy" is provided on the "Interesting Outfits - Kinsmer" mod page.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
-IO - UL Compatibility Patch.ESP
+IO - Uvirith's Legacy Patch.esp
 [ALL	Uvirith's Legacy_3.53.esp
 		IO - Kinsmer.esp]
+
+;; Telvanni Magister Robes Patch
+[Patch]
+	A patch for "Interesting Outfits - Kinsmer" and "Telvanni Magister Robes" is provided in the "Interesting Outfits - Kinsmer" archive.
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
+IO - Telvanni Magister Robes Patch.esp
+[ALL	Telvanni Magister Robes.esp
+		IO - Kinsmer.esp]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (yohannes)
+Telvanni Magister Robes.esp
+IO - Kinsmer.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
+Telvanni Magister Robes.esp
+IO - Uvirith's Legacy Patch.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
+Telvanni Magister Robes.esp
+IO - Telvanni Magister Robes Patch.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
+IO - Kinsmer.esp
+IO - Telvanni Magister Robes Patch.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
+IO - Uvirith's Legacy Patch.esp
+IO - Telvanni Magister Robes Patch.esp
 
 [Conflict]
 	"Armored Robes Compilation and NPC changes" is already merged into "Interesting Outfits - Kinsmer" - do not use both.
