@@ -7413,6 +7413,11 @@ Redaynia Restored.ESP
 Redaynia Restored Mushroom Tree Replacer Patch.esp
 
 ;; UvirithsLegacy+TR Patch
+[Requires]
+UvirithsLegacy+TR Patch.esp
+[ALL	Uvirith's Legacy_3.53.esp
+		UL_3.5_TR_21.01_Add-on.esp]
+
 [Order] ; ( ref: readme file ) (MasssiveJuice)
 Uvirith's Legacy_3.53.esp
 UvirithsLegacy+TR Patch.esp
