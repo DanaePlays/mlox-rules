@@ -2971,6 +2971,10 @@ DD_Caldera_Expansion - Script Fix.esp
 Rocky_WG_Base_1.1.ESP
 Caldera Priory.ESP
 
+[Order] ; Caldera Priory renamed West Gash Region (-3, 3) to Caldera Priory
+TitansofVvardenfell.ESP
+Caldera Priory.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Camonna Tong [Caeris]
 
