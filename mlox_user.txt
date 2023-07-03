@@ -891,6 +891,10 @@ ROHT_2_0_8.esp
 Beautiful cities of Morrowind.esp
 Welcome Home.esp
 
+[Order] ; ( ref: tested myself in-game ) (yohannes)
+Welcome Home.esp
+BCOM_pathgrid_reset.esp
+
 [Order]
 Beautiful cities of Morrowind.esp
 LuceEdit - Guild of Vampire Hunters.esp
@@ -3262,12 +3266,68 @@ Take Notes.esp
 DemonOfKnowledge.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Devilish Vampire Overhaul [DetailDevil]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52969 ) (MasssiveJuice)
+Devilish_Vampire_Overhaul.ESP
+Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
+
+[Patch] ; ( ref: https://www.nexusmods.com/morrowind/mods/52969 ) (MasssiveJuice)
+	"Devilish Vampire Overhaul" has a patch for "Tamriel Rebuilt".
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52969 )
+Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
+[ALL	Devilish_Vampire_Overhaul.ESP
+		TR_Mainland.esm]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Different Types of Local Plants for Ajira's Reports [JosephMcKean]
 
 [Conflict] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51735 ) (Pharis)
 	These mods are incompatible as they both edit the duties given to the player by Ajira.
 Different Types of Local Plants for Ajira's Reports.esp
 Quest Tweaks and Alternatives_<VER>.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Distant Fixes - Rise of House Telvanni + Uvirith's Manor + Uvirith's Legacy [johnnyhostile]
+
+;; Distant Fixes: Rise of House Telvanni
+[Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/53138 ) (yohannes)
+ROHT_2_0_8.esp
+DistantFixesRiseOfHouseTelvanni.esp
+
+[Order]
+UL_3.5_RoHT_1.52_Add-on.esp
+DistantFixesRiseOfHouseTelvanniUL.esp
+
+[Requires] ; (MasssiveJuice)
+DistantFixesRiseOfHouseTelvanni.esp
+ROHT_2_0_8.esp
+
+[Requires] ; (MasssiveJuice)
+DistantFixesRiseOfHouseTelvanniUL.esp
+[ALL	UL_3.5_RoHT_1.52_Add-on.esp
+		ROHT_2_0_8.esp
+		DistantFixesRiseOfHouseTelvanni.esp]
+
+;; Distant Fixes: Uvirith's Manor
+[Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/53140 ) (yohannes)
+HM_DDD_Strongholds_T_v1.0.esp
+DistantFixesUvirithsManor.esp
+
+[Requires] ; (MasssiveJuice)
+DistantFixesUvirithsManor.esp
+[ALL	HM_DDD_Strongholds_T_v1.0.esp
+		Uvirith's Manor.ESP]
+		
+;; Distant Fixes: Uvirith's Legacy
+[Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/53139 ) (yohannes)
+HM_DDD_Strongholds_T_v1.0.esp
+DistantFixesUvirithsLegacy.esp
+
+[Requires] ; (MasssiveJuice)
+DistantFixesUvirithsLegacy.esp
+[ALL	HM_DDD_Strongholds_T_v1.0.esp
+		Uvirith's Legacy_3.53.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Distant Seafloor for OpenMW [Hemaris]
@@ -3729,6 +3789,11 @@ Glass Domes of Vivec_atmospheric arena Ownership Overhaul Patch.ESP
 [Order] ; Vivec, Foreign Quarter Plaza Behave like exterior (JosephMcKean)
 Broadsheets and Notice Boards.esp
 Glass Domes of Vivec.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/48946 ) (yohannes)
+	Do not load both 'Glass Domes of Vivec.esp' and 'Glass Domes of Vivec_atmospheric arena.esp'.
+Glass Domes of Vivec.esp
+Glass Domes of Vivec_atmospheric arena.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Glowing Flames [PoodleSandwich]
