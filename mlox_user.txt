@@ -3318,7 +3318,7 @@ DistantFixesUvirithsManor.esp
 DistantFixesUvirithsManor.esp
 [ALL	HM_DDD_Strongholds_T_v1.0.esp
 		Uvirith's Manor.ESP]
-		
+
 ;; Distant Fixes: Uvirith's Legacy
 [Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/53139 ) (yohannes)
 HM_DDD_Strongholds_T_v1.0.esp
@@ -8311,6 +8311,13 @@ WoRR_MDMD.esp
 [Order]
 Sotha Sil Expanded.esp
 WoRR_SSE.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Weapons Expansion Project - Name Patch [Soon]
+
+[Order] ; Preserve name changes
+Weapons Expansion Morrowind.esp
+WEP - Name Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Weary Vampire, @Weary Vampire [OperatorJack]
