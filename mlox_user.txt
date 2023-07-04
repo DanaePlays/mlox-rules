@@ -3249,6 +3249,17 @@ Creatures_RP*.esp
 Golden Saint Variety.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @CSO Scripted Speech Fix [Mikrit]
+
+[Order]
+CSO_Scripted_Speech_Fix.ESP
+Dubdilla Overhaul.ESP
+
+[Order]
+CSO_Scripted_Speech_Fix.ESP
+Main_Quest_Overhaul.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dagon Fell Additions ; no idea where to find this one (Pharis)
 
 [Conflict] ; Make sure people aren't using two versions of Dagon Fell Additions (Ref: "https://www.nexusmods.com/morrowind/mods/48683?")
