@@ -290,6 +290,12 @@ AldRuhn_seat_of_power_RR_Skar_RMR.esp
 Ald-Ruhn Temple Expansion 1.5.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @All Books Color-coded & Designed [Xero Foxx]
+[Order]
+All Books Color-coded & Designed.ESP
+Tarhiel'sJournal.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Alms for ALMSIVI [Zaarin]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
