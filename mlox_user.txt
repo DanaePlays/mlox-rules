@@ -3296,6 +3296,11 @@ Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
 [ALL	Devilish_Vampire_Overhaul.ESP
 		TR_Mainland.esm]
 
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/52969 ) (yohannes)
+	'Vampire Player Hit Sounds' is already merged into 'Devilish Vampire Overhaul'.
+VampirePlayerHitSounds.esp
+Devilish_Vampire_Overhaul.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Different Types of Local Plants for Ajira's Reports [JosephMcKean]
 
@@ -7504,8 +7509,16 @@ UvirithsLegacy+TR Patch.esp
 [ALL	Uvirith's Legacy_3.53.esp
 		UL_3.5_TR_21.01_Add-on.esp]
 
+[Order] ; ( ref: readme ) (yohannes)
+Uvirith's Legacy_3.53.esp
+UL_3.5_TR_21.01_Add-on.esp
+
 [Order] ; ( ref: readme file ) (MasssiveJuice)
 Uvirith's Legacy_3.53.esp
+UvirithsLegacy+TR Patch.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+UL_3.5_TR_21.01_Add-on.esp
 UvirithsLegacy+TR Patch.esp
 
 ;; Dynamic Distant Buildings+BCOM Replacer Patch
@@ -7521,6 +7534,59 @@ BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 [Order]
 Beautiful cities of Morrowind.esp
 BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
+
+;; OAABShipwrecks + RRBetterShipsnBoats Patch
+[Requires]
+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+[ALL	OAAB - Shipwrecks.esp
+		RR_Better_Ships_n_Boats_Eng.esp]
+
+[Order] ; ( ref: readme ) (yohannes)
+OAAB - Shipwrecks.esp
+RR_Better_Ships_n_Boats_Eng.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+OAAB - Shipwrecks.esp
+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+RR_Better_Ships_n_Boats_Eng.esp
+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+
+[Requires]
+JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+[ALL	Justice4Khartag+OAAB_Shipwreck - merged.esp
+		RR_Better_Ships_n_Boats_Eng.esp]
+
+[Order] ; ( ref: readme ) (yohannes)
+Justice4Khartag+OAAB_Shipwreck - merged.esp
+RR_Better_Ships_n_Boats_Eng.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+Justice4Khartag+OAAB_Shipwreck - merged.esp
+JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+RR_Better_Ships_n_Boats_Eng.esp
+JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
+
+;; NordicDagonFel + RRBetterShipsnBoats Patch
+[Requires]
+NordicDagonFel+RRBetterShipsnBoatsPatch.esp
+[ALL	RR_Better_Ships_n_Boats_Eng.esp
+		Nordic Dagon Fel.esp]
+
+[Order] ; ( ref: readme ) (yohannes)
+RR_Better_Ships_n_Boats_Eng.esp
+Nordic Dagon Fel.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+RR_Better_Ships_n_Boats_Eng.esp
+NordicDagonFel+RRBetterShipsnBoatsPatch.esp
+
+[Order] ; ( ref: readme ) (yohannes)
+Nordic Dagon Fel.esp
+NordicDagonFel+RRBetterShipsnBoatsPatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod [TriangleTooth]
@@ -7826,7 +7892,8 @@ Vanilla friendly wearables expansion.esm
 		Unique Dreugh Cuirass - Better Morrowind Armor.esp
 		Unique Dagoth Dagger.esp
 		OpusSmaragd.esp
-		Daedric Bastard Sword.esp]
+		Daedric Bastard Sword.esp
+		IO - Cultists.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition, @Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition [AliceL93]
