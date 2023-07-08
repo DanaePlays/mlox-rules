@@ -1009,7 +1009,7 @@ Rocky_WG_Base_1.1.esp
 BCOM Rocky West Gash.esp
 
 [Conflict]
- If using BCOM, then disable Far From Home v1.4.ESP
+	If using "BCOM", then disable 'Far From Home v1.4.ESP'.
 Far From Home v1.4.ESP
 Far_From_Home.ESP
 
@@ -1024,7 +1024,9 @@ Beautiful cities of Morrowind.esp
 [ANY	MDP*.esp
 		Duke's Throne Room Overhaul.esp
 		ImperiumCastleEbonheart.esp
-		Accessible Ebonheart Imperial Chapel v<VER>.esp]
+		Accessible Ebonheart Imperial Chapel v<VER>.esp
+		Pelagiad Interior Overhaul.esp
+		BCOM Ahnassi's House.esp]
 
 [Conflict] ; replacer maintained by ActuallyUlysses
 	Original mod is not compatible with "Beautiful Cities of Morrowind". Use replacer made by ActuallyUlysses
@@ -3145,9 +3147,7 @@ Correspondances_of_Morrowind - Balmora Guilds Expanded - Balmora Waterworks.esp
 		Correspondances_of_Morrowind - Balmora Guilds Expanded.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Creature Balancing, @Mort's Rebalance Mods [mort], @Vanilla Friendly Creatures and Undeads Expansion [RandomPal]
-
- ; Will separate later but too lazy now (Pharis)
+;; @Creature Balancing, @Mort's Rebalance Mods [mort]
 
 [Order]
 Beware the Sixth House.esp
@@ -3156,18 +3156,6 @@ Ash Vampire Script Fix.esp
 Keening belongs to odros.esp
 Sunder and keening hurt on pickup.esp
 Creatures_RP_*.esp
-
-[Order]
-Creatures_RP_*.esp
-Bob's Diverse Dagoths*.esp
-
-[Order]
-Creatures_RP_*.esp
-DN-GDRv<VER>*.esp
-
-[Order]
-DN-GDRv<VER>*.esp
-Bob's Diverse Dagoths*.esp
 
 [Order]
 tribunal rebalance.esp
@@ -3217,42 +3205,6 @@ Bloodmoon Rebalance.esp
   		Bloodmoon NPC Rebalance.esp
  		Bloodmoon Undead Rebalance.esp
  		Bloodmoon Werewolf Rebalance.esp]
-
-[Conflict]
-	Use only one of these plugins.
-Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp
-Bob's Diverse Dagoths - DNGDR.esp
-Bob's Diverse Dagoths - Hostile Gilvoth.esp
-Bob's Diverse Dagoths.esp
-
-[Conflict] ; Make sure people are only using one version of "Vanilla friendly creatures and undeads expansion" (Ref: https://www.nexusmods.com/morrowind/mods/48818/? )
-	Use only one of these plugins.
-Creatures_RP_Standard.esp
-Creatures_RP_Purist.esp
-
-[Order] ; Light conflict, checked in TESPCD (Pharis)
-Creatures_RP_Purist.esp
-Creatures_RP_glowing_netch.esp
-
-[Order] ; Needs to overwrite records in main plugin (Pharis)
-Creatures_RP_Purist.esp
-Creatures_RP_Soulless summons.esp
-
-[Order] ; Needs to overwrite records in main plugin (Pharis)
-Creatures_RP_Purist.esp
-Creatures_RP_bound equipment for daedra.esp
-
-[Order] ; Needs to overwrite records in main plugin (Pharis)
-Creatures_RP_Purist.esp
-Creatures_RP_daedric_drop_rebalance.esp
-
-[Order]
-Creatures_RP*.esp
-GN - RuinedRedaynia.esp
-
-[Order]
-Creatures_RP*.esp
-Golden Saint Variety.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @CSO Scripted Speech Fix [Mikrit]
@@ -3366,6 +3318,24 @@ Bloodmoon.esm
 [Order]
 Divayth Fyr Puzzle Fixed.ESP
 Divayth Fyr Puzzle Fixed Ownership Overhaul Patch.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Divine Dagoths [OffworldDevil]
+
+[Order]
+Creatures_RP_*.esp
+Bob's Diverse Dagoths*.esp
+
+[Order]
+DN-GDRv<VER>*.esp
+Bob's Diverse Dagoths*.esp
+
+[Conflict]
+	Use only one of these plugins.
+Bob's Diverse Dagoths - DNGDR - Hostile Gilvoth.esp
+Bob's Diverse Dagoths - DNGDR.esp
+Bob's Diverse Dagoths - Hostile Gilvoth.esp
+Bob's Diverse Dagoths.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Django's Dialogue [Von Djangos]
@@ -7827,6 +7797,75 @@ Valitys_Bitter_Coast_Addon.esp
 GMST Vality's Bitter Coast Addon.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Vanilla Friendly Creatures and Undeads Expansion [RandomPal]
+
+[Order] ; Light conflict, checked in TESPCD (Pharis)
+Creatures_RP_Purist.esp
+Creatures_RP_glowing_netch.esp
+
+[Order] ; Needs to overwrite records in main plugin (Pharis)
+Creatures_RP_Purist.esp
+Creatures_RP_Soulless summons.esp
+
+[Order] ; Needs to overwrite records in main plugin (Pharis)
+Creatures_RP_Purist.esp
+Creatures_RP_bound equipment for daedra.esp
+
+[Order] ; Needs to overwrite records in main plugin (Pharis)
+Creatures_RP_Purist.esp
+Creatures_RP_daedric_drop_rebalance.esp
+
+[Order]
+Creatures_RP_*.esp
+DN-GDRv<VER>*.esp
+
+[Order]
+Creatures_RP*.esp
+GN - RuinedRedaynia.esp
+
+[Order]
+Creatures_RP*.esp
+Golden Saint Variety.esp
+
+[Conflict] ; Make sure people are only using one version of "Vanilla friendly creatures and undeads expansion" ( Ref: https://www.nexusmods.com/morrowind/mods/48818 )
+	Use only one of these plugins.
+Creatures_RP_Standard.esp
+Creatures_RP_Purist.esp
+
+[Conflict] ; ( ref: RP's comments and https://www.nexusmods.com/morrowind/mods/48818 )
+	Already merged into or otherwise replicated by "Vanilla Friendly Creatures and Undead Expansion".
+Creatures_RP_Purist.esp
+[ANY	Bloodmoon_Creatures.esp
+		Centurion Bombers - Ruins and Tel Uvirith.esp
+		Centurion Bombers - Tel Uvirith Add-on.esp
+		Creatures.esp
+		Creatures Great House Dagoth Patch.esp
+		Creatures Merged Objects Fix.esp
+		Creatures 6th House Patch.esp
+		Creatures (lore).esp
+		Creatures (Semi).esp
+		D.O. - Generic Dremora Replacer.esp
+		D.O. - Playable Dremora Race.esp
+		D.O. - Summonable Dremora Type 1.esp
+		D.O. - Summonable Dremora Type 2.esp
+		D.O. - Summonable Dremora Type 3.esp
+		D.O. - Summonable Dremora Type 4.esp
+		D.O. - Summonable Dremora Type 5.esp
+		D.O. - Summonable Dremora Type 6.esp
+		D.O. - Summonable Dremora Type 7.esp
+		D.O. - Unique Dremora Replacer.esp
+		gr_DraugrDiversity.esp
+		gr_DraugrDiversityUnarmed.esp
+		gr_DraugrDiversityLite.esp
+		gr_DraugrDiversityLiteUnarmed.esp
+		Neo's Unique Creatures.esp
+		Passive_Healthy_Wildlife PS EDIT.esp
+		Sixth House Obisidian Weapon.esp
+		The Undead.esm
+		The Undead - TR Addon.esp
+		Undead arise from death 3.5.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Vanilla Friendly Wearables Expansion, @VFWE [RandomPal]
 
 [Order] ; Dependency (Pharis)
@@ -7893,7 +7932,8 @@ Vanilla friendly wearables expansion.esm
 		Unique Dagoth Dagger.esp
 		OpusSmaragd.esp
 		Daedric Bastard Sword.esp
-		IO - Cultists.esp]
+		IO - Cultists.esp
+		Oriental Ebony Weapon.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition, @Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition [AliceL93]
