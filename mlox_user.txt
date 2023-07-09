@@ -7933,7 +7933,13 @@ Vanilla friendly wearables expansion.esm
 		OpusSmaragd.esp
 		Daedric Bastard Sword.esp
 		IO - Cultists.esp
-		Oriental Ebony Weapon.esp]
+		Oriental Ebony Weapon.esp
+		CrossbowsEnhanced.esp
+		CrossbowsEnhanced+Bolts.esp
+		More Crossbows.esp
+		PristineDwemerCrossbow.esp
+		OrcCrossbow.esp
+		Deadric_crossbow.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition, @Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition [AliceL93]
