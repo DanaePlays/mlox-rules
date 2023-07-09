@@ -7935,11 +7935,7 @@ Vanilla friendly wearables expansion.esm
 		IO - Cultists.esp
 		Oriental Ebony Weapon.esp
 		CrossbowsEnhanced.esp
-		CrossbowsEnhanced+Bolts.esp
-		More Crossbows.esp
-		PristineDwemerCrossbow.esp
-		OrcCrossbow.esp
-		Deadric_crossbow.esp]
+		CrossbowsEnhanced+Bolts.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition, @Vanilla Quest Tweaks RP Choices Consequences Super Mega Package - Ultimate Edition [AliceL93]
