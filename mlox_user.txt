@@ -1156,6 +1156,7 @@ New Boots of Blinding Speed.esp
 [Order]
 Better Morrowind Armor DeFemm(?).esp
 Alex's Better Fitted Female Armors.esp
+Plangke's Female Cuirass Replacer.esp
 
 [Order]
 Better Morrowind Armor DeFemm(?).esp
@@ -9155,10 +9156,10 @@ MTP - CR Patch.esp
 Creatures (*).esp
 Putting Power in Willpower - Absorbonach.esp
 
-[Order] ; if other mods (such as REEE use vanilla enchants, we get weird items with constant enchant for 5 points per x seconds)
-Merged Objects.esp
-Better ments.esp
+[Order]
+Better Enchantments.esp
 Better Enchantments TR.esp
+Lord's Mail and Morningstars.ESP
 
 [Order]
 Patch for Purists.esm
