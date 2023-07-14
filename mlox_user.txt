@@ -449,7 +449,7 @@ Astrologians Guild.esp
 	These plugins all overhaul, move, or otherwise alter Baar Dau, use only one of them.
 Baar Dau.esp
 Baar Dau - Ministry of Truth.esp
-Meteorite Ministry Palace* .esp
+Meteorite Ministry Palace*.esp
 Meteorite Ministry Temple*.esp
 Higher Ministry of Truth.esp
 
@@ -897,9 +897,9 @@ ROHT_2_0_8.esp
 Beautiful cities of Morrowind.esp
 Welcome Home.esp
 
-[Order] ; ( ref: tested myself in-game ) (yohannes)
-Welcome Home.esp
+[Order] ; needs to load after for some edits in molag mar (yohannes)
 BCOM_pathgrid_reset.esp
+Welcome Home.esp
 
 [Order]
 Beautiful cities of Morrowind.esp
@@ -1000,6 +1000,10 @@ Bustling Vivec.ESP
 [Order] ; otherwise pathgrid changes to moon's new position get overridden by BCOM_Pathgrid_Reset (MasssiveJuice)
 BCOM_pathgrid_reset.esp
 Baar Dau.esp
+
+[Order] ; ( ref: RP's comments ) (yohannes)
+BCOM_pathgrid_reset.esp
+BCoM_Caldera_MG_Basement.esp
 
 ;; BCOM Conflicts
 
