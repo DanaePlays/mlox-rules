@@ -3347,14 +3347,14 @@ Bob's Diverse Dagoths.esp
 
 [Order]
 Patch for Purists - Book Typos.esp
-Django's Dialogue.esp
+Djangos Dialogue.esp
 
 [Order]
 Patch for Purists - Semi-Purist Fixes.esp
-Django's Dialogue.esp
+Djangos Dialogue.esp
 
 [Order]
-Django's Dialogue.esp
+Djangos Dialogue.esp
 Djangos Dialogue - Patch for Purists.esp
 
 [Order]
