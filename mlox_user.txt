@@ -1030,7 +1030,8 @@ Beautiful cities of Morrowind.esp
 		ImperiumCastleEbonheart.esp
 		Accessible Ebonheart Imperial Chapel v<VER>.esp
 		Pelagiad Interior Overhaul.esp
-		BCOM Ahnassi's House.esp]
+		BCOM Ahnassi's House.esp
+		OAAB Better Caldera Interiors.esp]
 
 [Conflict] ; replacer maintained by ActuallyUlysses
 	Original mod is not compatible with "Beautiful Cities of Morrowind". Use replacer made by ActuallyUlysses
