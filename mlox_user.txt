@@ -5468,6 +5468,14 @@ Better?Bodies*.esp
 NOD - Equipment Test Addon.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Nordic Solstheim - Solstheim Interiors Overhaul [RandomPal]
+
+[Conflict]
+	Use only one of these plugins.
+Solstheim Interior Overhaul Project.esp
+Interiors_of_Solstheim_V2.1.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Faction Affiliation Corrector [AliceL93]
 
 [Order]
