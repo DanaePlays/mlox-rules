@@ -6270,7 +6270,7 @@ An Issue Of Thrust - Main.esp
 RepopulatedMorrowind_AnIssueOfThrust.esp
 
 ;; Animated Morrowind
-[Patch] ( ref: mod readme ) No order rule required as patch only edits Repop ESM (MasssiveJuice)
+[Patch] ; ( ref: mod readme ) No order rule required as patch only edits Repop ESM (MasssiveJuice)
 	A patch for "Repopulated Morrowind" and "Animated Morrowind" is provided in the "Repopulated Morrowind" archive, compatible with either the vanilla or BCOM version of Animated Morrowind
 RepopulatedMorrowind_AnimatedMorrowind.ESP
 [ALL	RepopulatedMorrowind.ESM
