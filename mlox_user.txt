@@ -6395,8 +6395,7 @@ Netch Adamantium Armor II_RP.esp
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
 
 ;; Province Cyrodiil
-[Patch]
-	A patch for "Repopulated Morrowind" and "Province Cyrodiil" is provided in the "Repopulated Morrowind" archive.
+[Requires]
 RepopulatedStirk.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Cyr_Main.esm]
