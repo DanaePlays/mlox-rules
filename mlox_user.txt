@@ -6399,7 +6399,7 @@ RepopulatedMorrowind_NetchAdamantiumArmor.esp
 	A patch for "Repopulated Morrowind" and "Province Cyrodiil" is provided in the "Repopulated Morrowind" archive.
 RepopulatedStirk.ESP
 [ALL	RepopulatedMorrowind.ESM
-		Cyr_Main.esm
+		Cyr_Main.esm]
 	
 ;; Redaynia Restored
 [Patch]
