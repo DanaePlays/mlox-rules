@@ -3294,6 +3294,14 @@ DistantFixesRiseOfHouseTelvanniUL.esp
 HM_DDD_Strongholds_T_v1.0.esp
 DistantFixesUvirithsManor.esp
 
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53140 ) confirmed by the mod author on the Nexus page comments (MasssiveJuice)
+Uvirith's Manor.ESP
+HM_DDD_Strongholds_T_v1.0.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53140 ) confirmed by the mod author on the Nexus page comments (MasssiveJuice)
+Uvirith's Manor.ESP
+DistantFixesUvirithsManor.esp
+
 [Requires] ; (MasssiveJuice)
 DistantFixesUvirithsManor.esp
 [ALL	HM_DDD_Strongholds_T_v1.0.esp
