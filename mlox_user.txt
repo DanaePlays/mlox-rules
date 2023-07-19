@@ -6393,12 +6393,6 @@ RepopulatedMorrowind_NetchAdamantiumArmor.esp
 [Order]
 Netch Adamantium Armor II_RP.esp
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
-
-;; Province Cyrodiil
-[Requires]
-RepopulatedStirk.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Cyr_Main.esm]
 	
 ;; Redaynia Restored
 [Patch]
