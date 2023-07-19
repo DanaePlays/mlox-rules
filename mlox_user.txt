@@ -6363,7 +6363,7 @@ RepopulatedMorrowind_MoragTongArmorRevisited.esp
 
 ;; Morag Tong Equipment Diversity
 [Patch]
-A patch for "Repopulated Morrowind" and "Morag Tong Equipment Diversity" is provided in the "Repopulated Morrowind" archive.
+	A patch for "Repopulated Morrowind" and "Morag Tong Equipment Diversity" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_MoragTongEquipmentDiversity.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Morag Tong Equipment Diversity.ESP]
