@@ -1496,7 +1496,6 @@ wildlife_behaviour.esp ; Wildlife Behaviour by Dakilleux
 		SG-MW-ecology-carnivore-plugin.esp
 		SG-MW-ecology-WW-plugin.esp]
 
-
 [Order] ; Dragon32: Load pacification mods after Creatures, whilst Creatures makes animals less aggressive the more of them you kill somone loading a pacification from the start wants less aggressive creatures from the start ^
 Creatures.esp
 Creatures (lore).esp
@@ -1541,8 +1540,6 @@ AC_Optimized_AA.esp
 [ANY    AC_Optimized.esp
 		AC_Optimized_AA.esp]
 MW Containers Animated.esp
-
-
 
 [Order] ; If you're using Merged Objects, run the updater after merging objects and load the AC_Updater.esp last. ( Ref: "AC_Optimized_Readme.txt" )
 Merged Objects.esp
@@ -1865,7 +1862,6 @@ acsAppoldroMW.esp
 [ALL Bloodmoon.esm
 	 Tribunal.esm]
 
-
 [Note]
 	!! TommyKhaajit's "Julius and Celine Appoldro's Weaponstore" uses deprecated AddToLev* functions to modify Bethsoft leveled lists. Using this plugin will store leveled lists in your savegame that will override lists in your merged leveled lists plugin (e.g. "Mashed Lists.esp"), if you have one. If you have used one of these plugins, you can clean modified leveled lists from your savegame using the "Repair All" feature of "Wrye Mash". For an explanation of why the functions AddToLev*/RemoveFromLev* are deprecated, please see:
 	!! http://www.uesp.net/wiki/Tes3Mod:Leveled_Lists
@@ -2155,7 +2151,6 @@ Armor Effects-LD 2.0-WD.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Armor Effects Armor Balancing Companion-LD 1.0 [LDones]
 
-
 [Order];;Dragon32: TESPCD shows conflicts for ebony_towershield, daedric_shield and daedric_towershield
 Wakim's Game Improvement 9.esp
 Armor Effects Armor Balance-LD 1.0 (Tribunal).esp
@@ -2357,7 +2352,6 @@ AP patch.esp
 [ANY	Fliggerty's Armor Project 2.esp
 		FAP Low Chance.esp
 		Fliggerty's Armor Project (Rebalanced by jeclxohko).esp]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Armored Skeletons Gone Wild [Sandman]
@@ -5416,7 +5410,6 @@ BMS_UPDATE_from1.7(.x)to1.9.1_alt.esp
 		BMS_UPDATE_from1.7(.x)to1.9_alt.esp]
 BMS_UPDATE_from_1.9_to_1.9.1.esp
 
-
 [Conflict] ; ( Ref: "BMS_readme.txt" )
 	'BetterMusicSystem_1.9.1.esp' and its alt esp have Timers' Patch + GhostGate Fix included.
 [ANY	BetterMusicSystem_1.9.1.esp
@@ -6412,7 +6405,6 @@ Blood and Gore Fire damage.esp
 Blood Lines I_BloodMoon.esp
 Vampire_Embrace.esp
 
-
 [Requires] ; ( Ref: BLOOD LINES READ ME!!!.txt )
 	"Bloodlines" requires Tribunal and Cortex's "Vampire Embrace" version 1.3 or above.
 Blood Lines I_Tribunal.esp
@@ -6502,7 +6494,6 @@ Jobs (Rhysk).ESP
 		As tes3cmd is a commandline program you may wish to use one of these batch files:
 			( http://www.fliggerty.com/phpBB3/viewtopic.php?style=5&f=9&t=5734 )
 BM_SpellFix.esp
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Bloodmoon Thirsk 2x 1.4 [LegoManIAm94]
@@ -7461,7 +7452,6 @@ Sris_Alchemy_BM.esp
 Building Up Uvirith's Grave 1.1.esp
 Building Up Uvirith's Legacy1.1.ESP
 
-
 [Order] ; ( Ref: Building Up Uvirith's Legacy Readme.txt )
 Building Up Uvirith's Legacy1.1.ESP
 BUUG Alchemy- Bloodmoon.esp
@@ -7788,7 +7778,6 @@ Chalk30-Glow.esp
 	! There is an update to Leeloo's "Changing Faces Replacer" available, the "Changing Faces NPC Replacer Official Add-On":
 	! http://dianahliva.com/morrowindmods.html
 [DESC /Changes all faces/ Changing Faces Replacer.esp]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Chapels of Vvardenfell 2.1 [Xanondorf/Zorrodorf]
@@ -13015,7 +13004,6 @@ GCDSSPatch.esp
 		  GCDLean204HARD.esp]
 	 Scripted_Spells.esp]
 
-
 ;; GCD - Werewolf Evolution compatibility patch
 ;; "Load order shouldn't matter for this patch."
 ;; ( Ref: "3GCDReadmeFirst.txt" )
@@ -13031,7 +13019,6 @@ GCDWEPatch.esp
 		  GCDLean204EASY.esp
 		  GCDLean204HARD.esp]
 	 Werewolf_Evolution.esp]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Gardener's of Morrowind [ZeroTheHero,Slowride,and Black]
@@ -14854,7 +14841,6 @@ SG_ hazaeki_race-1_2.esp
 ;[SIZE 25808 Healers.esp] by Raejak, not cleaned (only minor dirty refs) (enables 'healing' by NPCs of class 'Healer Service', adds additional healers in select locations, and adds a Temple Marker to the Vos Chapel)
 ;[SIZE 24033 Healers.esp] by Raejak, cleaned
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Health Fix 1.5 [Kosta Darjania]
 
@@ -15484,7 +15470,6 @@ Hold it - Dreamers.ESP
 [ALL [ANY Hold it - replacer.esp
 		  Hold it - resource.esp]
 	 DreamersExpansion.ESP]
-
 
 ;; Dragon 32: ''Hold it - Dreamers.ESP' makes changes to Dreamers Expansion's NPCs, for changes to work it needs to load after Aoimevelho's mod
 ;;Dragon32: According to TESPCD doesn't affect anything in patches for Dreamers Expansion
@@ -18101,7 +18086,6 @@ Knights of Tamriel.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Knight saddle for Pegas Horse Ranch [Gawain]
 
-
 ;;Dragon32: While readme says it needs 2.4 of Pegas it looks, to me, like it'll work with any version as it only replaces a single item of clothing
 
 [Requires]
@@ -20415,7 +20399,6 @@ AprogasVampire WakimImprovements.20021210.esp
 Magic Diversity <VER>.ESP
 Magic Diversity NO  SOUND.ESP
 
-
 [Order] ; Dragon32: "Morrowind Sound Enhancements" by Leon "pancreas" Medado adds new spell casting sounds
 Sound Enhancements.esp
 Magic Diversity <VER>.ESP
@@ -20637,7 +20620,6 @@ Oblivionized Magicka Regeneration.esp						;;Oblivionized Magicka Regeneration 1
 [ANY	TyrMagickaRegen.ESP									;;Tyrthyllanos Magicka Regen [Tyrthyllanos]
 		TyrMagickaRegenSlower.ESP]
 
-
 [Note] ; Dragon32: As we're recording all magicka regen mods here it's a better place to record this than in the GCD section ( Ref: "GCD Readme first 107c.txt" )
 	!! "Mods which [...] allow Magicka regeneration will work fine with GCD, provided you switch GCD's Magicka system off (easily done in the editor)."
 [ALL	[ANY	Galsiahs Character Development.esp
@@ -20730,7 +20712,6 @@ Clean manaReg 5percent.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Magicka Regen for NPCs 2.5 [Kalamestari_69]
-
 
 [Requires] ; Dragon32: Expansion dependency not in plugin headers ( Ref: "Magicka Regen for NPC's.txt" )
 [ANY	NPC Magicka Regen (K_69).esp
@@ -22734,7 +22715,6 @@ Creatures of Morrowind.esp
 	! You can download these missing resources from Morrowind Modding History: http://mw.modhistory.com/download-55-3030
 Additions_Revamped__clean_.esp
 
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Morrowind Advanced 1.82 [Gary Noonan/WormGod]
 
@@ -24438,7 +24418,6 @@ MWE_Blocking.esp
 MWE_Combat.esp
 MWE_Base.esp
 
-
 [Order]
 MWE_Base.esp
 MWE_Combat.esp
@@ -25497,7 +25476,6 @@ Less_Generic_Bloodmoon.esp
  "MWSE_v094_Demo.esp" is a script demonstration plugin, it illustrates how some of Morrowind Script Extender's new functions work. You do not need to run this plugin to use MWSE.
 MWSE_v094_Demo.esp
 
-
 ;;Dragon32: MGE change log showing *some* of the MWSE implementations:
 ;; http://sourceforge.net/apps/mediawiki/morrgraphext/index.php?title=Change_Log
 
@@ -26098,7 +26076,6 @@ multipatch.esp
 [ANY fogpatch.esp
 	 cellnamepatch.esp
 	 Merged_Leveled_Lists.esp]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mundane Weapons [ManaUser]
@@ -27881,7 +27858,6 @@ AprogasVampire WakimImprovements.20021210.esp
 ;LGNPC_NoLore.esp
 ;NPC Functionality.esp
 
-
 ;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
 [Order]
 ;NPC Functionality.esp
@@ -29190,7 +29166,6 @@ Pearls Enhanced - ResEn patch v2.esp
 PeasantGownsReplacerTRIB.esp
 PeasantGownsReplacer.esp
 
-
 [Order]
 PeasantGownsReplacer.esp
 PeasantGownsReplacerTRIB.esp
@@ -29349,7 +29324,6 @@ PlainPaperFix_MW+BM.esp
 PlainPaperFix_MW+TRIB.esp
 PlainPaperFix_MWonly.esp
 
-
 [Conflict]
  claudekennilol's "Plain Paper Fix ckl" is an alternative to XmirroR's "Plain Paper Fix" because XmirroR's alters the ID of the paper making it incompatible with mods that require the game's paper to make other items.
  ( Ref: "Plain Paper Fix.txt" )
@@ -29367,7 +29341,6 @@ dej_plain_paper_fix.esp
 	! ( Ref: Playablechildren2_0_readme.txt )
 [ALL PlayableChildren2.0.esp
 	 [NOT MW_Children_1_0.esm]]
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Playable Dwemer Golem [SpiritofPower]
@@ -29778,7 +29751,6 @@ Private_Mobile_Base3.esp
 Private_Mobile_Base4.esp
 PMB Addon Inscription.esp
 
-
 ;; Remote Storage
 [Requires]
  You need to enable all the "Portable Mobile Base" plugins.
@@ -29805,7 +29777,6 @@ PMB Addon Supply.esp
 	 Private_Mobile_Base2.esp
 	 Private_Mobile_Base3.esp
 	 Private_Mobile_Base4.esp]
-
 
 [Order]
 Private_Mobile_Base.esp
@@ -33345,7 +33316,6 @@ Clean SCastle_LoKKen_Patch.esp
 	 [ANY BT_Whitewolf_2_0.esp
 		  BT_Whitewolf_2_0.esm]]
 
-
 [Order] ; Dragon32: Checked with TESPCD. LAND and NPC_ entries conflict.
 Clean Solstheim_Castle_v1.1.esp
 Clean SCastle_LoKKen_Patch.esp
@@ -34083,7 +34053,6 @@ SF NPC111 - Hilgya Exp1 Addon.esp
 	 Hilgya the Seamstress Expansion 1.esp
 	 Starfires NPC Additions ver-1.11.esp]
 
-
 [Order] ; Dragon32: Recommended by author; see MMH link, above
 Mashed Lists.esp
 SF NPC111 - Hilgya Exp1 Addon.esp
@@ -34448,12 +34417,10 @@ StinkersBE - Fylberding Patch.esp
  'Stinkers v2 - Modder's Resource.esp' should not be added into your game, it is for modders to add objects from "Stinkers and Bathers v2.0" to their mods and of itself adds nothing to the game world.
 Stinkers v2 - Modder's Resource.esp
 
-
 [Order] ; "The Bathing Mod 2 has conflict with LGNPC Aldruhn 1.20, both changing cell Ashlands -1,6 and should load last."
 LGNPC_Aldruhn_v?_??.esp
 Stinkers.esp
 StinkersBE.esp
-
 
 [Order] ; Dragon32: Assume still relevant for later versions of LGNPC Ald'Ruhn
 LGNPC_Aldruhn.esp
@@ -34472,7 +34439,6 @@ Stinkers v2 - Mod Compatibility.esp
 		  Stinkers.esm
 		  StinkersBE.esm]]
 
-
 [Order] ; ( Ref: "Stinkers v2 - Mod Compatibility Readme.txt"
 Uvirith's Legacy_<VER>.esp
 Stinkers v2 - Mod Compatibility.esp
@@ -34481,7 +34447,6 @@ Stinkers v2 - Mod Compatibility.esp
 ;; @Stinkers 2.0 to 3.0 Upgrade Patch [Stuporstar]
 
 ;;Dragon32: included in download for Uvirith's Legacy 3.1 [StuporStar] (q.v.)
-
 
 [Order] ; ( Ref: Stinkers 2.0 to 3.0 Upgrade.txt - "load Stinkers 3.0 last to make sure its scripts overwrite any Stinkers 3.0 resources placed in other mods."
 Stinkers 2.0 to 3.0 Upgrader.esp
@@ -35167,7 +35132,6 @@ Taddeus'BalancedArmors(light).esp
 [Order]
 super_adventurers302.esp
 Taddeus'BalancedArmors(light).esp
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Taddeus' Balanced Enchanting [Taddeus]
@@ -38293,7 +38257,6 @@ Uvirith's Legacy_<VER>.esp
 	! ( Ref: "UL_READMEFIRSTIMEANIT.txt" and "UL_UPGRADER.txt" )
 UL_Upgrader_MWSE.esp
 
-
 ;;Dragon32; Don't think this is really needed as there's everything in the updater addon is unique and doesn't overwrite the main UL mod
 [Order]
 Uvirith's Legacy_<VER>.esp
@@ -39742,7 +39705,6 @@ Gameplay - Dialogue.esp
 Wakim's Game Improvement 9.esp
 Wakim's Game Improvements with No-glo v9.esp
 
-
 [Order]
 Nudity Greeting Expansion V1.esp
 Gameplay - Dialogue.esp
@@ -41041,7 +41003,6 @@ Sea_of_Solstheim.esp
 	 TR_Preview.esp]
 [ALL	Wizards Islands - Scourge of the Frost Bringer.esm
 		[NOT	Wizards' Islands Super Patch.esp]]
-
 
 ;;Dragon32: Version from Super Patch seems to work with Silgrad Tower too. At least no LAND conflicts in TESPCD.
 [Conflict]
