@@ -192,8 +192,11 @@ Merged Lands.esp
 				Mashed Lists.esp]]
 
 [Note]
-	! If you know of any rules that need to be added or notice any oddities with mlox's sorting please report it in the #mlox-rules channel in the Morrowind Modding Community Discord, link below:
-	( https://discord.me/mwmods )
+	! If you know of any rules that need to be added or notice any oddities with mlox's sorting
+	! either report it in the Morrowind Modding Community Discord (#mlox-rules channel), open an
+	! issue on Github, or fix the issue yourself an open a pull request.
+	! Morrowind Modding Community Discord Server ( https://discord.me/mwmods )
+	! Github Repository ( https://github.com/DanaePlays/mlox-rules )
 *.esm
 
 ;; Danae: removed most better bodies warnings >> many people use pluginless now.
