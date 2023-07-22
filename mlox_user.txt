@@ -4719,10 +4719,9 @@ Vivec - God the City.esp
 		Mages Guild Experience Overhaul Max.esp]
 
 ;; Redesigned Vivec Version
-[Requires] ; plugin has DR_data set as master ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+[Requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
 Mages Guild Experience Overhaul RedVivec.esp
-[ALL	DR_Data.esm
-		Compatible Redesigned Vivec.esp]
+Compatible Redesigned Vivec.esp
 
 [Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
 	Use 'Mages Guild Experience Overhaul RedVivec.esp', which is compatible with "Compatible Redesigned Vivec".
