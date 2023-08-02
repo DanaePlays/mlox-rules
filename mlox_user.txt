@@ -3234,6 +3234,38 @@ Dagon fell additions.esp
 Dagon fell additions- ROHT.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Daedric Shrine Overhauls [Glittergear]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51882 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Malacath.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51607 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Mehrunes Dagon.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51632 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Molag Bal.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51890 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Sheogorath.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53242 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Vaermina.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53242 ) (yohannes)
+The Doors of Oblivion 1.4.esp
+Daedric Shrine Overhaul Vaermina v2.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53242 ) (yohannes)
+	Use only one of these plugins.
+Daedric Shrine Overhaul Vaermina.esp
+Daedric Shrine Overhaul Vaermina v2.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Demon Of Knowledge, @Demon Of Knowledge [Corsair, Danae, Darknut, Merlord]
 
 [Order]
@@ -3292,6 +3324,14 @@ DistantFixesRiseOfHouseTelvanniUL.esp
 ;; Distant Fixes: Uvirith's Manor
 [Order] ; ( Ref: included readme and https://www.nexusmods.com/morrowind/mods/53140 ) (yohannes)
 HM_DDD_Strongholds_T_v1.0.esp
+DistantFixesUvirithsManor.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53140 ) confirmed by the mod author on the Nexus page comments (MasssiveJuice)
+Uvirith's Manor.ESP
+HM_DDD_Strongholds_T_v1.0.esp
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53140 ) confirmed by the mod author on the Nexus page comments (MasssiveJuice)
+Uvirith's Manor.ESP
 DistantFixesUvirithsManor.esp
 
 [Requires] ; (MasssiveJuice)
@@ -3381,23 +3421,6 @@ Doors of Oblivion+TOTSP Patch.esp
 [Order]
 The Doors of Oblivion*.esp
 Corprusarium_Doors_of_Oblivion_Patch.esp
-
-;;Daedric Shrine Overhauls
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51882 ) (yohannes)
-The Doors of Oblivion 1.4.esp
-Daedric Shrine Overhaul Malacath.esp
-
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51607 ) (yohannes)
-The Doors of Oblivion 1.4.esp
-Daedric Shrine Overhaul Mehrunes Dagon.esp
-
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51632 ) (yohannes)
-The Doors of Oblivion 1.4.esp
-Daedric Shrine Overhaul Molag Bal.esp
-
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51890 ) (yohannes)
-The Doors of Oblivion 1.4.esp
-Daedric Shrine Overhaul Sheogorath.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Dwemer Contraband [Hive Master]
@@ -4648,6 +4671,75 @@ Mage Robes_Weak.esp
 Mage Robes.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Mages Guild Overhaul and Stronghold [Glittergear]
+
+;; General
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	Use only one of these plugins:
+		'Mages Guild Experience Overhaul Full.esp' - Full Version. Not compatible with any mod that modifies the Balmora/Ald'Ruhn/Vivec Mages Guild.
+		'Mages Guild Experience Overhaul GtC.esp' - Version that is compatible with "God the City".
+		'Mages Guild Experience Overhaul RedVivec.esp' - Version that is compatible with "Redesigned Vivec".
+		'Mages Guild Experience Overhaul Max.esp' - Should be compatible with any mod that modifies the (Mages) Guild Halls including "BCOM".
+Mages Guild Experience Overhaul Full.esp
+Mages Guild Experience Overhaul GtC.esp
+Mages Guild Experience Overhaul RedVivec.esp
+Mages Guild Experience Overhaul Max.esp
+
+[Conflict] ; Mages Guild Overhaul changes the same vanilla quests ( ref: included .docx ) (yohannes)
+	Incompatible with "Mages Guild Overhauls and Stronghold".
+Mages Guild Experience Overhaul*.esp
+[ANY	Different Types of Local Plants for Ajira's Reports.esp
+		sei-MG_potion.esp
+		sei-mg_stealbook.esp
+		onsr.esp
+		onsr-bcom.esp]
+
+;; Full Version
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	The mod archive of "Mages Guild Overhaul and Stronghold" provides several versions compatible with popular city mods. Choose the right version for your setup.
+Mages Guild Experience Overhaul Full.esp
+[ANY	Vivec - God the City.esp
+		Redesigned Vivec.esp
+		Compatible Redesigned Vivec.esp
+		Beautiful cities of Morrowind.esp
+		Morrowind Rebirth [Main].ESP
+		Vivec_Mages_Guild_Expanded.ESP]
+		
+;; God the City Version
+[Requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	This Plugin requires "Vivec - God the City".
+Mages Guild Experience Overhaul GtC.esp
+Vivec - God the City.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	Use 'Mages Guild Experience Overhaul GtC.esp', which is compatible with "Vivec - God of the City".
+Vivec - God the City.esp
+[ANY	Mages Guild Experience Overhaul Full.esp
+		Mages Guild Experience Overhaul RedVivec.esp
+		Mages Guild Experience Overhaul Max.esp]
+
+;; Redesigned Vivec Version
+[Requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+Mages Guild Experience Overhaul RedVivec.esp
+Compatible Redesigned Vivec.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	Use 'Mages Guild Experience Overhaul RedVivec.esp', which is compatible with "Compatible Redesigned Vivec".
+Compatible Redesigned Vivec.esp
+[ANY	Mages Guild Experience Overhaul Full.esp
+		Mages Guild Experience Overhaul GtC.esp
+		Mages Guild Experience Overhaul Max.esp]
+
+;; Max Compatibility Version
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
+	Incompatible. Choose the Maximum Compatibility Version that is provided in the "Magic Guild Overhaul and Stronghold" archive.
+[ANY	Mages Guild Experience Overhaul RedVivec.esp
+		Mages Guild Experience Overhaul GtC.esp]
+[ANY	Beautiful cities of Morrowind.esp
+		Morrowind Rebirth [Main].esp
+		Vivec_Mages_Guild_Expanded.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Magical Missions [Von Djangos]
 
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/43107 ) (MasssiveJuice)
@@ -5777,6 +5869,13 @@ Of Justice and Innocence.esp
 OJAI - Framerate Version.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Of Murk and Mussels - A Sadrith Mora Shop [DetailDevil]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53238 ) (yohannes)
+Sadrith Mora - seat of power.esm
+Of_Murk_and_Mussels_Sadrith_Mora_Seat_of_Power_patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Oh No Stolen Reports [johnnyhostile]
 
 [Order] ; dependent on BCOM esp (MasssiveJuice)
@@ -5787,9 +5886,6 @@ onsr-bcom.esp
 	Use only one of these plugins.
 onsr.esp
 onsr-bcom.esp
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Old Mournhold Expansion [millerMill]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ownership Overhaul [Necrolesian]
@@ -6250,178 +6346,200 @@ Religions Elaborated.esp
 
 ; ( Ref: GrumblingVomit reporting them )
 
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMainland.esp
-
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedBloodmoon.esp
-
-;; Sixth House Obsidian Weapons
-[Patch]
-	A patch for "Repopulated Morrowind" and "Sixth House Obsidian Weapons" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_6thHouseObsidWeps.esp
-[ALL	RepopulatedMorrowind.esp
-		Sixth House Obisidian Weapon.esp]
-
-[Order]
-Sixth House Obisidian Weapon.esp
-RepopulatedMorrowind_6thHouseObsidWeps.esp
-
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_6thHouseObsidWeps.esp
-
 ;; An Issue of Thrust
 [Patch]
 	A patch for "Repopulated Morrowind" and "An Issue Of Thrust" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_AnIssueOfThrust.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		An Issue Of Thrust - Main.esp]
-
+		
 [Order]
 An Issue Of Thrust - Main.esp
 RepopulatedMorrowind_AnIssueOfThrust.esp
 
+;; Animated Morrowind
+[Patch] ; ( ref: mod readme ) No order rule required as patch only edits Repop ESM (MasssiveJuice)
+	A patch for "Repopulated Morrowind" and "Animated Morrowind" is provided in the "Repopulated Morrowind" archive, compatible with either the vanilla or BCOM version of Animated Morrowind
+RepopulatedMorrowind_AnimatedMorrowind.ESP
+[ALL	RepopulatedMorrowind.ESM
+		[ANY	Animated_Morrowind - merged.esp
+					Animated_Morrowind - merged - OpenMW.esp]]
+
+;; Cammona Tong Chitin Armor
+[Patch]
+	A patch for "Repopulated Morrowind" and "Cammona Tong Chitin" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_CamonnaTongChitin.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Cammona Tong Chitin Armor.ESP]
+		
 [Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_AnIssueOfThrust.esp
+Cammona Tong Chitin Armor.ESP
+RepopulatedMorrowind_CamonnaTongChitin.ESP
 
 ;; Ceremonial Adamantium Armor
 [Patch]
 	A patch for "Repopulated Morrowind" and "Ceremonial Adamantium Armor" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Ceremonial Adamantium Armor.esp]
-
+		
 [Order]
 Ceremonial Adamantium Armor.esp
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
 
+;; Concept Art Dunmer Helmets
+[Patch]
+	A patch for "Repopulated Morrowind" and "Concept Art Dunmer Helmets" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Concept Art Dunmer Helms.ESP]
+		
 [Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
+Concept Art Dunmer Helms.ESP
+RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
 
 ;; Glass Helm Compilation
 [Patch]
 	A patch for "Repopulated Morrowind" and "Glass Helm Compilation" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_GlassHelmCompilation.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Glass Helms.esp]
-
+		
 [Order]
 Glass Helms.esp
-RepopulatedMorrowind_GlassHelmCompilation.esp
+RepopulatedMorrowind_GlassHelmCompilation.esp	
 
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_GlassHelmCompilation.esp
+;; Immersive Mournhold
+[Patch] ; patch deletes two NPC spawns from Repop ESM for compatibility with Immersive Mournhold and does not have load order requirements (MasssiveJuice)
+	A patch for "Repopulated Morrowind" and "Immersive Mournhold" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_ImmersiveMournhold.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Immersive Mournhold.esp]
 
 ;; Indoril Ronin (Armor plugin specifically)
 [Patch]
 	A patch for "Repopulated Morrowind" and "Indoril Ronin" (Armor plugin specifically) is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_IndorilRoninArmor.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Indoril Ronin Armor.esp]
-
+		
 [Order]
 Indoril Ronin Armor.esp
-RepopulatedMorrowind_IndorilRoninArmor.esp
-
-[Order]
-RepopulatedMorrowind.esp
 RepopulatedMorrowind_IndorilRoninArmor.esp
 
 ;; Mage Robes
 [Patch]
 	A patch for "Repopulated Morrowind" and "Mage Robes" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_MageRobes.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Mage Robes.esp]
 
 [Order]
 Mage Robes.esp
 RepopulatedMorrowind_MageRobes.esp
 
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_MageRobes.esp
-
 ;; Morag Tong Armor Revisited
 [Patch]
 	A patch for "Repopulated Morrowind" and "Morag Tong Armor Revisited" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_MoragTongArmorRevisited.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Morag_Tong_Armor_Revisited.esp]
 
 [Order]
 Morag_Tong_Armor_Revisited.esp
 RepopulatedMorrowind_MoragTongArmorRevisited.esp
 
+;; Morag Tong Equipment Diversity
+[Patch]
+	A patch for "Repopulated Morrowind" and "Morag Tong Equipment Diversity" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_MoragTongEquipmentDiversity.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Morag Tong Equipment Diversity.ESP]
+
 [Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_MoragTongArmorRevisited.esp
+Morag Tong Equipment Diversity.ESP
+RepopulatedMorrowind_MoragTongEquipmentDiversity.ESP
 
 ;; Morag Tong Polished
 [Patch]
 	A patch for "Repopulated Morrowind" and "Morag Tong Polished" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_MoragTongPolished.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Morag Tong Polished.esp]
 
 [Order]
 Morag Tong Polished.esp
 RepopulatedMorrowind_MoragTongPolished.esp
 
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_MoragTongPolished.esp
-
-;; Weapons Expansion Project
-[Patch]
-	A patch for "Repopulated Morrowind" and "Weapons Expansion Project" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
-[ALL	RepopulatedMorrowind.esp
-		Weapons Expansion Morrowind.esp]
-
-[Order]
-Weapons Expansion Morrowind.esp
-RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
-
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
-
 ;; Netch adamantium armour integrated
 [Patch]
 	A patch for "Repopulated Morrowind" and "Netch adamantium armour integrated" is provided in the "Repopulated Morrowind" archive.
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
-[ALL	RepopulatedMorrowind.esp
+[ALL	RepopulatedMorrowind.ESM
 		Netch Adamantium Armor II_RP.esp]
 
 [Order]
 Netch Adamantium Armor II_RP.esp
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
-
-[Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_NetchAdamantiumArmor.esp
-
-;; Redoran War Armor and Sathil Mercenary Equipment
+	
+;; Redaynia Restored
 [Patch]
-	A patch for "Repopulated Morrowind" and "Redoran War Armor and Sathil Mercenary Equipment" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_RedoranWarSathilMerc.esp
-[ALL	RepopulatedMorrowind.esp
-		Redoran War and Sathil Mercenary Armor.esp]
+	A patch for "Repopulated Morrowind" and "Redaynia Restored" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_RedayniaRestored.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Redaynia Restored.ESP]
 
 [Order]
-Redoran War and Sathil Mercenary Armor.esp
-RepopulatedMorrowind_RedoranWarSathilMerc.esp
+Redaynia Restored.ESP
+RepopulatedMorrowind_RedayniaRestored.ESP
+
+;; Sacred Necromancer Armor
+[Patch]
+	A patch for "Repopulated Morrowind" and "Sacred Necromancer Armor" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_SacredNecromancerArmor.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Sacred_Necromancer.esp]
 
 [Order]
-RepopulatedMorrowind.esp
-RepopulatedMorrowind_RedoranWarSathilMerc.esp
+Sacred_Necromancer.esp
+RepopulatedMorrowind_SacredNecromancerArmor.ESP
+
+;; Sixth House Obsidian Weapons
+[Patch] ; ( Ref: mod author GrumblingVomit ) (MasssiveJuice)
+	A patch for "Repopulated Morrowind" and "Sixth House Obsidian Weapons" is provided in the "Repopulated Morrowind" archive. The patch also works if only using "Vanilla Friendly Creatures and Undeads Expansion"
+RepopulatedMorrowind_6thHouseObsidWeps.esp
+[ALL	RepopulatedMorrowind.ESM
+		[ANY    Sixth House Obisidian Weapon.esp
+					Creatures_RP_Purist.esp]]
+					
+[Order]
+Sixth House Obisidian Weapon.esp
+RepopulatedMorrowind_6thHouseObsidWeps.esp
+
+;; Vanilla Friendly Wearables Expansion
+[Patch]
+	A patch for "Repopulated Morrowind" and "Vanilla Friendly Wearables Expansion" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_VanillaFriendlyWearablesExpansion.ESP
+[ALL	RepopulatedMorrowind.ESM
+		Vanilla friendly wearables expansion.esm]
+
+[Conflict] ; ( ref: mod readme ) (MasssiveJuice)
+	Already merged into the "Repopulated Morrowind" patch for "Vanilla Friendly Wearables Expansion".
+RepopulatedMorrowind_VanillaFriendlyWearablesExpansion.ESP
+[ANY	RepopulatedMorrowind_CeremonialAdamantiumArmor.ESP
+		RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
+		RepopulatedMorrowind_RedoranWarSathilMerc.ESP]
+
+;; Weapons Expansion Project
+[Patch]
+	A patch for "Repopulated Morrowind" and "Weapons Expansion Project" is provided in the "Repopulated Morrowind" archive.
+RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
+[ALL	RepopulatedMorrowind.ESM
+		Weapons Expansion Morrowind.esp]
+
+[Order]
+Weapons Expansion Morrowind.esp
+RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
 
 ;; General Conflicts
 [Conflict]
