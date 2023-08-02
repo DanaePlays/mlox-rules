@@ -192,9 +192,9 @@ Merged Lands.esp
 				Mashed Lists.esp]]
 
 [Note]
-	! If you know of any rules that need to be added or notice any oddities with mlox's sorting
-	! either report it in the Morrowind Modding Community Discord (#mlox-rules channel), open an
-	! issue on Github, or fix the issue yourself an open a pull request.
+	! If you know of any rules that need to be added or notice any oddities with mlox's sorting either
+	! report it in the Morrowind Modding Community Discord (#mlox-rules channel), open an issue on
+	! Github, or fix the issue yourself and open a pull request. Contributions are always welcome.
 	! Morrowind Modding Community Discord Server ( https://discord.me/mwmods )
 	! Github Repository ( https://github.com/DanaePlays/mlox-rules )
 *.esm
