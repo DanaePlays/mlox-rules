@@ -595,7 +595,7 @@ Syc_AtHomeAlchemy.esp
 [Requires] ; ( Ref: Advanced Alchemy.txt )
 Advanced Alchemy - LDA patch.esp
 [ALL	Advanced Alchemy.esp
-		[ANY	wemer Alchemy Set (1.00 R3).esp
+		[ANY	Dwemer Alchemy Set (1.00 R3).esp
 				£exa's Dwemer Alchemy V2 (EN).esm]]
 
 [Order] ; ( Ref: Advanced Alchemy.txt )
