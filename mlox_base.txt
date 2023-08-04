@@ -24107,23 +24107,6 @@ Expanded Sounds.esp
 Expanded Sounds DV.esp
 Better Banner Signs + Expanded Sounds.esp
 
-[Patch]
- DeJuan N. Onley's "MW Containers Animated + Adamantium Armor.esp" patches "Morrowind Containers Animated" by qqqbbb and Bethesda's official plugin "Adamantium Armor."
- Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
- Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
- ( Ref: "DNO MW Patches Readme.txt" )
-MW Containers Animated + Adamantium Armor.esp
-[ALL [ANY adamantiumarmor.esp
-		  OfficialMods_v5.esp
-		  Clean Official Plugins v1.1.esp
-		  super_adventurers302.esp
-		  [Official]Adamantium Armor.esp
-		  ImprovedAdamantiumArmor.esp
-		  Official_2002_Mods.esp
-		  SauronsAbode252.esp
-		  SauronsAbode252_Tribunal.esp]
-	 MW Containers Animated.esp]
-
 ;;Ref: DNO MW Patches Readme.txt
 [Order]
 adamantiumarmor.esp

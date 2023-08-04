@@ -429,9 +429,6 @@ Ashfall Survival Start.esp
 Invasion of Stormwatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Assarnud and Mat Overhaul [jsp25]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Astrologians Guild [Billyfighter]
 
 [Order]
@@ -441,6 +438,17 @@ Astrologians Guild.esp
 [Order] ; Cell name conflict, TES3Merge fixes but I'd rather it just not be reported again (Pharis)
 Sheogorad - Groves of the North.esp
 Astrologians Guild.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Azura's Shrine Overhaul [DuoDinamico aka RandomPal and Vegetto]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53277 ) (yohannes)
+RPNR_Shrine_Of_Azura.esp
+RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53277 ) (yohannes)
+Aspect of Azura.esp
+RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Baar Dau Mods, @Meteorite Ministry, @Ministry of Truth [Various]

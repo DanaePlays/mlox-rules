@@ -34406,7 +34406,7 @@ Better Banner Signs + Expanded Sounds.esp
  Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
  (Ref: "DNO MW Patches Readme.txt")
 MW Containers Animated + Adamantium Armor.esp
-[ALL [ANY [SIZE 6464 adamantiumarmor.esp]
+[ALL [ANY adamantiumarmor.esp
           OfficialMods_v5.esp
           Clean Official Plugins v1.1.esp
           super_adventurers302.esp
