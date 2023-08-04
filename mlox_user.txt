@@ -429,9 +429,6 @@ Ashfall Survival Start.esp
 Invasion of Stormwatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Assarnud and Mat Overhaul [jsp25]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Astrologians Guild [Billyfighter]
 
 [Order]
@@ -441,6 +438,17 @@ Astrologians Guild.esp
 [Order] ; Cell name conflict, TES3Merge fixes but I'd rather it just not be reported again (Pharis)
 Sheogorad - Groves of the North.esp
 Astrologians Guild.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Azura's Shrine Overhaul [DuoDinamico aka RandomPal and Vegetto]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53277 ) (yohannes)
+RPNR_Shrine_Of_Azura.esp
+RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53277 ) (yohannes)
+Aspect of Azura.esp
+RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Baar Dau Mods, @Meteorite Ministry, @Ministry of Truth [Various]
@@ -1004,6 +1012,14 @@ Baar Dau.esp
 [Order] ; ( ref: RP's comments ) (yohannes)
 BCOM_pathgrid_reset.esp
 BCoM_Caldera_MG_Basement.esp
+
+[Order] ; ( ref: RP's comments in the BCOM channel ) (yohannes)
+BCOM_pathgrid_reset.esp
+CalderaGovernorsManor.esp
+
+[Order] ; prevents a land tear ( ref: https://www.nexusmods.com/morrowind/mods/53274 ) (yohannes)
+Beautiful cities of Morrowind.esp
+Odai River Upper Overhaul.esp
 
 ;; BCOM Conflicts
 
@@ -4680,10 +4696,12 @@ Mage Robes.esp
 		'Mages Guild Experience Overhaul GtC.esp' - Version that is compatible with "God the City".
 		'Mages Guild Experience Overhaul RedVivec.esp' - Version that is compatible with "Redesigned Vivec".
 		'Mages Guild Experience Overhaul Max.esp' - Should be compatible with any mod that modifies the (Mages) Guild Halls including "BCOM".
+		'Mages Guild Experience Overhaul MaxNoQuotes.esp' - Max compatibility version with removed quotes in dialogue. If you get errors like "Cannot find "bk_Itmerelsnotes'", try this one.
 Mages Guild Experience Overhaul Full.esp
 Mages Guild Experience Overhaul GtC.esp
 Mages Guild Experience Overhaul RedVivec.esp
 Mages Guild Experience Overhaul Max.esp
+Mages Guild Experience Overhaul MaxNoQuotes.esp
 
 [Conflict] ; Mages Guild Overhaul changes the same vanilla quests ( ref: included .docx ) (yohannes)
 	Incompatible with "Mages Guild Overhauls and Stronghold".
@@ -6096,6 +6114,26 @@ The Publicans - LGNPC Patch.ESP
 	Use only one of these plugins.
 The Publicans.esp
 The Publicans (LGNPC compatible version).esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Publicola's Misc Mod Emporium [Publicola]
+
+;; Cephalopod Pauldron Rework
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53235 ) (yohannes)
+OAAB_cephalopod armor patch.esp
+Cephalopod Pauldron Rework - Smaller.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53235 ) (yohannes)
+TR_cephalopod armor patch.esp
+Cephalopod Pauldron Rework - Smaller.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53235 ) (yohannes)
+OAAB_cephalopod armor patch.esp
+Cephalopod Pauldron Rework - None.esp
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53235 ) (yohannes)
+TR_cephalopod armor patch.esp
+Cephalopod Pauldron Rework - None.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Quarra Clan [Jonathan Nash], @Quarra Clan Refreshed [Jonathan Nash, Alvazir]
