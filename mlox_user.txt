@@ -1235,6 +1235,11 @@ Mashed Lists.esp
 Merged Objects PfP BTBGI Fix.esp
 
 ;; Poison Crafting
+
+[Order]
+mwse_PoisonCrafting.esp
+K_Potion_Upgrade_1.2.esp
+
 [Order] ; Container entry conflicts ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
 BTB's Game Improvements (Necro Edit) Tweaked.esp
 [DESC /Patches Poison Crafting/ mwse_PoisonCrafting.esp]
@@ -5082,6 +5087,9 @@ Morag Tong Polished - BCoM Patch.ESP
 Beautiful cities of Morrowind.ESP
 Morag Tong Polished - BCoM Patch.ESP
 
+[Order]
+Morag Tong Polished.esp
+Better Enchantments.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD [AutumnBramble]
 
@@ -9500,6 +9508,7 @@ Better Bodies*.esp
 MelsTatsNord.esp
 
 [Order]
+Patch for Purists - Book Typos.esp
 Spell Scroll Text Overhaul.esp
 Extended Daedric Scrolls.esp
 Unique Jewelry and Accessories.esp
