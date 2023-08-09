@@ -4722,7 +4722,7 @@ Mages Guild Experience Overhaul Full.esp
 		Beautiful cities of Morrowind.esp
 		Morrowind Rebirth [Main].ESP
 		Vivec_Mages_Guild_Expanded.ESP]
-		
+
 ;; God the City Version
 [Requires] ; ( ref: https://www.nexusmods.com/morrowind/mods/51897 ) (yohannes)
 	This Plugin requires "Vivec - God the City".
@@ -6390,7 +6390,7 @@ Religions Elaborated.esp
 RepopulatedMorrowind_AnIssueOfThrust.esp
 [ALL	RepopulatedMorrowind.ESM
 		An Issue Of Thrust - Main.esp]
-		
+
 [Order]
 An Issue Of Thrust - Main.esp
 RepopulatedMorrowind_AnIssueOfThrust.esp
@@ -6409,7 +6409,7 @@ RepopulatedMorrowind_AnimatedMorrowind.ESP
 RepopulatedMorrowind_CamonnaTongChitin.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Cammona Tong Chitin Armor.ESP]
-		
+
 [Order]
 Cammona Tong Chitin Armor.ESP
 RepopulatedMorrowind_CamonnaTongChitin.ESP
@@ -6420,7 +6420,7 @@ RepopulatedMorrowind_CamonnaTongChitin.ESP
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
 [ALL	RepopulatedMorrowind.ESM
 		Ceremonial Adamantium Armor.esp]
-		
+
 [Order]
 Ceremonial Adamantium Armor.esp
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
@@ -6431,7 +6431,7 @@ RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
 RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Concept Art Dunmer Helms.ESP]
-		
+
 [Order]
 Concept Art Dunmer Helms.ESP
 RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
@@ -6442,10 +6442,10 @@ RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
 RepopulatedMorrowind_GlassHelmCompilation.esp
 [ALL	RepopulatedMorrowind.ESM
 		Glass Helms.esp]
-		
+
 [Order]
 Glass Helms.esp
-RepopulatedMorrowind_GlassHelmCompilation.esp	
+RepopulatedMorrowind_GlassHelmCompilation.esp
 
 ;; Immersive Mournhold
 [Patch] ; patch deletes two NPC spawns from Repop ESM for compatibility with Immersive Mournhold and does not have load order requirements (MasssiveJuice)
@@ -6460,7 +6460,7 @@ RepopulatedMorrowind_ImmersiveMournhold.ESP
 RepopulatedMorrowind_IndorilRoninArmor.esp
 [ALL	RepopulatedMorrowind.ESM
 		Indoril Ronin Armor.esp]
-		
+
 [Order]
 Indoril Ronin Armor.esp
 RepopulatedMorrowind_IndorilRoninArmor.esp
@@ -6519,7 +6519,7 @@ RepopulatedMorrowind_NetchAdamantiumArmor.esp
 [Order]
 Netch Adamantium Armor II_RP.esp
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
-	
+
 ;; Redaynia Restored
 [Patch]
 	A patch for "Repopulated Morrowind" and "Redaynia Restored" is provided in the "Repopulated Morrowind" archive.
@@ -6549,7 +6549,7 @@ RepopulatedMorrowind_6thHouseObsidWeps.esp
 [ALL	RepopulatedMorrowind.ESM
 		[ANY    Sixth House Obisidian Weapon.esp
 					Creatures_RP_Purist.esp]]
-					
+
 [Order]
 Sixth House Obisidian Weapon.esp
 RepopulatedMorrowind_6thHouseObsidWeps.esp
@@ -7303,6 +7303,19 @@ Ashfall.esp
 [Order] ; From Alvazir's Various Patches (Pharis)
 TeaMod_2.1.esp
 TeaMod_2.1 - Script Fix.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Telvanni Cephalopod Armor [Danke and Cheydin]
+
+[Conflict]
+	Use only one of these plugins.
+Telvanni Cephalopod Armor.esp
+Telvanni Cephalopod Armor exclusive to Gothren (no helmet).esp
+Telvanni Cephalopod Armor exclusive to Gothren (with helmet).esp
+Telvanni Cephalopod Armor plus Gothren (no helmet).esp
+Telvanni Cephalopod Armor plus Gothren (with helmet).esp
+Telvanni Cephalopod Armor (Guard Edit).esp
+Telvanni Cephalopod Armor (Robed Guard Edit).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Temple Master [Melchior Dahrk]
