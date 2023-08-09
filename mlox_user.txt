@@ -3430,6 +3430,11 @@ Djangos Dialogue.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Doors of Oblivion, @Doors of Oblivion [Ashstaar]
 
+[Conflict]
+	Use only one of these plugins.
+The Doors of Oblivion 1.0.esp
+The Doors of Oblivion 1.4.esp
+
 [Order] ; From Alvazir's Various Patches (Pharis)
 The Doors of Oblivion 1.4.esp
 The Doors of Oblivion 1.4 - Script Fix.esp
