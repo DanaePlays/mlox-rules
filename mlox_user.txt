@@ -1021,6 +1021,14 @@ CalderaGovernorsManor.esp
 Beautiful cities of Morrowind.esp
 Odai River Upper Overhaul.esp
 
+[Order]
+BCOM_pathgrid_reset.esp
+BCoM_WaterWorks.esp
+
+[Order]
+BCOM_pathgrid_reset.esp
+BCoM_Concept_Art_Husk_Urshilaku.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
