@@ -6398,11 +6398,9 @@ Religions Elaborated.esp
 ; ( Ref: GrumblingVomit reporting them )
 
 ;; An Issue of Thrust
-[Patch]
-	A patch for "Repopulated Morrowind" and "An Issue Of Thrust" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds weapons to RM levelled lists
 RepopulatedMorrowind_AnIssueOfThrust.esp
-[ALL	RepopulatedMorrowind.ESM
-		An Issue Of Thrust - Main.esp]
+An Issue Of Thrust - Main.esp
 
 [Order]
 An Issue Of Thrust - Main.esp
@@ -6414,47 +6412,39 @@ RepopulatedMorrowind_AnIssueOfThrust.esp
 RepopulatedMorrowind_AnimatedMorrowind.ESP
 [ALL	RepopulatedMorrowind.ESM
 		[ANY	Animated_Morrowind - merged.esp
-					Animated_Morrowind - merged - OpenMW.esp]]
+				Animated_Morrowind - merged - OpenMW.esp]]
 
 ;; Cammona Tong Chitin Armor
-[Patch]
-	A patch for "Repopulated Morrowind" and "Cammona Tong Chitin" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_CamonnaTongChitin.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Cammona Tong Chitin Armor.ESP]
+[Requires] ; Adds armor to RM levelled lists
+RepopulatedMorrowind_CamonnaTongChitin.esp
+Cammona Tong Chitin Armor.esp
 
 [Order]
 Cammona Tong Chitin Armor.ESP
 RepopulatedMorrowind_CamonnaTongChitin.ESP
 
 ;; Ceremonial Adamantium Armor
-[Patch]
-	A patch for "Repopulated Morrowind" and "Ceremonial Adamantium Armor" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds armor to RM levelled lists
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
-[ALL	RepopulatedMorrowind.ESM
-		Ceremonial Adamantium Armor.esp]
+Ceremonial Adamantium Armor.esp
 
 [Order]
 Ceremonial Adamantium Armor.esp
 RepopulatedMorrowind_CeremonialAdamantiumArmor.esp
 
 ;; Concept Art Dunmer Helmets
-[Patch]
-	A patch for "Repopulated Morrowind" and "Concept Art Dunmer Helmets" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Concept Art Dunmer Helms.ESP]
+[Requires] ; Adds helms to RM levelled lists and NPCs
+RepopulatedMorrowind_ConceptArtDunmerHelmets.esp
+Concept Art Dunmer Helms.esp
 
 [Order]
 Concept Art Dunmer Helms.ESP
 RepopulatedMorrowind_ConceptArtDunmerHelmets.ESP
 
 ;; Glass Helm Compilation
-[Patch]
-	A patch for "Repopulated Morrowind" and "Glass Helm Compilation" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds helms to RM levelled lists
 RepopulatedMorrowind_GlassHelmCompilation.esp
-[ALL	RepopulatedMorrowind.ESM
-		Glass Helms.esp]
+Glass Helms.esp
 
 [Order]
 Glass Helms.esp
@@ -6467,113 +6457,124 @@ RepopulatedMorrowind_ImmersiveMournhold.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Immersive Mournhold.esp]
 
-;; Indoril Ronin (Armor plugin specifically)
-[Patch]
-	A patch for "Repopulated Morrowind" and "Indoril Ronin" (Armor plugin specifically) is provided in the "Repopulated Morrowind" archive.
+;; Indoril Ronin
+[Requires] ; Adds items to RM levelled lists
 RepopulatedMorrowind_IndorilRoninArmor.esp
-[ALL	RepopulatedMorrowind.ESM
-		Indoril Ronin Armor.esp]
+[ANY	Indoril Ronin Armor.esp
+		The Ronin.esp
+		The Ronin - Light Armor.esp]
 
 [Order]
 Indoril Ronin Armor.esp
 RepopulatedMorrowind_IndorilRoninArmor.esp
 
+[Order]
+The Ronin.esp
+RepopulatedMorrowind_IndorilRoninArmor.esp
+
+[Order]
+The Ronin - Light Armor.esp
+RepopulatedMorrowind_IndorilRoninArmor.esp
+
 ;; Mage Robes
-[Patch]
-	A patch for "Repopulated Morrowind" and "Mage Robes" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds robes to RM levelled lists
 RepopulatedMorrowind_MageRobes.esp
-[ALL	RepopulatedMorrowind.ESM
-		Mage Robes.esp]
+Mage Robes.esp
 
 [Order]
 Mage Robes.esp
 RepopulatedMorrowind_MageRobes.esp
 
 ;; Morag Tong Armor Revisited
-[Patch]
-	A patch for "Repopulated Morrowind" and "Morag Tong Armor Revisited" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds armor to RM levelled lists
 RepopulatedMorrowind_MoragTongArmorRevisited.esp
-[ALL	RepopulatedMorrowind.ESM
-		Morag_Tong_Armor_Revisited.esp]
+Morag_Tong_Armor_Revisited.esp
 
 [Order]
 Morag_Tong_Armor_Revisited.esp
 RepopulatedMorrowind_MoragTongArmorRevisited.esp
 
 ;; Morag Tong Equipment Diversity
-[Patch]
-	A patch for "Repopulated Morrowind" and "Morag Tong Equipment Diversity" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_MoragTongEquipmentDiversity.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Morag Tong Equipment Diversity.ESP]
+[Requires] ; Adds armor to RM levelled lists
+RepopulatedMorrowind_MoragTongEquipmentDiversity.esp
+Morag Tong Equipment Diversity.esp
 
 [Order]
 Morag Tong Equipment Diversity.ESP
 RepopulatedMorrowind_MoragTongEquipmentDiversity.ESP
 
 ;; Morag Tong Polished
-[Patch]
-	A patch for "Repopulated Morrowind" and "Morag Tong Polished" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds armor to RM levelled lists and one NPC to the arena hidden area
 RepopulatedMorrowind_MoragTongPolished.esp
-[ALL	RepopulatedMorrowind.ESM
-		Morag Tong Polished.esp]
+Morag Tong Polished.esp
 
 [Order]
 Morag Tong Polished.esp
 RepopulatedMorrowind_MoragTongPolished.esp
 
-;; Netch adamantium armour integrated
-[Patch]
-	A patch for "Repopulated Morrowind" and "Netch adamantium armour integrated" is provided in the "Repopulated Morrowind" archive.
+;; Netch adamantium armour II
+[Requires] ; Adds netch adamantium to RM levelled lists
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
-[ALL	RepopulatedMorrowind.ESM
-		Netch Adamantium Armor II_RP.esp]
+[ANY	Netch Adamantium Armor II.esp
+		Netch Adamantium Armor II_RP.esp
+		Netch Adamantium Armor II - Fixed.esp]
+
+[Order]
+Netch Adamantium Armor II.esp
+RepopulatedMorrowind_NetchAdamantiumArmor.esp
 
 [Order]
 Netch Adamantium Armor II_RP.esp
 RepopulatedMorrowind_NetchAdamantiumArmor.esp
 
+[Order]
+Netch Adamantium Armor II - Fixed.esp
+RepopulatedMorrowind_NetchAdamantiumArmor.esp
+
 ;; Redaynia Restored
-[Patch]
-	A patch for "Repopulated Morrowind" and "Redaynia Restored" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_RedayniaRestored.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Redaynia Restored.ESP]
+[Requires] ; Adds an animated fisherman so not really worthy of a patch rule
+RepopulatedMorrowind_RedayniaRestored.esp
+Redaynia Restored.esp
 
 [Order]
 Redaynia Restored.ESP
 RepopulatedMorrowind_RedayniaRestored.ESP
 
+;; Redoran War Armor and Sathil Mercenary Equipment
+[Requires] ; Adds armor to RM levelled lists
+RepopulatedMorrowind_RedayniaRestored.esp
+[ANY	Redoran War and Sathil Mercenary Armor.esp
+		Redoran War and Sathil Mercenary Armor_RS.esp]
+
 ;; Sacred Necromancer Armor
-[Patch]
-	A patch for "Repopulated Morrowind" and "Sacred Necromancer Armor" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_SacredNecromancerArmor.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Sacred_Necromancer.esp]
+[Requires] ; NOD includes Sacred Necromancer but the ids are changed so it doesn't satisfy the requirement
+RepopulatedMorrowind_SacredNecromancerArmor.esp
+[ANY	Sacred_Necromancer.esp
+		Sacred Necromancer no npcs.esp]
 
 [Order]
 Sacred_Necromancer.esp
-RepopulatedMorrowind_SacredNecromancerArmor.ESP
+RepopulatedMorrowind_SacredNecromancerArmor.esp
+
+[Order]
+Sacred Necromancer no npcs.esp
+RepopulatedMorrowind_SacredNecromancerArmor.esp
 
 ;; Sixth House Obsidian Weapons
-[Patch] ; ( Ref: mod author GrumblingVomit ) (MasssiveJuice)
-	A patch for "Repopulated Morrowind" and "Sixth House Obsidian Weapons" is provided in the "Repopulated Morrowind" archive. The patch also works if only using "Vanilla Friendly Creatures and Undeads Expansion"
+[Requires] ; Adds weapons to RM levelled lists
 RepopulatedMorrowind_6thHouseObsidWeps.esp
-[ALL	RepopulatedMorrowind.ESM
-		[ANY    Sixth House Obisidian Weapon.esp
-					Creatures_RP_Purist.esp]]
+[ANY    Sixth House Obisidian Weapon.esp
+		Creatures_RP_Purist.esp]
 
 [Order]
 Sixth House Obisidian Weapon.esp
 RepopulatedMorrowind_6thHouseObsidWeps.esp
 
-;; Vanilla Friendly Wearables Expansion
-[Patch]
-	A patch for "Repopulated Morrowind" and "Vanilla Friendly Wearables Expansion" is provided in the "Repopulated Morrowind" archive.
-RepopulatedMorrowind_VanillaFriendlyWearablesExpansion.ESP
-[ALL	RepopulatedMorrowind.ESM
-		Vanilla friendly wearables expansion.esm]
+[Order]
+Creatures_RP_Purist.esp
+RepopulatedMorrowind_6thHouseObsidWeps.esp
 
+;; Vanilla Friendly Wearables Expansion
 [Conflict] ; ( ref: mod readme ) (MasssiveJuice)
 	Already merged into the "Repopulated Morrowind" patch for "Vanilla Friendly Wearables Expansion".
 RepopulatedMorrowind_VanillaFriendlyWearablesExpansion.ESP
@@ -6582,11 +6583,9 @@ RepopulatedMorrowind_VanillaFriendlyWearablesExpansion.ESP
 		RepopulatedMorrowind_RedoranWarSathilMerc.ESP]
 
 ;; Weapons Expansion Project
-[Patch]
-	A patch for "Repopulated Morrowind" and "Weapons Expansion Project" is provided in the "Repopulated Morrowind" archive.
+[Requires] ; Adds weapons to RM levelled lists
 RepopulatedMorrowind_MorrowindWeaponsExpansion.esp
-[ALL	RepopulatedMorrowind.ESM
-		Weapons Expansion Morrowind.esp]
+Weapons Expansion Morrowind.esp
 
 [Order]
 Weapons Expansion Morrowind.esp
