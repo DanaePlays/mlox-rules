@@ -6050,13 +6050,6 @@ birthsigns.esp
 BirthsignsAMFun_BM.esp
 BirthsignsAMFun_MW.esp
 
-; Dragon32: Gluby clued me onto this by PM. This mod doesn't alter existing birthsigns, it creates new ones. So, in a TESTool merge with any mod that happens to also define these birthsigns (say, WGI), you're going to get both the new power and the original one, even if you place BAMF later in load order.
-; So, BAMF needs to load after Merged Objects.
-[Order]
-Merged Objects.esp
-BirthsignsAMFun_BM.esp
-BirthsignsAMFun_MW.esp
-
 ;;Load the specific birthsign-affecting mod after WGI
 [Order]
 Balance - Character.esp
@@ -30346,16 +30339,6 @@ race_birthsign_remix.esp
   "RAMF_Mer_for_NPCs.esp" - Use this if you want Elf names to change to Mer names AND you want NPCs to be able to use racial powers and spells.
   "RAMF.esp" - Use this if you don't want the other versions.
  ( Ref: http://www.nexusmods.com/morrowind/mods/21875/ )
-RAMF_Mer_for_NPCs.esp
-RAMF.esp
-RAMF_for_NPCs.esp
-RAMF_Mer.esp
-
-;;Dragon32: Gluby clued me onto this by PM. This mod has a similar issue with Merged Objects as Alaisiagae's Birthsigns Are More Fun, q.v. So, in a TESTool merge with any mod that happens to also alter racial abilities (say, WGI), you're going to get both the new ones from RAMF and the original one, even if you place RAMF later in load order.
-;;So, RAMF needs to load after Merged Objects.
-;;See also http://www.mwmythicmods.com/Gluby/Gluby_CharGen_Mods.htm#RaceMods
-[Order]
-Merged Objects.esp
 RAMF_Mer_for_NPCs.esp
 RAMF.esp
 RAMF_for_NPCs.esp
