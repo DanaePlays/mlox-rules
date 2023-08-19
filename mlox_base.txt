@@ -134,6 +134,9 @@ lin_lockBashBeta.esp
 abotMoreTraps.esp
 abotAlt.esp
 abotHideCorpse.esp
+Atmospheric Plazas - IlluWind.esp
+Atmospheric Plazas - WG.esp
+Atmospheric Plazas.esp
 True_Lights_And_Darkness*.esp
 TLAD*.esp
 Caverns Overhaul.esp
@@ -3175,141 +3178,340 @@ Atmospheric Balmora for VBAnIW.ESP
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Atmospheric Plazas 1.1 [hollaajith]
 
-[Conflict]
- "Activate one of the following ESPs:
-   Atmospheric Plazas - WG.esp -- For those use Windows Glow
-   Atmospheric Plazas - IlluWind.esp -- For those who use Illuminated Windows
-   Atmospheric Plaza.esp -- For those who use neither"
- ( Ref: "Atmospheric Plazas - Readme.txt" )
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+[Conflict] ; ( Ref: "Atmospheric Plazas - Readme.txt" )
+	Use only one of these plugins:
+		'Atmospheric Plazas - WG.esp' - If you use "Windows Glow".
+		'Atmospheric Plazas - IlluWind.esp' - If you use "Illuminated Windows".
+		'Atmospheric Plaza.esp' - If you use neither.
+Atmospheric Plazas - IlluWind.esp
+Atmospheric Plazas - WG.esp
+Atmospheric Plazas.esp
 
-[Requires]
- "For those who use Illuminated Windows"
- ( Ref: "Atmospheric Plazas - Readme.txt" )
-Atmospheric Plazas - IlluWind.ESP
+[Requires] ; ( Ref: "Atmospheric Plazas - Readme.txt" )
+	'Atmospheric Plazas - IlluWind.esp' requires "Illuminated Windows".
+Atmospheric Plazas - IlluWind.esp
 Illuminated Windows v1.2.esp
 
-[Requires]
- "For those use Windows Glow"
- ( Ref: "Atmospheric Plazas - Readme.txt" )
-Atmospheric Plazas - WG.ESP
-[ANY Windows Glow.esp
-	 abotWindowsGlow.esp]
+[Requires] ; ( Ref: "Atmospheric Plazas - Readme.txt" )
+	'Atmospheric Plazas - IlluWind.esp' requires "Windows Glow".
+Atmospheric Plazas - WG.esp
+[ANY	Windows Glow.esp
+		abotWindowsGlow.esp]
 
-[Conflict]
- "[hollaajith's "Atmospheric Plazas"] is currently incompatible with both MCA, RoHT and anything else that add to the plazas."
- ( Ref: https://forums.nexusmods.com/index.php?/topic/1834440-atmospheric-plazas/?p=34491075 )
-[ANY Rise of House Telvanni.esm
-	 MCA.esm]
-[ANY Atmospheric Plazas - IlluWind.ESP
-	 Atmospheric Plazas - WG.ESP
-	 Atmospheric Plazas.ESP]
+[Conflict] ; ( Ref: https://forums.nexusmods.com/index.php?/topic/1834440-atmospheric-plazas/?p=34491075 )
+	Incompatible with "Atmospheric Plazas".
+[ANY	Atmospheric Plazas - IlluWind.esp
+		Atmospheric Plazas - WG.esp
+		Atmospheric Plazas.esp]
+[ANY	Rise of House Telvanni.esm
+		MCA.esm]
 
-;;"My mod should load after both of those mods" - Windows Glow and TLM
-;;Ref: https://forums.nexusmods.com/index.php?/topic/1834440-atmospheric-plazas/?p=27856154
+;; "My mod should load after both of those mods" - Windows Glow and TLM
+;; Ref: https://forums.nexusmods.com/index.php?/topic/1834440-atmospheric-plazas/?p=27856154
 [Order]
 Illuminated Windows v1.2.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+Illuminated Windows v1.2.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+Illuminated Windows v1.2.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 Windows Glow.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+Windows Glow.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+Windows Glow.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 abotWindowsGlow.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
 
-;;My Atmospheric Plaza mod needs to load after lighing mods like True Lights and darkness which alter cell lighting or any mod that do changes the cell of the vivec plazas.
+[Order]
+abotWindowsGlow.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+abotWindowsGlow.esp
+Atmospheric Plazas - WG.esp
+
+;; Load after lighting mods like True Lights and darkness which alter cell lighting or any mod that do changes the cell of the vivec plazas.
 [Order]
 LBS_addon_hvy_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_hvy_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_hvy_v1.1.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 LBS_addon_Hvy_VD_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_Hvy_VD_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_Hvy_VD_v1.1.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 LBS_addon_lt_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_lt_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_lt_v1.1.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 LBS_addon_lt_VD_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_lt_VD_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_lt_VD_v1.1.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 LBS_addon_reg_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_reg_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_reg_v1.1.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 LBS_addon_reg_VD_v1.1.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+LBS_addon_reg_VD_v1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+LBS_addon_reg_VD_v1.1.esp
+Atmospheric Plazas - WG.esp
+
+;; Lights 300
+[Order]
+Lights 300 v5.esp
+Atmospheric Plazas.esp
 
 [Order]
 Lights 300 v5.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+Lights 300 v5.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
 Lights 300 v5 + DBL.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+Lights 300 v5 + DBL.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+Lights 300 v5 + DBL.esp
+Atmospheric Plazas - WG.esp
+
+;; True Lights and Darkness
+[Order]
+True_Lights_And_Darkness_0.5.esp
+Atmospheric Plazas.esp
 
 [Order]
 True_Lights_And_Darkness_0.5.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_0.5.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
 True_Lights_And_Darkness_0.5 + DBL.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+True_Lights_And_Darkness_0.5 + DBL.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_0.5 + DBL.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 True_Lights_And_Darkness_1.0-NoDaylight.esp
+Atmospheric Plazas.esp
+
+[Order]
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_1.0-NoDaylight.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
 True_Lights_And_Darkness_1.0-NoDaylight + DBL.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+True_Lights_And_Darkness_1.0-NoDaylight + DBL.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_1.0-NoDaylight + DBL.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 True_Lights_And_Darkness_1.1.esp
+Atmospheric Plazas.esp
+
+[Order]
+True_Lights_And_Darkness_1.1.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_1.1.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
 True_Lights_And_Darkness_1.1 + DBL.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+True_Lights_And_Darkness_1.1 + DBL.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+True_Lights_And_Darkness_1.1 + DBL.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
+TLAD Daylight.esp
+Atmospheric Plazas.esp
+
+[Order]
+TLAD Daylight.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLAD Daylight.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
+TLAD Daylight - BCOM.esp
+Atmospheric Plazas.esp
+
+[Order]
+TLAD Daylight - BCOM.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLAD Daylight - BCOM.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
+TLAD Full - Still - Necro Colors.esp
+Atmospheric Plazas.esp
+
+[Order]
+TLAD Full - Still - Necro Colors.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLAD Full - Still - Necro Colors.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
+TLAD Full - Still - Original Colors.esp
+Atmospheric Plazas.esp
+
+[Order]
+TLAD Full - Still - Original Colors.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLAD Full - Still - Original Colors.esp
+Atmospheric Plazas - WG.esp
+
+;; The Lighting Mod
+[Order]
+TLM - Ambient Light + Fog Update.esp
+Atmospheric Plazas.esp
 
 [Order]
 TLM - Ambient Light + Fog Update.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLM - Ambient Light + Fog Update.esp
+Atmospheric Plazas - WG.esp
 
 [Order]
 TLM - Complete.esp
+Atmospheric Plazas.esp
+
+[Order]
+TLM - Complete.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLM - Complete.esp
+Atmospheric Plazas - WG.esp
+
+[Order]
 TLM - Complete + DBL.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas.esp
+
+[Order]
+TLM - Complete + DBL.esp
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+TLM - Complete + DBL.esp
+Atmospheric Plazas - WG.esp
+
+;; Vivec Interiorator
+[Order]
+Nemon's_Vivec_Interiorator.esp
+Atmospheric Plazas.esp
 
 [Order]
 Nemon's_Vivec_Interiorator.esp
-Atmospheric Plazas - IlluWind.ESP
-Atmospheric Plazas - WG.ESP
-Atmospheric Plazas.ESP
+Atmospheric Plazas - IlluWind.esp
+
+[Order]
+Nemon's_Vivec_Interiorator.esp
+Atmospheric Plazas - WG.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Atmospheric Sound Effects (ASE) 3.0 [Duncan]
