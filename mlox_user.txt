@@ -1039,6 +1039,18 @@ BCoM_WaterWorks.esp
 BCOM_pathgrid_reset.esp
 BCoM_Concept_Art_Husk_Urshilaku.esp
 
+[Order]
+BCOM_pathgrid_reset.esp
+BCoM_Imperial_Gatehouse_Pelagiad.esp
+
+[Order]
+BCOM_pathgrid_reset.esp
+BCoM_Imperial_Gaehouse_Buckmoth.esp
+
+[Order]
+BCOM_pathgrid_reset.esp
+BCoM_Imperial_Gaehouse_MoonMoth.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
