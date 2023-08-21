@@ -1051,6 +1051,10 @@ BCoM_Imperial_Gaehouse_Buckmoth.esp
 BCOM_pathgrid_reset.esp
 BCoM_Imperial_Gaehouse_MoonMoth.esp
 
+[Order]
+Beautiful cities of Morrowind.esp
+BCoM_AldRuhn_Outdoor_Merchants.ESP
+
 ;; BCOM Conflicts
 
 [Conflict]
@@ -8104,6 +8108,10 @@ Vanilla friendly wearables expansion.esm
 [Order]
 Merged Objects.esp
 VFWE_merged_objects_fix.esp
+
+[Order]
+VFWE_merged_objects_fix.ESP
+VFWE_The_Raven.ESP
 
 [Conflict]
 	Already merged into or otherwise replicated by "Vanilla Friendly Wearables Expansion".
