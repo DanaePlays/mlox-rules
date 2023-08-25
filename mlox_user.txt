@@ -1055,6 +1055,10 @@ BCoM_Imperial_Gaehouse_MoonMoth.esp
 Beautiful cities of Morrowind.esp
 BCoM_AldRuhn_Outdoor_Merchants.ESP
 
+[Order]
+OAAB_Grazelands.esp
+Beautiful cities of Morrowind.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
