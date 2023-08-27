@@ -1259,6 +1259,17 @@ New Argonian Bodies - *.esp
 Improved Argonians.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Botanical Haven - Suran Apothecary Redux [MwGek]
+
+[Order]
+WhiteSuran2_MD_Edition.esp
+Botanical Haven - Suran Apothecary Redux.esp
+
+[Order]
+BCOM_White_Suran.esp
+Botanical Haven - Suran Apothecary Redux.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @BTBGI, @BTB's Game Improvements (Necro Edit) Tweaked [BTB, Necrolesian, Sigourn]
 
 ; ( Ref: https://www.nexusmods.com/morrowind/mods/50308 ) (Pharis)
@@ -8339,7 +8350,7 @@ Animated_Morrowind - merged*.esp
 F&F_TR.esp
 
 [Note]
-	F&F - Companion is obsolete, use Friends & Frens instead 
+	F&F - Companion is obsolete, use Friends & Frens instead
 	[New version]( https://www.nexusmods.com/morrowind/mods/52763 )
 F&F_companions.esp
 
