@@ -1059,6 +1059,10 @@ BCoM_AldRuhn_Outdoor_Merchants.ESP
 OAAB_Grazelands.esp
 Beautiful cities of Morrowind.esp
 
+[Order]
+BCoM_WaterWorks.esp
+Balmora waterworks merchants addon.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
