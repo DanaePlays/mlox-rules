@@ -6938,6 +6938,13 @@ riders.esp
 riders - Your Own Ashlander Tribe.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Sadrith Mora BCOM Plus Module [Randompal DetailDevil Kalinter Markond Lord Zircon]
+
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53465 )
+Beautiful Cities of Morrowind.esp
+Sadrith Mora Seat Of Power Base.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sadrith Mora Closed City [The Bloodthirsty Crustacean]
 
 [Order]
