@@ -4745,11 +4745,8 @@ Little Landscapes - Seyda Neen Swamp Pools.esp
 
 [Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53341 ) (yohannes)
 Little Landscapes - Seyda Neen Wetlands.esp
-Beautiful cities of Morrowind.esp
-
-[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53341) (yohannes)
-Little Landscapes - Seyda Neen Wetlands.esp
-Shipyards of Vvardenfell.esp
+[ANY	Beautiful cities of Morrowind.esp
+		Shipyards of Vvardenfell.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mage Robes [Melchior Dahrk]
