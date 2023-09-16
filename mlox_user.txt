@@ -4739,7 +4739,7 @@ Odai River Upper Overhaul.esp
 
 ;Seyda Neen Wetlands
 [Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53341 ) (yohannes)
-	"Seyda Neend Wetlands" is supposed to be an alternative to "Seyda Neen Swamp Pools". Use only one esp.
+	"Seyda Neen Wetlands" is supposed to be an alternative to "Seyda Neen Swamp Pools". Use only one esp.
 Little Landscapes - Seyda Neen Wetlands.esp
 Little Landscapes - Seyda Neen Swamp Pools.esp
 
