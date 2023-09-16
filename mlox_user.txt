@@ -1027,10 +1027,6 @@ BCoM_Caldera_MG_Basement.esp
 BCOM_pathgrid_reset.esp
 CalderaGovernorsManor.esp
 
-[Order] ; prevents a land tear ( ref: https://www.nexusmods.com/morrowind/mods/53274 ) (yohannes)
-Beautiful cities of Morrowind.esp
-Odai River Upper Overhaul.esp
-
 [Order]
 BCOM_pathgrid_reset.esp
 BCoM_WaterWorks.esp
@@ -4734,6 +4730,25 @@ The Publicans (LGNPC compatible version).esp
 Concept art Gnisis - Lightweight.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Little Landscapes [Glittergear]
+
+;Odai River Upper Overhaul
+[Order] ; prevents a land tear ( ref: https://www.nexusmods.com/morrowind/mods/53274 ) (yohannes)
+Beautiful cities of Morrowind.esp
+Odai River Upper Overhaul.esp
+
+;Seyda Neen Wetlands
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53341 ) (yohannes)
+	"Seyda Neen Wetlands" is supposed to be an alternative to "Seyda Neen Swamp Pools". Use only one esp.
+Little Landscapes - Seyda Neen Wetlands.esp
+Little Landscapes - Seyda Neen Swamp Pools.esp
+
+[Conflict] ; ( ref: https://www.nexusmods.com/morrowind/mods/53341 ) (yohannes)
+Little Landscapes - Seyda Neen Wetlands.esp
+[ANY	Beautiful cities of Morrowind.esp
+		Shipyards of Vvardenfell.esp]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Mage Robes [Melchior Dahrk]
 
 [Order] ; Overwrites robe enchantments (Pharis)
@@ -6943,6 +6958,10 @@ riders - Your Own Ashlander Tribe.esp
 [Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/53465 )
 Beautiful Cities of Morrowind.esp
 Sadrith Mora Seat Of Power Base.esp
+
+[Order] ; ( Ref: comment by DetailDevil ) (yohannes)
+Sadrith Mora Seat Of Power Base.esp
+Devilish Upper District Overhaul.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Sadrith Mora Closed City [The Bloodthirsty Crustacean]
