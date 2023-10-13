@@ -8211,7 +8211,6 @@ Vanilla friendly wearables expansion.esm
 		OpusSmaragd.esp
 		Daedric Bastard Sword.esp
 		IO - Cultists.esp
-		Oriental Ebony Weapon.esp
 		CrossbowsEnhanced.esp
 		CrossbowsEnhanced+Bolts.esp]
 
