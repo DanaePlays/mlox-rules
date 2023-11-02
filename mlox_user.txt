@@ -4429,6 +4429,17 @@ IO - The Fires of Orc Patch.ESP
 		IO - Cultists.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Interesting Outfits - Imperials, @IO - Imperials [TipsyTekPriest]
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53651 ) (yohannes)
+IO - Kinsmer.esp
+IO - Imperials.ESP
+
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/53651 ) (yohannes)
+IO - Ordinators Patch for RPNR_Library.esp
+IO - Imperials.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Interesting Outfits - Kinsmer, @IO - Kinsmer [TipsyTekPriest]
 
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (MasssiveJuice)
@@ -4439,46 +4450,32 @@ IO - Kinsmer.ESP
 BCOM_pathgrid_reset.esp
 IO - Kinsmer.ESP
 
-[Order]
-Uvirith's Legacy_3.53.esp
-IO - Kinsmer.ESP
-IO - Uvirith's Legacy Patch.esp
-
+;; Library of Vivec Enhanced Patch
 [Patch]
-	A patch for "Interesting Outfits - Kinsmer" and "Uvirith's Legacy" is provided on the "Interesting Outfits - Kinsmer" mod page.
+	A patch for "Interesting Outfits - Kinsmer" and "Library of Vivec Enhanced" is provided in the "Interesting Outfits - Kinsmer" archive.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
-IO - Uvirith's Legacy Patch.esp
-[ALL	Uvirith's Legacy_3.53.esp
-		IO - Kinsmer.esp]
-
-;; Telvanni Magister Robes Patch
-[Patch]
-	A patch for "Interesting Outfits - Kinsmer" and "Telvanni Magister Robes" is provided in the "Interesting Outfits - Kinsmer" archive.
-	[Patch Download]( https://www.nexusmods.com/morrowind/mods/52167 )
-IO - Telvanni Magister Robes Patch.esp
-[ALL	Telvanni Magister Robes.esp
+IO - Ordinators Patch for RPNR_Library.esp
+[ALL	RPNR_Library.esp
 		IO - Kinsmer.esp]
 
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (yohannes)
-Telvanni Magister Robes.esp
+RPNR_Library.esp
 IO - Kinsmer.esp
 
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
-Telvanni Magister Robes.esp
-IO - Uvirith's Legacy Patch.esp
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (yohannes)
+RPNR_Library.esp
+IO - Ordinators Patch for RPNR_Library.esp
 
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
-Telvanni Magister Robes.esp
-IO - Telvanni Magister Robes Patch.esp
-
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 ) (yohannes)
 IO - Kinsmer.esp
-IO - Telvanni Magister Robes Patch.esp
+IO - Ordinators Patch for RPNR_Library.esp
 
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/52167 )
-IO - Uvirith's Legacy Patch.esp
-IO - Telvanni Magister Robes Patch.esp
+[Requires]
+IO - Ordinators Patch for RPNR_Library.esp
+[ALL	RPNR_Library.ESP
+		IO - Kinsmer.esp]
 
+;; Conflicts
 [Conflict]
 	"Armored Robes Compilation and NPC changes" is already merged into "Interesting Outfits - Kinsmer" - do not use both.
 IO - Kinsmer.esp
@@ -6615,12 +6612,6 @@ Redaynia Restored.esp
 Redaynia Restored.ESP
 RepopulatedMorrowind_RedayniaRestored.ESP
 
-;; Redoran War Armor and Sathil Mercenary Equipment
-[Requires] ; Adds armor to RM levelled lists
-RepopulatedMorrowind_RedayniaRestored.esp
-[ANY	Redoran War and Sathil Mercenary Armor.esp
-		Redoran War and Sathil Mercenary Armor_RS.esp]
-
 ;; Sacred Necromancer Armor
 [Requires] ; NOD includes Sacred Necromancer but the ids are changed so it doesn't satisfy the requirement
 RepopulatedMorrowind_SacredNecromancerArmor.esp
@@ -7302,18 +7293,6 @@ Baan_Binif.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Tamriel Rebuilt, @TR [Tamriel Rebuilt Team]
-
-[Patch]
-	!!! Be sure to get the hotfix available on the "Tamriel Rebuilt" mod page.
-	!!! [Patch Download](https://www.nexusmods.com/morrowind/mods/42145)
-TR_Hotfix.esp
-TR_Mainland.esm
-
-[Patch]
-	!!! Be sure to get the hotfix available on the "Tamriel Data" mod page.
-	!!! [Patch Download](https://www.nexusmods.com/morrowind/mods/44537)
-TD_Hotfix.esp
-Tamriel_Data.esm
 
 [Note]
 	! TR_Travels is now part of the main "Tamriel Rebuilt" plugin, the TR_Travels plugins included in the 22.11 release are dummy plugins and add nothing to the game.
