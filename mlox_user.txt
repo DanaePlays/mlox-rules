@@ -1048,6 +1048,10 @@ BCOM_pathgrid_reset.esp
 BCoM_Imperial_Gaehouse_MoonMoth.esp
 
 [Order]
+BCOM_pathgrid_reset.esp
+BCoM_Marketplace_addon*.esp
+
+[Order]
 Beautiful cities of Morrowind.esp
 BCoM_AldRuhn_Outdoor_Merchants.ESP
 
