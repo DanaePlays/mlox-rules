@@ -4045,6 +4045,10 @@ LuceEdit - Guild of Vampire Hunters.esp
 NX9_StuddedArmor.esp
 Guild of Vampire Hunters.esp
 
+[Order]
+Guild of Vampire Hunters.esp
+Nar's Vampire Hunter Faction.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Hammer of Orsinium [Terik Fel]
 
