@@ -1063,6 +1063,18 @@ Beautiful cities of Morrowind.esp
 BCoM_WaterWorks.esp
 Balmora waterworks merchants addon.esp
 
+[Order]
+Beautiful cities of Morrowind.esp
+BCoM_IEO_patch.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+RP_Balmora_Guar_Stables.ESP
+
+[Order]
+BCoM_WaterWorks.ESP
+RP_Balmora_Guar_Stables.ESP
+
 ;; BCOM Conflicts
 
 [Conflict]
