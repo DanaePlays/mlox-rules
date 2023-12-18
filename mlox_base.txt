@@ -162,6 +162,7 @@ No-Frills Open Vivec*.esp
 Magicka of the Third Era.esp
 fogpatch.esp
 Piratelords Trade Enhancements.esp
+For_the_Right_Price.ESP ; ( Ref: https://www.nexusmods.com/morrowind/mods/52668 )
 NOM <VER>.esp
 GUARD-Remover.esp ; ( Ref: "Advanced GUARDS IV.doc" )
 MW Containers Animated exp.esp ; ( Ref: "aceg_readme.txt" )
