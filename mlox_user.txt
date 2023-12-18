@@ -3095,9 +3095,9 @@ CCM-SecretsofVos-V2-TB - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Census and Excise Office Faction [AliceL93]
-Census_and_Excise_Office_Faction.ESP
-[Order] ; From Alvazir's Various Patches (MasssiveJuice)
 
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+Census_and_Excise_Office_Faction.ESP
 Census_and_Excise_Office_Faction - Tamriel_Data Patch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
