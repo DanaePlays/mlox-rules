@@ -3106,6 +3106,13 @@ CCM-SecretsofVos-V2-TB.esp
 CCM-SecretsofVos-V2-TB - Script Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Census and Excise Office Faction [AliceL93]
+
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+Census_and_Excise_Office_Faction.ESP
+Census_and_Excise_Office_Faction - Tamriel_Data Patch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Concept Art Ordinators, @Indoril Spear [RandomPal]
 
 [Order]
@@ -5908,6 +5915,10 @@ OAAB Brother Junipers Twin Lamps.esp
 OAAB Brother Junipers Twin Lamps.esp
 OAAB Brother Junipers Twin Lamps - Script Fix.esp
 
+[Order] ; From Alvazir's Various Patches (MasssiveJuice)
+OAAB Brother Junipers Twin Lamps.esp
+OAAB Brother Junipers Twin Lamps - Tamriel_Data Patch.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Grazelands [Melchior Dahrk]
 
@@ -8163,6 +8174,10 @@ VFWE_merged_objects_fix.esp
 [Order]
 VFWE_merged_objects_fix.ESP
 VFWE_The_Raven.ESP
+
+[Order] ; overwrites NPC record (MasssiveJuice)
+The_Fires_of_Orc.ESP
+VFWE - The Fires of Orc Patch.ESP
 
 [Conflict]
 	Already merged into or otherwise replicated by "Vanilla Friendly Wearables Expansion".
