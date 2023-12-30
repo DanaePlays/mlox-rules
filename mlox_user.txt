@@ -8805,6 +8805,40 @@ Shipyards of Vvardenfell.esp
 RPNR_WHO.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Lore Accurate Arena&Skywind Style Arena [RandomPal and Vegetto]
+[Order]
+Beautiful cities of Morrowind.ESP
+RP_Arena_Backstage.ESP
+
+[Order]
+RP_Arena_Backstage.ESP
+BCoM_Arena*.ESP
+
+[Order]
+BCOM - Open Vivec Arena.esp
+BCoM_Arena*.ESP
+
+[Order]
+RP_Arena_Backstage.ESP
+Gladiator.esp
+
+[Order]
+Gladiator.esp
+BCoM_Arena*.ESP
+
+[Order]
+Beautiful cities of Morrowind.ESP
+RPNR_Skywind_Style_Arena.esp
+
+[Order]
+RPNR_Skywind_Style_Arena.esp
+BCoM_Arena*.ESP
+
+[Order]
+RPNR_Skywind_Style_Arena.esp
+Gladiator.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Wrath of God - Vivec Boss Fight Overhaul, @Wrath of God [ffann1998]
 
 [Order]
