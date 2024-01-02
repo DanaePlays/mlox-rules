@@ -6157,6 +6157,20 @@ The_Royal_Game_Of_Ur.esp
 Playable Game of Ur.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Maar Gan - Town of Pilgrimage [RandomPal]
+[Order]
+RP_Maar_Gan.ESP
+RP_Maar_Gan_Ashlander_Addon.ESP
+
+[Order]
+RP_Maar_Gan.ESP
+The_magic_rock_of_Maar_Gan.ESP
+
+[Order]
+Beautiful cities of Morrowind.esp
+RP_Maar_Gan.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ports of Vvardenfell [Mick083]
 
 [Conflict]
