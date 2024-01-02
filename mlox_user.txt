@@ -6146,6 +6146,17 @@ persistent_corpse_disposal.esp
 PCD_PFP_Compat.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Playable Game of Ur [Dillonn241]
+
+[Requires] ; Requires both assets and esp from The Royal Game of Ur (MasssiveJuice)
+Playable Game of Ur.esp
+The_Royal_Game_Of_Ur.esp
+
+[Order] ; (ref: Dillonn241 on Nexus mod page comments) (MasssiveJuice)
+The_Royal_Game_Of_Ur.esp
+Playable Game of Ur.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ports of Vvardenfell [Mick083]
 
 [Conflict]
