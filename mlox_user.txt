@@ -6171,6 +6171,17 @@ Beautiful cities of Morrowind.esp
 RP_Maar_Gan.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ald'ruhn Architecture Variety [RandomPal]
+
+[Order]
+Beautiful cities of Morrowind.ESP
+RP_Ald'ruhn_Architecture_Variety.ESP
+
+[Order]
+BCoM_AldRuhn_Outdoor_Merchants.ESP
+RP_Ald'ruhn_Architecture_Variety.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Ports of Vvardenfell [Mick083]
 
 [Conflict]
