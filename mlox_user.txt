@@ -997,6 +997,10 @@ BCOM_pathgrid_reset.esp
 BCOM_Vanilla Trees.esp
 
 [Order]
+BCOM_pathgrid_reset.esp
+RP_Bustling_VIvec*.ESP
+
+[Order]
 Beautiful Cities of Morrowind.esp
 Mashed Lists.esp
 BCOM_pathgrid_reset.esp
