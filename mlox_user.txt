@@ -1079,6 +1079,10 @@ RP_Balmora_Guar_Stables.ESP
 BCoM_WaterWorks.ESP
 RP_Balmora_Guar_Stables.ESP
 
+[Order]
+Beautiful cities of Morrowind.esp
+Melodies and Moonlight.esp
+
 ;; BCOM Conflicts
 
 [Conflict]
