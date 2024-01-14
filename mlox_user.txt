@@ -8875,7 +8875,7 @@ Gladiator.esp
 BCoM_Arena*.ESP
 
 [Order]
-Beautiful cities of Morrowind.ESP
+BCOM_pathgrid_reset.ESP
 RPNR_Skywind_Style_Arena.esp
 
 [Order]
