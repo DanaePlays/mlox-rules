@@ -6608,6 +6608,14 @@ RepopulatedMorrowind_ImmersiveMournhold.ESP
 [ALL	RepopulatedMorrowind.ESM
 		Immersive Mournhold.esp]
 
+[Order]
+Immersive Mournhold.esp
+RepopulatedMorrowind_ImmersiveMournhold.ESP
+
+[Order]
+RepopulatedMorrowind.ESM
+RepopulatedMorrowind_ImmersiveMournhold.ESP
+
 ;; Indoril Ronin
 [Requires] ; Adds items to RM levelled lists
 RepopulatedMorrowind_IndorilRoninArmor.esp
