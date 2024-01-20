@@ -1007,6 +1007,12 @@ BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
 BCOM_OpenMW_plazas.esp
 
+[Order]
+Beautiful Cities of Morrowind.esp
+BCOM_pathgrid_reset.esp
+Interior exterior flag reset.esp
+BCOM_OpenMW_plazas.esp
+
 [Order] ; rule for replacer maintained by ActuallyUlysses here: https://www.nexusmods.com/morrowind/mods/52726
 Beautiful cities of Morrowind.esp
 BalmoraDocks.esp
@@ -1307,6 +1313,10 @@ BTB's Game Improvements (Necro Edit) Tweaked.esp
 Mashed Lists.esp
 Merged Objects PfP BTBGI Fix.esp
 
+[Order]
+Merged Objects.esp
+Merged Objects PfP BTBGI Fix.esp
+
 ;; Poison Crafting
 
 [Order]
@@ -1435,6 +1445,10 @@ BTBGI RV Armors Integrated Patch.esp
 Mashed Lists.esp
 Merged Objects RV Armors BTBGI Fix.esp
 
+[Order]
+Merged Objects.esp
+Merged Objects RV Armors BTBGI Fix.esp
+
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Oriental Ebony Weapons" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
 BTBGI Oriental Ebony Weapons Integrated Patch.esp
@@ -1462,6 +1476,10 @@ BTBGI OAAB Weapons Integrated Patch.esp
 
 [Order]
 Mashed Lists.esp
+Merged Objects OAAB Weapons BTBGI Fix.esp
+
+[Order]
+Merged Objects.esp
 Merged Objects OAAB Weapons BTBGI Fix.esp
 
 [Patch]
@@ -1524,6 +1542,11 @@ BTBGI AndranoTombRemastered Patch.esp
 ;; BTBGI Loot Patch
 [Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
 Mashed Lists.esp
+BTBGI Loot Patch*.esp
+
+;; BTBGI Loot Patch
+[Order] ; ( Ref: 'BTBGI Loot Patch Readme.txt' ) (Pharis)
+Merged Objects.esp
 BTBGI Loot Patch*.esp
 
 [Conflict]
@@ -5765,6 +5788,10 @@ OAAB Weapons Integrated TCBOO.esp
 
 [Order]
 Mashed Lists.esp
+OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
+
+[Order]
+Merged Objects.esp
 OAAB Weapons and Oriental Ebony Weapons Integrated Patch TCBOO.esp
 
 ;; Redoran War and Sathil Mercenary Armor Integrated
