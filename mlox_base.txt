@@ -98,10 +98,10 @@ Tribunal.esm
 Bloodmoon.esm
 
 [NearEnd]
+Merged Objects.esp
 Merged Lands.esp
 Mashed Lists.esp
 multipatch.esp
-Merged Objects.esp
 Beautiful cities of Morrowind.ESP
 BTBGI Loot Patch*.ESP
 Morrowind Crafting 2*.esp
@@ -178,8 +178,6 @@ TLM - Ambient Light + Fog Update.esp ; ( Ref: "TLM - ~Readme.htm" )
 
 [Order]
 Merged Objects.esp
-multipatch.esp
-Mashed Lists.esp
 Merged Lands.esp
 
 ;;Danae: catch-all warning, removing all GMST warnings
