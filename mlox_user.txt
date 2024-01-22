@@ -1371,6 +1371,10 @@ BTBGI Tribunal Rebalance Patch.esp
 Tribunal Rebalance.esp
 BTBGI Tribunal Rebalance Patch.esp
 
+[Order] ; Patch is part of the popular mod list morrowindsharp. Not available on Nexus (yohannes)
+Tribunal Rebalance.esp
+Tribunal Rebalance Gedna Script Fix and Goblin Potion Rebalance.esp
+
 ;; Beware the Sixth House
 [Patch]
 	A patch for "BTB's Game Improvements (Necro Edit) Tweaked" and "Beware the Sixth House" is provided in the "BTB's Game Improvements (Necro Edit) Tweaked" archive.
@@ -5884,29 +5888,14 @@ Moonmoth Legion Fort Overhaul.esp
 OAAB - Shipwrecks.esp
 OAAB - Shipwrecks - TR Patch.esp
 
-[Order] ; Updated load order per Justice for Khartag update 03-Oct-23 (MasssiveJuice)
-OAAB - Shipwrecks.esp
+[Order] ; Updated load order per OAAB Shipwrecks Update 22/01/2024 (yohannes)
 Justice4Khartag.esp
-KFG_Shipwrecks_Patch.ESP
+OAAB - Shipwrecks.esp
 
-[Patch] ; OAAB Shipwrecks and Justice for Khartag patch (MasssiveJuice)
-	"Justice for Khartag" includes a compatibility patch for "OAAB Shipwrecks" as a separate plugin
-KFG_Shipwrecks_Patch.ESP
-[ALL	OAAB - Shipwrecks.esp
-		Justice4Khartag.esp]
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @OAAB Shipwrecks and Justice for Khartag - merged plugin [Corsair, Vegetto, ffann1998]
-
-[Conflict]
-	"OAAB Shipwrecks and Justice for Khartag - merged plugin" includes both "OAAB Shipwrecks" and "Justice for Khartag (J.F.K.)" and should not be used alongside the original plugins.
-Justice4Khartag+OAAB_Shipwreck - merged.esp
-[ANY	OAAB - Shipwrecks.esp
-		Justice4Khartag.esp]
-
-[Order] ; Original mod's TR patch prob still necessary (Zilophos)
-Justice4Khartag+OAAB_Shipwreck - merged.esp
-OAAB - Shipwrecks - TR Patch.esp
+[Note] ; OAAB Shipwrecks update removed need for J4K patch (yohannes)
+	As of update 1.7.8, "OAAB - Shipwrecks" and "Justice for Karthag" are compatible without using a patch.
+[ANY	KFG_Shipwrecks_Patch.ESP
+		Justice4Khartag+OAAB_Shipwreck - merged.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB - The Ashen Divide [Remiros]
