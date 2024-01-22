@@ -7868,41 +7868,6 @@ BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 Beautiful cities of Morrowind.esp
 BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 
-;; OAABShipwrecks + RRBetterShipsnBoats Patch
-[Requires]
-OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-[ALL	OAAB - Shipwrecks.esp
-		RR_Better_Ships_n_Boats_Eng.esp]
-
-[Order] ; ( ref: readme ) (yohannes)
-OAAB - Shipwrecks.esp
-RR_Better_Ships_n_Boats_Eng.esp
-
-[Order] ; ( ref: readme ) (yohannes)
-OAAB - Shipwrecks.esp
-OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-
-[Order] ; ( ref: readme ) (yohannes)
-RR_Better_Ships_n_Boats_Eng.esp
-OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-
-[Requires]
-JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-[ALL	Justice4Khartag+OAAB_Shipwreck - merged.esp
-		RR_Better_Ships_n_Boats_Eng.esp]
-
-[Order] ; ( ref: readme ) (yohannes)
-Justice4Khartag+OAAB_Shipwreck - merged.esp
-RR_Better_Ships_n_Boats_Eng.esp
-
-[Order] ; ( ref: readme ) (yohannes)
-Justice4Khartag+OAAB_Shipwreck - merged.esp
-JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-
-[Order] ; ( ref: readme ) (yohannes)
-RR_Better_Ships_n_Boats_Eng.esp
-JFK+OAABShipwrecks+RRBetterShipsnBoatsPatch.esp
-
 ;; NordicDagonFel + RRBetterShipsnBoats Patch
 [Requires]
 NordicDagonFel+RRBetterShipsnBoatsPatch.esp
