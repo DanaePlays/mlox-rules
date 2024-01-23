@@ -994,7 +994,7 @@ BCOM_suran underworld_expansion patch.esp
 
 [Order]
 BCOM_pathgrid_reset.esp
-BCOM_Vanilla Trees.esp
+BCOM_Vanilla Trees*.esp
 
 [Order]
 BCOM_pathgrid_reset.esp
