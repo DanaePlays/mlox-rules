@@ -24283,6 +24283,8 @@ Expanded Sounds.esp
 Expanded Sounds DV.esp
 Better Banner Signs + Expanded Sounds.esp
 
+;; Order-rules might need a clean up in the future. Removed unnecessary Patch-Warning for the time being (yohannes)
+
 ;;Ref: DNO MW Patches Readme.txt
 [Order]
 adamantiumarmor.esp
@@ -24323,22 +24325,6 @@ MW Containers Animated + Adamantium Armor.esp
 [Order]
 MW Containers Animated.esp
 MW Containers Animated + Adamantium Armor.esp
-
-[Patch]
- DeJuan N. Onley's "MW Containers Animated + LeFemmArmor.esp" patches "Morrowind Containers Animated" by qqqbbb and the official plugin "LeFemm Armor."
- Using the patch allows you to purchase the new armor and still have the textures/animations from qqqbbb's mod.
- Download DeJuan N. Onley's "Morrowind Compatibility Patches" from Morrowind Nexus - http://www.nexusmods.com/morrowind/mods/43880/?
- ( Ref: "DNO MW Patches Readme.txt" )
-MW Containers Animated + LeFemmArmor.esp
-[ALL [ANY LeFemmArmor.esp
-		  [Official]LeFemm Armor.esp
-		  OfficialMods_v5.esp
-		  Clean Official Plugins v1.1.esp
-		  Official_2002_Mods.esp
-		  SauronsAbode252.esp
-		  SauronsAbode252_Tribunal.esp
-		  super_adventurers302.esp]
-	 MW Containers Animated.esp]
 
 ;;Ref: DNO MW Patches Readme.txt
 [Order]
