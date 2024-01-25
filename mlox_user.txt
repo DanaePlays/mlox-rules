@@ -8865,14 +8865,14 @@ BCoM_Arena*.ESP
 
 [Order]
 BCOM_pathgrid_reset.ESP
-RPNR_Skywind_Style_Arena.esp
+RPNR_Skywind_Style_Arena*.esp
 
 [Order]
-RPNR_Skywind_Style_Arena.esp
+RPNR_Skywind_Style_Arena*.esp
 BCoM_Arena*.ESP
 
 [Order]
-RPNR_Skywind_Style_Arena.esp
+RPNR_Skywind_Style_Arena*.esp
 Gladiator.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
