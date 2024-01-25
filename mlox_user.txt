@@ -8881,7 +8881,7 @@ Interior exterior flag reset.ESP
 
 [Order]
 Interior exterior flag reset.ESP
-RPNR_Skywind_Style_Arena_FPS_Version
+RPNR_Skywind_Style_Arena_FPS_Version.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Wrath of God - Vivec Boss Fight Overhaul, @Wrath of God [ffann1998]
