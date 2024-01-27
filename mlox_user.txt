@@ -961,6 +961,14 @@ BCOM Rocky West Gash.esp
 Beautiful cities of Morrowind.esp
 
 [Order]
+BCOM_pathgrid_reset.ESP
+BCoM_FQ_Bridges.esp
+
+[Order]
+BCoM_FQ_Bridges.esp
+BCoM_FQ_Bridges_Open_Arena_Pathgrid.esp
+
+[Order]
 BCOM_pathgrid_reset.esp
 GildergreenOfBalmora.esp
 
