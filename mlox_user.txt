@@ -953,6 +953,10 @@ Scrolls of The Nine Barriers.esp
 BCOM_Scrolls of the Nine Barriers_patch.esp
 
 [Order]
+Beautiful cities of Morrowind.esp
+BCoM_logs_on_fire.ESP
+
+[Order]
 BCOM Rocky West Gash.esp
 Beautiful cities of Morrowind.esp
 
