@@ -8888,8 +8888,12 @@ RPNR_Skywind_Style_Arena*.esp
 Gladiator.esp
 
 [Order]
-Interior exterior flag reset.ESP
+BCOM_OpenMW_plazas.ESP
 RPNR_Skywind_Style_Arena_FPS_Version.esp
+
+[Order]
+Interior exterior flag reset.ESP
+BCoM_Arena*.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Wrath of God - Vivec Boss Fight Overhaul, @Wrath of God [ffann1998]
