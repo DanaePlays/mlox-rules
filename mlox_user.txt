@@ -7103,6 +7103,32 @@ Vvardenfell Brotherhood.esp
 Save the Date.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Secret of Vilmuhn, @SoV [MasssiveJuice, GrumblingVomit]
+
+[Requires] ; (Reference: MasssiveJuice)
+SecretOfVilmuhn.esm
+[All	OAAB_Data.esm
+		Tamriel_Data.esm
+		TR_Mainland.esm]
+
+[Order] ; (Reference: MasssiveJuice)
+OAAB_Data.esm
+SecretOfVilmuhn.esm
+
+[Order] ; (Reference: MasssiveJuice)
+Tamriel_Data.esm
+SecretOfVilmuhn.esm
+
+[Order] ; (Reference: MasssiveJuice)
+TR_Mainland.esm
+SecretOfVilmuhn.esm
+
+[Conflict] ; (Reference: MasssiveJuice)
+	'Last Wish' by Tel Shadow conflicts with SoV as the landmasses overlap
+SecretOfVilmuhn.esm
+Last Wish 2.0.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Secrets of the Crystal City [JettN77, Melchior Dahrk, Peter/Halovarium, seelof]
 
 [Order] ; If Mines & Caverns loads after Massama Cave is filled with water ( Ref: readme https://www.nexusmods.com/morrowind/mods/51932 ) (Pharis)
