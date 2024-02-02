@@ -7105,12 +7105,6 @@ Save the Date.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Secret of Vilmuhn, @SoV [MasssiveJuice, GrumblingVomit]
 
-[Requires] ; (Reference: MasssiveJuice)
-SecretOfVilmuhn.esm
-[All	OAAB_Data.esm
-		Tamriel_Data.esm
-		TR_Mainland.esm]
-
 [Order] ; (Reference: MasssiveJuice)
 OAAB_Data.esm
 SecretOfVilmuhn.esm
