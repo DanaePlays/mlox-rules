@@ -990,6 +990,10 @@ BCOM - Open Vivec Arena.esp
 
 [Order]
 BCOM_pathgrid_reset.esp
+BCOM - Open Vivec Arena_Skywind.esp
+
+[Order]
+BCOM_pathgrid_reset.esp
 BCOM - Taller Lighthouse.esp
 
 [Order]
@@ -1014,6 +1018,10 @@ RP_Bustling_VIvec*.ESP
 
 [Order]
 Beautiful Cities of Morrowind.esp
+BCOM - Open Vivec Arena_Skywind_FPS_Version.esp
+
+[Order]
+Beautiful Cities of Morrowind.esp
 Mashed Lists.esp
 BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
@@ -1024,6 +1032,7 @@ Beautiful Cities of Morrowind.esp
 BCOM_pathgrid_reset.esp
 Interior exterior flag reset.esp
 BCOM_OpenMW_plazas.esp
+Interior exterior flag reset_Skywind_Arena.ESP
 
 [Order] ; rule for replacer maintained by ActuallyUlysses here: https://www.nexusmods.com/morrowind/mods/52726
 Beautiful cities of Morrowind.esp
@@ -1102,6 +1111,11 @@ Beautiful cities of Morrowind.esp
 Melodies and Moonlight.esp
 
 ;; BCOM Conflicts
+
+[Conflict]
+	Already merged into BCoM.
+Beautiful cities of Morrowind.ESP
+RP_Arena_Backstage.ESP
 
 [Conflict]
 	'BCOM Rocky West Gash.esp' is an ESP replacer, do not use it alongside the original plugin.
@@ -8875,33 +8889,10 @@ RPNR_WHO.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Lore Accurate Arena&Skywind Style Arena [RandomPal and Vegetto]
-[Order]
-Beautiful cities of Morrowind.ESP
-RP_Arena_Backstage.ESP
-
-[Order]
-RP_Arena_Backstage.ESP
-BCoM_Arena*.ESP
-
-[Order]
-BCOM - Open Vivec Arena.esp
-BCoM_Arena*.ESP
 
 [Order]
 RP_Arena_Backstage.ESP
 Gladiator.esp
-
-[Order]
-Gladiator.esp
-BCoM_Arena*.ESP
-
-[Order]
-BCOM_pathgrid_reset.ESP
-RPNR_Skywind_Style_Arena*.esp
-
-[Order]
-RPNR_Skywind_Style_Arena*.esp
-BCoM_Arena*.ESP
 
 [Order]
 RPNR_Skywind_Style_Arena*.esp
