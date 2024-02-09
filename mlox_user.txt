@@ -4477,7 +4477,7 @@ Indoril_armor - TR.esp
 [Order]
 The_Fires_of_Orc.ESP
 IO - Cultists.esp
-IO - The Fires of Orc Patch.ESP
+IO - Fires of Orc Patch.ESP
 
 [Order]
 Daedric Shrine Overhaul Malacath.ESP
@@ -4498,7 +4498,7 @@ IO - Cultists.esp
 [Patch]
 	A patch for "Interesting Outfits - Cultists" and "The Fires of Orc" is provided on the "Interesting Outfits - Cultists" mod page.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51922 )
-IO - The Fires of Orc Patch.ESP
+IO - Fires of Orc Patch.ESP
 [ALL	The_Fires_of_Orc.ESP
 		IO - Cultists.esp]
 
