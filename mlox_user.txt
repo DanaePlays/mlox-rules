@@ -323,7 +323,7 @@ Animated_Morrowind*.esp
 
 [Conflict]
 	'Animated Morrowind - Danae's Edits' includes fixes for 'Animated Morrowind - merged' but removes a few npcs that conflict with other mods (including BCoM). Pick one.
-Animated_Morrowind - merged.esp
+Animated_Morrowind - merged*.esp
 Animated_Morrowind - Danaes Edits.esp
 
 [Conflict]
