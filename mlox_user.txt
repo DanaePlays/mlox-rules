@@ -5326,21 +5326,22 @@ MDMD - Bosses Only.esp
 
 ;; Morrowind Anti-Cheese
 ; Putting main MDMD plugin after Anti-Cheese will also put the Creatures Add-On and Uvirith's Legacy plugins after it so no need for more rules here
-[Order] ; ( Ref: MDMD Readme ) (Pharis)
-Morrowind Anti-Cheese.esp
-MDMD - More Deadly Morrowind Denizens.esp
-
-[Order]
-Morrowind Anti-Cheese.esp
-MDMD - Bosses Only.esp
-
-[Order] ; ( Ref: MDMD Readme ) (Pharis)
-Morrowind Anti-Cheese Tweaked.esp
-MDMD - More Deadly Morrowind Denizens.esp
-
-[Order]
-Morrowind Anti-Cheese Tweaked.esp
-MDMD - Bosses Only.esp
+; Stupid interaction with BTBGI rules
+; [Order] ; ( Ref: MDMD Readme ) (Pharis)
+; Morrowind Anti-Cheese.esp
+; MDMD - More Deadly Morrowind Denizens.esp
+;
+; [Order]
+; Morrowind Anti-Cheese.esp
+; MDMD - Bosses Only.esp
+;
+; [Order] ; ( Ref: MDMD Readme ) (Pharis)
+; Morrowind Anti-Cheese Tweaked.esp
+; MDMD - More Deadly Morrowind Denizens.esp
+;
+; [Order]
+; Morrowind Anti-Cheese Tweaked.esp
+; MDMD - Bosses Only.esp
 
 ;; Uvirith's Legacy Patch
 ; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
