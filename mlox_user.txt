@@ -5320,13 +5320,13 @@ MDMD - More Deadly Morrowind Denizens.esp
 The Raven 1.5.4.esp
 MDMD*.esp
 
-;[Order] ; ( Ref: MDMD Readme ) (Pharis)
-;Morrowind Anti-Cheese.esp
-;MDMD*.esp
+[Order] ; ( Ref: MDMD Readme ) (Pharis)
+Morrowind Anti-Cheese.esp
+MDMD*.esp
 
-;[Order] ; ( Ref: MDMD Readme ) (Pharis)
-;Morrowind Anti-Cheese Tweaked.esp
-;MDMD*.esp
+[Order] ; ( Ref: MDMD Readme ) (Pharis)
+Morrowind Anti-Cheese Tweaked.esp
+MDMD*.esp
 
 ;; Uvirith's Legacy Patch
 ; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
