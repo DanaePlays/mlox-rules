@@ -5318,15 +5318,17 @@ MDMD - More Deadly Morrowind Denizens.esp
 
 [Order] ; To keep MDMD's changes to Sorkvild, TES3Merge will fix other conflicts ( Ref: I checked in TES3View because someone asked ) (Pharis)
 The Raven 1.5.4.esp
-MDMD*.esp
+MDMD - More Deadly Morrowind Denizens.esp
 
+;; Morrowind Anti-Cheese
+; Putting main MDMD plugin after Anti-Cheese will also put the other MDMD plugins after it so no need for more rules here
 [Order] ; ( Ref: MDMD Readme ) (Pharis)
 Morrowind Anti-Cheese.esp
-MDMD*.esp
+MDMD - More Deadly Morrowind Denizens.esp
 
 [Order] ; ( Ref: MDMD Readme ) (Pharis)
 Morrowind Anti-Cheese Tweaked.esp
-MDMD*.esp
+MDMD - More Deadly Morrowind Denizens.esp
 
 ;; Uvirith's Legacy Patch
 ; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
