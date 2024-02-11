@@ -44,8 +44,6 @@
 ;; They are intended to be used only for very special circumstances.
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-; These may be getting to the point of needing to be trimmed down, some don't necessarily seem to be "very special circumstances" (Pharis)^
-
 [NearStart]
 Morrowind.esm
 Tribunal.esm
