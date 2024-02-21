@@ -8477,6 +8477,7 @@ Solstheim Tomb of The Snow Prince.esm
 [Order] ; Dependency (Pharis)
 Wares-base.esm
 F&F_base.esm
+Friends_and_Foes_base.esm
 Friends & Frens - base.esm
 Westly Prim & Proper Core.esm
 
@@ -8512,10 +8513,14 @@ F&F_heads_*.esp
 
 [Order] ; Personal rule can be added to override but this is how most would use it (Pharis)
 F&F_TR.esp
+F&F_Mainland.ESP
 F&F_heads_Westly.esp
+F&F_Prim&Proper.esp
 
 [Order]
 Merged Objects.esp
+F&F_No_Hostiles.ESP
+F&F_No_Towns.ESP
 F&F_scarce.esp
 F&F_MOAR.esp
 F&F_No_Sitters.ESP
@@ -8590,12 +8595,13 @@ Wares-MOAR.esp
 Wares-even-MOAR.esp
 
 [Conflict] ; (Ref: https://www.nexusmods.com/morrowind/mods/49251? )
-	"Friends and Foes" includes and expands on "CM_Partners", "Outlaws", "Starfire's npcs" and "MCA".
-F&F_base.esm
+	"Friends and Foes" includes and expands on "CM_Partners", "Outlaws", "Starfire's npcs" and "MCA". F&F_base.esm is an older version of Friends and Foes
+Friends_and_Foes_base.esm
 [ANY	CM_Partners_*.esp
 		Outlaws.esp
 		OutlawsTR.esp
 		Starfires*.esp
+		F&F_base.esm
 		MCA*.esp]
 
 [Conflict] ; (Ref: https://www.nexusmods.com/morrowind/mods/49251? )
