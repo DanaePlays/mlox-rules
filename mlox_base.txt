@@ -945,7 +945,7 @@ Ald-Ruhn Temple Expansion MRM patch.esp
 ;; Castle"-plugin "Ald-Vendras V3.1" must also be loaded after them to
 ;; avoid heavy landscape conflicts.
 ;; ( Ref: "Ald-Vendras_V3_readme.txt" )
-[Order]^
+[Order]
 Illuminated Order v1.0.esp
 Illuminated Order v1.0 (IndyBank WC Compatible).esp
 Illuminated Order v1.0 (IndyBank Compatible).esp
@@ -26622,6 +26622,7 @@ Blood and Gore Fire damage.esp
 [Order]
 NOM 2.13.esp
 Clean_WH_Well House.esp
+
 [Order]
 NoM 3.0.esp
 Clean_WH_Well House.esp
