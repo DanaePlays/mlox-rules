@@ -4004,9 +4004,9 @@ GoW-MaC Patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Go To Jail [Arcimaestro Antares]
 
-[Order]
+;[Order]
 ;JoinAll*.esp
-Go To Jail*.esp ; why is this causing a cycle???
+;Go To Jail*.esp ; why is this causing a cycle???
 
 [Order]
 chapelsv2.esp
