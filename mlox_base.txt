@@ -2480,7 +2480,6 @@ Ascadian_Rose_Cottage_ver1.0.esp
 
 [Conflict] ; ( Ref: "Ascadian Rose Cottage DX - Readme.txt" )
 	"Ascadian Rose Cottage DX" completely replaces the original "Ascadian Rose Cottage" plugin, and is not to be used with it.
-
 Ascadian Rose Cottage DX.esm
 Ascadian_Rose_Cottage_ver1.0.esp
 
@@ -4611,7 +4610,6 @@ Aduls_Arsenal.esp
 	Use only one of these plugins:
 		'BE_ghetto_BE.esp' - If you have "Balmora Expansion".
 		'BE_ghetto_No_BE.esp' - If you do not use "Balmora Expansion".
-
 BE_ghetto_BE.esp
 BE_ghetto_No_BE.esp
 
@@ -5618,7 +5616,6 @@ BMS_UPDATE_from_1.9_to_1.9.1.esp
 
 [Conflict] ; ( Ref: "BMS_readme.txt" )
  	'BMS_UPDATE_from1.7(.x)to1.9.esp' and its alt esp have the GhostGate Fix included.
-
 [ANY	BMS_UPDATE_from1.7(.x)to1.9.esp
 		BMS_UPDATE_from1.7(.x)to1.9_alt.esp]
 [ANY	BMS_TowerOfDusk_Fix.esp
@@ -6637,7 +6634,6 @@ Texture Fix - Bloodmoon <VER>.esm
 		( http://mw.modhistory.com/download-44-11124 )
 	Slartibartfast's "Bloodmoon Landscape Overhaul" is a visual overhaul of the Bloodmoon Expansion, fixing the land of texture seams and some experimental reshaping of the land in the area of Fort Frostmouth and the river to the northeast in an attempt to make Solstheim's dull landscaping a little more interesting.
  	However, if you do not want the land sculpting done in the Overhaul, the author recommends you stick with "Texture Fix - Bloodmoon" which just fixes seams.
-
 Texture Fix - Bloodmoon <VER>.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -14518,7 +14514,6 @@ DNGDR-GHD Patch.esp
 ;; @Great House Dagoth Instant Godking [The Mad God]
 
 [Order] ; ( Ref: readme_Great House Dagoth Instant Godking.txt )
-
 Great House Dagoth.esp
 Great House Dagoth Instant Godking.esp
 
@@ -17599,8 +17594,8 @@ Join All Houses.esp
 Clean_Rethan_Manor_Vault.esp			;Stronghold Vaults  [Tenaka]
 Join All Houses.esp
 
-[Order]
-Clean_Tel_Ulvirith_Vault.esp			;Stronghold Vaults  [Tenaka]
+;[Order]
+;Clean_Tel_Ulvirith_Vault.esp			;Stronghold Vaults  [Tenaka]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Josie's Entertainers [Eisoj5]
@@ -20010,7 +20005,6 @@ Clean The Lost Artifacts of Morrowind.esp
 [Patch] ; ( Ref: "Lost Artifacts GDRv1 Patch Readme.txt" )
 	Darknut's "Greater Dwemer Ruins" has a minor conflict with item "Life Blood" from "Lost Artifacts of Morrowind" in the cell "Dagoth Ur, Facility Cavern", which is resolved by latendresse76's patch "LAMW_GDRv1_Patch.esp".
 	( http://mw.modhistory.com/download-1-6470 )
-
 LAMW_GDRv1_Patch.esp
 [ALL 	[ANY 	DN-GDRv<VER>.esp
 				DN-GDRv<VER>-Rebirth.esp
@@ -20616,7 +20610,7 @@ MTT IV Master.esp
 	!! It is suggested that you get a replacement patch, such as Magical Trinkets of Tamriel IV beta - Dragon32 patch, from ( http://mw.modhistory.com/download-50-6822 )
 [ANY	[ALL	[MTT IV Master.esp
 				[SIZE	!1629334 MTT IV Master.esp]] ;;Dragon32's edited version
-		MTT IV Updated v0.79.esp]
+		MTT IV Updated v0.79.esp]]
 
 [Order] ; MTT should load after WGI as they both change the MGEF which MTT uses for the floating ioun stone
 Wakim's Game Improvement 9.esp
@@ -27894,16 +27888,16 @@ horationpcenhanced12-ve.esp
 BTB - Settings (Alternate).esp
 
 ;;Dragon32: Arbitrary Order rule, Wakims' value for fAIFleeHealthMult is 56, NPC Functionality's is 20. IMO, lower the better for this value
-[Order]
-horationpcenhanced12-bm.esp
+;[Order]
+;horationpcenhanced12-bm.esp
 ;NPC Functionality.esp
 
-[Order]
-horationpcenhanced12-trib.esp
+;[Order]
+;horationpcenhanced12-trib.esp
 ;NPC Functionality.esp
 
-[Order]
-horationpcenhanced12-ve.esp
+;[Order]
+;horationpcenhanced12-ve.esp
 ;NPC Functionality.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -27937,21 +27931,21 @@ npce_mwse_patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @NPC Functionality 1.3 [Casey Tucker] ; These are all commented out for some reason so I'm gonna leave it for now (Pharis)
 
-[Conflict]
- Casey Tucker's "NPC Functionality" is an enhanced version of his "The Dialogue Request Mod".
- ( Ref: http://mw.modhistory.com/download-64-12911 )
+;[Conflict]
+; Casey Tucker's "NPC Functionality" is an enhanced version of his "The Dialogue Request Mod".
+; ( Ref: http://mw.modhistory.com/download-64-12911 )
 ;NPC Functionality.esp
-The Request Mod.esp
+;The Request Mod.esp
 
-[Conflict]
- Casey Tucker's "The Dialogue Request Mod", which his "NPC Functionality" mod is an enhanced version of, includes or replicates the behaviour of other mods: TheLys' "Give Your Orders", "Dracandros' Voice" and kirel's "How Are You?"
- ( Ref: http://mw.modhistory.com/download-45-10768 )
+;[Conflict]
+; Casey Tucker's "The Dialogue Request Mod", which his "NPC Functionality" mod is an enhanced version of, includes or replicates the behaviour of other mods: TheLys' "Give Your Orders", "Dracandros' Voice" and kirel's "How Are You?"
+; ( Ref: http://mw.modhistory.com/download-45-10768 )
 ;NPC Functionality.esp
-[ANY Give your orders v13.esp
-	 dracandrosvoice.esp
-	 archcanonsvoice.esp
-	 hortatorsvoice.esp
-	 k_howareyou.esp]
+;[ANY Give your orders v13.esp
+;	 dracandrosvoice.esp
+;	 archcanonsvoice.esp
+;	 hortatorsvoice.esp
+;	 k_howareyou.esp]
 
 [Note]
 	! Casey Tucker's "NPC Functionality" alters the distance your PC needs to be from an NPC before the NPC greets you. In vanilla Morrowind this value is 6 (if the Construction Set help is to be believed this is multiplied by the NPC's Hello rating to get the distance before they talk); "NPC Functionality" increases this value to 9 as it adds text greetings if your PC is waving a drawn weapon around.
@@ -27960,13 +27954,13 @@ The Request Mod.esp
 	 [ANY LadyD_Reduced_Commentary.esp
 		  no_greet_0705.esp]]
 
-[Order]
+;[Order]
 ;NPC Functionality.esp
-LadyD_Reduced_Commentary.esp
+;LadyD_Reduced_Commentary.esp
 
-[Order]
+;[Order]
 ;NPC Functionality.esp
-no_greet_0705.esp
+;no_greet_0705.esp
 
 [Note]
 	! Casey Tucker's "NPC Functionality" alters the distance your PC needs to be from an NPC before the NPC greets you. In vanilla Morrowind this value is 6 (if the Construction Set help is to be believed this is multiplied by the NPC's Hello rating to get the distance before they talk); "NPC Functionality" increases this value to 9 as it adds text greetings if your PC is waving a drawn weapon around.
@@ -27976,51 +27970,51 @@ no_greet_0705.esp
 		  BTB - Settings.esp]]
 
 ;;Dragon32: Checked with TESPCD
-[Conflict]
- Casey Tucker's "NPC Functionality" alters AI flee settings. There is no need to run another mod which alters the same settings.
+;[Conflict]
+; Casey Tucker's "NPC Functionality" alters AI flee settings. There is no need to run another mod which alters the same settings.
 ;NPC Functionality.esp
-[ANY MWInhabitants Flee AI Patch.esp
-	 Flee AI Tweaks.esp]
+;[ANY MWInhabitants Flee AI Patch.esp
+;	 Flee AI Tweaks.esp]
 
 ;;Dragon32: Arbitrary Order rule, Creatures' value for fAIFleeHealthMult is 25, NPC Functionality's is 20. IMO, lower the better for this value
-[Order]
-Creatures (lore).esp
+;[Order]
+;Creatures (lore).esp
 ;NPC Functionality.esp
 
-[Order]
-Creatures (Semi).esp
+;[Order]
+;Creatures (Semi).esp
 ;NPC Functionality.esp
 
-[Order]
-Creatures.esp
+;[Order]
+;Creatures.esp
 ;NPC Functionality.esp
 
 ;;Dragon32: Arbitrary Order rule, Wakims' value for fAIFleeHealthMult is 56, NPC Functionality's is 20. IMO, lower the better for this value
-[Order]
-Balance - game settings.esp
+;[Order]
+;Balance - game settings.esp
 ;NPC Functionality.esp
 
-[Order]
-Wakim's Game Improvement 9.esp
+;[Order]
+;Wakim's Game Improvement 9.esp
 ;NPC Functionality.esp
 
-[Order]
-Wakim's Game Improvements with No-glo v9.esp
+;[Order]
+;Wakim's Game Improvements with No-glo v9.esp
 ;NPC Functionality.esp
 
-[Order]
-AprogasVampire WakimImprovements.20021210.esp
+;[Order]
+;AprogasVampire WakimImprovements.20021210.esp
 ;NPC Functionality.esp
 
 ;; Dragon32 - see also Djangos Dialogue 1.3 [Von Djangos]; What Thieves Guild? 1.2 [Von Djangos]; Lore Fix 1.01 [TheOne&Only]
 ;; "I generally put the LGNPC mods after generic dialogue mods, (e.g. django's) and before quest mods. Just play around with the load order, and you'll find a good spot."
-[Order]
+;[Order]
 ;Less Lore.esp
 ;LGNPC_NoLore.esp
 ;NPC Functionality.esp
 
 ;; Dragon32: General rule of thumb of loading generic dialogue-affecting mods before the specifics of the LGNPC series. Duplicating that with the unofficial Less Generic mods by Ostar
-[Order]
+;[Order]
 ;NPC Functionality.esp
 ;Less_Generic_Bloodmoon.esp
 ;Less_Generic_Nerevarine.esp
@@ -31861,16 +31855,16 @@ SG-MW-ecology-carnivore-plugin.esp
 BTB - Settings (Alternate).esp
 
 ;;Dragon32: Arbitrary Order rule, Wakims' value for fAIFleeHealthMult is 56, NPC Functionality's is 20. IMO, lower the better for this value
-[Order]
-SG-MW-ecology-BM-plugin.esp
+;[Order]
+;SG-MW-ecology-BM-plugin.esp
 ;NPC Functionality.esp
 
-[Order]
-SG-MW-ecology-WW-plugin.esp
+;[Order]
+;SG-MW-ecology-WW-plugin.esp
 ;NPC Functionality.esp
 
-[Order]
-SG-MW-ecology-carnivore-plugin.esp
+;[Order]
+;SG-MW-ecology-carnivore-plugin.esp
 ;NPC Functionality.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -39215,16 +39209,16 @@ FleeAIFixes.esp
 Creatures.esp
 
 ;;Dragon32: Arbitrary Order rule, Wakims' value for fAIFleeHealthMult is 56, NPC Functionality's is 20. IMO, lower the better for this value
-[Order]
-FleeAIFixes.esp
+;[Order]
+;FleeAIFixes.esp
 ;NPC Functionality.esp
 
-[Order]
-FleeAIFixes.esp
+;[Order]
+;FleeAIFixes.esp
 ;NPC Functionality.esp
 
-[Order]
-FleeAIFixes.esp
+;[Order]
+;FleeAIFixes.esp
 ;NPC Functionality.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -41149,7 +41143,6 @@ Sea_of_Solstheim.esp
  Landmass conflict.
  Danjb and others have created "Wizards' Islands Super Patch" which offers a version where "Both islands have been moved north to make the mod compatible with Tamriel Rebuilt."
  http://mw.modhistory.com/download-37-14254
-
 [ANY TR_Mainland.esm
 	 TR_Preview.esp]
 [ALL	Wizards Islands - Scourge of the Frost Bringer.esm
