@@ -20609,8 +20609,8 @@ MTT IV Master.esp
 	!! Magical Trinkets of Tamriel IV (both Chris Woods' original, 'MTT IV Master.esp', and the modified version by habile, 'MTT IV Updated v0.79.esp') contains deprecated use of the function AddToLev*. For an explanation of why the functions AddToLev*/RemoveFromLev* are deprecated, please see: http://www.uesp.net/wiki/Tes3Mod:Leveled_Lists
 	!! It is suggested that you get a replacement patch, such as Magical Trinkets of Tamriel IV beta - Dragon32 patch, from ( http://mw.modhistory.com/download-50-6822 )
 [ANY	[ALL	[MTT IV Master.esp
-				[SIZE	!1629334 MTT IV Master.esp]] ;;Dragon32's edited version
-		MTT IV Updated v0.79.esp]]
+				[SIZE	!1629334 MTT IV Master.esp]]] ;;Dragon32's edited version
+		MTT IV Updated v0.79.esp]
 
 [Order] ; MTT should load after WGI as they both change the MGEF which MTT uses for the floating ioun stone
 Wakim's Game Improvement 9.esp
