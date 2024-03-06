@@ -8399,7 +8399,7 @@ BAR_Comp_Arya_v1.3_NoCap.esp
 [Conflict]
  Version 1.01 and above of Grumpy and Emma's "Companion Beryl" are fully compatible with cdcooley's "Improved Teleportation", there is no need for cdcooley's "IT Beryl and Constance Fix.esp"
  ( Ref: Readme-Beryl.txt )
-[VER>1.0 1gr_Comp_Beryl.esp]
+[VER >1.0 1gr_Comp_Beryl.esp]
 IT Beryl and Constance Fix.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10081,17 +10081,17 @@ Vampire Embrace MCA Patch.esp
  ( Ref: Diablerie_Readme.txt )
 Diablerie.esp
 [ALL [DESC /Vampire Embrace 2.4/ Vampire_Embrace.esp]
-	 [VER>1.0 Vampiric Hunger Base.esp]]
+	 [VER >1.0 Vampiric Hunger Base.esp]]
 
 [Note]
  Some features of "Diablerie" have been added into AlienSlof & Peter's "Scent of Blood" version 1.2, ensure you have the correct version.
  ( Ref: Diablerie_Readme.txt )
 [ALL Diablerie.esp
-	 [NOT [VER<1.2 ScentOfBlood.esp]
-		  [VER<1.2 ScentOfBlood_MCA.esp]
-		  [VER<1.2 ScentOfBlood_MCA_VR.esp]
-		  [VER<1.2 ScentOfBlood_MWSE_AddOn.esp]
-		  [VER<1.2 ScentOfBlood_VR.esp]]]
+	 [NOT [VER <1.2 ScentOfBlood.esp]
+		  [VER <1.2 ScentOfBlood_MCA.esp]
+		  [VER <1.2 ScentOfBlood_MCA_VR.esp]
+		  [VER <1.2 ScentOfBlood_MWSE_AddOn.esp]
+		  [VER <1.2 ScentOfBlood_VR.esp]]]
 
 [Requires]
  The optional MWSE-Addon requires the main "Diablerie" mod and will adjust the levels of the three clan leaders to scale with the levels of the ancients from Vampire Realism.
@@ -12659,7 +12659,7 @@ Magical Missions.ESP
 [Note]
 	! Version 2.0 of the Fletcher Mod is available from Morrowind Modding History
 	! http://mw.modhistory.com/download--5560
-[VER<2.0 fletcher.esp]
+[VER <2.0 fletcher.esp]
 
 [Conflict]
  Both "LGNPC Pelagiad" and Locklear93's "Fletcher Mod" change the merchant Mebestian Ence in Pelegiad. If "Fletcher Mod" loads first then Mebestian Ence will not have a fletching kit for sale, if "LGNPC Pelagiad" loads first then his LGNPC quests will not function.
@@ -17067,8 +17067,8 @@ Improved_No_Glow_v1-MW_Trib_Blood.esp
  The fix ('IT Beryl and Constance Fix.esp') included with cdcooley's "Improved Teleportation" is only for v1.0 of Grumpy and Emma's "Companion Beryl" and "Thief companion Constance" mods, later versions of these companion mods do not need the fix.
 IT Beryl and Constance Fix.esp
 [ALL ImprovedTeleportation2.0.esp
-	 [ANY [VER<1.1 1gr_Comp_Beryl.esp]
-		  [VER<1.1 constance1_0.esp]]]
+	 [ANY [VER <1.1 1gr_Comp_Beryl.esp]
+		  [VER <1.1 constance1_0.esp]]]
 
 ;;Dragon32: IT Beryl and Constance Fix.esp changes "AA_ConAlmDiv" script
 [Order]
@@ -19833,7 +19833,7 @@ LCV MCA 4.1 Patch.esp
  LCV Wolverine Hall requires that at least version 03-13 of LCV Schedules be active.
  ( Ref: LCV Wolverine Hall.html)
 LCV Wolverine Hall 01.esp
-[ANY [VER>03-12 NPC LCV Schedules 03.esp]
+[ANY [VER >03-12 NPC LCV Schedules 03.esp]
 	 NPC LCV Schedules 04 VOC.esp]
 
 ;;Ref: LCV Wolverine Hall.html
@@ -30140,7 +30140,7 @@ Suran Waterfront V-5.1.esp
 	!! With version 1.2.4 of "Pursuit Enhanced" the Go To Jail patch is no longer required.
 	!! (Ref. Readme - Pursuit Enhanced.htm)
 Pursuit Enhanced -Go To Jail Patch.esp
-[VER=1.2.4 Pursuit Enhanced.esp]
+[VER = 1.2.4 Pursuit Enhanced.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @PW_Redesigned Vivec-Vivec_Expansion.esp [Pseron Wyrd]
@@ -30417,7 +30417,7 @@ MWE_Combat.esp
  You should use v0.3 or better of Yacoby's "Encumbrance Bar" with "Rage Indicator", otherwise the bars will conflict.
  ( Ref: Readme - Rage Indicator.esp)
 Rage Indicator.esp
-[VER<0.3 Encumbrance Bar.esp]
+[VER <0.3 Encumbrance Bar.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rahj 2.51 [Inari]
@@ -31433,7 +31433,7 @@ RoHT - Tureynulal Redone Patch.ESP
  Download Malik's "ROHTvsRiptideNPCfixes" from Morrowind Modding History - http://mw.modhistory.com/download-64-13704
  ( Ref: Readme ROHTvsRiptideNPCfixes.txt )
 ROHTvsRiptide_NPCfixes.esp
-[ALL [VER=1.3 Rise of House Telvanni.esm]
+[ALL [VER =1.3 Rise of House Telvanni.esm]
 	 [ANY Riptides Face & Clothing Replace + X-Jiits.esp
 		  Riptides Face & Clothing Replace Final.esp]]
 
@@ -32018,11 +32018,11 @@ Loot Balance.esp
 [Note]
 	! The latest version of "Scent of Blood" is version 1.2.
 	! Download AlienSlof & Peter's "Scent of Blood" from Morrowind Modding History - http://mw.modhistory.com/download-98-10276
-[ANY [VER<1.2 ScentOfBlood.esp]
-	 [VER<1.2 ScentOfBlood_MCA.esp]
-	 [VER<1.2 ScentOfBlood_MCA_VR.esp]
-	 [VER<1.2 ScentOfBlood_MWSE_AddOn.esp]
-	 [VER<1.2 ScentOfBlood_VR.esp]
+[ANY [VER <1.2 ScentOfBlood.esp]
+	 [VER <1.2 ScentOfBlood_MCA.esp]
+	 [VER <1.2 ScentOfBlood_MCA_VR.esp]
+	 [VER <1.2 ScentOfBlood_MWSE_AddOn.esp]
+	 [VER <1.2 ScentOfBlood_VR.esp]
 	 ScentOfBlood_MCA_VR_NoStake.esp]
 
 [Conflict]
@@ -36130,7 +36130,7 @@ Thescrib_Leather_breton-v3.esp
 [Conflict]
  Version 1.1 and above of Grumpy and Emma's "Thief companion Constance" are fully compatible with cdcooley's "Improved Teleportation", there is no need for cdcooley's "IT Beryl and Constance Fix.esp"
  ( Ref: Constance_ver1_2_readme.txt )
-[VER<1.1 Constance1_0.esp]
+[VER <1.1 Constance1_0.esp]
 IT Beryl and Constance Fix.esp
 
 [Requires]
@@ -38143,7 +38143,7 @@ UL_TLM_Ambiance.esp
  ( Ref: "Uvirith's Legacy_README.txt" )
 UL_<VER>_RoHT_1.52_Compatibility.esp
 [ALL Uvirith's Legacy_<VER>.esp
-	 [VER=1.52 Rise of House Telvanni.esm]]
+	 [VER =1.52 Rise of House Telvanni.esm]]
 
 [Order]
 ; Ref: "Uvirith's Legacy_README.txt"
@@ -39055,7 +39055,7 @@ Vampiric Hunger Base.esp
 [Conflict]
  Do not enable the separately released 'Vampiric Hunger Bloodlust Effect.esp', there is a newer, updated version in the version 1.2 "Vampiric Hunger" package
  ( Ref: Readme_VH.htm)
-[VER=1.2 Vampiric Hunger Base.esp]
+[VER =1.2 Vampiric Hunger Base.esp]
 Vampiric Hunger Bloodlust Effect.esp
 
 [Requires]
@@ -39159,8 +39159,8 @@ Vampiric Hunger - BL.esp
  "Vampiric Illusion" requires Zennorious' "Vampiric Hunger III" v1.1 or v1.2; Cortex's "Scripted Spells" v1.5 and "Vampire Embrace" v2.4
  ( Ref: VampiricIllusion_Readme.txt )
 VampiricIllusion.esp
-[ALL [VER>1.0 Vampiric Hunger Base.esp]
-	 [VER>1.4 Scripted_Spells.esp]
+[ALL [VER >1.0 Vampiric Hunger Base.esp]
+	 [VER >1.4 Scripted_Spells.esp]
 	 [DESC /Vampire Embrace 2.4/ Vampire_Embrace.esp]]
 
 [Requires]
