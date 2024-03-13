@@ -8338,13 +8338,6 @@ NOM <VER>.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Black Queen Chronicles 2.5 [Tenaka]
 
-;; Beyond Ysgramor - damages mountain outside Seyda Neen.
-;; Load Beyond Ysgramor after Black Queen Chronicles.
-;; (Ref: http://gmml.pbwiki.com/Mod+Conflicts )
-[Order]
-Clean Black Queen Chronicles Ver 2.5.esp
-Beyond YsGramor v2.5.esm
-
 ;; Siege at Firemoth conflicts with Black Queen Chronicles.
 ;; Load Siege at Firemoth after Black Queen Chronicles.
 ;; (Ref: http://gmml.pbwiki.com/Mod+Conflicts )
