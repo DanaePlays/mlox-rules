@@ -101,6 +101,8 @@ Merged Lands.esp
 Mashed Lists.esp
 multipatch.esp
 Beautiful cities of Morrowind.ESP
+Interior exterior flag reset.esp
+BCOM_pathgrid_reset.ESP
 BTBGI Loot Patch*.ESP
 Morrowind Crafting 2*.esp
 Morrowind Crafting Equipment.esp
