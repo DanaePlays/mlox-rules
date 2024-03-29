@@ -5099,6 +5099,27 @@ SecretsOfTheCrystalCity.esp
 Clean_Mines & Caverns.esp
 Patch for Purists - Clean_Mines & Caverns - Mat.esp
 
+[Conflict]
+	If you are using OAAB - The Ashen Divide, then you need to rename MC-Ashen.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
+Clean_Mines & Caverns.esp
+MC-Ashen.esp
+
+[Conflict]
+	If you are using BCOM, then you need to rename MC-BCOM.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
+Clean_Mines & Caverns.esp
+MC-BCOM.esp
+
+[Conflict]
+	If you are using OAAB - The Ashen Divide and BCOM, then you need to rename MC-BCOM-Ashen.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
+Clean_Mines & Caverns.esp
+MC-BCOM-Ashen.esp
+
+[NOTE]
+	Make sure you use the esp replacers provided on the Clean Mines and Caverns nexus page under optional files! 
+Clean_Mines & Caverns.esp
+[ANY OAAB - The Ashen Divide.esp 
+	Beautiful cities of Morrowind.ESP]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining [TheDrunkenMudcrab]
 
