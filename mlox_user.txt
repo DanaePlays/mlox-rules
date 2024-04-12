@@ -7968,15 +7968,15 @@ AFFresh+SamarysAncestralTombExpanded.esp
 ;; AFFresh and Caldera Mine Expanded Patch
 [Requires]
 AFFresh+CalderaMineExpanded.esp
-[ALL	DD_Caldera_Expansion.esp .esp
-		AFFresh.esp]
+[ALL	DD_Caldera_Expansion.esp
+	AFFresh.esp]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
-DD_Caldera_Expansion.esp .esp
+DD_Caldera_Expansion.esp
 AFFresh.esp
 
 [Order]
-DD_Caldera_Expansion.esp .esp
+DD_Caldera_Expansion.esp
 AFFresh+CalderaMineExpanded.esp
 
 [Order]
