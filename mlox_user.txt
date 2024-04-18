@@ -6576,6 +6576,14 @@ Library of Vivec Overhaul - Lite.esp
 Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Full - Dialogue Fix.esp
 
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/49916?tab=posts ) (yohannes)
+Library of Vivec Overhaul - Full.esp
+SecretsOfTheCrystalCity.esp
+
+[Order] ; ( fixes a dialogue bug ref: https://www.nexusmods.com/morrowind/mods/49916?tab=posts )
+Library of Vivec Overhaul - QuestOnly.esp
+SecretsOfTheCrystalCity.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Red Bags [GrumblingVomit]
 
