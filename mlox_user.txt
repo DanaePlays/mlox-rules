@@ -3607,10 +3607,10 @@ DRPV1.9 - Script Fix.esp
 HM_DDD_Ghostfence_v1.0.esp
 RR_Ghost_Gate_Fortress_Eng.esp
 
-;; Total Overhaul Patches
+;; MOMW Patches
 [Conflict] ; ( Ref: tested the plugin for johnnyhostile ) (yohannes)
-	An ESP replacer for "Dynamic Distant Buildings for OpenMW - Ghostfence Plugin" that is compatible with "BCOM" is provided in "Total Overhaul Patches".
-	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52989 )
+	An ESP replacer for "Dynamic Distant Buildings for OpenMW - Ghostfence Plugin" that is compatible with "BCOM" is provided in "MOMW Patches".
+	[Replacer Download]( https://modding-openmw.gitlab.io/momw-patches/ )
 HM_DDD_Ghostfence_v1.0.esp
 Beautiful cities of Morrowind.esp
 
@@ -6576,6 +6576,14 @@ Library of Vivec Overhaul - Lite.esp
 Library of Vivec Overhaul - Full.esp
 Library of Vivec Overhaul - Full - Dialogue Fix.esp
 
+[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/49916?tab=posts ) (yohannes)
+Library of Vivec Overhaul - Full.esp
+SecretsOfTheCrystalCity.esp
+
+[Order] ; ( fixes a dialogue bug ref: https://www.nexusmods.com/morrowind/mods/49916?tab=posts )
+Library of Vivec Overhaul - QuestOnly.esp
+SecretsOfTheCrystalCity.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Red Bags [GrumblingVomit]
 
@@ -7901,9 +7909,9 @@ Tirram Terala's Treasure Trove of Trinkets.esp
 Tirram Terala's Treasure Trove of Trinkets - No Pillows.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Total Overhaul Patches [johnnyhostile]
+;; @MOMW PATCHES (formerly @Total Overhaul Patches) [johnnyhostile]
 
-;; BCOM+Imperial Towns Revamp Patch
+;; BCOM and Imperial Towns Revamp Patch
 [Order] ; ( ref: readme file ) (MasssiveJuice)
 Beautiful cities of Morrowind.esp
 BCOM+Imperial Towns Revamp Patch.esp
@@ -7918,23 +7926,15 @@ Kogoruhn - Extinct City of Ash and Sulfur+ROHT Patch.esp
 Redaynia Restored.ESP
 Redaynia Restored Mushroom Tree Replacer Patch.esp
 
-;; UvirithsLegacy+TR Patch
+;; UvirithsLegacy and TR Patch
 [Requires]
 UvirithsLegacy+TR Patch.esp
 [ALL	Uvirith's Legacy_3.53.esp
-		UL_3.5_TR_21.01_Add-on.esp]
+		UL_3.5_TR_23.10_Add-on.esp]
 
-[Order] ; ( ref: readme ) (yohannes)
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 Uvirith's Legacy_3.53.esp
-UL_3.5_TR_21.01_Add-on.esp
-
-[Order] ; ( ref: readme file ) (MasssiveJuice)
-Uvirith's Legacy_3.53.esp
-UvirithsLegacy+TR Patch.esp
-
-[Order] ; ( ref: readme ) (yohannes)
-UL_3.5_TR_21.01_Add-on.esp
-UvirithsLegacy+TR Patch.esp
+UL_3.5_TR_23.10_Add-on.esp
 
 ;; Dynamic Distant Buildings+BCOM Replacer Patch
 [Requires]
@@ -7950,23 +7950,250 @@ BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 Beautiful cities of Morrowind.esp
 BCOM+GhastlyGG+DynamicDistantBuildingsPatch.esp
 
-;; NordicDagonFel + RRBetterShipsnBoats Patch
+;; Draggle-Tail Shack Price Adjustment
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Draggle-Tail Shack.esp
+DraggleTailPriceAdjustment.esp
+
+;; AFFresh and Samarys Ancestral Tomb Expanded Patch
 [Requires]
-NordicDagonFel+RRBetterShipsnBoatsPatch.esp
-[ALL	RR_Better_Ships_n_Boats_Eng.esp
-		Nordic Dagon Fel.esp]
+AFFresh+SamarysAncestralTombExpanded.esp
+[ALL	Samarys Ancestral Tomb Expanded.esp
+		AFFresh.esp]
 
-[Order] ; ( ref: readme ) (yohannes)
-RR_Better_Ships_n_Boats_Eng.esp
-Nordic Dagon Fel.esp
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Samarys Ancestral Tomb Expanded.esp
+AFFresh.esp
 
-[Order] ; ( ref: readme ) (yohannes)
-RR_Better_Ships_n_Boats_Eng.esp
-NordicDagonFel+RRBetterShipsnBoatsPatch.esp
+[Order]
+Samarys Ancestral Tomb Expanded.esp
+AFFresh+SamarysAncestralTombExpanded.esp
 
-[Order] ; ( ref: readme ) (yohannes)
-Nordic Dagon Fel.esp
-NordicDagonFel+RRBetterShipsnBoatsPatch.esp
+[Order]
+AFFresh.esp
+AFFresh+SamarysAncestralTombExpanded.esp
+
+;; AFFresh and Caldera Mine Expanded Patch
+[Requires]
+AFFresh+CalderaMineExpanded.esp
+[ALL	DD_Caldera_Expansion.esp
+	AFFresh.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+DD_Caldera_Expansion.esp
+AFFresh.esp
+
+[Order]
+DD_Caldera_Expansion.esp
+AFFresh+CalderaMineExpanded.esp
+
+[Order]
+AFFresh.esp
+AFFresh+CalderaMineExpanded.esp
+
+;; Ebonheart Underworks MOMW Patch
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Ebonheart_Underworks.esp
+EbonheartUnderworksMOMWPatch.esp
+
+;; Mamaea Awakened OpenMW Patch
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Mamaea Awakened.esp
+MamaeaAwakenedOpenMWPatch.esp
+
+;; AFFresh and BCOM Patch
+[Requires]
+AFFresh+BCOM.esp
+[ALL	Beautiful cities of Morrowind.esp
+		AFFresh.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+AFFresh.esp
+Beautiful cities of Morrowind.esp
+
+[Order]
+AFFresh.esp
+AFFresh+BCOM.esp
+
+[Order]
+Beautiful cities of Morrowind.esp
+AFFresh+BCOM.esp
+
+;; Doors of Oblivion and TOTSP Patch
+[Requires]
+Doors of Oblivion+TOTSP Patch.esp
+[All	Solstheim Tomb of The Snow Prince.esm
+		The Doors of Oblivion 1.4.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Solstheim Tomb of The Snow Prince.esm
+The Doors of Oblivion 1.4.esp
+
+[Order]
+Solstheim Tomb of The Snow Prince.esm
+Doors of Oblivion+TOTSP Patch.esp
+
+[Order]
+The Doors of Oblivion 1.4.esp
+Doors of Oblivion+TOTSP Patch.esp
+
+;; Uvirith's Legacy and BCOM Arena Patch
+[Requires]
+UL_-_BCoM_Arena_Patch.esp
+[All	Beautiful cities of Morrowind.esp
+		Uvirith's Legacy_3.53.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Beautiful cities of Morrowind.esp
+UL_-_BCoM_Arena_Patch.esp
+
+[Order]
+Uvirith's Legacy_3.53.ESP
+UL_-_BCoM_Arena_Patch.esp
+
+;; Uvirith's Legacy and Daedric Shrine Overhaul Molag Bal Patch
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Daedric Shrine Overhaul Molag Bal.esp
+UL_-_Daedric_Shrine_Overhaul_Molag_Bal_Patch.esp
+
+;; Uvirith's Legacy and Daedric Shrine Overhaul Sheogorath Patch
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Daedric Shrine Overhaul Sheogorath.esp
+UL_-_Daedric_Shrine_Overhaul_Sheogorath.esp
+
+;; Uvirith's Legacy and OAAB Tel Mora Patch
+[Requires]
+UL_-_OAAB_Tel_Mora_Patch.esp
+[All	Uvirith's Legacy_3.53.ESP
+		OAAB_Tel Mora.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Uvirith's Legacy_3.53.ESP
+OAAB_Tel Mora.esp
+
+[Order]
+Uvirith's Legacy_3.53.ESP
+UL_-_OAAB_Tel_Mora_Patch.esp
+
+[Order]
+OAAB_Tel Mora.esp
+UL_-_OAAB_Tel_Mora_Patch.esp
+
+;; AFFresh and Adanumuran Reclaimed Patch
+[Requires]
+AFFresh+AdanumuranReclaimedPatch.esp
+[All	AFFresh.esp
+		Adanumuran Reclaimed.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+AFFresh.esp
+Adanumuran Reclaimed.esp
+
+[Order]
+AFFresh.esp
+AFFresh+AdanumuranReclaimedPatch.esp
+
+[Order]
+Adanumuran Reclaimed.esp
+AFFresh+AdanumuranReclaimedPatch.esp
+
+;; Argonian Full Helms Lore Integrated and Concept Arts plantations and The Wolverine Hall Patch
+[NOTE]
+	Make sure you use the esp replacer provided on the MOMW-Patches download page.
+Clean_Argonian Full Helms Lore Integrated.ESP
+[ALL	Concept_Arts_plantations.esp
+		RPNR_WHO.ESP]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Clean_Argonian Full Helms Lore Integrated.ESP
+Concept_Arts_plantations.esp
+
+[Order]
+Clean_Argonian Full Helms Lore Integrated.ESP
+RPNR_WHO.ESP
+
+;; Morrowind Anti-Cheese and Quest Voice Greetings Patch
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Morrowind Anti-Cheese.esp
+Morrowind_Anti-CheeseQuest_Voice_Greetings_patch.esp
+
+;; Better Clothes Complete Shoe Fix
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Better Clothes Complete.esp
+BC_shoe_fix.esp
+
+;; OpenMW Fixes For Uvirith's Legacy
+[Order]
+Uvirith's Legacy_3.53.esp
+UL_3.5_OpenMW_1.3_Add-on.esp
+
+;; AFFresh and Library of Vivec Enhanced Patch
+[Requires]
+AFFreshLibraryOfVivecEnhanced.esp
+[ALL	AFFresh.esp
+		RPNR_Library.esp]
+
+[Order] ; (ref: readme) (yohannes)
+AFFresh.esp
+AFFreshLibraryOfVivecEnhanced.esp
+
+[Order]
+AFFresh.esp
+RPNR_Library.esp
+
+[Order]
+AFFreshLibraryOfVivecEnhanced.esp
+RPNR_Library.esp
+
+;; Blademeister and Adanumuran Reclaimed Patch
+[Requires]
+BlademeisterAdanumuranReclaimedPatch.esp
+[ALL	Blademeister_v1.5.esp
+		Adanumuran Reclaimed.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Blademeister_v1.5.esp
+Adanumuran Reclaimed.esp
+
+[Order]
+Blademeister_v1.5.esp
+BlademeisterAdanumuranReclaimedPatch.esp
+
+[Order]
+Adanumuran Reclaimed.esp
+BlademeisterAdanumuranReclaimedPatch.esp
+
+;; NOD and Library of Vivec Enhanced Patch
+[Requires]
+NOD_RPNR_Library_patch.esp
+[All	NOD - Core.esm
+		RPNR_Library.ESP]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+NOD - Core.esm
+RPNR_Library.ESP
+
+[Order]
+RPNR_Library.ESP
+NOD_RPNR_Library_patch.esp
+
+;; Blademeister and Daedric Shrine Overhaul Sheogorath Patch
+[Requires]
+BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
+[ALL	Blademeister_v1.5.esp
+		Daedric Shrine Overhaul Sheogorath.esp]
+
+[Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
+Blademeister_v1.5.esp
+Daedric Shrine Overhaul Sheogorath.esp
+
+[Order]
+Blademeister_v1.5.esp
+BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
+
+[Order]
+Daedric Shrine Overhaul Sheogorath.esp
+BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @TriangleTooth's Ecology Mod [TriangleTooth]
@@ -8993,6 +9220,13 @@ The Wrath of God.esp
 	Incompatible. Use only one of these plugins.
 The Wrath of God.esp
 FNK_SV SheVivec.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Writer of the Third Era [Dillonn241]
+
+[Order]
+Writer of the Third Era.esp
+Writer of the Third Era - TR Addon.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Yet Another Guard Diversity, @YAGD [half11]
