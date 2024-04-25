@@ -1024,13 +1024,16 @@ BCOM - Open Vivec Arena_Skywind_FPS_Version.esp
 Beautiful Cities of Morrowind.esp
 Mashed Lists.esp
 BCOM_pathgrid_reset.esp
-Interior exterior flag reset.esp
+Interior exterior flag reset_Atmospheric Arena.ESP
+Interior exterior flag reset_Atmospheric Plazas.ESP
+
 BCOM_OpenMW_plazas.esp
 
 [Order]
 Beautiful Cities of Morrowind.esp
 BCOM_pathgrid_reset.esp
-Interior exterior flag reset.esp
+Interior exterior flag reset_Atmospheric Arena.ESP
+Interior exterior flag reset_Atmospheric Plazas.ESP
 BCOM_OpenMW_plazas.esp
 Interior exterior flag reset_Skywind_Arena.ESP
 
