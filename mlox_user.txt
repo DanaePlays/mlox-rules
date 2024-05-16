@@ -6024,6 +6024,11 @@ Valley of the Wind Overhaul.esp
 OAAB_GoldenReeds.esp
 OAAB_Grazelands.esp
 
+
+[Order] ; 'OAAB Grazelands' must load after to prevent conflict in 'Girith's Stolen Hides' quest (ref: MelchiorDahrk) (MassiveJuice)
+Quest Tweaks and Alternatives_<VER>.esp
+OAAB_Grazelands.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Greater Samarys [Varlothen]
 
