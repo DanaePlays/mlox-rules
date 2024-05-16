@@ -6025,9 +6025,10 @@ OAAB_GoldenReeds.esp
 OAAB_Grazelands.esp
 
 
-[Order] ; 'OAAB Grazelands' must load after to prevent conflict in 'Girith's Stolen Hides' quest (ref: MelchiorDahrk) (MassiveJuice)
-Quest Tweaks and Alternatives_<VER>.esp
-OAAB_Grazelands.esp
+[Note] ; 'OAAB Grazelands' must load after to prevent conflict in 'Girith's Stolen Hides' quest, but adding order rule creates a cycle (ref: MelchiorDahrk, Pharis) (MassiveJuice)
+	'OAAB Grazelands' must load after 'Quest Twaeks and Alternatives', but an Order rule cannot be added to mlox as it conflicts with other rules so mlox cannot correctly sort it. A patch needs to be created to solve the conflict.
+[ALL	Quest Tweaks and Alternatives_<VER>.esp
+		OAAB_Grazelands.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Greater Samarys [Varlothen]
