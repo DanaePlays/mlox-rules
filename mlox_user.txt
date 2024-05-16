@@ -927,6 +927,10 @@ LuceEdit - Guild of Vampire Hunters.esp
 Beautiful cities of Morrowind.esp
 RR_Better_Ships_n_Boats_Eng.esp
 
+[Order]
+Beautiful cities of Morrowind.ESP
+BCoM_Khuul_Lighthouse*.ESP
+
 [Order] ; Light conflicts checked in TES3View, RandomPal confirmed (Pharis)
 Beautiful Cities of Morrowind.esp
 Magical Lights.esp
@@ -1119,6 +1123,16 @@ Melodies and Moonlight.esp
 	Already merged into BCoM.
 Beautiful cities of Morrowind.ESP
 RP_Arena_Backstage.ESP
+
+[Conflict]
+	BCoM already provides an improved version of this as an optional addon in the fomod installer.
+Beautiful cities of Morrowind.ESP
+The cool Khuul Lighthouse.ESP
+
+[Conflict]
+	Already merged into BCoM.
+Beautiful cities of Morrowind.ESP
+Ebonheart Lighthouse.ESP
 
 [Conflict]
 	'BCOM Rocky West Gash.esp' is an ESP replacer, do not use it alongside the original plugin.
