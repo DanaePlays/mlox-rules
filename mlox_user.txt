@@ -201,10 +201,6 @@ WGIBalancing.esp
 ab01WGIBalancing.esp
 ab01gameplay*.esp
 
-[Order] ; just to put this one down to avoid other mods overwriting changes to cell water
-ab01gameplay*.esp
-Remiros' Tombs Expansion*.esp
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Adamantium Armor Integrated [Necrolesian]
 
@@ -853,10 +849,6 @@ Vibrant Ivy*.esp
 [Order]
 Beautiful cities of Morrowind.esp
 Trellis addon*.esp
-
-[Order]
-Morrowind Anti-Cheese.esp
-Beautiful cities of Morrowind.esp
 
 [Order]
 Morrowind Anti-Cheese Tweaked.esp
@@ -9902,7 +9894,6 @@ RP_Overhaul.esp
 [Order]
 Hold it - replacerWS.esp
 AAA 4.0 Addon - Vanilla.esp
-Morag Tong Polished+NX9.esp
 Combined clothing plugins and desele.esp
 Face Originality and Duner Nobles Overhaul.esp
 
