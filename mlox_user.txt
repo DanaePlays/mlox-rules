@@ -5614,7 +5614,6 @@ NOM3*.esp
 
 [Order] ; better keep BUUG changes to pathgrid than adding a few NOM objects... /covered also by ab01WorldFixes.esp
 NOM3*.esp
-NoM_Creatures Loot Standard.esp
 Building Up Uvirith*.esp
 
 [Order]
@@ -9419,10 +9418,6 @@ NPC_Commands*.esp
 [Order]
 Weapon Sheaths Ultimate*.esp
 NOM3*.esp
-NoM_Creatures Loot Standard.esp
-NoM_MC Compatibility Patch.esp
-NoM_CoM Compatibility Patch.esp
-NoM_BF Compatibility Patch.esp
 RoHT NoM Addon.esp
 Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp

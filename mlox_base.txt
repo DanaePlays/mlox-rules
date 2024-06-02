@@ -147,10 +147,6 @@ ab01UnderSkar.esp
 NPC_Commands*.esp
 MEN_Combat_merged.esp
 NOM3*.esp
-NoM_Creatures Loot Standard.esp
-NoM_MC Compatibility Patch.esp
-NoM_CoM Compatibility Patch.esp
-NoM_BF Compatibility Patch.esp
 RoHT NoM Addon.esp
 Owned Beds NOM.esp
 TR NoM-style Bed Renting.esp
