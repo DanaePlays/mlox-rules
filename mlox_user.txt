@@ -292,6 +292,14 @@ All Books Color-coded & Designed.ESP
 Tarhiel'sJournal.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @All Races and Classes Unlocked - Vanilla and Tamriel_Data [TinyPlesiosaur]
+
+;; Vanilla-Style Snow Elves - Falmer
+[Order] ; SnowElves.ESP modifies a script from All Races and Classes Unlocked (ref: GrumblingVomit https://discord.com/channels/210394599246659585/844189605624545340/1252282783246848051) (MassiveJuice)
+All Races and Classes Unlocked - Vanilla and Tamriel_Data.ESP
+SnowElves.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Alms for ALMSIVI [Zaarin]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
