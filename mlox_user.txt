@@ -4071,9 +4071,9 @@ correctUV Ore Replacer_respawning.esp
 
 [Conflict]
 	Choose only one plugin:
-		'Graht Morrowind Swamp Trees.esp' - Melchior Dahrk's original mod.
+		'Graht Morrowind Swamp Trees.esm' - Melchior Dahrk's original mod.
 		'Morrowind Swamp Trees.esp' - Replacer by Vegetto.
-Graht Morrowind Swamp Trees.esp
+Graht Morrowind Swamp Trees.esm
 Morrowind Swamp Trees.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -4081,7 +4081,7 @@ Morrowind Swamp Trees.esp
 
 [Requires]
 GrahtwoodRoost.esp
-Graht Morrowind Swamp Trees.esp
+Graht Morrowind Swamp Trees.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @The Great Wizard Fantasco [DasOmega]
