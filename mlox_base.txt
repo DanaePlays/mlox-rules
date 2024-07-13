@@ -35403,14 +35403,6 @@ TR_Mainland.esm
 TR_Preview.esp
 TR_Travels.esp
 
-[Note]
-	!! The Tamriel Rebuilt readme says:
-	!! "Users who fail to register the BSA correctly will often find that loading Tamriel Rebuilt will result in a lot of "missing meshes/animation" error dialog messages popping up on load, some even fatal. Please double-check your Morrowind.ini file to ensure our Data Archive is registered properly, otherwise the game won't load."
-	!! mlox cannot check if you have made this change to your morrowind.ini
-	!!
-[ANY	TR_Mainland.esm
-		TR_Preview.esp]
-
 [Conflict]
 	Do not load Tamriel Rebuilt's old maps ("Map 1 - Telvannis" or "Map 2 - Antediluvian Secrets") with 'TR_Mainland.esm', which contains all previously released "Tamriel Rebuilt" maps.
 TR_Mainland.esm
