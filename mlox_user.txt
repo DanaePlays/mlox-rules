@@ -4696,17 +4696,6 @@ KogoruhnExpanded.esp
 Dangerous Roads of Morrowind*.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @Kogoruhn - Extinct City of Ash and Sulfur, @Kogoruhn ECoAaS [johnnyhostile]
-
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51615 ) (MasssiveJuice)
-Riharradroon - Path to Kogoruhn v1.0.ESP
-Kogoruhn - Extinct City of Ash and Sulfur.esp
-
-[Requires]
-Kogoruhn - Extinct City of Ash and Sulfur.esp
-Riharradroon - Path to Kogoruhn v1.0.ESP
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @LDM [Lucevar]
 
 [Order]
