@@ -4130,6 +4130,13 @@ abotGuars.esp
 abotGuars-OpenMW patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Guiding Guild [Kalinter]
+
+[Order] ; ( Ref: Guiding Guild description ) (Dary)
+Beautiful Cities of Morrowind.esp
+The Guiding Guild.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Guild of Vampire Hunters [AliceL93]
 
 [Conflict]
