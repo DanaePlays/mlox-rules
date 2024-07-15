@@ -475,6 +475,12 @@ Meteorite Ministry Palace*.esp
 Meteorite Ministry Temple*.esp
 Higher Ministry of Truth.esp
 
+[Note] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51813 )
+	Make sure to use the patch from Vegetto's Important Patches
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51813 )
+[ALL	Meteorite Ministry Palace.esp
+	Baar Dau - Ministry of Truth.esp]
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balmora Gravemarket [Markond]
 
