@@ -7241,7 +7241,7 @@ The Sable Dragon*.esp
 Shipyards of Vvardenfell.esp
 Beautiful Cities of Morrowind.esp
 
-[Order] ; See mod description ( Ref: https://www.nexusmods.com/morrowind/mods/51928) (Dary)
+[Order] ; See mod description ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Dary)
 Marbled Zafirbel Bay.esp
 Shipyards of Vvardenfell.esp
 
