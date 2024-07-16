@@ -4699,7 +4699,7 @@ Dangerous Roads of Morrowind*.esp
 ;; @Kogoruhn - Extinct City of Ash and Sulfur, @Kogoruhn ECoAaS [johnnyhostile]
 
 ;; 'Riharradroon - Hidden Path to Kogoruhn'
-;; Previously a required mod. Noww compatible, but not required (see comments on Kogoruhn mod page by Demanufacturer87 on 2023-04-11 and 2023-11-06)
+;; Previously a required mod. Now compatible, but not required (see comments on Kogoruhn mod page by Demanufacturer87 on 2023-04-11 and 2023-11-06)
 [Order] ; ( ref: previously advised in mod description before dependency removed in v2.4, https://www.nexusmods.com/morrowind/mods/51615 ) (MasssiveJuice)
 Riharradroon - Path to Kogoruhn v1.0.ESP
 Kogoruhn - Extinct City of Ash and Sulfur.esp
