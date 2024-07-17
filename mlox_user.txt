@@ -467,13 +467,28 @@ RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Baar Dau Mods, @Meteorite Ministry, @Ministry of Truth [Various]
 
-[Conflict]
+[Conflict] ; all conflict except 'Baar Dau - Ministry of Truth.esp' and 'Meteorite Ministry Palace.esp' (MassiveJuice)
 	These plugins all overhaul, move, or otherwise alter Baar Dau, use only one of them.
 Baar Dau.esp
 Baar Dau - Ministry of Truth.esp
-Meteorite Ministry Palace*.esp
-Meteorite Ministry Temple*.esp
 Higher Ministry of Truth.esp
+Meteorite Ministry Temple*.esp
+Meteorite Ministry Palace - Higher.esp
+
+;; Meteorite Ministry
+[Conflict] ; 'Meteorite Ministry Palace.esp' conflicts with other Baar Dau mods except 'Baar Dau - Ministry of Truth.esp' if using patch from Vegetto ( Ref: https://www.nexusmods.com/morrowind/mods/51813 ) (MassiveJuice)
+	These plugins all overhaul, move, or otherwise alter Baar Dau, use only one of them.
+Meteorite Ministry Palace.esp
+[ANY	Baar Dau.esp
+	Higher Ministry of Truth.esp
+	Meteorite Ministry Temple*.esp
+	Meteorite Ministry Palace - Higher.esp]
+
+[Note] ; ( Ref: https://www.nexusmods.com/morrowind/mods/51813 ) (Dary)
+	! Make sure to use the 'Meteorite Ministry - Baar Dau Ministry patch' patch from 'Vegetto's Important Patches'
+	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51813 )
+[ALL	Meteorite Ministry Palace.esp
+	Baar Dau - Ministry of Truth.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Balmora Gravemarket [Markond]
@@ -4130,6 +4145,13 @@ abotGuars.esp
 abotGuars-OpenMW patch.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Guiding Guild [Kalinter]
+
+[Order] ; ( Ref: Guiding Guild description ) (Dary)
+Beautiful Cities of Morrowind.esp
+The Guiding Guild.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Guild of Vampire Hunters [AliceL93]
 
 [Conflict]
@@ -4685,13 +4707,11 @@ Dangerous Roads of Morrowind*.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Kogoruhn - Extinct City of Ash and Sulfur, @Kogoruhn ECoAaS [johnnyhostile]
 
-[Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51615 ) (MasssiveJuice)
+;; 'Riharradroon - Hidden Path to Kogoruhn'
+;; Previously a required mod. Now compatible, but not required (see comments on Kogoruhn mod page by Demanufacturer87 on 2023-04-11 and 2023-11-06)
+[Order] ; ( ref: previously advised in mod description before dependency removed in v2.4, https://www.nexusmods.com/morrowind/mods/51615 ) (MasssiveJuice)
 Riharradroon - Path to Kogoruhn v1.0.ESP
 Kogoruhn - Extinct City of Ash and Sulfur.esp
-
-[Requires]
-Kogoruhn - Extinct City of Ash and Sulfur.esp
-Riharradroon - Path to Kogoruhn v1.0.ESP
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @LDM [Lucevar]
@@ -7238,6 +7258,10 @@ The Sable Dragon*.esp
 [Order] ; Order of all three specified ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Pharis)
 Shipyards of Vvardenfell.esp
 Beautiful Cities of Morrowind.esp
+
+[Order] ; See mod description ( Ref: https://www.nexusmods.com/morrowind/mods/51928 ) (Dary)
+Marbled Zafirbel Bay.esp
+Shipyards of Vvardenfell.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Silgrad Tower [Various]
