@@ -8785,10 +8785,6 @@ F&F_*.esp
 Friends & Frens*.esp
 
 [Order]
-Wares_TR_npcs.esp
-TR_Travels*.esp
-
-[Order]
 Animated_Morrowind - merged*.esp
 F&F_TR.esp
 
@@ -8906,31 +8902,10 @@ Friends & Frens - base.esm
 
 [Conflict]
 	Use only one of these plugins:
-		'Wares_TR_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
-		'Wares_TR_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
-Wares_TR_npcs.esp
-Wares_TR_npcs_purist.esp
-
-[Conflict]
-	Use only one of these plugins:
 		'Wares_VV_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
 		'Wares_VV_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
 Wares_VV_npcs.esp
 Wares_VV_npcs_purist.esp
-
-[Conflict]
-	Use only one of these plugins:
-		'Wares_PC_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
-		'Wares_PC_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
-Wares_PC_npcs.esp
-Wares_PC_npcs_purist.esp
-
-[Conflict]
-	Use only one of these plugins:
-		'Wares_SHOTN_npcs.esp'- NPC use Wares lists including Wares-Aware mods.
-		'Wares_SHOTN_npcs_purist.esp' - NPC use Wares lists but only TD/OAAB, respecting value and style.
-Wares_SHOTN_npcs.esp
-Wares_SHOTN_npcs_purist.esp
 
 [Conflict]
 	Use only one of these plugins:
@@ -8960,8 +8935,8 @@ NOD -*.esp
 [Patch]
 	A patch for "Wares Ultimate" and "NOD - NPC Outfit Diversity" is provided in the "Wares Ultimate" archive.
 NOD - Wares.esp
-[ALL	[ANY	Wares_VV_npcs.esp
-				Wares_VV_npcs_purist.esp]
+[ALL	[ANY	Wares_npc_full.ESP
+				Wares_npc_purist.ESP]
 		NOD - Core.esm]
 
 ;; Alvazir's Various Patches - Wares Base Expansion (Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (MasssiveJuice)
@@ -9093,21 +9068,6 @@ Wares-base - Expansion - Wolverine Hall Interior Expanded - No Legion HQ.esp
 [Order] ; Your Own Ashlander Tribe
 Your Own Ashlander Tribe.ESP
 Wares-base - Expansion - Your Own Ashlander Tribe.esp
-
-[Conflict]
-	"Wares-base - Expansion - Cyr_Main.esp" is outdated. Use PC addons from "Wares Ultimate" instead.
-Wares-base - Expansion - Cyr_Main.esp
-[ANY	Wares_PC_*.esp]
-
-[Conflict]
-	"Wares-base - Expansion - Sky_Main.esp" is outdated. Use SHOTN addons from "Wares Ultimate" instead.
-Wares-base - Expansion - Sky_Main.esp
-[ANY	Wares_SHOTN_*.esp]
-
-[Conflict]
-	"Wares-base - Expansion - TR_Mainland.esp" is outdated. Use TR addons from "Wares Ultimate" instead.
-Wares-base - Expansion - TR_Mainland.esp
-[ANY	Wares_TR_*.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Wealth Within Measure [Texafornian]
