@@ -2182,7 +2182,7 @@ BTBGIsation - BT_Whitewolf_2_0_HOTV.esp
 BTBGIsation - Camonna Tong.esp
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 BTBGIsation - Clean_Mines & Caverns.esp
 
 [Order]
@@ -2655,7 +2655,7 @@ Camonna Tong.esp
 BTBGIsation - Merged.esp
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 BTBGIsation - Merged.esp
 
 [Order]
@@ -4022,11 +4022,11 @@ Glowing Flames - TrueLightsAndDarkness Tweaks.esp
 	A patch for "God of Worms" and "Mines & Caverns" is provided on the "God of Worms" mod page.
 	[Patch Download]( https://www.nexusmods.com/morrowind/mods/48028 )
 GoW-MaC Patch.esp
-[ALL	Clean_Mines & Caverns.esp
+[ALL	Mines & Caverns.esp
 		God of Worms.esp]
 
 [Order] ; Patch after plugins it patches ( Ref: https://www.nexusmods.com/morrowind/mods/48028 ) (Pharis)
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 GoW-MaC Patch.esp
 
 [Order]
@@ -5101,19 +5101,19 @@ Memento Mori - OpenMW Patch.esp
 ;; @Mines and Caverns [jsp25]
 
 [Order] ; From Alvazir's Various Patches (Pharis)
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 Clean_Mines & Caverns - Script Fix.esp
 
 [Order]
 RedMountainReborn.esp
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 Shal_Overgrown.esp
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 Adanumuran_Reclaimed.esp
 
 [Order]
@@ -5125,37 +5125,23 @@ Mines & Caverns_Solstheim.esp
 ab01scenicCompilation*.esp
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 Clean_KS_Julan_Ashlander - MC_patch.esp
 
-[Order]
-Clean_Mines & Caverns.esp
-SecretsOfTheCrystalCity.esp
-
-[Order] ; From Alvazir's Various Patches (MasssiveJuice)
-Clean_Mines & Caverns.esp
+[Conflict] ; From Alvazir's Various Patches, and M&C changelog (MasssiveJuice)
+	Patch by Alvazir is outdated as Mat is no longer in M&C
+Mines & Caverns.esp
 Patch for Purists - Clean_Mines & Caverns - Mat.esp
 
 [Conflict]
-	If you are using OAAB - The Ashen Divide, then you need to rename MC-Ashen.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
-Clean_Mines & Caverns.esp
+	If you are using OAAB - The Ashen Divide, then you need to rename MC-Ashen.esp to Mines & Caverns.esp and disable the original Mines & Caverns.esp
+Mines & Caverns.esp
 MC-Ashen.esp
 
-[Conflict]
-	If you are using BCOM, then you need to rename MC-BCOM.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
-Clean_Mines & Caverns.esp
-MC-BCOM.esp
-
-[Conflict]
-	If you are using OAAB - The Ashen Divide and BCOM, then you need to rename MC-BCOM-Ashen.esp to Clean_Mines & Caverns.esp and disable the original Clean_Mines & Caverns.esp
-Clean_Mines & Caverns.esp
-MC-BCOM-Ashen.esp
-
 [NOTE]
-	Make sure you use the esp replacers provided on the Clean Mines and Caverns nexus page under optional files! 
-Clean_Mines & Caverns.esp
-[ANY OAAB - The Ashen Divide.esp 
-	Beautiful cities of Morrowind.ESP]
+	Make sure you use the esp replacer provided on the Clean Mines and Caverns nexus page under optional files! 
+Mines & Caverns.esp
+OAAB - The Ashen Divide.esp 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining [TheDrunkenMudcrab]
@@ -5168,7 +5154,7 @@ Mining Pick Requirement - correctUV Ore Replacer_fixed from GH.esp
 ;; @Ministry of Clarity [Corsair, Danae, Darknut, Merlord]
 
 [Order]
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 Ministry_of_Clarity.esp
 
 [Order]
@@ -7226,7 +7212,7 @@ Last Wish 2.0.esp
 ;; @Secrets of the Crystal City [JettN77, Melchior Dahrk, Peter/Halovarium, seelof]
 
 [Order] ; If Mines & Caverns loads after Massama Cave is filled with water ( Ref: readme https://www.nexusmods.com/morrowind/mods/51932 ) (Pharis)
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 SecretsOfTheCrystalCity.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -7475,7 +7461,7 @@ SU3fixes.esp
 ;; @Swapping Samarys and Addamasartus [magerrer]
 
 [Order] ; Otherwise the exit door to Addamasartus will revert back to its vanilla location (Pharis)
-Clean_Mines & Caverns.esp
+Mines & Caverns.esp
 SwapAddamasartusSamarys_<VER>.esp
 
 [Order]
