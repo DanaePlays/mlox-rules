@@ -8925,6 +8925,12 @@ NOD - Wares.esp
 				Wares_npc_purist.ESP]
 		NOD - Core.esm]
 
+[Requires] ; (ref: Danae https://discord.com/channels/210394599246659585/844189605624545340/1269942182979174472 ) (MassiveJuice)
+	The "NOD - NPC Outfit Diversity" patch for "Wares Ultimate" is only required if using Wares NPCs.
+NOD - Wares.esp
+[ANY	Wares_npc_full.ESP
+		Wares_npc_purist.ESP]
+
 ;; Alvazir's Various Patches - Wares Base Expansion (Ref: https://www.nexusmods.com/morrowind/mods/48955 ) (MasssiveJuice)
 
 [Order] ; Ald-Ruhn Temple Expansion
