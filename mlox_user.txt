@@ -4643,6 +4643,34 @@ Psy_IronMeshImprove_Uniques_E.esp
 Psy_IronMeshImprove_Uniques_I.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; It Takes One to Know One [Danae]
+
+[Order]
+Imperial Knights Faction.esp
+It Takes One to Know One.esp
+
+[Order]
+Nar's Vampire Hunter Faction.esp
+It Takes One to Know One.esp
+
+[Order]
+Suran_Underworld_v3.ESP
+Suran Underworld - Redux.esp
+It Takes One to Know One.esp
+
+[Order]
+Illuminated Order Improved.esp
+It Takes One to Know One.esp
+
+[Order]
+It Takes One to Know One.esp
+It Takes One to Know One - Harder Requirements.esp
+
+[Order]
+Imperial Factions.esp
+It Takes One to Know One - Harder Requirements.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Julan Ashlander Companion [Kateri]
 
 [Order]
