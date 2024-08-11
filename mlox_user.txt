@@ -4667,6 +4667,7 @@ It Takes One to Know One.esp
 It Takes One to Know One - Harder Requirements.esp
 
 [Order]
+TR_Factions.esp
 Imperial Factions.esp
 It Takes One to Know One - Harder Requirements.esp
 
