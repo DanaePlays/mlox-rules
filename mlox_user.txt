@@ -6103,6 +6103,62 @@ BTB's Game Improvements (Necro Edit)*.esp
 OAAB Ingredients.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @OAAB_Saplings [Melchior Dahrk, MassiveJuice and Sophie]
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Data.esm
+OAAB_Saplings.esm
+
+[Order] ; (ref: MassiveJuice) SWP patch should load after BCOM patch
+OAAB_Saplings BCOM patch.esp
+OAAB_Saplings SWP patch.esp
+
+[Requires] ; (ref: MassiveJuice) SWP Patch requires BCOM patch like the original mods
+OAAB_Saplings SWP patch.esp
+[ALL	OAAB_Saplings BCOM patch.esp
+	Beautiful cities of Morrowind.ESP
+	Better Landscapes Stonewood Pass (RP Edit).esp]
+
+[Requires] ; (ref: MassiveJuice)
+OAAB_Saplings BCOM patch.esp
+Beautiful cities of Morrowind.ESP
+
+[Requires] ; (ref: MassiveJuice)
+OAAB_Saplings Concept Art Plantations BCOM patch.ESP
+[ALL	Beautiful cities of Morrowind.ESP
+	Concept_Arts_plantations.esp]
+
+[Requires] ; (ref: MassiveJuice)
+OAAB_Saplings Great Seawall of Vivec patch.esp
+Great Seawall of Vivec.ESP
+
+[Requires] ; (ref: MassiveJuice)
+OAAB_Saplings Road to the Lighouse Patch.esp
+The Road To The Lighthouse.ESP
+
+;; Grass Remover patches
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Saplings BCOM patch.esp
+OAAB_Saplings_Remover*.esp
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Saplings SWP patch.esp
+OAAB_Saplings_Remover*.esp
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Saplings Concept Art Plantations BCOM patch.ESP
+OAAB_Saplings_Remover*.esp
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Saplings Great Seawall of Vivec patch.esp
+OAAB_Saplings_Remover*.esp
+
+[Order] ; (ref: MassiveJuice)
+OAAB_Saplings Road to the Lighouse Patch.esp
+OAAB_Saplings_Remover*.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @OAAB Tel Mora [Melchior Dahrk]
 
 [Order] ; else no new path grid for platforms
