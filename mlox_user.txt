@@ -6103,7 +6103,7 @@ BTB's Game Improvements (Necro Edit)*.esp
 OAAB Ingredients.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; @OAAB_Saplings [Melchior Dahrk, MassiveJuice and Sophie]
+;; @OAAB Saplings [Melchior Dahrk, MassiveJuice and Sophie]
 
 [Order] ; (ref: MassiveJuice)
 OAAB_Data.esm
