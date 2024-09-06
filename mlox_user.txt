@@ -1056,8 +1056,12 @@ Interior exterior flag reset_Atmospheric Plazas.ESP
 BCOM_OpenMW_plazas.esp
 Interior exterior flag reset_Skywind_Arena.ESP
 
-[Order] ; rule for replacer maintained by ActuallyUlysses here: https://www.nexusmods.com/morrowind/mods/52726
+[Order] ; rule for replacer maintained by ActuallyUlysses (ref: https://www.nexusmods.com/morrowind/mods/52726 )
 Beautiful cities of Morrowind.esp
+BalmoraDocks.esp
+
+[Order] ; rule for replacer maintained by ActuallyUlysses (ref: https://www.nexusmods.com/morrowind/mods/52726 )
+BCoM_WaterWorks.ESP
 BalmoraDocks.esp
 
 [Order]
@@ -1175,8 +1179,8 @@ Beautiful cities of Morrowind.esp
 		BCOM Ahnassi's House.esp
 		OAAB Better Caldera Interiors.esp]
 
-[Conflict] ; replacer maintained by ActuallyUlysses
-	Original mod is not compatible with "Beautiful Cities of Morrowind". Use replacer made by ActuallyUlysses
+[Note] ; replacer maintained by ActuallyUlysses (MassiveJuice)
+	Original "Balmora Docks" is not compatible with "Beautiful Cities of Morrowind". Use replacer made by ActuallyUlysses
 	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52726 )
 Beautiful cities of Morrowind.esp
 BalmoraDocks.esp
