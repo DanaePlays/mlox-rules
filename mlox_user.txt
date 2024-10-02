@@ -6128,9 +6128,8 @@ OAAB_Saplings BCOM patch.esp
 Beautiful cities of Morrowind.ESP
 
 [Requires] ; (ref: MassiveJuice)
-OAAB_Saplings Concept Art Plantations BCOM patch.ESP
-[ALL	Beautiful cities of Morrowind.ESP
-	Concept_Arts_plantations.esp]
+OAAB_Saplings Concept Arts plantations patch.ESP
+Concept_Arts_plantations.esp
 
 [Requires] ; (ref: MassiveJuice)
 OAAB_Saplings Great Seawall of Vivec patch.esp
