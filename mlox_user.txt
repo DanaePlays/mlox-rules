@@ -7291,10 +7291,24 @@ SecretOfVilmuhn.esm
 TR_Mainland.esm
 SecretOfVilmuhn.esm
 
+[Order] ; (Reference: MasssiveJuice)
+SOV_Data.esm
+SecretOfVilmuhn.esm
+
 [Conflict] ; (Reference: MasssiveJuice)
 	'Last Wish' by Tel Shadow conflicts with SoV as the landmasses overlap
 SecretOfVilmuhn.esm
 Last Wish 2.0.esp
+
+;; SOV_Data
+
+[Order] ; (Reference: MasssiveJuice)
+OAAB_Data.esm
+SOV_Data.esm
+
+[Order] ; (Reference: MasssiveJuice)
+Tamriel_Data.esm
+SOV_Data.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Secrets of the Crystal City [JettN77, Melchior Dahrk, Peter/Halovarium, seelof]
