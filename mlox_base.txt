@@ -30245,7 +30245,7 @@ DremoraLords.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Quick Character Creation
 
-;; Quest Voice Greeting overwrites chargen captain's script, effectively breaking the chargen process
+;; Quest Voice Greetings overwrites chargen captain's script, effectively breaking the chargen process
 [Order]
 Quest Voice Greetings.ESP
 Quick Character Creation.esp
