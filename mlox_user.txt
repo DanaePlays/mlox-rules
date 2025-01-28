@@ -5448,6 +5448,7 @@ MDMD - More Deadly Morrowind Denizens.esp
 The Raven 1.5.4.esp
 MDMD - More Deadly Morrowind Denizens.esp
 
+[Order]
 The Raven 1.5.4.esp
 MDMD - Bosses Only.esp
 
