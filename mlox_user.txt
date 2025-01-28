@@ -8973,20 +8973,22 @@ Wares-MOAR.esp
 Wares-even-MOAR.esp
 
 [Conflict] ; (Ref: https://www.nexusmods.com/morrowind/mods/49251? )
-	"Friends and Foes" includes and expands on "CM_Partners", "Outlaws", "Starfire's npcs" and "MCA". F&F_base.esm is an older version of Friends and Foes
+	"Friends and Foes" includes and expands on "CM_Partners", "Outlaws", "Starfire's npcs" and "MCA". F&F_base.esm is an older version of Friends and Foes.
 Friends_and_Foes_base.esm
-[ANY	CM_Partners_*.esp
+[ANY	CM_Partners_<VER>.esp
 		Outlaws.esp
 		OutlawsTR.esp
-		Starfires*.esp
+		Starfires NPC Additions ver-<VER>.esp
 		F&F_base.esm
-		MCA*.esp]
+		MCA.esm
+		Morrowind Comes Alive.esm]
 
 [Conflict] ; (Ref: https://www.nexusmods.com/morrowind/mods/49251? )
-	"Friends and Frens" includes and expands on companions from "CM_Partners""MCA".
+	"Friends and Frens" includes and expands on companions from "CM_Partners" and "MCA".
 Friends & Frens - base.esm
-[ANY	CM_Partners_*.esp
-		MCA*.esp]
+[ANY	CM_Partners_<VER>.esp
+		MCA.esm
+		Morrowind Comes Alive.esm]
 
 [Conflict]
 	Use only one of these plugins:
