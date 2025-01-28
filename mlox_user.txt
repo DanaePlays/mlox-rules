@@ -5307,13 +5307,6 @@ Morag Tong Polished - TR_Factions - EcoAdjCrime_NE.esp
 Heins Morag Tong Armor.esp
 Morag Tong Polished.esp
 
-[Patch] ; Moves a misplaced NPC if using "Morag Tong Polished" with "BCOM" (MasssiveJuice)
-	A patch for "Morag Tong Polished" and "BCOM" is available from "Beyond's Various Patches" and also works with the "VFWE" version of "Morag Tong Polished".
-	[Patch Download]( https://www.nexusmods.com/morrowind/mods/51194 )
-Morag Tong Polished - BCoM Patch.ESP
-[ALL	Morag Tong Polished.esp
-		Beautiful cities of Morrowind.ESP]
-
 [Order] ; ( ref: https://www.nexusmods.com/morrowind/mods/51194 ) (MasssiveJuice)
 Morag Tong Polished.esp
 Morag Tong Polished - BCoM Patch.ESP
