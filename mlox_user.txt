@@ -4290,8 +4290,8 @@ LGNPC__merged.esp
 CultSheog.esp
 CultSheog-TR1912.esp
 
-[Order]
-MDMD*.esp
+[Order] ; Conflicts with various NPC records of the cult members
+MDMD - More Deadly Morrowind Denizens.esp
 CultSheog.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -5321,11 +5321,11 @@ Better Enchantments.esp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD [AutumnBramble]
 
-[Order] ; Conflict with one creature, addon should probably win that (Pharis)
+[Order] ; Conflict with one creature, addon should probably win that
 MDMD - More Deadly Morrowind Denizens.esp
 MDMD - Creatures Add-On.esp
 
-[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs ) (Pharis)
+[Order] ; ( Ref: https://www.nexusmods.com/morrowind/mods/47129?tab=docs )
 Expansions Integrated.esp
 MDMD - More Deadly Morrowind Denizens.esp
 
@@ -5362,42 +5362,101 @@ MDMD - More Deadly Morrowind Denizens.esp
 Gavrilo93*.esp
 MDMD - More Deadly Morrowind Denizens.esp
 
+;; Economy Adjuster
+
+; EcoAdj(Sri+Ingredients).esp and EcoAdjDaedricDrops.esp both conflict
+; with MDMD plugins on creature records but those conflicts are best left
+; to a merged plugin
+
+; Not sure where this plugin is from. If it is just a simple merge these rules are not needed
 [Order]
-MDMD*.esp
+MDMD - More Deadly Morrowind Denizens.esp
+MDMD - Creatures Add-On.esp
 EcoAdj5mMerged.esp
 
 [Order]
-MDMD*.esp
-JoinAllHouses*.esp
+MDMD - Bosses Only.esp
+EcoAdj5mMerged.esp
+
+;; Join All Houses
+
+; Conflict with Vedam Dren NPC record
+; allhouse.esp is v1.1 of Join All Houses from MMH
 
 [Order]
-MDMD*.esp
+MDMD - More Deadly Morrowind Denizens.esp
+Join All Houses.esp
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.esp
+allhouse.esp
+
+[Order]
+MDMD - Bosses Only.esp
+Join All Houses.esp
+
+[Order]
+MDMD - Bosses Only.esp
+allhouse.esp
+
+;; Tales of Ald Velothi
+
+[Order] ; Conflict on single NPC record for Gordol. Unsure if necessary
+MDMD - More Deadly Morrowind Denizens.esp
 Tales of Ald Velothi.esp
 
 [Order]
-MDMD*.esp
+MDMD - Bosses Only.esp
+Tales of Ald Velothi.esp
+
+;; To Serve Sithis
+
+; Conflicts with various NPC records. Needs a check to see whether any explicit ordering is actually needed
+[Order]
+MDMD - More Deadly Morrowind Denizens.esp
 To Serve Sithis.esp
 
 [Order]
-MDMD*.esp
+MDMD - Bosses Only.esp
+To Serve Sithis.esp
+
+; Badly named version of "To Serve Sithis" on the Nexus
+[Order]
+MDMD - More Deadly Morrowind Denizens.esp
+Clean To Serve Sithis_.esp
+
+[Order]
+MDMD - Bosses Only.esp
+Clean To Serve Sithis_.esp
+
+[Order]
+MDMD - More Deadly Morrowind Denizens.esp
+MDMD - Creatures Add-On.esp
+LGNPC*merged.esp
+
+[Order]
+MDMD - Bosses Only.esp
 LGNPC*merged.esp
 
 [Order]
 DN-GDR-MRMlite.esp
 MDMD - More Deadly Morrowind Denizens.esp
 
-[Order] ; To keep MDMD's changes to Sorkvild, TES3Merge will fix other conflicts ( Ref: I checked in TES3View because someone asked ) (Pharis)
+; To keep MDMD's changes to Sorkvild, TES3Merge will fix other conflicts
+; ( Ref: I checked in TES3View because someone asked )
+[Order]
 The Raven 1.5.4.esp
 MDMD - More Deadly Morrowind Denizens.esp
 
-[Order] ; To keep MDMD's changes to Sorkvild, TES3Merge will fix other conflicts ( Ref: I checked in TES3View because someone asked ) (Pharis)
 The Raven 1.5.4.esp
 MDMD - Bosses Only.esp
 
 ;; Morrowind Anti-Cheese
-; Putting main MDMD plugin after Anti-Cheese will also put the Creatures Add-On and Uvirith's Legacy plugins after it so no need for more rules here
+
+; Putting main MDMD plugin after Anti-Cheese will also put the Creatures Add-On
+; and Uvirith's Legacy plugins after it so no need for more rules here
 ; Stupid interaction with BTBGI rules
-; [Order] ; ( Ref: MDMD Readme ) (Pharis)
+; [Order] ; ( Ref: MDMD Readme )
 ; Morrowind Anti-Cheese.esp
 ; MDMD - More Deadly Morrowind Denizens.esp
 ;
@@ -5405,7 +5464,7 @@ MDMD - Bosses Only.esp
 ; Morrowind Anti-Cheese.esp
 ; MDMD - Bosses Only.esp
 ;
-; [Order] ; ( Ref: MDMD Readme ) (Pharis)
+; [Order] ; ( Ref: MDMD Readme )
 ; Morrowind Anti-Cheese Tweaked.esp
 ; MDMD - More Deadly Morrowind Denizens.esp
 ;
@@ -5414,7 +5473,9 @@ MDMD - Bosses Only.esp
 ; MDMD - Bosses Only.esp
 
 ;; Uvirith's Legacy Patch
-; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins ( and after 'The Raven 1.5.4.esp' but that is covered by another rule ) (Pharis)
+
+; Overwrites NPC records for Gothren and Sorkvild, needs to be after both plugins
+; ( and after 'The Raven 1.5.4.esp' but that is covered by another rule )
 [Order]
 MDMD - More Deadly Morrowind Denizens.esp
 mdmd - uvirith legacy cooperation.esp
