@@ -313,6 +313,11 @@ Grass_DBA.esp
 Grass_MA_RoK.esp
 Grass_SOP.esp
 lush_synthesis_*.esp
+Rem_AC_No_Sheogorad.esp
+Rem_AL_RMR+Kogoruhn Expanded.esp
+Rem_WG - StoneWood Pass.esp
+AesAdGrass_AC - No Sheogorad.esp
+AesAdGrass_GL_Trackless.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Plugins using Deprecated Leveled List Functions on Bethsoft lists
