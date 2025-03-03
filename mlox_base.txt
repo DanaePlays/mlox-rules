@@ -41686,6 +41686,13 @@ X-jiit.esp
 X-jiitCompanionsTB.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Mages Guild Stronghold Nchagalelft load order for OpenMW patches from modding-openmw.com and BCOM
+[Order]
+MGO Building Up Nchagalelft.esp
+BCOM_MGOBuildingUpNchagalelft_Patch.esp
+MGOBuildingUpNchagalelft_OpenMWPatch.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Zanpakuto Bleach mod  [Meusnoorn under my normal pseudonym Blodskaal]
 
 [Requires]
