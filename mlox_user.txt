@@ -10235,3 +10235,19 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
 Alex's Better Fitted Female Armors.ESP
 Clean_Nordic Fur Armour Replacer Symph.esp
+
+; Even More Illuminated Order Improved Fixes by Lucevar and Ronik (codering)
+[Order]
+Illuminated Order Improved.ESP
+Beautiful cities of morrowind.esp
+IlluminatedOrder_BCoM_patch.ESP
+
+[Order]
+Illuminated Order Improved.ESP
+OAAB - Tombs and Towers.ESP
+IlluminatedOrder_OAABTombsandTowers_patch.ESP
+
+[Order]
+Illuminated Order Improved.ESP
+SecretsOfTheCrystalCity.esp
+IlluminatedOrder_SecretsoftheCrystalCity_patch.ESP
