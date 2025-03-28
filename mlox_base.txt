@@ -30248,6 +30248,14 @@ Quorn Resource Integration.ESP
 DremoraLords.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Quick Character Creation
+
+;; Quest Voice Greetings overwrites chargen captain's script, effectively breaking the chargen process
+[Order]
+Quest Voice Greetings.ESP
+Quick Character Creation.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Race/Birthsign Remix [paulkdad]
 
 ;;Load the specific race-affecting mod after WGI
@@ -40280,6 +40288,11 @@ weaponFix177.esp
 SauronsAbode252_Tribunal.esp
 weaponFix177.esp
 
+[Conflict]
+;; The Dubdillage Location Fix is already merged and integrated within RandomPal's Caverns Overhaul - Fixed. Do not use both plugins together.
+Dubdilla Location Fix.ESP
+Dubdilla Overhaul.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Weapons Overhaul 1.1 [hollaajith]
 
@@ -41684,6 +41697,20 @@ X-jiitCompanionsBM.esp
 [Order]
 X-jiit.esp
 X-jiitCompanionsTB.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Mages Guild Stronghold Nchagalelft load order for OpenMW patches from modding-openmw.com and BCOM
+[Order]
+MGO Building Up Nchagalelft.esp
+BCOM_MGOBuildingUpNchagalelft_Patch.esp
+MGOBuildingUpNchagalelft_OpenMWPatch.esp
+
+[Conflict] ; Unholy Trinity Complete esp and standalone esps
+	Use either Unholy Trinity Complete.esp or the standalone ESP for each corresponding (Odrosal, Vemynal, Dagoth Ur)
+Unholy Trinity Complete.esp
+Unholy Trinity Dagoth Ur.esp
+Unholy Trinity Odrosal.esp
+Unholy Trinity Vemynal.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Zanpakuto Bleach mod  [Meusnoorn under my normal pseudonym Blodskaal]
