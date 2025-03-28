@@ -30248,6 +30248,14 @@ Quorn Resource Integration.ESP
 DremoraLords.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Quick Character Creation
+
+;; Quest Voice Greetings overwrites chargen captain's script, effectively breaking the chargen process
+[Order]
+Quest Voice Greetings.ESP
+Quick Character Creation.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Race/Birthsign Remix [paulkdad]
 
 ;;Load the specific race-affecting mod after WGI
