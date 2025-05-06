@@ -1182,8 +1182,8 @@ Beautiful cities of Morrowind.esp
 [Note] ; replacer maintained by ActuallyUlysses (MassiveJuice)
 	Original "Balmora Docks" is not compatible with "Beautiful Cities of Morrowind". Use replacer made by ActuallyUlysses
 	[Replacer Download]( https://www.nexusmods.com/morrowind/mods/52726 )
-Beautiful cities of Morrowind.esp
-BalmoraDocks.esp
+[ALL	Beautiful cities of Morrowind.esp
+		BalmoraDocks.esp]
 
 [Conflict]
 	Already merged into or otherwise replicated by "Beautiful cities of Morrowind".
@@ -5173,8 +5173,8 @@ MC-Ashen.esp
 
 [NOTE]
 	Make sure you use the esp replacer provided on the Clean Mines and Caverns nexus page under optional files! 
-Mines & Caverns.esp
-OAAB - The Ashen Divide.esp 
+[ALL	Mines & Caverns.esp
+		OAAB - The Ashen Divide.esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Miner's Pick Requirement for Ore Mining [TheDrunkenMudcrab]
