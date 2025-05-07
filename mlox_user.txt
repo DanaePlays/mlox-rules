@@ -10257,8 +10257,8 @@ Finished Morrowind - BASE PATCH - Part 1.esp
 Finished Morrowind - BASE PATCH - Part 2 (ONLY for Patch for Purists v4.0.2 - Load after PfP Book Typos).esp
 Finished Morrowind - BASE PATCH - Part 3 - Delay Tribunal Expansion Assassins.esp
 Finished Morrowind - BASE PATCH - Part 4 - More Audio Dialogue for Service NPCs.ESP
-OFFICIAL PLUGIN - Area Effect Arrows.esp
-OFFICIAL PLUGIN - Helm of Tohan.esp
+Area Effect Arrows.esp
+Helm of Tohan.esp
 Finished Morrowind - GRAPHICS AND SOUND.ESP
 Finished Morrowind - INCONSISTENCIES - Part 1.ESP
 Finished Morrowind - INCONSISTENCIES - Part 2 - Service Refusal for Contraband.esp
