@@ -41711,6 +41711,9 @@ Unholy Trinity Complete.esp
 [ANY	Unholy Trinity Dagoth Ur.esp
 		Unholy Trinity Odrosal.esp
 		Unholy Trinity Vemynal.esp]
+[Order]
+OAAB_Grazelands.esp
+The Northern Strongholds.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Zanpakuto Bleach mod  [Meusnoorn under my normal pseudonym Blodskaal]
