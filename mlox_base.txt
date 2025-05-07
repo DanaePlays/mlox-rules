@@ -41715,6 +41715,10 @@ Unholy Trinity Complete.esp
 OAAB_Grazelands.esp
 The Northern Strongholds.esp
 
+[Order]
+OAAB_Grazelands.esp
+TNSH Indoyanyon.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Zanpakuto Bleach mod  [Meusnoorn under my normal pseudonym Blodskaal]
 
