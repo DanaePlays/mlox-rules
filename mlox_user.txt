@@ -8148,36 +8148,36 @@ DraggleTailPriceAdjustment.esp
 [Requires]
 AFFresh+SamarysAncestralTombExpanded.esp
 [ALL	Samarys Ancestral Tomb Expanded.esp
-		AFFresh.esp]
+		AFFresh.esm]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 Samarys Ancestral Tomb Expanded.esp
-AFFresh.esp
+AFFresh.esm
 
 [Order]
 Samarys Ancestral Tomb Expanded.esp
 AFFresh+SamarysAncestralTombExpanded.esp
 
 [Order]
-AFFresh.esp
+AFFresh.esm
 AFFresh+SamarysAncestralTombExpanded.esp
 
 ;; AFFresh and Caldera Mine Expanded Patch
 [Requires]
 AFFresh+CalderaMineExpanded.esp
 [ALL	DD_Caldera_Expansion.esp
-	AFFresh.esp]
+	AFFresh.esm]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 DD_Caldera_Expansion.esp
-AFFresh.esp
+AFFresh.esm
 
 [Order]
 DD_Caldera_Expansion.esp
 AFFresh+CalderaMineExpanded.esp
 
 [Order]
-AFFresh.esp
+AFFresh.esm
 AFFresh+CalderaMineExpanded.esp
 
 ;; Ebonheart Underworks MOMW Patch
@@ -8194,14 +8194,14 @@ MamaeaAwakenedOpenMWPatch.esp
 [Requires]
 AFFresh+BCOM.esp
 [ALL	Beautiful cities of Morrowind.esp
-		AFFresh.esp]
+		AFFresh.esm]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
-AFFresh.esp
+AFFresh.esm
 Beautiful cities of Morrowind.esp
 
 [Order]
-AFFresh.esp
+AFFresh.esm
 AFFresh+BCOM.esp
 
 [Order]
@@ -8271,15 +8271,15 @@ UL_-_OAAB_Tel_Mora_Patch.esp
 ;; AFFresh and Adanumuran Reclaimed Patch
 [Requires]
 AFFresh+AdanumuranReclaimedPatch.esp
-[All	AFFresh.esp
+[All	AFFresh.esm
 		Adanumuran Reclaimed.esp]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
-AFFresh.esp
+AFFresh.esm
 Adanumuran Reclaimed.esp
 
 [Order]
-AFFresh.esp
+AFFresh.esm
 AFFresh+AdanumuranReclaimedPatch.esp
 
 [Order]
@@ -8319,15 +8319,15 @@ UL_3.5_OpenMW_1.3_Add-on.esp
 ;; AFFresh and Library of Vivec Enhanced Patch
 [Requires]
 AFFreshLibraryOfVivecEnhanced.esp
-[ALL	AFFresh.esp
+[ALL	AFFresh.esm
 		RPNR_Library.esp]
 
 [Order] ; (ref: readme) (yohannes)
-AFFresh.esp
+AFFresh.esm
 AFFreshLibraryOfVivecEnhanced.esp
 
 [Order]
-AFFresh.esp
+AFFresh.esm
 RPNR_Library.esp
 
 [Order]
