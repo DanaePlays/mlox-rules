@@ -408,6 +408,13 @@ Area Effect Projectiles Integrated.esp
 Area Effect Projectiles Integrated (PAR Edit).esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Arvesa - An Armiger's Tale [Masterofchim]
+
+[Order] ; Prevents error while plugins are loading (yohannes)
+Arvesa - An Armigers Tale.ESP
+Arvesa - Tamriel Rebuilt.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Arvs-Spelun [Stavroguin]
 
 [Order] ; Prevents Arvs-Spelun entrance from being hidden below terrain (Pharis)
