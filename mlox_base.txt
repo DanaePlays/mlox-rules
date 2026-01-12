@@ -7512,9 +7512,6 @@ AOF Potions Recolored T+B.esp
 [DESC /Tooplex/ BTB - Alchemy.esp]
 AOF Potions Recolored T+B.esp
 
-[Note] ; ( Ref: "BTBGI - MGSO Compatability V1.5-43522-1-5.rar\Readme.txt" )
-[DESC /Tooplex/ BTB - Alchemy.esp]
-
 ;;Dragon32: If someone's using another version of AOF's mod (and hopefully a TESTool Merged Objects plugin)
 [Order]
 AOF Potions Recolored.esp
