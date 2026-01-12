@@ -7826,7 +7826,7 @@ Better_Sounds.esp
 [ANY Tribunal.esm
      Bloodmoon.esm]
 
-;;ReadMe.htm - 
+;;ReadMe.htm -
 ;;Translator5: Version 1.1.0.1 is named without "_" included fixes & translation by FullRest-Team
 [Requires]
  This plugin uses Startup scripts
@@ -7846,7 +7846,7 @@ Better_Sounds.esp
      OfficialMods_v5.esp
      Official_2002_Mods.esp
      super_adventurers302.esp]
-     
+
 [Conflict]
  "If you have "Bitter Coast Sounds Plugin" (bcsounds.esp), don't use it"
  (Ref: "BetterSounds-9967.zip\ReadMe_ENG.txt")
@@ -29732,7 +29732,7 @@ MTT IV Master.esp
 [Note]
  !! Magical Trinkets of Tamriel IV (both Chris Woods' original, "MTT IV Master.esp", and the modified version by habile, "MTT IV Updated v0.79.esp") contains deprecated use of the function AddToLev*. For an explanation of why the functions AddToLev*/RemoveFromLev* are deprecated, please see: http://www.uesp.net/wiki/Tes3Mod:Leveled_Lists
  !! It is suggested that you get a replacement patch, such as Magical Trinkets of Tamriel IV beta - Dragon32 patch, from http://mw.modhistory.com/download-50-6822
-[ANY [ALL [MTT IV Master.esp
+[ANY [ALL MTT IV Master.esp
           [SIZE !1629334 MTT IV Master.esp]] ;;Dragon32's edited version
      MTT IV Updated v0.79.esp]
 
@@ -59467,4 +59467,3 @@ The Zone (Tribunal).esp
  !! This plugin contains evil GMSTs, and a few dirty references. It is recommended that you clean it with TESTool.
  !! (What the hell is a GMST? http://www.mwmythicmods.com/argent/tech/gmst.html )
 [SIZE 3900 Zyndaar's Bows.esp]
-
