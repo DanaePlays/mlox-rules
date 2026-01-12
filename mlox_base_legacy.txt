@@ -51709,7 +51709,7 @@ Serpentax's Predator Tweaks.esp
 
 [Note]
  There is a newer version of "Twin Lamps and Slave Hunters" available, you should upgrade.
-[VER<1.5 Nevena's Twin Lamps & Slave Hunters *.esp]
+[VER<1.5 Nevena's Twin Lamps & Slave Hunters <VER>.esp]
 
 [Note]
  This plugin contains dirty references. It is recommended that you clean it with TESTool.

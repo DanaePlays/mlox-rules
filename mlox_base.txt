@@ -31374,7 +31374,7 @@ RoHT Taddeus Balancing.esp
 	!! The LGNPC quests require that the player talks to Duke Dren, which will become impossible during the questline of "Rise of House Telvanni".
 	!! Patches for "Less Generic NPCs (LGNPC) Pax Redoran" will be made with the next version.
 	!! ( Ref: "Rise of House Telvanni v1.5 Readme.txt" )
-[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran*.esp]
+[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran_v<VER>*.esp]
 		  [VER < 1.20 LGNPC_TelUvirith_v<VER>.esp]]
 	 Rise of House Telvanni.esm]
 
