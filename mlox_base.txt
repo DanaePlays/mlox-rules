@@ -7512,9 +7512,6 @@ AOF Potions Recolored T+B.esp
 [DESC /Tooplex/ BTB - Alchemy.esp]
 AOF Potions Recolored T+B.esp
 
-[Note] ; ( Ref: "BTBGI - MGSO Compatability V1.5-43522-1-5.rar\Readme.txt" )
-[DESC /Tooplex/ BTB - Alchemy.esp]
-
 ;;Dragon32: If someone's using another version of AOF's mod (and hopefully a TESTool Merged Objects plugin)
 [Order]
 AOF Potions Recolored.esp
@@ -19141,7 +19138,7 @@ Antares' Tribunal Main QUest.esp
 [ALL ANPC.esp
 	 [ANY LGNPC_NoLore.esp
 		  LGNPC_SeydaNeen.esp
-		  LGNPC_GnaarMok_v<VER.esp
+		  LGNPC_GnaarMok_v<VER>.esp
 		  LGNPC_AldVelothi_v?_??.esp
 		  LGNPC_AldVelothi_rus_v?_??.esp
 		  LGNPC_MaarGan.esp
@@ -31377,7 +31374,7 @@ RoHT Taddeus Balancing.esp
 	!! The LGNPC quests require that the player talks to Duke Dren, which will become impossible during the questline of "Rise of House Telvanni".
 	!! Patches for "Less Generic NPCs (LGNPC) Pax Redoran" will be made with the next version.
 	!! ( Ref: "Rise of House Telvanni v1.5 Readme.txt" )
-[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran*.esp]
+[ALL [ANY [VER < 1.21 LGNPC_PaxRedoran_v<VER>*.esp]
 		  [VER < 1.20 LGNPC_TelUvirith_v<VER>.esp]]
 	 Rise of House Telvanni.esm]
 
@@ -34100,7 +34097,7 @@ LGNPC Gowns.esp
 	 Less Lore.esp
 	 LGNPC_NoLore.esp
 	 LGNPC_SeydaNeen.esp
-	 LGNPC_GnaarMok_v<VER.esp
+	 LGNPC_GnaarMok_v<VER>.esp
 	 LGNPC_AldVelothi_v?_??.esp
 	 LGNPC_AldVelothi_rus_v?_??.esp
 	 LGNPC_MaarGan.esp

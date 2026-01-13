@@ -1,0 +1,6 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude mlox_base.txt from LF normalization as it was checked in with CRLF
+# line endings.
+mlox_base.txt -text
