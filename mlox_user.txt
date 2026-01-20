@@ -5325,6 +5325,15 @@ Morag Tong Polished - BCoM Patch.ESP
 [Order]
 Morag Tong Polished.esp
 Better Enchantments.esp
+
+[Order]
+Stav_WebofMephala.ESP
+Morag Tong Polished.esp
+
+[Order]
+Morag Tong Polished.esp
+VB - MTP Integration Patch.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Deadly Morrowind Denizens, @MDMD [AutumnBramble]
 
@@ -8835,6 +8844,10 @@ VB_EmynDB_Patch.esp
 VB_EmynDB_Patch.esp
 VB_EmynDB_Patch - Script Fix.esp
 
+[Order]
+Vvardenfell Brotherhood.esp
+VB - MTP Integration Patch.ESP
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Velothi Wall Art [Ashstaar]
 
@@ -10242,6 +10255,53 @@ Quest Tweaks and Alternatives_<VER>.esp
 [Order] ; otherwise Nordic Fur Cuirass mesh gets overwritten by vanilla cuirass for males and females (MasssiveJuice)
 Alex's Better Fitted Female Armors.ESP
 Clean_Nordic Fur Armour Replacer Symph.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; FINISHED MORROWIND load order (taken from mod page)
+
+[Order]
+Finished Morrowind - BASE PATCH - Part 1.esp
+Finished Morrowind - BASE PATCH - Part 2 (ONLY for Patch for Purists v4.0.2 - Load after PfP Book Typos).esp
+Finished Morrowind - BASE PATCH - Part 3 - Delay Tribunal Expansion Assassins.esp
+Finished Morrowind - BASE PATCH - Part 4 - More Audio Dialogue for Service NPCs.ESP
+OFFICIAL PLUGIN - Area Effect Arrows.esp
+OFFICIAL PLUGIN - Helm of Tohan.esp
+Finished Morrowind - GRAPHICS AND SOUND.ESP
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
+Finished Morrowind - INCONSISTENCIES - Part 2 - Service Refusal for Contraband.esp
+Finished Morrowind - INCONSISTENCIES - Part 3 - Hospitality Papers for Sadrith Mora.esp
+
+[Order]
+Dubdilla Location Fix.ESP
+Finished Morrowind - BASE PATCH - Part 1.esp
+
+[Order]
+The Publicans.ESP
+Finished Morrowind - BASE PATCH - Part 1.esp
+
+[Order]
+Patch for Purists - Book Typos.ESP
+Finished Morrowind - BASE PATCH - Part 2 (ONLY for Patch for Purists v4.0.2 - Load after PfP Book Typos).esp
+
+[Order]
+Nasty Camonna Tong.esp
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
+
+[Order]
+Idle Talk.ESP
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
+
+[Order]
+LDM - Context Matter*.ESP
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
+
+[Order]
+LDM - Racist Service Refusal.ESP
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
+
+[Order]
+The Dream is the Door.ESP
+Finished Morrowind - INCONSISTENCIES - Part 1.ESP
 
 ; Even More Illuminated Order Improved Fixes by Lucevar and Ronik (codering)
 [Order]
