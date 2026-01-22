@@ -8344,8 +8344,9 @@ RPNR_Library.esp
 ;; Blademeister and Adanumuran Reclaimed Patch
 [Requires]
 BlademeisterAdanumuranReclaimedPatch.esp
-[ALL	Blademeister_v1.5.esp
-		Adanumuran Reclaimed.esp]
+[ALL	[ANY	Blademeister_v1.5.esp
+		Blademeister.esp]
+	Adanumuran Reclaimed.esp]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 Blademeister_v1.5.esp
@@ -8359,11 +8360,16 @@ BlademeisterAdanumuranReclaimedPatch.esp
 Adanumuran Reclaimed.esp
 BlademeisterAdanumuranReclaimedPatch.esp
 
+;; Blademeister and Vennin Addamasartus
+[Order]
+Blademeister.esp
+Blademeister_Vennin_Addamasartus_Patch.esp
+
 ;; NOD and Library of Vivec Enhanced Patch
 [Requires]
 NOD_RPNR_Library_patch.esp
 [All	NOD - Core.esm
-		RPNR_Library.ESP]
+	RPNR_Library.ESP]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 NOD - Core.esm
@@ -8376,8 +8382,10 @@ NOD_RPNR_Library_patch.esp
 ;; Blademeister and Daedric Shrine Overhaul Sheogorath Patch
 [Requires]
 BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
-[ALL	Blademeister_v1.5.esp
-		Daedric Shrine Overhaul Sheogorath.esp]
+[ALL	[ANY	Blademeister_v1.5.esp
+		Blademeister.esp]
+	[ANY	Daedric Shrine Overhaul Sheogorath.esp
+		Daedric Shrine Overhaul FULL.esp]]
 
 [Order] ; ( ref: readme provided on https://modding-openmw.gitlab.io/momw-patches/ ) (yohannes)
 Blademeister_v1.5.esp
@@ -8385,10 +8393,12 @@ Daedric Shrine Overhaul Sheogorath.esp
 
 [Order]
 Blademeister_v1.5.esp
+Daedric Shrine Overhaul Sheogorath.esp
 BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
 
 [Order]
-Daedric Shrine Overhaul Sheogorath.esp
+Blademeister.esp
+Daedric Shrine Overhaul FULL.esp
 BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
