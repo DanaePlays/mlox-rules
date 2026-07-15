@@ -19241,6 +19241,238 @@ LGNPC_Ebonheart.esp
 LGNPC_Ebonheart_Lt.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @alvazir's LGNPC Patches [alvazir]
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_NoLore - Patch for Purists.esp
+[ALL Patch for Purists.esm
+     LGNPC_NoLore.esp]
+	 
+[Order]
+LGNPC_NoLore.esp
+LGNPC_NoLore - Patch for Purists.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_Aldruhn - Dialogue Script Fix.esp
+LGNPC_Aldruhn.esp
+
+[Order]
+LGNPC_Aldruhn.esp
+LGNPC_Aldruhn - Dialogue Script Fix.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_VivecFQ - Dialogue Script Fix.esp
+LGNPC_VivecFQ.esp
+
+[Order]
+LGNPC_VivecFQ.esp
+LGNPC_VivecFQ - Dialogue Script Fix.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_SecretMasters - Dialogue Script Fix.esp
+LGNPC_SecretMasters.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+LGNPC_SecretMasters - Dialogue Script Fix.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_PaxRedoran - Dialogue Script Fix.esp
+LGNPC_PaxRedoran.esp
+
+[Order]
+LGNPC_PaxRedoran.esp
+LGNPC_PaxRedoran - Dialogue Script Fix.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC Fixes Merged.esp
+[ALL Patch for Purists.esm
+     LGNPC_Aldruhn.esp
+     LGNPC_VivecFQ.esp
+     LGNPC_SecretMasters.esp
+     LGNPC_PaxRedoran.esp]
+	 
+[Order]
+LGNPC_Aldruhn.esp
+LGNPC Fixes Merged.esp
+
+[Order]
+LGNPC_VivecFQ.esp
+LGNPC Fixes Merged.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+LGNPC Fixes Merged.esp
+
+[Order]
+LGNPC_PaxRedoran.esp
+LGNPC Fixes Merged.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Conflict]
+ LGNPC Fixes Merged.esp includes the patches merged into it. They should not be used at the same time.
+LGNPC Fixes Merged.esp
+[ANY LGNPC_NoLore - Patch for Purists.esp
+     LGNPC_Aldruhn - Dialogue Script Fix.esp
+     LGNPC_VivecFQ - Dialogue Script Fix.esp
+     LGNPC_SecretMasters - Dialogue Script Fix.esp
+     LGNPC_PaxRedoran - Dialogue Script Fix.esp]
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_Aldruhn - VA_OtherCouncilClub.esp
+[ALL LGNPC_Aldruhn.esp
+     VA_OtherCouncilClub.ESP]
+	 
+[Order]
+LGNPC_Aldruhn.esp
+LGNPC_Aldruhn - VA_OtherCouncilClub.esp
+
+[Order]
+VA_OtherCouncilClub.esp
+LGNPC_Aldruhn - VA_OtherCouncilClub.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp
+[ALL LGNPC_Aldruhn.esp
+     Improved Inns Expanded - Entertainers.ESP]
+	 
+[Order]
+LGNPC_Aldruhn.esp
+LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp
+
+[Order]
+Improved Inns Expanded - Entertainers.esp
+LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Order]
+Camonna Tong.esp
+LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+[ALL LGNPC_SecretMasters.esp
+     [ANY SV - Terrors Of The Night Normal.ESP
+          SV - Terrors Of The Night Hard.ESP]]
+		  
+[Order]
+LGNPC_SecretMasters.esp
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+
+[Order]
+SV - Terrors Of The Night Normal.ESP
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+
+[Order]
+SV - Terrors Of The Night Hard.ESP
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Order]
+[DESC	!/LeFemm(TM) armor/ LeFemmArmor.esp]
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Order]
+Imperial Legion Expansion.esp
+LGNPC_SecretMasters - SV Terrors Of The Night.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+ This patch is only necessary if you do not use merging utilities.
+LGNPC_TelMora - OAAB_Tel Mora.esp
+[ALL LGNPC_TelMora.esp
+     OAAB_Tel Mora.ESP]
+	 
+[Order]
+LGNPC_TelMora.esp
+LGNPC_TelMora - OAAB_Tel Mora.esp
+
+[Order]
+OAAB_Tel Mora.esp
+LGNPC_TelMora - OAAB_Tel Mora.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Patch]
+LGNPC - Compatibility Patches - Merged.esp
+[ALL LGNPC_Aldruhn.esp
+     LGNPC_SecretMasters.esp
+     LGNPC_TelMora.esp
+     VA_OtherCouncilClub.ESP
+     Improved Inns Expanded - Entertainers.ESP
+     [ANY SV - Terrors Of The Night Normal.ESP
+          SV - Terrors Of The Night Hard.ESP]
+     OAAB_Tel Mora.ESP]
+	 
+[Order]
+LGNPC_Aldruhn.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+LGNPC_SecretMasters.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+LGNPC_TelMora.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+VA_OtherCouncilClub.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+Improved Inns Expanded - Entertainers.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+SV - Terrors of the Night Normal.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+SV - Terrors of the Night Hard.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+[Order]
+OAAB_Tel Mora.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt - 
+;;  merged compat patch includes LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp)
+[Order]
+Camonna Tong.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt - 
+;;  merged compat patch includes LGNPC_SecretMasters - SV Terrors Of The Night.esp)
+[Order]
+[DESC	!/LeFemm(TM) armor/ LeFemmArmor.esp]
+LGNPC - Compatibility Patches - Merged.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt - 
+;;  merged compat patch includes LGNPC_SecretMasters - SV Terrors Of The Night.esp)
+[Order]
+Imperial Legion Expansion.esp
+LGNPC - Compatibility Patches - Merged.esp
+
+;; (Ref: LGNPC - Patch-48955-2-0-0-1682223945.7z/Docs/Readme.txt )
+[Conflict]
+ LGNPC - Compatibility Patches - Merged.esp includes the patches merged into it. They should not be used at the same time.
+LGNPC - Compatibility Patches - Merged.esp
+[ANY LGNPC_Aldruhn - VA_OtherCouncilClub.esp
+     LGNPC_Aldruhn - Improved Inns Expanded Entertainers.esp
+     LGNPC_SecretMasters - SV Terrors Of The Night.esp
+     LGNPC_TelMora - OAAB_Tel Mora.esp]
+	 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Librarian [Nicholiathan]
 
 [Conflict]
