@@ -7026,6 +7026,20 @@ Reputation_Fixes_All.esp
 
 ;; Alvazir's Various Patches Reputation Fixes Patches
 
+;; (Ref: Reputation Fixes - Patch-48955-1-0-0-1668952952.7z/Docs/Readme.txt )
+[Patch] ; Persistent Corpse Disposal
+ Patch available at alvazir's Various Patches ( https://www.nexusmods.com/morrowind/mods/48955 ): "Reputation Fixes - Patches"
+[ANY RF-Persistent_Corpse_Disposal.esp
+     RF-PCD-Imperial_Legion_Expansion.esp
+     RF-PCD-Mournhold_Courtiers.esp
+     RF-PCD-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+     RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+     RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp]
+[ALL Reputation_Fixes_All.esp
+     persistent_corpse_disposal.esp]
+
 [Order] ; Persistent Corpse Disposal
 Reputation_Fixes_All.ESP
 RF-Persistent_Corpse_Disposal.esp
@@ -7038,6 +7052,20 @@ RF-Persistent_Corpse_Disposal.esp
 persistent_corpse_disposal.esp
 RF-Persistent_Corpse_Disposal.esp
 
+;; (Ref: Reputation Fixes - Patch-48955-1-0-0-1668952952.7z/Docs/Readme.txt )
+[Patch] ; Imperial Legion Expansion
+ Patch available at alvazir's Various Patches ( https://www.nexusmods.com/morrowind/mods/48955 ): "Reputation Fixes - Patches"
+[ANY RF-Imperial_Legion_Expansion.esp
+     RF-PCD-Imperial_Legion_Expansion.esp
+     RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+     RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+     RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+     RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp]
+[ALL Reputation_Fixes_All.esp
+     Imperial Legion Expansion.esp]
+
 [Order] ; Imperial Legion Expansion
 Reputation_Fixes_All.ESP
 RF-Imperial_Legion_Expansion.esp
@@ -7046,6 +7074,20 @@ RF-Imperial_Legion_Expansion.esp
 Imperial Legion Expansion.esp
 RF-Imperial_Legion_Expansion.esp
 
+;; (Ref: Reputation Fixes - Patch-48955-1-0-0-1668952952.7z/Docs/Readme.txt )
+[Patch] ; Mournhold Courtiers
+ Patch available at alvazir's Various Patches ( https://www.nexusmods.com/morrowind/mods/48955 ): "Reputation Fixes - Patches"
+[ANY RF-Mournhold_Courtiers.esp
+     RF-PCD-Mournhold_Courtiers.esp
+     RF-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+     RF-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers.esp
+     RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp]
+[ALL Reputation_Fixes_All.esp
+     Mournhold Courtiers.esp]
+
 [Order] ; Mournhold Courtiers
 Reputation_Fixes_All.ESP
 RF-Mournhold_Courtiers.esp
@@ -7053,6 +7095,20 @@ RF-Mournhold_Courtiers.esp
 [Order] ; Mournhold Courtiers
 Mournhold Courtiers.esp
 RF-Mournhold_Courtiers.esp
+
+;; (Ref: Reputation Fixes - Patch-48955-1-0-0-1668952952.7z/Docs/Readme.txt )
+[Patch] ; Creeping Blight
+ Patch available at alvazir's Various Patches ( https://www.nexusmods.com/morrowind/mods/48955 ): "Reputation Fixes - Patches"
+[ANY RF-Creeping_Blight.esp
+     RF-PCD-Creeping_Blight.esp
+     RF-Imperial_Legion_Expansion-Creeping_Blight.esp
+     RF-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Creeping_Blight.esp
+     RF-PCD-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp
+     RF-PCD-Imperial_Legion_Expansion-Mournhold_Courtiers-Creeping_Blight.esp]
+[ALL Reputation_Fixes_All.ESP
+     Creeping Blight.esp]
 
 [Order] ; Creeping Blight
 Reputation_Fixes_All.ESP
