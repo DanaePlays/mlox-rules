@@ -18109,6 +18109,29 @@ AprogasVampire WakimImprovements.20021210.esp
 Khajiit Eye of Night Toggle.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Khajiit Speak [illyria311]
+
+;; "I can confirm it's compatable with Djangos Dialogue 1.4 and What Thieves Guild (and should be loaded after both)"
+;; (Ref: https://www.nexusmods.com/morrowind/mods/54199?tab=posts )
+[Order]
+Djangos Dialogue.ESP
+Clean Khajiit Speak.ESP
+
+[Order] ; Khajiit Speak also includes Tamriel Rebuilt changes
+Djangos Dialogue - Tamriel Rebuilt.esp
+Clean Khajiit Speak.ESP
+
+;; "I can confirm it's compatable with Djangos Dialogue 1.4 and What Thieves Guild (and should be loaded after both)"
+;; (Ref: https://www.nexusmods.com/morrowind/mods/54199?tab=posts )
+[Order]
+What Thieves Guild.ESP
+Clean Khajiit Speak.ESP
+
+[Order] ; Khajiit Speak also includes Tamriel Rebuilt changes
+What Thieves Guild TR.ESP
+Clean Khajiit Speak.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Kirel's Interior Weather [Kirel]
 
 ; No mention of louder sounds in readme, checked ESPs with Enchanted Editor.
