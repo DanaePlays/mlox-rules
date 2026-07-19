@@ -22134,6 +22134,15 @@ J-ninja_v.1.0_m_NoQuest.esp
 Morag_Tong_Armor_Replacer.esp
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @More Argonian Hair [ashiraniir]
+
+;; ( Ref: It's not clear in the readme, but examining the contents of each file shows they overlap. )
+[Conflict]
+ More Argonian Hair and More Argonian Hair_Plus NPCs both include the added Argonian hairs. They should not be enabled at the same time.
+More Argonian Hair.ESP
+More Argonian Hair_Plus NPCs.ESP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @More Better Clothes! [Plangkye]
 
 ;; Dragon32: More Better Clothes Readme.txt - "This mod must be loaded AFTER Better Clothes, or the Argonian shirt scripts won't work."
