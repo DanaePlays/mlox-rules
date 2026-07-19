@@ -31482,6 +31482,15 @@ Ring Capability Shop - TR.esp
 Tribunal.esm
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Ring of Equity Reflects [aqualectrix]
+
+;; ( Ref: In mod description at https://www.nexusmods.com/morrowind/mods/59609 )
+[Conflict]
+ !! Patch for Purists already includes the change made by Ring of Equity Reflects. It is unnecessary to use both.
+Patch for Purists.esm
+Ring of Equity Reflects.esp
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Rings of Level Playing [Princess Stomper]
 
 [Conflict]
