@@ -89,6 +89,7 @@ Half11 misc mods + anticheese.ESP
 Morrowind Anti-Cheese.ESP
 Ownership Overhaul.esp
 Ownership Overhaul.esm
+spell effect descriptions corrected.ESP ; ( Ref: Spell Effect Descriptions Corrected.txt )
 
 [Order]
 Morrowind.esm
