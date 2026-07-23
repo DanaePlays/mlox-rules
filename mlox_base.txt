@@ -33841,6 +33841,27 @@ Clean Solstheim_Castle_v1.1.esp
 	 Solstheim TotSP [Rebirth].esp]
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Solstheim - Tomb of the Snow Prince 2.2+ [wollibeebee]
+
+;; Forceful Travel NPC Override
+[Patch]
+ If you use Bloodmoon Rebalance with Solstheim Tomb of the Snow Prince, you should also use TotSP's TOTSP_Forceful_Travel_NPC_Override.esp. 
+ ( Ref: "This is necessary if you use Bloodmoon Rebalance or another mod overriding these NPC's travel markers." https://www.nexusmods.com/morrowind/mods/4681 )
+TOTSP_Forceful_Travel_NPC_Override.ESP
+[ALL Solstheim Tomb of The Snow Prince.esm
+     Bloodmoon Rebalance.ESP]
+
+[Order]
+Bloodmoon Rebalance.ESP
+TOTSP_Forceful_Travel_NPC_Override.ESP
+
+;; Patch for Purists patch
+[Patch]
+TOTSP_Patch_for_Purists_*.esp
+[ALL Solstheim Tomb of The Snow Prince.esm
+     Patch for Purists.esm]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Solstheim Tomb of the Snow Prince - White Wolf of Lokken Compatibility [straub666]
 
 ;;Dragon32: There's an altered "BT_Whitewolf_2_0.esm" to use (only removes one Cell) but it's indistinguishable from Emma's original ESM except by filesize.
