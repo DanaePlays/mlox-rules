@@ -33861,6 +33861,18 @@ TOTSP_Patch_for_Purists_*.esp
 [ALL Solstheim Tomb of The Snow Prince.esm
      Patch for Purists.esm]
 
+;; Solstheim Tomb of The Snow Prince - Bloodmoon Rebalance compatibility patch
+;; From alvazir's Various Patches
+[Patch]
+ Corrects The Swimmer's AI Package to fit TotSP geography while keeping Rebalanced's stat changes. ( Ref: examination in CS )
+Solstheim Tomb of The Snow Prince - Bloodmoon Rebalance.esp
+[ALL Solstheim Tomb of The Snow Prince.esm
+     Bloodmoon Rebalance.ESP]
+
+[Order]
+Bloodmoon Rebalance.ESP
+Solstheim Tomb of The Snow Prince - Bloodmoon Rebalance.esp
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Solstheim Tomb of the Snow Prince - White Wolf of Lokken Compatibility [straub666]
 
