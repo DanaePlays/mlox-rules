@@ -33752,6 +33752,19 @@ Clean SCastle_Halvart_Beauty.esp
 ;;Dragon32: See Suran Underworld for dock conflict between it and Solstheim Castle
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; @Solstheim Castle Moved and Improved for TOTSP [Rebelember]
+
+[Conflict]
+ Choose Clean Solstheim_Castle_v1.1.esp (Korana's original) for vanilla Solstheim, or SolstheimCastle.esp (Moved and Improved for TOTSP) for Tomb of the Snow Prince. Do not use both.
+Clean Solstheim_Castle_v1.1.esp
+SolstheimCastle.esp
+
+[Requires]
+SolstheimCastle.esp
+[ALL Solstheim Tomb of the Snow Prince.esm
+     OAAB_Data.esm]
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; @Solstheim: Tomb of the Snow Prince 1.2 [Wollibeebee]
 
 [Patch]
