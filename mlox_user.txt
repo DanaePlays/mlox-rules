@@ -9356,11 +9356,6 @@ OAAB_Data.esm
 BT_Whitewolf_2_0_HOTV.esm
 
 [Order]
-BT_Whitewolf*.esm
-BT_Whitewolf*.esp
-Solstheim_Castle*.esp
-
-[Order]
 Solstheim Tomb of The Snow Prince.esm
 BT_Whitewolf*.esm
 
